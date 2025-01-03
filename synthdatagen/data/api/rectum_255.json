@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\nRectal adenocarcinoma, poorly differentiated\nInitial staging T3N2M1 (liver metastases)\nPost-neoadjuvant staging ypT3N1M0\nRAS wild-type\n\nPrevious Treatment:\nNeoadjuvant FOLFOX completed March 2024\nLiver resection April 2024\nTotal mesorectal excision May 2024\n\nCurrent Situation:\nPost-operative recovery\n\nMDT Discussion 15 May 2024:\nCase presented with post-operative histology and imaging\n\nHistology shows:\nypT3N1 (2/12 nodes positive)\nCRM negative (minimum 2mm)\nEMVI negative\nComplete pathological response in liver specimen\n\nImaging:\nPost-operative CT thorax/abdomen/pelvis shows no evidence of residual or new disease\n\nMDT Recommendation:\nProceed with adjuvant FOLFOX to complete total 6 months of perioperative chemotherapy\nCT surveillance scan in 3 months\nFollow up in surgical clinic in 2 weeks for wound check\nOncology review prior to cycle 1 adjuvant treatment\n\nPerformance status remains 1\nNo post-operative complications",
+  "output": {
+    "primary_cancer": {
+      "site": "rectum",
+      "year": 2024,
+      "histopathology_status": "poorly differentiated adenocarcinoma, ypT3N1 (2/12 nodes positive), CRM negative, EMVI negative",
+      "tnm_stage": "ypT3N1M0",
+      "biomarker_status": "RAS wild-type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started neoadjuvant FOLFOX",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Liver resection performed",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Total mesorectal excision performed",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Complete pathological response in liver specimen",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Post-operative CT thorax/abdomen/pelvis shows no evidence of residual or new disease",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No post-operative complications"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Rectal cancer with liver metastases showing excellent response to neoadjuvant therapy and surgery, with complete pathological response in liver"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to proceed with adjuvant FOLFOX to complete total 6 months of perioperative chemotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT surveillance scan in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow up in surgical clinic in 2 weeks for wound check, oncology review prior to cycle 1 adjuvant treatment"
+      }
+    ]
+  }
+}

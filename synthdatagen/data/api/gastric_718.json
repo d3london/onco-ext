@@ -1,0 +1,88 @@
+{
+  "content": "Diagnosis:\tLocally advanced gastric adenocarcinoma (poorly cohesive type)\n\nManagement:\t15 Jan 2024 Started FLOT neoadjuvant chemotherapy\n\t\t20 Feb 2024 Cycle 2 completed with dose reduction\n\t\t15 Mar 2024 Cycle 3 completed at reduced dose\n\nHistology:\tPoorly cohesive adenocarcinoma, HER2 negative, MSI-high\n\t\tStage cT4aN2M0 (Stage IIIB)\n\nCurrent Situation:\tPre-cycle 4 FLOT assessment\n\nI reviewed [redacted name] today who is making good progress through neoadjuvant chemotherapy for locally advanced gastric cancer. The initial significant toxicities we encountered after cycle 1, particularly the grade 3 neutropenia and grade 2 peripheral neuropathy, have improved following the 20% dose reduction implemented before cycle 2. His current ECOG performance status is 1, improved from 2 at diagnosis.\n\nHe reports good appetite and has maintained his weight at 72kg over the past month. The early satiety symptoms that were prominent at diagnosis have significantly improved. He continues to experience grade 1 peripheral neuropathy affecting his fingertips, but this is not impacting daily activities. His previous profound fatigue has improved to grade 1.\n\nRecent CT imaging on 18 March 2024 shows encouraging partial response with reduction in gastric wall thickening from 28mm to 15mm and reduction in size of perigastric nodes. No new concerning features identified.\n\nOn examination today, epigastric tenderness has improved and there is no evidence of ascites. Blood results show stable parameters with neutrophils 2.8, platelets 165, and normal liver function tests.\n\nThe plan is to proceed with cycle 4 FLOT at current doses. We will arrange repeat staging CT after cycle 4 and refer back to MDT for surgical planning. I have also requested repeat nutritional assessment. We will review again in three weeks prior to final cycle.\n?\n",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "year": 2024,
+      "month": 1,
+      "tnm_stage": "cT4aN2M0",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "poorly cohesive adenocarcinoma",
+      "biomarker_status": "HER2 negative, MSI-high",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FLOT neoadjuvant chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cycle 2 FLOT completed with 20% dose reduction due to grade 3 neutropenia and grade 2 peripheral neuropathy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cycle 3 FLOT completed at reduced dose",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows partial response with reduction in gastric wall thickening from 28mm to 15mm and reduction in perigastric nodes",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 1, improved from 2 at diagnosis"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 peripheral neuropathy affecting fingertips"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Improved epigastric tenderness, no ascites"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood results: neutrophils 2.8, platelets 165, normal liver function tests"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced gastric cancer showing good partial response to neoadjuvant FLOT chemotherapy. Improved tolerability following dose reduction."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response on CT with reduction in gastric wall thickening and perigastric nodes"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 peripheral neuropathy and fatigue, improved from previous grade 2-3 toxicities"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing FLOT at reduced dose with cycle 4"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat staging CT after cycle 4"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in three weeks prior to final cycle, referral back to MDT for surgical planning, nutritional assessment requested"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "content": "Diagnosis:\t\tPancreatic adenocarcinoma, head of pancreas\n\nManagement:\t\t15 Jan 2024 Whipple's procedure\n\nHistology:\t\tUndifferentiated carcinoma, pT3N0M0, R0 resection\n\t\t\tBRAF V600E mutation positive\n\nCurrent situation:\tPost-operative surveillance\n\n[redacted name] attended for routine follow-up today. She has made an excellent recovery from her Whipple's procedure performed in January. Her weight has stabilized at 62kg and appetite continues to improve with pancreatic enzyme replacement. She reports no new symptoms of concern. Her diabetes remains well-controlled on current insulin regimen.\n\nCT scan performed last week shows no evidence of disease recurrence. Blood tests including CA19-9 are within normal range.\n\nThe plan is to continue surveillance with 3-monthly CA19-9 measurements and 6-monthly CT scans. Next clinic review will be in 3 months with repeat blood tests. She understands to contact us sooner if any new concerns arise.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas head",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "pT3N0M0",
+      "histopathology_status": "Undifferentiated carcinoma, R0 resection",
+      "biomarker_status": "BRAF V600E mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure with R0 resection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 within normal range",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of disease recurrence",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Diabetes on insulin"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight stable at 62kg"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT scan shows no evidence of disease recurrence"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Resected pancreatic cancer under post-operative surveillance. Excellent recovery from surgery with no evidence of recurrence."
+      },
+      {
+        "type": "planned_investigation",
+        "value": "3-monthly CA19-9 measurements and 6-monthly CT scans"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 months with blood tests"
+      }
+    ]
+  }
+}

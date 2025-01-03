@@ -1,0 +1,94 @@
+{
+  "content": "Diagnosis:\t\tLocally advanced squamous cell carcinoma left upper lobe lung\n\nStaging:\t\tT4N2M0 (incomplete mediastinal staging), PD-L1 45%\n\nTreatment:\t\tCycle 1-2 Carboplatin/Paclitaxel/Pembrolizumab Mar-Apr 2024\n\t\tRadical radiotherapy 60Gy/30# commenced 15 Apr 2024, discontinued after 12#\n\nCurrent Status:\tDisease progression with new malignant pleural effusion\n\n[redacted name] has unfortunately developed increasing breathlessness over the past 10 days, requiring emergency admission on 2/5/24. CT shows new left pleural effusion with collapse of left lower lobe and progression of primary mass from 6.2cm to 8.4cm. Performance status has declined to ECOG 3. Pleural fluid cytology confirms malignant cells.?\n\nChemotherapy has been discontinued due to clinical deterioration. Chest drain inserted with 1.2L fluid drained, providing temporary symptom relief. However, rapid re-accumulation noted.?\n\nI have discussed the situation with [redacted name] and family today. Given poor performance status and disease progression on first-line treatment, focus will shift to symptom control. Referral made to palliative care team for pleural management and symptom support. Outpatient review arranged in 2 weeks, sooner if needed.? Blood results show new acute kidney injury with creatinine 156, likely pre-renal. Community palliative care referral completed today.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, left upper lobe",
+      "year": 2024,
+      "month": 3,
+      "metastases": "malignant left pleural effusion",
+      "tnm_stage": "T4N2M0",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "PD-L1 45%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Carboplatin/Paclitaxel/Pembrolizumab",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Commenced radical radiotherapy 60Gy in 30 fractions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Radiotherapy discontinued after 12 fractions due to clinical deterioration",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows new left pleural effusion with collapse of left lower lobe, primary mass increased from 6.2cm to 8.4cm",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Pleural fluid cytology positive for malignant cells",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Chemotherapy discontinued due to clinical deterioration",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Emergency admission due to increasing breathlessness",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing breathlessness with rapid re-accumulation of pleural effusion"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "New acute kidney injury with creatinine 156"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced lung cancer with disease progression on first-line treatment. New malignant pleural effusion and clinical deterioration requiring transition to palliative care."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with increase in primary mass and new malignant pleural effusion"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued chemotherapy and radiotherapy due to disease progression and clinical deterioration"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with increasing breathlessness"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Outpatient review in 2 weeks, referral to palliative care team and community palliative care"
+      }
+    ]
+  }
+}

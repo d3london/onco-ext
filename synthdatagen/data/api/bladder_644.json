@@ -1,0 +1,56 @@
+{
+  "content": "Diagnosis:\t\tBladder cancer - lipid-rich variant urothelial carcinoma\n\nManagement:\t\t12 Mar 2024 TURBT with complete resection\n\nHistology:\t\tpT3a N0 lipid-rich variant urothelial carcinoma\n\t\tBAP1 loss on immunohistochemistry\n\t\tLymphovascular invasion present\n\nCurrent Situation:\tPost-operative assessment for adjuvant treatment\n\n[redacted name] attended clinic today following recent TURBT. She has recovered well from surgery with minimal urinary symptoms now resolved. No haematuria. Performance status 0. Recent staging CT thorax/abdomen/pelvis shows no evidence of metastatic disease. Blood tests including renal function are satisfactory.\n\nI have discussed adjuvant chemotherapy given the T3a staging and presence of lymphovascular invasion. We will proceed with 4 cycles of Gemcitabine-Cisplatin. Treatment to commence in 2 weeks following dental assessment. Follow-up cystoscopy arranged for 3 months. Written information provided regarding chemotherapy side effects and contact numbers.",
+  "output": {
+    "primary_cancer": {
+      "site": "bladder",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "pT3aN0",
+      "histopathology_status": "lipid-rich variant urothelial carcinoma with lymphovascular invasion present",
+      "biomarker_status": "BAP1 loss on immunohistochemistry",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "TURBT with complete resection",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT thorax/abdomen/pelvis shows no evidence of metastatic disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood tests including renal function satisfactory"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed T3a bladder cancer post TURBT. Good recovery from surgery, proceeding to adjuvant chemotherapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan for 4 cycles of Gemcitabine-Cisplatin chemotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Follow-up cystoscopy in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Dental assessment before starting chemotherapy in 2 weeks"
+      }
+    ]
+  }
+}

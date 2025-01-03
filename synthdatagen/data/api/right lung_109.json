@@ -1,0 +1,87 @@
+{
+  "content": "Diagnosis:\n\nLimited stage small cell lung cancer, right lung\nInitial diagnosis March 2024\nMYCN amplification detected\n\nPrevious treatment:\nCisplatin/Etoposide commenced 15 March 2024\nConcurrent thoracic radiotherapy completed 12 April 2024\n\nPrevious medical history:\nType 2 diabetes\nHypertension\n\nCurrent medications:\nMetformin 1g BD\nRamipril 5mg OD\nOndansetron 8mg PRN\n\nCurrent situation:\nProgressive disease following cycle 3 chemotherapy\n\nCT thorax 10 May 2024 shows enlarging right hilar mass (8.2cm from 6.5cm) with new right pleural effusion\n\nI reviewed [redacted name] today who has unfortunately shown disease progression on current first-line treatment. He reports worsening breathlessness over the past 2 weeks and new onset right-sided chest pain requiring regular breakthrough analgesia. His appetite has significantly declined with 4kg weight loss since last review. Examination shows reduced air entry at the right base with dullness to percussion, consistent with the pleural effusion seen on imaging.\n\nGiven the clear evidence of disease progression, we have discussed changing treatment to second-line topotecan. I have explained the aims, schedule and potential side effects of this treatment. We will arrange pleural aspiration next week prior to starting the new treatment. I have also referred to palliative care for additional support with symptom management.\n\nThe plan is to commence weekly topotecan next Thursday, with clinical review after cycle 1. I have provided emergency contact numbers and written information about the new treatment regimen.",
+  "output": {
+    "primary_cancer": {
+      "site": "right lung",
+      "year": 2024,
+      "month": 3,
+      "metastases": "right pleural effusion",
+      "histopathology_status": "small cell carcinoma",
+      "biomarker_status": "MYCN amplified",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Cisplatin/Etoposide chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed concurrent thoracic radiotherapy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT thorax shows enlarging right hilar mass (8.2cm from 6.5cm) with new right pleural effusion",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Stopping Cisplatin/Etoposide due to disease progression",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening breathlessness over past 2 weeks"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right-sided chest pain requiring regular breakthrough analgesia"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry at right base with dullness to percussion"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Limited stage small cell lung cancer showing progression after 3 cycles first-line chemotherapy with new pleural effusion and worsening symptoms"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with enlarging right hilar mass and new pleural effusion"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Changing treatment to second-line weekly topotecan"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deteriorating with 4kg weight loss and worsening breathlessness"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Pleural aspiration planned for next week"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review after cycle 1 of topotecan, referred to palliative care"
+      }
+    ]
+  }
+}

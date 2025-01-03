@@ -1,0 +1,95 @@
+{
+  "content": "Diagnosis\n\t1. Metastatic pancreatic ductal adenocarcinoma with liver metastases\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t12 Jan 2024 Diagnostic liver biopsy\n\n\tChemotherapy\n\t1. FOLFIRINOX commenced 25 Jan 2024\n\t2. Dose reduction to 80% from cycle 3 due to neutropenia\n\t3. Currently completing cycle 4\n\n\tClinical studies\n\tEnrolled in Phase II trial of KDM6A-targeted therapy (PANDORA-01)\n\n\tCurrent disease status\n\tStable disease on CT 15 Mar 2024\n\n\tCurrent issues\n\t1. Grade 2 peripheral neuropathy\n\t2. Intermittent nausea\n\t3. Fatigue WHO grade 2\n\n\tSummary of consultation\n\tReviewed today prior to cycle 5 FOLFIRINOX. Latest CT shows stable disease with no new sites of metastatic disease. Main liver metastasis reduced from 4.2cm to 3.8cm. CA19-9 has decreased from 2500 to 1200. Performance status remains 1. Managing well on reduced dose chemotherapy with improved neutrophil counts. Continuing prophylactic GCSF. Peripheral neuropathy stable but limiting activities.\n\n\tFurther investigations\n\tRepeat CT chest/abdomen/pelvis after cycle 6\n\n\tMedication prescribed\n\tDomperidone PRN for nausea\n\n\tFollow up\n\tNext oncology follow up in 2 weeks pre-cycle 6\nTrial follow up next week for KDM6A inhibitor administration\n\n\tRequired GP actions\n\tWeekly FBC monitoring\nUrgent contact if fever or new symptoms",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver metastases",
+      "histopathology_status": "ductal adenocarcinoma",
+      "biomarker_status": "KDM6A mutation",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Diagnostic liver biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "FOLFIRINOX commenced",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Dose reduction to 80% from cycle 3 due to neutropenia",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 decreased from 2500 to 1200",
+          "year": null,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable disease, main liver metastasis reduced from 4.2cm to 3.8cm",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in Phase II trial of KDM6A-targeted therapy (PANDORA-01)",
+          "year": null,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 peripheral neuropathy"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Intermittent nausea"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue WHO grade 2"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic cancer showing stable disease on FOLFIRINOX. Managing well on reduced dose with improved neutrophil counts."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease with reduction in liver metastasis size and falling CA19-9"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 peripheral neuropathy limiting activities"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing reduced dose FOLFIRINOX with GCSF prophylaxis"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat CT chest/abdomen/pelvis after cycle 6"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks pre-cycle 6, trial follow up next week for KDM6A inhibitor"
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "content": "I reviewed [redacted name] today in the uro-oncology clinic, accompanied by his wife. He was diagnosed with metastatic prostate cancer in January 2024, initially presenting with abdominal distension and rising PSA. Histology confirmed an unusual signet ring cell carcinoma of the prostate with extensive peritoneal carcinomatosis. Molecular profiling revealed CDK12 biallelic loss. His initial PSA was 345.\n\nHe commenced treatment with docetaxel chemotherapy and androgen deprivation therapy in February 2024, completing 4 cycles. Unfortunately, his most recent CT scan on 15 April 2024 shows disease progression with increasing peritoneal disease and new liver metastases. His PSA has risen to 567 despite castrate testosterone levels. He has experienced significant clinical deterioration with increasing abdominal distension, early satiety, and weight loss of 7kg over the past 6 weeks. His performance status has declined from ECOG 1 to ECOG 3.\n\nOn examination today, he appears cachectic with marked abdominal distension and shifting dullness suggesting ascites. There is peripheral edema to the mid-calves bilaterally. His current symptoms include severe fatigue, poor appetite, and intermittent abdominal pain requiring regular opioid analgesia.\n\nGiven his disease progression on first-line treatment and declining performance status, we have had a detailed discussion about future management options. In view of his CDK12 mutation, I have recommended discontinuing docetaxel and transitioning to pembrolizumab immunotherapy. I have explained the rationale, potential benefits, and side effects in detail. He understands this represents a change in treatment approach but wishes to proceed.\n\nI have arranged urgent paracentesis to help manage his symptoms and improve his comfort. We will commence pembrolizumab once his ascites is better controlled, likely within the next 7-10 days. I have also referred him to our palliative care team for additional support with symptom management. We will review him again in one week to reassess his symptoms and confirm the treatment plan. His wife has our acute oncology contact details should his condition deteriorate in the meantime.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate",
+      "year": 2024,
+      "month": 1,
+      "metastases": "peritoneal carcinomatosis, liver metastases",
+      "other_stage": "M1c",
+      "histopathology_status": "signet ring cell carcinoma",
+      "biomarker_status": "CDK12 biallelic loss, PSA 345 at diagnosis",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial PSA 345",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started docetaxel chemotherapy and androgen deprivation therapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows disease progression with increasing peritoneal disease and new liver metastases",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA risen to 567 despite castrate testosterone levels",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing docetaxel due to disease progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, deteriorated from ECOG 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Severe fatigue, poor appetite, intermittent abdominal pain requiring regular opioid analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Abdominal distension, early satiety"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with marked abdominal distension and shifting dullness suggesting ascites, peripheral edema to mid-calves bilaterally"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight loss of 7kg over past 6 weeks"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic prostate cancer with peritoneal carcinomatosis progressing on first-line docetaxel. Significant clinical deterioration with declining performance status."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on docetaxel with increasing peritoneal disease, new liver metastases, and rising PSA"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing docetaxel and planning to commence pembrolizumab immunotherapy"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Performance status deteriorated from ECOG 1 to ECOG 3 with significant symptomatic burden"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent paracentesis arranged"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in one week to reassess symptoms and confirm treatment plan, referred to palliative care team"
+      }
+    ]
+  }
+}

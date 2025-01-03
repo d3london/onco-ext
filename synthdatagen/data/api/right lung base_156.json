@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\tRight lung base large cell carcinoma, T2bN2M1a\n\nManagement:\t15 Jan 2024 - Started Carboplatin/Pemetrexed/Pembrolizumab\n\t\t12 Feb 2024 - Cycle 2 completed with good tolerance\n\t\t5 Mar 2024 - Cycle 3 completed, CT shows partial response\n\nHistology:\tLarge cell carcinoma, PD-L1 80%, FGFR4 mutation positive\n\nCurrent Situation:\tMDT discussion post cycle 3 assessment\n\nI am writing to document today's Lung MDT discussion for [redacted name]. The case was presented with recent imaging showing encouraging partial response to immunotherapy combination treatment. The CT thorax from 5/3/24 demonstrates 40% reduction in the right lower lobe primary mass (now measuring 4.2cm from 7.0cm) and significant improvement in pleural disease with resolution of pleural effusion. No new sites of disease were identified.\n\nPerformance status remains 1. Recent blood tests show stable renal function and liver function tests within normal range. The patient reports improved exercise tolerance and resolution of previous chest pain.\n\nThe MDT recommendations are to continue with the current treatment regimen of Carboplatin AUC5, Pemetrexed 500mg/m2 and Pembrolizumab 200mg for a further 3 cycles, followed by maintenance Pembrolizumab. A repeat CT thorax/abdomen/pelvis is recommended after cycle 6. [redacted name] will be reviewed in clinic next week prior to cycle 4, with routine blood tests and toxicity assessment.",
+  "output": {
+    "primary_cancer": {
+      "site": "right lung base",
+      "year": 2024,
+      "month": 1,
+      "metastases": "pleural metastases",
+      "tnm_stage": "T2bN2M1a",
+      "histopathology_status": "large cell carcinoma",
+      "biomarker_status": "PD-L1 80%, FGFR4 mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Carboplatin/Pemetrexed/Pembrolizumab",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cycle 2 completed with good tolerance",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cycle 3 completed",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 40% reduction in right lower lobe primary mass (now 4.2cm from 7.0cm) and improvement in pleural disease with resolution of pleural effusion",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function and liver function tests within normal range"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Improved exercise tolerance and resolution of previous chest pain"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Large cell lung cancer showing good partial response to immunotherapy combination. MDT recommends continuing current treatment plan."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "40% reduction in primary tumor size and improvement in pleural disease"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continue with Carboplatin AUC5, Pemetrexed 500mg/m2 and Pembrolizumab 200mg for 3 more cycles, then maintenance Pembrolizumab"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT thorax/abdomen/pelvis after cycle 6"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review next week prior to cycle 4 with blood tests and toxicity assessment"
+      }
+    ]
+  }
+}

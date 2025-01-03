@@ -1,0 +1,80 @@
+{
+  "content": "Diagnosis:\t\tPancreatic adenocarcinoma (tail)\n\nManagement:\t\t12 Jan 2024 Distal pancreatectomy and splenectomy\n\nHistology:\t\tPoorly differentiated adenocarcinoma pT3N1M0 (Stage IIB), R0 resection, CDK4/6 amplification positive\n\nCurrent situation:\tPost-operative surveillance\n\n[redacted name] attended for routine follow-up today. She has completed 6 cycles of adjuvant modified FOLFIRINOX which finished on 15/4/24. Her post-chemotherapy CT scan shows no evidence of disease recurrence. Blood tests including CA19-9 are within normal range. She reports good energy levels with PS 0 and has returned to work full-time. The peripheral neuropathy that developed during chemotherapy has largely resolved. Her weight is stable at 68kg. The plan is for continued 3-monthly surveillance with next CT scan due in July 2024. She will be reviewed in clinic following those results.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas tail",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT3N1M0",
+      "other_stage": "Stage IIB",
+      "histopathology_status": "poorly differentiated adenocarcinoma, R0 resection",
+      "biomarker_status": "CDK4/6 amplification positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Distal pancreatectomy and splenectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant modified FOLFIRINOX",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles of adjuvant modified FOLFIRINOX",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 within normal range",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Post-chemotherapy CT scan shows no evidence of disease recurrence",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "peripheral neuropathy largely resolved"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "returned to work full-time"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIB pancreatic adenocarcinoma post surgery and adjuvant chemotherapy. No evidence of recurrence on latest imaging."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Peripheral neuropathy from chemotherapy now largely resolved"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan due July 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic following CT scan results"
+      }
+    ]
+  }
+}

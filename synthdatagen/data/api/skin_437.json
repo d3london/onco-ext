@@ -1,0 +1,103 @@
+{
+  "content": "I reviewed [redacted name] today who attended with his wife following recent admission to [redacted name] Hospital with seizures. Unfortunately, imaging has confirmed disease progression with new intracranial metastases.\n\nTo recap, [redacted name] was initially diagnosed with acral melanoma of the right heel in September 2023, found to be KIT L576P positive but BRAF wild type on molecular testing. He initially underwent wide local excision and sentinel lymph node biopsy, which showed a 4.2mm Breslow thickness melanoma with microsatellite deposits and 2/3 positive sentinel nodes. Subsequent staging showed widespread bony metastases.\n\nHe commenced first-line immunotherapy with combination ipilimumab/nivolumab in November 2023, completing 4 cycles. Unfortunately, restaging in February 2024 showed disease progression with new bone lesions, and he switched to second-line targeted therapy with imatinib 400mg daily given his KIT mutation status.\n\nHe presented to A&E on 15th April 2024 with new onset seizures. MRI brain demonstrated multiple intracerebral metastases, the largest measuring 2.8cm in the right frontal lobe with associated edema. CT chest/abdomen/pelvis showed further progression in bone metastases with new pathological fracture of T8 vertebra.\n\nHis performance status has significantly declined to ECOG 3, spending most of the day in bed or chair. He describes severe fatigue, ongoing headaches despite dexamethasone 4mg bd, and increasing bone pain requiring regular breakthrough analgesia. On examination today, he has new right-sided weakness grade 4/5 and appears cachectic with marked muscle wasting.\n\nI have discussed his case with neurosurgery and clinical oncology colleagues. Given the multiple brain metastases and poor performance status, we have agreed that whole brain radiotherapy would be most appropriate rather than stereotactic treatment. His imatinib will be discontinued given clear evidence of progression. We have had a detailed discussion about prognosis and treatment intent, and [redacted name] has expressed a wish to focus on quality of life rather than further systemic therapy.\n\nThe plan is for urgent whole brain radiotherapy (20Gy in 5 fractions) starting next week. I have referred him to the palliative care team for ongoing symptom management and community support. We will arrange urgent MRI spine to assess the T8 fracture and consider vertebroplasty. I have increased his dexamethasone to 4mg tds and commenced prophylactic fluconazole. We will review him again after completion of radiotherapy in the combined oncology/palliative care clinic.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right heel, acral",
+      "year": 2023,
+      "month": 9,
+      "metastases": "multiple brain metastases, widespread bone metastases with T8 vertebral fracture",
+      "histopathology_status": "melanoma, Breslow thickness 4.2mm with microsatellite deposits",
+      "biomarker_status": "KIT L576P positive, BRAF wild type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy showing 2/3 positive nodes",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Initial staging shows widespread bony metastases",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started combination ipilimumab/nivolumab immunotherapy",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Restaging shows disease progression with new bone lesions",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Switched to imatinib 400mg daily due to disease progression",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows multiple brain metastases, largest 2.8cm in right frontal lobe",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression in bone metastases with T8 vertebral fracture",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing imatinib due to disease progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, spending most of day in bed or chair"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Severe fatigue, ongoing headaches, increasing bone pain"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Right-sided weakness grade 4/5, cachectic with marked muscle wasting"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic acral melanoma with rapid progression through immunotherapy and targeted therapy. New brain metastases causing seizures and clinical deterioration."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on imatinib with new brain metastases and advancing bone disease"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing imatinib, proceeding with whole brain radiotherapy 20Gy in 5 fractions"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline in performance status with new neurological deficits"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess T8 fracture"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review after radiotherapy completion in combined oncology/palliative care clinic"
+      }
+    ]
+  }
+}

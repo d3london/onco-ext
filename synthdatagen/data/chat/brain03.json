@@ -1,0 +1,78 @@
+{
+    "content": "Diagnosis:\tAnaplastic astrocytoma, left parietal lobe, IDH-mutant, WHO Grade III\n\nTreatment:\tSubtotal resection (2024-11-15)\n\t\tConcurrent radiotherapy (54Gy in 30 fractions) and temozolomide completed 2025-01-30\n\t\tMaintenance temozolomide (5/28 schedule) completed 2025-06-15\n\nResponse:\tInitial MRI (2025-02-15): Partial response\n\t\tLatest MRI (2025-06-10): Stable disease, no new lesions, minimal residual enhancement, consistent with post-treatment changes\n\nStatus:\tPerformance status improved to ECOG 0\n\t\tNo new neurological symptoms\n\t\tFatigue resolved\n\nPlan:\tTransition to surveillance phase\n\t\tNext MRI scheduled for 2025-12-15\n\t\tRoutine follow-up in neuro-oncology clinic in 6 months\n\t\tAdvise patient to monitor for new symptoms and report urgently\n\t\tMaintain general health with regular exercise and balanced diet",
+    "output": {
+      "primary_cancer": {
+        "site": "brain, left parietal lobe",
+        "year": 2024,
+        "month": 11,
+        "histopathology_status": "WHO Grade III anaplastic astrocytoma, IDH-mutant",
+        "cancer_timeline": [
+          {
+            "type": "treatment_surgery",
+            "value": "Subtotal resection",
+            "year": 2024,
+            "month": 11
+          },
+          {
+            "type": "treatment_radiotherapy",
+            "value": "Concurrent radiotherapy (54Gy in 30 fractions) and temozolomide completed",
+            "year": 2024,
+            "month": 11
+          },          
+          {
+            "type": "treatment_systemic_start",
+            "value": "Temozolomide completed",
+            "year": 2024,
+            "month": 11
+          },
+          {
+            "type": "treatment_systemic_change",
+            "value": "Completed maintenance temozolomide (5/28 schedule)",
+            "year": 2025,
+            "month": 6
+          },
+          {
+            "type": "investigation_finding",
+            "value": "Initial MRI showed partial response",
+            "year": 2025,
+            "month": 2
+          },
+          {
+            "type": "investigation_finding",
+            "value": "Latest MRI shows stable disease with no new lesions and minimal residual enhancement",
+            "year": 2025,
+            "month": 6
+          }
+        ]
+      },
+      "patient_facts": [
+        {
+          "type": "performance_status",
+          "value": "ECOG 0"
+        },
+        {
+          "type": "current_symptom",
+          "value": "No new neurological symptoms"
+        }
+      ],
+      "status_updates": [
+        {
+          "type": "clinical_summary",
+          "value": "Patient with anaplastic astrocytoma completed treatment and achieved stable disease, entering remission. Performance status excellent with no new symptoms."
+        },
+        {
+          "type": "update_to_treatment",
+          "value": "Transition to surveillance phase"
+        },
+        {
+          "type": "planned_investigation",
+          "value": "Next MRI scheduled for 2025-12-15"
+        },
+        {
+          "type": "follow_up_referral",
+          "value": "Routine follow-up in neuro-oncology clinic in 6 months"
+        }
+      ]
+    }
+  }
+  

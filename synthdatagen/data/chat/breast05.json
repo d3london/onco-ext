@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\tLeft breast cancer UOQ 9mm Grade 2 invasive ductal carcinoma completely excised 0/2 nodes ER 8 PR 7 HER2 negative\n\nRx:\t\tLeft WLE + SLNB 15/01/2024\nRT to Left Breast 40Gy/15# (Dr [redacted name]) RT completed February 2024\nLetrozole commenced March 2024, on calcium/vitamin D supplementation\n\t\nDEXA scan 20/02/2024 T-score -1.4 hip, -1.1 spine\n\nSeen by breast surgeon 1 week ago for left breast fluid collection\nUS March 2024 Left Breast u2: post-operative changes only\nDemonstrates small seroma measuring 1.8 x 1.2 cm in surgical bed within left upper outer quadrant. No suspicious features.\nNormal left axilla. No concerning masses or lymphadenopathy.\nMammogram postponed due to recent surgery and known iodine sensitivity.\nPatient agrees to ultrasound follow-up protocol.\n\nDiscussion regarding bone health monitoring today\n\ngeneral condition good\nOn Letrozole: mild arthralgia, occasional hot flushes, tolerating well overall\nfatigue improved with regular exercise regime\nknown rheumatoid arthritis\n\npart-time piano instructor\n\nPatient asked about bone protection therapy\nReviewed current guidelines - not indicated for bisphosphonate therapy given node negative status, favorable prognostic features, and mild osteopenia only\n\nPlan:\nContinue current bone health supplementation\nMaintain Letrozole with calcium/vitamin D for intended 5 year course\nRepeat DEXA scan December 2024\nScheduling breast ultrasound for October 2024 prior to surgical follow-up November 2024",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2024,
+      "month": 1,
+      "histopathology_status": "Grade 2 invasive ductal carcinoma, 9mm, completely excised",
+      "biomarker_status": "ER 8, PR 7, HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Left wide local excision and sentinel lymph node biopsy - 0/2 nodes positive",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "RT to Left Breast 40Gy/15#",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on Letrozole with calcium/vitamin D supplementation",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "DEXA scan T-score -1.4 hip, -1.1 spine indicating mild osteopenia",
+          "year": 2024,
+          "month": 2
+        },        
+        {
+          "type": "anatomical_finding",
+          "value": "US Left Breast u2: post-operative changes only with 1.8 x 1.2 cm seroma, normal left axilla",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "rheumatoid arthritis"
+      },
+      {
+        "type": "current_symptom",
+        "value": "mild arthralgia and occasional hot flushes"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage, hormone receptor positive breast cancer treated with breast conservation surgery and radiotherapy, now commenced on adjuvant letrozole. Patient tolerating hormonal therapy well with only mild side effects, showing appropriate post-operative healing with small seroma."
+      },      
+      {
+        "type": "update_to_treatment",
+        "value": "continue current bone health supplementation, maintain Letrozole with calcium/vitamin D for intended 5 year course"
+      },      
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "mild arthralgia and occasional hot flushes on Letrozole, tolerating well overall"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "breast ultrasound scheduled for October 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "surgical follow-up November 2024"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\tProstate adenocarcinoma, left apex\n\nStaging:\t\tT2aN0M0, Gleason 3+4=7\n\nBiomarkers:\tPSA at diagnosis 5.1ng/ml (March 2024)\n\t\tBRIP1 mutation positive\n\nTreatment:\tCommenced radical external beam radiotherapy 74Gy in 37# on 15 April 2024\n\nCurrent Status:\tWeek 4 of radiotherapy treatment\n\n[redacted name] is tolerating his radical radiotherapy well at the four-week mark. He reports mild urinary frequency and nocturia twice nightly, managed with good fluid balance. No significant bowel symptoms. His urinary stream remains good with no hesitancy. Performance status remains 0.\n\nOn examination today, there are no concerning features. Digital rectal examination shows expected radiotherapy-related changes only.\n\nLatest PSA has decreased to 3.2ng/ml (15 May 2024). He will complete his planned course of radiotherapy next week. We will arrange follow-up PSA testing in 6 weeks and review in clinic with results. He understands to contact the radiotherapy department if he develops any new symptoms in the meantime.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, left apex",
+      "year": 2024,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "T2aN0M0",
+      "other_stage": null,
+      "histopathology_status": "adenocarcinoma, Gleason 3+4=7",
+      "biomarker_status": "PSA 5.1ng/ml at diagnosis, BRIP1 mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial PSA 5.1ng/ml",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Started radical external beam radiotherapy 74Gy in 37 fractions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA decreased to 3.2ng/ml",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild urinary frequency and nocturia twice nightly"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Digital rectal examination shows expected radiotherapy-related changes only"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Localized prostate cancer undergoing radical radiotherapy. Good treatment tolerance at week 4 with expected mild urinary symptoms"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild urinary frequency and nocturia, no significant bowel symptoms"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with planned radiotherapy course, due to complete next week"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "PSA testing in 6 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with PSA results in 6 weeks"
+      }
+    ]
+  }
+}

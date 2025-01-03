@@ -1,0 +1,93 @@
+{
+  "content": "Many thanks for referring [redacted name] who I reviewed today following recent disease progression. He was initially diagnosed with sigmoid adenocarcinoma in January 2024 following investigation of change in bowel habit and weight loss. At diagnosis, imaging demonstrated peritoneal disease and multiple liver metastases. Molecular analysis confirmed BRAF V600E mutation and MMR proficient status.\n\nHe commenced first-line FOLFOXIRI plus Bevacizumab in February 2024, completing 4 cycles with initial radiological response but significant toxicity including grade 3 neutropenia requiring GCSF support and grade 2 peripheral neuropathy. His fifth cycle was delayed by 2 weeks due to poor performance status, and subsequent CT in April 2024 showed disease progression with new peritoneal deposits and increasing size of liver metastases.\n\nHe was switched to second-line FOLFIRI plus Cetuximab in May 2024, but unfortunately developed severe palmar-plantar erythrodysesthesia and required admission with neutropenic sepsis after cycle 1. His performance status has deteriorated significantly from ECOG 1 to ECOG 3, and he now requires assistance with most activities of daily living.\n\nOn examination today, he appears cachectic with obvious ascites and peripheral edema. His albumin has dropped to 28 g/L despite nutritional supplementation, and his ALP has risen to 456 U/L. He describes worsening abdominal pain requiring regular breakthrough oxycodone, and his appetite remains poor despite optimal antiemetics.\n\nGiven his declining performance status and limited benefit from previous lines of therapy, I have had a detailed discussion with [redacted name] and his wife about transitioning to best supportive care. They understand that further systemic therapy is unlikely to be beneficial and carries significant risks. I have made an urgent referral to the palliative care team and arranged for community support. We will continue to provide ongoing symptom management through our acute oncology service as needed.\n\nI have prescribed additional breakthrough analgesia and arranged for ascitic drainage next week. We will review him again in 2 weeks' time, or sooner if needed through our acute oncology service. I have also organized urgent follow-up with our palliative care colleagues who will assist with community support arrangements.",
+  "output": {
+    "primary_cancer": {
+      "site": "sigmoid colon",
+      "year": 2024,
+      "month": 1,
+      "metastases": "peritoneal disease and multiple liver metastases",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "BRAF V600E mutation positive, MMR proficient",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started first-line FOLFOXIRI plus Bevacizumab",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cycle 5 delayed by 2 weeks due to poor performance status",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing disease progression with new peritoneal deposits and increasing liver metastases",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started second-line FOLFIRI plus Cetuximab",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued after cycle 1 due to severe toxicity and deteriorating performance status",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, deteriorated from ECOG 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening abdominal pain requiring regular breakthrough oxycodone"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Poor appetite despite optimal antiemetics"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with obvious ascites and peripheral edema"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Albumin dropped to 28 g/L, ALP risen to 456 U/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic sigmoid adenocarcinoma with rapid progression through two lines of therapy. Now with clinical deterioration and transition to palliative care"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Severe palmar-plantar erythrodysesthesia and neutropenic sepsis with FOLFIRI/Cetuximab"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy and transitioning to best supportive care"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration requiring assistance with most activities of daily living"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Arranged for ascitic drainage next week"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks, urgent palliative care referral made, ongoing acute oncology support"
+      }
+    ]
+  }
+}

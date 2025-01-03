@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis:\nFollicular variant papillary thyroid carcinoma\n\nSurgery:\nTotal thyroidectomy 15 January 2024\n\nHistology:\nFollicular variant papillary thyroid carcinoma\npT1b (1.8cm) N0M0\nNo lymphovascular invasion\nBRAF mutation negative\n\nTreatment:\nRadioactive iodine ablation 3.7GBq completed 15 March 2024\nPost-ablation scan shows no evidence of residual disease or metastases\n\nCurrent medications:\nLevothyroxine 125mcg daily\n\nCurrent situation:\nThyroglobulin <0.1\nTSH 0.3\n\nI reviewed [redacted name] following completion of radioactive iodine ablation treatment. The post-ablation scan shows complete ablation with no evidence of residual disease or metastatic uptake. Thyroglobulin remains undetectable and TSH is appropriately suppressed on current levothyroxine dose. The patient has recovered well from both surgery and RAI treatment with no ongoing side effects.\n\nPlan:\nContinue current levothyroxine dose\nThyroid function tests and thyroglobulin monitoring in 3 months\nFollow up appointment in 6 months with repeat neck ultrasound",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT1bN0M0",
+      "other_stage": "Stage I",
+      "histopathology_status": "Follicular variant papillary thyroid carcinoma, no lymphovascular invasion",
+      "biomarker_status": "BRAF mutation negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy performed",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Radioactive iodine ablation 3.7GBq completed",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Post-ablation scan shows no evidence of residual disease or metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Thyroglobulin <0.1, TSH 0.3",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "investigation_finding",
+        "value": "Post-ablation scan shows complete ablation with no evidence of residual disease or metastatic uptake"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage I follicular variant papillary thyroid cancer treated with total thyroidectomy and radioactive iodine. Complete response to treatment with no evidence of residual disease."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Complete ablation achieved with undetectable thyroglobulin"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continue current levothyroxine dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Thyroid function tests and thyroglobulin monitoring in 3 months, repeat neck ultrasound in 6 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow up appointment in 6 months"
+      }
+    ]
+  }
+}

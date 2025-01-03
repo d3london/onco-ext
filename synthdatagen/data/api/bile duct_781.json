@@ -1,0 +1,79 @@
+{
+  "content": "Diagnosis:\tCholangiocarcinoma (adenosquamous carcinoma) of distal common bile duct\n\nManagement:\t15 Jan 2024 Whipple's procedure\n\t\t1 Mar 2024 Commenced adjuvant gemcitabine/cisplatin\n\nHistology:\tpT3N1 adenosquamous carcinoma, NTRK fusion positive\n\nCurrent Situation:\tPost cycle 3 gemcitabine/cisplatin, for consideration of targeted therapy\n\nI reviewed [redacted name] today following receipt of the molecular testing results. She has completed 3 cycles of adjuvant gemcitabine/cisplatin with good tolerance apart from grade 2 fatigue and intermittent nausea. Her latest CT scan on 15/4/24 shows no evidence of disease recurrence. Performance status remains 1.\n\nThe molecular testing has identified an NTRK fusion, making her eligible for targeted therapy with larotrectinib. Given this finding, and after discussion at today's HPB MDT, we recommend discontinuing chemotherapy and switching to larotrectinib. I have discussed this change in management with [redacted name] today, explaining the rationale and potential benefits of targeted therapy.\n\nShe will therefore not proceed with cycle 4 chemotherapy. I have completed the funding application for larotrectinib and arranged baseline assessments including ECG and echocardiogram. We will review her again in 2 weeks to initiate targeted therapy, pending funding approval. Blood tests and liver function will be checked prior to starting treatment.",
+  "output": {
+    "primary_cancer": {
+      "site": "distal common bile duct",
+      "year": 2024,
+      "month": 1,
+      "metastases": "regional nodal involvement",
+      "tnm_stage": "pT3N1",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "adenosquamous carcinoma",
+      "biomarker_status": "NTRK fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant gemcitabine/cisplatin",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Molecular testing confirms NTRK fusion positive status",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of disease recurrence",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing gemcitabine/cisplatin after 3 cycles due to identification of NTRK fusion",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 fatigue and intermittent nausea from chemotherapy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIB bile duct cancer post Whipple's procedure. Completed 3 cycles adjuvant chemotherapy, now switching to targeted therapy following detection of NTRK fusion"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 fatigue and intermittent nausea with gemcitabine/cisplatin"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing gemcitabine/cisplatin, switching to larotrectinib pending funding approval"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline ECG, echocardiogram and blood tests including liver function"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks to initiate targeted therapy"
+      }
+    ]
+  }
+}

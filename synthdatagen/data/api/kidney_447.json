@@ -1,0 +1,54 @@
+{
+  "content": "Diagnosis:\t\tChromophobe renal cell carcinoma\n\nManagement:\t\tRight radical nephrectomy 15 March 2023\n\nHistology:\t\tpT2b (9.5cm) N0, CD117 positive chromophobe renal cell carcinoma, margins clear\n\nCurrent situation:\tRoutine surveillance review\n\n[redacted name] attended for routine follow-up today. She remains well with no concerning symptoms. Her surgical scars are well-healed and she has returned to her normal activities. Recent CT chest/abdomen/pelvis from 12/4/24 shows no evidence of recurrence or metastatic disease. Blood tests including renal function are satisfactory. She will continue on our standard surveillance protocol with next imaging in 6 months' time. We will review her again following those scans. She understands to contact us sooner if she develops any new symptoms of concern.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right",
+      "year": 2023,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT2bN0",
+      "other_stage": null,
+      "histopathology_status": "chromophobe renal cell carcinoma, 9.5cm tumor, margins clear",
+      "biomarker_status": "CD117 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right radical nephrectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis shows no evidence of recurrence or metastatic disease",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Surgical scars well-healed"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood tests including renal function satisfactory"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Post-nephrectomy for localized chromophobe renal cell carcinoma. No evidence of recurrence on surveillance imaging."
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT imaging in 6 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review following next surveillance scans"
+      }
+    ]
+  }
+}

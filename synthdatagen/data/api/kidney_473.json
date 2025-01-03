@@ -1,0 +1,86 @@
+{
+  "content": "Many thanks for referring [redacted name] for urgent MDT discussion following recent disease progression. This 62-year-old gentleman was initially diagnosed with clear cell renal cell carcinoma in January 2024 following investigation of weight loss and right flank pain. Initial staging demonstrated a 12cm right kidney mass with invasion into the renal vein and IVC, along with multiple pulmonary metastases and extensive bone involvement including a symptomatic T8 vertebral deposit. Histopathology from CT-guided biopsy confirmed clear cell renal cell carcinoma, ISUP grade 4, with PD-L1 TPS 85%.\n\nHe commenced first-line combination immunotherapy with Ipilimumab/Nivolumab in February 2024, receiving 4 cycles of combination treatment. Unfortunately, he developed grade 3 colitis after cycle 4 requiring hospital admission and high-dose corticosteroids. Following resolution of colitis, he continued on single-agent Nivolumab from April 2024. Initial CT assessment in May 2024 showed stable disease, however repeat imaging last week demonstrates clear progression with 30% increase in pulmonary metastases, new liver lesions, and increasing bone disease with impending cord compression at T8.\n\nHis performance status has declined from ECOG 1 to ECOG 3 over the past 3 weeks, with increasing pain requiring oxygen therapy and significant mobility difficulties. He is currently an inpatient under the acute oncology team with hypercalcemia (corrected calcium 3.1) and acute kidney injury (eGFR 28).\n\nThe case was discussed at today's Renal MDT with input from medical oncology, clinical oncology, and palliative care teams. Given the rapid progression through immunotherapy, poor performance status, and organ dysfunction, the consensus recommendation is that further systemic anti-cancer therapy would carry excessive risk with limited likelihood of benefit. The MDT recommends urgent radiotherapy to the T8 vertebra (20Gy in 5 fractions) to prevent cord compression, and early involvement of specialist palliative care for symptom management.\n\nI have discussed these recommendations with [redacted name] and his family at the bedside today. They understand the change in treatment intent and have agreed to focus on quality of life and symptom control. The radiotherapy team will assess him tomorrow morning, and the palliative care team have already commenced a comprehensive symptom management plan.\n",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple pulmonary metastases, extensive bone involvement including T8 vertebra, new liver lesions",
+      "tnm_stage": "T4N1M1",
+      "histopathology_status": "clear cell renal cell carcinoma, ISUP grade 4",
+      "biomarker_status": "PD-L1 TPS 85%",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "12cm right kidney mass with invasion into renal vein and IVC, multiple pulmonary metastases and bone metastases",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started combination immunotherapy with Ipilimumab/Nivolumab",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Developed grade 3 colitis requiring cessation of Ipilimumab, continued on single-agent Nivolumab",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing stable disease",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing disease progression with 30% increase in pulmonary metastases, new liver lesions, increasing bone disease",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from ECOG 1 to ECOG 3 over past 3 weeks"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing pain requiring oxygen therapy and significant mobility difficulties"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Hypercalcemia (corrected calcium 3.1) and acute kidney injury (eGFR 28)"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced renal cell carcinoma with rapid progression through immunotherapy and declining clinical status. Disease progression in multiple sites with organ dysfunction"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with 30% increase in pulmonary metastases, new liver lesions, and increasing bone disease"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Decision to cease systemic therapy due to disease progression and poor performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline in performance status to ECOG 3 with increasing care needs"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent radiotherapy assessment for T8 vertebra"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to specialist palliative care team for symptom management"
+      }
+    ]
+  }
+}

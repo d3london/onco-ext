@@ -1,0 +1,85 @@
+{
+  "content": "Diagnosis:\nPerihilar cholangiocarcinoma, stage IIIA (T4N1M0), ERBB2/3 co-amplified\n\nPrevious treatment:\nNeoadjuvant gemcitabine-cisplatin March-July 2024\nRadical bile duct resection with hepaticojejunostomy 15 August 2024\n\nCurrent treatment:\nTrastuzumab-deruxtecan trial therapy\n\nCurrent situation:\nPre-cycle 3 assessment\n\nInvestigations:\nCT 12 October 2024 - No evidence of recurrence\nCA19-9 trending down from 245 to 89\nLFTs stable - bilirubin 28, ALT 45, ALP 225\n\nI reviewed [redacted name] today prior to cycle 3 of trastuzumab-deruxtecan trial therapy. The second cycle was better tolerated than the first, with improvement in the grade 2 fatigue previously reported. Performance status remains 1. The mild peripheral neuropathy affecting fingers has not worsened. Blood tests show stable liver function and improving tumor markers.\n\nOn examination, surgical wounds are well healed. No evidence of disease recurrence. Weight stable at 72kg.\n\nPlan:\n1. Proceed with cycle 3 trastuzumab-deruxtecan today\n2. Continue monthly CA19-9 monitoring\n3. Next CT scan due after cycle 4\n4. Review in 3 weeks with blood tests\n5. Trial-specific quality of life questionnaires completed today",
+  "output": {
+    "primary_cancer": {
+      "site": "bile duct, perihilar",
+      "year": 2024,
+      "tnm_stage": "T4N1M0",
+      "other_stage": "Stage IIIA",
+      "histopathology_status": "cholangiocarcinoma",
+      "biomarker_status": "ERBB2/3 co-amplified",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started neoadjuvant gemcitabine-cisplatin",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Radical bile duct resection with hepaticojejunostomy",
+          "year": 2024,
+          "month": 8
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Started trastuzumab-deruxtecan trial therapy",
+          "year": 2024,
+          "month": 9
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 trending down from 245 to 89",
+          "year": 2024,
+          "month": 10
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows no evidence of recurrence",
+          "year": 2024,
+          "month": 10
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild peripheral neuropathy affecting fingers"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Surgical wounds well healed, no evidence of disease recurrence"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable liver function - bilirubin 28, ALT 45, ALP 225"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Post-operative perihilar cholangiocarcinoma on trial therapy with trastuzumab-deruxtecan showing good response and improving tolerability"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Improvement in grade 2 fatigue, stable mild peripheral neuropathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 3 trastuzumab-deruxtecan"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan after cycle 4, monthly CA19-9 monitoring"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks with blood tests"
+      }
+    ]
+  }
+}

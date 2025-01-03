@@ -1,0 +1,81 @@
+{
+  "content": "Diagnosis:\n\nLocally advanced endobronchial squamous cell carcinoma\n\nStage IIIA (T3N2M0) diagnosed March 2024\nNFE2L2 mutation positive\nPD-L1 40%\n\nPrevious treatment:\nInduction chemotherapy with Carboplatin/Paclitaxel commenced 15 April 2024\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nEx-smoker (stopped 2020, 40 pack-year history)\n\nCurrent medications:\nMetformin 1g BD\nRamipril 5mg OD\nOndansetron 8mg PRN\n\nCurrent situation:\nCompleted 2 cycles induction chemotherapy\n\nCT thorax 20 May 2024 shows stable disease with primary tumor measuring 4.2cm (baseline 4.5cm)\n\nI reviewed [redacted name] today following completion of cycle 2 induction chemotherapy. He has experienced significant grade 3 neutropenia (neutrophils 0.8) with the current regimen, requiring two hospital admissions for neutropenic sepsis despite secondary GCSF prophylaxis. His performance status remains 1 but he describes marked fatigue limiting his daily activities. Examination shows no new concerns beyond known disease.\n\nGiven the challenging toxicity profile and achievement of disease stability, we have discussed modifying the treatment approach. The plan is to proceed with definitive concurrent chemoradiotherapy now rather than completing the planned 4 cycles of induction treatment. This approach is supported by the stable disease seen on recent imaging and will allow us to move forward with potentially curative treatment while managing toxicity appropriately.\n\nI have arranged for him to see Dr [redacted name] in radiotherapy planning clinic next week to organize concurrent weekly carboplatin/radiotherapy. We will review him weekly during treatment. I have provided written information about the concurrent treatment approach and potential side effects. He understands to contact us if any concerns develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "endobronchial",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "T3N2M0",
+      "other_stage": "Stage IIIA",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "NFE2L2 mutation positive, PD-L1 40%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started induction chemotherapy with Carboplatin/Paclitaxel",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Required secondary GCSF prophylaxis due to neutropenia",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT thorax shows stable disease with primary tumor measuring 4.2cm (baseline 4.5cm)",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Decision to discontinue induction chemotherapy after 2 cycles due to neutropenic sepsis",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Marked fatigue limiting daily activities"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced endobronchial SCC with stable disease on imaging but experiencing significant chemotherapy toxicity. Changing strategy to concurrent chemoradiotherapy."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 neutropenia with two hospital admissions for neutropenic sepsis despite GCSF prophylaxis"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on CT with primary tumor measuring 4.2cm (baseline 4.5cm)"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing induction chemotherapy after 2 cycles, switching to concurrent chemoradiotherapy with weekly carboplatin"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Radiotherapy planning clinic next week, followed by weekly review during treatment"
+      }
+    ]
+  }
+}

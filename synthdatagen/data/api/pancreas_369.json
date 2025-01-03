@@ -1,0 +1,80 @@
+{
+  "content": "Diagnosis:\t\tPancreatic adenocarcinoma\n\nManagement:\t\t12 Jan 2024 Whipple's procedure\n\nHistology:\t\tModerately differentiated pancreatic ductal adenocarcinoma\n\t\tpT3N1M0 (AJCC 8th Ed, Stage IIB)\n\t\tBRAF V600E mutation positive\n\nCurrent situation:\tPost-operative follow-up\n\n[redacted name] attended clinic today for routine follow-up following completion of adjuvant modified FOLFIRINOX chemotherapy in May 2024. She has made an excellent recovery from her surgery and subsequent chemotherapy. Her post-treatment CT scan on 15/6/24 shows no evidence of disease recurrence. Her CA19-9 has normalized at 12 U/mL. Her weight has stabilized at 68kg and appetite continues to improve. She reports mild peripheral neuropathy affecting her fingertips only, which is gradually improving. Her pancreatic enzyme replacement is well-optimized with no symptoms of malabsorption. The plan is for ongoing 3-monthly surveillance with next CT scan and CA19-9 due in September 2024. She will be reviewed in clinic following these investigations.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "pT3N1M0",
+      "other_stage": "Stage IIB",
+      "histopathology_status": "moderately differentiated pancreatic ductal adenocarcinoma",
+      "biomarker_status": "BRAF V600E mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant modified FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed adjuvant modified FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 normalized at 12 U/mL",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of disease recurrence",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "mild peripheral neuropathy affecting fingertips only, gradually improving"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "weight stabilized at 68kg with improving appetite"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CA19-9 normalized at 12 U/mL"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIB pancreatic adenocarcinoma status post Whipple's procedure and adjuvant chemotherapy. Currently no evidence of disease recurrence."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "mild peripheral neuropathy affecting fingertips only, gradually improving"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan and CA19-9 due September 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "clinic review following investigations in September 2024"
+      }
+    ]
+  }
+}

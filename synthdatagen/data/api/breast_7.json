@@ -1,0 +1,99 @@
+{
+  "content": "I reviewed [redacted name] today in the breast oncology clinic following recent CT imaging. She has been receiving third-line endocrine therapy with fulvestrant and palbociclib for ESR1-mutated metastatic breast cancer, originally diagnosed as a mucinous carcinoma in September 2023. Unfortunately, her most recent CT scan from 15th April 2024 shows clear evidence of disease progression with enlargement of multiple liver metastases, the largest having increased from 4.2cm to 6.8cm, and development of new lesions throughout both lobes. There is also new ascites.\n\nShe has experienced significant clinical deterioration over the past 4 weeks with increasing right upper quadrant pain requiring escalation of her opiate analgesia, marked fatigue limiting her to short walks around the house, and early satiety with 4kg weight loss. Her liver function has also deteriorated with bilirubin now 48 μmol/L (previously 22) and ALT 156 U/L. Performance status has declined from 1 to 2-3.\n\nPrevious treatments have included letrozole with palbociclib as first-line therapy from October 2023 until disease progression in December 2023, followed by exemestane with everolimus which was discontinued in February 2024 due to grade 3 stomatitis despite dose reductions. The current fulvestrant/palbociclib combination was commenced in March 2024 but has unfortunately not provided disease control.\n\nI have had a detailed discussion with [redacted name] today about the changing situation. Given the rapid progression through three lines of endocrine-based therapy and deteriorating clinical status, I have recommended transition to single-agent weekly paclitaxel chemotherapy. We discussed the aims of treatment being to improve symptoms and hopefully slow disease progression, while acknowledging the overall poor prognosis. She understands the potential side effects including hair loss, neuropathy, and risk of neutropenia, but wishes to proceed.\n\nI have arranged urgent CT-guided drainage of ascites next week and will commence weekly paclitaxel at 80mg/m2 once this is completed. We will review after 3 weekly treatments to assess tolerability and clinical benefit. I have also referred to the palliative care team for additional support with symptom management. Blood tests including tumour markers have been requested for next week's chemotherapy visit.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast",
+      "year": 2023,
+      "month": 9,
+      "metastases": "liver metastases with widespread involvement of both lobes, ascites",
+      "histopathology_status": "mucinous carcinoma",
+      "biomarker_status": "ESR1 mutation positive, HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started letrozole with palbociclib as first-line therapy",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Disease progression on letrozole/palbociclib",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started exemestane with everolimus as second-line therapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued exemestane/everolimus due to grade 3 stomatitis despite dose reductions",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started fulvestrant with palbociclib as third-line therapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with enlargement of liver metastases (largest 6.8cm from 4.2cm) and new lesions throughout both lobes, new ascites",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from PS 1 to PS 2-3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing right upper quadrant pain requiring escalated opiate analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Marked fatigue limiting mobility to short walks around house"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety with 4kg weight loss"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 48 μmol/L (previously 22) and ALT 156 U/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic breast cancer with progressive liver disease. Rapid progression through three lines of endocrine therapy with significant clinical deterioration"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on fulvestrant/palbociclib with enlarging liver metastases and new ascites"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to switch to weekly paclitaxel chemotherapy at 80mg/m2"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant clinical deterioration with declining performance status and increasing symptoms"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Arranged urgent CT-guided drainage of ascites and blood tests including tumour markers"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review after 3 weekly treatments of paclitaxel, referred to palliative care team"
+      }
+    ]
+  }
+}

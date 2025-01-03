@@ -1,0 +1,118 @@
+{
+  "content": "I reviewed [redacted name] today who attended with his wife following recent CT imaging showing disease progression. As you know, he was diagnosed with medullary thyroid carcinoma in January 2023 following investigation of a rapidly enlarging neck mass. Initial calcitonin was markedly elevated at 2500 pg/mL. He underwent total thyroidectomy and central neck dissection in February 2023, which confirmed a 4.5cm medullary thyroid carcinoma with extensive lymphovascular invasion and multiple positive central neck nodes.\n\nUnfortunately, follow-up imaging in May 2023 demonstrated the emergence of multiple liver metastases. He commenced cabozantinib 60mg daily in June 2023 with initial good response, achieving partial response on CT after 3 months of therapy with corresponding reduction in calcitonin to 800 pg/mL. However, he required two dose reductions due to significant palmar-plantar erythrodysesthesia and fatigue, currently maintaining stable disease on 20mg daily.\n\nRecent CT imaging from last week shows clear evidence of disease progression with enlarging liver metastases and new peritoneal nodules. His calcitonin has risen to 4500 pg/mL. He reports increasing right upper quadrant discomfort and early satiety. His performance status has deteriorated to ECOG 2, largely due to fatigue and liver capsular pain. He has lost 6kg in weight over the last 2 months despite maintaining reasonable oral intake.\n\nOn examination today, there was tender hepatomegaly extending 4cm below the costal margin. There is no evidence of ascites. His blood pressure remains stable at 125/75 mmHg with no evidence of catecholamine excess.\n\nI have had a lengthy discussion with [redacted name] and his wife about the current situation. Given the clear evidence of disease progression on cabozantinib, I have recommended switching to second-line vandatinib. I have explained the potential benefits and side effect profile in detail. They understand this represents a challenging situation but wish to proceed with further systemic therapy.\n\nI have arranged to start vandatinib 300mg daily next week, with weekly blood pressure monitoring for the first 8 weeks. I have also referred him to our palliative care team for additional support with symptom management, particularly his liver pain. We will repeat CT imaging after 8 weeks of therapy to assess response. I will review him again in 2 weeks to check his tolerance of the new medication.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2023,
+      "month": 1,
+      "metastases": "liver metastases, peritoneal nodules",
+      "histopathology_status": "medullary thyroid carcinoma, 4.5cm with extensive lymphovascular invasion and positive central neck nodes",
+      "biomarker_status": "calcitonin elevated - initial 2500 pg/mL, latest 4500 pg/mL",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Diagnosed following rapidly enlarging neck mass",
+          "year": 2023,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Initial calcitonin markedly elevated at 2500 pg/mL",
+          "year": 2023,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy and central neck dissection",
+          "year": 2023,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Multiple liver metastases detected on imaging",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started cabozantinib 60mg daily",
+          "year": 2023,
+          "month": 6
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Calcitonin reduced to 800 pg/mL with treatment response",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cabozantinib dose reduced to 20mg daily due to palmar-plantar erythrodysesthesia and fatigue",
+          "year": 2023
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows enlarging liver metastases and new peritoneal nodules",
+          "year": 2024
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Calcitonin increased to 4500 pg/mL",
+          "year": 2024
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2 due to fatigue and liver capsular pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant discomfort and early satiety"
+      },
+      {
+        "type": "current_symptom",
+        "value": "6kg weight loss over last 2 months"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender hepatomegaly extending 4cm below costal margin, no ascites"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Blood pressure stable at 125/75 mmHg with no evidence of catecholamine excess"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic medullary thyroid cancer with progressive liver disease and rising calcitonin despite cabozantinib. Deteriorating performance status with increasing symptoms."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on cabozantinib with enlarging liver metastases and new peritoneal disease"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Significant palmar-plantar erythrodysesthesia and fatigue on cabozantinib requiring dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing cabozantinib due to progression, planning to start vandatinib 300mg daily"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 2 with increasing fatigue and liver pain"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT imaging after 8 weeks of vandatinib therapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks to check tolerance of new medication, weekly BP monitoring, referral to palliative care team"
+      }
+    ]
+  }
+}

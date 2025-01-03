@@ -1,0 +1,94 @@
+{
+  "content": "I reviewed [redacted name] today following recent CT imaging which unfortunately shows disease progression. She was diagnosed with metastatic pancreatic adenocarcinoma in January 2024, initially presenting with a 4.2cm mass in the body of pancreas with multiple liver metastases and three small lung nodules. Molecular profiling identified a TSC1/TSC2 mutation. She commenced first-line FOLFIRINOX chemotherapy in February 2024, completing 4 cycles with initial stable disease but requiring two dose reductions due to grade 3 neutropenia and peripheral neuropathy. By cycle 4, she had developed grade 2 fatigue and grade 2 diarrhea requiring treatment delays.\n\nUnfortunately, restaging CT in April 2024 showed disease progression with 30% increase in size of pancreatic primary (now 5.5cm) and new liver metastases. Her CA19-9 has risen from 1200 to 4500. Her performance status has declined from ECOG 1 to ECOG 2-3, spending approximately 60% of the day resting. She describes worsening abdominal pain requiring increased opioid analgesia, with current daily requirements of MST 60mg BD and Oramorph 20mg PRN 2-3 times daily. She has developed early satiety and has lost 4kg in the last month despite dietetic support.\n\nOn examination today, she appears cachectic with marked peripheral muscle wasting. There is a palpable epigastric mass and tender hepatomegaly extending 4cm below the costal margin. She has peripheral edema to mid-calf bilaterally. Blood tests show deteriorating liver function with bilirubin 45, ALT 156, ALP 445. Her albumin has dropped to 28.\n\nGiven her declining performance status and rapid disease progression through first-line therapy, I have had a detailed discussion regarding prognosis and treatment options. While second-line therapy with gemcitabine/nab-paclitaxel could be considered, the risks of further deterioration likely outweigh potential benefits. We have agreed to focus on symptom control and quality of life, with referral to specialist palliative care. I have arranged urgent review by our supportive care team for optimization of pain control and management of early satiety. We will continue close monitoring with telephone support from our specialist nurses and arrange home visit by our community palliative care team.\n\nI have discussed the case with our palliative care consultant who will arrange urgent outpatient review. We have provided emergency contact numbers and written information about accessing 24-hour support. Blood tests and clinical review will be arranged weekly through our supportive care clinic to monitor symptoms and optimize supportive medications.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas, body",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple liver metastases, three small lung nodules",
+      "other_stage": "Stage IV",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "TSC1/TSC2 mutation",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "4.2cm mass in body of pancreas with multiple liver metastases and lung nodules at diagnosis",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Two dose reductions of FOLFIRINOX due to grade 3 neutropenia and peripheral neuropathy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 increased from 1200 to 4500",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with 30% increase in pancreatic primary to 5.5cm and new liver metastases",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from ECOG 1 to ECOG 2-3, spending 60% of day resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening abdominal pain requiring MST 60mg BD and Oramorph 20mg PRN"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety with 4kg weight loss in last month"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with peripheral muscle wasting, palpable epigastric mass, hepatomegaly 4cm below costal margin, bilateral peripheral edema"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45, ALT 156, ALP 445, albumin 28"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic cancer with rapid progression through first-line FOLFIRINOX and declining performance status. Decision made to transition to palliative care focus"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on CT with 30% increase in primary tumor and new liver metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 fatigue and diarrhea requiring treatment delays"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy due to disease progression and poor performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant functional decline with transition to ECOG PS 2-3"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to specialist palliative care team and weekly supportive care clinic review"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "content": "Diagnosis:\tTriple negative breast cancer with brain and bone metastases\n\tInitial presentation March 2023 with T4 locally advanced right breast cancer\n\tMixed mucinous and ductal carcinoma, grade 3\n\tPDL1 100%, high TILs (80%), androgen receptor positive\n\tStaging confirmed N3 disease with multiple bone metastases\n\tBrain metastases diagnosed September 2023\n?\nI reviewed [redacted name] today following admission last week with headaches and ataxia. Unfortunately imaging confirms progression of brain metastases despite previous stereotactic radiotherapy, with the right cerebellar lesion now measuring 3.2cm (previously 1.8cm) and development of two new frontal lesions. There is also progression in bone disease with new T4 vertebral body involvement causing cord compression requiring urgent radiotherapy.\n?\nShe has completed 6 cycles of carboplatin/gemcitabine with initial good response but subsequent progression. Previous treatments include 4 cycles of dose-dense AC followed by weekly paclitaxel/atezolizumab until August 2023, discontinued due to immune-mediated hepatitis. She received stereotactic radiotherapy to initial brain metastases in October 2023.\n?\nCurrent symptoms include worsening headaches, particularly in the morning, with associated nausea. She describes increasing unsteadiness and right-sided weakness. Performance status has declined to ECOG 3. Examination shows new right-sided cerebellar signs and grade 3/5 power in right lower limb.\n?\nI have discussed the situation with [redacted name] and family. Given the rapid progression and poor performance status, we have agreed to focus on symptom control. I have commenced dexamethasone 8mg BD and referred urgently for whole brain radiotherapy. She will also receive emergency radiotherapy to T4 vertebra (8Gy single fraction). The acute oncology team will coordinate care with palliative services.\n?\nPlan:\n- Urgent whole brain RT\n- Emergency spinal RT\n- Increase dexamethasone to 8mg BD with PPI cover\n- Daily review by acute oncology team\n- Palliative care review arranged for tomorrow",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2023,
+      "month": 3,
+      "metastases": "multiple brain metastases, multiple bone metastases including T4 vertebra",
+      "tnm_stage": "T4N3M1",
+      "histopathology_status": "Mixed mucinous and ductal carcinoma, grade 3",
+      "biomarker_status": "Triple negative, PDL1 100%, TILs 80%, androgen receptor positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started dose-dense AC chemotherapy",
+          "year": 2023,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started weekly paclitaxel/atezolizumab",
+          "year": 2023,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Brain metastases diagnosed",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued paclitaxel/atezolizumab due to immune-mediated hepatitis",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Received stereotactic radiotherapy to brain metastases",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/gemcitabine",
+          "year": null,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Progression of brain metastases with right cerebellar lesion increased to 3.2cm and new frontal lesions",
+          "year": null,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "New T4 vertebral body involvement with cord compression",
+          "year": null,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Worsening headaches particularly in morning with associated nausea"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing unsteadiness and right-sided weakness"
+      },
+      {
+        "type": "performance_status",
+        "value": "ECOG 3"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Right-sided cerebellar signs and grade 3/5 power in right lower limb"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Triple negative breast cancer with progressive brain and bone metastases despite multiple lines of therapy. New neurological deterioration and cord compression requiring urgent radiotherapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with enlarging brain metastases and new spinal cord compression"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Commenced dexamethasone 8mg BD, planned whole brain radiotherapy and emergency spinal radiotherapy"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Declined to ECOG PS 3 with new neurological deficits"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Daily review by acute oncology team"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review arranged for tomorrow"
+      }
+    ]
+  }
+}

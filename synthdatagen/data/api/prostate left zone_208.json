@@ -1,0 +1,117 @@
+{
+  "content": "Diagnosis:\n\nMetastatic prostate adenocarcinoma with neuroendocrine differentiation\n\nPrevious treatment:\nRadical prostatectomy March 2023\nADT with Goserelin from April 2023\nDocetaxel chemotherapy May-September 2023\nCabazitaxel October-December 2023\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nOsteoarthritis right hip\n\nCurrent medications:\nGoserelin 10.8mg implant\nDexamethasone 2mg daily\nZolendronic acid monthly\nFentanyl patch 50mcg/hr\nOxycodone 5mg prn\nMetformin 1g bd\nRamipril 5mg od\n\nCurrent situation:\nProgressive disease with rising Chromogranin A\nPSA 2.1 (previously 1.8)\nNew liver metastases on recent CT\n\nI reviewed [redacted name] today who attended with his wife. Unfortunately, his disease has progressed significantly since our last review. Recent CT imaging shows multiple new liver metastases, the largest measuring 4.2cm in segment 7, along with progression of known bone metastases particularly in the thoracic spine. His Chromogranin A has risen from 450 to 890 over 6 weeks, though PSA remains relatively stable at 2.1 (previously 1.8).\n\nHis performance status has declined to ECOG 2-3, spending approximately 50% of the day resting. He describes increasing bone pain despite recent uptitration of fentanyl patch to 50mcg/hr. His appetite has deteriorated with early satiety and he has lost 4kg in the last month. Examination shows tender hepatomegaly 4cm below costal margin and new percussion tenderness over T8.\n\nGiven the clear evidence of disease progression with neuroendocrine features, I have discussed starting carboplatin and etoposide chemotherapy. We reviewed the aims, schedule and potential side effects in detail. [redacted name] understands this is palliative treatment aimed at controlling symptoms and hopefully slowing disease progression. I have arranged urgent MRI spine to assess for cord compression risk at T8, and referred to the palliative care team for additional support with symptom control.\n\nThe plan is to commence carboplatin AUC 5 and etoposide 100mg/m2 next week, pending MRI results and stable blood parameters. We will review after cycle 1 to assess tolerability. I have also requested weekly district nurse support for breakthrough pain management.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, left zone",
+      "year": 2023,
+      "month": 3,
+      "metastases": "multiple liver metastases, bone metastases in thoracic spine",
+      "histopathology_status": "adenocarcinoma with neuroendocrine differentiation",
+      "biomarker_status": "PSA 2.1, Chromogranin A 890 (rising from 450)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Radical prostatectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started ADT with Goserelin",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Docetaxel chemotherapy",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed Docetaxel chemotherapy",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Cabazitaxel chemotherapy",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed Cabazitaxel chemotherapy",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Multiple new liver metastases detected on CT, largest 4.2cm in segment 7, with progression of bone metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Chromogranin A risen from 450 to 890 over 6 weeks, PSA 2.1 (previously 1.8)"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Osteoarthritis right hip"
+      },
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2-3, spending approximately 50% of day resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing bone pain requiring fentanyl patch 50mcg/hr"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety with 4kg weight loss in last month"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender hepatomegaly 4cm below costal margin and percussion tenderness over T8"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic prostate cancer with neuroendocrine differentiation showing significant progression with new liver metastases and rising tumor markers. Deteriorating performance status with increasing symptoms."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with new liver metastases and rising Chromogranin A"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence carboplatin AUC 5 and etoposide 100mg/m2"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 2-3 with increasing pain and weight loss"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess for cord compression risk at T8"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to palliative care team and arranged weekly district nurse support"
+      }
+    ]
+  }
+}

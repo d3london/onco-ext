@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\tMetastatic prostate adenocarcinoma with mixed small cell features\n\nManagement:\tJan 2024 Started Docetaxel/ADT\n\t\tMarch 2024 Emergency admission with seizures - brain metastases identified\n\t\tMarch 2024 Whole brain radiotherapy 20Gy/5#\n\nCurrent Status:\tProgressive disease with neurological deterioration\n\nI reviewed [redacted name] today who was accompanied by his wife and daughter. Unfortunately, his condition has significantly deteriorated since our last review. His performance status has declined from 1 to 3, and he is now predominantly bed-bound requiring assistance with most activities of daily living. He has experienced increased confusion and unsteady gait despite completing whole brain radiotherapy last month. His wife reports he has fallen twice in the past week.\n\nHis bone pain has also worsened, particularly in the thoracic spine and left hip, now requiring regular breakthrough analgesia. Recent blood tests show PSA has risen further to 892 despite castrate testosterone levels. Latest CT shows progressive bone metastases and new liver lesions. MRI brain shows mixed response to radiotherapy with some lesions showing progression.\n\nGiven the rapid progression and emergence of mixed small cell features on recent biopsy, I have discussed his case with colleagues. We recommend transitioning to platinum-based chemotherapy with carboplatin/etoposide. However, given his current performance status, we need to carefully consider his fitness for further systemic therapy.\n\nI have referred him to our palliative care team for urgent review and arranged admission to our oncology ward for assessment and symptom control. We will review treatment options once his symptoms are better controlled. I have also arranged an urgent OT assessment and increased his dexamethasone to 8mg BD.\n\nHis wife understands the seriousness of the situation and agrees with focusing on symptom control as the immediate priority.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate",
+      "year": 2024,
+      "histopathology_status": "adenocarcinoma with mixed small cell features",
+      "metastases": "bone metastases, brain metastases, new liver lesions",
+      "biomarker_status": "PSA 892, castrate testosterone levels",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Docetaxel with ADT",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Emergency admission with seizures - brain metastases identified",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed whole brain radiotherapy 20Gy in 5 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA risen to 892 despite castrate testosterone levels",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive bone metastases and new liver lesions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows mixed response to radiotherapy with some lesions showing progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status deteriorated from 1 to 3, now predominantly bed-bound"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increased confusion and unsteady gait"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain in thoracic spine and left hip requiring regular breakthrough analgesia"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires assistance with most activities of daily living, fallen twice in past week"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic prostate cancer with mixed small cell features showing rapid progression with new liver metastases and deteriorating neurological status despite recent whole brain radiotherapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with rising PSA, progressive bone metastases, new liver lesions, and mixed response in brain metastases"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status from 1 to 3, now predominantly bed-bound"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Recommended transition to carboplatin/etoposide pending improvement in clinical status"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team review and admission to oncology ward arranged"
+      }
+    ]
+  }
+}

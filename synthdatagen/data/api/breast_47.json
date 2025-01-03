@@ -1,0 +1,99 @@
+{
+  "content": "Diagnosis\n\t1. Metaplastic breast carcinoma with chondroid differentiation\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNot appropriate - T4 disease at presentation\n\n\tChemotherapy\n\t1. Jan-Mar 2024: 3 cycles carboplatin/gemcitabine\n\t2. Apr 2024: Single agent weekly paclitaxel\n\n\tRadiotherapy\n\t1. Mar 2024: Whole brain radiotherapy 20Gy in 5#\n\t2. Apr 2024: Palliative radiotherapy to T7 vertebra 8Gy single fraction\n\n\tCurrent disease status\n\tProgressive disease in liver, bone, and brain\n\n\tCurrent issues\n\t1. Deteriorating mobility and performance status\n\t2. Increasing liver pain\n\t3. Confusion and headaches\n\n\tSummary of consultation\n\tUnfortunately [redacted name] has experienced significant clinical deterioration over the past 2 weeks. Her liver metastases have progressed on imaging with corresponding rise in LFTs (ALT 156, ALP 432). She reports worsening right upper quadrant pain requiring increased opioid doses. Her confusion has worsened despite completed whole brain radiotherapy, with new onset headaches suggesting possible cerebral disease progression. Performance status has declined to ECOG 3.\n\nOn examination today, she is confused (abbreviated mental test 6/10) with right upper quadrant tenderness and hepatomegaly. There is reduced air entry at right lung base. She requires wheelchair assistance.\n\nGiven her declining performance status and disease progression on two lines of chemotherapy, I have had a detailed discussion with [redacted name] and her family about focusing on symptom control. We have agreed to discontinue systemic anti-cancer therapy.\n\n\tFurther investigations\n\tNone indicated\n\n\tMedication changes\n\t1. Increased MST to 60mg BD\n\t2. Added dexamethasone 4mg BD\n\t3. Commenced cyclizine 50mg TDS\n\n\tFollow up\n\t1. Urgent referral to palliative care team\n\t2. Hospital palliative care review tomorrow\n\t3. No further oncology follow-up planned\n\n\tRequired GP actions\n\tPlease support palliative care in community\n\n\tInformation given to patient\n\tDiscussed disease progression and transition to palliative care approach with patient and family. Written information provided about local hospice services.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver, bone, and brain metastases",
+      "tnm_stage": "T4N3M1",
+      "histopathology_status": "Metaplastic carcinoma with chondroid differentiation",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/gemcitabine chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Whole brain radiotherapy 20Gy in 5 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed to single agent weekly paclitaxel due to disease progression",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T7 vertebra 8Gy single fraction",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Rising liver function tests - ALT 156, ALP 432",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued all systemic therapy due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, requiring wheelchair assistance"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Confusion with abbreviated mental test 6/10"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant pain requiring increased opioids"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Headaches"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Right upper quadrant tenderness with hepatomegaly"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry at right lung base"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metaplastic breast cancer with widespread metastases showing progression through two lines of chemotherapy with significant clinical deterioration"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease in liver, bone, and brain with clinical deterioration"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued all systemic anti-cancer therapy, transition to palliative care approach"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with confusion and reduced mobility"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team with hospital review tomorrow"
+      }
+    ]
+  }
+}

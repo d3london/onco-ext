@@ -1,0 +1,86 @@
+{
+  "content": "Diagnosis\n\t1. Lymphoepithelioma-like carcinoma of upper urinary tract with extensive nodal metastases\n\n\tDate of diagnosis\n\tMarch 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Mar 2024 Diagnostic laparoscopic biopsy of retroperitoneal mass\n\n\tRadiotherapy\n\tNot indicated at present\n\n\tChemotherapy\n\tNot yet commenced\n\n\tClinical studies\n\tEligible for ATLAS-UTuC trial (Phase II study of Atezolizumab in rare urological tumors)\n\n\tCurrent disease status\n\tProgressive disease with deteriorating performance status\n\n\tCurrent issues\n\tSignificant pain requiring opioid escalation\nFatigue\nWeight loss\n\n\tSummary of consultation\n\tThis 62-year-old gentleman was reviewed today in the clinical trials unit for consideration of the ATLAS-UTuC trial. He was diagnosed following investigation of flank pain and weight loss, with imaging revealing a 8.2cm right renal pelvic mass with extensive retroperitoneal and mediastinal lymphadenopathy. Biopsy confirmed lymphoepithelioma-like carcinoma. Molecular profiling has identified a TSC1 mutation.\n\nHe has experienced rapid clinical deterioration over the past month with increasing pain requiring escalation of opioids, now on MST 60mg BD. His performance status has declined from ECOG 1 to ECOG 2. Recent CT on 12/4/24 shows disease progression with 20% increase in target lesions and new peritoneal deposits.\n\nHe meets all eligibility criteria for the ATLAS-UTuC trial. We discussed the trial protocol in detail, including the requirement for regular biopsies and additional imaging. The potential benefits and risks of immunotherapy in this rare tumor type were explained, including immune-related adverse events. He demonstrated good understanding of the trial requirements.\n\nBaseline trial assessments completed today include ECG, blood tests, and quality of life questionnaires. Trial-specific imaging is scheduled for next week. First treatment is planned for 25/4/24 subject to final eligibility confirmation.\n\n\tFurther investigations\n\tTrial-mandated CT chest/abdomen/pelvis 18/4/24\nBaseline brain MRI 19/4/24\n\n\tMedication prescribed\n\tMST 60mg BD continued\nOxycodone 5mg PRN for breakthrough pain\n\n\tFollow up\n\tTrial baseline visit scheduled 25/4/24\nWeekly review during first cycle\n\n\tRequired GP actions\n\tWeekly FBC, U&Es, LFTs during first cycle\nUrgent review if immune-related symptoms develop as per provided guidance",
+  "output": {
+    "primary_cancer": {
+      "site": "upper urinary tract, right renal pelvis",
+      "year": 2024,
+      "month": 3,
+      "metastases": "extensive retroperitoneal and mediastinal lymphadenopathy, peritoneal deposits",
+      "tnm_stage": "T4N2M1",
+      "histopathology_status": "lymphoepithelioma-like carcinoma",
+      "biomarker_status": "TSC1 mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "8.2cm right renal pelvic mass with extensive retroperitoneal and mediastinal lymphadenopathy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Diagnostic laparoscopic biopsy of retroperitoneal mass",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Molecular profiling identified TSC1 mutation",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 20% increase in target lesions and new peritoneal deposits",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in ATLAS-UTuC trial of Atezolizumab, baseline assessments completed",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2, deteriorated from ECOG 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing pain requiring MST 60mg BD"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Weight loss"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT 12/4/24 shows 20% increase in target lesions with new peritoneal deposits"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Rapidly progressive lymphoepithelioma-like carcinoma of upper tract with extensive metastases. Deteriorating performance status, enrolled in immunotherapy trial"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Performance status deteriorated from ECOG 1 to ECOG 2 over past month"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Trial-mandated CT chest/abdomen/pelvis 18/4/24 and baseline brain MRI 19/4/24"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Trial baseline visit scheduled 25/4/24 with weekly review during first cycle"
+      }
+    ]
+  }
+}

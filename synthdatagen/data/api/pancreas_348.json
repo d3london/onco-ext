@@ -1,0 +1,104 @@
+{
+  "content": "Diagnosis:\nPancreatic ductal adenocarcinoma, Stage IIB (pT3N1M0)\nMSI-high status confirmed on molecular testing\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nIschaemic heart disease with previous NSTEMI 2019\n\nCurrent medications:\nMetformin 1g BD\nRamipril 5mg OD\nAspirin 75mg OD\nAtorvastatin 40mg OD\nPEG-G-CSF prophylaxis\n\nCurrent situation:\nCycle 4 of modified FOLFIRINOX completed 15 April 2024\n\nI reviewed [redacted name] today following completion of cycle 4 modified FOLFIRINOX. The treatment has been generally well-tolerated following our previous dose modifications. The grade 3 neutropenia we observed after cycle 2 has not recurred since initiating primary GCSF prophylaxis. His current performance status is 1, improved from 2 at diagnosis. The previous treatment-related diarrhea has resolved with supportive medications and the 20% dose reduction of 5-FU and Irinotecan instituted from cycle 3.\n\nHis CA19-9 has decreased from 1200 at diagnosis to 180 currently, suggesting good treatment response. Recent CT imaging on 10 April 2024 shows partial response with 40% reduction in pancreatic mass size from 4.8cm to 2.9cm, and resolution of previously noted peripancreatic nodes. His diabetes control has remained stable throughout treatment with no significant changes in insulin requirements.\n\nOn examination today, his jaundice has completely resolved. Abdominal examination reveals no masses or tenderness. His weight has stabilized at 72kg (up from nadir of 68kg) and appetite has significantly improved.\n\nThe plan is to proceed with cycles 5 and 6 at current doses, maintaining primary GCSF prophylaxis. We will then re-evaluate with CT and CA19-9 for consideration of surgical resection given the excellent treatment response. I have arranged MDT discussion for 29 April 2024 to review surgical options.\n\nNext oncology review scheduled before cycle 5 in 2 weeks with repeat blood tests including CA19-9. I have provided prescription for ongoing supportive medications including metoclopramide and loperamide.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "histopathology_status": "ductal adenocarcinoma",
+      "tnm_stage": "pT3N1M0",
+      "other_stage": "Stage IIB",
+      "biomarker_status": "MSI-high",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial CA19-9 1200",
+          "year": 2024
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started modified FOLFIRINOX chemotherapy",
+          "year": 2024
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Grade 3 neutropenia after cycle 2 leading to initiation of primary GCSF prophylaxis",
+          "year": 2024
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "20% dose reduction of 5-FU and Irinotecan from cycle 3 due to diarrhea",
+          "year": 2024
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 decreased to 180",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows partial response with 40% reduction in pancreatic mass from 4.8cm to 2.9cm, resolution of peripancreatic nodes",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed cycle 4 modified FOLFIRINOX",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Ischaemic heart disease with previous NSTEMI 2019"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 1, improved from 2 at diagnosis"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Jaundice resolved, no abdominal masses or tenderness"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight stabilized at 72kg, up from nadir of 68kg, appetite improved"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIB pancreatic adenocarcinoma showing good response to modified FOLFIRINOX with improving clinical status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response with 40% reduction in pancreatic mass and CA19-9 reduction from 1200 to 180"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Previous diarrhea resolved with supportive medications and dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing modified FOLFIRINOX with 20% dose reduction and primary GCSF prophylaxis"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MDT discussion 29 April 2024 to review surgical options"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review before cycle 5 in 2 weeks with blood tests including CA19-9"
+      }
+    ]
+  }
+}

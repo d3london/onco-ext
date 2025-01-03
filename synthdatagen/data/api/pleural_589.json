@@ -1,0 +1,100 @@
+{
+  "content": "Diagnosis:\tMalignant pleural mesothelioma (epithelioid type)\n\tDiagnosed March 2023 via VATS pleural biopsy\n\tInitial staging T3N2M0\n\tBAP1 negative, PD-L1 TPS 90%\n\nI reviewed [redacted name] today following his recent emergency admission with increasing dyspnoea and right-sided chest pain. Unfortunately, his latest CT thorax from 15/4/24 shows clear evidence of disease progression with increasing right pleural thickening, new mediastinal lymphadenopathy, and development of a loculated pleural effusion despite two previous therapeutic aspirations.\n\nHe completed 6 cycles of carboplatin/pemetrexed chemotherapy in October 2023 with initial good partial response, followed by maintenance pemetrexed. However, restaging in January 2024 showed early progression, leading to commencement of second-line immunotherapy with nivolumab. He received 4 cycles but has experienced further clinical and radiological progression.\n\nHis performance status has declined from ECOG 1 to ECOG 3 over the past month. He is now significantly dyspnoeic at rest, requiring 3L/min oxygen to maintain saturations above 92%. He reports increasing right-sided chest pain requiring regular oxycodone SR 30mg BD, with breakthrough short-acting oxycodone. His appetite has significantly decreased with 8kg weight loss over 6 weeks.\n\nOn examination today, there is significantly reduced air entry throughout the right hemithorax with stony dullness to percussion. Chest expansion is notably reduced on the right side. There is no clinical evidence of SVC obstruction or significant lymphadenopathy.\n\nGiven his deteriorating clinical status and clear evidence of disease progression through two lines of therapy, I have had a detailed discussion with [redacted name] and his wife about moving to a supportive care approach. I have made an urgent referral to the palliative care team for review of his symptoms, particularly his dyspnoea and pain. We have arranged for him to have a pleural drain insertion under ultrasound guidance tomorrow to help manage his effusion.\n\nI have prescribed additional breakthrough medications including oxycodone liquid 5mg/5ml for breakthrough pain and lorazepam 1mg sublingual PRN for episodes of severe breathlessness. His regular medications have been updated with an increase in sustained-release oxycodone to 40mg BD.\n\nWe will review him next week following pleural drainage and palliative care review. I have provided my direct contact details and those of our specialist nursing team. The acute oncology team are aware of his situation should he require emergency review.",
+  "output": {
+    "primary_cancer": {
+      "site": "pleural",
+      "year": 2023,
+      "month": 3,
+      "metastases": "widespread pleural disease, mediastinal lymphadenopathy",
+      "tnm_stage": "T3N2M0",
+      "histopathology_status": "epithelioid mesothelioma",
+      "biomarker_status": "BAP1 negative, PD-L1 TPS 90%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "VATS pleural biopsy confirming diagnosis",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/pemetrexed chemotherapy with good partial response",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles carboplatin/pemetrexed, switched to maintenance pemetrexed",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Restaging shows early disease progression",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started second-line nivolumab immunotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows increasing pleural thickening, new mediastinal nodes, loculated effusion",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, deteriorated from ECOG 1 over past month"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Significant dyspnoea at rest requiring 3L/min oxygen"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right-sided chest pain requiring regular oxycodone SR"
+      },
+      {
+        "type": "current_symptom",
+        "value": "8kg weight loss over 6 weeks with decreased appetite"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry throughout right hemithorax with stony dullness and reduced chest expansion"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Progressive mesothelioma following two lines of therapy with significant clinical deterioration. Transitioning to supportive care approach."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Clinical and radiological progression through nivolumab after 4 cycles"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing active treatment and transitioning to supportive care"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status with increasing oxygen requirements"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Pleural drain insertion under ultrasound guidance tomorrow"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care referral made, review planned for next week post-drainage"
+      }
+    ]
+  }
+}

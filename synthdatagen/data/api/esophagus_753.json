@@ -1,0 +1,98 @@
+{
+  "content": "Diagnosis:\tMetastatic adenocarcinoma of esophagus, T4bN2M1 with liver, bone, and brain metastases. HER2 positive, FGFR2 amplified.\n\nI reviewed [redacted name] today in the Upper GI oncology clinic, accompanied by his wife. Unfortunately, his most recent CT scan from 15/4/24 shows clear evidence of disease progression with enlarging liver metastases and new peritoneal deposits, despite initial response to first-line FLOT chemotherapy with trastuzumab. His brain MRI from 10/4/24 also shows progression of previously treated cerebellar metastasis.\n\nHe was diagnosed in December 2023 with a locally advanced lower esophageal adenocarcinoma extending into the diaphragmatic crura. Initial staging showed multiple liver metastases, bone metastases in T8 and L2 vertebrae, and a solitary right cerebellar metastasis. Molecular testing revealed HER2 positivity (IHC 3+) and FGFR2 amplification.\n\nHe completed stereotactic radiosurgery to the cerebellar metastasis in January 2024 and has received 4 cycles of modified FLOT chemotherapy with trastuzumab. Initial response assessment in February 2024 showed partial response in liver metastases and stable bone disease. However, he has experienced significant deterioration over the past 3 weeks with increasing fatigue, early satiety, and right upper quadrant discomfort. His performance status has declined from ECOG 1 to ECOG 2.\n\nOn examination today, there is tender hepatomegaly extending 4cm below the costal margin. He appears cachectic with obvious muscle wasting. Blood tests show rising tumor markers with CEA increased from 120 to 345 over 4 weeks.\n\nGiven the clear evidence of disease progression, we have discussed changing treatment strategy. I have recommended second-line treatment with FOLFIRI chemotherapy combined with ramucirumab, given the presence of both HER2 and FGFR2 alterations. I have explained the rationale, expected side effects, and likelihood of response. [redacted name] understands this represents a significant change in treatment approach but wishes to proceed.\n\nWe will arrange to start treatment next week, pending satisfactory blood results. I have also referred him to the palliative care team for additional support with symptom management. We will review him weekly during the first cycle to monitor tolerability. I have provided emergency contact details and warning symptoms to watch for.",
+  "output": {
+    "primary_cancer": {
+      "site": "esophagus, lower",
+      "year": 2023,
+      "month": 12,
+      "metastases": "multiple liver metastases, bone metastases in T8 and L2 vertebrae, right cerebellar metastasis, new peritoneal deposits",
+      "tnm_stage": "T4bN2M1",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "HER2 positive (IHC 3+), FGFR2 amplified",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Initial diagnosis with locally advanced lower esophageal tumor extending into diaphragmatic crura, multiple liver metastases, bone metastases, and cerebellar metastasis",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed stereotactic radiosurgery to cerebellar metastasis",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started modified FLOT chemotherapy with trastuzumab",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Partial response in liver metastases and stable bone disease on initial response assessment",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows disease progression with enlarging liver metastases and new peritoneal deposits",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Brain MRI shows progression of previously treated cerebellar metastasis",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA increased from 120 to 345 over 4 weeks",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from ECOG 1 to ECOG 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing fatigue, early satiety, and right upper quadrant discomfort"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender hepatomegaly extending 4cm below costal margin, cachectic with obvious muscle wasting"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Rising CEA from 120 to 345 over 4 weeks"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic esophageal adenocarcinoma with initial response to first-line therapy now showing clear disease progression across multiple sites with declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on FLOT/trastuzumab with enlarging liver metastases, new peritoneal deposits, and progression of brain metastasis"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Changing to second-line FOLFIRI chemotherapy with ramucirumab"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Performance status deteriorated from ECOG 1 to ECOG 2 with increasing symptoms"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review during first cycle of new treatment, referral to palliative care team"
+      }
+    ]
+  }
+}

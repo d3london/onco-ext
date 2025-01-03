@@ -1,0 +1,80 @@
+{
+  "content": "Diagnosis:\nProstate adenocarcinoma, clear cell type\nInitial diagnosis January 2024\nStage T1c N0 M0\nGleason 3+4=7\nPSA at diagnosis 4.2\nBRCA1/2 wild type\n\nPrevious medical history:\nHypertension\nType 2 diabetes\n\nCurrent medications:\nMetformin 1g BD\nRamipril 5mg OD\nBicalutamide 150mg OD\n\nCurrent situation:\nReview following 3 months of hormone therapy\n\nPSA now 0.8 (down from 4.2)\n\nTolerating treatment well with only grade 1 hot flushes\n\nI reviewed [redacted name] today in follow up clinic. He continues on bicalutamide monotherapy which was started in January 2024. His PSA has shown an excellent response, dropping from 4.2 to 0.8. Treatment tolerance has been good with only mild hot flushes reported. He maintains good energy levels and has continued his regular swimming. Clinical examination today shows no concerning features. The plan is to continue current treatment and arrange PSA monitoring in 6 weeks through his GP. We will review him again in clinic in 3 months with repeat PSA.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "T1cN0M0",
+      "other_stage": null,
+      "histopathology_status": "clear cell adenocarcinoma, Gleason 3+4=7",
+      "biomarker_status": "Initial PSA 4.2, BRCA1/2 wild type",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial PSA 4.2",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started bicalutamide 150mg daily",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA decreased to 0.8",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild hot flushes"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Maintains regular swimming"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage prostate cancer showing good biochemical response to hormone therapy with minimal side effects"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "PSA decreased from 4.2 to 0.8 after 3 months of bicalutamide"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 hot flushes"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing bicalutamide 150mg daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "PSA monitoring in 6 weeks through GP"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 months with repeat PSA"
+      }
+    ]
+  }
+}

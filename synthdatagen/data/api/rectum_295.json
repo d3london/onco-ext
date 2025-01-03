@@ -1,0 +1,84 @@
+{
+  "content": "I reviewed [redacted name] today in follow-up clinic following completion of adjuvant CAPOX chemotherapy for stage II rectal cancer in March 2024. The original diagnosis was made following investigation of altered bowel habit, leading to anterior resection on 15/12/23 which revealed a poorly differentiated adenocarcinoma, pT2N0M0, KRAS G13D mutated, HER2 negative. He completed 6 cycles of adjuvant CAPOX with the final cycle given at 75% dose due to grade 2 peripheral neuropathy.\n\nAt today's review, he reports ongoing pins and needles affecting his fingers and toes, though this has improved since completing chemotherapy. His bowel function has normalized with 2-3 formed motions daily. He has regained 2kg of weight over the past month and his appetite is good. Performance status remains 0.\n\nOn examination, his abdomen is soft and non-tender with well-healed surgical scars. Digital rectal examination shows normal tone with no masses. Recent bloods show stable CEA at 2.4 (previously 2.2). CT scan performed last week shows no evidence of recurrence.\n\nThe plan is to continue regular surveillance with 3-monthly CEA measurements and 6-monthly CT scans. I have arranged follow-up in 3 months with repeat CEA prior to review. He understands to contact us sooner if any new symptoms develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "rectum",
+      "year": 2023,
+      "month": 12,
+      "metastases": null,
+      "tnm_stage": "pT2N0M0",
+      "other_stage": "Stage II",
+      "histopathology_status": "poorly differentiated adenocarcinoma",
+      "biomarker_status": "KRAS G13D mutation, HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "anterior resection",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "commenced adjuvant CAPOX chemotherapy",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "final cycle CAPOX given at 75% dose due to grade 2 peripheral neuropathy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA stable at 2.4 (previously 2.2)",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of recurrence",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "pins and needles affecting fingers and toes, improving since completing chemotherapy"
+      },
+      {
+        "type": "current_symptom",
+        "value": "normalized bowel function with 2-3 formed motions daily"
+      },
+      {
+        "type": "examination_finding",
+        "value": "soft non-tender abdomen with well-healed surgical scars, normal tone on digital rectal examination with no masses"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage II rectal cancer post surgery and adjuvant chemotherapy. Currently well with improving chemotherapy-related neuropathy and no evidence of recurrence"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "grade 2 peripheral neuropathy, improving since treatment completion"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CEA measurements every 3 months and CT scans every 6 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "review in clinic in 3 months with repeat CEA"
+      }
+    ]
+  }
+}

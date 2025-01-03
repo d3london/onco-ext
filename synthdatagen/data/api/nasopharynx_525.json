@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\tNasopharyngeal carcinoma, EBV positive, Stage II (T2N0M0)\n\nInitial treatment completed March 2024 with radical chemoradiotherapy (70Gy in 35 fractions with concurrent weekly cisplatin).\n\nI reviewed [redacted name] today for first follow-up post-treatment. He has made an excellent recovery from therapy with gradual improvement in acute side effects. His swallowing has returned to normal and he is maintaining a regular diet. Mild xerostomia persists but is manageable with regular sips of water. His taste sensation is slowly returning. Weight has stabilized at 72kg.\n\nOn examination today, there is complete resolution of the previously noted right cervical lymphadenopathy. Nasendoscopy shows expected post-radiation changes but no concerning features.\n\nMRI neck performed last week shows complete radiological response with no residual disease identified. Post-treatment EBV DNA is now undetectable.\n\nThe plan is to continue regular follow-up. I have arranged the next MRI scan for 3 months' time with concurrent clinic review. I have provided written information about post-treatment surveillance and symptoms that should prompt earlier review. [redacted name] understands to contact us if any concerns develop in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "nasopharynx",
+      "year": 2024,
+      "month": 3,
+      "tnm_stage": "T2N0M0",
+      "other_stage": "Stage II",
+      "histopathology_status": "undifferentiated carcinoma",
+      "biomarker_status": "EBV positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced concurrent weekly cisplatin with radiotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radical radiotherapy 70Gy in 35 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Post-treatment EBV DNA undetectable",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI neck shows complete radiological response with no residual disease",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild xerostomia managed with regular sips of water"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Complete resolution of right cervical lymphadenopathy"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Nasendoscopy shows expected post-radiation changes without concerning features"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage II nasopharyngeal carcinoma treated with radical chemoradiotherapy. Complete clinical and radiological response with improving treatment-related symptoms"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Complete radiological response on MRI with undetectable EBV DNA"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild persistent xerostomia with improving taste sensation"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI scan in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review with MRI results in 3 months"
+      }
+    ]
+  }
+}

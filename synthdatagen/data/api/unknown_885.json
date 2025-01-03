@@ -1,0 +1,84 @@
+{
+  "content": "Diagnosis:\nMetastatic squamous cell carcinoma of unknown primary origin with pleural and peritoneal involvement\n\nStaging:\nStage IVB disease\nCD117 positive on immunohistochemistry\nDiagnosis confirmed January 2024\n\nTreatment history:\nCycles 1-3 carboplatin/gemcitabine completed March 2024\nPartial response on CT imaging April 2024\n\nCurrent situation:\nSeen today for treatment review\nStable radiological disease but deteriorating symptoms\nIncreasing breathlessness and abdominal discomfort\nPerformance status declined from 1 to 2\n\nClinical assessment:\nNew right pleural effusion requiring drainage\nOxygen saturations 92% on room air\nMild peripheral edema\n\nPlan:\nDiscontinue carboplatin/gemcitabine due to clinical deterioration\nCommence weekly paclitaxel 80mg/m2\nPleural drainage to be arranged\nFollow up in 2 weeks with repeat CT chest/abdomen/pelvis",
+  "output": {
+    "primary_cancer": {
+      "site": "unknown primary",
+      "year": 2024,
+      "month": 1,
+      "metastases": "pleural and peritoneal involvement",
+      "other_stage": "Stage IVB",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "CD117 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/gemcitabine chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 3 cycles carboplatin/gemcitabine",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing partial response to treatment",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Development of new right pleural effusion",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 2, deteriorated from PS 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing breathlessness and abdominal discomfort"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Right pleural effusion with oxygen saturations 92% on room air"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Mild peripheral edema"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IVB squamous cell carcinoma of unknown primary with pleural and peritoneal metastases. Clinical deterioration despite initial partial response to carboplatin/gemcitabine"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable radiological disease but clinical deterioration with new pleural effusion"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing carboplatin/gemcitabine due to clinical deterioration, switching to weekly paclitaxel 80mg/m2"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status from PS 1 to PS 2"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat CT chest/abdomen/pelvis in 2 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 2 weeks with imaging"
+      }
+    ]
+  }
+}

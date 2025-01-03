@@ -1,0 +1,77 @@
+{
+  "content": "Diagnosis\n\t1. Right breast adenoid cystic carcinoma\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Right wide local excision and sentinel lymph node biopsy\n\n\tChemotherapy\n\t1 Mar 2024 - 15 May 2024 Weekly Paclitaxel\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tStable disease with solitary lung metastasis\n\n\tCurrent issues\n\tGrade 2 peripheral neuropathy\n\n\tSummary of consultation\n\t[redacted name] attended clinic today for review. She has completed 12 weeks of weekly paclitaxel. Unfortunately she has developed significant peripheral neuropathy affecting her hands and feet, impacting her daily activities. Her most recent CT scan from 20/5/24 shows stable appearance of the right lower lobe lung metastasis measuring 2.2cm (previously 2.3cm).\n\nGiven the neuropathy and achievement of disease stability, we have discussed changing treatment strategy. We will discontinue paclitaxel and commence oral capecitabine. I have explained the schedule and side effects of capecitabine, particularly hand-foot syndrome and diarrhea.\n\n\tFurther investigations\n\tCT chest/abdomen/pelvis in 3 months\n\n\tMedication prescribed\n\tCapecitabine 1000mg/m2 BD D1-14 q21 days\n\n\tFollow up\n\tNext oncology follow up in 3 weeks with blood tests\n\n\tRequired GP actions\n\tPlease monitor renal function monthly",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "right lower lobe lung metastasis",
+      "histopathology_status": "adenoid cystic carcinoma",
+      "biomarker_status": "Triple negative, BRCA negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right wide local excision and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started weekly Paclitaxel",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 12 weeks of weekly paclitaxel",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows stable right lower lobe lung metastasis measuring 2.2cm (previously 2.3cm)",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing paclitaxel due to neuropathy, commencing capecitabine",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "peripheral neuropathy affecting hands and feet, impacting daily activities"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Right breast adenoid cystic carcinoma with stable solitary lung metastasis. Changing treatment from paclitaxel to capecitabine due to treatment-limiting neuropathy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease with lung metastasis measuring 2.2cm (previously 2.3cm)"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 peripheral neuropathy affecting hands and feet"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing paclitaxel, starting capecitabine 1000mg/m2 BD D1-14 q21 days"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in oncology clinic in 3 weeks with blood tests"
+      }
+    ]
+  }
+}

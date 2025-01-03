@@ -1,0 +1,106 @@
+{
+  "content": "Diagnosis\n\t1. Metastatic prostate cancer with rhabdoid differentiation\n\t   Diagnosed January 2024\n\t   Stage IV disease with brain metastases and spinal cord compression\n\t   Treatment aim: Palliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Emergency T8-T10 decompressive laminectomy\n\n\tRadiotherapy\n\t20 Jan 2024 Emergency whole brain radiotherapy 20Gy in 5 fractions\n\t25 Jan 2024 Post-operative thoracic spine radiotherapy 30Gy in 10 fractions\n\n\tChemotherapy\n\t1 Feb 2024 Commenced Docetaxel and ADT\n\t15 Mar 2024 Docetaxel discontinued after 3 cycles due to clinical deterioration\n\n\tClinical studies\n\tNot suitable\n\n\tCurrent disease status\n\tClinically progressive disease with deteriorating neurological function\n\n\tCurrent issues\n\t1. Progressive neurological deficit\n\t2. Severe fatigue\n\t3. Cognitive decline\n\n\tSummary of consultation\n\tI reviewed [redacted name] today who attended with his wife and daughter. Unfortunately, he has experienced significant clinical deterioration over the past two weeks. His mobility has worsened with increasing lower limb weakness, now requiring wheelchair for all transfers. He is spending >50% of time in bed (PS 3). New onset confusion and memory problems suggest progression of brain metastases despite previous WBRT.\n\nHis PSA has risen from 567 to 890 despite ADT. Recent molecular profiling shows RB1 and TP53 loss, suggesting evolution to treatment-resistant disease. MRI spine shows new epidural disease at C5-C6 despite previous radiotherapy to thoracic spine.\n\nOn examination, there is marked reduction in power of both lower limbs (3/5 proximally, 2/5 distally), with new left-sided upper limb weakness (4/5). Cognitive assessment shows significant deterioration with MMSE 18/30 (previously 26/30).\n\n\tFurther investigations\n\tUrgent MRI brain arranged for tomorrow\n\tRepeat CT CAP booked for next week if clinically appropriate\n\n\tMedication prescribed\n\tDexamethasone increased to 8mg BD\n\tIncreased opioid analgesia\n\n\tFollow up\n\tUrgent palliative care review arranged for tomorrow\n\tNeurosurgical opinion requested regarding C5-C6 compression\n\n\tRequired GP actions\n\tPlease arrange urgent community palliative care support\n\tConsider DS1500\n\n\tSummary of information given to patient and family\n\tDetailed discussion with family regarding disease progression and poor prognosis. Agreement to focus on symptom control and quality of life. DNR status confirmed.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate",
+      "year": 2024,
+      "month": 1,
+      "metastases": "brain metastases, spinal cord compression at T8-T10 and C5-C6",
+      "other_stage": "Stage IV",
+      "histopathology_status": "rhabdoid differentiation",
+      "biomarker_status": "RB1 and TP53 loss, PSA 890 (rising from 567)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Emergency T8-T10 decompressive laminectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Emergency whole brain radiotherapy 20Gy in 5 fractions",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Post-operative thoracic spine radiotherapy 30Gy in 10 fractions",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Docetaxel and ADT",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Docetaxel discontinued after 3 cycles due to clinical deterioration",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA risen from 567 to 890 despite ADT",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI spine shows new epidural disease at C5-C6",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 3, spending >50% of time in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing lower limb weakness requiring wheelchair for transfers"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset confusion and memory problems"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Severe fatigue"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Lower limbs power 3/5 proximally, 2/5 distally, new left-sided upper limb weakness 4/5"
+      },
+      {
+        "type": "examination_finding",
+        "value": "MMSE 18/30 (previously 26/30)"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Aggressive metastatic prostate cancer with rhabdoid features showing rapid progression despite initial multimodal treatment. Significant neurological deterioration with new cervical cord compression and progressive brain metastases"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with rising PSA from 567 to 890 despite ADT"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in mobility and cognition, now PS 3 and wheelchair dependent"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI brain tomorrow and CT CAP next week if appropriate"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review tomorrow and neurosurgical opinion requested"
+      }
+    ]
+  }
+}

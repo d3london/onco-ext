@@ -1,0 +1,81 @@
+{
+  "content": "Diagnosis:\tSmall cell carcinoma of prostate with widespread metastatic disease\n\nI reviewed [redacted name] today in the urgent assessment clinic. His disease has unfortunately shown clear evidence of progression despite two cycles of carboplatin/etoposide chemotherapy. The CT scan from 15/4/24 demonstrates enlarging liver metastases with the index lesion increasing from 3.2cm to 4.8cm, and new pulmonary nodules. His bone pain has significantly worsened, particularly in the thoracic spine, requiring increased opiate analgesia.\n\nHis performance status has declined to ECOG 3, spending most of the day in bed or chair. He reports increasing breathlessness on minimal exertion and early satiety. His weight has dropped by 4kg since last review 3 weeks ago.\n\nBlood tests show deteriorating liver function with bilirubin now 45, ALT 156, ALP 445. His chromogranin A has increased to 380 (previously 180) and NSE is now 85.\n\nI have had a detailed discussion with [redacted name] and his wife about the rapid progression of disease and poor tolerance of first-line chemotherapy. Given his declining performance status and organ function, I have recommended discontinuing systemic anti-cancer therapy and focusing on symptom control. I have made an urgent referral to the palliative care team and arranged admission to the hospice for symptom management.\n\nHe will be reviewed by the palliative care team tomorrow. I have prescribed additional breakthrough analgesia and started dexamethasone 4mg daily. His regular medications have been adjusted accordingly.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, left zone",
+      "metastases": "liver metastases, pulmonary nodules, bone metastases",
+      "histopathology_status": "small cell carcinoma",
+      "other_stage": "Stage IV",
+      "biomarker_status": "elevated chromogranin A 380, NSE 85",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/etoposide chemotherapy",
+          "year": 2024
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows enlarging liver metastases, index lesion increased from 3.2cm to 4.8cm, and new pulmonary nodules",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Deteriorating liver function with bilirubin 45, ALT 156, ALP 445, chromogranin A increased to 380, NSE 85",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued systemic anti-cancer therapy due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, spending most of day in bed or chair"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain particularly in thoracic spine"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Breathlessness on minimal exertion"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function tests, elevated neuroendocrine markers"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic small cell prostate cancer with rapid disease progression on first-line chemotherapy. Significant clinical deterioration with declining performance status."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression after two cycles of carboplatin/etoposide with enlarging liver metastases and new pulmonary nodules"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Declined to ECOG PS 3 with 4kg weight loss in 3 weeks"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued systemic therapy, started dexamethasone 4mg daily and increased breakthrough analgesia"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and arranged hospice admission for symptom management"
+      }
+    ]
+  }
+}

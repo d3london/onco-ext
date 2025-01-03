@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\tPilocytic astrocytoma of the posterior fossa\n\nHistology:\tWHO grade I pilocytic astrocytoma with KIAA1549-BRAF fusion detected\n\nCurrent Situation:\tPost-operative follow-up assessment\n\nI reviewed [redacted name] today following his recent posterior fossa surgery performed by [redacted name] on 15 March 2024. The operation achieved a gross total resection of the cerebellar lesion, and post-operative MRI on day 1 confirmed no residual enhancement. Histology has confirmed a WHO grade I pilocytic astrocytoma with molecular analysis detecting the KIAA1549-BRAF fusion.\n\nHe has made an excellent post-operative recovery with gradual improvement in his presenting symptoms of headache and ataxia. The initial post-operative nausea has now completely resolved. His parents report he has returned to his normal energy levels and has resumed most daily activities. He remains off school but is keen to return.\n\nOn examination today, his surgical wound has healed well. His cranial nerve examination is normal. There is mild residual ataxia on heel-shin testing but this has significantly improved since the immediate post-operative period. His gait is now steady and he can walk unaided.\n\nGiven the complete resection and favourable histology, we have discussed that no adjuvant treatment is required. The plan is for surveillance MRI scanning, with the first scan scheduled for 3 months' time. I have provided the family with written information about pilocytic astrocytoma and answered their questions about prognosis, which is excellent given the complete resection.\n\nWe will review him again following the surveillance MRI in 3 months' time. I have also made a referral to our neuro-oncology specialist nurse who will provide ongoing support and education.",
+  "output": {
+    "primary_cancer": {
+      "site": "brain, posterior fossa, cerebellum",
+      "year": 2024,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": null,
+      "other_stage": "WHO grade I",
+      "histopathology_status": "pilocytic astrocytoma",
+      "biomarker_status": "KIAA1549-BRAF fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Posterior fossa surgery achieving gross total resection",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Post-operative MRI day 1 confirmed no residual enhancement",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirmed WHO grade I pilocytic astrocytoma with KIAA1549-BRAF fusion",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild residual ataxia on heel-shin testing"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Surgical wound well healed, cranial nerve examination normal"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Steady gait, able to walk unaided"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "WHO grade I pilocytic astrocytoma of posterior fossa, completely resected. Excellent post-operative recovery with improving neurological symptoms"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "No adjuvant treatment required given complete resection and favourable histology"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance MRI scheduled for 3 months' time"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review following surveillance MRI in 3 months, referral made to neuro-oncology specialist nurse"
+      }
+    ]
+  }
+}

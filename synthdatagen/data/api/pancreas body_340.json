@@ -1,0 +1,92 @@
+{
+  "content": "Diagnosis:\tLocally advanced anaplastic pancreatic carcinoma with widespread metastatic disease\n\nManagement:\t2024-01-15 Commenced FOLFIRINOX\n\t\t2024-02-10 Changed to Gemcitabine/Nab-paclitaxel due to toxicity\n\t\t2024-03-01 Palliative radiotherapy to T12 metastasis\n\nHistology:\tAnaplastic carcinoma of pancreas, p53 diffusely positive\n\nCurrent Situation:\tDisease progression on second-line chemotherapy\n\nI reviewed [redacted name] today who has unfortunately experienced significant clinical deterioration over the past three weeks. Despite initial disease stabilization with Gemcitabine/Nab-paclitaxel, recent CT imaging shows clear evidence of disease progression with increasing size of liver metastases and new peritoneal deposits. The pancreatic primary has also increased from 6.8cm to 8.2cm with new invasion of the splenic vessels.\n\nShe reports worsening abdominal pain requiring increased doses of opiates, with breakthrough pain despite being on MST 60mg BD and Oxycodone 5mg PRN. Her appetite has significantly declined with 6kg weight loss over the past month. She is now spending more than 50% of the day in bed (PS 3) and requiring additional support at home.\n\nHer CA19-9 has risen markedly from 2500 to 8900 over the past 6 weeks, correlating with the radiological progression. Recent bloods show deteriorating liver function with bilirubin 45, ALT 156, ALP 445.\n\nAfter careful discussion with [redacted name] and her daughter, we have agreed to discontinue systemic anti-cancer therapy given the clear evidence of disease progression and declining performance status. I have made an urgent referral to the palliative care team and arranged community support. We have discussed symptom management strategies and I have increased her MST to 90mg BD with breakthrough Oxycodone increased to 10mg PRN.\n\nI have arranged weekly telephone follow-up with our specialist nurse team and will review her in clinic in 2 weeks, or sooner if needed. The acute oncology team are aware and will provide additional support as required.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas body",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver metastases, peritoneal deposits, T12 bone metastasis",
+      "other_stage": "Stage IV",
+      "histopathology_status": "anaplastic carcinoma",
+      "biomarker_status": "p53 diffusely positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced FOLFIRINOX",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed from FOLFIRINOX to Gemcitabine/Nab-paclitaxel due to toxicity",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T12 metastasis",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with increasing liver metastases, new peritoneal deposits, primary increased to 8.2cm with splenic vessel invasion",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 risen from 2500 to 8900 over 6 weeks",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued systemic therapy due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 3, spending more than 50% of day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening abdominal pain requiring increased opiate doses"
+      },
+      {
+        "type": "current_symptom",
+        "value": "6kg weight loss over past month"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45, ALT 156, ALP 445"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV anaplastic pancreatic cancer with rapid progression through second-line therapy. Significant clinical deterioration with declining performance status requiring transition to palliative care."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on imaging with increasing size of liver metastases, new peritoneal deposits, and primary tumor growth"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Systemic therapy discontinued, MST increased to 90mg BD and breakthrough Oxycodone increased to 10mg PRN"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to PS 3 requiring additional support at home"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care referral, weekly specialist nurse telephone follow-up, clinic review in 2 weeks"
+      }
+    ]
+  }
+}

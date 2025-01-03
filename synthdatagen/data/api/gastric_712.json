@@ -1,0 +1,83 @@
+{
+  "content": "Diagnosis:\tGastric adenocarcinoma\n\nManagement:\t15 Jan 2024 Total gastrectomy with D2 lymphadenectomy\n\t\t12 Feb 2024 - 25 Apr 2024 Adjuvant CAPOX chemotherapy\n\nHistology:\tModerately differentiated adenocarcinoma, pT3N2(5/15)M0, R0 resection\n\t\tMSI stable, EBV negative\n\nCurrent Situation:\tEnd of adjuvant treatment review\n\nI reviewed [redacted name] today following completion of adjuvant CAPOX chemotherapy. He has completed all 8 planned cycles, with the final cycle given at 75% dose due to cumulative fatigue and grade 2 peripheral neuropathy. Despite these challenges, he has maintained good nutritional status with support from our dietetics team, and his weight has stabilized at 68kg (pre-operative weight 72kg).\n\nHe describes gradual improvement in energy levels since completing chemotherapy three weeks ago, though continues to experience some tingling in his fingers and toes. His appetite remains reasonable with appropriate dietary modifications following his gastrectomy, and he is managing 5-6 small meals daily. He has returned to gentle walking and is gradually increasing his activity levels.\n\nOn examination today, his surgical wounds are well healed, and abdominal examination is unremarkable. His performance status is 1. Blood tests show stable parameters with hemoglobin 11.8 g/dL and normal renal and liver function.\n\nWe have discussed the completion of adjuvant treatment and ongoing surveillance plan. He will have a baseline CT chest/abdomen/pelvis in 6 weeks' time, followed by regular surveillance scans at 6-monthly intervals for the first two years. I will review him in clinic with the scan results. He understands to contact us sooner if he develops any new concerning symptoms.\n\nI have provided written information about post-treatment surveillance and support services. He will continue under regular review with the surgical team and dietetics.",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "year": 2024,
+      "month": 1,
+      "tnm_stage": "pT3N2M0",
+      "histopathology_status": "Moderately differentiated adenocarcinoma, R0 resection, 5/15 lymph nodes positive",
+      "biomarker_status": "MSI stable, EBV negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total gastrectomy with D2 lymphadenectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant CAPOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Final cycle given at 75% dose due to cumulative fatigue and grade 2 peripheral neuropathy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 8 cycles of adjuvant CAPOX chemotherapy",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Tingling in fingers and toes"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Managing 5-6 small meals daily, gradually increasing activity levels"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Surgical wounds well healed, abdominal examination unremarkable"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Hemoglobin 11.8 g/dL, normal renal and liver function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Gastric cancer post-surgery and adjuvant chemotherapy. Completed planned treatment with dose reduction due to toxicity. Currently stable with improving symptoms."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 peripheral neuropathy and cumulative fatigue requiring dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Completed all planned adjuvant treatment, now entering surveillance phase"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline CT chest/abdomen/pelvis in 6 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with scan results, ongoing surgical team and dietetics follow-up"
+      }
+    ]
+  }
+}

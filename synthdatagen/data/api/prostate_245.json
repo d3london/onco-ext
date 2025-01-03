@@ -1,0 +1,104 @@
+{
+  "content": "Diagnosis:\nMetastatic mixed adenocarcinoma-neuroendocrine carcinoma of prostate with choroidal and widespread bone metastases\n\nPrevious treatment:\nAndrogen deprivation therapy from January 2023\nDocetaxel 6 cycles completed March 2023\nCabazitaxel 4 cycles April-July 2023\nLu-PSMA 2 cycles August-September 2023\n\nCurrent status:\nClinical and radiological progression\nNew onset right eye visual disturbance\nPSA rising from 0.8 to 2.1\nCGA rising from 45 to 89\n\nRecent investigations:\nMRI orbits 12 October 2023 - new right choroidal metastasis 8mm\nCT scan 10 October 2023 - progression in bone metastases with new lesions in T4 and L2 vertebrae\nMolecular testing confirms AURKA amplification\n\nCurrent issues:\nRight eye visual disturbance\nIncreasing bone pain requiring oxycodone 40mg bd\nFatigue WHO PS 2\n\nAssessment:\nI reviewed [redacted name] today who has developed rapid progression of his castrate-resistant prostate cancer with mixed neuroendocrine features. He has new choroidal metastasis causing visual symptoms and progressive bone disease. Given the molecular profile showing AURKA amplification and aggressive clinical course, we will switch to platinum-based chemotherapy with carboplatin/etoposide. He understands the aims and risks of treatment. He will also require urgent radiotherapy to the right orbit.\n\nPlan:\n1. Commence carboplatin AUC 5 D1 and etoposide 100mg/m2 D1-3 q21 days\n2. Urgent referral for orbital radiotherapy\n3. Continue denosumab and ADT\n4. Review in 2 weeks with blood tests\n5. Repeat imaging after 2 cycles",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate",
+      "year": 2023,
+      "month": 1,
+      "metastases": "choroidal metastasis and widespread bone metastases including T4 and L2 vertebrae",
+      "other_stage": "M1c",
+      "histopathology_status": "mixed adenocarcinoma-neuroendocrine carcinoma",
+      "biomarker_status": "PSA 2.1, AURKA amplification positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started androgen deprivation therapy",
+          "year": 2023,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Completed 6 cycles of docetaxel",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started cabazitaxel chemotherapy",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 4 cycles of cabazitaxel",
+          "year": 2023,
+          "month": 7
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Lu-PSMA therapy, completed 2 cycles",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA rising from 0.8 to 2.1, CGA rising from 45 to 89",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression in bone metastases with new lesions in T4 and L2 vertebrae",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI orbits shows new right choroidal metastasis 8mm",
+          "year": 2023,
+          "month": 10
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "WHO PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right eye visual disturbance"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing bone pain requiring oxycodone 40mg bd"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Castrate-resistant prostate cancer with mixed neuroendocrine features showing rapid progression with new choroidal metastasis and progressive bone disease. Switching to platinum-based chemotherapy due to molecular profile and aggressive disease course"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Clinical and radiological progression with rising PSA and CGA markers"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence carboplatin AUC 5 D1 and etoposide 100mg/m2 D1-3 q21 days"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat imaging after 2 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks with blood tests, urgent referral for orbital radiotherapy"
+      }
+    ]
+  }
+}

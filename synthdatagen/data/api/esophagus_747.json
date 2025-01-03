@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis:\tLocally advanced esophageal basaloid squamous cell carcinoma\n\nManagement:\t15 Jan 2024 Commenced definitive chemoradiotherapy\n\t\tCisplatin/5FU with 50.4Gy in 28 fractions\n\nHistology:\tBasaloid squamous cell carcinoma\n\t\tp16 positive, PDL1 CPS 18\n\t\tStage T3N2M0\n\nCurrent Situation:\tWeek 4 of chemoradiotherapy\n\nI reviewed [redacted name] today during week 4 of his definitive chemoradiotherapy. He has completed cycle 2 of cisplatin/5FU chemotherapy and received fraction 20 of radiotherapy this morning. His treatment has progressed according to schedule with no delays. The patient reports gradually increasing dysphagia, now mainly for solids, but is maintaining adequate oral intake with dietary modifications and regular liquid nutritional supplements. His weight has remained stable at 72kg over the past two weeks.\n\nHe continues to work part-time from home during treatment, which he is managing well. His performance status remains 1. On examination today, there is some radiation-induced erythema across the anterior chest wall but no evidence of moist desquamation. Cardiorespiratory examination is unremarkable.\n\nThe latest blood results from this morning show stable renal function with creatinine clearance 68ml/min, adequate bone marrow function with neutrophils 2.1 and platelets 156. Liver function tests remain within normal range.\n\nThe plan is to proceed with cycle 3 chemotherapy next week as scheduled. We will continue with daily radiotherapy, aiming to complete the planned course of 50.4Gy in 28 fractions by 22nd February 2024. A CT scan will be arranged for response assessment at 8 weeks post-completion of chemoradiotherapy. We will review him again next week prior to cycle 3 chemotherapy.",
+  "output": {
+    "primary_cancer": {
+      "site": "esophagus",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "T3N2M0",
+      "histopathology_status": "basaloid squamous cell carcinoma",
+      "biomarker_status": "p16 positive, PDL1 CPS 18",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started definitive chemoradiotherapy with Cisplatin/5FU",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Commenced radiotherapy 50.4Gy in 28 fractions",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed cycle 2 cisplatin/5FU chemotherapy",
+          "year": 2024,
+          "month": 2
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Gradually increasing dysphagia mainly for solids"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Radiation-induced erythema across anterior chest wall, no moist desquamation"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function with creatinine clearance 68ml/min, neutrophils 2.1, platelets 156, normal liver function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced esophageal cancer undergoing definitive chemoradiotherapy. Tolerating treatment well with stable weight despite increasing dysphagia"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with planned chemoradiotherapy, proceeding to cycle 3 next week"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan for response assessment at 8 weeks post-completion of chemoradiotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review next week prior to cycle 3 chemotherapy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "content": "Diagnosis:\tLeft breast cancer - T4b N2 M1 invasive ductal carcinoma with bone, liver and brain metastases\n\nInitial diagnosis March 2023 with locally advanced disease. Commenced on primary endocrine therapy with Letrozole. Disease progression July 2023 requiring switch to Fulvestrant/Palbociclib. Further progression October 2023 with new liver metastases. Changed to Capecitabine November 2023. December 2023 developed headaches - MRI confirmed three cerebral metastases treated with stereotactic radiotherapy. Recent CT January 2024 shows mixed response with stable brain lesions post-radiotherapy but progressive liver and bone disease.\n\n[redacted name] attended today's clinic accompanied by her daughter. She has unfortunately experienced significant clinical deterioration over the past three weeks with worsening fatigue, right upper quadrant pain, and new onset confusion. Her performance status has declined from 2 to 3, and she now requires assistance with most activities of daily living. She reports poor appetite with 6kg weight loss over the past month despite nutritional supplements.\n\nIn her past medical history, she has type 2 diabetes managed with Metformin, and hypertension. Her current medications include Dexamethasone 4mg twice daily, Letrozole 2.5mg daily (continued despite progression), Denosumab monthly, and regular Oxycodone modified release 30mg twice daily with breakthrough immediate release Oxycodone.\n\nOn examination today, she appears cachectic with obvious muscle wasting. There is a fungating 8cm mass in the left breast with surrounding erythema and satellite nodules. The liver edge is palpable 4cm below the costal margin and tender. Neurological examination reveals mild confusion but no focal deficits.\n\nBlood tests show deteriorating liver function with bilirubin 45, ALT 156, ALP 445. CA15-3 has risen from 225 to 890.\n\nI have had a lengthy discussion with [redacted name] and her daughter about the significance of these findings. Given her declining performance status and progressive disease despite three lines of therapy, I have explained that further systemic anti-cancer treatment is unlikely to be beneficial and carries significant risks. We have agreed to focus on symptom control and quality of life.\n\nI have increased her dexamethasone to 4mg three times daily and arranged urgent palliative care review. I have discontinued the Capecitabine but will continue Denosumab for bone protection. She will be reviewed by our palliative care team tomorrow, and I have made a referral to the local hospice for support. We will review her again in our clinic in two weeks' time, or sooner if needed.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2023,
+      "month": 3,
+      "metastases": "bone, liver and brain metastases",
+      "tnm_stage": "T4bN2M1",
+      "histopathology_status": "invasive ductal carcinoma",
+      "biomarker_status": "ESR1 mutation, FGFR mutation, HER2 2+",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started primary endocrine therapy with Letrozole",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Disease progression, switched to Fulvestrant/Palbociclib",
+          "year": 2023,
+          "month": 7
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "New liver metastases identified",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed to Capecitabine due to disease progression",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI confirmed three cerebral metastases",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Stereotactic radiotherapy to brain metastases",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows mixed response - stable brain lesions but progressive liver and bone disease",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA15-3 increased from 225 to 890",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued Capecitabine due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 1
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status deteriorated from 2 to 3, requiring assistance with most activities"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes managed with Metformin"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening fatigue, right upper quadrant pain, new onset confusion"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Poor appetite with 6kg weight loss over past month"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with muscle wasting, fungating 8cm left breast mass with erythema and satellite nodules"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Liver edge palpable 4cm below costal margin and tender"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Mild confusion but no focal neurological deficits"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45, ALT 156, ALP 445"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic breast cancer with progressive disease in liver and bones despite multiple lines of therapy. Significant clinical deterioration with declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease in liver and bones with rising tumor markers despite treatment"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued Capecitabine, increased dexamethasone to 4mg three times daily, continuing Denosumab"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status from 2 to 3 with increasing care needs"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review arranged for tomorrow, referral made to local hospice"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "Diagnosis:\tCholangiocarcinoma, Stage IVA with widespread lymphadenopathy\n\nManagement:\t2023 Nov - Commenced Gemcitabine/Cisplatin\n\t\t2024 Jan - Changed to Pembrolizumab monotherapy (PDL1 TPS 90%)\n\nHistology:\tModerately differentiated adenocarcinoma of biliary tract origin\n\nCurrent Situation:\tCycle 4 Pembrolizumab review\n\nI reviewed [redacted name] today for assessment prior to cycle 4 of pembrolizumab. Recent CT imaging from 15/3/24 shows stable disease with no new sites of disease and slight reduction in size of porta hepatis nodes (previously 3.2cm, now 2.8cm). The mediastinal and retroperitoneal nodes remain unchanged. Liver function tests have normalized with bilirubin now 15 and ALT 42.\n\nShe is tolerating immunotherapy well with only grade 1 fatigue and occasional mild arthralgia. No features of immune-related adverse events. Performance status remains 1. Weight is stable at 68kg.\n\nOn examination, there is no clinical evidence of disease progression. Mild peripheral edema noted but no other new findings.\n\nThe plan is to continue with pembrolizumab today. Next CT scan will be due after cycle 6. We will review her again in 3 weeks with blood tests including TFTs and cortisol. She understands to contact us if any new symptoms develop, particularly those suggestive of immune-related toxicity.",
+  "output": {
+    "primary_cancer": {
+      "site": "biliary tract",
+      "year": 2023,
+      "tnm_stage": null,
+      "other_stage": "Stage IVA",
+      "histopathology_status": "moderately differentiated adenocarcinoma",
+      "biomarker_status": "PDL1 TPS 90%",
+      "metastases": "widespread lymphadenopathy affecting porta hepatis, mediastinal and retroperitoneal nodes",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Gemcitabine/Cisplatin",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed to Pembrolizumab monotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable disease with reduction in porta hepatis nodes from 3.2cm to 2.8cm, stable mediastinal and retroperitoneal nodes",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Liver function tests normalized with bilirubin 15 and ALT 42",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue and occasional mild arthralgia"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Mild peripheral edema, no clinical evidence of disease progression"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IVA cholangiocarcinoma on pembrolizumab with stable disease on imaging and good tolerability"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease with slight reduction in porta hepatis nodes"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and mild arthralgia, no immune-related adverse events"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with pembrolizumab cycle 4"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan after cycle 6, blood tests including TFTs and cortisol in 3 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks with blood tests"
+      }
+    ]
+  }
+}

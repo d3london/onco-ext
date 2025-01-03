@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\tLeft breast cancer - T1N0M0 Grade 1 invasive ductal carcinoma, ER/PR strongly positive, HER2 negative\n\nManagement:\t15 Jan 2024 Wide local excision and sentinel lymph node biopsy\n\t\t12 Feb 2024 Started adjuvant letrozole\n\nCurrent Situation:\tRoutine follow-up\n\nI reviewed [redacted name] today for her first follow-up since completing her breast cancer treatment. She has made an excellent recovery from surgery with good wound healing. The histology confirmed a 1.8cm Grade 1 invasive ductal carcinoma, ER 95% PR 90% HER2 negative (1+), with clear margins and 0/3 sentinel nodes involved. She commenced letrozole in February and is tolerating this well with only mild joint stiffness in the mornings which improves with activity. She remains active, walking daily, and has returned to work part-time.\n\nOn examination today, her left breast surgical site shows neat healing with no concerns. There is no lymphadenopathy and no clinical evidence of recurrence.\n\nThe plan is to continue letrozole and arrange annual mammogram surveillance. She will be reviewed again in clinic in 6 months' time. She understands to contact the breast care nurses if she develops any new concerns in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "T1N0M0",
+      "other_stage": "Stage IA",
+      "histopathology_status": "Grade 1 invasive ductal carcinoma, 1.8cm, clear margins",
+      "biomarker_status": "ER 95% PR 90% HER2 negative (1+)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "0/3 sentinel nodes involved, confirmed Grade 1 IDC with clear margins",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant letrozole",
+          "year": 2024,
+          "month": 2
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild joint stiffness in mornings, improving with activity"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Left breast surgical site shows neat healing, no lymphadenopathy"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Active, walking daily, returned to work part-time"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage breast cancer post-surgery and commenced on adjuvant hormone therapy. Excellent recovery with good treatment tolerance"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild morning joint stiffness on letrozole"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continue letrozole"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Annual mammogram surveillance"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 6 months"
+      }
+    ]
+  }
+}

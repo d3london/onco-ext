@@ -1,0 +1,103 @@
+{
+  "content": "Diagnosis:\tPoorly differentiated thyroid carcinoma with lung metastases, ALK fusion positive\n\tInitial diagnosis March 2024\n\tStage IVA (T4aN1bM1)\n\n[redacted name] is a 56-year-old gentleman who has unfortunately been diagnosed with poorly differentiated thyroid carcinoma. He initially presented to his GP in January 2024 with a rapidly enlarging right-sided neck mass and progressive dysphagia to solids. A neck ultrasound on 15/02/24 revealed a 6.2cm heterogeneous mass in the right thyroid lobe with multiple suspicious lateral neck nodes. CT neck/thorax on 01/03/24 confirmed the thyroid mass with evidence of tracheal compression, multiple right cervical lymph nodes (levels II-V), and multiple bilateral pulmonary nodules suspicious for metastatic disease, the largest measuring 2.1cm in the right upper lobe.\n\nCore biopsy of the thyroid mass on 05/03/24 confirmed poorly differentiated thyroid carcinoma. Molecular testing has revealed ALK fusion positivity. His case was discussed at our Thyroid MDT on 20/03/24 where the consensus was for systemic therapy given the poorly differentiated nature and ALK positive status.\n\nHe describes worsening dysphagia requiring a soft diet, new onset hoarseness, and occasional stridor on exertion. He has lost 6kg in weight over the past 2 months. He denies any hemoptysis but notes increasing breathlessness on moderate exertion. His performance status has declined from 0 to 1.\n\nIn his past medical history, he has well-controlled type 2 diabetes and hypertension. Current medications include Metformin 1g BD, Ramipril 5mg OD, and Amlodipine 5mg OD. He has no known drug allergies. He is an ex-smoker having quit 10 years ago with a 20 pack-year history.\n\nOn examination today, there is a firm 6cm right thyroid mass with limited mobility and multiple palpable right cervical nodes. Flexible nasendoscopy shows right vocal cord paresis. Chest examination reveals fine bilateral crackles at both bases.\n\nI have discussed the diagnosis, prognosis and treatment options in detail. Given the ALK positive status, I have recommended treatment with the ALK inhibitor Alectinib. I have explained the common side effects including fatigue, myalgia, edema, and potential liver function abnormalities. We will arrange baseline cardiac echo, liver function tests, and thyroid function tests prior to starting treatment.\n\nThe plan is to commence Alectinib 600mg BD once baseline investigations are complete. We will arrange weekly blood tests for the first month and clinical review in 2 weeks. I have made an urgent referral to speech and language therapy for swallowing assessment and to dietetics for nutritional support. We will repeat CT imaging after 8 weeks of treatment to assess response.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid, right lobe",
+      "year": 2024,
+      "month": 3,
+      "metastases": "multiple bilateral pulmonary nodules, right cervical lymph nodes levels II-V",
+      "tnm_stage": "T4aN1bM1",
+      "other_stage": "Stage IVA",
+      "histopathology_status": "poorly differentiated thyroid carcinoma",
+      "biomarker_status": "ALK fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Ultrasound shows 6.2cm heterogeneous mass in right thyroid lobe with suspicious lateral neck nodes",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT confirms thyroid mass with tracheal compression, cervical nodes, and bilateral pulmonary nodules up to 2.1cm",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Core biopsy confirms poorly differentiated thyroid carcinoma",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Molecular testing reveals ALK fusion positivity",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Discussed at Thyroid MDT - consensus for systemic therapy",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status declined from 0 to 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening dysphagia requiring soft diet"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Hoarseness and occasional stridor on exertion"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing breathlessness on moderate exertion"
+      },
+      {
+        "type": "examination_finding",
+        "value": "6cm firm right thyroid mass with limited mobility and palpable right cervical nodes"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Right vocal cord paresis on flexible nasendoscopy"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Fine bilateral crackles at both lung bases"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed poorly differentiated thyroid cancer with local invasion and pulmonary metastases. ALK fusion positive status enables targeted therapy approach."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence Alectinib 600mg BD following baseline investigations"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline cardiac echo, liver function tests, and thyroid function tests. CT imaging after 8 weeks of treatment."
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review in 2 weeks with weekly blood tests. Urgent referrals to speech and language therapy and dietetics."
+      }
+    ]
+  }
+}

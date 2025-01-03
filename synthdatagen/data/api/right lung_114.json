@@ -1,0 +1,62 @@
+{
+  "content": "Diagnosis:\tLocally advanced non-small cell lung cancer (adenocarcinoma)\n\nManagement:\t15 Mar 2024 Started on Osimertinib 80mg daily\n\nHistology:\tStage IIIB (T4N2M0) adenocarcinoma with EGFR T790M mutation\n\nCurrent Situation:\tReview at 4 weeks of targeted therapy\n\nI reviewed [redacted name] today in the lung oncology clinic. She has completed 4 weeks of Osimertinib therapy for locally advanced EGFR-mutated lung adenocarcinoma. Her initial presenting symptoms of cough and breathlessness have shown marked improvement. Performance status has improved from 2 to 1. She reports grade 1 diarrhea which is manageable without medication, and mild fatigue which improves with rest.\n\nOn examination, there is improved air entry in the right lung field compared to previous review, though some residual dullness persists at the base. No peripheral edema or clubbing noted.\n\nBlood tests show stable renal and liver function. The plan is to continue with Osimertinib at current dose and arrange CT chest/abdomen/pelvis in 4 weeks' time to assess response. We will review her again with imaging results. I have provided contact details for the lung cancer nurse specialist should she develop any concerning symptoms in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "right lung",
+      "year": 2024,
+      "month": 3,
+      "tnm_stage": "T4N2M0",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "EGFR T790M mutation",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on Osimertinib 80mg daily",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status improved from 2 to 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 diarrhea manageable without medication"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild fatigue improving with rest"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Improved air entry in right lung field with some residual dullness at base"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced EGFR-mutated lung adenocarcinoma. Showing clinical improvement after 4 weeks of Osimertinib"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 diarrhea and mild fatigue"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Osimertinib 80mg daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 4 weeks to assess response"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review after CT scan"
+      }
+    ]
+  }
+}

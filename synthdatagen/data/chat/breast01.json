@@ -1,0 +1,150 @@
+{
+  "content": "Diagnosis:\t\tGrade III invasive ductal carcinoma left breast, pT2 (35mm) pN1 (2/17) M0,\n\t\t\tER strongly positive (7/8), PR positive (6/8), HER2 negative,\n\t\t\tBRCA2 pathogenic variant.\n\nTreatment:\t\tLeft therapeutic mastectomy and axillary dissection 12.04.2021.\n\t\t\tCompleted adjuvant dose-dense AC-T chemotherapy 08.2021.\n\t\t\tAdjuvant chest wall radiotherapy 40Gy/15# completed 10.2021.\n\t\t\tRisk-reducing right mastectomy with immediate reconstruction\n\t\t\t12.2021.\n\t\t\tCommenced adjuvant anastrozole 01.2022.\n\t\t\tDiagnosed with thoracic spine and pelvic bone metastases 05.2023.\n\t\t\tPalbociclib/fulvestrant 05.2023-11.2023.\n\t\t\tCapecitabine 12.2023-03.2024 - ceased due to disease progression.\n\t\t\tEverolimus/exemestane 04.2024-06.2024 - discontinued after\n\t\t\tprogression.\n\t\t\tCarboplatin 07.2024-12.2024 - achieved partial response but\n\t\t\tdiscontinued due to cumulative thrombocytopenia.\n\t\t\tPalliative RT to L3 vertebra 20Gy/5# 01.2025.\n\t\t\tWeekly paclitaxel initiated 02.2025.\n\nI reviewed [redacted name] in clinic today with support from the breast care nurse. She attended Acute Oncology services last week reporting new onset left-sided ptosis and diplopia, necessitating postponement of scheduled paclitaxel treatment.?\n\nOn examination, there is partial left third nerve palsy with pupillary sparing and mild ptosis. Urgent MRI brain revealed a solitary 2.1cm enhancing lesion in the left cavernous sinus with local mass effect. She was started on dexamethasone 4mg three times daily with marked improvement in symptoms.? Now maintained on 4mg twice daily.?\n\nGiven the isolated nature of this intracranial disease and ongoing systemic disease control elsewhere, we have discussed stereotactic radiosurgery as a local treatment option. This will require careful consideration of dose constraints given her extensive treatment history. Today's paclitaxel will proceed as planned, and her case will be discussed at next week's Neuro-Oncology MDT. A dedicated radiotherapy planning consultation will be arranged thereafter.? Formal response assessment imaging is scheduled after completion of cycle 12.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2021,
+      "month": 4,
+      "metastases": "thoracic spine and pelvic bone metastases, left cavernous sinus metastasis",
+      "tnm_stage": "pT2N1M0",
+      "histopathology_status": "Grade III invasive ductal carcinoma",
+      "biomarker_status": "ER strongly positive (7/8), PR positive (6/8), HER2 negative, BRCA2 pathogenic variant",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Left therapeutic mastectomy and axillary dissection - 2/17 nodes positive",
+          "year": 2021,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant dose-dense AC-T chemotherapy",
+          "year": 2021,
+          "month": 8
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Adjuvant chest wall radiotherapy 40Gy/15#",
+          "year": 2021,
+          "month": 10
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Risk-reducing right mastectomy with immediate reconstruction",
+          "year": 2021,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant anastrozole",
+          "year": 2022,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Diagnosed with thoracic spine and pelvic bone metastases",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started palbociclib/fulvestrant",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued palbociclib/fulvestrant due to progression",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started capecitabine",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued capecitabine due to disease progression",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started everolimus/exemestane",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued everolimus/exemestane after progression",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin",
+          "year": 2024,
+          "month": 7
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued carboplatin due to cumulative thrombocytopenia",
+          "year": 2024,
+          "month": 12
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative RT to L3 vertebra 20Gy/5#",
+          "year": 2025,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started weekly paclitaxel",
+          "year": 2025,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "2.1cm enhancing lesion in the left cavernous sinus with local mass effect",
+          "year": 2025,
+          "month": 1
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "left-sided ptosis and diplopia"
+      },
+      {
+        "type": "examination_finding",
+        "value": "partial left third nerve palsy with pupillary sparing and mild ptosis"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic breast cancer progressed through multiple lines of endocrine therapy and chemotherapy. On weekly paclitaxel with new finding of isolated brain metastasis, being evaluated for stereotactic radiosurgery with symptomatic improvement on corticosteroids."
+      },     
+      {
+        "type": "update_to_treatment",
+        "value": "Today's paclitaxel will proceed as planned"
+      },      
+      {
+        "type": "update_to_treatment",
+        "value": "Started on dexamethasone 4mg three times daily, now maintained on 4mg twice daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Formal response assessment imaging scheduled after completion of cycle 12"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Case to be discussed at next week's Neuro-Oncology MDT, followed by dedicated radiotherapy planning consultation"
+      }
+    ]
+  }
+}

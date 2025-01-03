@@ -1,0 +1,57 @@
+{
+  "content": "Diagnosis:\nT2N0 squamous cell carcinoma of nasal cavity\n\nPrevious treatment:\nWide local excision March 2024\nAdjuvant radiotherapy completed May 2024 - 60Gy in 30 fractions\n\nCurrent medications:\nRegular paracetamol\nSaline nasal douching\n\nCurrent situation:\nRoutine surveillance review\n\nI reviewed [redacted name] in follow up clinic today. He has completed his adjuvant radiotherapy 8 weeks ago and is recovering well from the expected side effects. The acute radiation dermatitis has now resolved. He reports ongoing mild nasal dryness which is improving with regular saline douching. His taste sensation is gradually returning to normal. No new concerning symptoms.\n\nOn examination today, the nasal cavity shows expected post-treatment changes with good healing. No evidence of recurrent or residual disease. The neck remains clear with no palpable lymphadenopathy.\n\nPlan is for ongoing regular surveillance. Next review in 3 months with nasendoscopy.",
+  "output": {
+    "primary_cancer": {
+      "site": "nasal cavity",
+      "year": 2024,
+      "tnm_stage": "T2N0",
+      "histopathology_status": "squamous cell carcinoma",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed adjuvant radiotherapy 60Gy in 30 fractions",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild nasal dryness improving with saline douching"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Gradually improving taste sensation"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Nasal cavity shows expected post-treatment changes with good healing, no evidence of recurrent disease"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Neck clear with no palpable lymphadenopathy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "T2N0 nasal cavity SCC treated with surgery and adjuvant radiotherapy. Recovering well from treatment with no evidence of recurrence."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Resolved radiation dermatitis, improving nasal dryness and taste changes"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 months with nasendoscopy"
+      }
+    ]
+  }
+}

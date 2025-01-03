@@ -1,0 +1,95 @@
+{
+  "content": "Many thanks for referring [redacted name] who I reviewed today with her husband and daughter present. She has unfortunately experienced disease progression of her bilateral breast neuroendocrine carcinoma, diagnosed in January 2024. The initial presentation was with inflammatory changes of both breasts and widespread liver metastases. Histology confirmed grade 3 neuroendocrine carcinoma, strongly positive for ER (8/8) and PR (7/8), with HER2 3+ on immunohistochemistry. Additional molecular profiling has revealed mTOR pathway activation.\n\nShe initially commenced on combination therapy with Docetaxel, Trastuzumab and Pertuzumab in February 2024, alongside denosumab for bone protection. Unfortunately, after 2 cycles she developed significant peripheral neuropathy (grade 3) requiring hospital admission, alongside marked fatigue and reduced oral intake. Treatment was temporarily suspended and subsequently modified to weekly Paclitaxel at 80mg/m2 with continued dual HER2 blockade.\n\nDespite dose modification, recent imaging from April 2024 shows disease progression with increasing size and number of liver metastases. Her liver function has deteriorated with bilirubin now at 45 μmol/L (previously 22) and rising ALT/ALP. She reports increasing right upper quadrant discomfort and early satiety. Her performance status has declined to ECOG 2-3, spending approximately 50% of the day resting.\n\nOf particular concern is her history of triple negative breast cancer in 2018, treated with neoadjuvant chemotherapy and right mastectomy. While she had remained disease-free from this primary until now, the current situation is significantly more challenging.\n\nAfter careful discussion at this week's Breast MDT, we recommend transitioning to combination therapy with Everolimus (targeting the mTOR pathway) alongside Exemestane, maintaining Trastuzumab. I have explained the rationale and potential side effects in detail today. [redacted name] understands this represents a significant change in treatment approach, balancing quality of life with disease control.\n\nWe have arranged weekly review initially to monitor tolerability. Her next appointment will be in 7 days with blood tests including full liver profile. I have prescribed dexamethasone mouthwash prophylactically and provided contact details for our acute oncology service. We will arrange repeat imaging after 6 weeks of therapy to assess response.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast bilateral",
+      "year": 2024,
+      "month": 1,
+      "metastases": "widespread liver metastases",
+      "tnm_stage": "T4dN2",
+      "other_stage": "Stage 4",
+      "histopathology_status": "grade 3 neuroendocrine carcinoma",
+      "biomarker_status": "ER positive (8/8), PR positive (7/8), HER2 3+ positive, mTOR pathway activation",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Docetaxel, Trastuzumab and Pertuzumab with denosumab",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Treatment suspended due to grade 3 peripheral neuropathy requiring hospital admission",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Modified to weekly Paclitaxel 80mg/m2 with continued dual HER2 blockade",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Imaging shows progression with increasing size and number of liver metastases",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Deteriorating liver function with bilirubin 45 μmol/L and rising ALT/ALP",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [
+      {
+        "site": "breast, right",
+        "year": 2018,
+        "histopathology_status": "triple negative breast cancer",
+        "latest_situation": "Previously disease-free following neoadjuvant chemotherapy and mastectomy until current presentation"
+      }
+    ],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2-3, spending approximately 50% of day resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant discomfort and early satiety"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45 μmol/L and rising ALT/ALP"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Bilateral breast neuroendocrine carcinoma with liver metastases showing progression despite modified chemotherapy. Current presentation complicated by previous history of triple negative breast cancer"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on imaging with deteriorating liver function despite modified chemotherapy regime"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 peripheral neuropathy requiring hospital admission, marked fatigue and reduced oral intake"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Transitioning to Everolimus with Exemestane and maintained Trastuzumab"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review initially with blood tests including liver profile"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat imaging after 6 weeks of therapy to assess response"
+      }
+    ]
+  }
+}

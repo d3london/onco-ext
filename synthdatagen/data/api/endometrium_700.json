@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\t\tEndometrial cancer\n\nManagement:\t\t12 Jan 2024 Total abdominal hysterectomy and bilateral salpingo-oophorectomy\n\t\t\t02 Feb 2024 Started adjuvant carboplatin/paclitaxel\n\nHistology:\t\tGrade 3 endometrioid adenocarcinoma\n\t\t\tStage pT3aN0M0\n\t\t\tPOLE wild-type, p53 normal expression pattern\n\nCurrent Situation:\tPre cycle 4 carboplatin/paclitaxel\n\n[redacted name] attended clinic today for pre-chemotherapy assessment. She is tolerating treatment well with only grade 1 fatigue and minimal neuropathy affecting fingertips. Performance status remains 0. Blood results are satisfactory for proceeding with cycle 4. CT scan performed last week shows no evidence of disease. The plan is to continue with cycle 4 today and review again in 3 weeks prior to cycle 5. She understands to contact us if any problems develop in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "endometrium",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "pT3aN0M0",
+      "other_stage": null,
+      "histopathology_status": "Grade 3 endometrioid adenocarcinoma",
+      "biomarker_status": "POLE wild-type, p53 normal expression pattern",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total abdominal hysterectomy and bilateral salpingo-oophorectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant carboplatin/paclitaxel",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue and minimal neuropathy affecting fingertips"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood results satisfactory for chemotherapy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III endometrial cancer receiving adjuvant chemotherapy. Tolerating treatment well with no evidence of disease on imaging"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and minimal neuropathy affecting fingertips"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 4 carboplatin/paclitaxel at full dose"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks prior to cycle 5"
+      }
+    ]
+  }
+}

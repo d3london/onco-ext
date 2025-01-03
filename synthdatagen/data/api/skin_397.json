@@ -1,0 +1,58 @@
+{
+  "content": "Diagnosis:\tMalignant melanoma right upper arm\n\tpT2aN0M0 (AJCC 8th edition), Breslow thickness 1.8mm, no ulceration\n\tBRAF V600E mutation positive\n\tWide local excision performed 15 March 2024\n\nI reviewed [redacted name] in the melanoma surveillance clinic today. She has completed her initial 3-month post-operative follow-up period with no complications. The surgical site on the right upper arm has healed well with minimal scarring. She denies any new skin lesions or concerning symptoms. No lymphadenopathy was detected on examination of the right axilla. The rest of the skin examination was unremarkable with no suspicious lesions identified.\n\nGiven her BRAF positive status and stage, we have discussed the option of adjuvant targeted therapy, but [redacted name] has decided against this after careful consideration of the risks and benefits. She understands the signs and symptoms to watch for and the importance of regular skin checks and sun protection.\n\nThe plan is to continue with 3-monthly surveillance visits for the first year. I have provided written information about melanoma follow-up and skin protection. We will arrange her next review for July 2024.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right upper arm",
+      "year": 2024,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT2aN0M0",
+      "other_stage": null,
+      "histopathology_status": "Melanoma, Breslow thickness 1.8mm, no ulceration",
+      "biomarker_status": "BRAF V600E mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision performed",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Completed initial 3-month post-operative follow-up with no complications",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Surgical site on right upper arm well healed with minimal scarring"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No lymphadenopathy in right axilla"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No suspicious lesions on full skin examination"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIA BRAF+ melanoma post wide local excision. No evidence of recurrence at 3-month follow-up"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Patient has decided against adjuvant targeted therapy after risk-benefit discussion"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Continue with 3-monthly surveillance visits, next review July 2024"
+      }
+    ]
+  }
+}

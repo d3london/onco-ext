@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis\n\t1. Ileocecal valve neuroendocrine carcinoma T3N2M1\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNone indicated\n\n\tChemotherapy\n\t1. Carboplatin/Etoposide commenced 15 Jan 2024\n\t2. Completed 4 cycles with stable disease 20 Mar 2024\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tStable disease on imaging\n\n\tCurrent issues\n\tGrade 3 thrombocytopenia, Grade 2 fatigue\n\n\tSummary of consultation\n\tReviewed today following cycle 4 Carboplatin/Etoposide. CT shows stable disease in liver metastases and bone lesions. However, treatment has been complicated by cumulative myelosuppression with latest platelets 45 x 10^9/L and grade 2 fatigue affecting daily activities. Given high Ki67 of 80% and SSTR2 positivity, we have discussed switching to PRRT (Lutathera) therapy.\n\n\tFurther investigations\n\tGallium-68 DOTATATE PET-CT booked for 15 Apr 2024\n\n\tMedication prescribed\n\tNone\n\n\tFollow up\n\tNext oncology follow up in 2 weeks with PET-CT results\n\n\tRequired GP actions\n\tWeekly FBC monitoring\n\n\tSummary of information given to patient\n\tDiscussed rationale for treatment change and PRRT procedure. Information leaflet provided.",
+  "output": {
+    "primary_cancer": {
+      "site": "ileocecal valve",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver and bone metastases",
+      "tnm_stage": "T3N2M1",
+      "histopathology_status": "neuroendocrine carcinoma",
+      "biomarker_status": "SSTR2 positive, Ki67 80%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Carboplatin/Etoposide chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 4 cycles Carboplatin/Etoposide with stable disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Platelets dropped to 45 x 10^9/L",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 fatigue affecting daily activities"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT shows stable disease in liver metastases and bone lesions"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic ileocecal neuroendocrine carcinoma with stable disease after 4 cycles chemotherapy but complicated by cumulative myelosuppression"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 thrombocytopenia and Grade 2 fatigue"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Planning switch from chemotherapy to PRRT (Lutathera) therapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Gallium-68 DOTATATE PET-CT booked for 15 Apr 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks with PET-CT results"
+      }
+    ]
+  }
+}

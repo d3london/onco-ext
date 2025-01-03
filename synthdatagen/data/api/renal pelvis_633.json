@@ -1,0 +1,85 @@
+{
+  "content": "Diagnosis:\tMetastatic squamous cell carcinoma of renal pelvis\n\nManagement:\t15 Jan 2024 Right radical nephroureterectomy\n\t\t12 Feb 2024 Commenced palliative gemcitabine/cisplatin\n\t\t20 Mar 2024 Enrolled in Phase II PIK3CA inhibitor trial\n\nHistology:\tPoorly differentiated squamous cell carcinoma, pT4N2M1\n\t\tPIK3CA H1047R mutation detected\n\nCurrent Situation:\tBaseline assessment for PIK3CA inhibitor trial\n\nI reviewed [redacted name] today for baseline trial assessment. She has completed 2 cycles of gemcitabine/cisplatin with stable disease on recent imaging but ongoing significant pain requiring opioid analgesia. Performance status remains 2. Recent CT shows stable widespread metastatic disease affecting lungs, liver, and bones. Blood results show stable renal function with eGFR 45, adequate haematological parameters for trial entry. Trial screening investigations completed including ECG showing sinus rhythm, normal QTc, and baseline ophthalmology assessment showing no retinopathy.\n\nI have discussed the trial protocol in detail including the requirement for weekly visits during the first cycle, followed by two-weekly reviews. We reviewed the potential side effects including hyperglycemia, stomatitis, and diarrhea. The patient understands the monitoring requirements and has signed the consent form. Trial medication will commence tomorrow with baseline PK sampling.\n\nPlan is to start trial medication at 200mg twice daily with weekly safety monitoring. Next review in one week with blood tests including fasting glucose, renal function, and trial-mandated biomarkers. CT assessment planned at 8 weeks as per protocol.",
+  "output": {
+    "primary_cancer": {
+      "site": "renal pelvis",
+      "year": 2024,
+      "month": 1,
+      "metastases": "widespread metastatic disease affecting lungs, liver, and bones",
+      "tnm_stage": "pT4N2M1",
+      "other_stage": "Stage IV",
+      "histopathology_status": "poorly differentiated squamous cell carcinoma",
+      "biomarker_status": "PIK3CA H1047R mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right radical nephroureterectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced palliative gemcitabine/cisplatin",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in Phase II PIK3CA inhibitor trial",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable widespread metastatic disease affecting lungs, liver, and bones",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Significant pain requiring opioid analgesia"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "eGFR 45, adequate haematological parameters"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "ECG showing sinus rhythm, normal QTc"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Baseline ophthalmology assessment showing no retinopathy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic renal pelvis SCC with stable disease after initial chemotherapy, now enrolling in PIK3CA inhibitor trial"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on gemcitabine/cisplatin after 2 cycles"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "To start PIK3CA inhibitor trial medication at 200mg twice daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Weekly safety monitoring with blood tests including fasting glucose, renal function, and trial-mandated biomarkers"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in one week, CT assessment planned at 8 weeks as per protocol"
+      }
+    ]
+  }
+}

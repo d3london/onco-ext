@@ -1,0 +1,85 @@
+{
+  "content": "Diagnosis:\tMetastatic malignant pheochromocytoma with SDHD germline mutation\n\nI reviewed [redacted name] today who presents with a complex clinical picture of metastatic malignant pheochromocytoma. The patient initially presented in January 2024 with episodes of severe headaches, palpitations, and drenching sweats. Initial biochemistry showed markedly elevated plasma metanephrines >10x upper limit of normal. CT imaging revealed a 8.2cm right adrenal mass with areas of necrosis and hemorrhage. Subsequent MIBG scan demonstrated intense uptake in the primary lesion and multiple skeletal metastases involving the thoracic spine (T4, T7), left iliac bone, and right femoral neck.\n\nGenetic testing has confirmed a pathogenic SDHD mutation, and the patient has been referred for genetic counselling given the implications for family members. Blood pressure has been difficult to control despite escalating doses of phenoxybenzamine and subsequent addition of amlodipine. Currently requiring propranolol for management of reflex tachycardia.\n\nThe patient's performance status has deteriorated from ECOG 1 to ECOG 2 over the past month due to increasing bone pain and fatigue. Recent 24-hour urinary catecholamines showed noradrenaline levels >15x upper limit of normal. MRI spine performed last week demonstrates a concerning T4 vertebral metastasis with early cord compression.\n\nOn examination today, blood pressure was 165/95 mmHg despite optimal medical therapy. Heart rate 92 bpm. Notable orthostatic hypotension present. Tender to palpation over T4 vertebra. Neurological examination shows early pyramidal signs in lower limbs with brisk reflexes but preserved power and sensation.\n\nI have discussed the case at our NET MDT today. The consensus recommendation is for urgent radiotherapy to the T4 vertebral metastasis (20Gy in 5 fractions) followed by systemic therapy with CVD regimen (cyclophosphamide, vincristine, and dacarbazine) once adequate alpha blockade is achieved. We will need close monitoring of blood pressure during chemotherapy administration.\n\nI have arranged urgent radiotherapy planning for tomorrow. The patient will be admitted to our NET unit next week for optimization of alpha blockade and initiation of chemotherapy. I have also referred to our specialist NET Clinical Nurse Specialist for ongoing support and education regarding blood pressure monitoring. We will arrange follow-up MIBG scan after 3 cycles of chemotherapy to assess response.\n?\nThe patient understands the complexity of the situation and the need for careful sequencing of interventions. I have provided written information about malignant pheochromocytoma and treatment options. We will review again during the inpatient admission next week.",
+  "output": {
+    "primary_cancer": {
+      "site": "right adrenal",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple skeletal metastases involving T4, T7 vertebrae, left iliac bone, and right femoral neck",
+      "histopathology_status": "malignant pheochromocytoma",
+      "biomarker_status": "SDHD mutation positive, plasma metanephrines >10x ULN",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "markedly elevated plasma metanephrines >10x upper limit of normal",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing 8.2cm right adrenal mass with areas of necrosis and hemorrhage",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MIBG scan demonstrated intense uptake in primary lesion and multiple skeletal metastases",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "24-hour urinary catecholamines showed noradrenaline levels >15x upper limit of normal",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI spine shows T4 vertebral metastasis with early cord compression",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 2, deteriorated from ECOG 1 over past month due to bone pain and fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "severe headaches, palpitations, and drenching sweats"
+      },
+      {
+        "type": "current_symptom",
+        "value": "bone pain and fatigue"
+      },
+      {
+        "type": "examination_finding",
+        "value": "blood pressure 165/95 mmHg, heart rate 92 bpm, orthostatic hypotension present"
+      },
+      {
+        "type": "examination_finding",
+        "value": "tender T4 vertebra, early pyramidal signs in lower limbs with brisk reflexes but preserved power and sensation"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed metastatic malignant pheochromocytoma with SDHD mutation and skeletal metastases including cord compression. Challenging blood pressure control despite escalating medical therapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Currently on phenoxybenzamine, amlodipine, and propranolol for blood pressure control"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MIBG scan after 3 cycles of chemotherapy to assess response"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Admission to NET unit next week for optimization of alpha blockade and initiation of chemotherapy"
+      }
+    ]
+  }
+}

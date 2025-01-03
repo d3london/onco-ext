@@ -1,0 +1,86 @@
+{
+  "content": "Diagnosis:\tBilateral breast cancer\n\nManagement:\t\t12 Jan 2024 Right mastectomy and sentinel lymph node biopsy\n\t\t26 Jan 2024 Left mastectomy and sentinel lymph node biopsy\n\nHistology:\tRight: Mixed ductal/mucinous carcinoma, Grade 2, pT2N0(0/3)M0\n\t\tLeft: Mixed ductal/mucinous carcinoma, Grade 2, pT1cN0(0/2)M0\n\t\tBoth tumours ER/PR negative, HER2 3+ positive\n\nCurrent Situation:\tPre-cycle 3 adjuvant TCHP chemotherapy\n\nI reviewed [redacted name] today who is progressing well through her adjuvant chemotherapy regimen. She has completed two cycles of docetaxel, carboplatin, trastuzumab and pertuzumab (TCHP) with good tolerance overall. Her main side effects have been grade 1 fatigue and mild peripheral neuropathy affecting her fingertips, which improves between cycles. She experienced one episode of neutropenic fever after cycle 1 requiring brief admission, but subsequent primary GCSF prophylaxis has prevented further episodes.\n\nShe reports good energy levels between treatments and has maintained her usual daily activities. Her surgical sites have healed well with no complications. She describes occasional mild discomfort around the right chest wall but this is well controlled with regular paracetamol. Her appetite remains good and her weight is stable at 68kg.\n\nOn examination today, both mastectomy sites show satisfactory healing with no concerning features. There is no lymphoedema or skin changes. Cardiorespiratory examination is normal. Blood results show adequate haematological parameters for cycle 3, with stable renal and liver function. Recent echocardiogram shows preserved left ventricular function with ejection fraction of 60%.\n\nI am happy to proceed with cycle 3 TCHP today as planned. We will arrange repeat cardiac assessment prior to cycle 4, and continue primary GCSF prophylaxis. She will be reviewed again in three weeks' time.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast bilateral",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "Right: pT2N0M0, Left: pT1cN0M0",
+      "other_stage": "Stage IIA",
+      "histopathology_status": "Mixed ductal/mucinous carcinoma, Grade 2 bilateral",
+      "biomarker_status": "ER/PR negative, HER2 3+ positive bilateral",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right mastectomy and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Left mastectomy and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant TCHP (docetaxel, carboplatin, trastuzumab, pertuzumab) chemotherapy",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Added primary GCSF prophylaxis after neutropenic fever with cycle 1",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild peripheral neuropathy affecting fingertips, improving between cycles"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Occasional mild discomfort around right chest wall, controlled with paracetamol"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Both mastectomy sites show satisfactory healing with no concerning features"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No lymphoedema or skin changes"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Echocardiogram shows preserved left ventricular function with ejection fraction of 60%"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Bilateral breast cancer post-mastectomy, progressing well through adjuvant TCHP chemotherapy with good tolerance after initial neutropenic fever"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and mild peripheral neuropathy, previous neutropenic fever after cycle 1"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 3 TCHP with continued primary GCSF prophylaxis"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat cardiac assessment prior to cycle 4"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in three weeks' time"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\tTransverse colon adenocarcinoma, pT2N0M0\n\nSurgery:\t\tLaparoscopic extended right hemicolectomy 15 March 2024\n\nHistology:\tModerately differentiated adenocarcinoma, MMR proficient, KRAS G13D mutation\n\nI reviewed [redacted name] today in the colorectal oncology follow-up clinic. She has completed 3 months of adjuvant CAPOX chemotherapy which finished on 12/6/24. She is recovering well with improving energy levels and has returned to work part-time. Her bowel function has normalized and she reports no ongoing symptoms. Her weight is stable at 68kg.\n\nHer latest blood tests from 1/7/24 show normal CEA at 2.4 and stable liver function. We have arranged CT chest/abdomen/pelvis for September 2024 as per protocol. The plan is to continue regular 3-monthly follow-up with alternating clinical review and imaging for the first two years. I have provided written information about surveillance and symptoms to watch for. She will be reviewed again in clinic in October with her scan results.",
+  "output": {
+    "primary_cancer": {
+      "site": "transverse colon",
+      "year": 2024,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT2N0M0",
+      "histopathology_status": "moderately differentiated adenocarcinoma",
+      "biomarker_status": "MMR proficient, KRAS G13D mutation",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Laparoscopic extended right hemicolectomy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant CAPOX chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 3 months of adjuvant CAPOX chemotherapy",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA normal at 2.4 with stable liver function",
+          "year": 2024,
+          "month": 7
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "quality_of_life_finding",
+        "value": "Returned to work part-time"
+      },
+      {
+        "type": "current_symptom",
+        "value": "No ongoing symptoms, normalized bowel function"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal CEA 2.4 and stable liver function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage II colon cancer post surgery and adjuvant chemotherapy. Recovering well with no current symptoms or concerns"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Completed planned course of adjuvant CAPOX chemotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis arranged for September 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in October with scan results, continuing 3-monthly follow-up schedule"
+      }
+    ]
+  }
+}

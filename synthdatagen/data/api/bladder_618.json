@@ -1,0 +1,93 @@
+{
+  "content": "Diagnosis:\nMetastatic clear cell carcinoma of bladder with liver metastases\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nPrevious DVT 2020\n\nCurrent medications:\nMetformin 1g BD\nRamipril 5mg OD\nApixaban 5mg BD\n\nAllergies:\nNone reported\n\nCurrent situation:\nNewly diagnosed March 2024\n\nImaging findings:\nCT 15/3/24 - 5.2cm bladder mass with 3 liver metastases (largest 3.8cm segment 7)\nMRI liver 20/3/24 - confirms 3 liver lesions, no additional disease\nBone scan negative\n\nPathology:\nTURBT 10/3/24 - Clear cell carcinoma, PPARG rearrangement positive\n\nI reviewed [redacted name] today following recent diagnosis of metastatic bladder cancer. He is currently PS 1 with mild fatigue but maintaining normal activities. Main symptoms are intermittent visible haematuria and right upper quadrant discomfort. Weight stable. Examination shows mild right upper quadrant tenderness but no other significant findings.\n\nI have discussed treatment options including standard chemotherapy with gemcitabine/cisplatin versus potential targeted therapy given the PPARG rearrangement. We have agreed to proceed with chemotherapy initially given the symptom burden, with consideration of targeted agents at progression. He understands the aims are to control rather than cure the disease.\n\nPlan is to arrange PICC line insertion next week, baseline cardiac echo and proceed with cycle 1 gemcitabine/cisplatin. Will review after first cycle and arrange CT assessment after 3 cycles. I have provided written chemotherapy information and emergency contact details.",
+  "output": {
+    "primary_cancer": {
+      "site": "bladder",
+      "year": 2024,
+      "month": 3,
+      "metastases": "liver metastases (3 lesions, largest 3.8cm in segment 7)",
+      "histopathology_status": "clear cell carcinoma",
+      "biomarker_status": "PPARG rearrangement positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "TURBT with histology showing clear cell carcinoma",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 5.2cm bladder mass with 3 liver metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI liver confirms 3 liver lesions, no additional disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Bone scan negative for metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PPARG rearrangement positive on tumor testing",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Previous DVT 2020"
+      },
+      {
+        "type": "performance_status",
+        "value": "PS 1 with mild fatigue but maintaining normal activities"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Intermittent visible haematuria"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant discomfort"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Mild right upper quadrant tenderness but no other significant findings"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed metastatic bladder cancer with liver metastases. Initial assessment for first-line systemic therapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence gemcitabine/cisplatin chemotherapy following PICC line insertion"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline cardiac echo, CT assessment after 3 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review after first cycle of chemotherapy"
+      }
+    ]
+  }
+}

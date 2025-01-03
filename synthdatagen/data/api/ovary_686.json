@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\nClear cell carcinoma of ovary, Stage IC2 (capsule rupture during surgery)\n\nSurgery:\n15 March 2024 - Total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy and peritoneal biopsies\n\nHistology:\nClear cell carcinoma of right ovary\nARID1A mutation detected\nHNF1B positive\nNo lymphovascular invasion\nNo surface involvement\nCapsule rupture during surgery\n\nPrevious medical history:\nHypertension\nType 2 diabetes\n\nCurrent medications:\nMetformin 1g BD\nRamipril 5mg OD\n\nAllergies:\nNone known\n\nCurrent situation:\nSeen for discussion regarding adjuvant chemotherapy\n\nI reviewed [redacted name] today following her recent surgery. She has recovered well with good wound healing and no post-operative complications. Her performance status is 0 and she has returned to most normal activities. Blood results show normal renal and liver function. CA125 has normalized to 22 (pre-operative value 156).\n\nI have discussed the role of adjuvant chemotherapy given the clear cell histology and stage IC2 disease. The plan is to proceed with 6 cycles of carboplatin and paclitaxel chemotherapy. I have explained the common and serious side effects, and provided written information. We will arrange baseline investigations including CT chest/abdomen/pelvis and echocardiogram before starting treatment.\n\nPlan to commence chemotherapy in 2 weeks pending investigation results. Will review in clinic prior to cycle 1.",
+  "output": {
+    "primary_cancer": {
+      "site": "ovary, right",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "Stage IC2",
+      "histopathology_status": "Clear cell carcinoma, no lymphovascular invasion, capsule rupture during surgery",
+      "biomarker_status": "ARID1A mutation detected, HNF1B positive",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial CA125 elevated at 156",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy and peritoneal biopsies",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA125 normalized to 22 post-surgery",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal renal and liver function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IC2 clear cell ovarian cancer post-surgery. Good post-operative recovery with normalized tumor markers."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Recovered well from surgery with no post-operative complications"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Arranging baseline CT chest/abdomen/pelvis and echocardiogram"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic prior to cycle 1 chemotherapy"
+      }
+    ]
+  }
+}

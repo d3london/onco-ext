@@ -1,0 +1,85 @@
+{
+  "content": "Diagnosis:\tLocally advanced right breast cancer with solitary bone metastasis\n\nManagement:\t2023 Nov - Primary systemic therapy with docetaxel/trastuzumab/pertuzumab\n\nHistology:\tLipid-rich lobular carcinoma, ER 95%, PR 85%, HER2 3+ positive\n\nCurrent Situation:\tProgressive disease after cycle 4 of docetaxel/trastuzumab/pertuzumab\n\nI reviewed [redacted name] today who attended with her sister. Unfortunately, she has experienced significant clinical deterioration over the past three weeks. Her right breast mass has notably increased in size with new skin changes and increasing pain requiring escalation of analgesia. She describes new onset bone pain in her lumbar spine, corresponding to the known L3 metastasis, which is impacting her mobility. Her performance status has declined from 1 to 2.\n\nShe has also struggled with cumulative toxicity from the docetaxel, experiencing grade 2 peripheral neuropathy affecting her hands and feet, and persistent fatigue that is significantly affecting her quality of life. Her latest CT scan from 15th March 2024 shows a 30% increase in the size of the primary breast mass (now measuring 8.2cm compared to 6.3cm) with increasing skin thickening. The L3 vertebral metastasis shows subtle progression.\n\nGiven the clear evidence of disease progression and challenging toxicity profile, we have made the decision to discontinue the current regimen. After careful discussion of options, we will transition to T-DM1 (trastuzumab emtansine) as second-line therapy. I have explained the rationale, schedule, and potential side effects. We will also arrange urgent palliative radiotherapy to the L3 vertebral metastasis for pain control.\n\nI have referred her to our palliative care team for optimization of pain management and support. She will start T-DM1 next week, and I have organized weekly review initially to monitor her response and symptoms carefully. Her sister has been incredibly supportive throughout, and we have provided both of them with contact details for our breast cancer nurse specialist for additional support.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2023,
+      "month": 11,
+      "metastases": "solitary L3 vertebral metastasis",
+      "tnm_stage": "T4N2",
+      "other_stage": "Stage 3b",
+      "histopathology_status": "Lipid-rich lobular carcinoma",
+      "biomarker_status": "ER 95%, PR 85%, HER2 3+ positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started primary systemic therapy with docetaxel/trastuzumab/pertuzumab",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 30% increase in primary breast mass to 8.2cm with skin thickening and progression of L3 metastasis",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued docetaxel/trastuzumab/pertuzumab due to disease progression and toxicity",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Plan to commence T-DM1 (trastuzumab emtansine) as second-line therapy",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status deteriorated from 1 to 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing breast pain requiring escalation of analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset bone pain in lumbar spine affecting mobility"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Increased size of right breast mass with new skin changes"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced right breast cancer with bone metastasis showing disease progression on first-line therapy. Transitioning to second-line T-DM1 due to disease progression and toxicity"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with 30% increase in primary tumor size and progression of bone metastasis"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 peripheral neuropathy affecting hands and feet, persistent fatigue"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing docetaxel/trastuzumab/pertuzumab, transitioning to T-DM1"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status from 1 to 2 with reduced mobility"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review arranged to monitor response to T-DM1, referred to palliative care team"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "content": "Diagnosis:\nMetastatic clear cell renal cell carcinoma with brain and bone metastases\n\nPrevious treatment:\nRight radical nephrectomy March 2023\nWhole brain radiotherapy April 2023\nPazopanib commenced May 2023, discontinued July 2023 due to grade 3 hepatotoxicity\nCabozantinib commenced August 2023, discontinued October 2023 due to progressive disease\nPalliative radiotherapy to T7-T9 October 2023\n\nMDT Discussion Points:\n1. Disease progression on second-line TKI\n2. New neurological symptoms\n3. Consideration of third-line options\n\nRadiology Review:\nMRI brain 15 November 2023 shows enlarging right parietal metastasis (3.2cm from 2.1cm) with increasing edema. Two new small frontal lesions.\n\nCT chest/abdomen/pelvis 14 November 2023 demonstrates enlarging mediastinal lymphadenopathy and new liver lesions. Progressive bone metastases particularly T7 vertebral body with 50% height loss.\n\nCurrent Clinical Status:\nPerformance status deteriorated to ECOG 3\nRequiring dexamethasone 8mg BD for cerebral edema\nMorphine SR 60mg BD for bone pain\n\nMDT Outcome:\nThe MDT notes the rapid progression through two lines of TKI therapy. Given the high mTOR activity on original pathology review, we recommend commencing everolimus 10mg daily with close monitoring. The team acknowledges the poor prognosis but notes that third-line mTOR inhibition may offer disease control.\n\nPlan:\n1. Commence everolimus 10mg daily\n2. Urgent neurosurgical review for consideration of resection/SRS to enlarging parietal metastasis\n3. Maintain current dexamethasone dose\n4. Weekly clinical review initially\n5. Repeat imaging after 8 weeks of everolimus\n\nPatient has been informed of MDT outcome and agrees with plan. [redacted name] (CNS) will coordinate care and provide additional support.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney",
+      "year": 2023,
+      "month": 3,
+      "metastases": "brain metastases (right parietal and frontal), bone metastases (including T7-T9 vertebrae), mediastinal lymphadenopathy, liver metastases",
+      "tnm_stage": "T4N1M1",
+      "histopathology_status": "clear cell renal cell carcinoma",
+      "biomarker_status": "high mTOR activity",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right radical nephrectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Whole brain radiotherapy",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started pazopanib",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued pazopanib due to grade 3 hepatotoxicity",
+          "year": 2023,
+          "month": 7
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started cabozantinib",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T7-T9",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued cabozantinib due to progressive disease",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows enlarging right parietal metastasis (3.2cm from 2.1cm) with increasing edema and two new frontal lesions",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows enlarging mediastinal lymphadenopathy, new liver lesions, progressive bone metastases with T7 vertebral body height loss",
+          "year": 2023,
+          "month": 11
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Cerebral edema requiring dexamethasone 8mg BD"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Bone pain requiring morphine SR 60mg BD"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic renal cell carcinoma with rapid progression through two lines of TKI therapy. New neurological symptoms from enlarging brain metastases and deteriorating performance status."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with enlarging brain metastases, new liver lesions, and worsening bone metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence everolimus 10mg daily as third-line therapy"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Performance status deteriorated to ECOG 3"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat imaging after 8 weeks of everolimus"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly clinical review and urgent neurosurgical review for consideration of resection/SRS to enlarging parietal metastasis"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "content": "Diagnosis:\tMetaplastic breast carcinoma with brain and lung metastases\n\nManagement:\t2023 Right mastectomy and axillary clearance\n\t\tCompleted 6 cycles carboplatin/docetaxel/trastuzumab\n\t\tWhole brain radiotherapy March 2024\n\nHistology:\tGrade 3 metaplastic carcinoma, ER/PR negative, HER2 positive\n\t\tPDL1 80%, Ki67 90%\n\nCurrent Situation:\tDisease progression on maintenance trastuzumab\n\nI reviewed [redacted name] today who attended with her sister. Unfortunately, her most recent CT scan shows clear evidence of disease progression with enlarging pulmonary metastases, the largest now measuring 3.2cm compared to 1.8cm six weeks ago. She has also developed new cervical lymphadenopathy. Her brain MRI shows stable appearances of the previously treated metastases, but two new small lesions in the right temporal lobe.\n\nShe has been experiencing increasing breathlessness on exertion and requires oxygen 2L/min at rest. Her performance status has declined to ECOG 2. She describes ongoing fatigue which is significantly impacting her daily activities. She has developed a persistent cough over the last two weeks. Her appetite remains reasonable though she has lost 3kg in weight over the past month.\n\nGiven the clear evidence of disease progression, we have discussed changing treatment strategy. I have explained that the best option would be to commence T-DM1 (trastuzumab emtansine). I have outlined the common side effects including fatigue, nausea, and potential liver function abnormalities. We have also discussed the possibility of stereotactic radiosurgery for the new brain lesions, and I will refer her case for discussion at next week's CNS MDT.\n\nI have arranged for her to start T-DM1 next week, pending satisfactory blood results. She will have a repeat CT scan after 3 cycles to assess response. We will see her again in clinic in 2 weeks to check her tolerance of the new treatment. I have also referred her to our palliative care team for additional support with symptom management, particularly her breathlessness.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2023,
+      "metastases": "brain metastases, lung metastases, cervical lymph nodes",
+      "tnm_stage": "T4N2M1",
+      "histopathology_status": "Grade 3 metaplastic carcinoma",
+      "biomarker_status": "ER/PR negative, HER2 positive, PDL1 80%, Ki67 90%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right mastectomy and axillary clearance",
+          "year": 2023
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced carboplatin/docetaxel/trastuzumab",
+          "year": 2023
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed whole brain radiotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows enlarging pulmonary metastases, largest increased from 1.8cm to 3.2cm, new cervical lymphadenopathy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows two new right temporal lobe lesions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Disease progression on maintenance trastuzumab, decision to switch to T-DM1",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing breathlessness requiring oxygen 2L/min at rest"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Persistent cough for two weeks"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Significant fatigue impacting daily activities"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "3kg weight loss over past month"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic HER2+ breast cancer with brain and lung metastases showing disease progression on maintenance trastuzumab with declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with enlarging pulmonary metastases and new brain lesions"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence T-DM1 (trastuzumab emtansine)"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status to ECOG 2 with increasing oxygen requirements"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan after 3 cycles of T-DM1"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks to assess treatment tolerance, referred to palliative care team for symptom management"
+      }
+    ]
+  }
+}

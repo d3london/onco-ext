@@ -1,0 +1,85 @@
+{
+  "content": "Diagnosis:\tMetastatic prostate cancer, T4N1M1 with widespread bone and lymph node metastases\n\nI reviewed [redacted name] today in the prostate cancer clinic. His disease has unfortunately shown clear evidence of progression despite recent treatment modifications. His PSA has risen sharply from 456 to 789 over the past 6 weeks, and his latest CT scan from 15/4/24 shows enlarging retroperitoneal lymphadenopathy and new bone metastases in T4 and L2 vertebrae. He reports worsening lower back pain requiring increased opiate analgesia, and new onset right-sided sciatica. His mobility has declined significantly and he now requires a wheelchair for anything more than short distances.\n\nHe has completed 4 cycles of docetaxel chemotherapy, but this was complicated by grade 3 neutropenia requiring two hospital admissions. The most recent cycle was given at 75% dose. Despite this, his disease has continued to progress both biochemically and radiologically. His performance status has declined from 1 to 3.\n\nI have discussed these findings with [redacted name] today. Given his MSI-high status, we have agreed to switch treatment to pembrolizumab immunotherapy. I have explained the rationale, potential benefits and side effects in detail. He will require a baseline chest x-ray and thyroid function tests before starting treatment.\n\nI have arranged urgent MRI spine to assess for cord compression given his new neurological symptoms. I have also referred him to the palliative care team for specialist input with pain management, and to physiotherapy for mobility assessment. We will review him again in one week with the scan results before starting immunotherapy.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, left apex",
+      "metastases": "widespread bone metastases including T4 and L2 vertebrae, retroperitoneal lymph nodes",
+      "tnm_stage": "T4N1M1",
+      "biomarker_status": "PSA 789, MSI-high",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "PSA increased from 456 to 789",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows enlarging retroperitoneal lymphadenopathy and new bone metastases in T4 and L2 vertebrae",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Docetaxel dose reduced to 75% due to grade 3 neutropenia requiring two hospital admissions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Disease progression on docetaxel with rising PSA and new metastases",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status deteriorated from 1 to 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening lower back pain requiring increased opiate analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset right-sided sciatica"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires wheelchair for anything more than short distances"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic prostate cancer showing disease progression despite docetaxel chemotherapy. Significant clinical deterioration with new neurological symptoms."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on docetaxel with rising PSA and new metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 neutropenia requiring two hospital admissions"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Switching treatment to pembrolizumab immunotherapy due to MSI-high status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline in mobility, now wheelchair dependent for longer distances"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess for cord compression, baseline chest x-ray and thyroid function tests"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in one week with scan results before starting immunotherapy. Referred to palliative care team and physiotherapy"
+      }
+    ]
+  }
+}

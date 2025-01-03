@@ -1,0 +1,61 @@
+{
+  "content": "Diagnosis:\tPancreatic adenocarcinoma (signet ring cell type), uncinate process\n\nManagement:\t15 Mar 2024 Whipple's procedure\n\nHistology:\tpT3N1M0 (Stage IIB) signet ring cell adenocarcinoma, R0 resection, 2/18 lymph nodes positive\n\nCurrent Situation:\tPost-operative assessment for adjuvant chemotherapy\n\nI reviewed [redacted name] today following his recent Whipple's procedure. He has made an excellent recovery from surgery with good wound healing and is now eating and drinking normally. His weight has stabilised at 72kg (pre-operative weight 78kg). His performance status is 1. His latest blood tests show CA19-9 has decreased from >20,000 pre-operatively to 850 currently.\n\nOn examination, his surgical wounds are well healed. His abdomen is soft and non-tender with no concerning features. Cardiorespiratory examination is unremarkable.\n\nI have discussed adjuvant chemotherapy with modified FOLFIRINOX. He understands the aims of treatment and potential side effects. We will arrange baseline CT chest/abdomen/pelvis and proceed with cycle 1 in 2 weeks if imaging shows no evidence of recurrence. He will be reviewed prior to each cycle in this clinic.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas uncinate process",
+      "year": 2024,
+      "month": 3,
+      "metastases": "2/18 lymph nodes positive",
+      "tnm_stage": "pT3N1M0",
+      "other_stage": "Stage IIB",
+      "histopathology_status": "signet ring cell adenocarcinoma, R0 resection",
+      "biomarker_status": "CA19-9 decreased from >20,000 to 850",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure performed with R0 resection",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 decreased from >20,000 pre-operatively to 850 post-operatively",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 1"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "eating and drinking normally, weight stabilised at 72kg from pre-operative 78kg"
+      },
+      {
+        "type": "examination_finding",
+        "value": "surgical wounds well healed, abdomen soft and non-tender, cardiorespiratory examination unremarkable"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently resected Stage IIB pancreatic adenocarcinoma. Excellent post-operative recovery with falling tumor markers, now being assessed for adjuvant chemotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence adjuvant modified FOLFIRINOX chemotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Arrange baseline CT chest/abdomen/pelvis"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks to commence chemotherapy if imaging shows no recurrence"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "content": "Diagnosis:\t\tPancreatic adenocarcinoma (mucinous type)\n\nManagement:\t\tDiagnosed following investigation of obstructive jaundice\n\t\t\tERCP and stent insertion 15 Apr 2024\n\t\t\tEUS-guided biopsy 18 Apr 2024\n\nHistology:\t\tMucinous adenocarcinoma of pancreatic head\n\t\t\tBRCA2 pathogenic variant detected\n\nCurrent situation:\tFor consideration of neo-adjuvant FOLFIRINOX chemotherapy\n\n[redacted name] is a 62-year-old gentleman who presented with painless jaundice and 4kg weight loss over 2 months. CT pancreas showed a 3.2cm mass in the pancreatic head with no evidence of metastatic disease. CA19-9 was elevated at 850. Following successful biliary stenting and tissue diagnosis, his liver function has normalized and performance status is 1. No significant comorbidities apart from well-controlled hypertension on ramipril. Lives with wife and continues to work part-time as an accountant. On examination today, mild epigastric tenderness but no other significant findings. Given his good performance status and BRCA2 mutation status, I have recommended neo-adjuvant FOLFIRINOX chemotherapy. He will require PICC line insertion and baseline cardiac echo before commencing treatment.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas, head",
+      "year": 2024,
+      "month": 4,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "",
+      "histopathology_status": "mucinous adenocarcinoma",
+      "biomarker_status": "BRCA2 pathogenic variant positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 3.2cm pancreatic head mass, no metastatic disease",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 elevated at 850",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "ERCP and stent insertion for obstructive jaundice",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "EUS-guided biopsy confirms mucinous adenocarcinoma",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension, well-controlled on ramipril"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild epigastric tenderness"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Continues to work part-time as accountant"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed pancreatic head adenocarcinoma. Successfully stented for biliary obstruction, now suitable for neo-adjuvant chemotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Liver function normalized following biliary stenting"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Requires PICC line insertion and baseline cardiac echo"
+      }
+    ]
+  }
+}

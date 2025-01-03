@@ -1,0 +1,97 @@
+{
+  "content": "Diagnosis:\tMetastatic prostate adenocarcinoma with mixed small cell features\n\nManagement:\t2023-10 Started enzalutamide\n\t\t2024-01 Commenced PRESTO trial arm B (cabazitaxel + experimental agent)\n\nHistology:\tMixed adenocarcinoma with small cell transformation on repeat biopsy\n\t\tFANCI mutation detected on molecular panel\n\nCurrent Situation:\tCycle 4 PRESTO trial\n\nI reviewed [redacted name] today for his trial assessment. His disease-related symptoms have unfortunately worsened over the last 3 weeks with increasing bone pain affecting the thoracic spine and left hip. His mobility has declined and he now requires two walking sticks. Performance status has deteriorated to ECOG 2. He reports grade 2 peripheral neuropathy affecting his feet, which developed after cycle 3.\n\nLatest PSA has risen from 234 to 289. CT scan performed on 15/4/24 shows mixed response with reduction in some bone lesions but new vertebral metastases at T8 and T10. Trial blood samples were collected as per protocol.\n\nGiven the deteriorating clinical picture and rising PSA, I have discussed with the trial team and we have agreed to discontinue trial treatment. He will be referred for palliative radiotherapy to symptomatic bone sites and consideration of standard second-line chemotherapy with docetaxel once his neuropathy improves.\n\nI have arranged urgent MRI spine to exclude cord compression and referred to the palliative care team. Will review in 2 weeks with repeat PSA and post-radiotherapy.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate bilateral",
+      "year": 2023,
+      "histopathology_status": "Mixed adenocarcinoma with small cell transformation",
+      "metastases": "bone metastases including T8 and T10 vertebrae",
+      "other_stage": "Stage IV",
+      "biomarker_status": "FANCI mutation positive, PSA 289 (rising from 234)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started enzalutamide",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced PRESTO trial arm B (cabazitaxel + experimental agent)",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA risen from 234 to 289",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows mixed response with reduction in some bone lesions but new vertebral metastases at T8 and T10",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued from PRESTO trial due to disease progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing bone pain affecting thoracic spine and left hip"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 peripheral neuropathy affecting feet"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires two walking sticks for mobility"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT 15/04/24 shows mixed response with new vertebral metastases"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic prostate cancer with mixed small cell features showing disease progression on PRESTO trial. Clinical deterioration with worsening bone pain and rising PSA."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with rising PSA and new vertebral metastases despite trial treatment"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 peripheral neuropathy developed after cycle 3 of trial treatment"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued from PRESTO trial due to disease progression"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in mobility requiring two walking sticks, PS declined to ECOG 2"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to exclude cord compression, repeat PSA in 2 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred for palliative radiotherapy and palliative care team review, clinic review in 2 weeks"
+      }
+    ]
+  }
+}

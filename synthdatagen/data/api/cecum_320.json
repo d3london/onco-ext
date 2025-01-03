@@ -1,0 +1,108 @@
+{
+  "content": "I reviewed [redacted name] today who attended with his wife following recent admission under the acute oncology team. Unfortunately his disease has shown clear evidence of progression despite third line treatment.\n\nInitially diagnosed in September 2023 with a cecal adenocarcinoma with unusual osseous metaplastic features, he presented with iron deficiency anaemia and weight loss. Initial staging demonstrated a locally advanced cecal mass with regional lymphadenopathy and widespread bone metastases. Molecular profiling revealed both MSI-high status and an NTRK fusion, offering potential therapeutic options.\n\nHe initially commenced pembrolizumab immunotherapy given the MSI-high status, but developed severe immune-mediated colitis after two cycles requiring high-dose steroids in November 2023. Following recovery, he started entrectinib in December 2023 targeting the NTRK fusion. Despite initial disease stabilization, he developed progressive bone pain by February 2024 with new vertebral metastases on imaging. He then received palliative radiotherapy (20Gy in 5 fractions) to T11-L1 for cord compression risk in March 2024, followed by third-line FOLFIRI chemotherapy.\n\nHe was admitted last week with severe back pain, fatigue and declining mobility. CT showed further progression with new liver metastases and increasing bone disease. His performance status has deteriorated to ECOG 3, spending most of the day in bed. He requires regular oxycodone for pain control and his appetite is poor with 12kg weight loss over 2 months. Examination today shows tender vertebral points at multiple levels and hepatomegaly.\n\nBlood tests show worsening anaemia (Hb 89) and rising inflammatory markers. Given his declining performance status and clear evidence of chemotherapy-resistant disease, I have had a detailed discussion with [redacted name] and his wife about focusing on symptom control. We have agreed to discontinue systemic therapy and I have made an urgent referral to the palliative care team. He will receive blood transfusion support as needed for symptomatic anaemia.\n\nI have increased his background oxycodone to 40mg BD and arranged district nurse support for breakthrough subcutaneous oxycodone. The palliative care team will review him at home this week and I will maintain telephone contact through our specialist nurses. We have discussed preferred place of care and he wishes to remain at home if possible with hospice support as needed.",
+  "output": {
+    "primary_cancer": {
+      "site": "cecum",
+      "year": 2023,
+      "month": 9,
+      "metastases": "widespread bone metastases, new liver metastases",
+      "tnm_stage": "T4aN2M1",
+      "histopathology_status": "adenocarcinoma with osseous metaplasia",
+      "biomarker_status": "NTRK fusion positive, MSI-high",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started pembrolizumab immunotherapy",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued pembrolizumab due to severe immune-mediated colitis requiring high-dose steroids",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started entrectinib targeting NTRK fusion",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Development of new vertebral metastases with progressive bone pain",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy 20Gy in 5 fractions to T11-L1 for cord compression risk",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started third-line FOLFIRI chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing further progression with new liver metastases and increasing bone disease",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing all systemic therapy due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, spending most of the day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Severe back pain requiring regular oxycodone"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Poor appetite with 12kg weight loss over 2 months"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender vertebral points at multiple levels and hepatomegaly"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Worsening anaemia (Hb 89) and rising inflammatory markers"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced cecal adenocarcinoma with progressive bone and liver metastases despite three lines of therapy. Now transitioning to palliative care due to declining performance status and treatment resistance"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on FOLFIRI with new liver metastases and increasing bone disease"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing all systemic therapy, increasing oxycodone to 40mg BD with subcutaneous breakthrough"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration to ECOG 3 with increasing care needs"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral with planned home review this week"
+      }
+    ]
+  }
+}

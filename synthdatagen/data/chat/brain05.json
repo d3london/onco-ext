@@ -1,0 +1,96 @@
+{
+    "content": "Diagnosis:\t\tComplex meningioma involving the left sphenoid wing extending to the cavernous sinus, WHO Grade II, Ki-67 index 8%\n\t\tInitial diagnosis in June 2017 with progressive changes noted on MRI since October 2023\n\t\tPresenting with associated cranial nerve deficits\n\nTreatment:\t\tSurgical resection 2017: subtotal removal due to cavernous sinus involvement\n\t\tAdjuvant radiotherapy 54Gy in 30 fractions completed September 2017\n\t\tProgression observed on imaging October 2023\n\t\tInitiated stereotactic radiosurgery (SRS) November 2023\n\t\tTrial of bevacizumab for peritumoral edema commenced January 2024\n\t\tSymptoms managed with dexamethasone 4mg daily\n\nCurrent Situation:\n\t[redacted name] attended today's clinic accompanied by her daughter.\n\t\n\tSymptoms include persistent left-sided headache, diplopia, and progressive fatigue.\n\tReports difficulty with activities of daily living (ADLs), requiring assistance with dressing and meal preparation.\n\t\n\tFunctional status has declined significantly, with Karnofsky score reduced to 50.\n\tExamination reveals left third and sixth cranial nerve palsies with ptosis and limited eye abduction.\n\t\n\tMRI from March 2024 shows partial response to SRS with reduction in mass effect but persistent cavernous sinus involvement. No new lesions identified.\n\tOngoing peritumoral edema correlates with reported symptoms.\n\t\n\tDiscussed at neuro-oncology MDT April 2024 with consensus to continue bevacizumab and escalate physiotherapy support.\n\nPlan:\n\t\tContinue bevacizumab therapy\n\t\tPhysiotherapy referral for mobility aids\n\t\tMRI planned for July 2024\n\t\tFollow-up in neuro-oncology clinic in 4 weeks.\n",
+    "output": {
+        "primary_cancer": {
+            "site": "brain, left sphenoid wing",
+            "year": 2017,
+            "month": 6,
+            "histopathology_status": "Meningioma, WHO Grade II, Ki-67 index 8%",
+            "cancer_timeline": [
+                {
+                    "type": "treatment_surgery",
+                    "value": "Subtotal resection due to cavernous sinus involvement",
+                    "year": 2017
+                },
+                {
+                    "type": "treatment_radiotherapy",
+                    "value": "Adjuvant radiotherapy 54Gy in 30 fractions",
+                    "year": 2017,
+                    "month": 9
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "Progression on imaging with increased cavernous sinus involvement",
+                    "year": 2023,
+                    "month": 10
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Initiated stereotactic radiosurgery",
+                    "year": 2023,
+                    "month": 11
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Commenced bevacizumab for peritumoral edema",
+                    "year": 2024,
+                    "month": 1
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "MRI shows partial response to SRS with persistent cavernous sinus involvement",
+                    "year": 2024,
+                    "month": 3
+                }
+            ]
+        },
+        "patient_facts": [
+            {
+                "type": "performance_status",
+                "value": "Karnofsky score 50"
+            },
+            {
+                "type": "quality_of_life_finding",
+                "value": "Requires assistance with ADLs such as dressing and meal preparation"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Persistent left-sided headache"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Diplopia"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Progressive fatigue"
+            },
+            {
+                "type": "examination_finding",
+                "value": "Left third and sixth cranial nerve palsies with ptosis and limited eye abduction"
+            }
+        ],
+        "status_updates": [
+            {
+                "type": "clinical_summary",
+                "value": "Complex meningioma with partial response to stereotactic radiosurgery and ongoing symptoms linked to peritumoral edema. Continuing bevacizumab, with physiotherapy support."
+            },
+            {
+                "type": "update_to_treatment",
+                "value": "Continue bevacizumab therapy"
+            },
+            {
+                "type": "planned_investigation",
+                "value": "MRI planned for July 2024"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Follow-up in neuro-oncology clinic in 4 weeks"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Physiotherapy referral for mobility aids"
+            }
+        ]
+    }
+}

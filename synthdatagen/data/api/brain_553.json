@@ -1,0 +1,116 @@
+{
+  "content": "I reviewed [redacted name] today in our neuro-oncology clinic, accompanied by his parents. Unfortunately, recent MRI imaging shows evidence of disease progression with new leptomeningeal enhancement throughout the thoracic spine and cauda equina, representing further CSF dissemination of his RELA fusion-positive anaplastic ependymoma.\n\nTo recap his challenging course, he was initially diagnosed in January 2023 following presentation with severe headaches and morning vomiting. MRI at that time demonstrated a large posterior fossa mass with early hydrocephalus. He underwent gross total resection on 15/01/23, complicated by posterior fossa syndrome requiring prolonged rehabilitation. Histology confirmed WHO grade III anaplastic ependymoma with RELA fusion detected on molecular analysis.\n\nHe completed focal posterior fossa radiotherapy (59.4Gy in 33 fractions) in March 2023, followed by maintenance chemotherapy with temozolomide which was initiated in May 2023. Unfortunately, surveillance MRI in September 2023 showed early spinal metastases, leading to craniospinal irradiation (36Gy in 20 fractions). Despite initial response, follow-up imaging in December 2023 showed progressive disease, necessitating a switch to vinblastine monotherapy.\n\nCurrent symptoms include increasing lower back pain, new onset bilateral leg weakness (grade 4/5), and intermittent urinary hesitancy. His performance status has declined to ECOG 2. Neurological examination reveals reduced power in both lower limbs with brisk reflexes and upgoing plantars bilaterally. Sensation remains intact but there is some gait ataxia.\n\nGiven the clear radiological progression and deteriorating symptoms, we have discussed modifying his treatment approach. Options include platinum-based combination chemotherapy or consideration of phase I trial options. After detailed discussion with the family, we have agreed to commence cisplatin/cyclophosphamide chemotherapy, with regular MRI surveillance every 8 weeks.\n\nI have arranged urgent physiotherapy and occupational therapy assessments. We will also involve our specialist nursing team for additional support and symptom management. The family understands the challenging situation but wishes to pursue active treatment while maintaining quality of life. We have discussed potential side effects of the new chemotherapy regimen including risk of myelosuppression, nephrotoxicity, and ototoxicity.\n\nThe plan is to commence treatment next week following completion of baseline investigations including audiometry, renal function, and repeat MRI brain/spine. I will review him again in clinic prior to cycle 2, but he has open access to our service if needed before then.",
+  "output": {
+    "primary_cancer": {
+      "site": "brain, posterior fossa",
+      "year": 2023,
+      "month": 1,
+      "metastases": "CSF dissemination with leptomeningeal enhancement throughout thoracic spine and cauda equina",
+      "other_stage": "WHO grade III",
+      "histopathology_status": "anaplastic ependymoma",
+      "biomarker_status": "RELA fusion-positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Gross total resection complicated by posterior fossa syndrome",
+          "year": 2023,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed focal posterior fossa radiotherapy 59.4Gy in 33 fractions",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started maintenance temozolomide",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows early spinal metastases",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Craniospinal irradiation 36Gy in 20 fractions",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows progressive disease",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed to vinblastine monotherapy due to disease progression",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows new leptomeningeal enhancement throughout thoracic spine and cauda equina",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing lower back pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Bilateral leg weakness grade 4/5"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Intermittent urinary hesitancy"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced power in both lower limbs with brisk reflexes and upgoing plantars bilaterally"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Gait ataxia with intact sensation"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "WHO grade III anaplastic ependymoma with progressive CSF dissemination despite multiple lines of therapy. New neurological deterioration requiring treatment change"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on vinblastine with new leptomeningeal disease"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence cisplatin/cyclophosphamide chemotherapy"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Declining performance status with new neurological deficits"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline audiometry, renal function, and repeat MRI brain/spine before treatment"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic prior to cycle 2 with open access if needed"
+      }
+    ]
+  }
+}

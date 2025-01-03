@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis:\t\tHER2 positive T1bN0M0 adenocarcinoma of distal esophagus?\n\nManagement:\t\t15 Jan 2024 Endoscopic mucosal resection?\n\t\t\tFeb-Mar 2024 Adjuvant trastuzumab/pertuzumab?\n\nHistology:\t\tModerately differentiated adenocarcinoma, T1b, clear margins?\n\t\t\tHER2 positive (3+) on immunohistochemistry?\n\nCurrent situation:\tReview during cycle 3 adjuvant targeted therapy?\n\n[redacted name] attended clinic today for routine review. She is tolerating the adjuvant trastuzumab/pertuzumab well with no cardiac symptoms and good exercise tolerance. Recent cardiac echo shows preserved ejection fraction at 58%. She reports mild fatigue but is otherwise maintaining normal activities. No dysphagia or other GI symptoms. Latest bloods show stable parameters.?\n\nPlan is to continue with cycle 4 next week. Will arrange surveillance endoscopy for 3 months' time and see her again with those results.?",
+  "output": {
+    "primary_cancer": {
+      "site": "distal esophagus",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "T1bN0M0",
+      "histopathology_status": "moderately differentiated adenocarcinoma",
+      "biomarker_status": "HER2 positive (3+) on immunohistochemistry",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Endoscopic mucosal resection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant trastuzumab/pertuzumab",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Cardiac echo shows preserved ejection fraction at 58%",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild fatigue but maintaining normal activities"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable blood parameters"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage HER2+ esophageal cancer post EMR, currently receiving adjuvant targeted therapy with good tolerance"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild fatigue, no cardiac symptoms"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with cycle 4 trastuzumab/pertuzumab"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance endoscopy in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with endoscopy results"
+      }
+    ]
+  }
+}

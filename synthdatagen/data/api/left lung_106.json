@@ -1,0 +1,84 @@
+{
+  "content": "Many thanks for referring [redacted name] who I reviewed today with his wife and daughter present. He is a 68-year-old retired construction worker who has unfortunately been diagnosed with malignant mesothelioma following investigation of progressive breathlessness and right-sided chest pain. His symptoms began approximately 6 months ago with gradually worsening exertional dyspnoea, now struggling to climb a single flight of stairs. He describes constant right-sided chest pain requiring regular opioid analgesia, and has noted about 7kg weight loss over the past 3 months despite maintaining reasonable oral intake.\n\nHis initial CT thorax on 15 March 2024 showed extensive right pleural thickening with chest wall invasion and mediastinal lymphadenopathy. Video-assisted thoracoscopic surgery and pleural biopsy on 28 March 2024 confirmed epithelioid mesothelioma. Subsequent staging investigations including CT abdomen/pelvis on 5 April 2024 demonstrated peritoneal nodularity suggesting early peritoneal involvement. His disease is therefore classified as T4N2M0 (Stage IIIB) malignant pleural mesothelioma with early peritoneal extension.\n\nHe had significant asbestos exposure during his 35-year career in construction, particularly during the 1970s and 1980s when working with asbestos insulation. He is otherwise remarkably fit with an excellent performance status of 1, though this has declined from 0 over the past month due to increasing pain and breathlessness.\n\nOn examination today, there is significantly reduced chest expansion and air entry on the right side with stony dull percussion note. His oxygen saturations are 94% on room air. There is no peripheral oedema or clubbing. His current medications include MST 30mg twice daily and oramorph 10mg as required for breakthrough pain.\n\nI have discussed his case in detail at our Mesothelioma MDT on 12 April 2024. Given his good performance status, normal organ function, and the aggressive nature of his disease, we recommend combination chemotherapy with cisplatin and pemetrexed. I have explained the aims of treatment, which are to slow disease progression and improve symptoms, though unfortunately not curative. We discussed common side effects including fatigue, nausea, risk of neutropenic sepsis, and potential kidney damage.\n\nThe plan is to proceed with baseline cardiac echo and EDTA clearance next week, followed by cycle 1 of chemotherapy. He will require regular pleural aspiration which will be arranged via our pleural team. I have also referred him to our specialist mesothelioma nurse and our palliative care team for optimisation of his pain control. We will arrange CT assessment after 3 cycles of treatment to evaluate response.\n\nHe understands the diagnosis and treatment plan, and we have discussed prognosis in broad terms. His family were present throughout our discussion and are providing excellent support. We will review him again in one week with his baseline investigations to commence treatment.",
+  "output": {
+    "primary_cancer": {
+      "site": "left lung, pleural",
+      "year": 2024,
+      "month": 3,
+      "metastases": "peritoneal nodularity, mediastinal lymphadenopathy",
+      "tnm_stage": "T4N2M0",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "epithelioid mesothelioma",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT thorax shows extensive right pleural thickening with chest wall invasion and mediastinal lymphadenopathy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Video-assisted thoracoscopic surgery and pleural biopsy confirming epithelioid mesothelioma",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT abdomen/pelvis demonstrates peritoneal nodularity suggesting early peritoneal involvement",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Case discussed at Mesothelioma MDT - recommended for cisplatin and pemetrexed chemotherapy",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1, declined from 0 over past month due to pain and breathlessness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Constant right-sided chest pain requiring regular opioid analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Exertional dyspnoea, struggling to climb single flight of stairs"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced chest expansion and air entry on right side with stony dull percussion note"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Oxygen saturations 94% on room air"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "7kg weight loss over past 3 months despite maintaining reasonable oral intake"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed epithelioid mesothelioma with chest wall invasion and early peritoneal spread. Good performance status but symptomatic decline requiring prompt initiation of palliative chemotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence cisplatin and pemetrexed chemotherapy following baseline investigations"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline cardiac echo and EDTA clearance next week, CT assessment after 3 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to specialist mesothelioma nurse and palliative care team for pain control optimization"
+      }
+    ]
+  }
+}

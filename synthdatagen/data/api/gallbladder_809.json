@@ -1,0 +1,73 @@
+{
+  "content": "Diagnosis:\tGallbladder adenocarcinoma, T4N1M1 with liver and lung metastases\n\nManagement:\t15 Jan 2024 - Commenced gemcitabine/cisplatin\n\t\t12 Mar 2024 - Treatment break due to clinical deterioration\n\nHistology:\tPoorly differentiated adenocarcinoma, HER2 equivocal (IHC 2+)\n\nCurrent Situation:\tTreatment break review\n\nI reviewed [redacted name] today who attended with her daughter. Unfortunately, she has experienced significant clinical deterioration over the past three weeks, with worsening right upper quadrant pain, increasing fatigue, and reduced oral intake. Her performance status has declined from ECOG 1 to ECOG 3, now spending most of the day in bed. She describes persistent nausea despite regular ondansetron, and has lost a further 4kg since our last review.\n\nHer most recent CT scan from 10/03/24 shows disease progression with increase in size of liver metastases (largest lesion now 8.2cm from 6.5cm) and new pulmonary nodules. Her liver function has also deteriorated with bilirubin rising to 45 μmol/L and albumin dropping to 28 g/L.\n\nGiven her significant clinical deterioration and radiological progression after two cycles of gemcitabine/cisplatin, we have had a detailed discussion about changing our approach to focus on symptom management. I have explained that further chemotherapy would carry significant risks with limited likelihood of benefit in her current condition. [redacted name] and her daughter understand this and agree with transitioning to best supportive care.\n\nI have made an urgent referral to the palliative care team for review of her pain management and other symptoms. I have prescribed additional breakthrough analgesia and started dexamethasone 4mg daily to help with appetite and energy levels. We will continue to support her through our acute oncology service, and I have given direct contact details should any urgent issues arise. I have also arranged weekly district nurse input for support at home.\n\nWe will review her again in our supportive care clinic in one week's time to ensure appropriate symptom control is achieved. In the meantime, she has the acute oncology helpline number should she need urgent advice.",
+  "output": {
+    "primary_cancer": {
+      "site": "gallbladder",
+      "year": 2024,
+      "tnm_stage": "T4N1M1",
+      "histopathology_status": "poorly differentiated adenocarcinoma",
+      "biomarker_status": "HER2 equivocal (IHC 2+)",
+      "metastases": "liver and lung metastases",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced gemcitabine/cisplatin",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Treatment break due to clinical deterioration",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression of liver metastases (largest 8.2cm from 6.5cm) and new pulmonary nodules",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, spending most of day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening right upper quadrant pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Persistent nausea despite regular ondansetron"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45 μmol/L and albumin 28 g/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced gallbladder cancer with liver and lung metastases. Disease progression and clinical deterioration after two cycles of gemcitabine/cisplatin"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on imaging with enlarging liver metastases and new lung nodules"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing chemotherapy and transitioning to best supportive care"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status from ECOG 1 to ECOG 3 with 4kg weight loss"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral and review in supportive care clinic in one week"
+      }
+    ]
+  }
+}

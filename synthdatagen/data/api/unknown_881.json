@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\tMetastatic poorly differentiated carcinoma of unknown primary origin with widespread bone and liver metastases\n\nI reviewed [redacted name] today in the oncology clinic for assessment during cycle 3 of pembrolizumab/carboplatin/pemetrexed combination therapy. Unfortunately, she has experienced significant deterioration since our last review three weeks ago. Her performance status has declined from ECOG 1 to ECOG 3, largely due to worsening bone pain affecting the thoracic spine and right hip, despite recent increase in opiate analgesia. She now requires wheelchair assistance for mobility and is spending approximately 70% of the day in bed.\n\nShe describes worsening fatigue, poor appetite with 4kg weight loss over the past month, and increasing breathlessness on minimal exertion. Her husband reports she has become increasingly confused over the past week, though this improves somewhat during the day. Recent blood tests show worsening liver function with bilirubin now 45 μmol/L (previously 28) and ALT 156 U/L. Her albumin has dropped to 28 g/L.\n\nOn examination today, there is marked hepatomegaly extending 4cm below the costal margin, tender to palpation. There is also significant tenderness over T8-T10 vertebrae and the right hip. Chest examination reveals reduced air entry at both bases with dull percussion note, suggesting developing pleural effusions.\n\nThe CT scan performed yesterday shows unfortunately shows disease progression with increasing size and number of liver metastases, the largest now measuring 8.2cm (previously 6.5cm). There are also new pulmonary metastases and evidence of progressive bone metastases with impending cord compression at T9. The previous PDL1 CPS score was 85.\n\nGiven the clear evidence of disease progression and declining performance status, I have discussed with [redacted name] and her husband that we should discontinue the current systemic therapy. I have arranged urgent radiotherapy assessment for possible palliative radiotherapy to the thoracic spine, and referral to the palliative care team for optimization of symptom control. I have also requested an urgent MRI spine to better assess the cord compression risk.\n\nWe will review her next week following radiotherapy assessment and palliative care review. I have provided emergency contact details and clear guidance about seeking immediate medical attention if she develops any new neurological symptoms.",
+  "output": {
+    "primary_cancer": {
+      "site": "unknown primary",
+      "metastases": "widespread bone and liver metastases, new pulmonary metastases",
+      "tnm_stage": "cT4N2M1",
+      "histopathology_status": "poorly differentiated carcinoma",
+      "biomarker_status": "PDL1 CPS 85",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started pembrolizumab/carboplatin/pemetrexed combination therapy"
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression of liver metastases, largest increased from 6.5cm to 8.2cm, new pulmonary metastases, progressive bone metastases with impending cord compression at T9"
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuation of systemic therapy due to disease progression and declining performance status"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from ECOG 1 to ECOG 3, spending 70% of day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain affecting thoracic spine and right hip"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing confusion, worse in mornings"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue, poor appetite with 4kg weight loss over past month"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing breathlessness on minimal exertion"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Hepatomegaly 4cm below costal margin, tender to palpation"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tenderness over T8-T10 vertebrae and right hip"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry at both bases with dull percussion note suggesting pleural effusions"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Worsening liver function with bilirubin 45 μmol/L, ALT 156 U/L, albumin 28 g/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic carcinoma of unknown primary with widespread metastases. Significant clinical deterioration with disease progression on current immunotherapy/chemotherapy combination"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on imaging with increasing size and number of metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy due to disease progression and poor performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration requiring wheelchair assistance, spending 70% of day in bed"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess cord compression risk"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent radiotherapy assessment for palliative radiotherapy to thoracic spine and referral to palliative care team"
+      }
+    ]
+  }
+}

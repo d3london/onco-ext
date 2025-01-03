@@ -1,0 +1,98 @@
+{
+  "content": "Diagnosis\n\t1. Left lower lobe adenocarcinoma with NTRK fusion\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNot indicated\n\n\tRadiotherapy\n\t15 Feb 2024 Palliative radiotherapy to T7 vertebra 20Gy in 5#\n\n\tChemotherapy\n\tJan-Mar 2024: 3 cycles carboplatin/pemetrexed\n\tMar 2024-present: Entrectinib 600mg daily\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tStable disease on targeted therapy\n\n\tCurrent issues\n\tProgressive bone pain despite stable radiological disease\n\n\tSummary of consultation\n\nI reviewed [redacted name] today who has been on entrectinib for 6 weeks. While radiologically stable, she describes worsening bone pain particularly affecting her thoracic spine and left hip. Her mobility has declined significantly over the past month, now requiring a wheelchair for anything more than short distances. Performance status has deteriorated to ECOG 3.\n\nShe is experiencing significant treatment-related toxicities including grade 2 dysgeusia affecting her oral intake, grade 2 fatigue, and intermittent dizziness. Despite these challenges, she wishes to continue with targeted therapy given the lack of alternative treatment options.\n\nCT scan from last week shows stable disease in primary tumor and bone metastases, with no new sites of disease. However, there is evidence of impending cord compression at T7, though currently no neurological deficits are detected.\n\n\tFurther investigations\n\tUrgent MRI spine\n\tBone density scan\n\n\tMedication prescribed\n\tIncreased oxycodone SR to 40mg BD\n\tPregabalin 75mg BD started\n\n\tFollow up\n\tUrgent review in 1 week with MRI results\n\tReferral to acute oncology for consideration of further bone radiotherapy\n\n\tRequired GP actions\n\tPlease monitor renal function in view of increased opioids\n\tWeekly blood pressure monitoring due to dizziness on entrectinib",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, left lower lobe",
+      "year": 2024,
+      "month": 1,
+      "metastases": "widespread bone metastases",
+      "other_stage": "Stage IV",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "NTRK fusion positive, PD-L1 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/pemetrexed chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T7 vertebra 20Gy in 5 fractions",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 3 cycles carboplatin/pemetrexed",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Entrectinib 600mg daily",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable disease in primary tumor and bone metastases, impending cord compression at T7",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain affecting thoracic spine and left hip"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires wheelchair for anything more than short distances"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No neurological deficits"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT shows stable disease with impending cord compression at T7"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV NTRK-fusion positive lung adenocarcinoma with bone metastases. Radiologically stable on entrectinib but with clinical deterioration due to bone pain and treatment toxicities"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Radiologically stable disease but symptomatic deterioration"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 dysgeusia affecting oral intake, grade 2 fatigue, and intermittent dizziness"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing entrectinib 600mg daily despite toxicities due to lack of alternative options"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in mobility requiring wheelchair use, PS 3"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine and bone density scan"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent review in 1 week with MRI results, referral to acute oncology for consideration of further bone radiotherapy"
+      }
+    ]
+  }
+}

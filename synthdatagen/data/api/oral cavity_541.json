@@ -1,0 +1,74 @@
+{
+  "content": "Diagnosis:\t\tStage IVB squamous cell carcinoma of floor of mouth with bone metastases\n\nManagement:\t\tCompleted induction TPF chemotherapy March-May 2024\n\t\tPalliative radiotherapy to C5-T1 metastases June 2024\n\t\tOngoing pembrolizumab since July 2024\n\nHistology:\t\tModerately differentiated squamous cell carcinoma\n\t\tPDL1 CPS 45%\n\nCurrent Situation:\tPre-cycle 4 pembrolizumab\n\n[redacted name] has attended today's Head and Neck clinic following recent CT imaging. The scan shows stable disease in both primary site and bone metastases, with some sclerosis in previously lytic lesions suggesting treatment response. His swallowing has improved with previous radiotherapy to the cervical spine, though he continues to require soft diet modification. Recent blood tests show stable renal function and normal thyroid function. The main ongoing challenge is pain management, with breakthrough episodes despite regular oxycodone. We have increased his background opioids today and arranged urgent pain team review. After discussion with [redacted name] and his wife, we will continue with pembrolizumab given the evidence of disease stability and good tolerability. I have prescribed cycle 4 today and arranged follow-up CT in 6 weeks' time. We will review him again before cycle 5 with imaging results.",
+  "output": {
+    "primary_cancer": {
+      "site": "oral cavity, floor of mouth",
+      "year": 2024,
+      "metastases": "bone metastases affecting cervical spine (C5-T1)",
+      "other_stage": "Stage IVB",
+      "histopathology_status": "moderately differentiated squamous cell carcinoma",
+      "biomarker_status": "PDL1 CPS 45%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced induction TPF chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to C5-T1 metastases",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started pembrolizumab immunotherapy",
+          "year": 2024,
+          "month": 7
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable disease in primary site and bone metastases, with sclerotic change in previously lytic lesions",
+          "year": 2024
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Requiring soft diet modification due to swallowing difficulties"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Breakthrough pain despite regular oxycodone"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function and normal thyroid function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IVB oral cavity cancer with bone metastases showing stable disease on pembrolizumab immunotherapy after prior TPF chemotherapy and palliative radiotherapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease with sclerotic change in bone metastases suggesting treatment response"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with pembrolizumab cycle 4, increased background opioid dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan in 6 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review before cycle 5 with imaging results, urgent pain team review arranged"
+      }
+    ]
+  }
+}

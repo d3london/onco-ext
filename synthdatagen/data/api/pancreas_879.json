@@ -1,0 +1,99 @@
+{
+  "content": "Diagnosis:\tPancreatic glucagonoma with liver metastases\n\nManagement:\t2023 Oct - Started Lanreotide 120mg q4weekly\n\t\t2023 Nov - Commenced CAPTEM chemotherapy\n\nHistology:\tWell-differentiated pancreatic neuroendocrine tumor (glucagonoma), Ki67 35%, Grade 2\n\nCurrent Situation:\tPre cycle 4 CAPTEM review\n\nI reviewed [redacted name] today prior to cycle 4 CAPTEM chemotherapy. His glucagon levels have improved from 670 to 240 pmol/L, with corresponding improvement in the characteristic rash. Latest CT performed on 15/02/2024 shows stable disease in both pancreatic primary (4.2cm) and liver metastases. Blood glucose control remains challenging but has stabilized with adjustment of insulin regime.\n\nHe has experienced grade 2 thrombocytopenia (platelets 89) and grade 1 neutropenia from previous cycle, but counts have now recovered sufficiently. Some mild peripheral neuropathy noted but not limiting activities. Performance status remains 1.\n\nLiver function tests show stable mild derangement with ALT 82, ALP 156. Chromogranin A trending down at 185 (previously 320).\n\nPlan to proceed with cycle 4 CAPTEM at current 80% dose reduction. Will continue monthly Lanreotide. Next review in 3 weeks with repeat biochemistry and glucagon levels. CT reassessment planned after cycle 6.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2023,
+      "metastases": "liver metastases",
+      "tnm_stage": "T3N1M1",
+      "histopathology_status": "Well-differentiated pancreatic neuroendocrine tumor (glucagonoma), Grade 2",
+      "biomarker_status": "Ki67 35%, glucagon 670 pmol/L initially, Chromogranin A elevated",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Lanreotide 120mg every 4 weeks",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced CAPTEM chemotherapy",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Glucagon levels improved from 670 to 240 pmol/L",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable disease in pancreatic primary (4.2cm) and liver metastases",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Chromogranin A trending down to 185 from 320",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Continuing CAPTEM at 80% dose reduction due to previous cytopenias",
+          "year": 2024,
+          "month": 2
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild peripheral neuropathy not limiting activities"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Grade 2 thrombocytopenia (platelets 89) and grade 1 neutropenia, now recovered"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Liver function tests show stable mild derangement with ALT 82, ALP 156"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Challenging blood glucose control, stabilized on insulin regime"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic glucagonoma showing biochemical and clinical response to CAPTEM chemotherapy and Lanreotide, with stable disease on imaging"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on CT with improving glucagon levels and symptom control"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 thrombocytopenia and grade 1 neutropenia from previous cycle, now recovered"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing cycle 4 CAPTEM at 80% dose reduction with monthly Lanreotide"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT reassessment planned after cycle 6"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks with repeat biochemistry and glucagon levels"
+      }
+    ]
+  }
+}

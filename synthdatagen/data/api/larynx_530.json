@@ -1,0 +1,117 @@
+{
+  "content": "Diagnosis:\nLocally advanced laryngeal squamous cell carcinoma with metastatic progression\n\nInitial Staging:\nT4aN2cM0 SCC larynx diagnosed January 2024\np16 negative, PDL1 CPS 50\n\nTreatment History:\nJan-Feb 2024 - Radical chemoradiotherapy (70Gy/35#) with concurrent cisplatin\nMarch 2024 - CT showing new pulmonary nodules and T8 vertebral metastasis\nApril 2024 - Commenced pembrolizumab monotherapy\n\nPrevious Medical History:\nType 2 diabetes\nHypertension\nChronic kidney disease stage 3\n\nCurrent Medications:\nPembrolizumab 200mg q3weekly\nDexamethasone 4mg bd\nOxycodone MR 30mg bd\nOxycodone IR 5mg prn\nMetformin 1g bd\nRamipril 5mg od\n\nCurrent Situation:\nProgressive disease with new liver metastases\n\nI reviewed [redacted name] today who has unfortunately experienced significant clinical deterioration over the past three weeks. He reports worsening pain in his mid-back despite increased analgesia, new right upper quadrant discomfort, and increasing fatigue limiting him to short walks around the house. His voice quality has deteriorated with increasing hoarseness and some mild stridor at rest. He has lost a further 3kg in weight despite nutritional supplements.\n\nCT scan performed yesterday shows multiple new liver metastases, progression of pulmonary metastases, and increasing size of T8 vertebral deposit with early cord compression. The primary laryngeal tumor shows local progression with increasing subglottic extension.\n\nPerformance status has declined to ECOG 2-3. On examination, he is cachectic with obvious stridor at rest. There is tender hepatomegaly extending 4cm below the costal margin. Neurological examination shows early signs of cord compression with increased tone in lower limbs but preserved power and reflexes.\n\nI have discussed these findings with [redacted name] and his wife today. Given the rapid progression through immunotherapy and declining performance status, I have explained that further systemic anti-cancer therapy is unlikely to be beneficial and carries significant risks. We have agreed to focus on symptom control and quality of life.\n\nPlan:\n1. Urgent MRI spine to fully assess cord compression\n2. Referral to clinical oncology for consideration of palliative radiotherapy to T8\n3. Urgent referral to palliative care team\n4. Discontinue pembrolizumab\n5. Increase dexamethasone to 8mg bd\n6. ENT review regarding consideration of tracheostomy\n7. Follow up with palliative care team next week\n8. Provide acute oncology contact details",
+  "output": {
+    "primary_cancer": {
+      "site": "larynx",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple liver metastases, pulmonary metastases, T8 vertebral metastasis",
+      "tnm_stage": "T4aN2cM0",
+      "other_stage": "Stage IVB",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "p16 negative, PDL1 CPS 50",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started radical chemoradiotherapy with concurrent cisplatin",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radical radiotherapy 70Gy in 35 fractions",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing new pulmonary nodules and T8 vertebral metastasis",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced pembrolizumab monotherapy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows multiple new liver metastases, progression of pulmonary metastases, increasing T8 vertebral deposit with early cord compression, primary tumor progression",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing pembrolizumab due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Chronic kidney disease stage 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening mid-back pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant discomfort"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing fatigue limiting mobility"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Deteriorating voice quality with hoarseness and mild stridor"
+      },
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2-3"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with stridor at rest, tender hepatomegaly 4cm below costal margin, increased tone in lower limbs"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced laryngeal cancer with rapid progression through immunotherapy and new metastases. Significant clinical deterioration with declining performance status necessitating switch to palliative approach"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on pembrolizumab with new liver metastases and worsening existing disease"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 2-3 with mobility now limited to short walks around house"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing pembrolizumab and switching to palliative approach"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess cord compression"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team with review next week, referral to clinical oncology for palliative radiotherapy, ENT review regarding tracheostomy"
+      }
+    ]
+  }
+}

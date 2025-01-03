@@ -1,0 +1,90 @@
+{
+  "content": "I reviewed [redacted name] today in the melanoma clinic following recent disease progression. As background, he was diagnosed with a 4.2mm ulcerated melanoma from his right posterior shoulder in January 2024, initially treated with wide local excision and sentinel lymph node biopsy. This showed positive nodes, leading to completion lymphadenectomy in February 2024 revealing 4/22 positive nodes. Molecular testing showed NRAS G13R mutation but was BRAF wild-type. He commenced immunotherapy with combination ipilimumab/nivolumab in March 2024, receiving 4 cycles.\n\nUnfortunately, his 12-week CT assessment has shown clear disease progression with new and enlarging lymph nodes in the right axilla (largest 3.2cm) and a new 2.1cm subcutaneous deposit adjacent to the primary excision site. His LDH has risen from 245 to 389. He has also developed increasing pain around the axillary nodes and notes new fatigue affecting his ability to work full-time as an accountant.\n\nOn examination today, the axillary nodes are clearly palpable and tender. His performance status has declined to ECOG 2 due to fatigue and pain. The surgical site shows good healing but the new subcutaneous deposit is visible and palpable. His other examination findings remain unchanged.\n\nGiven the clear progression on first-line immunotherapy, I have discussed with [redacted name] the role of second-line treatment. Given his NRAS mutation status, I have recommended chemotherapy with paclitaxel. We discussed the aims of treatment, likely side effects including hair loss and neuropathy, and the importance of maintaining quality of life. He understands this is not curative but aims to control disease progression and improve symptoms.\n\nI have arranged for him to start weekly paclitaxel next week. He will have CT assessment after 8 weeks of treatment. I have also referred him to palliative care for additional support with pain management, and our melanoma clinical nurse specialist will provide ongoing support. He will continue on regular paracetamol and codeine for pain control, and I have prescribed dexamethasone 4mg daily for symptom management.\n\nWe will review him weekly during chemotherapy. His wife attended today's consultation and they both understand to contact us if there are any concerns between appointments.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right posterior shoulder",
+      "year": 2024,
+      "month": 1,
+      "metastases": "right axillary lymph nodes, subcutaneous deposit near primary site",
+      "other_stage": "Stage IIIC",
+      "histopathology_status": "melanoma, 4.2mm thickness with ulceration",
+      "biomarker_status": "NRAS G13R positive, BRAF wild-type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Completion lymphadenectomy showing 4/22 positive nodes",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started combination ipilimumab/nivolumab immunotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "LDH risen from 245 to 389",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with new and enlarging right axillary nodes (largest 3.2cm) and new 2.1cm subcutaneous deposit",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 2 due to fatigue and pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing pain around axillary nodes"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue affecting ability to work full-time"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Palpable and tender axillary nodes, visible and palpable subcutaneous deposit"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIC melanoma progressing on first-line immunotherapy with new nodal and subcutaneous disease. Switching to second-line weekly paclitaxel chemotherapy."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on ipilimumab/nivolumab with new and enlarging lesions"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Changing to weekly paclitaxel chemotherapy"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Declining performance status due to disease progression"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT assessment after 8 weeks of paclitaxel"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review during chemotherapy, referred to palliative care for pain management"
+      }
+    ]
+  }
+}

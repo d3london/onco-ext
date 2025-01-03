@@ -1,0 +1,79 @@
+{
+  "content": "Diagnosis:\nT3N1M0 squamous cell carcinoma of right floor of mouth\nDiagnosed March 2024\n\nPrevious treatment:\nInduction TPF chemotherapy completed 15 April 2024\nConcurrent cisplatin-radiotherapy commenced 1 May 2024\n\nCurrent medications:\nOndansetron 8mg bd\nDexamethasone 4mg bd\nMorphine sulfate modified release 30mg bd\nArtificial saliva spray prn\n\nCurrent situation:\nWeek 4 of concurrent chemoradiotherapy\n\nI reviewed [redacted name] today during week 4 of concurrent chemoradiotherapy. He has completed 2 cycles of concurrent cisplatin with acceptable renal function. Grade 2 mucositis is present requiring increased analgesia and nutritional supplements. Weight has dropped by 4kg to 72kg but remains above trigger for feeding tube insertion. Some improvement in right-sided oral pain noted following recent analgesia adjustment.\n\nExamination shows expected radiation-induced changes to right floor of mouth and neck. No evidence of disease progression. Performance status remains 1.\n\nPlan is to proceed with cycle 3 cisplatin next week pending blood results. Will continue daily radiotherapy. Dietitian review arranged for additional nutritional support. Follow-up in radiotherapy review clinic next week.",
+  "output": {
+    "primary_cancer": {
+      "site": "oral cavity, right floor of mouth",
+      "year": 2024,
+      "month": 3,
+      "tnm_stage": "T3N1M0",
+      "other_stage": "Stage III",
+      "histopathology_status": "squamous cell carcinoma",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started induction TPF chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed induction TPF chemotherapy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced concurrent cisplatin-radiotherapy",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 2 cycles of concurrent cisplatin with acceptable renal function",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 mucositis requiring increased analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right-sided oral pain, some improvement following analgesia adjustment"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Expected radiation-induced changes to right floor of mouth and neck, no evidence of disease progression"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III oral cavity cancer on week 4 of concurrent chemoradiotherapy with manageable toxicities"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 mucositis and 4kg weight loss to 72kg"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing daily radiotherapy, plan to proceed with cycle 3 cisplatin pending blood results"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow-up in radiotherapy review clinic next week"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Dietitian review arranged for additional nutritional support"
+      }
+    ]
+  }
+}

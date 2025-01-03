@@ -1,0 +1,74 @@
+{
+  "content": "Diagnosis\n\t1. Pancreatic neuroendocrine tumor (insulinoma) of pancreatic tail\n\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Laparoscopic distal pancreatectomy with spleen preservation\n\n\tRadiotherapy\n\tNot indicated\n\n\tChemotherapy\n\tNot indicated\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tNo evidence of disease\n\n\tCurrent issues\n\tMild post-operative diabetes\n\n\tSummary of consultation\n\tI reviewed [redacted name] today for her three-month post-operative assessment. She has made an excellent recovery following her laparoscopic distal pancreatectomy for insulinoma. Her pre-operative symptoms of hypoglycemia have completely resolved. She no longer experiences episodes of confusion, sweating or palpitations. Her blood glucose levels have stabilized, though she requires small doses of metformin to manage mild post-operative diabetes.?\n\nHer surgical wounds have healed well with no complications. She has regained her previous energy levels and has returned to work as a primary school teacher. Her appetite is good and her weight has remained stable at 68kg.?\n\nBlood tests today show normal fasting insulin at 8 mIU/L (previously 45 mIU/L) and normal C-peptide levels. Chromogranin A is within normal range.?\n\n\tFurther investigations\n\tRoutine surveillance MRI pancreas in 6 months\n\n\tMedication prescribed\n\tMetformin 500mg twice daily\n\n\tFollow up\n\tNext oncology follow up will be in 6 months with repeat MRI\nNext surgical follow up with Mr [redacted name] in 3 months\n\n\tRequired GP actions\n\tPlease monitor blood glucose levels and HbA1c\nPlease adjust metformin dose as needed based on blood glucose readings\n\n\tSummary of information given to the patient about their cancer and future progress\n\tDiscussed excellent prognosis following complete surgical resection. Explained surveillance plan with 6-monthly MRI scans for first two years, then annual scanning. Patient understands to report any return of hypoglycemic symptoms.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas, tail",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "T1N0M0",
+      "histopathology_status": "insulinoma, pancreatic neuroendocrine tumor",
+      "biomarker_status": "Pre-operative insulin 45 mIU/L, elevated C-peptide",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Elevated insulin 45 mIU/L and raised C-peptide",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Laparoscopic distal pancreatectomy with spleen preservation",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Normal fasting insulin 8 mIU/L and normal C-peptide levels, Chromogranin A within normal range",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Mild post-operative diabetes requiring metformin"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Returned to work as primary school teacher"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Surgical wounds well healed with no complications"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal fasting insulin, C-peptide and Chromogranin A levels"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Insulinoma successfully treated with surgery. Complete resolution of hypoglycemic symptoms with excellent post-operative recovery"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Complete biochemical response with normalization of insulin and C-peptide levels"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing metformin 500mg twice daily for post-operative diabetes"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance MRI pancreas in 6 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Oncology follow-up in 6 months with MRI, surgical follow-up in 3 months"
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "content": "Diagnosis:\tMalignant peritoneal mesothelioma, T2N1M0, diagnosed March 2024\n\nI reviewed [redacted name] today for assessment during cycle 4 of first-line combination immunotherapy with Nivolumab and Ipilimumab. He was initially diagnosed following investigation of increasing abdominal distension and early satiety. Diagnostic laparoscopy on 15/3/24 confirmed peritoneal mesothelioma with omental cake and nodular deposits throughout the right hemidiaphragm. Molecular profiling showed PD-L1 TPS 30% with retained BAP1 expression.\n\nHe commenced combination immunotherapy on 1/4/24 and has generally tolerated treatment well. CT assessment after cycle 3 showed stable disease with slight reduction in peritoneal thickening though unchanged omental disease. His initial ascites has not recurred since therapeutic paracentesis (4.2L) performed prior to cycle 1.\n\nOn review today, his performance status remains 1. He reports ongoing grade 1 fatigue but this is not significantly impacting his daily activities. His appetite has improved and he has maintained his weight at 82kg. He developed a pruritic rash over his trunk and arms after cycle 3 which responded well to topical hydrocortisone 1%. His thyroid function remains normal on the latest blood tests.\n\nClinical examination shows soft abdomen with reduced peritoneal thickening on palpation compared to previous reviews. No evidence of new ascites. Chest is clear with good bilateral air entry.\n\nThe plan is to proceed with cycle 4 immunotherapy today as bloods are satisfactory. We will arrange CT chest/abdomen/pelvis prior to cycle 6 to formally assess response. I have provided prescription for additional hydrocortisone cream and advised to contact us promptly if the rash worsens. Review arranged in 3 weeks for cycle 5.",
+  "output": {
+    "primary_cancer": {
+      "site": "peritoneal",
+      "year": 2024,
+      "month": 3,
+      "metastases": "omental cake and nodular deposits throughout right hemidiaphragm",
+      "tnm_stage": "T2N1M0",
+      "histopathology_status": "malignant mesothelioma",
+      "biomarker_status": "PD-L1 TPS 30%, BAP1 retained",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Diagnostic laparoscopy confirmed peritoneal mesothelioma with omental cake and right hemidiaphragm deposits",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced combination immunotherapy with Nivolumab and Ipilimumab",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Therapeutic paracentesis 4.2L performed prior to cycle 1",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT after cycle 3 shows stable disease with slight reduction in peritoneal thickening, unchanged omental disease",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue not significantly impacting daily activities"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Soft abdomen with reduced peritoneal thickening, no new ascites, chest clear with good bilateral air entry"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal thyroid function on latest blood tests"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Peritoneal mesothelioma showing stable disease on immunotherapy with good tolerability aside from managed grade 1 rash"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease with slight reduction in peritoneal thickening, no recurrence of ascites"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 pruritic rash over trunk and arms after cycle 3, responded to topical hydrocortisone"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 4 immunotherapy, bloods satisfactory"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis arranged prior to cycle 6"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks for cycle 5"
+      }
+    ]
+  }
+}

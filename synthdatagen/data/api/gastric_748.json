@@ -1,0 +1,79 @@
+{
+  "content": "Diagnosis:\t\tMetastatic gastric adenocarcinoma, HER2 negative, MSI stable\n\nManagement:\t\tJan 2024 - March 2024: FOLFOX chemotherapy\n\t\tApril 2024: Changed to weekly Paclitaxel\n\nHistology:\t\tPoorly differentiated adenocarcinoma, Lauren's intestinal type\n\nCurrent Situation:\tProgressive disease with deteriorating performance status\n\n[redacted name] has unfortunately shown clear evidence of disease progression on imaging performed last week. The CT demonstrates enlarging liver metastases with the largest lesion now measuring 8.2cm (previously 5.4cm), and new bone metastases in T11 and L2 vertebrae. Her performance status has declined to ECOG 2-3, spending more than 50% of the day resting. She describes worsening right upper quadrant pain requiring increased opiate analgesia, with current daily requirements of Oxycodone SR 40mg BD and breakthrough Oxycodone 10mg up to 4 times daily. She has developed new onset confusion and lethargy over the past week, with blood tests showing hypercalcemia (corrected calcium 3.1) likely related to bone metastases.\n\nShe has experienced significant weight loss of 6kg over the past month despite nutritional supplements. Current weight is 52kg. Liver function shows marked deterioration with bilirubin 45, ALT 156, ALP 432. Given her declining performance status and organ dysfunction, I have had a detailed discussion with [redacted name] and her family about transitioning to best supportive care. They understand that further systemic therapy would carry significant risks with limited potential benefit.\n\nI have arranged urgent referral to the palliative care team and prescribed IV zoledronic acid for hypercalcemia. She will be admitted today for fluid rehydration and symptom management. I have also referred to the acute oncology team for ongoing support. We will arrange community palliative care involvement for continued support at home once stabilized.",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "year": 2024,
+      "metastases": "liver metastases, bone metastases in T11 and L2 vertebrae",
+      "other_stage": "Stage IV",
+      "histopathology_status": "Poorly differentiated adenocarcinoma, Lauren's intestinal type",
+      "biomarker_status": "HER2 negative, MSI stable",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFOX chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed to weekly Paclitaxel",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows enlarging liver metastases (largest 8.2cm from 5.4cm) and new bone metastases in T11 and L2 vertebrae",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Hypercalcemia (corrected calcium 3.1), deteriorating liver function with bilirubin 45, ALT 156, ALP 432",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2-3, spending more than 50% of day resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening right upper quadrant pain requiring increased opiate analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset confusion and lethargy"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Significant weight loss of 6kg over past month despite nutritional supplements, current weight 52kg"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic gastric cancer with progressive liver and new bone metastases. Significant clinical deterioration with hypercalcemia and declining performance status necessitating transition to palliative care"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with enlarging liver metastases and new bone metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Transitioning to best supportive care due to declining performance status and organ dysfunction"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 2-3 with significant weight loss and new confusion"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team, admission for symptom management, referral to acute oncology team and community palliative care"
+      }
+    ]
+  }
+}

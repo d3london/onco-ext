@@ -1,0 +1,88 @@
+{
+  "content": "Diagnosis\n\t1. Glassy cell carcinoma of cervix FIGO Stage IVA with bladder invasion\n\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative intent\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNot suitable due to local extent\n\n\tRadiotherapy\n\t12 Feb 2024 - 22 Mar 2024\n\tRadical chemoradiotherapy 50.4Gy in 28 fractions with weekly cisplatin\n\tBrachytherapy boost 21Gy in 3 fractions completed 5 Apr 2024\n\n\tChemotherapy\n\tCompleted 5 cycles concurrent cisplatin (one omitted due to neutropenia)\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tStable disease on first post-treatment imaging\n\n\tCurrent issues\n\tGrade 2 radiation proctitis\nMild lymphoedema both legs\n\n\tSummary of consultation\n\tCase discussed at Gynae-oncology MDT today. MRI pelvis from 15/4/24 shows good response to chemoradiotherapy with reduction in cervical mass from 6.8cm to 2.1cm. Bladder wall thickening improved but residual abnormality present. No new disease sites. PET-CT from 18/4/24 shows residual FDG uptake in primary site (SUV max 4.2, reduced from 12.8) with no distant disease.\n\nThe MDT recommendations are:\n1. Continue observation with close surveillance given overall good response\n2. Arrange cystoscopy to assess bladder involvement\n3. Consider maintenance immunotherapy given high PD-L1 status (CPS 90)\n4. Early referral to lymphoedema service\n\nPatient to be reviewed in clinic next week to discuss MDT outcome and ongoing management plan.\n\n\tFurther investigations\n\tCystoscopy\nRepeat MRI pelvis in 8 weeks\n\n\tMedication prescribed\n\tHydrocortisone suppositories for radiation proctitis\n\n\tFollow up\n\tNext oncology follow up in 1 week\nLymphoedema service referral completed\n\n\tRequired GP actions\n\tWeekly FBC, U&E monitoring\nPrescribe compression stockings as per lymphoedema team advice",
+  "output": {
+    "primary_cancer": {
+      "site": "cervix",
+      "year": 2024,
+      "month": 1,
+      "metastases": "bladder invasion",
+      "other_stage": "FIGO Stage IVA",
+      "histopathology_status": "glassy cell carcinoma",
+      "biomarker_status": "PD-L1 CPS 90",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Initial cervical mass measuring 6.8cm with bladder wall invasion",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Commenced radical chemoradiotherapy 50.4Gy in 28 fractions with weekly cisplatin",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "One cycle of concurrent cisplatin omitted due to neutropenia",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed brachytherapy boost 21Gy in 3 fractions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows reduction in cervical mass to 2.1cm with improved but residual bladder wall thickening",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PET-CT shows reduced FDG uptake in primary site (SUV max 4.2, reduced from 12.8) with no distant disease",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 radiation proctitis"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild lymphoedema both legs"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "MRI 15/4/24 shows reduction in cervical mass from 6.8cm to 2.1cm with improved but residual bladder wall thickening"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IVA cervical cancer with bladder invasion showing good response to chemoradiotherapy with residual disease. MDT recommends surveillance and consideration of maintenance immunotherapy."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Good response to chemoradiotherapy with reduction in primary tumor size and FDG uptake"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 radiation proctitis and mild lymphoedema"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Cystoscopy and repeat MRI pelvis in 8 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Oncology review in 1 week, lymphoedema service referral completed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\tInvasive lobular carcinoma of left breast, grade 2, pT3pN2M0 (6/15 nodes), ER/PR strongly positive, HER2 negative.\n\nInitial treatment with mastectomy and axillary clearance March 2023, followed by adjuvant FEC-T chemotherapy completed September 2023. Currently on letrozole and zolendronic acid.\n\nSolitary bone metastasis in L3 vertebra identified on routine follow-up CT December 2023, treated with stereotactic radiotherapy 24Gy in 3 fractions January 2024.\n\n[redacted name] attended today for review of response to radiotherapy and ongoing hormone therapy. She reports good improvement in her back pain following radiotherapy, now only requiring occasional paracetamol. Performance status remains 0. She is tolerating letrozole well with only mild arthralgias managed with regular exercise.\n\nCT scan last week shows stable appearance of the L3 lesion post-radiotherapy with no evidence of new metastatic disease. Blood tests show normal liver and renal function, with stable tumor markers.\n\nOn examination today, she has good range of movement in her spine with no focal tenderness. Mastectomy site remains well healed with no evidence of local recurrence.\n\nPlan is to continue current hormone therapy with letrozole and 3-monthly zolendronic acid. Will arrange repeat CT chest/abdomen/pelvis in 3 months and review in clinic with results. She understands to contact us sooner if new symptoms develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2023,
+      "month": 3,
+      "metastases": "solitary bone metastasis L3 vertebra",
+      "tnm_stage": "pT3pN2M0",
+      "histopathology_status": "invasive lobular carcinoma, grade 2, 6/15 nodes positive",
+      "biomarker_status": "ER/PR strongly positive, HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "mastectomy and axillary clearance",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "commenced adjuvant FEC-T chemotherapy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "completed FEC-T chemotherapy",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "solitary bone metastasis in L3 vertebra identified on routine follow-up CT",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "stereotactic radiotherapy 24Gy in 3 fractions to L3 vertebra",
+          "year": 2024,
+          "month": 1
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "mild arthralgias managed with regular exercise"
+      },
+      {
+        "type": "examination_finding",
+        "value": "good range of movement in spine with no focal tenderness"
+      },
+      {
+        "type": "examination_finding",
+        "value": "mastectomy site well healed with no evidence of local recurrence"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT shows stable L3 lesion post-radiotherapy with no new metastatic disease"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic breast cancer with solitary L3 vertebral metastasis, showing good response to local radiotherapy and ongoing hormone therapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "improvement in back pain following radiotherapy, stable disease on imaging"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "continuing letrozole and 3-monthly zolendronic acid"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "clinic review with CT results in 3 months"
+      }
+    ]
+  }
+}

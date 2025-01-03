@@ -1,0 +1,86 @@
+{
+  "content": "Many thanks for referring [redacted name] to our Phase II MIRACLE trial clinic. She is a 42-year-old lady with Lynch syndrome who was diagnosed with clear cell adenocarcinoma of the cecum in January 2024, presenting initially with iron deficiency anaemia and change in bowel habit. Initial staging demonstrated a T4 primary tumor with regional lymphadenopathy and peritoneal disease with ovarian involvement. Molecular profiling has confirmed MSI-high status with preserved MMR protein expression.\n\nShe underwent 3 cycles of FOLFOX chemotherapy between February and March 2024, achieving partial response on interval imaging with reduction in peritoneal disease volume and improvement in bowel symptoms. However, she experienced significant grade 3 peripheral neuropathy requiring dose reduction of oxaliplatin. Given her MSI-high status and Lynch syndrome, she has been referred for consideration of the MIRACLE trial investigating dual checkpoint inhibition.\n\nI am pleased to report that [redacted name] meets all eligibility criteria for the MIRACLE trial. Her recent investigations show adequate organ function with normal liver biochemistry, renal function (creatinine clearance 85ml/min), and haematological parameters. Cardiac assessment shows normal left ventricular function with ejection fraction of 62%. Baseline CT imaging on 15 April 2024 confirms measurable disease with target lesions in the peritoneum (4.2cm and 2.8cm) showing partial response to previous chemotherapy.\n\nI have had a detailed discussion with [redacted name] regarding the trial protocol, which involves combination immunotherapy with anti-PD1 and anti-CTLA4 agents. We reviewed the schedule of visits, required investigations, and potential side effects including immune-related adverse events. She demonstrates good understanding of the trial requirements and has signed the informed consent today. Her performance status remains excellent at ECOG 0-1 despite previous chemotherapy toxicity.\n\nThe plan is to commence trial treatment next week following completion of baseline blood tests and quality of life questionnaires. She will receive the first dose of combination immunotherapy on 25 April 2024 with weekly reviews for the first month. I have arranged the necessary screening tests including thyroid function, cortisol, and autoimmune markers. We will repeat imaging at 9 weeks as per protocol to assess response.\n\nShe will be closely monitored through our clinical trials unit with direct access to the research team. I have provided emergency contact details and clear instructions regarding potential immune-related adverse events. [redacted name] understands to contact us immediately if she develops any new symptoms.",
+  "output": {
+    "primary_cancer": {
+      "site": "cecum",
+      "year": 2024,
+      "month": 1,
+      "metastases": "peritoneal disease with ovarian involvement, regional lymphadenopathy",
+      "tnm_stage": "T4N2M1",
+      "histopathology_status": "clear cell adenocarcinoma",
+      "biomarker_status": "MSI-high with preserved MMR protein expression, Lynch syndrome",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Oxaliplatin dose reduction due to grade 3 peripheral neuropathy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows partial response with reduction in peritoneal disease volume",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Baseline CT shows measurable peritoneal disease with target lesions 4.2cm and 2.8cm",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in MIRACLE trial for dual checkpoint inhibition, signed informed consent",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 0-1"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal liver biochemistry, creatinine clearance 85ml/min, normal haematological parameters"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal left ventricular function with ejection fraction 62%"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Lynch syndrome associated MSI-high cecal adenocarcinoma with peritoneal metastases, showing partial response to initial FOLFOX chemotherapy. Now enrolled in dual checkpoint inhibition trial."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response to FOLFOX with reduction in peritoneal disease and improvement in bowel symptoms"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 peripheral neuropathy from oxaliplatin requiring dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "To commence combination immunotherapy on trial on 25 April 2024"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline blood tests including thyroid function, cortisol, and autoimmune markers, with repeat imaging at 9 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly reviews for first month through clinical trials unit"
+      }
+    ]
+  }
+}

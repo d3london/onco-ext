@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis:\tMalignant melanoma right upper arm\n\tWide local excision and sentinel lymph node biopsy March 2024\n\tpT2aN0M0, Breslow 2.1mm, no ulceration, no lymphovascular invasion\n\tBRAF and NRAS wild type\n\nI reviewed [redacted name] today in the melanoma surveillance clinic. She has recovered well from her surgery with good wound healing. The surgical scar on the right upper arm is well-healed with no concerning features. There is no palpable lymphadenopathy in the right axilla. No new skin lesions identified on full skin examination today.\n\nHer latest chest x-ray from 15/4/24 shows no evidence of metastatic disease. Blood tests including LDH remain within normal range.\n\nI have provided education regarding sun protection and skin self-examination. She will continue with 3-monthly surveillance visits for the first year. I have arranged follow-up in the melanoma clinic in 3 months with repeat blood tests including LDH. She understands to contact us sooner if she develops any new concerning symptoms or skin changes.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right upper arm",
+      "year": 2024,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT2aN0M0",
+      "other_stage": null,
+      "histopathology_status": "Melanoma, Breslow 2.1mm, no ulceration, no lymphovascular invasion",
+      "biomarker_status": "BRAF and NRAS wild type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Chest x-ray shows no evidence of metastatic disease",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "LDH within normal range",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical scar on right upper arm with no concerning features"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No palpable lymphadenopathy in right axilla"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No new skin lesions on full skin examination"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIA melanoma post wide local excision and SLNB. Currently well with no evidence of recurrence."
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat blood tests including LDH in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow-up in melanoma clinic in 3 months"
+      }
+    ]
+  }
+}

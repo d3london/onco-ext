@@ -1,0 +1,92 @@
+{
+  "content": "Diagnosis:\n\nSarcomatoid carcinoma of right lower lobe with pleural metastases\n\nStaging April 2024: T3N2M1a with MDM2 amplification\n\nPrevious medical history:\nCOPD with FEV1 1.2L (42% predicted)\nHypertension\nType 2 Diabetes\n\nCurrent medications:\nGemcitabine/docetaxel chemotherapy (cycle 3 completed)\nMetformin 1g BD\nRamipril 5mg OD\nSalbutamol inhaler PRN\n\nAllergies:\nNone known\n\nCurrent situation:\nProgressive disease after 3 cycles of chemotherapy\n\nCT thorax 15 May 2024 shows 25% increase in primary mass size and new pleural nodules\n\nPerformance status deteriorated to ECOG 2\n\nI reviewed [redacted name] today who attended with his wife to discuss disease progression. Unfortunately, imaging shows clear evidence of disease progression despite three cycles of gemcitabine and docetaxel, with enlargement of the primary mass from 6.8cm to 8.5cm and development of new pleural nodules. His symptoms have also worsened with increasing breathlessness now limiting him to walking only 50 meters on the flat, and requiring supplemental oxygen at 2L/min. He has developed a dry cough and right-sided chest pain requiring regular breakthrough analgesia.\n\nGiven the MDM2 amplification identified on molecular testing, I have discussed switching treatment to sirolimus as second-line therapy. We reviewed the mechanism of action, expected side effects, and monitoring requirements. [redacted name] understands this is a palliative treatment aimed at controlling disease progression and improving symptoms. He wishes to proceed with this option.\n\nI have prescribed sirolimus 6mg loading dose followed by 2mg daily, with weekly blood monitoring for the first month. We will arrange CT assessment after 8 weeks of therapy. I have also referred to palliative care for support with symptom management, particularly his increasing breathlessness and pain. We will review him in clinic in 2 weeks to check tolerability of the new treatment.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right lower lobe",
+      "year": 2024,
+      "month": 4,
+      "metastases": "pleural metastases",
+      "tnm_stage": "T3N2M1a",
+      "histopathology_status": "sarcomatoid carcinoma",
+      "biomarker_status": "MDM2 amplification",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started gemcitabine/docetaxel chemotherapy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT thorax shows 25% increase in primary mass size (6.8cm to 8.5cm) and new pleural nodules",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued gemcitabine/docetaxel after 3 cycles due to disease progression",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Starting sirolimus 6mg loading dose then 2mg daily",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "COPD with FEV1 1.2L (42% predicted)"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 Diabetes"
+      },
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Breathlessness limiting walking to 50 meters, requiring oxygen 2L/min"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Dry cough and right-sided chest pain requiring regular breakthrough analgesia"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Sarcomatoid lung cancer with pleural metastases showing disease progression after 3 cycles of first-line chemotherapy. Deteriorating symptoms with increasing oxygen requirements."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with 25% increase in primary tumor size and new pleural nodules"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Switching from gemcitabine/docetaxel to sirolimus due to disease progression"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in exercise tolerance, now requiring oxygen therapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT assessment after 8 weeks of sirolimus therapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 2 weeks to check treatment tolerability"
+      }
+    ]
+  }
+}

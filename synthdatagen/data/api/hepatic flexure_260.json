@@ -1,0 +1,88 @@
+{
+  "content": "Diagnosis:\tMetastatic adenocarcinoma of hepatic flexure colon with liver metastases\n\nManagement:\t15 Jan 2024 Right hemicolectomy\n\t\t12 Feb 2024 Commenced FOLFOX/Cetuximab\n\nHistology:\tMicropapillary adenocarcinoma, pT4aN2b (8/15 nodes positive), RAS/RAF wild type\n\nCurrent Situation:\tPre cycle 4 FOLFOX/Cetuximab\n\nI was very pleased to review [redacted name] today who continues to show remarkable resilience during his treatment journey. He has completed three cycles of FOLFOX chemotherapy with cetuximab and is managing relatively well despite some challenging side effects. His main issue has been an acneiform rash typical of cetuximab, which initially reached grade 2 severity but has improved significantly with doxycycline and topical treatments. He continues to experience grade 1 peripheral neuropathy affecting his fingertips, which we are monitoring closely.\n\nHis recent CT scan on 15 March 2024 shows an encouraging partial response, with the largest liver metastasis in segment 7 reducing from 4.2cm to 2.8cm, and similar proportional reductions in the other three liver lesions. There is no evidence of new disease. His CEA has dropped from 245 to 82.\n\nOn examination today, his performance status remains 1. The skin rash is now grade 1, mainly affecting his face and upper chest. There is mild peripheral neuropathy in his fingers but no foot symptoms. His stoma is functioning well and he has maintained his weight at 72kg.\n\nHis blood tests today show stable renal function and liver function tests within normal range. His neutrophils are 2.8 and platelets 156, adequate for proceeding with cycle 4.\n\nWe had a detailed discussion about his progress. Given the good partial response and manageable side effects, we will proceed with cycle 4 at full doses. I have provided prescriptions for ongoing supportive medications including doxycycline and topical treatments for his rash. We will arrange a repeat CT scan after cycle 6 to assess response.\n\nThe plan is to continue with cycle 4 FOLFOX/Cetuximab today. We will see him again in clinic in three weeks' time before cycle 5. I have asked him to contact our team if he develops worsening neuropathy or skin symptoms in the meantime.",
+  "output": {
+    "primary_cancer": {
+      "site": "hepatic flexure colon",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver metastases",
+      "tnm_stage": "pT4aN2b",
+      "histopathology_status": "micropapillary adenocarcinoma",
+      "biomarker_status": "RAS/RAF wild type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right hemicolectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced FOLFOX/Cetuximab combination therapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA decreased from 245 to 82",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows partial response - largest liver metastasis reduced from 4.2cm to 2.8cm with similar reductions in other lesions",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 peripheral neuropathy affecting fingertips"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 acneiform rash on face and upper chest"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Weight maintained at 72kg"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function, normal liver function, neutrophils 2.8, platelets 156"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic colon cancer showing good partial response to FOLFOX/Cetuximab with manageable toxicities"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response with reduction in size of all liver metastases and falling CEA"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 acneiform rash (improved from grade 2) and grade 1 peripheral neuropathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing FOLFOX/Cetuximab at full doses for cycle 4"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan planned after cycle 6"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in three weeks before cycle 5"
+      }
+    ]
+  }
+}

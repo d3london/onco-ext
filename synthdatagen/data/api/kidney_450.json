@@ -1,0 +1,82 @@
+{
+  "content": "Many thanks for referring [redacted name] who I reviewed in the Uro-oncology clinic today following his recent diagnosis of renal cell carcinoma. He is a 64-year-old gentleman who was incidentally found to have a 2.8cm right renal mass during ultrasound investigation for gallstone disease in February 2024. Subsequent dedicated renal protocol CT confirmed a solid enhancing mass in the upper pole of the right kidney, highly suspicious for renal cell carcinoma, with no evidence of local invasion or metastatic disease. An MRI was performed for detailed local staging which confirmed the lesion to be entirely confined within the kidney.\n\nHe underwent partial nephrectomy on March 15th 2024 which confirmed a pT1a clear cell renal cell carcinoma, Fuhrman grade 2, with negative margins. Molecular testing has shown the tumor to be BAP1 negative. His post-operative recovery was uncomplicated and his renal function has remained stable with creatinine of 92 umol/L.\n\nIn terms of his background, he has well-controlled hypertension on ramipril 5mg daily and takes simvastatin 40mg for hypercholesterolemia. He is an ex-smoker having quit 15 years ago and drinks alcohol occasionally. He lives with his wife and continues to work full-time as an accountant.\n\nOn examination today, his surgical wounds are well-healed, and his blood pressure is well-controlled at 132/78. His performance status is 0 and he has returned to his normal activities including regular swimming.\n\nI have explained to [redacted name] that given the complete resection of his small, organ-confined renal cell carcinoma, his prognosis is excellent with a very low risk of recurrence. We have discussed the surveillance protocol which will involve regular clinical review with chest X-ray and renal function monitoring. The first surveillance CT scan will be arranged for 12 months' time.\n\nI have provided written information about kidney cancer and our surveillance program. We will arrange to see him again in 6 months with blood tests and chest X-ray. In the meantime, I have advised him to contact us should he develop any concerning symptoms such as new pain, unexplained weight loss, or persistent cough.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right upper pole",
+      "year": 2024,
+      "month": 2,
+      "metastases": "",
+      "tnm_stage": "pT1aN0M0",
+      "histopathology_status": "clear cell renal cell carcinoma, Fuhrman grade 2, negative margins",
+      "biomarker_status": "BAP1 negative",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "2.8cm right renal mass found incidentally on ultrasound",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT confirms solid enhancing mass in upper pole of right kidney, no invasion or metastases",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI confirms lesion confined to kidney",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Partial nephrectomy performed with uncomplicated recovery",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Molecular testing shows BAP1 negative status",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Hypertension on ramipril 5mg daily"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypercholesterolemia on simvastatin 40mg"
+      },
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical wounds, blood pressure 132/78"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function with creatinine 92 umol/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Incidentally detected small renal cell carcinoma, successfully treated with partial nephrectomy. Excellent prognosis given complete resection of organ-confined disease."
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance CT scan in 12 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 6 months with blood tests and chest X-ray"
+      }
+    ]
+  }
+}

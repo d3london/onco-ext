@@ -1,0 +1,110 @@
+{
+  "content": "Diagnosis:\nMetastatic sigmoid colon cancer (serrated adenocarcinoma)\nDuke's C2, MSI-low, BRAF non-V600E mutant\n\nPrevious treatment:\nAnterior resection March 2023\nAdjuvant CAPOX completed September 2023\nPulmonary metastases identified December 2023\nFOLFIRI/Bevacizumab commenced January 2024\n\nCurrent situation:\nCycle 4 FOLFIRI/Bevacizumab review\n\nDisease status:\nCT chest 15 April 2024 shows progression of pulmonary metastases\nNew 2cm right lower lobe nodule\nExisting nodules increased by >30%\nCEA risen from 45 to 89\n\nCurrent symptoms:\nIncreasing breathlessness on exertion\nNew dry cough\nWeight loss 3kg over 6 weeks\nPerformance status deteriorated to ECOG 2\n\nPrevious medical history:\nType 2 diabetes\nHypertension\n\nCurrent medications:\nFOLFIRI/Bevacizumab regime\nMetformin 1g BD\nRamipril 5mg OD\n\nPlan:\nDiscontinue FOLFIRI/Bevacizumab due to disease progression\nCommence Trifluridine/Tipiracil (Lonsurf) as third-line therapy\nDose calculated at 35mg/m2 BD days 1-5 and 8-12 of 28-day cycle\nReview in 2 weeks with blood tests\nRepeat CT after cycle 2\nReferral made to palliative care team for symptom management",
+  "output": {
+    "primary_cancer": {
+      "site": "sigmoid colon",
+      "year": 2023,
+      "month": 3,
+      "metastases": "pulmonary metastases",
+      "other_stage": "Duke's C2",
+      "histopathology_status": "serrated adenocarcinoma",
+      "biomarker_status": "MSI-low, BRAF non-V600E mutant",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Anterior resection",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant CAPOX",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed adjuvant CAPOX",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Pulmonary metastases identified",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFIRI/Bevacizumab",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression of pulmonary metastases with new 2cm right lower lobe nodule",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA risen from 45 to 89",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 2"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing breathlessness on exertion"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New dry cough"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight loss 3kg over 6 weeks"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic sigmoid cancer progressing on second-line therapy with deteriorating symptoms and performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with new and enlarging pulmonary metastases and rising CEA"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing FOLFIRI/Bevacizumab and commencing Trifluridine/Tipiracil"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Performance status deteriorated to ECOG 2 with increasing breathlessness"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat CT after cycle 2 of Trifluridine/Tipiracil"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks with blood tests and referral to palliative care team"
+      }
+    ]
+  }
+}

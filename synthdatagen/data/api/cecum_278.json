@@ -1,0 +1,60 @@
+{
+  "content": "Diagnosis:\tCecal adenocarcinoma, pT4aN0M0 (Stage IIB)\n\nManagement:\t15 Mar 2024 Right hemicolectomy - R0 resection\n\nHistology:\tModerately differentiated adenocarcinoma, pT4a (serosal involvement), N0 (0/18 nodes), KRAS Q61H mutation detected\n\nCurrent Situation:\tPost-operative assessment for adjuvant chemotherapy\n\n[redacted name] attended clinic today following recent right hemicolectomy for cecal adenocarcinoma. She has made an excellent recovery from surgery with no post-operative complications. Her wound has healed well and bowel function has normalized. Current performance status is 0.\n\nGiven the T4a staging and presence of KRAS mutation, I have discussed adjuvant chemotherapy with CAPOX regime. We reviewed the expected benefits and potential side effects. She is keen to proceed with treatment. Recent blood tests show normal renal and liver function, and adequate bone marrow reserve.\n\nI have prescribed cycle 1 CAPOX to commence next week. We will review her prior to cycle 2 in three weeks' time. She understands to contact us if any concerns arise during treatment.",
+  "output": {
+    "primary_cancer": {
+      "site": "cecum",
+      "year": 2024,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT4aN0M0",
+      "other_stage": "Stage IIB",
+      "histopathology_status": "moderately differentiated adenocarcinoma",
+      "biomarker_status": "KRAS Q61H mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right hemicolectomy - R0 resection",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirms pT4a (serosal involvement), N0 (0/18 nodes)",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Plan to commence CAPOX adjuvant chemotherapy",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal renal and liver function, adequate bone marrow reserve"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recent right hemicolectomy for Stage IIB cecal adenocarcinoma. Excellent post-operative recovery, proceeding with adjuvant chemotherapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Prescribed cycle 1 CAPOX chemotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review prior to cycle 2 in three weeks"
+      }
+    ]
+  }
+}

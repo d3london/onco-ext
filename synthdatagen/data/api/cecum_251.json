@@ -1,0 +1,69 @@
+{
+  "content": "Diagnosis:\t\tCecal adenocarcinoma\n\nManagement:\t\t15 Jan 2024 Right hemicolectomy\n\nHistology:\t\tpT4aN2a (4/16 nodes), MMR deficient, BRAF V600E mutant\n\nCurrent situation:\tCycle 4 CAPOX adjuvant chemotherapy\n\n[redacted name] attended the oncology clinic today for pre-cycle review. She has managed the previous cycle well with only grade 1 hand-foot syndrome and mild fatigue. No significant neuropathy reported. Blood tests show stable parameters suitable for continuing treatment. CT scan performed last week shows no evidence of recurrent disease. She continues to gain weight gradually and has now returned to work part-time. The plan is to proceed with cycle 4 CAPOX today as scheduled. We will arrange follow-up CT chest/abdomen/pelvis after completion of planned 6 cycles. Next review in 3 weeks prior to cycle 5.",
+  "output": {
+    "primary_cancer": {
+      "site": "cecum",
+      "year": 2024,
+      "month": 1,
+      "metastases": "lymph node involvement - 4/16 nodes positive",
+      "tnm_stage": "pT4aN2a",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "MMR deficient, BRAF V600E mutant",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right hemicolectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant CAPOX chemotherapy",
+          "year": 2024
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of recurrent disease",
+          "year": 2024
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "grade 1 hand-foot syndrome and mild fatigue"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "blood tests show stable parameters suitable for continuing treatment"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "returned to work part-time"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIB cecal cancer post right hemicolectomy, tolerating adjuvant CAPOX chemotherapy with minimal side effects"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "grade 1 hand-foot syndrome and mild fatigue, no significant neuropathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "proceeding with cycle 4 CAPOX as scheduled"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis after completion of planned 6 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "review in 3 weeks prior to cycle 5"
+      }
+    ]
+  }
+}

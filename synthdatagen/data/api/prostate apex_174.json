@@ -1,0 +1,108 @@
+{
+  "content": "I reviewed [redacted name] today who attended with his wife following recent admission to [redacted name] Hospital with increasing lower back pain and right-sided sciatica. He was diagnosed with metastatic prostate cancer in January 2024 following presentation with severe back pain and PSA of 125. Initial staging demonstrated a T3b prostate adenocarcinoma with Gleason 4+5=9 disease on biopsy, with extensive bone metastases particularly affecting the spine, pelvis, and several ribs. MRI spine in January showed epidural extension at T8 with mild cord compression, which was treated with emergency radiotherapy 20Gy in 5 fractions with good symptomatic benefit.\n\nHe commenced androgen deprivation therapy with Goserelin and Enzalutamide in February 2024, with initial good PSA response dropping to 45 by March. However, he has experienced progressive symptoms over the last 3 weeks with worsening back pain requiring escalation of analgesia, new onset right-sided sciatica, and increasing fatigue. His mobility has significantly deteriorated and he now requires a wheelchair for anything more than short distances. Recent blood tests show rising PSA to 156 and new onset anaemia with Hb 98.\n\nOn examination today, he appears notably more frail than at last review. Performance status has declined to ECOG 3. There is marked tenderness over the lower thoracic and lumbar spine with reduced range of movement. Neurological examination shows reduced power in right leg (4/5) with positive straight leg raise at 45 degrees. Given these concerning features, I have arranged urgent MRI spine and CT scan to assess disease status and exclude further cord compression.\n\nIn view of clear clinical and biochemical progression on first-line therapy, I have discussed changing treatment to Docetaxel chemotherapy. However, given his current performance status and symptoms, I feel we should defer this decision until we have imaging results and have improved his symptom control. I have therefore made the following arrangements:\n\n1. Urgent MRI spine and CT chest/abdomen/pelvis to assess disease status\n2. Referral to acute oncology for urgent assessment and consideration of admission for pain control\n3. Referral to palliative care team for specialist input with pain management\n4. Continue current Enzalutamide and Goserelin\n5. Review in clinic next week with scan results to make definitive treatment plan\n\nI have explained to [redacted name] and his wife that the situation has become more challenging and that we need to focus on improving his symptoms before considering further systemic therapy options.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate apex",
+      "year": 2024,
+      "month": 1,
+      "metastases": "extensive bone metastases affecting spine, pelvis, and ribs, with epidural extension at T8",
+      "tnm_stage": "T3b",
+      "histopathology_status": "adenocarcinoma, Gleason 4+5=9",
+      "biomarker_status": "Initial PSA 125",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial PSA 125",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI spine shows epidural extension at T8 with mild cord compression",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Emergency radiotherapy 20Gy in 5 fractions to T8 spine",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Goserelin and Enzalutamide",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA decreased to 45",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA increased to 156 with new onset anaemia Hb 98",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening back pain requiring escalation of analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset right-sided sciatica"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing fatigue"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Marked tenderness over lower thoracic and lumbar spine with reduced range of movement"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced power in right leg (4/5) with positive straight leg raise at 45 degrees"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires wheelchair for anything more than short distances"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic prostate cancer with initial response to hormonal therapy now showing clinical and biochemical progression with deteriorating mobility and performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Clinical and biochemical progression on Enzalutamide and Goserelin with rising PSA and worsening symptoms"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in mobility now requiring wheelchair use"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine and CT chest/abdomen/pelvis"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to acute oncology and palliative care team"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continue current Enzalutamide and Goserelin pending imaging results"
+      }
+    ]
+  }
+}

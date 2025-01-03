@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis\n\t1. Prostate adenocarcinoma T2bN0M0\n\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Transrectal ultrasound guided prostate biopsy\n\n\tRadiotherapy\n\tStarted 1 Mar 2024 - Radical IMRT 74Gy in 37 fractions, currently at fraction 20\n\n\tHormone therapy\n\tLeuprorelin 3-monthly depot commenced 1 Feb 2024\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tResponding to treatment\n\n\tCurrent issues\n\tMild urinary frequency\n\n\tSummary of consultation\n\tReviewed today at fraction 20 of radiotherapy. Tolerating treatment well with only grade 1 urinary frequency, managed with increased fluid intake. No bowel symptoms. Performance status remains 0. PSA has dropped from 7.8 at diagnosis to 0.4 on latest check. Examination shows good performance status, no concerning features.\n\n\tFurther investigations\n\tPSA check in 6 weeks\n\n\tMedication prescribed\n\tContinue Leuprorelin\n\n\tFollow up\n\tNext oncology follow up will be at completion of radiotherapy\n\n\tRequired GP actions\n\tNone required",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, left base",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "T2bN0M0",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "Initial PSA 7.8, PD-L1 10%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Transrectal ultrasound guided prostate biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Leuprorelin 3-monthly depot",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Started radical IMRT 74Gy in 37 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA dropped from 7.8 to 0.4",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 urinary frequency"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Good performance status, no concerning features"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Localized prostate cancer responding well to radical chemoradiotherapy with good PSA response and minimal toxicity"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 urinary frequency managed with increased fluid intake"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with planned radiotherapy, currently at fraction 20 of 37"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "PSA check in 6 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review at completion of radiotherapy"
+      }
+    ]
+  }
+}

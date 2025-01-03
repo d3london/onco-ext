@@ -1,0 +1,91 @@
+{
+  "content": "Diagnosis:\nLocally advanced nasopharyngeal carcinoma with bone metastases\nEBV positive undifferentiated carcinoma (WHO Type III)\nInitial staging T4N2M1\n\nPrevious treatment:\nInduction TPF chemotherapy March-May 2023\nRadical chemoradiotherapy completed August 2023\nMaintenance Gemcitabine/Cisplatin from October 2023\n\nCurrent medications:\nOndansetron 8mg bd\nDexamethasone 4mg bd on chemotherapy days\nMagnesium supplementation\n\nCurrent situation:\nPre cycle 6 Gemcitabine/Cisplatin\n\nLatest imaging:\nCT neck/chest/abdomen/pelvis 15 March 2024 - stable disease\nMRI spine 20 March 2024 - no new bone lesions\n\nCurrent status:\nReviewed today prior to cycle 6 maintenance chemotherapy. Performance status remains 1. Managing treatment well with grade 1 fatigue and occasional grade 2 nausea controlled with antiemetics. Latest blood results show stable renal function with eGFR 68, magnesium 0.72 corrected with supplementation. Hearing stable on recent audiometry. No new neurological symptoms. Weight maintained at 72kg.\n\nPlan:\nProceed with cycle 6 Gemcitabine/Cisplatin at current doses\nRepeat imaging after cycle 8\nFollow up in 3 weeks with blood tests",
+  "output": {
+    "primary_cancer": {
+      "site": "nasopharynx",
+      "year": 2023,
+      "metastases": "bone metastases",
+      "tnm_stage": "T4N2M1",
+      "histopathology_status": "undifferentiated carcinoma (WHO Type III)",
+      "biomarker_status": "EBV positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started induction TPF chemotherapy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed induction TPF chemotherapy",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radical chemoradiotherapy",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started maintenance Gemcitabine/Cisplatin",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT neck/chest/abdomen/pelvis shows stable disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI spine shows no new bone lesions",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue and occasional grade 2 nausea controlled with antiemetics"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "eGFR 68, magnesium 0.72 corrected with supplementation"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Hearing stable on recent audiometry"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic nasopharyngeal carcinoma with stable disease on maintenance chemotherapy"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and grade 2 nausea, controlled with medications"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with cycle 6 Gemcitabine/Cisplatin at current doses"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat imaging after cycle 8"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow up in 3 weeks with blood tests"
+      }
+    ]
+  }
+}

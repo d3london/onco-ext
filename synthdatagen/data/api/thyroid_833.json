@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\tMedullary thyroid carcinoma\n\nI reviewed [redacted name] today in the endocrine oncology clinic following completion of her total thyroidectomy and central compartment neck dissection on 15 March 2024. The surgery was uncomplicated and she has made an excellent recovery. Her voice has returned to normal and she reports no issues with swallowing or calcium levels.\n\nTo recap, she was diagnosed following investigation of a 2.8cm right thyroid nodule identified during routine physical examination. FNA confirmed medullary thyroid carcinoma. Pre-operative calcitonin was 400 pg/mL. Genetic testing has shown no evidence of RET mutation. Final histology confirmed a 2.5cm medullary thyroid carcinoma confined to the thyroid (pT2), with clear margins and no lymphovascular invasion. All 12 central compartment lymph nodes were negative (pN0).\n\nPost-operative calcitonin measured last week has fallen appropriately to 12 pg/mL, suggesting complete resection. Her thyroid function tests show good response to levothyroxine replacement at 125mcg daily. She has experienced some fatigue but this is improving. Blood pressure remains stable at 128/82.\n\nGiven the complete resection, normal post-operative calcitonin, and absence of adverse features, we have agreed to proceed with active surveillance rather than adjuvant therapy. I have arranged 3-monthly calcitonin measurements and neck ultrasound in 6 months. She will continue under joint endocrine and surgical follow-up. We will see her again in clinic in 3 months with updated calcitonin levels.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid, right lobe",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "pT2N0",
+      "histopathology_status": "medullary thyroid carcinoma, 2.5cm, confined to thyroid, clear margins, no lymphovascular invasion",
+      "biomarker_status": "RET mutation negative, pre-operative calcitonin 400 pg/mL",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "2.8cm right thyroid nodule identified on examination, FNA confirmed medullary thyroid carcinoma",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Pre-operative calcitonin 400 pg/mL",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy and central compartment neck dissection, uncomplicated",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Post-operative calcitonin fallen to 12 pg/mL suggesting complete resection",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Some fatigue but improving"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Blood pressure 128/82"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Thyroid function tests show good response to levothyroxine replacement"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Medullary thyroid cancer post successful complete surgical resection. Good biochemical response with appropriately falling calcitonin levels."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Complete surgical resection achieved with normalizing calcitonin levels"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing levothyroxine 125mcg daily with good biochemical response"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "3-monthly calcitonin measurements and neck ultrasound in 6 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in combined endocrine and surgical clinic in 3 months with calcitonin levels"
+      }
+    ]
+  }
+}

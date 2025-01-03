@@ -1,0 +1,81 @@
+{
+  "content": "Diagnosis:\t\tExtensive stage small cell lung cancer with brain, liver and bone metastases\n\nManagement:\t\tCompleted 6 cycles carboplatin/etoposide March-July 2024\n\t\tWhole brain radiotherapy 20Gy/5# completed April 2024\n\nHistology:\t\tSmall cell carcinoma with NOTCH pathway inactivation\n\nCurrent Situation:\tDisease progression on recent imaging\n\nI reviewed [redacted name] today following completion of first-line chemotherapy. Unfortunately, recent imaging shows disease progression with enlarging liver metastases and new bone lesions, despite initial good partial response to treatment. The CT brain shows stable appearances of previously irradiated metastases but two new small lesions in the right frontal lobe. Her symptoms have deteriorated over the past three weeks with increasing right upper quadrant pain requiring escalation of analgesia, and new onset confusion particularly in the evenings. She has also developed significant fatigue limiting her daily activities.\n\nGiven the rapid progression within 6 weeks of completing first-line treatment, I have had a detailed discussion with [redacted name] and her family about prognosis and treatment options. While she could be considered for second-line chemotherapy with topotecan, given her declining clinical status and wishes to avoid further hospital admissions, we have agreed to focus on symptom management. I have made an urgent referral to the palliative care team and arranged weekly community nurse visits. She has been prescribed dexamethasone 4mg twice daily for cerebral edema and breakthrough oxycodone for pain control. We will continue to provide support through our specialist nursing team, and I will review her again in 2 weeks' time.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung",
+      "year": 2024,
+      "metastases": "brain, liver and bone metastases",
+      "other_stage": "Extensive stage",
+      "histopathology_status": "small cell carcinoma",
+      "biomarker_status": "NOTCH pathway inactivation",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/etoposide chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed whole brain radiotherapy 20Gy in 5 fractions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles carboplatin/etoposide",
+          "year": 2024,
+          "month": 7
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Disease progression with enlarging liver metastases and new bone lesions",
+          "year": 2024,
+          "month": 8
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT brain shows two new small lesions in right frontal lobe",
+          "year": 2024,
+          "month": 8
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Increasing right upper quadrant pain requiring escalation of analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset confusion particularly in the evenings"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Significant fatigue limiting daily activities"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Extensive stage small cell lung cancer showing disease progression within 6 weeks of completing first-line treatment. Declining clinical status with increasing symptoms."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with enlarging liver metastases and new bone lesions, despite initial good partial response"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Decision to focus on symptom management rather than second-line chemotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and arranged weekly community nurse visits"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Review again in 2 weeks time"
+      }
+    ]
+  }
+}

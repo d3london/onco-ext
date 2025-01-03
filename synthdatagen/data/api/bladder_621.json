@@ -1,0 +1,62 @@
+{
+  "content": "Diagnosis:\tMuscle invasive bladder cancer (giant cell carcinoma)\n\nManagement:\t12 Jan 2024 Radical cystectomy with ileal conduit formation\n\nHistology:\tpT2N0M0 giant cell carcinoma, TERT C228T mutation positive\n\nCurrent Situation:\tRoutine surveillance review\n\n[redacted name] attended for routine follow-up following radical cystectomy. He is recovering well with no concerning symptoms. His ileal conduit is functioning appropriately with good urine output. Blood tests show stable renal function with creatinine 98. CT scan performed last week shows no evidence of recurrence. His weight is stable at 72kg and appetite has improved. Performance status remains 1. On examination, stoma site is well-healed with no parastomal herniation. The plan is to continue surveillance with next CT chest/abdomen/pelvis in 3 months and clinic review thereafter. Blood tests including renal function to be checked prior to next appointment.",
+  "output": {
+    "primary_cancer": {
+      "site": "bladder",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "pT2N0M0",
+      "other_stage": "Stage II",
+      "histopathology_status": "giant cell carcinoma",
+      "biomarker_status": "TERT C228T mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Radical cystectomy with ileal conduit formation",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of recurrence",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Creatinine 98"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed stoma site with no parastomal herniation"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage II bladder cancer post radical cystectomy. Recovering well with no evidence of recurrence on surveillance imaging"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Stable weight at 72kg with improved appetite"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 3 months with blood tests including renal function"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review after CT scan"
+      }
+    ]
+  }
+}

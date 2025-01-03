@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis:\nMixed neuroendocrine carcinoma of pancreas, T2N1M0\nDiagnosed March 2024 following investigation of weight loss\n\nPrevious medical history:\nType 2 diabetes\nHypertension\n\nCurrent medications:\nMetformin 1g bd\nRamipril 5mg od\n\nAllergies:\nNone known\n\nCurrent situation:\nPost-operative recovery following Whipple's procedure 15 April 2024\n\nHistology confirms mixed neuroendocrine carcinoma, T2N1(2/15)M0, MGMT methylation positive. R0 resection achieved. Ki67 15%.\n\nI reviewed [redacted name] today following his recent surgery. He is recovering well with improving appetite and energy levels. His post-operative course was uncomplicated and his wound has healed well. His weight is stable at 72kg and his diabetes remains well controlled on current medications.\n\nWe discussed adjuvant chemotherapy with carboplatin/etoposide regime. I have explained the rationale, procedure and common side effects. [redacted name] wishes to proceed with treatment. His performance status is 1 and blood tests today show satisfactory renal and liver function for chemotherapy.\n\nThe plan is to commence adjuvant chemotherapy next week. We will arrange baseline CT chest/abdomen/pelvis prior to starting treatment.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "month": 3,
+      "metastases": "lymph node involvement 2/15 nodes",
+      "tnm_stage": "T2N1M0",
+      "histopathology_status": "mixed neuroendocrine carcinoma, Ki67 15%, R0 resection",
+      "biomarker_status": "MGMT methylation positive",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial diagnosis following investigation of weight loss",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure with R0 resection",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirms mixed neuroendocrine carcinoma, T2N1(2/15)M0, MGMT methylation positive, Ki67 15%",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood tests show satisfactory renal and liver function"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Recovering well with improving appetite and energy levels"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed pancreatic neuroendocrine carcinoma, post successful Whipple's procedure with clear margins. Now being assessed for adjuvant chemotherapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence adjuvant carboplatin/etoposide chemotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Arrange baseline CT chest/abdomen/pelvis prior to starting chemotherapy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "content": "I reviewed [redacted name] today following recent admission with worsening symptoms from her ACTH-producing adrenocortical carcinoma. She was diagnosed in January 2024 following investigation of rapid-onset Cushing's syndrome, with initial CT showing a 12cm right adrenal mass. She underwent right adrenalectomy on February 15th 2024, with histology confirming a Stage III (T3N0M0) adrenocortical carcinoma with Ki67 of 30% and positive margins. Immunohistochemistry showed strong SF1 positivity confirming adrenocortical origin.\n\nShe commenced adjuvant mitotane in March 2024 with initial good response and ACTH levels falling from 200 pg/mL to 80 pg/mL. However, she required admission in early May with severe nausea, diarrhea, and confusion, necessitating temporary cessation of mitotane. Following restart at 50% dose, she developed progressive symptoms with new onset severe muscle weakness and worsening hypercortisolism. Recent CT on June 1st shows local recurrence measuring 8cm with invasion of the right kidney and IVC thrombus, along with two new liver lesions in segments 6 and 7 measuring 3cm and 2cm respectively.\n\nDuring today's review, she appeared significantly more unwell than her last clinic visit. Her performance status has declined to ECOG 3, spending most of the day in bed. She reports severe fatigue, proximal muscle weakness requiring wheelchair use, and uncontrolled diabetes with blood sugars consistently >20 despite increasing insulin requirements. On examination, she has marked cushingoid features with profound muscle wasting, extensive bruising, and new ankle edema. Blood pressure is poorly controlled at 178/95 despite four antihypertensive medications.\n\nI have discussed her case at our NET MDT this morning. Given her declining performance status and aggressive disease progression, we have recommended discontinuing mitotane and commencing combination chemotherapy with etoposide, doxorubicin, and cisplatin (EDP). However, this will require careful consideration of her current frailty and poor performance status. I have arranged urgent endocrine review for optimization of cortisol blockade, and referral to our palliative care team for support with symptom management.\n\nWe will admit her next week for inpatient initiation of EDP with close monitoring, provided her performance status has not deteriorated further. I have explained the significant risks of chemotherapy in her current condition, but she wishes to proceed given the aggressive nature of her disease. We will reassess after two cycles with CT imaging and ACTH levels to determine benefit versus toxicity.",
+  "output": {
+    "primary_cancer": {
+      "site": "adrenal, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "local recurrence with right kidney and IVC invasion, liver metastases segments 6 and 7",
+      "tnm_stage": "T3N0M0",
+      "other_stage": "Stage III",
+      "histopathology_status": "adrenocortical carcinoma, Ki67 30%, positive margins",
+      "biomarker_status": "ACTH-producing, SF1 positive, initial ACTH 200 pg/mL",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "right adrenalectomy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "commenced adjuvant mitotane",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "ACTH levels falling from 200 pg/mL to 80 pg/mL",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "mitotane temporarily ceased due to severe nausea, diarrhea, and confusion",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "mitotane restarted at 50% dose",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows local recurrence 8cm with kidney/IVC invasion and two liver metastases",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, spending most of the day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "severe fatigue, proximal muscle weakness requiring wheelchair use"
+      },
+      {
+        "type": "current_symptom",
+        "value": "uncontrolled diabetes with blood sugars consistently >20"
+      },
+      {
+        "type": "examination_finding",
+        "value": "marked cushingoid features with profound muscle wasting, extensive bruising, and ankle edema"
+      },
+      {
+        "type": "examination_finding",
+        "value": "blood pressure 178/95 despite four antihypertensive medications"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "ACTH-producing adrenocortical carcinoma with rapid progression following surgery and mitotane, now with local recurrence and liver metastases. Significant clinical deterioration with severe Cushing's syndrome"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Severe toxicity from mitotane including nausea, diarrhea, and confusion requiring dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing mitotane and planning to commence EDP chemotherapy"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline in performance status to ECOG 3 with severe muscle weakness"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT imaging and ACTH levels after two cycles of EDP"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Inpatient admission next week for EDP initiation, urgent endocrine review, and palliative care referral"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "content": "Diagnosis:\t\tFollicular thyroid carcinoma\n\nManagement:\t\tTotal thyroidectomy March 2023\n\t\tRadioactive iodine ablation May 2023\n\nHistology:\t\tpT1b (2.3cm) N0 M0, RAS mutation positive\n\nCurrent situation:\tRoutine follow-up\n\n[redacted name] attended for routine follow-up today. She remains well following completion of treatment last year. Her thyroid function is well controlled on Levothyroxine 125mcg daily. Recent thyroglobulin level is <0.1 (suppressed) and thyroglobulin antibodies are negative. Neck examination shows well-healed thyroidectomy scar with no concerning features. No palpable cervical lymphadenopathy. Latest ultrasound neck on 15/3/24 shows no evidence of recurrence. She will continue on current Levothyroxine dose with biochemistry monitoring through endocrinology team. Plan for next follow-up in 6 months with repeat thyroglobulin level and neck ultrasound.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2023,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT1bN0M0",
+      "other_stage": null,
+      "histopathology_status": "follicular thyroid carcinoma, 2.3cm",
+      "biomarker_status": "RAS mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Radioactive iodine ablation",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Thyroglobulin <0.1 (suppressed) with negative thyroglobulin antibodies",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Ultrasound neck shows no evidence of recurrence",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Well-healed thyroidectomy scar with no concerning features, no palpable cervical lymphadenopathy"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Thyroid function well controlled on Levothyroxine 125mcg daily"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Treated follicular thyroid carcinoma with no evidence of recurrence. Stable on thyroid replacement therapy with good biochemical control."
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow-up in 6 months with repeat thyroglobulin level and neck ultrasound"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "content": "Diagnosis\n\t1. Squamous cell carcinoma of mid-esophagus T3N2M0\n\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNot indicated at present\n\n\tRadiotherapy\n\tPlanned following completion of systemic therapy\n\n\tChemotherapy\n\tCycle 3/6 of cisplatin/5FU completed 15 April 2024\n\n\tClinical studies\n\tEnrolled in SCOPE-2 trial (randomised to standard dose radiotherapy arm)\n\n\tCurrent disease status\n\tStable disease on interim CT assessment\n\n\tCurrent issues\n\tMild dysphagia to solids only\n\n\tSummary of consultation\n\tThis 62-year-old gentleman is participating in the SCOPE-2 trial for locally advanced esophageal cancer. He has completed three cycles of induction chemotherapy with cisplatin and 5-fluorouracil. The interim CT scan performed on 10/04/24 shows stable disease with reduction in the circumferential thickening of the mid-esophagus from 18mm to 12mm. The previously noted mediastinal nodes have also decreased in size.\n\nHe has tolerated the treatment well with only grade 1 nausea and mild fatigue. His dysphagia has improved since starting treatment and he is now able to manage a soft diet with occasional need for liquid supplements.\n\nBlood tests today show stable renal function with creatinine clearance >60ml/min and satisfactory hematological parameters for cycle 4.\n\n\tFurther investigations\n\tRepeat CT planned after completion of chemotherapy prior to radiotherapy phase\n\n\tMedication prescribed\n\tContinuing with standard antiemetic protocol\n\n\tFollow up\n\tNext oncology follow up in 3 weeks for cycle 4\nTrial coordinator review scheduled for next week\n\n\tRequired GP actions\n\tNone required at present\n\n\tSummary of information given to the patient\n\tDiscussed interim scan results showing good disease response. Explained plan to complete three further cycles of chemotherapy followed by radiotherapy phase as per trial protocol.",
+  "output": {
+    "primary_cancer": {
+      "site": "esophagus, mid",
+      "year": 2024,
+      "month": 1,
+      "metastases": "mediastinal nodes",
+      "tnm_stage": "T3N2M0",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "p16 positive, PDL1 CPS 20",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Initial circumferential thickening of mid-esophagus measuring 18mm with mediastinal nodal involvement",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in SCOPE-2 trial, randomised to standard dose radiotherapy arm",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced induction cisplatin/5-fluorouracil chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows reduction in esophageal thickening to 12mm with decreased size of mediastinal nodes",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed cycle 3/6 cisplatin/5FU",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild dysphagia to solids only, managing soft diet with occasional liquid supplements"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function with creatinine clearance >60ml/min"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced esophageal SCC showing good response to induction chemotherapy on SCOPE-2 trial. Tolerating treatment well with improved symptoms."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on interim CT with reduction in esophageal wall thickening and nodal size"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 nausea and mild fatigue"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with planned chemotherapy, suitable to proceed with cycle 4"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat CT planned after completion of chemotherapy prior to radiotherapy phase"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks for cycle 4, trial coordinator review next week"
+      }
+    ]
+  }
+}

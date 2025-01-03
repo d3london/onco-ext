@@ -1,0 +1,104 @@
+{
+  "content": "Diagnosis:\tTransverse colon carcinosarcoma, T4bN2M1 with peritoneal and hepatic metastases\n\nI am writing to provide a comprehensive summary of [redacted name]'s oncological care as she transfers to your service. She was diagnosed in January 2024 following emergency admission with bowel obstruction. Laparotomy on 15/1/24 revealed extensive peritoneal disease with a perforated transverse colon primary. Limited debulking and defunctioning ileostomy were performed. Histology confirmed carcinosarcoma with extensive lymphovascular invasion. Molecular profiling showed PDL1 high expression (CPS 85) and MMR proficient status.\n\nPost-operative CT on 2/2/24 demonstrated multiple liver metastases and peritoneal deposits. She commenced FOLFOX chemotherapy on 20/2/24 but developed grade 3 neutropenia after cycle 1, requiring dose reduction to 80%. After cycle 2, she developed progressive abdominal pain and repeat imaging on 25/3/24 showed disease progression with new peritoneal deposits and increasing liver metastases.\n\nTreatment was changed to weekly Paclitaxel on 1/4/24, but she only received two doses due to rapid clinical deterioration. Current CT from 22/4/24 shows further progression with new ascites and extensive peritoneal disease. Performance status has declined from ECOG 1 at diagnosis to current ECOG 3.\n\nShe requires regular paracentesis for symptomatic ascites, most recently 3L drained yesterday. Current symptoms include severe fatigue, early satiety, and intermittent abdominal pain requiring oxycodone 20mg 4-hourly. She lives with her daughter who provides full-time care.\n\nGiven her declining performance status and aggressive disease progression despite two lines of therapy, we have had detailed discussions about focusing on symptom control. She has been referred to the palliative care team and will be best served by local follow-up. Please do not hesitate to contact us if you require any additional information.",
+  "output": {
+    "primary_cancer": {
+      "site": "transverse colon",
+      "year": 2024,
+      "month": 1,
+      "metastases": "peritoneal metastases, liver metastases, malignant ascites",
+      "tnm_stage": "T4bN2M1",
+      "histopathology_status": "carcinosarcoma with extensive lymphovascular invasion",
+      "biomarker_status": "PDL1 high expression (CPS 85), MMR proficient",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Emergency laparotomy with limited debulking and defunctioning ileostomy, found perforated primary with extensive peritoneal disease",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing multiple liver metastases and peritoneal deposits",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "FOLFOX dose reduced to 80% due to grade 3 neutropenia after cycle 1",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing disease progression with new peritoneal deposits and increasing liver metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Changed to weekly Paclitaxel",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Paclitaxel discontinued after two doses due to clinical deterioration",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows further progression with new ascites and extensive peritoneal disease",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, declined from ECOG 1 at diagnosis"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Severe fatigue, early satiety, and intermittent abdominal pain requiring oxycodone 20mg 4-hourly"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Symptomatic ascites requiring regular paracentesis"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Aggressive carcinosarcoma of colon with widespread metastases diagnosed January 2024. Rapid progression through two lines of therapy with significant clinical deterioration"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on imaging with new ascites and extensive peritoneal disease"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Unable to continue chemotherapy due to clinical deterioration"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued active treatment, transitioning to palliative care"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline in performance status to ECOG 3, requiring full-time care from daughter"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to local palliative care team for ongoing management"
+      }
+    ]
+  }
+}

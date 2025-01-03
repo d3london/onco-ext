@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis\n\t1. WNT-activated medulloblastoma, M0 stage\n\n\tDate of diagnosis\n\tMarch 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Mar 2024 Complete surgical resection of posterior fossa mass\n\n\tRadiotherapy\n\tPlanned but not yet commenced\n\n\tChemotherapy\n\tNot yet commenced\n\n\tClinical studies\n\tWNT-MB-04 trial registration completed today\n\n\tCurrent disease status\n\tPost-operative, no evidence of residual disease\n\n\tCurrent issues\n\tMild post-operative cerebellar syndrome\n\n\tSummary of consultation\n\tThis 8-year-old boy attended with his parents for trial registration following complete resection of a WNT-activated medulloblastoma. Post-operative MRI on 22/3/24 confirms complete resection with no evidence of dissemination. CSF cytology from 20/3/24 is negative for malignant cells. Molecular analysis confirms WNT-activation with nuclear beta-catenin positivity and CTNNB1 mutation.\n\nHe has made an excellent post-operative recovery with improving balance and coordination. Currently mobilising independently with mild ataxia. No cranial nerve deficits. Performance status is 1.\n\nWe have thoroughly discussed the WNT-MB-04 trial which is investigating reduced-intensity treatment in WNT-activated medulloblastoma. The family understands the rationale for de-escalation given the excellent prognosis of this molecular subgroup. We reviewed all eligibility criteria, which are met. Trial-specific assessments including audiometry, endocrine evaluation, and neuropsychology testing have been scheduled.\n\n\tFurther investigations\n\tBaseline trial assessments:\n\t- Pure tone audiometry 28/3/24\n\t- Endocrine assessment 29/3/24\n\t- Neuropsychology evaluation 1/4/24\n\n\tMedication prescribed\n\tDexamethasone weaning regime as per protocol\n\n\tFollow up\n\tTrial baseline visit scheduled for 3/4/24\nRadiotherapy planning appointment 5/4/24\n\n\tRequired GP actions\n\tWeekly FBC, U&E, LFT monitoring during radiotherapy phase\n\n\tSummary of information given to the patient\n\tFull trial information provided including treatment schedule, required assessments, and potential risks/benefits. Written information given regarding radiotherapy preparation.",
+  "output": {
+    "primary_cancer": {
+      "site": "brain, posterior fossa",
+      "year": 2024,
+      "month": 3,
+      "metastases": "none",
+      "other_stage": "M0",
+      "histopathology_status": "medulloblastoma",
+      "biomarker_status": "WNT-activated, nuclear beta-catenin positive, CTNNB1 mutation",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Complete surgical resection of posterior fossa mass",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CSF cytology negative for malignant cells",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Post-operative MRI confirms complete resection with no evidence of dissemination",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Registered for WNT-MB-04 trial investigating reduced-intensity treatment",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild ataxia with improving balance and coordination"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Mobilising independently, no cranial nerve deficits"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed WNT-activated medulloblastoma post complete resection. Good post-operative recovery, proceeding with reduced-intensity treatment trial."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "On dexamethasone weaning regime as per protocol"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline assessments scheduled: audiometry, endocrine evaluation, neuropsychology testing"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Trial baseline visit 3/4/24, radiotherapy planning 5/4/24"
+      }
+    ]
+  }
+}

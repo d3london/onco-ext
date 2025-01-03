@@ -1,0 +1,94 @@
+{
+    "content": "Diagnosis:\tAdvanced non-small cell lung cancer T4N3M1a (contralateral lung metastases)\n\t\tAdenocarcinoma with confirmed EGFR mutation (exon 19 deletion)\n\t\tPD-L1 expression 1%\n\nTreatment:\t15.03.2023: Commenced osimertinib 80mg daily\n\t\tInitial CT assessment shows partial response after 2 cycles\n\nCurrent:\tCompleting month 6 of targeted therapy\n\n[redacted name] returns for routine follow-up while receiving EGFR-targeted therapy.\n\nSymptoms:\n? Progressive skin rash affecting face and upper trunk, grade 2 severity\n? Intermittent diarrhea (2-3 episodes daily)\n? Mild paronychia affecting both thumbs\n? Occasional dry cough, improved from baseline\n? Reduced exercise tolerance but able to manage daily activities\n? Early satiety with 3kg weight loss over 2 months\n? Persistent fatigue requiring afternoon rest\n? Mild peripheral edema\n? No hemoptysis\n? No chest pain\n\nCurrent Medications:\nOsimertinib 80mg daily\nDoxycycline 100mg daily for rash\nLoperamide as required\nLevothyroxine 75mcg daily\n\nPerformance Status = 1\n\nExamination:\n? Papulopustular rash affecting face and upper chest\n? Mild paronychia of thumbnails\n? No peripheral lymphadenopathy\n? Chest clear on auscultation\n? O2 saturation 96% on air\n? Heart rate 88 regular\n? Temperature 37.2°C\n? Blood pressure 128/76\n? Mild bilateral ankle edema\n? No clinical evidence of disease progression\n\nRecent Investigations:\nBlood tests show stable biochemistry and mild normocytic anemia\nCT thorax (10.08.2023) demonstrates maintained partial response with reduction in primary mass and stable contralateral nodules\n\nPlan:\n? Continue osimertinib at current dose\n? Increase doxycycline to twice daily for rash management\n? Dietary advice given for diarrhea control\n? Review in 4 weeks with repeat blood tests\n? CT reassessment scheduled for November 2023",
+    "output": {
+        "primary_cancer": {
+            "site": "lung",
+            "year": 2023,
+            "month": 3,
+            "metastases": "contralateral lung metastases",
+            "tnm_stage": "T4N3M1a",
+            "histopathology_status": "adenocarcinoma",
+            "biomarker_status": "EGFR mutation (exon 19 deletion), PD-L1 expression 1%",
+            "cancer_timeline": [
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Commenced osimertinib 80mg daily",
+                    "year": 2023,
+                    "month": 3
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Initial CT assessment shows partial response after 2 cycles",
+                    "year": 2023,
+                    "month": 5
+                },
+                {
+                    "type": "investigation_finding",
+                    "value": "CT thorax demonstrates maintained partial response with reduction in primary mass and stable contralateral nodules",
+                    "year": 2023,
+                    "month": 8
+                }
+            ]
+        },
+        "patient_facts": [
+            {
+                "type": "performance_status",
+                "value": "Performance Status 1"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Progressive skin rash affecting face and upper trunk, grade 2 severity"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Intermittent diarrhea (2-3 episodes daily)"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Mild paronychia affecting both thumbs"
+            },
+            {
+                "type": "current_symptom",
+                "value": "3kg weight loss over 2 months"
+            },
+            {
+                "type": "examination_finding",
+                "value": "Papulopustular rash affecting face and upper chest"
+            },
+            {
+                "type": "examination_finding",
+                "value": "Mild bilateral ankle edema"
+            },
+            {
+                "type": "investigation_finding",
+                "value": "Blood tests show stable biochemistry and mild normocytic anemia"
+            }
+        ],
+        "status_updates": [
+            {
+                "type": "clinical_summary",
+                "value": "Advanced EGFR-mutant lung cancer showing maintained partial response to osimertinib after 6 months of therapy, with manageable toxicities including grade 2 rash requiring dose escalation of supportive medications."
+            },
+            {
+                "type": "latest_treatment_response",
+                "value": "maintained partial response with reduction in primary mass and stable contralateral nodules"
+            },
+            {
+                "type": "latest_treatment_toxicity",
+                "value": "grade 2 skin rash requiring increased doxycycline dosing"
+            },
+            {
+                "type": "update_to_treatment",
+                "value": "Continue osimertinib at current dose"
+            },
+            {
+                "type": "planned_investigation",
+                "value": "Review in 4 weeks with repeat blood tests"
+            },
+            {
+                "type": "planned_investigation",
+                "value": "CT reassessment scheduled for November 2023"
+            }
+        ]
+    }
+}

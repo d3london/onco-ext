@@ -1,0 +1,85 @@
+{
+  "content": "Diagnosis:\tMetastatic pancreatic adenocarcinoma with liver, lung and bone metastases\n\nManagement:\t15 Jan 2024 - Started FOLFIRINOX\n\t\t12 Mar 2024 - Changed to Gemcitabine/Nab-paclitaxel due to toxicity\n\nHistology:\tModerately differentiated pancreatic ductal adenocarcinoma, CDKN2A deletion detected\n\nCurrent Situation:\tDisease progression on second-line chemotherapy\n\nI reviewed [redacted name] today following recent CT imaging which unfortunately shows disease progression with growth of liver metastases and new pulmonary nodules. The scan shows the pancreatic primary has increased from 4.2cm to 5.1cm, with multiple new liver lesions, the largest measuring 3.8cm in segment 7. There are also new subcentimeter pulmonary nodules and a new T8 vertebral metastasis.\n\nHe initially commenced FOLFIRINOX in January 2024 but experienced significant grade 3 neutropenia requiring two hospital admissions, and grade 3 peripheral neuropathy affecting both hands and feet. We therefore switched to second-line Gemcitabine/Nab-paclitaxel in March 2024. He has completed 4 cycles of this regimen with initial stable disease but now shows clear radiological progression.\n\nHe reports worsening abdominal pain requiring increased opiate analgesia, with his current regime of MST 30mg BD and Oramorph 10mg PRN providing inadequate relief. His appetite has significantly declined with 6kg weight loss over the past month. He is experiencing increasing fatigue, limiting his daily activities. Examination today reveals tender hepatomegaly and new percussion tenderness over the thoracic spine.\n\nGiven the clear evidence of disease progression and declining clinical status, we have had a detailed discussion about treatment options. We have agreed to discontinue chemotherapy and focus on symptom management. I have made an urgent referral to the palliative care team for review of pain control and have prescribed Oxycodone MR 20mg BD to replace the MST, with immediate release Oxycodone 5mg PRN for breakthrough pain.\n\nI have also arranged urgent MRI spine to assess the T8 lesion and referred to clinical oncology for consideration of palliative radiotherapy. We will review him again in one week's time with the palliative care team. His daughter was present during today's consultation and they both demonstrate good understanding of the situation.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "metastases": "liver metastases, pulmonary nodules, T8 vertebral metastasis",
+      "other_stage": "Stage IV",
+      "histopathology_status": "moderately differentiated pancreatic ductal adenocarcinoma",
+      "biomarker_status": "CDKN2A deletion detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued FOLFIRINOX due to grade 3 neutropenia and peripheral neuropathy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started second-line Gemcitabine/Nab-paclitaxel",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression: pancreatic primary increased to 5.1cm, new liver lesions up to 3.8cm, new pulmonary nodules and T8 vertebral metastasis"
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued chemotherapy due to disease progression"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Worsening abdominal pain requiring increased opiate analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "6kg weight loss over past month with decreased appetite"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing fatigue limiting daily activities"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender hepatomegaly and percussion tenderness over thoracic spine"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic cancer showing disease progression on second-line chemotherapy with declining clinical status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with growth of liver metastases, new pulmonary nodules and vertebral metastasis"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Previous grade 3 neutropenia and peripheral neuropathy with FOLFIRINOX"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued chemotherapy, switched from MST to Oxycodone MR 20mg BD with PRN immediate release"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess T8 lesion"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral and review in one week with palliative care team"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis:\tMetastatic descending colon adenocarcinoma with widespread bone metastases\n\nManagement:\t15 Jan 2024 Right hemicolectomy\n\t\t12 Feb - 15 Mar 2024 FOLFOX chemotherapy x 3 cycles\n\nHistology:\tModerately differentiated adenocarcinoma, POLE mutation positive\n\nCurrent Situation:\tTrial registration for POLE-TARGET study\n\nI was very pleased to meet [redacted name] today to discuss participation in the POLE-TARGET trial. She has shown remarkable resilience through her initial treatment journey, maintaining an impressively positive outlook despite the challenges of her diagnosis. Following completion of 3 cycles of FOLFOX with stable disease on recent imaging, she meets all eligibility criteria for this novel targeted therapy trial.\n\nWe had a detailed discussion about the trial protocol, which involves randomization between the standard of care arm (continuation of FOLFOX) versus the experimental arm (FOLFOX plus the novel POLE-targeted agent XR-789). I explained the scientific rationale, highlighting how her tumor's POLE mutation makes her an excellent candidate for this approach. We reviewed the additional trial-specific investigations required, including the mandatory research biopsies at baseline and cycle 3, and the more frequent CT assessments every 8 weeks.\n\nI carefully outlined the potential side effects of XR-789, including the risk of autoimmune complications seen in phase 1 studies. [redacted name] demonstrated excellent understanding of all aspects discussed and has taken the patient information sheet home to review with her family. She is particularly encouraged by the possibility of accessing a personalized treatment approach.\n\nWe have arranged baseline trial assessments for next week, including the research biopsy, cardiac echo, and required blood work. Assuming all results are satisfactory, we plan to proceed with trial registration and randomization on 15th April 2024. I have provided emergency contact details and arranged review with our research nurse next week to complete the consent process.\n\nThe trial protocol mandates weekly reviews for the first cycle, then two-weekly thereafter. We will carefully monitor for any autoimmune complications and adjust treatment as per protocol guidelines if required. I have arranged the first trial assessment visit for 22nd April 2024.",
+  "output": {
+    "primary_cancer": {
+      "site": "descending colon",
+      "year": 2024,
+      "month": 1,
+      "metastases": "widespread bone metastases",
+      "other_stage": "Stage IV",
+      "histopathology_status": "moderately differentiated adenocarcinoma",
+      "biomarker_status": "POLE mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right hemicolectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 3 cycles FOLFOX with stable disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Assessed for POLE-TARGET trial comparing FOLFOX vs FOLFOX plus XR-789",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "investigation_finding",
+        "value": "Recent imaging shows stable disease after 3 cycles FOLFOX"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV colon cancer with bone metastases, stable on FOLFOX. Being assessed for POLE-targeted therapy trial based on mutation status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on recent imaging after 3 cycles FOLFOX"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline trial assessments including research biopsy, cardiac echo, and blood work"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Research nurse review next week for consent, trial registration planned for 15th April 2024, first trial assessment 22nd April 2024"
+      }
+    ]
+  }
+}

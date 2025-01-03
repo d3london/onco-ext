@@ -1,0 +1,78 @@
+{
+  "content": "Diagnosis:\tSquamous cell carcinoma of cervix, FIGO stage IB2\n\tDiagnosed following abnormal cervical screening March 2024\n\tInitial colposcopy and biopsy 15 March 2024\n\tMRI pelvis 28 March 2024 showing 3.2cm cervical mass confined to cervix\n\tCT chest/abdomen/pelvis 2 April 2024 - no evidence of metastatic disease\n?\n[redacted name] is a 42-year-old lady who has recently been diagnosed with locally confined cervical cancer. She was referred following an abnormal cervical screening test, with subsequent colposcopy confirming a visible lesion. Biopsy demonstrated moderately differentiated squamous cell carcinoma, p16 positive and HPV 16 positive.\n?\nShe presented with some post-coital bleeding over the past 3 months but no other symptoms. She has no significant past medical history apart from mild asthma controlled with salbutamol inhaler. She takes no regular medications and has no known drug allergies. She is a never smoker and drinks alcohol occasionally.\n?\nShe lives with her husband and two children aged 12 and 14. She works as a primary school teacher and has been able to continue working. She has good support from her family.\n?\nOn examination today, she appears well with ECOG performance status 0. Abdominal examination is normal with no palpable lymphadenopathy. Recent imaging shows a 3.2cm cervical mass confined to the cervix with no evidence of parametrial extension or lymph node involvement. CT staging shows no evidence of distant metastatic disease.\n?\nI have discussed her case in detail at our gynecological oncology MDT. Given the FIGO stage IB2 disease, the recommendation is for primary chemoradiotherapy with external beam radiotherapy and concurrent weekly cisplatin, followed by brachytherapy. I have explained the treatment plan, including common side effects and potential long-term implications. She will require baseline blood tests, kidney function assessment and audiology prior to starting treatment.\n?\nWe plan to commence treatment in 2 weeks' time. She will be reviewed weekly during treatment in the combined clinic. I have provided written information about treatment and arranged for her to meet with our specialist nurse for further support and discussion.",
+  "output": {
+    "primary_cancer": {
+      "site": "cervix",
+      "year": 2024,
+      "month": 3,
+      "metastases": "none",
+      "tnm_stage": "",
+      "other_stage": "FIGO IB2",
+      "histopathology_status": "moderately differentiated squamous cell carcinoma",
+      "biomarker_status": "p16 positive, HPV 16 positive",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Abnormal cervical screening",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Colposcopy and biopsy showing visible lesion",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI pelvis showing 3.2cm cervical mass confined to cervix",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis showing no evidence of metastatic disease",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Post-coital bleeding over past 3 months"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Mild asthma controlled with salbutamol inhaler"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Normal abdominal examination, no palpable lymphadenopathy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed FIGO IB2 cervical cancer confined to cervix. Initial presentation for treatment planning."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan for primary chemoradiotherapy with external beam radiotherapy and concurrent weekly cisplatin, followed by brachytherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline blood tests, kidney function assessment and audiology"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review during treatment in combined clinic, treatment to commence in 2 weeks"
+      }
+    ]
+  }
+}

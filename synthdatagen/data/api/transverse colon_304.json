@@ -1,0 +1,56 @@
+{
+  "content": "Diagnosis:\nTransverse colon adenocarcinoma arising from serrated adenoma\nEndoscopic mucosal resection performed 15 April 2024 by Dr [redacted name]\n\nHistology:\nModerately differentiated adenocarcinoma arising within serrated adenoma\npTisN0M0\nKRAS G12C mutation detected\nBRAF wild-type\nComplete excision with clear margins\n\nPrevious medical history:\nType 2 diabetes\nHypertension\n\nCurrent medications:\nMetformin 1g BD\nRamipril 5mg OD\n\nAllergies:\nNone known\n\nCurrent situation:\nFirst oncology review following EMR\n\nI reviewed [redacted name] today following his recent endoscopic mucosal resection of a transverse colon polyp which showed unexpected focus of adenocarcinoma. The procedure was uncomplicated and he has recovered well with no ongoing symptoms. His bowel function has returned to normal and he reports good appetite and stable weight.\n\nOn examination, he is well with normal vital signs. Abdomen is soft and non-tender with well-healed port sites. No concerning clinical findings.\n\nI have reviewed the histology which confirms pTis disease with complete excision and clear margins. Given the early stage, no adjuvant treatment is required. We have discussed surveillance strategy including repeat colonoscopy in 12 months. CT chest/abdomen/pelvis has been arranged for baseline staging.\n\nPlan is for clinical review in 3 months with CT results. [redacted name] understands to contact us sooner if any new symptoms develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "transverse colon",
+      "year": 2024,
+      "month": 4,
+      "metastases": null,
+      "tnm_stage": "pTisN0M0",
+      "histopathology_status": "moderately differentiated adenocarcinoma arising within serrated adenoma, complete excision with clear margins",
+      "biomarker_status": "KRAS G12C mutation detected, BRAF wild-type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Endoscopic mucosal resection of transverse colon polyp",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirms pTis disease with complete excision and clear margins",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Normal vital signs, abdomen soft and non-tender with well-healed port sites"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage transverse colon cancer detected in polyp, completely excised with EMR. No requirement for adjuvant treatment."
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis arranged for baseline staging"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review in 3 months with CT results"
+      }
+    ]
+  }
+}

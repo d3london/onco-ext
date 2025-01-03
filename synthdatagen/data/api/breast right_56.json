@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\tRight breast cancer - Grade 2 acinic cell carcinoma, pT2N1mi(0.8mm)M0\n\nI reviewed [redacted name] today in the breast oncology follow-up clinic. She is now 4 months post completion of adjuvant chemotherapy with 4 cycles of docetaxel/cyclophosphamide which she completed on March 15th 2024. She underwent right wide local excision and sentinel lymph node biopsy on November 12th 2023, which showed a 3.2cm Grade 2 acinic cell carcinoma with 0.8mm micrometastasis in one sentinel node. Immunohistochemistry confirmed AR and GATA3 positivity, HER2 negative disease.\n\nShe has made an excellent recovery from her chemotherapy and reports gradually improving energy levels. Her chemotherapy-related alopecia is resolving well with good hair regrowth. She describes occasional mild peripheral neuropathy affecting her fingertips but this is not impacting her daily activities. She has returned to work part-time and is steadily building up her hours.\n\nShe commenced adjuvant tamoxifen 20mg daily in April 2024 and is tolerating this well with only mild hot flushes. She understands the importance of continuing this for 5 years. She has been referred to the local exercise program and is gradually increasing her physical activity.\n\nThe plan is to continue current management with tamoxifen. She will have annual mammography surveillance, with the first due in November 2024. We will review her again in 3 months' time in the nurse-led follow-up clinic. She has the breast care nurse contact details should she have any concerns in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2023,
+      "month": 11,
+      "metastases": "0.8mm micrometastasis in one sentinel node",
+      "tnm_stage": "pT2N1mi(0.8mm)M0",
+      "histopathology_status": "Grade 2 acinic cell carcinoma, 3.2cm",
+      "biomarker_status": "AR positive, GATA3 positive, HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right wide local excision and sentinel lymph node biopsy",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant chemotherapy with docetaxel/cyclophosphamide",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 4 cycles of docetaxel/cyclophosphamide",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant tamoxifen 20mg daily",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Occasional mild peripheral neuropathy affecting fingertips, not impacting daily activities"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild hot flushes"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Returned to work part-time and steadily building up hours"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early breast cancer post surgery and adjuvant chemotherapy, now on hormonal therapy with good recovery and improving functional status"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Resolving alopecia with good hair regrowth, mild peripheral neuropathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing tamoxifen 20mg daily with good tolerability"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Annual mammography surveillance starting November 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 months in nurse-led follow-up clinic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "content": "Diagnosis:\tPilomyxoid astrocytoma, right temporal lobe\n\nManagement:\t2023 March - Subtotal resection\n\t\t2023 April-May - Adjuvant radiotherapy 54Gy in 30#\n\nHistology:\tWHO grade 2 pilomyxoid astrocytoma\n\t\tKIAA1549-BRAF fusion positive\n\nCurrent Situation:\tRoutine surveillance\n\nI reviewed [redacted name] in the neuro-oncology follow up clinic today. She remains clinically stable with no new neurological symptoms. Her headaches have resolved following the completion of steroids, and she has maintained good functional status with return to university studies. No focal neurological deficits on examination today. Latest MRI brain (15/4/24) shows post-treatment changes with no evidence of disease progression. Blood tests including renal function are satisfactory.\n\nThe plan is to continue surveillance with next MRI brain in 3 months. Will review in clinic following imaging. She understands to contact us sooner if any new symptoms develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "brain, right temporal lobe",
+      "year": 2023,
+      "histopathology_status": "WHO grade 2 pilomyxoid astrocytoma",
+      "biomarker_status": "KIAA1549-BRAF fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Subtotal resection",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Adjuvant radiotherapy 54Gy in 30 fractions",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows post-treatment changes with no evidence of disease progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "No new neurological symptoms"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No focal neurological deficits"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood tests including renal function satisfactory"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Maintained good functional status with return to university studies"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "WHO grade 2 pilomyxoid astrocytoma treated with surgery and radiotherapy. Clinically stable on surveillance with no evidence of progression"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI brain in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic following imaging"
+      }
+    ]
+  }
+}

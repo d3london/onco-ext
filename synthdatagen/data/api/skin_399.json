@@ -1,0 +1,61 @@
+{
+  "content": "Diagnosis:\nT2N0 cutaneous squamous cell carcinoma right temple\n\nPrevious treatment:\nWide local excision March 2024 - clear margins achieved\nPost-operative radiotherapy 50Gy in 20 fractions completed May 2024\n\nCurrent situation:\nReview following completion of radiotherapy\n\nExamination findings:\nHealed surgical scar right temple with expected post-radiation changes. No evidence of recurrence. No palpable cervical lymphadenopathy.\n\nI reviewed [redacted name] today following completion of adjuvant radiotherapy to the right temple. The acute radiation effects have now largely settled with only mild skin dryness remaining. The surgical site has healed well with an excellent cosmetic result. He reports no new symptoms or concerns.\n\nThe plan is for clinical surveillance with 3-monthly reviews for the first year. I have provided written information about sun protection and skin care. We will arrange baseline CT imaging at 3 months post-treatment completion. [redacted name] understands to contact us if any new concerns develop in the meantime.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right temple",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "T2N0",
+      "histopathology_status": "squamous cell carcinoma",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision with clear margins",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed post-operative radiotherapy 50Gy in 20 fractions",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Healed surgical scar with expected post-radiation changes, no evidence of recurrence",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Healed surgical scar right temple with expected post-radiation changes. No evidence of recurrence. No palpable cervical lymphadenopathy"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild skin dryness only"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "T2N0 cutaneous squamous cell carcinoma of right temple treated with surgery and radiotherapy. Good recovery with no evidence of recurrence"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild skin dryness following radiotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline CT imaging at 3 months post-treatment completion"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical surveillance with 3-monthly reviews for the first year"
+      }
+    ]
+  }
+}

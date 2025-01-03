@@ -1,0 +1,82 @@
+{
+  "content": "Diagnosis:\tNUT carcinoma of right lower lung with brain metastases\n\nI am writing following today's Lung Cancer MDT discussion regarding [redacted name], a 34-year-old gentleman with recently diagnosed NUT carcinoma. The initial CT chest on 15 March 2024 demonstrated a 7.2cm right lower lobe mass with extensive mediastinal lymphadenopathy. Subsequent staging investigations revealed multiple brain metastases on MRI (largest 2.1cm in left parietal lobe with associated edema). PET-CT confirmed the primary lesion and lymphadenopathy were highly FDG-avid, with no other sites of distant disease. Molecular testing has confirmed NUT midline carcinoma with characteristic NUT rearrangement.\n\nThe patient's condition has unfortunately deteriorated over the past two weeks, with increasing headaches, mild right-sided weakness, and worsening breathlessness. His performance status has declined from 1 to 2-3. He is currently on dexamethasone 8mg twice daily with some improvement in neurological symptoms.\n\nThe case was discussed in detail at today's MDT. Given the aggressive nature of NUT carcinoma and the presence of symptomatic brain metastases, the MDT recommends urgent whole brain radiotherapy (20Gy in 5 fractions) followed by systemic chemotherapy with carboplatin and etoposide. The option of concurrent chemotherapy was considered but felt to carry excessive risk given his current performance status.\n\nI have arranged to see [redacted name] tomorrow to discuss the MDT recommendations and initiate treatment. We will proceed with whole brain radiotherapy next week, followed by reassessment of his clinical status prior to commencing systemic therapy. The acute oncology team has been notified to provide additional support during radiotherapy.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right lower lobe",
+      "year": 2024,
+      "month": 3,
+      "metastases": "multiple brain metastases, mediastinal lymphadenopathy",
+      "tnm_stage": "T4N2M1b",
+      "other_stage": "",
+      "histopathology_status": "NUT carcinoma",
+      "biomarker_status": "NUT midline rearrangement positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest shows 7.2cm right lower lobe mass with extensive mediastinal lymphadenopathy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows multiple metastases, largest 2.1cm in left parietal lobe with associated edema",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "PET-CT confirms FDG-avid primary lesion and lymphadenopathy, no other distant disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Molecular testing confirms NUT midline carcinoma with NUT rearrangement",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status deteriorated from 1 to 2-3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing headaches"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild right-sided weakness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening breathlessness"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed aggressive NUT carcinoma with brain metastases. Clinical deterioration with neurological symptoms, requiring urgent radiotherapy before systemic treatment"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Currently on dexamethasone 8mg twice daily with some improvement in neurological symptoms"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status from 1 to 2-3 over past two weeks"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Reassessment of clinical status after whole brain radiotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review tomorrow to discuss MDT recommendations and initiate treatment"
+      }
+    ]
+  }
+}

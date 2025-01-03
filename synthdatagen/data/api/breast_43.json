@@ -1,0 +1,65 @@
+{
+  "content": "Diagnosis:\t\tInflammatory breast cancer, right breast\n\nStage:\t\tT4dN1M0 (Stage IIIB)\n\nBiomarkers:\tTriple negative breast cancer (ER/PR/HER2 negative)\n\t\tBRCA1 pathogenic variant detected\n\nManagement:\tCommenced neoadjuvant chemotherapy\n\nCurrent Situation:\tPre-cycle 2 dose-dense AC\n\n[redacted name] was reviewed today prior to cycle 2 chemotherapy. She has completed her first cycle of dose-dense doxorubicin/cyclophosphamide on 15/3/24. The inflammatory changes in her right breast have shown early improvement with reduced erythema and induration. The initial presenting symptoms of breast warmth and heaviness have significantly improved. Performance status remains 1.\n\nOn examination, there is reduced erythema of the right breast compared to initial presentation. The skin thickening and peau d'orange appearance persist but are improved. The 4cm palpable mass at 2 o'clock position remains unchanged. No suspicious axillary lymphadenopathy.\n\nBlood results are satisfactory for proceeding with cycle 2. She has experienced grade 1 nausea and fatigue but otherwise tolerated treatment well. Plan to continue with cycle 2 today as scheduled. Will review again in 2 weeks prior to cycle 3.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2024,
+      "month": 3,
+      "metastases": "axillary lymph node involvement",
+      "tnm_stage": "T4dN1M0",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "inflammatory breast cancer",
+      "biomarker_status": "Triple negative (ER/PR/HER2 negative), BRCA1 pathogenic variant positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started dose-dense doxorubicin/cyclophosphamide chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Early improvement in inflammatory changes with reduced erythema and induration after first cycle",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "examination_finding",
+        "value": "4cm palpable mass at 2 o'clock position in right breast"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced erythema with persistent skin thickening and peau d'orange"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 nausea and fatigue"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Inflammatory breast cancer showing early response to first cycle of neoadjuvant chemotherapy with improving inflammatory changes"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 nausea and fatigue from first cycle of AC chemotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 2 dose-dense AC chemotherapy as planned"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks prior to cycle 3"
+      }
+    ]
+  }
+}

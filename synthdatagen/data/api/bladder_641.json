@@ -1,0 +1,82 @@
+{
+  "content": "Diagnosis:\tMuscle invasive bladder cancer (T2aN0M0)\n\tTransurethral resection of bladder tumour March 2024\n\tHistology: High-grade urothelial carcinoma with muscularis propria invasion\n\tFGFR mutation positive on molecular testing\n\nI reviewed [redacted name] today in follow-up clinic following completion of cycle 3 of neoadjuvant gemcitabine-cisplatin chemotherapy. He is tolerating treatment well with only grade 1 fatigue and occasional nausea well controlled with standard antiemetics. His renal function remains stable with latest eGFR 68ml/min. Performance status remains 0.\n\nOn examination, there are no concerning features. Recent cystoscopy on 15/4/24 shows no visible residual disease. CT chest/abdomen/pelvis performed last week demonstrates stable appearances with no evidence of metastatic disease.\n\nThe plan is to proceed with final cycle of neoadjuvant chemotherapy next week. I have discussed the case with [redacted name] from urology, and radical cystectomy is provisionally scheduled for June 2024, approximately 6 weeks after completion of chemotherapy. We will see him again in clinic following surgery to discuss adjuvant treatment options, including potential FGFR inhibitor therapy given the positive mutation status.",
+  "output": {
+    "primary_cancer": {
+      "site": "bladder",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "T2aN0M0",
+      "histopathology_status": "High-grade urothelial carcinoma with muscularis propria invasion",
+      "biomarker_status": "FGFR mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Transurethral resection of bladder tumour",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "FGFR mutation positive on molecular testing",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started neoadjuvant gemcitabine-cisplatin chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Cystoscopy shows no visible residual disease",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis demonstrates stable appearances with no evidence of metastatic disease",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue and occasional nausea well controlled with antiemetics"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "eGFR 68ml/min"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Muscle invasive bladder cancer responding well to neoadjuvant chemotherapy with stable disease and good tolerability"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and well-controlled nausea"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with final cycle of neoadjuvant gemcitabine-cisplatin"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Radical cystectomy scheduled for June 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic following surgery to discuss adjuvant treatment options including FGFR inhibitor therapy"
+      }
+    ]
+  }
+}

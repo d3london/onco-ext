@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\t1) Type 2 diabetes with peripheral neuropathy\n2) Ischaemic heart disease with previous NSTEMI 2020\n3) Non-small cell lung cancer right upper lobe\n4) Suspicious left hilar mass\n5) Metastatic disease to C7 vertebra with cord compression risk and left arm radiculopathy\n6) Right pleural metastases with effusion\n7) MDT recommendation for urgent palliative radiotherapy to cervical spine\n\nI reviewed [redacted name] today accompanied by his son. I regret to inform you that the CT-guided biopsy of the right upper lobe mass has confirmed non-small cell lung cancer (poorly differentiated adenocarcinoma). There is an additional mass in the left hilar region which may represent either synchronous primary disease or metastatic spread. Unfortunately, imaging has also revealed metastatic involvement of the C7 vertebra causing radicular symptoms in the left arm, as well as right-sided pleural disease with associated effusion.?\n\n[redacted name] describes progressive left arm pain and paresthesia but maintains reasonable function. He is managing independently at home though requiring assistance with some activities. His appetite remains preserved with stable weight. He reports mild exertional dyspnoea but no orthopnea. Current analgesia includes regular codeine and pregabalin which provide partial symptom control.?\n\nWe had a detailed discussion regarding management options today. The patient had previously considered his preferences, having witnessed his sister's difficult experience with chemotherapy for advanced pancreatic cancer last year. He has expressed a clear wish to focus on symptom control rather than systemic anti-cancer therapy. Given the neurological symptoms from vertebral disease, we have recommended urgent palliative radiotherapy to the C7 region, which will be arranged by my colleague [redacted name] this week.?\n\nHe was reviewed by [redacted name], our lung cancer nurse specialist, who provided additional support and information. Arrangements are being made for radiotherapy planning tomorrow with treatment to commence as soon as possible.?",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right upper lobe",
+      "histopathology_status": "poorly differentiated adenocarcinoma",
+      "metastases": "C7 vertebra with cord compression risk, right pleural metastases with effusion, left hilar disease",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT-guided biopsy of right upper lobe mass confirms non-small cell lung cancer"
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Additional mass in left hilar region - possible synchronous primary or metastatic disease"
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Metastatic involvement of C7 vertebra causing radicular symptoms"
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Right-sided pleural disease with effusion"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes with peripheral neuropathy"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Ischaemic heart disease with previous NSTEMI 2020"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Progressive left arm pain and paresthesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild exertional dyspnoea"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Managing independently at home though requiring assistance with some activities"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed metastatic lung cancer with vertebral metastasis causing neurological symptoms. Patient declining systemic therapy, prioritizing symptom control with planned urgent palliative radiotherapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Current analgesia includes regular codeine and pregabalin providing partial symptom control"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Patient declines systemic anti-cancer therapy, opting for focussed symptom control"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative radiotherapy to C7 region to be arranged this week"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Radiotherapy planning scheduled for tomorrow"
+      }
+    ]
+  }
+}

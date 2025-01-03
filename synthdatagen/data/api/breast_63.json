@@ -1,0 +1,94 @@
+{
+  "content": "Diagnosis:\nMixed neuroendocrine carcinoma of breast with extensive liver metastases\n\nStaging:\nT3N2 (15/16 nodes positive) M1, Grade 3\nER/PR positive, HER2 positive, Ki67 80%\n\nPrevious Treatment:\nCompleted 6 cycles carboplatin/etoposide March-August 2023\nPartial response initially but subsequent progression\n\nCurrent Situation:\nProgressive disease in liver with new lesions\nCT 15 April 2024 shows increase in size and number of liver metastases\nLargest lesion segment 7 increased from 3.2cm to 5.1cm\nNew lesions in segments 4 and 8\n\nClinical Assessment:\nPerformance status deteriorated to ECOG 2\nIncreasing right upper quadrant pain requiring opioid escalation\nNew onset peripheral edema\nLFTs show rising pattern - bilirubin 45, ALT 156, ALP 345\n\nMDT Discussion 18 April 2024:\nRecommendation for switch to capecitabine/temozolomide regime\nConsider referral to Phase 1 unit if further progression\n\nPlan:\nCommence capecitabine/temozolomide regime today\nDose reduction to 75% due to performance status\nUrgent referral to palliative care for symptom management\nRepeat imaging after 2 cycles\nWeekly LFT monitoring",
+  "output": {
+    "primary_cancer": {
+      "site": "breast",
+      "metastases": "extensive liver metastases",
+      "tnm_stage": "T3N2M1",
+      "histopathology_status": "Mixed neuroendocrine carcinoma, Grade 3",
+      "biomarker_status": "ER positive, PR positive, HER2 positive, Ki67 80%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/etoposide chemotherapy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles carboplatin/etoposide with initial partial response",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression - increase in liver metastases size and number, largest lesion segment 7 increased from 3.2cm to 5.1cm, new lesions in segments 4 and 8",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Rising LFTs - bilirubin 45, ALT 156, ALP 345",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "MDT discussion recommended switch to capecitabine/temozolomide regime",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Starting capecitabine/temozolomide at 75% dose due to performance status",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing right upper quadrant pain requiring opioid escalation"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset peripheral edema"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Rising liver function tests - bilirubin 45, ALT 156, ALP 345"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Mixed neuroendocrine breast cancer with liver metastases showing disease progression after initial chemotherapy. Clinical deterioration with worsening liver function."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with increasing size and number of liver metastases on CT"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Switching to capecitabine/temozolomide at 75% dose due to performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Performance status deteriorated to ECOG 2 with increasing symptoms"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Weekly LFT monitoring and repeat imaging after 2 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care for symptom management"
+      }
+    ]
+  }
+}

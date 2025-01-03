@@ -1,0 +1,96 @@
+{
+  "content": "Diagnosis:\tLocally advanced esophageal basaloid squamous cell carcinoma T4aN1M1 with liver and lung metastases, diagnosed March 2024.\n\nI reviewed [redacted name] today who is currently receiving palliative systemic therapy. Unfortunately, he has experienced significant clinical deterioration since commencing cycle 2 of pembrolizumab with cisplatin and 5-fluorouracil three weeks ago. His main symptoms are progressive dysphagia requiring modification of diet consistency, new onset right upper quadrant pain, and worsening fatigue affecting his mobility.\n\nHe reports managing only liquidized diet and nutritional supplements, with occasional difficulties even with fluids. His weight has dropped by a further 3kg to 58kg (from 68kg at diagnosis). His performance status has declined from ECOG 1 to ECOG 3, now spending approximately 70% of the day in bed or chair. He describes new constant right upper quadrant discomfort rated 6/10, partially responding to regular co-codamol.\n\nThe recent CT scan performed on 15/4/24 shows disease progression with 30% increase in size of primary tumor (now measuring 8.2cm in maximum diameter), enlarging liver metastases with largest lesion in segment 7 measuring 4.5cm (previously 2.8cm), and increase in number of pulmonary nodules. There is also new moderate right-sided pleural effusion.\n\nOn examination today, he appears cachectic with reduced chest expansion on the right side and dullness to percussion at the right base. Abdominal examination reveals tender hepatomegaly extending 4cm below costal margin. His current blood tests show deteriorating liver function with bilirubin 45, ALT 156, ALP 345.\n\nI have had a detailed discussion with [redacted name] and his daughter about the clear evidence of disease progression and poor tolerance of current treatment. We have agreed to discontinue systemic anti-cancer therapy and focus on symptom control. I have made an urgent referral to the palliative care team and arranged admission to the oncology ward for drainage of pleural effusion and optimization of symptom control.\n\nI have also requested urgent dietetic review, arranged weekly community nurse visits, and prescribed additional breakthrough analgesia. We will arrange follow-up with the palliative care team after discharge, and I will review him again in the supportive care clinic in 2 weeks' time.",
+  "output": {
+    "primary_cancer": {
+      "site": "esophagus",
+      "year": 2024,
+      "month": 3,
+      "metastases": "liver metastases and lung metastases",
+      "tnm_stage": "T4aN1M1",
+      "histopathology_status": "basaloid squamous cell carcinoma",
+      "biomarker_status": "p16 negative, PDL1 CPS 15",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started pembrolizumab with cisplatin and 5-fluorouracil",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 30% increase in primary tumor size to 8.2cm, enlarging liver metastases with segment 7 lesion 4.5cm, increased pulmonary nodules, new right pleural effusion",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Deteriorating liver function with bilirubin 45, ALT 156, ALP 345",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued systemic anti-cancer therapy due to disease progression and poor tolerance",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from ECOG 1 to ECOG 3, spending 70% of day in bed or chair"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Progressive dysphagia requiring liquidized diet only"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant pain rated 6/10, partially responding to co-codamol"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening fatigue affecting mobility"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with reduced chest expansion on right side, dullness at right base"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender hepatomegaly 4cm below costal margin"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight dropped to 58kg from 68kg at diagnosis"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced esophageal cancer with liver and lung metastases diagnosed March 2024. Significant clinical deterioration with disease progression on first-line palliative chemotherapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with 30% increase in primary tumor size and enlarging metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued systemic anti-cancer therapy due to disease progression"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status from ECOG 1 to 3 with weight loss and dysphagia"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Arranged admission for pleural effusion drainage"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral and review in supportive care clinic in 2 weeks"
+      }
+    ]
+  }
+}

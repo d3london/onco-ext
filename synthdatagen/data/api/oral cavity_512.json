@@ -1,0 +1,78 @@
+{
+  "content": "Diagnosis:\t\tMetastatic squamous cell carcinoma of oral cavity\n\nManagement:\t\tPalliative pembrolizumab/chemotherapy combination\n\nHistology:\t\tModerately differentiated squamous cell carcinoma, PDL1 CPS 40%\n\nCurrent Situation:\tCycle 4 review\n\n[redacted name] attended for review today prior to cycle 4 of palliative pembrolizumab/carboplatin/5-FU combination therapy. His disease was initially diagnosed in January 2024 following investigation of progressive right-sided jaw pain, with biopsy confirming squamous cell carcinoma. Initial staging demonstrated a T4aN2b primary tumor with bone metastases affecting C5 vertebra and left iliac crest. He commenced systemic therapy in February 2024 following MDT discussion.\n\nHe has experienced a good clinical response to treatment thus far, with significant improvement in his jaw pain and reduction in analgesic requirements. His most recent CT assessment on 15 April 2024 demonstrated partial response in both primary disease and nodal disease, with stable appearance of bone metastases. His performance status remains 1, though he describes grade 2 fatigue requiring afternoon rest periods. He has developed grade 1 mucositis which is managed with regular mouthwash. Recent thyroid function tests showed early signs of immune-related thyroiditis with suppressed TSH, though he remains clinically euthyroid.\n\nToday's blood tests show stable renal function and adequate haematological parameters for cycle 4. The plan is to continue with treatment at full doses. I have prescribed prophylactic fluconazole for his mucositis. We will arrange interval imaging after cycle 6 and review again in three weeks with thyroid function monitoring.",
+  "output": {
+    "primary_cancer": {
+      "site": "oral cavity, right jaw",
+      "year": 2024,
+      "month": 1,
+      "metastases": "bone metastases affecting C5 vertebra and left iliac crest",
+      "tnm_stage": "T4aN2b",
+      "histopathology_status": "moderately differentiated squamous cell carcinoma",
+      "biomarker_status": "PDL1 CPS 40%",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial presentation with progressive right-sided jaw pain",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started pembrolizumab/carboplatin/5-FU combination therapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows partial response in primary and nodal disease, stable bone metastases",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 fatigue requiring afternoon rest periods"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 mucositis managed with mouthwash"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Early signs of immune-related thyroiditis with suppressed TSH, clinically euthyroid"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic oral cavity SCC showing good partial response to immunotherapy/chemotherapy combination with manageable toxicities"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response in primary and nodal disease, stable bone metastases, improved jaw pain"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 fatigue, grade 1 mucositis, early thyroiditis"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with cycle 4 at full doses, added prophylactic fluconazole"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Interval imaging after cycle 6, thyroid function monitoring"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in three weeks"
+      }
+    ]
+  }
+}

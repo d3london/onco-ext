@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\tMetastatic adenocarcinoma of lung with widespread bone, liver and adrenal metastases\n\tDiagnosed January 2024\n\tKEAP1/STK11 co-mutated, PD-L1 negative\n\nI reviewed [redacted name] today following recent admission with deteriorating symptoms and concerning imaging findings. She was initially diagnosed in January 2024 with stage IV lung adenocarcinoma, presenting with extensive skeletal metastases, multiple liver lesions and bilateral adrenal involvement. Molecular testing revealed KEAP1/STK11 co-mutation and PD-L1 negativity, which guided initial treatment decisions.\n\nShe commenced first-line carboplatin/pemetrexed in February 2024, completing 4 cycles with initial disease stabilization. However, restaging in April 2024 showed disease progression with new liver lesions and increasing size of known bone metastases. She transitioned to second-line docetaxel but unfortunately developed rapid clinical deterioration after 2 cycles, with worsening liver function and new onset hypercalcemia.\n\nCurrent CT imaging from 15th May shows significant progression of liver metastases with the largest lesion now measuring 8.2cm (previously 5.4cm), new peritoneal deposits, and progression of bone disease with impending cord compression at T4. Her performance status has declined to ECOG 3, spending most of the day in bed. She requires regular opioid analgesia for bone pain and has developed significant fatigue and anorexia with 12kg weight loss over 8 weeks.\n\nBlood tests show deteriorating liver function with bilirubin 45, ALT 156, ALP 432. Albumin has dropped to 28. Corrected calcium is elevated at 2.89 despite recent bisphosphonate treatment.\n\nI have had a detailed discussion with [redacted name] and her family about the significant disease progression and poor prognosis. Given her declining performance status and organ function, I have recommended discontinuing systemic anti-cancer therapy. We have arranged urgent palliative radiotherapy to the T4 vertebra (8Gy single fraction) and initiated dexamethasone 8mg daily. I have made an urgent referral to the palliative care team for symptom management and community support.\n\nWe will review her next week following radiotherapy completion. The palliative care team will arrange community follow-up and I have provided emergency contact details to the family.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung",
+      "year": 2024,
+      "month": 1,
+      "metastases": "extensive skeletal metastases, multiple liver lesions, bilateral adrenal involvement, new peritoneal deposits",
+      "other_stage": "Stage IV",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "KEAP1/STK11 co-mutated, PD-L1 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started first-line carboplatin/pemetrexed",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Disease progression with new liver lesions and increasing size of known bone metastases",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced second-line docetaxel",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows significant progression of liver metastases (largest 8.2cm from 5.4cm), new peritoneal deposits, progression of bone disease with impending cord compression at T4",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Deteriorating liver function with bilirubin 45, ALT 156, ALP 432, albumin 28, corrected calcium 2.89",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, spending most of the day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Bone pain requiring regular opioid analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Significant fatigue and anorexia with 12kg weight loss over 8 weeks"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function and hypercalcemia despite recent bisphosphonate treatment"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV lung adenocarcinoma with rapid progression through two lines of therapy. Significant clinical deterioration with declining organ function and performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on docetaxel with rapid clinical deterioration after 2 cycles"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic anti-cancer therapy due to declining performance status and organ function"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with significant symptomatic burden"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent palliative radiotherapy to T4 vertebra (8Gy single fraction)"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review next week post-radiotherapy, urgent palliative care referral made for community support"
+      }
+    ]
+  }
+}

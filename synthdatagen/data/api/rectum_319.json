@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis:\t\tRectal verrucous carcinoma\n\nManagement:\t\tAnterior resection March 2024\n\nHistology:\t\tpT2N0M0 verrucous carcinoma, MMR proficient, p16 negative\n\nCurrent situation:\tPost-operative surveillance\n\n[redacted name] attended follow-up clinic today following anterior resection for early stage rectal cancer. The post-operative period has been uncomplicated with good recovery of bowel function. Currently opening bowels 2-3 times daily with good continence. No concerning symptoms reported. Performance status remains 0. Weight stable at 72kg. Digital rectal examination today shows healthy anastomosis with no palpable abnormality. Blood tests including CEA are within normal range. The plan is to continue standard surveillance with next CT chest/abdomen/pelvis in 3 months' time and colonoscopy at 1 year post-surgery. Will review again in clinic following CT scan.",
+  "output": {
+    "primary_cancer": {
+      "site": "rectum",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "pT2N0M0",
+      "other_stage": "",
+      "histopathology_status": "verrucous carcinoma",
+      "biomarker_status": "MMR proficient, p16 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Anterior resection performed",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA within normal range",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Uncomplicated post-operative recovery with good bowel function",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Opening bowels 2-3 times daily with good continence"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Digital rectal examination shows healthy anastomosis with no palpable abnormality"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage rectal cancer treated with anterior resection. Uncomplicated post-operative recovery with no evidence of recurrence"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 3 months and colonoscopy at 1 year post-surgery"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic following CT scan"
+      }
+    ]
+  }
+}

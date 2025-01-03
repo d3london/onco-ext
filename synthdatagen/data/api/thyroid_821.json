@@ -1,0 +1,108 @@
+{
+  "content": "I reviewed [redacted name] today who attended with her husband for urgent assessment following concerning scan results. She was diagnosed with mixed medullary-follicular thyroid carcinoma in January 2024, initially presenting with a right-sided neck mass and bone pain. The initial staging showed a 3.8cm right thyroid mass with right cervical lymphadenopathy and multiple bone metastases particularly affecting the thoracic spine and left hip. Her baseline CEA was markedly elevated at 80 ng/mL.\n\nShe initially underwent total thyroidectomy with central compartment neck dissection on February 15th 2024, which confirmed a T2N1 mixed medullary-follicular carcinoma with 4/12 positive lymph nodes. Following recovery, she commenced treatment with cabozantinib in March 2024. Unfortunately, despite initial stable disease on the first assessment scan, her most recent imaging shows clear evidence of disease progression with new bone metastases in the lumbar spine and pelvis, and growth of existing lesions. This correlates with a rising CEA trend, now at 150 ng/mL.\n\nHer symptoms have significantly worsened over the past three weeks. She describes increasing pain affecting her lower back and left hip, requiring escalation of her analgesia. Her mobility has declined and she now requires a walking frame. She reports profound fatigue, spending over 50% of the day resting, and her appetite has reduced significantly with 4kg weight loss over the past month. Her performance status has deteriorated from 1 to 2-3.\n\nOn examination today, she appears notably more frail than at our last review. There is marked tenderness over the lumbar spine and left hip. The thyroidectomy scar is well-healed with no evidence of local recurrence. Blood pressure is stable at 128/75 mmHg with no evidence of adrenal insufficiency.\n\nI have had a lengthy discussion with [redacted name] and her husband about the changing situation. Given the clear evidence of disease progression on cabozantinib and her declining performance status, I have recommended discontinuing this treatment. We discussed the option of second-line sunitinib therapy, but given her current performance status and rapid decline, I feel the risks would outweigh potential benefits at this time. Instead, I have recommended focusing on symptom control and quality of life.\n\nI have made the following arrangements today: urgent referral to the palliative care team for review of pain management and support, booked urgent MRI spine to assess for cord compression risk given the new lumbar metastases, referred to the hospital physiotherapy team for mobility assessment, and prescribed additional breakthrough analgesia. I will review her again next week with the palliative care team, and sooner if needed. The acute oncology team are aware and will provide additional support as required.\n?\n",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple bone metastases affecting thoracic spine, lumbar spine, pelvis and left hip, right cervical lymphadenopathy",
+      "tnm_stage": "T2N1M1",
+      "histopathology_status": "mixed medullary-follicular carcinoma",
+      "biomarker_status": "CEA elevated at baseline 80 ng/mL, now 150 ng/mL",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Presenting with 3.8cm right thyroid mass with right cervical lymphadenopathy and bone metastases",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy with central compartment neck dissection, confirming T2N1 disease with 4/12 positive lymph nodes",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started cabozantinib",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA increased to 150 ng/mL",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "New bone metastases in lumbar spine and pelvis, growth of existing lesions",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing cabozantinib due to disease progression and declining performance status",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from PS 1 to PS 2-3, spending over 50% of day resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing pain affecting lower back and left hip"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Profound fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Reduced appetite with 4kg weight loss over past month"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Marked tenderness over lumbar spine and left hip"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed thyroidectomy scar with no local recurrence"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Blood pressure stable at 128/75 mmHg"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Mixed medullary-follicular thyroid cancer with bone metastases showing disease progression on cabozantinib with clinical deterioration. Transitioning to palliative approach due to declining performance status."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with new bone metastases and rising CEA"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing cabozantinib, focus on symptom control rather than second-line sunitinib due to poor performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline in mobility, now requiring walking frame, PS 2-3"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess for cord compression risk"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral, physiotherapy referral, review next week with palliative care team"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "content": "Diagnosis:\t\tSalivary duct carcinoma, parotid gland\n\nStage:\t\tT4aN0M1 (Stage IVA), HER2 positive\n\nTreatment:\t\tRight total parotidectomy March 2023\n\t\tAdjuvant radiotherapy completed June 2023\n\t\tPalliative Trastuzumab/Docetaxel from August 2023\n\nCurrent Status:\tCycle 6 review\n\n[redacted name] attended for review prior to cycle 6 Trastuzumab/Docetaxel. Latest CT chest 15/12/23 shows stable disease with no change in the three pulmonary metastases (largest 2.1cm right lower lobe). Blood results are satisfactory for treatment continuation. She reports grade 2 peripheral neuropathy affecting fingers and toes, but wishes to continue current doses given disease control. Performance status remains 1. No new symptoms. Examination shows well-healed right parotid surgical site with no evidence of local recurrence. Plan to proceed with cycle 6 today and arrange repeat CT chest/abdomen/pelvis prior to cycle 8 review. Will see again in 3 weeks with blood results.",
+  "output": {
+    "primary_cancer": {
+      "site": "parotid gland, right",
+      "year": 2023,
+      "month": 3,
+      "metastases": "pulmonary metastases, largest 2.1cm right lower lobe",
+      "tnm_stage": "T4aN0M1",
+      "other_stage": "Stage IVA",
+      "histopathology_status": "salivary duct carcinoma",
+      "biomarker_status": "HER2 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right total parotidectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed adjuvant radiotherapy",
+          "year": 2023,
+          "month": 6
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started palliative Trastuzumab/Docetaxel",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest shows stable disease with three pulmonary metastases, largest 2.1cm right lower lobe",
+          "year": 2023,
+          "month": 12
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 peripheral neuropathy affecting fingers and toes"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed right parotid surgical site with no evidence of local recurrence"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "HER2 positive metastatic salivary duct carcinoma with stable pulmonary metastases on Trastuzumab/Docetaxel"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 peripheral neuropathy affecting fingers and toes"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Trastuzumab/Docetaxel at current doses"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis prior to cycle 8"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks with blood results"
+      }
+    ]
+  }
+}

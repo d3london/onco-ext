@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\nRight breast cancer - T1bN0M0 small cell variant, diagnosed March 2024\nER/PR strongly positive, HER2 negative\n\nTreatment:\nWide local excision right breast 15 March 2024\nCommenced adjuvant letrozole 2.5mg daily April 2024\n\nCurrent situation:\nReview at 3 months post-surgery and 6 weeks into endocrine therapy\n\nI was very pleased to see [redacted name] today who is adapting well to her treatment journey. She has shown remarkable resilience throughout her initial diagnosis and surgical recovery period. The surgical site has healed beautifully with minimal scarring, and she reports being very satisfied with the cosmetic outcome.\n\nShe has been taking letrozole regularly for the past 6 weeks and describes mild but manageable side effects. She experiences occasional hot flushes, particularly at night, but these are not significantly impacting her sleep. She has noticed some mild joint stiffness in her hands in the mornings which typically improves with gentle movement. Her mood remains positive and she continues with her regular walking routine, managing 30 minutes daily which she finds helps with the joint symptoms.\n\nOn examination today, the right breast surgical site shows excellent healing with no concerning features. There is no lymphadenopathy in either axilla. She has maintained her weight at 65kg.\n\nI have explained that these initial side effects are quite common and often improve over the first few months of treatment. We will continue with the current dose of letrozole as she is managing well overall. I have provided written information about managing hot flushes and joint symptoms, and encouraged her to maintain her current level of physical activity.\n\nWe will arrange a follow-up appointment in 3 months' time to review her progress, though she understands to contact us sooner if she develops any concerning symptoms or if the side effects become more troublesome.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "T1bN0M0",
+      "histopathology_status": "small cell variant",
+      "biomarker_status": "ER/PR strongly positive, HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision right breast",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant letrozole 2.5mg daily",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Right breast surgical site shows excellent healing with no concerning features"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No lymphadenopathy in either axilla"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Occasional hot flushes, particularly at night"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild joint stiffness in hands in the mornings"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Maintains 30 minutes daily walking routine"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage right breast cancer post-surgery, tolerating adjuvant letrozole well with minimal side effects"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild hot flushes and morning joint stiffness from letrozole"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing letrozole 2.5mg daily at current dose"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 months"
+      }
+    ]
+  }
+}

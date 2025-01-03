@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\tPancreatic cancer - mixed ductal-acinar carcinoma of uncinate process\n\tStage T2N0M0 (AJCC 8th edition)\n\tCDKN2A germline mutation carrier\n\tDiagnosed March 2024\n?\n[redacted name] is a 42-year-old gentleman who was recently diagnosed with pancreatic cancer following investigation of unexplained weight loss and epigastric discomfort. His initial CT scan on 1/3/24 demonstrated a 2.8cm mass in the uncinate process of the pancreas. Subsequent EUS-guided biopsy confirmed mixed ductal-acinar carcinoma. Staging investigations including CT chest and MRI liver show no evidence of metastatic disease.\n?\nHe underwent genetic testing due to his young age at diagnosis and family history of pancreatic cancer in his father, which identified a pathogenic CDKN2A germline mutation. His case was discussed at our HPB MDT on 15/3/24 where the consensus was to proceed with pancreaticoduodenectomy given the resectable nature of his disease.\n?\nHe has recovered well from his surgery performed on 22/3/24 by [redacted name]. Final histology confirms a 2.6cm mixed ductal-acinar carcinoma with clear resection margins (R0) and no lymph node involvement (0/18 nodes). His post-operative course was uncomplicated and he has regained his appetite with steady weight gain.\n?\nIn his past medical history, he has well-controlled type 2 diabetes on metformin. He works as an accountant and lives with his wife and two teenage children. He has never smoked and drinks minimal alcohol.\n?\nOn examination today, his surgical wounds are well-healed. His performance status is 0 and he has returned to gentle exercise.\n?\nGiven his stage T2N0M0 disease and R0 resection, I have recommended 6 months of adjuvant modified FOLFIRINOX chemotherapy. We discussed the aims of treatment and potential side effects in detail. He will require a PICC line insertion prior to starting treatment. I have also arranged referral to clinical genetics for cascade family testing given his CDKN2A mutation status.\n?\nThe plan is to commence chemotherapy in 2 weeks' time once his PICC line is placed. We will see him regularly during treatment to monitor his progress. He has been given contact details for our support team and understands to contact us with any concerns.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas uncinate process",
+      "year": 2024,
+      "month": 3,
+      "metastases": "none",
+      "tnm_stage": "T2N0M0",
+      "histopathology_status": "mixed ductal-acinar carcinoma, R0 resection, 0/18 lymph nodes",
+      "biomarker_status": "CDKN2A germline mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows 2.8cm mass in uncinate process of pancreas",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "EUS-guided biopsy confirms mixed ductal-acinar carcinoma",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CDKN2A germline mutation identified on genetic testing",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Underwent pancreaticoduodenectomy - R0 resection, tumor 2.6cm, 0/18 nodes",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes on metformin"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Surgical wounds well-healed"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed pancreatic cancer, successfully resected with clear margins. Young patient with CDKN2A mutation preparing for adjuvant chemotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Recovered well from surgery with good appetite and weight gain, returned to gentle exercise"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "PICC line insertion planned"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referral to clinical genetics for cascade family testing"
+      }
+    ]
+  }
+}

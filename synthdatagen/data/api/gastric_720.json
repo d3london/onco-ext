@@ -1,0 +1,102 @@
+{
+  "content": "Diagnosis:\tMetastatic gastric adenocarcinoma, pT4aN3aM1 with peritoneal and liver metastases\n\tInitial diagnosis March 2023 following emergency admission with gastric outlet obstruction\n\tPDL1 CPS 5, MMR proficient\n\n[redacted name] has unfortunately shown evidence of disease progression following 6 cycles of modified FLOT chemotherapy completed in September 2023. The initial treatment had achieved partial response with improvement in peritoneal disease and reduction in liver metastases, but recent imaging shows clear evidence of progression.\n\nA CT performed on 15/4/24 demonstrates new peritoneal deposits in the right upper quadrant with associated small volume ascites, and increase in size of liver metastases (segment 4a lesion increased from 2.8cm to 4.2cm). There is also new left-sided pleural effusion. Her CA19-9 has risen from 245 to 890 over the past 6 weeks.\n\nShe has experienced deterioration in symptoms over the past month with increasing abdominal discomfort, early satiety, and fatigue. Her performance status has declined from ECOG 1 to ECOG 2. Current weight is 52kg, down from 58kg six weeks ago despite nutritional supplements.\n\nOn examination today, there is moderate ascites with shifting dullness and tender hepatomegaly palpable 4cm below costal margin. Chest examination reveals reduced air entry at left base consistent with pleural effusion.\n\nIn her past medical history, she has well-controlled type 2 diabetes and hypertension. Current medications include Lantus insulin 28 units nocte, metformin 1g BD (recently reduced due to poor appetite), ramipril 5mg OD, and as-required oxycodone for pain which she is using more frequently.\n\nI have discussed the situation at length with [redacted name] and her husband today. Given the clear evidence of disease progression and declining performance status, I have recommended discontinuing FLOT and switching to second-line treatment with weekly paclitaxel and ramucirumab. I have explained the aims of treatment and potential side effects.\n\nI have arranged urgent paracentesis through our day unit for symptom relief, and referred to our palliative care team for additional support with symptom management. We will commence treatment next week provided her performance status remains stable. I have also organized repeat CT after 3 cycles to assess response.\n\nWe will review her weekly during treatment. I have provided emergency contact details and clear instructions about when to seek urgent medical attention.",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "year": 2023,
+      "month": 3,
+      "metastases": "peritoneal and liver metastases, new left pleural effusion",
+      "tnm_stage": "pT4aN3aM1",
+      "histopathology_status": "tubular adenocarcinoma",
+      "biomarker_status": "PDL1 CPS 5, MMR proficient",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Emergency admission with gastric outlet obstruction",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started modified FLOT chemotherapy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles of modified FLOT chemotherapy with initial partial response",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 risen from 245 to 890 over 6 weeks",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows new peritoneal deposits, increased liver metastases, and new left pleural effusion",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Declined from ECOG 1 to ECOG 2"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing abdominal discomfort, early satiety, and fatigue"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Moderate ascites with shifting dullness and tender hepatomegaly 4cm below costal margin"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry at left base consistent with pleural effusion"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight decreased from 58kg to 52kg over six weeks despite nutritional supplements"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic gastric cancer showing disease progression after first-line FLOT chemotherapy with declining performance status and new sites of disease"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with new peritoneal deposits, increasing liver metastases, and new pleural effusion"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing FLOT and switching to second-line weekly paclitaxel and ramucirumab"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deteriorating performance status from ECOG 1 to 2 with weight loss and increasing symptoms"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat CT after 3 cycles of second-line treatment"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review during treatment, urgent paracentesis arranged, referral to palliative care team"
+      }
+    ]
+  }
+}

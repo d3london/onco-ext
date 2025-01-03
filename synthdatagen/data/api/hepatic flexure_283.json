@@ -1,0 +1,85 @@
+{
+  "content": "Diagnosis:\t\tMedullary carcinoma of hepatic flexure with liver and lung metastases\n\nStaging:\t\tpT4aN2M1, MSI-high, PDL1 CPS 85\n\nTreatment:\t\t12/2023 Right hemicolectomy\n\t\t\t01/2024-03/2024 FOLFOX/Bevacizumab x 6 cycles\n\t\t\t04/2024 Changed to Pembrolizumab monotherapy\n\nCurrent Status:\tProgressive disease with new liver lesions\n\n[redacted name] attended clinic today with worsening right upper quadrant pain and increasing fatigue. Performance status has declined to ECOG 2. Recent CT (15/05/2024) shows progression with new liver lesions and increase in pulmonary metastases despite 2 cycles of pembrolizumab. Liver function shows new derangement with bilirubin 45, ALT 156.\n\nGiven rapid progression and declining performance status, we have discussed changing approach to focus on symptom control. I have referred to palliative care team and arranged urgent review with our hepatobiliary team regarding potential need for biliary stenting. Will see again next week with results. Patient understands prognosis is now measured in weeks to months.",
+  "output": {
+    "primary_cancer": {
+      "site": "hepatic flexure",
+      "year": 2023,
+      "metastases": "liver and lung metastases",
+      "tnm_stage": "pT4aN2M1",
+      "histopathology_status": "medullary carcinoma",
+      "biomarker_status": "MSI-high, PDL1 CPS 85",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right hemicolectomy",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFOX/Bevacizumab chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed to Pembrolizumab monotherapy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with new liver lesions and increase in pulmonary metastases",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Liver function deranged with bilirubin 45, ALT 156",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening right upper quadrant pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing fatigue"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deranged liver function with bilirubin 45, ALT 156"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic medullary colon cancer with progressive disease despite immunotherapy. Declining performance status with worsening liver function"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on pembrolizumab with new liver lesions and increasing pulmonary metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Changing approach to focus on symptom control"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Declining performance status to ECOG 2"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and hepatobiliary team review for potential biliary stenting"
+      }
+    ]
+  }
+}

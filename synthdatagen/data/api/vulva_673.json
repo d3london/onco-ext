@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\tMalignant melanoma of vulva, T3bN1M0, BRAF V600E positive\n\nManagement:\t15 Jan 2024 Wide local excision and bilateral inguinal lymph node dissection\n\t\t1 Feb 2024 Started adjuvant Dabrafenib/Trametinib\n\nHistology:\tNodular melanoma, Breslow thickness 4.2mm, with ulceration. 2/8 right inguinal nodes positive, largest deposit 12mm. Clear margins.\n\nCurrent Situation:\tMDT review following cycle 3 Dabrafenib/Trametinib\n\nI am writing following today's Melanoma MDT discussion of [redacted name], who is currently receiving adjuvant targeted therapy. The CT scan performed on 15/4/24 shows no evidence of distant metastatic disease. The surgical sites are well healed with no evidence of local recurrence. The patient is experiencing grade 2 pyrexia requiring temporary treatment interruptions, but is otherwise tolerating therapy reasonably well.\n\nThe MDT reviewed the imaging findings and current clinical situation. Given the high-risk features of the primary tumor and node positive disease, the consensus recommendation is to continue adjuvant Dabrafenib/Trametinib for the planned 12-month course, with appropriate dose modifications as needed for pyrexia management. The treatment breaks have been appropriate and well-managed through our acute oncology service.\n\nThe plan is to continue current therapy with weekly temperature monitoring. We will arrange a repeat CT chest/abdomen/pelvis in 3 months' time. [redacted name] will be reviewed in the melanoma clinic in 2 weeks' time with blood tests including LFTs. The surgical team will continue parallel follow-up for wound surveillance.",
+  "output": {
+    "primary_cancer": {
+      "site": "vulva",
+      "year": 2024,
+      "month": 1,
+      "metastases": "2/8 right inguinal nodes positive, largest deposit 12mm",
+      "tnm_stage": "T3bN1M0",
+      "histopathology_status": "Nodular melanoma, Breslow thickness 4.2mm, with ulceration",
+      "biomarker_status": "BRAF V600E positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and bilateral inguinal lymph node dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant Dabrafenib/Trametinib",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of distant metastatic disease",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Temporary treatment interruptions required due to grade 2 pyrexia",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Surgical sites well healed with no evidence of local recurrence"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 pyrexia"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "High-risk node-positive vulval melanoma on adjuvant targeted therapy. Currently stable with no evidence of metastatic disease but experiencing pyrexia requiring dose modifications"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 pyrexia requiring temporary treatment interruptions"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continue adjuvant Dabrafenib/Trametinib for planned 12-month course with dose modifications as needed"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 3 months, blood tests including LFTs in 2 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in melanoma clinic in 2 weeks, parallel surgical team follow-up for wound surveillance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "content": "Diagnosis:\tHepatocellular carcinoma\n\nManagement:\t15 Mar 2024 Segment 6 liver resection\n\nHistology:\tModerately differentiated hepatocellular carcinoma, 4.2cm diameter, T2N0M0, R0 resection with clear margins. Beta-catenin mutation detected.\n\nCurrent Situation:\tPost-operative review\n\nI reviewed [redacted name] today following his recent liver resection. He has made an excellent recovery from surgery with minimal post-operative pain, now managed with paracetamol only. His wound has healed well and surgical clips were removed today. His appetite has improved and he reports returning to normal activity levels. His latest blood tests show liver function tests returning to baseline and AFP has dropped from 800 to 120.\n\nOn examination, his wound is clean and healing well. Abdomen is soft and non-tender with no evidence of ascites. Performance status is 0.\n\nI have discussed surveillance plans with [redacted name]. We will arrange 3-monthly AFP measurements and liver MRI scans for the first two years. His first surveillance scan is booked for June 2024. He will be reviewed in clinic with these results.",
+  "output": {
+    "primary_cancer": {
+      "site": "liver, segment 6",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "T2N0M0",
+      "histopathology_status": "moderately differentiated hepatocellular carcinoma, 4.2cm diameter, R0 resection with clear margins",
+      "biomarker_status": "beta-catenin mutation detected, AFP elevated at 800",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Segment 6 liver resection performed",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "AFP decreased from 800 to 120",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Wound clean and healing well, abdomen soft and non-tender, no ascites"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Minimal post-operative pain managed with paracetamol"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Localized hepatocellular carcinoma treated with liver resection. Excellent post-operative recovery with normalizing liver function and tumor markers"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Returning to normal activity levels with improved appetite"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance with 3-monthly AFP and liver MRI, first scan scheduled June 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with surveillance results"
+      }
+    ]
+  }
+}

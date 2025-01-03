@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\tAdenocarcinoma of rectosigmoid junction\n\nManagement:\t15 Mar 2024 Laparoscopic anterior resection\n\nHistology:\tModerately differentiated adenocarcinoma, pT2N0M0 (0/12 nodes), NTRK fusion positive\n\nCurrent Situation:\tPost-operative assessment for consideration of adjuvant therapy\n\nI reviewed [redacted name] today following his recent surgery for NTRK fusion-positive rectosigmoid adenocarcinoma. He has made an excellent recovery from his laparoscopic anterior resection performed on March 15th. His wound sites have healed well and his bowel function is returning to normal pattern with 2-3 formed motions daily. He reports good appetite and has regained 2kg of his preoperative weight loss.\n\nHis original presentation was with a 4-month history of altered bowel habit and fresh rectal bleeding. Colonoscopy identified a 4.2cm rectosigmoid mass, biopsy-proven adenocarcinoma. Staging CT chest/abdomen/pelvis and MRI pelvis showed no evidence of metastatic disease. Following MDT discussion, he proceeded to primary surgery.\n\nFinal histology shows a moderately differentiated adenocarcinoma with invasion into muscularis propria but not beyond (pT2). All 12 lymph nodes were negative for malignancy. Margins were clear (R0 resection). Molecular testing has identified an NTRK gene fusion.\n\nGiven the early stage disease (pT2N0) and clear resection margins, I have explained that adjuvant chemotherapy would not be routinely recommended as the potential benefits would not outweigh the risks. However, the presence of the NTRK fusion is significant, and I have discussed the option of entering a clinical trial of adjuvant NTRK inhibitor therapy. He will consider this option and we will review again in 2 weeks with his decision.\n\nIn the meantime, I have arranged baseline CT chest/abdomen/pelvis and blood tests including CEA for his next visit. We will then formalize his surveillance plan based on his decision regarding the trial.",
+  "output": {
+    "primary_cancer": {
+      "site": "rectosigmoid junction",
+      "year": 2024,
+      "month": 3,
+      "metastases": "none",
+      "tnm_stage": "pT2N0M0",
+      "histopathology_status": "moderately differentiated adenocarcinoma",
+      "biomarker_status": "NTRK fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Colonoscopy identified 4.2cm rectosigmoid mass, biopsy-proven adenocarcinoma",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Staging CT chest/abdomen/pelvis and MRI pelvis showed no evidence of metastatic disease",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Laparoscopic anterior resection, R0 resection achieved",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirms pT2N0 (0/12 nodes), moderately differentiated adenocarcinoma with NTRK fusion",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "2-3 formed bowel motions daily"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Good appetite with 2kg weight regain post-surgery"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical wound sites"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage rectosigmoid cancer post successful R0 resection. Good post-operative recovery. NTRK fusion positive status raises consideration of trial therapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Routine adjuvant chemotherapy not recommended due to early stage; considering clinical trial of adjuvant NTRK inhibitor"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline CT chest/abdomen/pelvis and CEA arranged"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks with trial decision"
+      }
+    ]
+  }
+}

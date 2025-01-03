@@ -1,0 +1,102 @@
+{
+    "content": "Diagnosis:\n1. Progressive left arm lymphedema with associated neuropathic pain, secondary to previous axillary radiotherapy and surgery.\n\n2. Left-sided thoracic outlet syndrome, due to post-radiation fibrosis and previous nodal surgery.\n\n3. Previous breast cancer with axillary and mediastinal lymph node involvement, and solitary right temporal lobe metastasis, all treated with multimodal therapy including radiotherapy, now in remission.\n\n4. MRI thoracic outlet September 2023 showed post-treatment changes only, with no evidence of disease recurrence or radiation-induced brachial plexopathy.\n\n5. Systemic lupus erythematosus.\n\n6. Previous mitral valve repair and automated implantable cardioverter-defibrillator in situ.\n\nPlan:\n\n1. Oncology team has requested repeat MRI thoracic outlet and brain imaging for surveillance.\n\n2. Continue current gabapentin regime with slow uptitration as tolerated for neuropathic symptoms.\n\n3. Consider referral to specialist lymphedema service at [redacted name] for intensive decongestive therapy if symptoms worsen. Patient currently managing adequately with compression garment.\n\n4. If neuropathic symptoms escalate, consider adding pregabalin or duloxetine as adjunct therapy.\n\n5. Discharged from pain management clinic.\n\nThank you for referring this 52-year-old left-handed woman to the pain clinic.\n\nBackground:\n\nThis patient is under oncology follow-up for breast cancer initially diagnosed and treated in 2019, with subsequent recurrence in late 2021 involving left axillary and mediastinal nodes, treated with radiotherapy to these regions. She developed additional metastatic disease to bone and subsequently a solitary right temporal lobe metastasis, treated with stereotactic radiotherapy in March 2022, with complete radiological response. Her medical background includes SLE and had mitral valve repair in 2016 followed by AICD insertion. Current medications include hydroxychloroquine, mycophenolate, apixaban, ramipril, metoprolol, pertuzumab, and denosumab.\n\nHistory:\n\nShe reports progressive swelling and associated burning pain in the left arm, which has gradually worsened over approximately 24 months. The lymphedema extends from her hand to the upper arm, with associated heaviness and restricted range of movement. She experiences intermittent paraesthesia and shooting pains, particularly troublesome at night and affecting her sleep pattern. The pain is rated as 7/10 at worst, improving to 4/10 with current medication. She notes particular difficulty with overhead activities and fine motor tasks.\n\nShe has had persistent numbness and reduced grip strength in her left hand since the completion of axillary radiotherapy in early 2022. These symptoms have remained relatively stable over the past year, though she reports some improvement in her ability to perform daily activities compared to the immediate post-treatment period.\n\nShe reports mild peripheral neuropathy in her feet from previous chemotherapy but denies any other neurological symptoms.\n\nExamination:\n\nCranial nerve examination normal. The left upper limb shows moderate non-pitting edema extending from dorsum of hand to upper arm. There is notable tissue fibrosis in the axillary region and lateral chest wall. Mild wasting of intrinsic hand muscles noted. Power is reduced in left shoulder abduction (4/5) and elbow flexion (4+/5), with preservation of distal power. The right side demonstrates full power throughout. Reflexes are symmetrically present but reduced. Light touch sensation is diminished in a non-dermatomal pattern throughout the left upper limb, most pronounced in the ulnar distribution.\n\nImpression and plan:\n\nThis patient has developed a complex pain syndrome combining elements of lymphedema and post-radiation neuropathy. The oncology team's planned imaging surveillance is appropriate to exclude disease recurrence, though her previous scan showed only expected post-treatment changes.\n\nRegarding symptom management, her current gabapentin regime appears to provide partial benefit. We discussed the option of medication uptitration versus adding additional agents. She prefers to continue with the current single agent approach for now. If symptoms escalate, we would recommend either pregabalin or duloxetine as adjunct therapy.\n\nGiven her stable clinical picture and preference for current management approach, we agreed to discharge from pain clinic follow-up. She will continue under oncology surveillance with option for re-referral if symptoms significantly worsen.",
+    "output": {
+      "primary_cancer": {
+        "site": "breast, left",
+        "year": 2019,
+        "metastases": "axillary and mediastinal lymph nodes, bone metastases, right temporal lobe metastasis",
+        "cancer_timeline": [
+          {
+            "type": "other_progress_or_event",
+            "value": "Initial breast cancer diagnosis and treatment",
+            "year": 2019
+          },
+          {
+            "type": "anatomical_finding",
+            "value": "Recurrence with left axillary and mediastinal nodes",
+            "year": 2021
+          },
+          {
+            "type": "treatment_radiotherapy",
+            "value": "Radiotherapy to axillary and mediastinal regions",
+            "year": 2021
+          },
+          {
+            "type": "anatomical_finding",
+            "value": "Development of bone metastases and solitary right temporal lobe metastasis",
+            "year": 2022
+          },
+          {
+            "type": "treatment_radiotherapy",
+            "value": "Stereotactic radiotherapy to temporal lobe metastasis with complete radiological response",
+            "year": 2022,
+            "month": 3
+          },
+          {
+            "type": "treatment_radiotherapy",
+            "value": "Completed axillary radiotherapy",
+            "year": 2022,
+            "month": 1
+          },
+          {
+            "type": "investigation_finding",
+            "value": "MRI thoracic outlet showed post-treatment changes only, no disease recurrence",
+            "year": 2023,
+            "month": 9
+          }
+        ]
+      },
+      "patient_facts": [
+        {
+          "type": "comorbidity",
+          "value": "Systemic lupus erythematosus"
+        },
+        {
+          "type": "comorbidity",
+          "value": "Previous mitral valve repair and automated implantable cardioverter-defibrillator in situ"
+        },
+        {
+          "type": "current_symptom",
+          "value": "Progressive swelling and burning pain in left arm, lymphedema extending from hand to upper arm"
+        },
+        {
+          "type": "current_symptom",
+          "value": "Intermittent paraesthesia and shooting pains, rated 7/10 at worst, improving to 4/10 with medication"
+        },
+        {
+          "type": "current_symptom",
+          "value": "Persistent numbness and reduced grip strength in left hand"
+        },
+        {
+          "type": "current_symptom",
+          "value": "Mild peripheral neuropathy in feet from previous chemotherapy"
+        },
+        {
+          "type": "examination_finding",
+          "value": "Moderate non-pitting edema extending from dorsum of hand to upper arm, tissue fibrosis in axillary region"
+        },
+        {
+          "type": "examination_finding",
+          "value": "Reduced power in left shoulder abduction (4/5) and elbow flexion (4+/5)"
+        }
+      ],
+      "status_updates": [
+        {
+          "type": "clinical_summary",
+          "value": "Breast cancer with treated metastatic disease, now in remission but with significant post-treatment complications including lymphedema and neuropathic pain syndrome. Current pain management providing partial symptom control."
+        },
+        {
+          "type": "update_to_treatment",
+          "value": "Continue current gabapentin regime with slow uptitration as tolerated"
+        },
+        {
+          "type": "planned_investigation",
+          "value": "Repeat MRI thoracic outlet and brain imaging for surveillance"
+        },
+        {
+          "type": "follow_up_referral",
+          "value": "Discharged from pain clinic with option for re-referral if symptoms significantly worsen"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,84 @@
+{
+  "content": "Diagnosis:\n\nMalignant melanoma right calf, pT3aN1M0\n\nSurgery 12 March 2024 - Wide local excision and sentinel lymph node biopsy\nHistology - Breslow thickness 2.8mm, no ulceration, microsatellite deposits present\nSentinel node positive (1/3) with 4mm deposit\n\nCompletion lymphadenectomy 28 March 2024 - 0/12 additional nodes\n\nMolecular profile - BRAF wild type, NF1 mutation detected\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nPrevious DVT 2020\n\nCurrent medications:\nMetformin 1g BD\nRamipril 5mg OD\nApixaban 5mg BD\n\nAllergies:\nPenicillin - severe rash\n\nCurrent situation:\nCycle 2 of adjuvant immunotherapy with nivolumab\n\nI was very pleased to review [redacted name] today who is managing remarkably well with immunotherapy treatment. She has shown great resilience in facing her diagnosis and maintaining a positive outlook. The surgical sites have healed excellently, and she reports good energy levels despite some initial fatigue with the immunotherapy. She experienced mild arthralgia after the first cycle which resolved spontaneously, and has developed a minor pruritic rash affecting her trunk which is well managed with E45 cream.\n\nOn examination today, there is no evidence of local recurrence or lymphadenopathy. The surgical sites remain well-healed. Her blood tests show stable liver function and thyroid function.\n\nWe had a detailed discussion about continuing immunotherapy. She understands the importance of reporting any new symptoms promptly, particularly those that might indicate immune-related adverse effects. She feels well supported by our melanoma nurse specialists and has been making good use of the emergency contact card.\n\nThe plan is to proceed with cycle 3 of nivolumab today. We will arrange CT chest/abdomen/pelvis prior to cycle 4, and thyroid function monitoring as per protocol. She will be reviewed again in clinic in 2 weeks with blood results.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right calf",
+      "year": 2024,
+      "month": 3,
+      "metastases": "positive sentinel lymph node with 4mm deposit",
+      "tnm_stage": "pT3aN1M0",
+      "histopathology_status": "Breslow thickness 2.8mm, no ulceration, microsatellite deposits present",
+      "biomarker_status": "BRAF wild type, NF1 mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy - 1/3 nodes positive with 4mm deposit",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Completion lymphadenectomy - 0/12 additional nodes",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Molecular testing confirms BRAF wild type, NF1 mutation detected",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant nivolumab immunotherapy",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Previous DVT 2020"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No evidence of local recurrence or lymphadenopathy, surgical sites well-healed"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable liver function and thyroid function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III melanoma post surgery, tolerating adjuvant nivolumab well with minor immune-related adverse events"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild arthralgia after first cycle resolved spontaneously, minor pruritic rash on trunk managed with E45 cream"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 3 nivolumab today"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis arranged prior to cycle 4, ongoing thyroid function monitoring"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 2 weeks with blood results"
+      }
+    ]
+  }
+}

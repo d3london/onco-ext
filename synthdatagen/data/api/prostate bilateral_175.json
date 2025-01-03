@@ -1,0 +1,94 @@
+{
+  "content": "Diagnosis\n\t1. Small cell carcinoma of prostate with widespread metastases\n\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNone indicated\n\n\tChemotherapy\n\t15 Jan 2024 - 20 Mar 2024: Carboplatin/Etoposide - 4 cycles completed\n\n\tClinical studies\n\tPhase II PROPEL study - randomised to Arm B (Lurbinectedin)\n\n\tCurrent disease status\n\tProgressive disease in liver and bone metastases\n\n\tCurrent issues\n\tFatigue, bone pain, reduced mobility\n\n\tSummary of consultation\n\tReviewed today on cycle 2 of trial medication. Unfortunately experiencing significant clinical deterioration with worsening bone pain requiring increased opiate analgesia. Latest CT shows 30% increase in liver metastases and new bone lesions in thoracic spine. Performance status now ECOG 2-3. Trial blood samples collected as per protocol. Chromogranin A increased from 125 to 280. PSA stable at 2.1.\n\n\tFurther investigations\n\tMRI spine booked for 25/4/24 due to new thoracic pain\n\n\tMedication prescribed\n\tOxycodone MR increased to 40mg BD\nPregabalin started 75mg BD\n\n\tFollow up\n\tNext trial visit in 2 weeks with CT assessment\nUrgent palliative care review arranged\n\n\tRequired actions\n\tTrial discontinuation to be discussed at next visit if further clinical deterioration\nPalliative radiotherapy to be considered pending MRI findings",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, bilateral",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver metastases, lung metastases, bone metastases",
+      "other_stage": "Stage IV",
+      "histopathology_status": "small cell carcinoma",
+      "biomarker_status": "Chromogranin A elevated, PSA 2.1",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Carboplatin/Etoposide chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 4 cycles of Carboplatin/Etoposide",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in Phase II PROPEL study - randomised to Arm B (Lurbinectedin)",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Chromogranin A increased from 125 to 280, PSA stable at 2.1",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 30% increase in liver metastases and new bone lesions in thoracic spine",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2-3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain requiring increased opiate analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New thoracic pain"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Reduced mobility"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic small cell prostate cancer with progressive disease on trial medication. Significant clinical deterioration with worsening symptoms."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with 30% increase in liver metastases and new bone lesions"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Currently on cycle 2 of trial medication (Lurbinectedin)"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deteriorating performance status now ECOG 2-3"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI spine booked for 25/4/24 due to new thoracic pain"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Next trial visit in 2 weeks with CT assessment, urgent palliative care review arranged"
+      }
+    ]
+  }
+}

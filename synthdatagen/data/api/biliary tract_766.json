@@ -1,0 +1,89 @@
+{
+  "content": "Diagnosis:\tIntrahepatic cholangiocarcinoma with peritoneal carcinomatosis\n\nManagement:\t2024-01-15 Started durvalumab/gemcitabine/cisplatin\n\t\t2024-02-12 Dose reduction cisplatin 75% due to tinnitus\n\nMolecular:\tIDH1 mutation positive, MSI-high\n\nCurrent Situation:\tPre-cycle 4 immunotherapy/chemotherapy\n\nI reviewed [redacted name] today in the hepatobiliary oncology clinic. She has completed 3 cycles of combination immunotherapy/chemotherapy with generally good tolerance apart from grade 2 tinnitus requiring cisplatin dose reduction. Her main symptoms of right upper quadrant discomfort and early satiety have improved significantly. Recent CT shows stable disease with no new peritoneal deposits and stable appearance of the primary lesion (6.2cm vs 6.3cm). Blood tests show stable liver function with albumin 38 g/L and bilirubin 15 μmol/L. CA19-9 has decreased from 1200 to 450 units/ml.\n\nPerformance status remains 1. She reports grade 1 fatigue and occasional nausea well controlled with prochlorperazine. The tinnitus has stabilized since dose reduction. No immune-related adverse events noted. She continues to work part-time and maintains good activity levels with daily walking.\n\nPlan is to proceed with cycle 4 today maintaining current doses. We will arrange CT reassessment after cycle 6. Next review in 3 weeks with blood tests including thyroid function.",
+  "output": {
+    "primary_cancer": {
+      "site": "intrahepatic biliary tract",
+      "year": 2024,
+      "metastases": "peritoneal carcinomatosis",
+      "other_stage": "Stage IVB",
+      "histopathology_status": "intrahepatic cholangiocarcinoma",
+      "biomarker_status": "IDH1 mutation positive, MSI-high",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started durvalumab/gemcitabine/cisplatin combination therapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cisplatin dose reduced to 75% due to tinnitus",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable disease - primary lesion 6.2cm vs 6.3cm, no new peritoneal deposits",
+          "year": 2024
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 decreased from 1200 to 450 units/ml",
+          "year": 2024
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Occasional nausea controlled with prochlorperazine"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Stable tinnitus"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable liver function with albumin 38 g/L and bilirubin 15 μmol/L"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Working part-time and maintains daily walking"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IVB cholangiocarcinoma on combination immunotherapy/chemotherapy. Stable disease on imaging with improving symptoms and tumor markers"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on CT with improving symptoms and falling CA19-9"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 tinnitus requiring cisplatin dose reduction, grade 1 fatigue"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 4 maintaining current doses including reduced cisplatin"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT reassessment after cycle 6, blood tests including thyroid function in 3 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks"
+      }
+    ]
+  }
+}

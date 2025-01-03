@@ -1,0 +1,86 @@
+{
+  "content": "Diagnosis:\tPapillary thyroid carcinoma, T2N1M0, NTRK fusion positive\n\nManagement:\t15 Jan 2024 Total thyroidectomy and central neck dissection\n\t\t02 Feb 2024 Commenced Larotrectinib 100mg BD\n\nHistology:\tClassical variant papillary thyroid carcinoma, 3.2cm primary tumor with extrathyroidal extension. 4/12 central compartment nodes positive. NTRK fusion detected on molecular analysis.\n\nCurrent Situation:\tTreatment review at 3 months of Larotrectinib\n\nI reviewed [redacted name] today who is making excellent progress on targeted therapy. The neck swelling from residual lymphadenopathy has significantly decreased, with the largest node now measuring 1.2cm compared to 2.8cm pre-treatment on ultrasound performed last week. She reports good energy levels and has returned to work part-time as a teacher. Her voice has continued to improve following surgery, though she still notices mild hoarseness with prolonged speaking.\n\nShe has experienced some mild side effects from the Larotrectinib, primarily grade 1 fatigue and occasional dizziness which typically occurs in the evening after the second dose. Her liver function tests show mild transaminitis (ALT 82, AST 65) which has been stable over the past month and does not require dose modification at present. TSH is well-controlled on Levothyroxine 150mcg daily.\n\nOn examination today, there is no palpable cervical lymphadenopathy. The surgical scar is well-healed with no concerning features. Latest thyroglobulin has decreased from 42 to 8.4 indicating good biochemical response.\n\nThe plan is to continue Larotrectinib at current dose with monthly blood tests for LFTs and thyroglobulin. We will arrange a progress CT neck/chest in 8 weeks' time. I will review her again in clinic in 4 weeks with blood results. She understands to contact us if side effects worsen or new symptoms develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 1,
+      "metastases": "central compartment cervical lymph nodes",
+      "tnm_stage": "T2N1M0",
+      "histopathology_status": "Classical variant papillary thyroid carcinoma, 3.2cm primary tumor with extrathyroidal extension",
+      "biomarker_status": "NTRK fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy and central neck dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "4/12 central compartment nodes positive. NTRK fusion detected on molecular analysis",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Larotrectinib 100mg BD",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Ultrasound shows largest node decreased to 1.2cm from 2.8cm pre-treatment",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Thyroglobulin decreased from 42 to 8.4 indicating good biochemical response",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild hoarseness with prolonged speaking"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No palpable cervical lymphadenopathy, well-healed surgical scar"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Mild transaminitis (ALT 82, AST 65) stable over past month"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Papillary thyroid cancer with nodal involvement showing good response to targeted therapy with Larotrectinib. Radiological and biochemical improvement with manageable toxicity"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Significant decrease in lymphadenopathy and thyroglobulin levels indicating good response"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and occasional dizziness, stable mild transaminitis"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Larotrectinib 100mg BD, no dose modification required"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Progress CT neck/chest in 8 weeks, monthly blood tests for LFTs and thyroglobulin"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 4 weeks with blood results"
+      }
+    ]
+  }
+}

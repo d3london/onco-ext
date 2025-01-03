@@ -1,0 +1,83 @@
+{
+  "content": "I reviewed [redacted name] today who is now halfway through concurrent chemoradiotherapy for locally advanced right upper lobe adenocarcinoma. The initial diagnosis was made in January 2024 following investigation of persistent cough and weight loss. Staging confirmed T3N2M0 disease with right hilar and mediastinal lymphadenopathy. Molecular testing demonstrated BRAF V600E mutation and PD-L1 expression of 40%.\n\nShe commenced concurrent chemoradiotherapy on 15 March 2024 with weekly carboplatin and planned radical radiotherapy dose of 60Gy in 30 fractions. She has completed 3 weeks of treatment thus far with acceptable toxicity. The main issues have been grade 2 radiation esophagitis requiring regular soluble paracetamol and grade 1 fatigue. Her performance status remains 1 and she continues to work part-time.\n\nOn examination today, there is reduced air entry in the right upper zone but no added sounds. The radiation skin changes are grade 1. Blood results show stable renal function and mild neutropenia (neutrophils 1.4) but adequate for continuing treatment.\n\nThe plan is to continue with concurrent chemoradiotherapy as scheduled. We will see her weekly during treatment with particular attention to esophagitis symptoms. Following completion of concurrent treatment, we plan to commence targeted therapy with Dabrafenib/Trametinib given the BRAF mutation status. CT assessment is booked for 4 weeks after completing radiotherapy. I have prescribed additional oral thrush prophylaxis today and provided written information about the planned targeted therapy.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right upper lobe",
+      "year": 2024,
+      "month": 1,
+      "metastases": "right hilar and mediastinal lymphadenopathy",
+      "tnm_stage": "T3N2M0",
+      "other_stage": "Stage IIIA",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "BRAF V600E mutation positive, PD-L1 40%",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial presentation with persistent cough and weight loss",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started concurrent chemoradiotherapy with weekly carboplatin",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Commenced radical radiotherapy 60Gy in 30 fractions",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 radiation esophagitis requiring regular soluble paracetamol"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry in right upper zone, no added sounds"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Grade 1 radiation skin changes"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Mild neutropenia (neutrophils 1.4)"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced right upper lobe adenocarcinoma undergoing concurrent chemoradiotherapy with acceptable toxicity"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 radiation esophagitis and grade 1 fatigue"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing concurrent chemoradiotherapy as planned"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT assessment booked for 4 weeks after completing radiotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review during ongoing treatment"
+      }
+    ]
+  }
+}

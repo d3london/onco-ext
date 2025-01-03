@@ -1,0 +1,102 @@
+{
+  "content": "Many thanks for referring [redacted name] for urgent review following recent disease progression. This 62-year-old gentleman was diagnosed with metastatic pancreatic adenosquamous carcinoma in January 2024, initially presenting with obstructive jaundice. Initial staging demonstrated a 4.8cm pancreatic head mass with multiple liver metastases, peritoneal deposits, and three sub-centimeter lung nodules. Molecular profiling revealed TP53 mutation and SMAD4 loss. He underwent ERCP and metal stent insertion on 15/1/24 with good resolution of biliary obstruction.\n\nHe commenced modified FOLFIRINOX chemotherapy on 29/1/24 and completed 4 cycles with reasonable tolerance, though requiring 20% dose reduction from cycle 3 due to grade 2 neutropenia and fatigue. Initial CT assessment on 15/3/24 showed stable disease. However, he then developed significant deterioration with increasing abdominal pain and early satiety. Urgent CT performed on 10/4/24 unfortunately showed clear disease progression with 30% increase in pancreatic primary (now 6.2cm), new and enlarging liver metastases, and moderate volume ascites. His CA19-9 has risen from 1200 to 4500.\n\nHe has experienced significant clinical deterioration over the past 3 weeks with increasing fatigue, anorexia, and abdominal pain requiring escalation of opioid analgesia. His performance status has declined from ECOG 1 to ECOG 3. Current symptoms include continuous right upper quadrant and epigastric pain requiring oxycodone 40mg BD, early satiety, and peripheral edema. His weight has dropped by 4kg in the last month despite nutritional supplements.\n\nGiven his marked clinical deterioration and clear radiological progression, we have had a detailed discussion today about moving to best supportive care. While second-line treatment options exist, his current performance status would make these very high risk. [redacted name] and his family understand this situation and agree with focusing on symptom control. I have commenced dexamethasone 4mg BD and arranged urgent referral to the specialist palliative care team. We have also arranged ascitic drainage for symptom relief.\n\nI have provided emergency contact details and arranged weekly palliative care review. The acute oncology team are aware and will provide additional support as needed. I will review him again next week in the supportive care clinic to ensure adequate symptom control.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas, head",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple liver metastases, peritoneal deposits, sub-centimeter lung nodules",
+      "other_stage": "Stage IV",
+      "histopathology_status": "adenosquamous carcinoma",
+      "biomarker_status": "TP53 mutation and SMAD4 loss",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Initial presentation with 4.8cm pancreatic head mass with multiple liver metastases, peritoneal deposits, and three sub-centimeter lung nodules",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "ERCP and metal stent insertion with good resolution of biliary obstruction",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced modified FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "20% dose reduction from cycle 3 due to grade 2 neutropenia and fatigue",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT assessment showed stable disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 risen from 1200 to 4500",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showed disease progression with 30% increase in pancreatic primary (now 6.2cm), new and enlarging liver metastases, and moderate volume ascites",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Declined from ECOG 1 to ECOG 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Continuous right upper quadrant and epigastric pain requiring oxycodone 40mg BD"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety and peripheral edema"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight dropped by 4kg in the last month despite nutritional supplements"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic adenosquamous carcinoma with rapid clinical deterioration and radiological progression after initial stable disease on FOLFIRINOX"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Clear disease progression on CT with 30% increase in primary tumor size and new metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Transition to best supportive care with dexamethasone 4mg BD commenced"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant clinical deterioration with performance status decline from ECOG 1 to 3"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Arranged ascitic drainage for symptom relief"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to specialist palliative care team with weekly review, follow up in supportive care clinic next week"
+      }
+    ]
+  }
+}

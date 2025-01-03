@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\tAscending colon adenocarcinoma\n\nManagement:\t15 Jan 2024 Right hemicolectomy\n\nHistology:\tpT3N0M0 conventional adenocarcinoma, MMR proficient, PIK3CA H1047R mutation detected\n\nCurrent Situation:\tPost-operative surveillance\n\nI reviewed [redacted name] in the colorectal oncology clinic today. She has made an excellent recovery following her right hemicolectomy in January. Her wound has healed well and bowel function has normalized. She reports good energy levels and has returned to her usual activities. Her weight is stable at 68kg.\n\nHer latest CT scan from 15/4/24 shows no evidence of recurrent disease. Blood tests including CEA are within normal range. Given her stage IIA disease with high-risk features (T3, MMR proficient status), we have discussed surveillance plans. She will continue with 3-monthly CEA measurements and 6-monthly CT scans for the first two years.\n\nPlan is to review her again in 3 months with repeat CEA measurement. CT scan will be arranged for October 2024.",
+  "output": {
+    "primary_cancer": {
+      "site": "ascending colon",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT3N0M0",
+      "other_stage": "Stage IIA",
+      "histopathology_status": "conventional adenocarcinoma",
+      "biomarker_status": "MMR proficient, PIK3CA H1047R mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right hemicolectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of recurrent disease",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA within normal range",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "quality_of_life_finding",
+        "value": "Returned to usual activities"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well healed surgical wound"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT scan 15/4/24 shows no evidence of recurrent disease"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIA ascending colon cancer post right hemicolectomy. Excellent post-operative recovery with no evidence of recurrence on surveillance imaging."
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Good recovery with return to usual activities and stable weight at 68kg"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CEA measurement in 3 months, CT scan in October 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 months"
+      }
+    ]
+  }
+}

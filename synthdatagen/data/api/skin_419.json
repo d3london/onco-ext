@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\nCutaneous squamous cell carcinoma right temple\nT2N0M0, Stage II\nPD-L1 CPS 25\n\nPrevious treatment:\nWide local excision March 2024\nPost-operative radiotherapy 50Gy in 20 fractions completed May 2024\n\nCurrent medications:\nNone cancer-related\n\nAllergies:\nNo known drug allergies\n\nCurrent situation:\nPost-treatment review\n\nI reviewed [redacted name] today following completion of adjuvant radiotherapy. The surgical site has healed well with minimal scarring. She reports no ongoing pain or sensitivity at the treatment site. Her energy levels have returned to normal following radiotherapy completion. Performance status remains 0.\n\nThe most recent CT neck performed on 15 June 2024 shows no evidence of regional recurrence or distant metastases. Blood tests including renal function are satisfactory.\n\nPlan is for ongoing surveillance with 3-monthly clinical reviews for the first year. I have provided written information about sun protection and skin self-examination. Next appointment arranged for September 2024 with repeat CT neck prior to review.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right temple",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "T2N0M0",
+      "other_stage": "Stage II",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "PD-L1 CPS 25",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Post-operative radiotherapy 50Gy in 20 fractions completed",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT neck shows no evidence of regional recurrence or distant metastases",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood tests including renal function satisfactory"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage II cutaneous SCC treated with surgery and adjuvant radiotherapy. Post-treatment review shows good recovery with no evidence of recurrence"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Surgical site healed well with minimal scarring, no ongoing pain or sensitivity"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Energy levels returned to normal following radiotherapy completion"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT neck prior to next review"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "3-monthly clinical reviews for the first year, next appointment September 2024"
+      }
+    ]
+  }
+}

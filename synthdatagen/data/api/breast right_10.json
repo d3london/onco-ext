@@ -1,0 +1,115 @@
+{
+  "content": "Diagnosis:\n\nMetastatic right breast cancer with liver, bone and brain metastases\nInitial diagnosis March 2023 - Grade 2 invasive lobular carcinoma, ER 7/8, PR 2/8, HER2 positive\n\nPrevious Cancer History:\nLeft breast DCIS 2015 - treated with mastectomy, disease-free\n\nPrevious medical history:\nHypertension\nType 2 diabetes\nOsteoarthritis\n\nCurrent medications:\nPertuzumab/Trastuzumab/Docetaxel\nDexamethasone\nAprepitant\nOndansetron\nLevetiracetam 750mg BD\nDexamethasone 4mg BD\n\nCurrent situation:\nCycle 4 of 6 planned cycles pertuzumab/trastuzumab/docetaxel\n\nI was very concerned to see [redacted name] today who has unfortunately experienced significant clinical deterioration since our last review. She attended with her daughter who reports increasing confusion and unsteady gait over the past week. Her performance status has declined from 1 to 3, now spending most of the day in bed or chair.\n\nShe has developed grade 3 peripheral neuropathy affecting both feet, making walking very difficult. She also describes worsening bone pain despite recent palliative radiotherapy to T4-T6 (20Gy in 5 fractions completed 15/4/24). Her liver function tests show progressive derangement with ALT 156 and ALP 345.\n\nMRI brain performed yesterday shows progression of known cerebral metastases with increasing perilesional edema, explaining her neurological deterioration. CT chest/abdomen/pelvis shows mixed response - partial response in liver metastases but new bone lesions in pelvis and thoracic spine.\n\nAfter careful discussion with [redacted name] and her daughter, we have decided to discontinue docetaxel due to cumulative neurotoxicity. We will continue HER2-directed therapy with pertuzumab/trastuzumab alone. I have increased her dexamethasone to 8mg BD for symptom control and referred urgently to the palliative care team for enhanced support at home. She will need urgent repeat MRI brain in 2 weeks to assess if further whole brain radiotherapy is indicated.\n\nPlan:\n1. Discontinue docetaxel\n2. Continue pertuzumab/trastuzumab\n3. Increase dexamethasone to 8mg BD\n4. Urgent palliative care review\n5. MRI brain in 2 weeks\n6. Review in combined oncology/palliative care clinic next week",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2023,
+      "month": 3,
+      "metastases": "liver, bone, and brain metastases",
+      "other_stage": "Stage IV",
+      "histopathology_status": "Grade 2 invasive lobular carcinoma",
+      "biomarker_status": "ER 7/8, PR 2/8, HER2 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T4-T6 (20Gy in 5 fractions)",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on pertuzumab/trastuzumab/docetaxel combination therapy",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows progression of cerebral metastases with increasing perilesional edema",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows mixed response - partial response in liver metastases but new bone lesions in pelvis and thoracic spine",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing docetaxel due to cumulative neurotoxicity, continuing pertuzumab/trastuzumab alone",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [
+      {
+        "site": "breast, left",
+        "year": 2015,
+        "month": null,
+        "histopathology_status": "DCIS",
+        "latest_situation": "treated with mastectomy, disease-free"
+      }
+    ],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 3, spending most of day in bed or chair"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Osteoarthritis"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing confusion and unsteady gait"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Liver function derangement with ALT 156 and ALP 345"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic breast cancer with progressive brain metastases and mixed response elsewhere. Significant clinical deterioration with neurological symptoms and treatment toxicity"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Mixed response - partial response in liver metastases but progression in brain and new bone lesions"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 peripheral neuropathy affecting both feet from docetaxel"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing docetaxel, continuing pertuzumab/trastuzumab alone. Increased dexamethasone to 8mg BD"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status from 1 to 3, new confusion and unsteady gait"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI brain in 2 weeks to assess if further whole brain radiotherapy indicated"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in combined oncology/palliative care clinic next week"
+      }
+    ]
+  }
+}

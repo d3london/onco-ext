@@ -1,0 +1,93 @@
+{
+  "content": "Diagnosis\n\t1. Sigmoid adenocarcinoma with liver metastases\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Diagnostic colonoscopy and biopsy\n\tChemotherapy\n\t1 Feb - 15 Mar 2024: FOLFOX/Trastuzumab\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tProgressive disease in liver\n\n\tCurrent issues\n\tDeterioration in liver function\nWorsening fatigue\nWeight loss\n\n\tSummary of consultation\n\tCase discussed at Colorectal MDT today. 52-year-old patient with ERBB2-amplified mucinous adenocarcinoma of sigmoid colon with multiple liver metastases. Initial presentation with change in bowel habit and weight loss. Colonoscopy showed circumferential sigmoid mass. Staging CT demonstrated multiple bilobar liver metastases, largest 6.8cm in segment 7.\n\nInitial treatment with FOLFOX/Trastuzumab commenced February 2024. Recent CT shows progression in liver metastases with 30% increase in target lesions and development of new lesions. Deteriorating liver function with bilirubin rising to 45, ALT 156.\n\nPerformance status has declined from ECOG 1 to ECOG 2 due to fatigue and right upper quadrant discomfort. Weight loss of 6kg over 8 weeks despite dietetic support.\n\n\tMDT recommendations\n\t1. Switch to second-line FOLFIRI/Trastuzumab\n\t2. Urgent referral to palliative care team for symptom management\n\t3. Consider dose reduction based on liver function\n\n\tFurther investigations\n\tRepeat LFTs in 1 week\nCT assessment after 3 cycles\n\n\tMedication prescribed\n\tDexamethasone 4mg bd for 5 days\n\n\tFollow up\n\tUrgent oncology review next week for treatment change\n\n\tRequired GP actions\n\tPlease monitor LFTs weekly\nReferral to district nurses requested",
+  "output": {
+    "primary_cancer": {
+      "site": "sigmoid colon",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple bilobar liver metastases",
+      "histopathology_status": "mucinous adenocarcinoma",
+      "biomarker_status": "ERBB2-amplified, RAS wild-type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Diagnostic colonoscopy and biopsy showing circumferential sigmoid mass",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing multiple bilobar liver metastases, largest 6.8cm in segment 7",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFOX/Trastuzumab",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with 30% increase in liver metastases and new lesions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Deteriorating liver function with bilirubin 45, ALT 156",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2 deteriorated from ECOG 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant discomfort"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight loss of 6kg over 8 weeks despite dietetic support"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45, ALT 156"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "ERBB2-amplified sigmoid adenocarcinoma with liver metastases showing disease progression on first-line therapy with declining performance status and liver function"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with 30% increase in liver metastases and new lesions"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to switch to second-line FOLFIRI/Trastuzumab with possible dose reduction based on liver function"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration from ECOG PS 1 to 2 with significant weight loss"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat LFTs in 1 week and CT assessment after 3 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent oncology review next week and referral to palliative care team"
+      }
+    ]
+  }
+}

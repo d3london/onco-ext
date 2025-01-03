@@ -1,0 +1,71 @@
+{
+  "content": "Diagnosis:\t\tVulvar adenocarcinoma\n\nStage:\t\tT1bN1M0 with right inguinal nodal involvement\n\nManagement:\t\t12 Feb 2024 Right radical vulvectomy and bilateral inguinal node dissection\n\t\t\t15 Mar 2024 Commenced adjuvant chemoradiation\n\nCurrent situation:\tWeek 4 of concurrent cisplatin-radiation therapy\n\n[redacted name] is tolerating treatment relatively well with grade 1 radiation dermatitis affecting the vulvar and inguinal regions. She reports mild fatigue but maintains good oral intake and regular walking. Performance status remains 0. Blood results show stable renal function and acceptable haematological parameters for cycle 2 cisplatin next week. Examination shows expected radiation changes but no concerning features.\n\nThe plan is to proceed with cycle 2 cisplatin on 15/4/24 and continue radiation as planned. We will review again in 2 weeks with blood tests.",
+  "output": {
+    "primary_cancer": {
+      "site": "vulva",
+      "year": 2024,
+      "month": 2,
+      "metastases": "right inguinal nodal involvement",
+      "tnm_stage": "T1bN1M0",
+      "histopathology_status": "adenocarcinoma",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right radical vulvectomy and bilateral inguinal node dissection",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant chemoradiation with cisplatin",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "grade 1 radiation dermatitis affecting the vulvar and inguinal regions"
+      },
+      {
+        "type": "current_symptom",
+        "value": "mild fatigue"
+      },
+      {
+        "type": "examination_finding",
+        "value": "expected radiation changes but no concerning features"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "stable renal function and acceptable haematological parameters"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Vulvar adenocarcinoma with nodal involvement receiving adjuvant chemoradiation. Tolerating treatment well with minimal side effects"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "grade 1 radiation dermatitis affecting the vulvar and inguinal regions"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "continuing with planned chemoradiation, proceeding to cycle 2 cisplatin"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "blood tests in 2 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "review in clinic in 2 weeks"
+      }
+    ]
+  }
+}

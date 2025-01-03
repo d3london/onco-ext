@@ -1,0 +1,87 @@
+{
+  "content": "Diagnosis:\tTranslocation renal cell carcinoma, right kidney upper pole, T2bN1M0 (Stage III), ALK rearrangement positive?\n\nInitial surgery 15 March 2024 - right radical nephrectomy with lymph node dissection showing 8.5cm upper pole mass with 2/15 positive hilar nodes. Histology confirmed translocation RCC (t-RCC) with ALK rearrangement.?\n?\n[redacted name] is attending today for review during cycle 3 of adjuvant pembrolizumab. She has tolerated the first two cycles reasonably well with grade 1 fatigue and occasional arthralgia responding to simple analgesia. Her main ongoing challenge is mild thyroiditis requiring thyroxine replacement, which was initiated two weeks ago following TSH elevation to 8.2 with normal T4.?\n?\nCurrent medications include levothyroxine 50mcg daily and paracetamol as required. She maintains excellent performance status (WHO PS 0) and continues her usual work as an accountant. Recent blood tests show stable renal function with creatinine 110, normal liver function, and TSH trending down to 5.1 on replacement.?\n?\nOn examination today, her surgical wounds are well healed with no concerning features. Cardiorespiratory examination is normal and there is no lymphadenopathy. Her latest CT chest/abdomen/pelvis from 10 April 2024 shows post-surgical changes but no evidence of disease recurrence.?\n?\nThe plan is to continue with cycle 3 pembrolizumab today. We will check thyroid function again in 2 weeks and adjust levothyroxine if needed. She will have routine CT imaging after cycle 4. I have provided written information about managing immune-related adverse events and she understands to contact us if new symptoms develop. We will review her again before cycle 4 in three weeks' time.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right upper pole",
+      "year": 2024,
+      "month": 3,
+      "metastases": "2/15 positive hilar nodes",
+      "tnm_stage": "T2bN1M0",
+      "other_stage": "Stage III",
+      "histopathology_status": "translocation renal cell carcinoma (t-RCC)",
+      "biomarker_status": "ALK rearrangement positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "right radical nephrectomy with lymph node dissection showing 8.5cm upper pole mass with 2/15 positive hilar nodes",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirmed translocation RCC (t-RCC) with ALK rearrangement",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant pembrolizumab",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Started levothyroxine for pembrolizumab-induced thyroiditis",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis shows post-surgical changes but no evidence of disease recurrence",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "WHO PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "grade 1 fatigue and occasional arthralgia responding to simple analgesia"
+      },
+      {
+        "type": "examination_finding",
+        "value": "surgical wounds well healed, normal cardiorespiratory examination, no lymphadenopathy"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "stable renal function with creatinine 110, normal liver function, TSH trending down to 5.1 on replacement"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III ALK-positive translocation renal cell carcinoma post nephrectomy, currently receiving adjuvant pembrolizumab with good tolerance aside from managed thyroiditis"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue, arthralgia, and thyroiditis requiring thyroxine replacement"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with cycle 3 pembrolizumab, maintaining full dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Thyroid function check in 2 weeks and CT imaging after cycle 4"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review before cycle 4 in three weeks"
+      }
+    ]
+  }
+}

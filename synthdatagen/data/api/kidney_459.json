@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis:\t\tClear cell renal cell carcinoma\n\nManagement:\t\tLeft partial nephrectomy 15 Jan 2024\n\nHistology:\t\tpT2N0M0 clear cell renal cell carcinoma, Grade 2, VHL mutation positive\n\nCurrent Situation:\tPost-operative surveillance\n\n[redacted name] attended for routine follow-up today following his partial nephrectomy. He has made an excellent recovery from surgery with complete wound healing and no complications. His post-operative pain has fully resolved and he has returned to his usual activities. Recent blood tests show stable renal function with creatinine 98 umol/L. CT scan performed on 12 April 2024 shows expected post-surgical changes in the left kidney with no evidence of disease recurrence. The right kidney appears normal. No concerning features on clinical examination today. He remains well with stable weight and good appetite. The plan is to continue surveillance with repeat CT in 6 months and clinical review thereafter. Blood tests including renal function to be checked prior to next appointment.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, left",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "pT2N0M0",
+      "other_stage": "Stage II",
+      "histopathology_status": "Clear cell renal cell carcinoma, Grade 2",
+      "biomarker_status": "VHL mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Left partial nephrectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows expected post-surgical changes in left kidney with no evidence of disease recurrence",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Stable renal function with creatinine 98 umol/L",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "No concerning features on clinical examination"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Returned to usual activities"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage II clear cell renal cell carcinoma treated with partial nephrectomy. Excellent post-operative recovery with no evidence of recurrence on first surveillance scan."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Complete recovery from surgery with no complications"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat CT scan in 6 months with blood tests including renal function"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review after CT scan"
+      }
+    ]
+  }
+}

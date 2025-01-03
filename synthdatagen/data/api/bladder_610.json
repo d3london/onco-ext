@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis:\t\tBladder adenocarcinoma T3bN1M0\n\nManagement:\t\t12 Jan 2024 Radical cystectomy with pelvic lymph node dissection\n\t\t\t15 Feb 2024 Commenced adjuvant pembrolizumab\n\nHistology:\t\tModerately differentiated adenocarcinoma, MSI-high/dMMR positive\n\t\t\t3/15 pelvic nodes positive\n\t\t\tStage pT3bN1M0\n\nCurrent Situation:\tPre-cycle 4 pembrolizumab\n\nI reviewed [redacted name] today prior to cycle 4 of adjuvant pembrolizumab. Treatment has been well tolerated with only grade 1 fatigue which is improving. Recent CT shows no evidence of disease recurrence. Blood tests are satisfactory for proceeding with treatment. Performance status remains 0.\n\nThe plan is to continue with cycle 4 today and arrange follow-up CT in 3 months. Will review again before cycle 5 in 3 weeks.",
+  "output": {
+    "primary_cancer": {
+      "site": "bladder",
+      "year": 2024,
+      "month": 1,
+      "metastases": "3/15 pelvic nodes positive",
+      "tnm_stage": "pT3bN1M0",
+      "histopathology_status": "moderately differentiated adenocarcinoma",
+      "biomarker_status": "MSI-high/dMMR positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Radical cystectomy with pelvic lymph node dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant pembrolizumab",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows no evidence of disease recurrence",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue which is improving"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Post-operative bladder cancer on adjuvant immunotherapy. Good treatment tolerance with no evidence of recurrence"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue improving"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with cycle 4 pembrolizumab"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review before cycle 5 in 3 weeks"
+      }
+    ]
+  }
+}

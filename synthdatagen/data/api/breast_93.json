@@ -1,0 +1,80 @@
+{
+  "content": "Diagnosis:\t\tMetastatic claudin-low triple negative breast cancer\n\nStage:\t\tT4N2M1, with liver and bone metastases\n\nBiomarkers:\tPD-L1 positive (CPS 80), LAG3 positive, TILs 90%\n\nTreatment:\t\tCycle 1-4 Carboplatin/Gemcitabine Mar-May 2024\n\t\tPembrolizumab commenced March 2024\n\nCurrent Status:\tClinical and radiological progression\n\n[redacted name] has unfortunately shown disease progression following 4 cycles of chemotherapy with immunotherapy. CT 12/6/24 shows new liver lesions with largest measuring 4.2cm (previously 2.8cm) and progression in bone metastases with new T4 vertebral body involvement. Performance status has declined to ECOG 3, with increasing liver pain requiring opioid escalation and new onset confusion. LFTs show rising pattern with bilirubin now 42. Given rapid progression and declining performance status, we have discussed transition to best supportive care. I have made urgent referral to palliative care team and arranged admission for symptom control. We will discontinue systemic anti-cancer therapy. Family are fully aware of situation and prognosis discussed sensitively.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast",
+      "year": 2024,
+      "month": 3,
+      "metastases": "liver and bone metastases, T4 vertebral involvement",
+      "tnm_stage": "T4N2M1",
+      "histopathology_status": "claudin-low triple negative breast cancer",
+      "biomarker_status": "PD-L1 positive (CPS 80), LAG3 positive, TILs 90%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on Carboplatin/Gemcitabine with Pembrolizumab",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression in liver metastases (largest 4.2cm from 2.8cm) and new T4 vertebral metastases",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Rising LFTs with bilirubin 42",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing all systemic anti-cancer therapy due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing liver pain requiring opioid escalation"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset confusion"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Rising liver function tests with bilirubin 42"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic triple negative breast cancer with rapid progression through first-line therapy. Clinical deterioration with liver progression and declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease in liver and bones on CT imaging"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing all systemic anti-cancer therapy"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG 3 with new confusion and increasing pain"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and arranged admission for symptom control"
+      }
+    ]
+  }
+}

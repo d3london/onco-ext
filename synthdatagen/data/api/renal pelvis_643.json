@@ -1,0 +1,74 @@
+{
+  "content": "I reviewed [redacted name] today following completion of adjuvant gemcitabine chemotherapy for his stage I papillary urothelial carcinoma of the right renal pelvis. He underwent right nephroureterectomy on March 15th 2024 which showed a pT1 high-grade tumor with TERT mutation detected on molecular analysis. No lymphovascular invasion was identified and margins were clear.\n\nHe has completed 3 cycles of single-agent gemcitabine given the relatively early stage disease but high-grade pathology. Treatment has been well-tolerated with only grade 1 fatigue and occasional nausea well-controlled with standard antiemetics. His renal function has remained stable throughout treatment with latest creatinine 98 umol/L. Performance status remains excellent at ECOG 0.\n\nSurveillance CT chest/abdomen/pelvis performed last week shows no evidence of disease recurrence. Cystoscopy by the urology team was also normal. Given completion of planned adjuvant therapy and satisfactory disease status, we will now move to standard surveillance protocol with 3-monthly clinical reviews alternating between oncology and urology teams. Next oncology review will be in 3 months with repeat imaging.",
+  "output": {
+    "primary_cancer": {
+      "site": "renal pelvis, right",
+      "year": 2024,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT1",
+      "other_stage": "Stage I",
+      "histopathology_status": "high-grade papillary urothelial carcinoma",
+      "biomarker_status": "TERT mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "right nephroureterectomy showing pT1 high-grade tumor, no lymphovascular invasion, clear margins",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant single-agent gemcitabine",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 3 cycles of adjuvant gemcitabine",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Surveillance CT chest/abdomen/pelvis shows no evidence of disease recurrence",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 0"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "creatinine 98 umol/L"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "normal cystoscopy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage I renal pelvis cancer post-surgery. Completed planned adjuvant chemotherapy with good tolerance and no evidence of recurrence"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "grade 1 fatigue and occasional nausea controlled with antiemetics"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "completed planned course of adjuvant gemcitabine"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "3-monthly reviews alternating between oncology and urology teams"
+      }
+    ]
+  }
+}

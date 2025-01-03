@@ -1,0 +1,77 @@
+{
+  "content": "Diagnosis:\t\tLocally advanced right lung cancer with malignant pleural effusion\n\nStage:\t\tT4N2M0\n\nBiomarkers:\tPD-L1 70%\n\nTreatment:\tCycle 3 pembrolizumab-carboplatin-pemetrexed\n\nCurrent situation:\tPre-cycle 4 review\n\n[redacted name] has attended for review prior to cycle 4 chemotherapy. Unfortunately, there has been clinical deterioration since last review with worsening breathlessness and increasing oxygen requirements. Performance status has declined to ECOG 2-3. CT performed on 15/4/24 shows increase in right pleural effusion with compression collapse of right lower lobe, though stable mediastinal nodes.\n\nUrgent pleural aspiration was performed yesterday removing 1.2L fluid with symptomatic improvement. Blood results show rising inflammatory markers with CRP 156, though other parameters remain adequate for treatment. Given clinical deterioration and radiological progression, we will discontinue current systemic therapy. I have arranged urgent palliative care review and pleural team assessment for consideration of indwelling pleural catheter. Will review in 2 weeks with repeat imaging.",
+  "output": {
+    "primary_cancer": {
+      "site": "right lung",
+      "tnm_stage": "T4N2M0",
+      "biomarker_status": "PD-L1 70%",
+      "metastases": "malignant pleural effusion",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on pembrolizumab-carboplatin-pemetrexed combination therapy",
+          "month": 4,
+          "year": 2024
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows increase in right pleural effusion with compression collapse of right lower lobe, stable mediastinal nodes",
+          "month": 4,
+          "year": 2024
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing systemic therapy due to clinical deterioration and radiological progression",
+          "month": 4,
+          "year": 2024
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Urgent pleural aspiration removing 1.2L fluid",
+          "month": 4,
+          "year": 2024
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2-3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening breathlessness with increasing oxygen requirements"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Rising inflammatory markers with CRP 156"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced lung cancer with malignant pleural effusion showing disease progression. Clinical deterioration with worsening respiratory symptoms requiring cessation of systemic therapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with increasing pleural effusion on CT"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing pembrolizumab-carboplatin-pemetrexed due to disease progression"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status to ECOG 2-3"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review and pleural team assessment arranged"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Review in 2 weeks with repeat imaging"
+      }
+    ]
+  }
+}

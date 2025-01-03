@@ -1,0 +1,78 @@
+{
+  "content": "Diagnosis:\tPancreatic somatostatinoma\n\nManagement:\tWhipple's procedure 15 Jan 2024\n\nHistology:\tWell-differentiated somatostatinoma, T4N1M0, R0 resection achieved\n\nCurrent Situation:\tEnd of adjuvant chemotherapy review\n\nI reviewed [redacted name] following completion of 6 cycles of adjuvant gemcitabine chemotherapy. The treatment has been well tolerated with only grade 1 fatigue and minimal nausea. Somatostatin levels have normalized from the pre-operative value of >50x ULN to now being within normal range. Latest CT imaging on 15/5/24 shows no evidence of recurrent or metastatic disease. Performance status remains excellent at PS0.\n\nThe plan is to move to 3-monthly surveillance with alternating CT imaging and MRI pancreas protocol. Somatostatin levels will be checked at each visit. First follow-up arranged for August 2024 with CT chest/abdomen/pelvis. I have provided written information about surveillance protocol and symptoms that should prompt earlier review. [redacted name] has been referred to our survivorship program for ongoing support.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "month": 1,
+      "metastases": "none",
+      "tnm_stage": "T4N1M0",
+      "histopathology_status": "well-differentiated somatostatinoma, R0 resection",
+      "biomarker_status": "somatostatin >50x ULN at diagnosis, now normalized",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure with R0 resection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant gemcitabine chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Somatostatin levels normalized to within normal range",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows no evidence of recurrent or metastatic disease",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles of adjuvant gemcitabine",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "grade 1 fatigue and minimal nausea"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Pancreatic somatostatinoma successfully resected followed by completed course of adjuvant chemotherapy. No evidence of recurrence and normalized biomarkers."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "grade 1 fatigue and minimal nausea during chemotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Completed planned 6 cycles of adjuvant gemcitabine chemotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in August 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "3-monthly surveillance with alternating CT and MRI pancreas protocol"
+      }
+    ]
+  }
+}

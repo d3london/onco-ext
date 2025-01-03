@@ -1,0 +1,102 @@
+{
+  "content": "Diagnosis:\t\tSarcomatoid pleural mesothelioma\n\nBackground:\t\tInitial diagnosis via right VATS pleural biopsy March 2022\nSept 22: Staging PET-CT demonstrates multifocal pleural disease with chest wall invasion\nDec 22: Repeat biopsy confirms sarcomatoid subtype with desmoplastic features\n\nComorbidities:\t1) Type 2 diabetes - diet controlled\n2) Essential hypertension - stable on ramipril\n3) Previous DVT 2020 - completed 6 months anticoagulation\n4) Chronic kidney disease stage 3A\n\nManagement:\tFirst-line carboplatin/pemetrexed initiated January 2023\nCT assessment April 2023 showed partial response\nCompleted 6 cycles July 2023 with stable disease\nSurveillance CT October 2023 demonstrated new right paravertebral mass\nDecember 2023 imaging confirms progression with T8 vertebral body involvement\n\nCurrent Status:\tBeing evaluated for METEOR-2 phase II trial\n\n[redacted name] attended clinic today following recent imaging which demonstrates enlargement of the right paravertebral mass with evidence of T8 vertebral body infiltration. He reports gradually worsening right-sided back pain, currently rated 4/10 and requiring regular paracetamol, though remains ambulatory without any concerning neurological symptoms.\n\nI have discussed his case with Dr [redacted name] regarding potential eligibility for the METEOR-2 trial of dual checkpoint inhibition. While awaiting confirmation of trial screening, we are also planning for potential second-line vinorelbine if trial participation is not possible.\n\nWe have arranged to review him in clinic in 3 weeks? time with trial screening outcome. If trial participation is not feasible, we will proceed with chemotherapy initiation at that visit.",
+  "output": {
+    "primary_cancer": {
+      "site": "pleura, right",
+      "year": 2022,
+      "month": 3,
+      "histopathology_status": "mesothelioma, sarcomatoid subtype with desmoplastic features",
+      "metastases": "chest wall invasion, right paravertebral mass, T8 vertebral involvement",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Initial diagnosis via right VATS pleural biopsy",
+          "year": 2022,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "PET-CT demonstrates multifocal pleural disease with chest wall invasion",
+          "year": 2022,
+          "month": 9
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Repeat biopsy confirms sarcomatoid subtype with desmoplastic features",
+          "year": 2022,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "First-line carboplatin/pemetrexed initiated",
+          "year": 2023,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT assessment showed partial response",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles with stable disease",
+          "year": 2023,
+          "month": 7
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Surveillance CT demonstrated new right paravertebral mass",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Imaging confirms progression with T8 vertebral body involvement",
+          "year": 2023,
+          "month": 12
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes - diet controlled"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Essential hypertension - stable on ramipril"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Previous DVT 2020 - completed 6 months anticoagulation"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Chronic kidney disease stage 3A"
+      },
+      {
+        "type": "current_symptom",
+        "value": "gradually worsening right-sided back pain, rated 4/10, requiring regular paracetamol"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Sarcomatoid mesothelioma progressing after first-line chemotherapy with new vertebral involvement, currently being evaluated for second-line clinical trial versus conventional chemotherapy."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with enlargement of right paravertebral mass and T8 vertebral body infiltration"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Being evaluated for METEOR-2 trial of dual checkpoint inhibition, with vinorelbine as backup option"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 weeks with trial screening outcome"
+      }
+    ]
+  }
+}

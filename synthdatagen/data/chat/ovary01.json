@@ -1,0 +1,139 @@
+{
+    "content": "Diagnosis\n\t1. High grade serous ovarian carcinoma, stage IIIC\n\t   Initially diagnosed September 2021\n\t   BRCA1 mutation positive\n\t   Currently on 4th line therapy\n\n\t2. Previous right breast cancer - 2015\n\t   Grade 2 invasive ductal carcinoma, T1N0M0\n\t   Disease free after mastectomy and tamoxifen\n\n\t3. Previous melanoma right calf - 2018\n\t   Stage IB, now disease free\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t09/2021 Primary debulking surgery - total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy\n\t03/2022 Secondary debulking for isolated pelvic recurrence\n\n\tChemotherapy\n\t10/2021 - 03/2022 Carboplatin/Paclitaxel first line\n\t05/2022 - 08/2022 Carboplatin/Gemcitabine second line\n\t09/2022 - 12/2022 Olaparib maintenance\n\t01/2023 - 04/2023 Weekly Paclitaxel third line\n\t05/2023 - present Caelyx fourth line\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tProgressive disease with new peritoneal and hepatic metastases\n\n\tCurrent issues\n\tAscites requiring drainage\nFatigue\nPoor appetite\nNeuropathy\n\n\tSummary of consultation\n\tI reviewed [redacted name] today who attended with her daughter. Unfortunately, her most recent CT scan from 15/05/2024 shows clear evidence of disease progression with new peritoneal deposits and the development of three new liver metastases, the largest measuring 3.2cm. Her CA125 has risen from 450 to 1200 over the past six weeks. She has required three therapeutic paracenteses for symptomatic ascites since our last review.\n\nHer performance status has declined to ECOG 3, spending most of the day resting due to fatigue. She has ongoing grade 2 palmar-plantar erythrodysesthesia from Caelyx and grade 2 peripheral neuropathy from previous taxane therapy. Her appetite has significantly decreased with early satiety, though she denies nausea. Weight has dropped by 4kg since last review.\n\nGiven the clear evidence of disease progression and declining performance status, we have had a detailed discussion about moving to best supportive care. [redacted name] and her family understand the situation but would like to explore the option of further systemic therapy. We have discussed the very low likelihood of response to fifth-line treatment and the risks of further deterioration.\n\n\tFurther investigations\n\tUrgent CT guided drainage of ascites\nLiver function tests and clotting\n\n\tMedication prescribed\n\tDexamethasone 4mg daily\nIncreased Oxycontin to 40mg BD\n\n\tFollow up\n\tUrgent referral to palliative care team\nReview in one week with blood results\n\n\tRequired GP actions\n\tPlease monitor renal function\nConsider community palliative care referral",
+    "output": {
+        "primary_cancer": {
+            "site": "ovarian",
+            "year": 2021,
+            "month": 9,
+            "tnm_stage": null,
+            "other_stage": "Stage IIIC",
+            "histopathology_status": "High grade serous carcinoma",
+            "biomarker_status": "BRCA1 mutation positive",
+            "cancer_timeline": [
+                {
+                    "type": "treatment_surgery",
+                    "value": "Primary debulking surgery - total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy",
+                    "year": 2021,
+                    "month": 9
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Started first-line Carboplatin/Paclitaxel",
+                    "year": 2021,
+                    "month": 10
+                },
+                {
+                    "type": "treatment_surgery",
+                    "value": "Secondary debulking for isolated pelvic recurrence",
+                    "year": 2022,
+                    "month": 3
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Started second-line Carboplatin/Gemcitabine",
+                    "year": 2022,
+                    "month": 5
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Started Olaparib maintenance therapy",
+                    "year": 2022,
+                    "month": 9
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Started third-line weekly Paclitaxel",
+                    "year": 2023,
+                    "month": 1
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Started fourth-line Caelyx",
+                    "year": 2023,
+                    "month": 5
+                },
+                {
+                    "type": "laboratory_finding",
+                    "value": "CA125 risen from 450 to 1200 over six weeks",
+                    "year": 2024,
+                    "month": 5
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "CT shows new peritoneal deposits and three new liver metastases, largest 3.2cm",
+                    "year": 2024,
+                    "month": 5
+                }
+            ]
+        },
+        "other_cancers": [
+            {
+                "site": "breast, right",
+                "year": 2015,
+                "month": null,
+                "tnm_stage": "T1N0M0",
+                "histopathology_status": "Grade 2 invasive ductal carcinoma",
+                "latest_situation": "Disease free after mastectomy and tamoxifen"
+            },
+            {
+                "site": "melanoma, right calf",
+                "year": 2018,
+                "month": null,
+                "other_stage": "Stage IB",
+                "latest_situation": "Disease free"
+            }
+        ],
+        "patient_facts": [
+            {
+                "type": "performance_status",
+                "value": "ECOG 3, spending most of the day resting due to fatigue"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Symptomatic ascites requiring repeated therapeutic paracentesis"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Early satiety and poor appetite with 4kg weight loss"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Grade 2 palmar-plantar erythrodysesthesia"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Grade 2 peripheral neuropathy"
+            }
+        ],
+        "status_updates": [
+            {
+                "type": "clinical_summary",
+                "value": "Advanced ovarian cancer showing disease progression on fourth-line therapy with declining performance status"
+            },
+            {
+                "type": "latest_treatment_response",
+                "value": "Progressive disease with new peritoneal and hepatic metastases"
+            },
+            {
+                "type": "latest_treatment_toxicity",
+                "value": "Grade 2 palmar-plantar erythrodysesthesia from Caelyx"
+            },
+            {
+                "type": "update_to_treatment",
+                "value": "Discussion regarding transition to best supportive care, patient wishes to explore further systemic therapy options"
+            },
+            {
+                "type": "updated_patient_functional_status",
+                "value": "Declined to ECOG 3 with significant fatigue and weight loss"
+            },
+            {
+                "type": "planned_investigation",
+                "value": "Urgent CT guided drainage of ascites, liver function tests and clotting"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Urgent referral to palliative care team, review in one week with blood results"
+            }
+        ]
+    }
+}

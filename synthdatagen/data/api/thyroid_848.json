@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\tMedullary thyroid carcinoma\n\nManagement:\t12 Jan 2024 Total thyroidectomy with central and right lateral neck dissection\n\t\t15 Feb 2024 Commenced Cabozantinib 60mg daily\n\nHistology:\tpT2N1M0 medullary thyroid carcinoma with 4/18 positive lymph nodes in right lateral neck\n\nCurrent Situation:\tTreatment review - 8 weeks on Cabozantinib\n\nI reviewed [redacted name] today following 8 weeks of treatment with Cabozantinib for medullary thyroid cancer. The response to treatment has been encouraging, with the most recent calcitonin showing a significant decrease from 600 pg/mL pre-treatment to 180 pg/mL. The patient's neck ultrasound performed last week demonstrates reduction in size of the residual right level IV lymph nodes, with the largest node decreasing from 2.1cm to 1.4cm.\n\nTreatment tolerance has been challenging but manageable. The patient developed grade 2 palmar-plantar erythrodysesthesia in week 4, which improved to grade 1 with dose reduction to 40mg daily and implementation of supportive measures. There is also mild fatigue and intermittent diarrhea, well controlled with loperamide as needed. Blood pressure has remained stable on amlodipine 5mg daily, which was started prophylactically at treatment initiation.\n\nCurrent thyroid function shows good biochemical control on levothyroxine 150mcg daily. The most recent TSH was 0.8 mU/L (range 0.4-4.0). Liver function tests and other biochemistry remain within normal range.\n\nOn examination today, there is no palpable cervical lymphadenopathy. The surgical scar is well-healed. Blood pressure is 138/82 mmHg.\n\nThe plan is to continue Cabozantinib at the current dose of 40mg daily. We will repeat calcitonin and thyroid function tests in 4 weeks, with the next CT scan scheduled for early May to formally assess response. I will review the patient again in clinic in 4 weeks with these results.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 1,
+      "metastases": "right lateral neck lymph nodes",
+      "tnm_stage": "pT2N1M0",
+      "histopathology_status": "medullary thyroid carcinoma with 4/18 positive lymph nodes",
+      "biomarker_status": "calcitonin 600 pg/mL at diagnosis, decreased to 180 pg/mL on treatment",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy with central and right lateral neck dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Cabozantinib 60mg daily",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cabozantinib dose reduced to 40mg daily due to grade 2 palmar-plantar erythrodysesthesia",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Calcitonin decreased from 600 pg/mL to 180 pg/mL",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Ultrasound shows reduction in right level IV lymph nodes from 2.1cm to 1.4cm",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 palmar-plantar erythrodysesthesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild fatigue and intermittent diarrhea controlled with loperamide"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No palpable cervical lymphadenopathy, well-healed surgical scar"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "TSH 0.8 mU/L, liver function tests normal"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Medullary thyroid cancer with initial neck node involvement, showing good biochemical and radiological response to Cabozantinib despite requiring dose reduction"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Reduction in calcitonin from 600 to 180 pg/mL and decrease in lymph node size on ultrasound"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 palmar-plantar erythrodysesthesia improved to grade 1 after dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Cabozantinib at reduced dose of 40mg daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat calcitonin and thyroid function tests in 4 weeks, CT scan in early May"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 4 weeks with results"
+      }
+    ]
+  }
+}

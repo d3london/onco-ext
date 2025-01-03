@@ -1,0 +1,59 @@
+{
+  "content": "Diagnosis:\t\tLeft breast cancer - mixed ductal/lobular carcinoma\n\nManagement:\t\tWide local excision and sentinel lymph node biopsy March 2024\n\nHistology:\t\tpT1c (18mm) N1mi (0.9mm deposit) M0\n\t\t\tGrade 3 mixed ductal/lobular carcinoma\n\t\t\tER/PR/HER2 negative\n\t\t\tBRCA2 mutation not detected\n\nCurrent Situation:\tPre-cycle 3 adjuvant EC chemotherapy\n\n[redacted name] attended the breast oncology clinic today for assessment prior to cycle 3 EC chemotherapy. She has tolerated the first two cycles reasonably well with only grade 1 nausea and mild fatigue. Her main side effect has been complete alopecia which she was prepared for. No febrile episodes. Performance status remains 0. Blood results today show neutrophils 2.8, platelets 156, and normal liver function. Examination shows good healing of the breast wound with no concerning features. She is keen to proceed with the next cycle. I am happy for her to continue with cycle 3 EC today as planned. We will see her again before cycle 4.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2024,
+      "month": 3,
+      "metastases": "micrometastasis in sentinel lymph node (0.9mm)",
+      "tnm_stage": "pT1cN1miM0",
+      "histopathology_status": "Grade 3 mixed ductal/lobular carcinoma, 18mm",
+      "biomarker_status": "ER negative, PR negative, HER2 negative, BRCA2 mutation not detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant EC chemotherapy",
+          "year": 2024
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Blood results show neutrophils 2.8, platelets 156, normal liver function"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Good healing of breast wound with no concerning features"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early breast cancer post surgery, receiving adjuvant EC chemotherapy. Tolerating treatment well with minimal side effects"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 nausea, mild fatigue, complete alopecia"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 3 EC chemotherapy as planned"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review before cycle 4 EC"
+      }
+    ]
+  }
+}

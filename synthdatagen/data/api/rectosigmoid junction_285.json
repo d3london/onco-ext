@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\tAdenocarcinoma of rectosigmoid junction\n\nManagement:\t15 Jan 2024 Anterior resection\n\t\tFeb-Apr 2024 Adjuvant CAPOX chemotherapy\n\nHistology:\tpT3N1(2/12)M0 moderately differentiated adenocarcinoma\n\tMMR proficient, PIK3CA E545K mutation detected\n\nCurrent Situation:\tPost completion of adjuvant chemotherapy\n\nI reviewed [redacted name] today following completion of adjuvant CAPOX chemotherapy in April 2024. She has made an excellent recovery from her anterior resection performed by [redacted name] in January, with bowel function now normalized to 2-3 movements daily with good continence. The chemotherapy course was completed with only one week delay due to grade 1 neutropenia prior to cycle 6, and she experienced manageable peripheral neuropathy which is now gradually improving.\n\nOn examination today, her surgical wounds are well healed, abdomen is soft and non-tender with no concerning features. Performance status remains excellent at ECOG 0. Her latest CEA from last week remains within normal range at 2.4 μg/L.\n\nWe have discussed the surveillance plan, which will involve 3-monthly CEA measurements and 6-monthly CT chest/abdomen/pelvis for the first two years. I have arranged her next clinic review for 3 months with CEA measurement, and CT scan will be due in October 2024. She understands to contact us sooner if she develops any new concerning symptoms in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "rectosigmoid junction",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "pT3N1M0",
+      "histopathology_status": "moderately differentiated adenocarcinoma",
+      "biomarker_status": "MMR proficient, PIK3CA E545K mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Anterior resection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant CAPOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "One week delay in cycle 6 due to grade 1 neutropenia",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA within normal range at 2.4 μg/L",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Gradually improving peripheral neuropathy"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Normalized bowel function with 2-3 movements daily with good continence"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well healed surgical wounds, abdomen soft and non-tender with no concerning features"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III rectosigmoid cancer post surgery and adjuvant chemotherapy. Excellent recovery with no evidence of recurrence"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Manageable peripheral neuropathy, now improving"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis due October 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 months with CEA measurement"
+      }
+    ]
+  }
+}

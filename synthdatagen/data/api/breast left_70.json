@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\tLeft breast cancer - T1cN0M0 claudin-low carcinoma\n\nManagement:\t15 Jan 2024 Wide local excision and sentinel lymph node biopsy\n\t\t1 Feb 2024 - 15 Mar 2024 Adjuvant radiotherapy\n\nHistology:\tGrade 2 claudin-low carcinoma, 18mm, clear margins >5mm\n\t\tER 7/8, PR 6/8, HER2 negative (1+)\n\t\t0/2 sentinel nodes involved\n\nCurrent Situation:\tEnd of treatment review\n\nI reviewed [redacted name] following completion of adjuvant radiotherapy to the left breast. She has tolerated the treatment well with only grade 1 skin reaction which is now resolving. There is mild breast tenderness but no concerning symptoms. Her energy levels are improving and she has returned to work part-time.\n\nOn examination, there is expected post-radiation change in the left breast with mild erythema and no concerning features. The surgical scar is well-healed. No lymphadenopathy.\n\nI have discussed the treatment completion and ongoing hormone therapy plan. She will start tamoxifen 20mg daily from next week. I have provided written information about side effects and encouraged her to contact the breast care nurses if needed.\n\nThe plan is for annual mammogram surveillance and clinical review in 6 months. She understands to report any new concerning symptoms.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "T1cN0M0",
+      "other_stage": "Stage 1b",
+      "histopathology_status": "Grade 2 claudin-low carcinoma, 18mm, clear margins >5mm",
+      "biomarker_status": "ER 7/8, PR 6/8, HER2 negative (1+)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "0/2 sentinel nodes involved, clear margins >5mm",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed course of adjuvant radiotherapy to left breast",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild breast tenderness"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Expected post-radiation change in left breast with mild erythema, well-healed surgical scar, no lymphadenopathy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage left breast cancer completed primary surgery and radiotherapy with good tolerance. Starting adjuvant hormone therapy."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 skin reaction from radiotherapy, now resolving"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "To commence tamoxifen 20mg daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Annual mammogram surveillance"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review in 6 months"
+      }
+    ]
+  }
+}

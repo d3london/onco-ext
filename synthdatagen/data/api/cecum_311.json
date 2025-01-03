@@ -1,0 +1,75 @@
+{
+  "content": "Diagnosis\n\t1. Synchronous cecal adenocarcinomas\n\t   - Proximal cecal mass: pT3N0 adenocarcinoma, MMR proficient\n\t   - Distal cecal mass: pT2N0 adenocarcinoma, MMR deficient (MLH1/PMS2 loss)\n\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Laparoscopic right hemicolectomy\n\tComplicated by post-operative ileus requiring 7-day admission\n\n\tChemotherapy\n\t1 Mar 2024 - Commenced adjuvant CAPOX\n\tCycle 3 completed with 25% dose reduction due to grade 2 neuropathy\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tNo evidence of disease recurrence\n\n\tCurrent issues\n\tPeripheral neuropathy\nMild fatigue\n\n\tSummary of consultation\n\tReviewed today prior to cycle 4 CAPOX. The patient has experienced improving tolerance since dose reduction. Grade 2 peripheral neuropathy persists but has not worsened. Fatigue is manageable with appropriate rest periods. No diarrhea or hand-foot syndrome. Blood tests show stable parameters with adequate neutrophil count.\n\nOn examination, wound sites are well-healed. Abdomen is soft and non-tender with normal bowel sounds. No peripheral edema. Latest CEA is 2.4 (within normal range).\n\nGiven the discordant MMR status between the two tumors, genetic counseling referral has been arranged. The significance of MLH1/PMS2 loss in the distal tumor has been discussed, including implications for family screening.\n\n\tFurther investigations\n\tCT chest/abdomen/pelvis scheduled for completion of chemotherapy\n\n\tMedication prescribed\n\tContinue CAPOX at current dose (75% of starting dose)\n\n\tFollow up\n\tNext oncology follow up in 3 weeks for cycle 5\nGenetics clinic appointment pending\n\n\tRequired GP actions\n\tWeekly FBC, U&E monitoring\nPlease refer urgently if new neurological symptoms develop",
+  "output": {
+    "primary_cancer": {
+      "site": "cecum, synchronous tumors",
+      "year": 2024,
+      "month": 1,
+      "metastases": "none",
+      "tnm_stage": "pT3N0M0/pT2N0M0",
+      "histopathology_status": "Proximal: MMR proficient adenocarcinoma, Distal: MMR deficient adenocarcinoma with MLH1/PMS2 loss",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Laparoscopic right hemicolectomy complicated by post-operative ileus requiring 7-day admission",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant CAPOX chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "CAPOX dose reduced to 75% due to grade 2 neuropathy",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA 2.4 (within normal range)",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 peripheral neuropathy"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild fatigue, manageable with rest"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed wound sites, soft non-tender abdomen with normal bowel sounds, no peripheral edema"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Synchronous cecal adenocarcinomas post right hemicolectomy, currently receiving adjuvant CAPOX with improved tolerance following dose reduction"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Persistent grade 2 peripheral neuropathy, not worsening since dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing CAPOX at 75% dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis scheduled for completion of chemotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Oncology review in 3 weeks for cycle 5, genetics clinic referral pending"
+      }
+    ]
+  }
+}

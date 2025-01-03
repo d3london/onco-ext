@@ -1,0 +1,88 @@
+{
+  "content": "I reviewed [redacted name] today in the Phase II KRAS-LEAP trial clinic. She is now completing cycle 4 of the combination targeted therapy protocol (KRAS G12D inhibitor plus MEK inhibitor). Her initial diagnosis in January 2024 confirmed a left upper lobe adenocarcinoma with mediastinal lymphadenopathy and widespread bone metastases. Molecular profiling identified a KRAS G12D mutation with no other actionable alterations.\n\nShe commenced trial therapy on 15 February 2024 following completion of baseline assessments. The initial CT at 6 weeks showed a partial response with 45% reduction in primary tumor measurements and improving sclerotic appearance of bone metastases. Her most recent CT on 15 April 2024 shows maintained partial response in thoracic disease, though assessment of bone metastases remains challenging due to mixed sclerotic changes.\n\nShe has experienced grade 2 rash which responded well to topical steroids and prophylactic antibiotics. Her initial grade 2 diarrhea has improved with loperamide and dietary modification, now grade 1. Performance status remains 1. She reports good energy levels and has returned to work part-time.\n\nBlood tests show stable renal and liver function. Trial-mandated cardiac monitoring shows maintained ejection fraction at 55%. Next restaging CT is scheduled for 20 May 2024. I have prescribed cycle 5 of trial medication at full dose. She will continue weekly toxicity monitoring as per protocol and return to clinic in 2 weeks with blood results.",
+  "output": {
+    "primary_cancer": {
+      "site": "left upper lobe lung",
+      "year": 2024,
+      "month": 1,
+      "metastases": "mediastinal lymphadenopathy and widespread bone metastases",
+      "tnm_stage": "T4N3M1c",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "KRAS G12D mutation positive, EGFR negative",
+      "cancer_timeline": [
+        {
+          "type": "clinical_trial_update",
+          "value": "Started Phase II KRAS-LEAP trial combination targeted therapy (KRAS G12D inhibitor plus MEK inhibitor)",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced trial therapy following baseline assessments",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows partial response with 45% reduction in primary tumor and improving sclerotic appearance of bone metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows maintained partial response in thoracic disease with mixed sclerotic changes in bone metastases",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 diarrhea"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 rash, responding to treatment"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal and liver function, cardiac ejection fraction 55%"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Good energy levels, returned to work part-time"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced KRAS-mutant lung adenocarcinoma showing maintained partial response to trial therapy with manageable toxicities"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Maintained partial response in thoracic disease on CT 15 April 2024"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 rash managed with topical steroids and antibiotics, grade 1 diarrhea controlled with loperamide"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing trial medication at full dose for cycle 5"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Restaging CT scheduled for 20 May 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly toxicity monitoring and clinic review in 2 weeks with blood results"
+      }
+    ]
+  }
+}

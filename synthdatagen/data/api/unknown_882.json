@@ -1,0 +1,71 @@
+{
+  "content": "Diagnosis:\t\tMetastatic colorectal adenocarcinoma\n\nManagement:\t\tPalliative chemotherapy\n\nHistology:\t\tModerately differentiated adenocarcinoma with signet ring features\n\nCurrent Situation:\tInitial oncology assessment\n\n[redacted name] is a 67-year-old gentleman recently diagnosed with metastatic colorectal cancer. He initially presented with 3-month history of increasing abdominal distension and early satiety. CT imaging demonstrated extensive peritoneal disease with omental caking and a primary sigmoid mass. Diagnostic laparoscopy on 15 March 2024 confirmed widespread peritoneal disease with a peritoneal cancer index (PCI) of 22. Biopsies confirmed moderately differentiated adenocarcinoma with signet ring features.\n\nHe has maintained good performance status (ECOG PS 1) despite his disease burden. His main symptoms are early satiety and mild abdominal discomfort. Weight has remained stable at 72kg. Blood results show Hb 118, normal renal and liver function, and CEA 45.\n\nI have discussed systemic treatment options with [redacted name] and his wife. Given his good performance status, we plan to commence FOLFOX chemotherapy with careful monitoring of response. He will be reviewed after 3 cycles with CT assessment. I have arranged for PICC line insertion next week and chemotherapy teaching.",
+  "output": {
+    "primary_cancer": {
+      "site": "colorectal, sigmoid",
+      "year": 2024,
+      "month": 3,
+      "metastases": "extensive peritoneal disease with omental caking",
+      "other_stage": "Stage IV",
+      "histopathology_status": "moderately differentiated adenocarcinoma with signet ring features",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows extensive peritoneal disease with omental caking and primary sigmoid mass",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Diagnostic laparoscopy confirms widespread peritoneal disease, PCI 22",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Biopsies confirm moderately differentiated adenocarcinoma with signet ring features",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA elevated at 45",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "early satiety and mild abdominal discomfort"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Hb 118, normal renal and liver function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "New diagnosis of metastatic colorectal cancer with extensive peritoneal disease. Maintaining good performance status despite disease burden."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence FOLFOX chemotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT assessment after 3 cycles of chemotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "PICC line insertion next week with chemotherapy teaching"
+      }
+    ]
+  }
+}

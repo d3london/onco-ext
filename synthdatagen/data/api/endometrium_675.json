@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis\n\t1. High grade serous carcinoma of endometrium, T3bN1M0\n\tDate of diagnosis\n\tMarch 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Mar 2024 Total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy and pelvic lymphadenectomy performed by [redacted name]\n\n\tChemotherapy\n\tPlanned for carboplatin/paclitaxel with trastuzumab\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tPost-operative, awaiting adjuvant therapy\n\n\tCurrent issues\n\tPost-operative recovery\nMild lymphoedema right leg\nAnxiety regarding chemotherapy\n\n\tSummary of consultation\n\tI reviewed [redacted name], a 62-year-old lady, in clinic today following her recent surgery for high-grade serous carcinoma of the endometrium. Histopathology has confirmed a grade 3 serous carcinoma with cervical stromal invasion and lymphovascular space invasion. One of twelve pelvic lymph nodes was positive for metastatic disease. Molecular testing has identified a TP53 mutation and HER2 positivity (IHC 3+). CT staging shows no evidence of distant metastatic disease.\n\nShe has recovered well from surgery with good wound healing. She reports mild lymphoedema of the right leg which is responding to compression stockings. Her main concern today is anxiety about starting chemotherapy. We had a detailed discussion about the role of combined chemotherapy and targeted therapy with trastuzumab given her HER2-positive disease.\n\nOn examination today, her performance status is 1. There is mild right leg lymphoedema but no concerning features. Chest is clear and abdomen soft with well-healing midline scar.\n\n\tFurther investigations\n\tBaseline cardiac ECHO arranged for 25/4/24\nBaseline audiology arranged for 26/4/24\n\n\tMedication prescribed\n\tProphylactic dalteparin 5000 units daily for 28 days post-surgery\n\n\tFollow up\n\tNext oncology follow up will be 29/4/24 to commence chemotherapy\nSurgical follow up with [redacted name] arranged for 3 months\n\n\tRequired GP actions\n\tPlease monitor renal function and FBC prior to chemotherapy\nPlease refer to lymphoedema service if symptoms worsen\n\n\tSummary of information given to the patient\n\tDetailed discussion regarding adjuvant chemotherapy with carboplatin AUC5 and paclitaxel 175mg/m2 every 21 days for 6 cycles with concurrent trastuzumab. Written information provided regarding side effects and emergency contacts. Advised about need for cardiac monitoring with trastuzumab.",
+  "output": {
+    "primary_cancer": {
+      "site": "endometrium",
+      "year": 2024,
+      "month": 3,
+      "metastases": "cervical stromal invasion, one positive pelvic lymph node",
+      "tnm_stage": "T3bN1M0",
+      "histopathology_status": "grade 3 serous carcinoma with lymphovascular space invasion",
+      "biomarker_status": "TP53 mutation positive, HER2 positive (IHC 3+)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy and pelvic lymphadenectomy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histopathology confirms grade 3 serous carcinoma with cervical stromal invasion, lymphovascular space invasion, 1/12 positive lymph nodes",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Molecular testing identifies TP53 mutation and HER2 positivity (IHC 3+)",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT staging shows no evidence of distant metastatic disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "mild lymphoedema of right leg responding to compression stockings"
+      },
+      {
+        "type": "current_symptom",
+        "value": "anxiety about starting chemotherapy"
+      },
+      {
+        "type": "examination_finding",
+        "value": "mild right leg lymphoedema, chest clear, abdomen soft with well-healing midline scar"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed high-grade serous endometrial cancer post-surgery. Good post-operative recovery, preparing for adjuvant chemotherapy with trastuzumab"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Planned for adjuvant carboplatin/paclitaxel with trastuzumab, awaiting baseline cardiac assessment"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline cardiac ECHO 25/4/24 and audiology 26/4/24"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Oncology follow up 29/4/24 to commence chemotherapy, surgical follow up in 3 months"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "content": "Diagnosis:\nPerihilar cholangiocarcinoma with local vascular invasion\nERBB2 (HER2) amplified on molecular testing\n\nPrevious treatment:\nEndoscopic stenting March 2024\nCommenced Trastuzumab-Pertuzumab with Gemcitabine-Cisplatin April 2024\n\nCurrent medications:\nOndansetron 8mg bd\nDexamethasone 4mg bd (days 1-4 of cycle)\nUrsodeoxycholic acid 500mg tds\n\nAllergies:\nNone known\n\nCurrent situation:\nPre cycle 3 of combination therapy\n\nBilirubin stable at 28\nCA19-9 trending down from 890 to 425\n\nCT 15 May 2024 - stable appearances of perihilar mass with patent biliary stent\n\nTolerated cycles 1-2 with grade 2 fatigue and grade 1 nausea. Performance status remains 1. No clinical evidence of disease progression. Latest blood tests show stable liver function with bilirubin 28, ALT 65, ALP 225. Platelets adequate at 178. Renal function remains normal with creatinine 82.\n\nPlan is to proceed with cycle 3 today maintaining current doses. Will arrange repeat CT after cycle 4 to formally assess response. Follow up in 3 weeks with blood tests including CA19-9.",
+  "output": {
+    "primary_cancer": {
+      "site": "perihilar bile duct",
+      "year": 2024,
+      "month": 3,
+      "metastases": "local vascular invasion",
+      "biomarker_status": "ERBB2 (HER2) amplified",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Endoscopic biliary stenting",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Trastuzumab-Pertuzumab with Gemcitabine-Cisplatin",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 decreased from 890 to 425",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable perihilar mass with patent biliary stent",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable liver function with bilirubin 28, ALT 65, ALP 225"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Platelets 178, creatinine 82"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "HER2-positive perihilar cholangiocarcinoma showing stable disease on targeted therapy with Trastuzumab-Pertuzumab and chemotherapy"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 fatigue and grade 1 nausea from cycles 1-2"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 3 at current doses"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan after cycle 4 to assess response"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks with blood tests including CA19-9"
+      }
+    ]
+  }
+}

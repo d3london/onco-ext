@@ -1,0 +1,81 @@
+{
+  "content": "Diagnosis:\tMixed neuroendocrine-ductal carcinoma breast with extensive bone metastases\n\nStage T3 N3 M1, diagnosed September 2023\nER 95%, PR 90%, HER2 2+ (FISH negative)\n\nI reviewed [redacted name] today for assessment during cycle 4 of the TROPICS-02 trial. She was randomized to the sacituzumab govitecan arm and commenced treatment on 15/1/24.\n\nUnfortunately, she has experienced significant deterioration over the past 2 weeks. Her performance status has declined from 1 to 2-3, now spending approximately 70% of the day in bed. She describes worsening bone pain particularly affecting the thoracic spine and left hip, despite recent increase in opiate analgesia. Her mobility has significantly reduced and she now requires a wheelchair for anything beyond short distances.\n\nCT scan performed on 1/4/24 shows disease progression with new vertebral metastases at T4 and T7, and increasing size of existing bony lesions. There is also a new pathological fracture of the left femoral neck requiring urgent orthopedic assessment.\n\nBlood tests show declining hemoglobin at 98 g/L (previously 115) and rising alkaline phosphatase at 456 U/L. Neutrophils remain adequate at 2.1.\n\nGiven the clear evidence of disease progression both clinically and radiologically, we have made the decision to discontinue trial treatment. I have completed the end of treatment CRFs and arranged urgent referral to the palliative care team. She will require urgent assessment for consideration of palliative radiotherapy to symptomatic sites.\n\nThe trial team will arrange the end of treatment visit next week. We will review her again once she has been assessed by palliative care and orthopedics to discuss further systemic treatment options.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast",
+      "year": 2023,
+      "month": 9,
+      "metastases": "extensive bone metastases, new vertebral metastases T4 and T7, left femoral neck pathological fracture",
+      "tnm_stage": "T3N3M1",
+      "other_stage": "Stage 4",
+      "histopathology_status": "mixed neuroendocrine-ductal carcinoma",
+      "biomarker_status": "ER 95%, PR 90%, HER2 2+ (FISH negative)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced sacituzumab govitecan on TROPICS-02 trial",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows new vertebral metastases at T4 and T7, increasing size of existing bony lesions, new pathological fracture left femoral neck",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Declining hemoglobin 98 g/L from 115, rising alkaline phosphatase 456 U/L",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued trial treatment due to disease progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from PS 1 to PS 2-3, spending 70% of day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain affecting thoracic spine and left hip despite increased opiates"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires wheelchair for anything beyond short distances"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Hemoglobin 98 g/L, alkaline phosphatase 456 U/L, neutrophils 2.1"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Mixed neuroendocrine-ductal breast cancer with bone metastases showing clear clinical and radiological progression on trial therapy with significant functional decline"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with new vertebral metastases and pathological fracture"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Trial treatment discontinued due to disease progression"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline in mobility and performance status, now largely bed-bound"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and orthopedics, end of treatment visit next week"
+      }
+    ]
+  }
+}

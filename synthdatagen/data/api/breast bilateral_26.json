@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis\n\t1. Right breast cancer - Grade 2 mixed ductal/lobular carcinoma\n\t2. Left breast cancer - Grade 2 mixed ductal/lobular carcinoma\n\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Bilateral wire-guided wide local excisions and sentinel lymph node biopsies\n\n\tRadiotherapy\n\tNot yet commenced\n\n\tChemotherapy\n\tCommenced FEC-T chemotherapy 14 Feb 2024\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tNo evidence of disease\n\n\tCurrent issues\n\tMild peripheral neuropathy\n\n\tSummary of consultation\n\tI was very pleased to review [redacted name] today prior to cycle 5 of FEC-T chemotherapy. She has managed the switch from FEC to docetaxel remarkably well with only grade 1 peripheral neuropathy affecting her fingertips. Her energy levels are good and she continues with daily walking. The surgical sites are healing nicely with no concerns.\n\nOn examination today, both breast wounds are well-healed. There is no lymphedema. Heart rate and blood pressure are within normal range. Blood results show stable parameters suitable for proceeding with chemotherapy.\n\n\tFurther investigations\n\tNone required at present\n\n\tMedication prescribed\n\tContinuing standard chemotherapy supportive medications\n\n\tFollow up\n\tNext oncology follow up in 3 weeks for cycle 6\n\tSurgical follow up with [redacted name] arranged for July 2024\n\n\tRequired GP actions\n\tNone required at present",
+  "output": {
+    "primary_cancer": {
+      "site": "breast bilateral",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "T2N1M0",
+      "histopathology_status": "Grade 2 mixed ductal/lobular carcinoma",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Bilateral wire-guided wide local excisions and sentinel lymph node biopsies",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced FEC-T chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Switched from FEC to docetaxel phase of treatment",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "grade 1 peripheral neuropathy affecting fingertips"
+      },
+      {
+        "type": "examination_finding",
+        "value": "both breast wounds well-healed, no lymphedema"
+      },
+      {
+        "type": "examination_finding",
+        "value": "heart rate and blood pressure within normal range"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "blood results show stable parameters suitable for chemotherapy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Bilateral breast cancer, post-surgery, tolerating adjuvant FEC-T chemotherapy well with minimal side effects"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "grade 1 peripheral neuropathy from docetaxel"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "proceeding with cycle 5 of FEC-T chemotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "oncology review in 3 weeks for cycle 6, surgical follow up in July 2024"
+      }
+    ]
+  }
+}

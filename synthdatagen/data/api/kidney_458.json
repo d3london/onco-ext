@@ -1,0 +1,114 @@
+{
+  "content": "Diagnosis:\n\nMetastatic chromophobe renal cell carcinoma\n\nStaging:\nInitial staging T3N1M1 (AJCC 8th edition) with liver and bone metastases\nCDKN2A loss confirmed on molecular testing\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nChronic kidney disease stage 3\n\nCurrent medications:\nCabozantinib 60mg daily\nAmlodipine 10mg daily\nMetformin 1g bd\n\nCurrent situation:\nProgressive disease on third-line therapy\n\nI reviewed [redacted name] today who attended with his wife. Unfortunately, his most recent imaging shows clear evidence of disease progression with growth of existing liver metastases and development of new bone lesions in the thoracic spine. The CT performed on 15 April 2024 demonstrates enlargement of the dominant liver lesion from 4.2cm to 6.8cm, and new lytic lesions in T4 and T7 vertebrae. His disease has now progressed through three lines of systemic therapy - initial pazopanib which was discontinued due to severe fatigue in October 2023, followed by nivolumab which showed primary resistance with progression at first assessment in January 2024, and now cabozantinib which has been associated with progression after just 8 weeks of therapy.\n\nHis performance status has deteriorated to ECOG 2-3, spending more than 50% of the day resting due to fatigue and pain. He describes worsening right upper quadrant discomfort requiring increased analgesia, now on modified release morphine 30mg twice daily with immediate release morphine for breakthrough pain. His appetite has significantly declined with 6kg weight loss over the past month despite nutritional supplements.\n\nOn examination today, there is marked hepatomegaly extending 4cm below the costal margin with tenderness on palpation. There is point tenderness over T4 vertebra. Blood tests show deteriorating liver function with bilirubin 45, ALT 156, ALP 445. Albumin has dropped to 28.\n\nI have had a detailed discussion with [redacted name] and his wife about the challenging situation we now face. Given the rapid progression through three lines of therapy and declining performance status, I have explained that further systemic anti-cancer therapy is unlikely to be beneficial and carries significant risks. We have agreed to focus on symptom control and quality of life.\n\nPlan:\n1. Urgent referral to palliative care team\n2. MRI spine to assess for cord compression risk\n3. Referral for consideration of palliative radiotherapy to symptomatic bone metastases\n4. Increase modified release morphine to 45mg twice daily\n5. Review in 2 weeks with palliative care team\n\nI have provided emergency contact details and arranged for district nurse involvement. The acute oncology team are aware and will provide additional support as needed.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney",
+      "histopathology_status": "chromophobe renal cell carcinoma",
+      "tnm_stage": "T3N1M1",
+      "metastases": "liver and bone metastases",
+      "biomarker_status": "CDKN2A loss",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on pazopanib",
+          "year": 2023,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued pazopanib due to severe fatigue",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on nivolumab",
+          "year": 2023,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued nivolumab due to primary resistance with progression",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on cabozantinib",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows enlargement of dominant liver lesion from 4.2cm to 6.8cm, and new lytic lesions in T4 and T7 vertebrae",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Chronic kidney disease stage 3"
+      },
+      {
+        "type": "performance_status",
+        "value": "ECOG 2-3, spending more than 50% of the day resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant discomfort requiring modified release morphine 30mg twice daily"
+      },
+      {
+        "type": "current_symptom",
+        "value": "6kg weight loss over the past month"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Hepatomegaly extending 4cm below costal margin with tenderness on palpation"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Point tenderness over T4 vertebra"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45, ALT 156, ALP 445, albumin 28"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic renal cell carcinoma with progression through three lines of therapy. Now with clinical deterioration and progressive liver and bone metastases."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on cabozantinib after 8 weeks with enlarging liver metastases and new bone lesions"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 2-3 with increasing fatigue and pain"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Decision to discontinue systemic anti-cancer therapy due to progressive disease and poor performance status"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI spine to assess for cord compression risk"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and review in 2 weeks with palliative care team"
+      }
+    ]
+  }
+}

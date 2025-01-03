@@ -1,0 +1,49 @@
+{
+  "content": "Diagnosis:\t\tMalignant pleural mesothelioma, epithelioid type\n\nManagement:\t\tCompleted 6 cycles carboplatin/pemetrexed\n\t\tMaintenance pemetrexed ongoing\n\nHistology:\t\tEpithelioid mesothelioma\n\t\tPD-L1 negative\n\nCurrent situation:\tStable disease on maintenance pemetrexed\n\n[redacted name] attended follow-up clinic today. CT thorax/abdomen shows stable disease with no new sites of disease. The right pleural thickening remains unchanged from previous imaging, measuring maximum 32mm. Small volume peritoneal disease remains stable. Blood tests show stable renal function with eGFR 68. Latest pemetrexed cycle was well tolerated with only grade 1 fatigue. Plan to continue with maintenance pemetrexed and arrange repeat imaging in 3 months.",
+  "output": {
+    "primary_cancer": {
+      "site": "pleural",
+      "metastases": "peritoneal involvement",
+      "histopathology_status": "epithelioid mesothelioma",
+      "biomarker_status": "PD-L1 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Completed 6 cycles carboplatin/pemetrexed"
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started maintenance pemetrexed"
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable right pleural thickening measuring 32mm maximum with stable small volume peritoneal disease"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "investigation_finding",
+        "value": "eGFR 68"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Pleural mesothelioma with peritoneal involvement. Stable disease on maintenance pemetrexed following completion of combination chemotherapy"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue with latest pemetrexed cycle"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing maintenance pemetrexed"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat imaging in 3 months"
+      }
+    ]
+  }
+}

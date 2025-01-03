@@ -1,0 +1,86 @@
+{
+  "content": "Diagnosis:\nLocally advanced esophageal squamous cell carcinoma with liver metastases\n\nPrevious Treatment:\nCompleted definitive chemoradiotherapy March 2024 (50.4Gy in 28 fractions with concurrent cisplatin/5FU)\nPalliative FOLFOX commenced April 2024\n\nCurrent Situation:\nDisease progression on cycle 3 FOLFOX\n\nClinical Assessment:\nI reviewed [redacted name] today who has unfortunately shown radiological progression on recent imaging. CT performed on 15 June 2024 demonstrates enlarging liver metastases with new peritoneal deposits. His dysphagia has worsened significantly, now only managing liquids and requiring supplemental nutrition. Performance status has declined to ECOG 2. Weight has dropped by 4kg since last review to 58kg.\n\nExamination findings:\nCachexic appearance\nMild peripheral edema\nTender hepatomegaly extending 4cm below costal margin\nNo ascites\n\nBlood results:\nHb 98\nAlbumin 28\nALT 145\nALP 456\n\nDiscussion and Plan:\nI have had a detailed discussion with [redacted name] regarding disease progression and treatment options. Given his declining performance status and liver function, we have agreed to discontinue FOLFOX. I have explained the role of second-line immunotherapy with nivolumab, including potential benefits and risks. He wishes to proceed with this option.\n\nActions:\n1. FOLFOX discontinued\n2. Commence nivolumab 240mg q2weekly pending funding approval\n3. Urgent referral to dietetics for nutritional support\n4. Referral to palliative care for symptom management\n5. Review in 2 weeks with repeat bloods\n6. CT assessment after 4 cycles of immunotherapy",
+  "output": {
+    "primary_cancer": {
+      "site": "esophagus",
+      "year": 2024,
+      "histopathology_status": "squamous cell carcinoma",
+      "metastases": "liver metastases, new peritoneal deposits",
+      "other_stage": "Stage III",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Definitive chemoradiotherapy with cisplatin/5FU and concurrent radiotherapy 50.4Gy in 28 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced palliative FOLFOX",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows enlarging liver metastases with new peritoneal deposits",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "FOLFOX discontinued due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening dysphagia, only managing liquids"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachexic appearance, mild peripheral edema, tender hepatomegaly 4cm below costal margin"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Hb 98, Albumin 28, ALT 145, ALP 456"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight dropped by 4kg to 58kg"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced esophageal cancer with progressive liver metastases and new peritoneal disease. Disease progression on FOLFOX with declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on FOLFOX with enlarging liver metastases and new peritoneal deposits"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "FOLFOX discontinued, plan to commence nivolumab 240mg q2weekly"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Declining performance status to ECOG 2 with worsening dysphagia and weight loss"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT assessment after 4 cycles of immunotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks with repeat bloods, urgent referral to dietetics and palliative care"
+      }
+    ]
+  }
+}

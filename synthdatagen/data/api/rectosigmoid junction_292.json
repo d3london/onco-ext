@@ -1,0 +1,59 @@
+{
+  "content": "Diagnosis:\tAdenocarcinoma of rectosigmoid junction, Duke's C1 (pT3N1M0), HER2 positive, MSI-high\n\nI reviewed [redacted name] today during cycle 3 of adjuvant CAPOX chemotherapy. Unfortunately, she has experienced significant gastrointestinal toxicity with grade 3 diarrhea requiring hospital admission for 4 days following cycle 2. She required IV fluids and electrolyte replacement. Her blood tests today show improvement in renal function with creatinine now 85 (previously 126). Liver function tests remain normal.\n\nGiven the severity of toxicity and impact on quality of life, we have discussed treatment modification. The plan is to continue with capecitabine alone at 75% dose and discontinue oxaliplatin. This decision takes into account both her HER2 positive and MSI-high status, suggesting potential benefit from completion of fluoropyrimidine therapy despite oxaliplatin discontinuation.\n\nI have prescribed capecitabine 75% dose to start next week. We will review again in 3 weeks with repeat bloods. I have provided clear written instructions regarding early reporting of any toxicity symptoms and emergency contact details.\n\nA CT scan is booked for treatment completion in 8 weeks' time.",
+  "output": {
+    "primary_cancer": {
+      "site": "rectosigmoid junction",
+      "metastases": "none",
+      "tnm_stage": "pT3N1M0",
+      "other_stage": "Duke's C1",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "HER2 positive, MSI-high",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant CAPOX chemotherapy"
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Grade 3 diarrhea requiring hospital admission after cycle 2, needed IV fluids and electrolyte replacement"
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Improvement in renal function with creatinine now 85 (previously 126), liver function tests normal"
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Decision to discontinue oxaliplatin and continue capecitabine alone at 75% dose"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "investigation_finding",
+        "value": "Creatinine 85, normal liver function tests"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Adjuvant CAPOX for Duke's C1 rectosigmoid cancer complicated by severe diarrhea. Treatment modified to single agent capecitabine."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 diarrhea requiring hospital admission after cycle 2"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing oxaliplatin, continuing capecitabine alone at 75% dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan booked for treatment completion in 8 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks with repeat bloods"
+      }
+    ]
+  }
+}

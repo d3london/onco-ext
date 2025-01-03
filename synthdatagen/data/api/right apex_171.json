@@ -1,0 +1,88 @@
+{
+  "content": "Diagnosis:\tStage IV right upper lobe adenocarcinoma with solitary brain metastasis\n\tInitial diagnosis January 2023 - T1cN0M0\n\tProgression with brain metastasis noted August 2023\n\tEGFR mutation positive with C797S resistance mutation detected March 2024\n\nI reviewed [redacted name] today in the lung oncology clinic. She has been on osimertinib 80mg daily since February 2023 for EGFR-positive lung adenocarcinoma, initially with excellent response. Unfortunately, surveillance imaging in August 2023 detected a solitary right parietal brain metastasis, treated with stereotactic radiosurgery (15Gy single fraction) with good local control.\n\nRecent molecular testing from liquid biopsy has confirmed emergence of EGFR C797S resistance mutation. Her most recent CT chest (March 15 2024) shows stable appearances of the primary lesion measuring 2.1cm, and MRI brain (March 20 2024) confirms continued response of the treated metastasis with no new intracranial disease.\n\nClinically she remains well with PS 1. She describes occasional mild headaches but no focal neurological symptoms. She continues to work part-time and maintains good activity levels. Chest examination today was unremarkable.\n\nGiven the emergence of resistance mutation but clinically and radiologically stable disease, we have discussed treatment options in detail at lung MDT. The consensus recommendation is to continue osimertinib for now with close monitoring, given the lack of significant progression and good tolerability. We will repeat imaging in 6 weeks and consider clinical trial options if there is evidence of progression. I have arranged follow-up in 6 weeks with repeat CT chest/abdomen/pelvis and MRI brain.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right upper lobe",
+      "year": 2023,
+      "month": 1,
+      "metastases": "solitary right parietal brain metastasis",
+      "tnm_stage": "T1cN0M1c",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "EGFR mutation positive with C797S resistance mutation",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started osimertinib 80mg daily",
+          "year": 2023,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Detection of solitary right parietal brain metastasis",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Stereotactic radiosurgery to brain metastasis, 15Gy single fraction",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Liquid biopsy confirms EGFR C797S resistance mutation",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest shows stable primary lesion measuring 2.1cm",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain confirms continued response of treated metastasis, no new disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Occasional mild headaches, no focal neurological symptoms"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Chest examination unremarkable"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Continues to work part-time and maintains good activity levels"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "EGFR-positive lung adenocarcinoma with treated brain metastasis, clinically stable but developed resistance mutation"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continue osimertinib 80mg daily with close monitoring despite resistance mutation"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat CT chest/abdomen/pelvis and MRI brain in 6 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow-up in lung oncology clinic in 6 weeks with imaging"
+      }
+    ]
+  }
+}

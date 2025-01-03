@@ -1,0 +1,78 @@
+{
+  "content": "Diagnosis:\tProstate adenocarcinoma, T2b N0 M0, Gleason 3+3, diagnosed January 2023\n\nI reviewed [redacted name] in follow-up clinic today. He completed radical radiotherapy to the prostate in September 2023 and is tolerating hormone therapy well with Prostap 3-monthly injections. His PSA has fallen appropriately from 6.2 at diagnosis to 0.4 currently. He reports mild hot flushes but these are not significantly impacting his quality of life. He maintains good urinary function with no significant lower urinary tract symptoms.\n\nOn examination today, his performance status remains 0 and clinical examination was unremarkable. Blood tests show testosterone remains adequately suppressed at <0.7 nmol/L. Renal and liver function are normal.\n\nThe plan is to continue with hormone therapy as prescribed. His next Prostap injection is due in 6 weeks' time with his GP. I will arrange repeat PSA testing in 3 months and see him back in clinic thereafter. He understands to contact us sooner if he develops any new symptoms.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate",
+      "year": 2023,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "T2bN0M0",
+      "other_stage": "",
+      "histopathology_status": "Gleason 3+3 acinar adenocarcinoma",
+      "biomarker_status": "Initial PSA 6.2, current PSA 0.4",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial PSA 6.2",
+          "year": 2023,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radical radiotherapy to prostate",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA fallen to 0.4, testosterone adequately suppressed at <0.7 nmol/L"
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild hot flushes, not significantly impacting quality of life"
+      },
+      {
+        "type": "current_symptom",
+        "value": "No significant lower urinary tract symptoms"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Clinical examination unremarkable"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal renal and liver function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Localized prostate cancer responding well to radical radiotherapy and hormone therapy with appropriate PSA response"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild hot flushes from hormone therapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with 3-monthly Prostap injections"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat PSA testing in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic after PSA test, next Prostap due with GP in 6 weeks"
+      }
+    ]
+  }
+}

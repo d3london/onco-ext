@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\tHepatocellular carcinoma, BCLC stage B\n\nInitial presentation March 2024 with 6.5cm segment 7 lesion and two satellite lesions (2.1cm, 1.8cm) in segment 8. AFP 1800, PIVKA-II elevated. Child-Pugh A5. No extrahepatic disease.\n\nTreatment commenced with TACE on 15 April 2024 to all three lesions.\n\nI reviewed [redacted name] today following his first TACE procedure. He has experienced mild post-embolization syndrome with low-grade fever and right upper quadrant pain which resolved after 5 days. His appetite has now returned to normal and he reports feeling well. No new symptoms of note.\n\nBloods today show improving liver function with bilirubin 15, ALT 45, albumin 38. AFP has decreased to 850. His synthetic function remains well preserved.\n\nOn examination, he is looking well. Performance status 0. No clinical signs of decompensation. Mild right upper quadrant tenderness but no peritonism.\n\nPlan is for MRI liver in 4 weeks to assess response, followed by clinic review with view to second TACE procedure if good response demonstrated. He understands to contact us if any deterioration in symptoms.",
+  "output": {
+    "primary_cancer": {
+      "site": "liver, segments 7 and 8",
+      "year": 2024,
+      "month": 3,
+      "metastases": "no extrahepatic disease",
+      "other_stage": "BCLC stage B",
+      "histopathology_status": "hepatocellular carcinoma",
+      "biomarker_status": "AFP 1800, PIVKA-II elevated",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "6.5cm segment 7 lesion and two satellite lesions (2.1cm, 1.8cm) in segment 8",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Initial AFP 1800, PIVKA-II elevated",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "TACE procedure to all three lesions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "AFP decreased to 850",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Mild right upper quadrant tenderness but no peritonism"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Liver function: bilirubin 15, ALT 45, albumin 38"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "HCC BCLC-B showing early response to first TACE with falling AFP. Mild post-embolization syndrome resolved."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild post-embolization syndrome with low-grade fever and right upper quadrant pain, resolved after 5 days"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI liver in 4 weeks to assess response"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review after MRI with view to second TACE if good response"
+      }
+    ]
+  }
+}

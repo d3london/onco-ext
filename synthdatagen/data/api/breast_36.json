@@ -1,0 +1,111 @@
+{
+  "content": "Diagnosis:\n\nMetastatic apocrine breast carcinoma\nInitial diagnosis March 2023 - right breast T4N2M0 disease\nAR positive, ER/PR negative, HER2 positive (3+), Ki67 60%\n\nPrevious Treatment:\nNeoadjuvant TCHP completed August 2023\nRight mastectomy September 2023\nAdjuvant radiotherapy completed December 2023\nMaintenance Trastuzumab/Pertuzumab\n\nDisease Status:\nCT January 2024 - multiple new bone metastases\nMRI spine shows T4,T7,L2 vertebral involvement\nRising CA15-3 from 45 to 180\n\nCurrent Situation:\nPS 2 due to increasing bone pain\nRequiring regular opioid analgesia\nProgressive fatigue limiting daily activities\n\nPlan:\nDiscontinue maintenance Trastuzumab/Pertuzumab\nCommence T-DM1 with monthly denosumab\nUrgent referral for palliative radiotherapy to T4 vertebra\nReview in 3 weeks with treatment response assessment\n\nI reviewed [redacted name] today who has unfortunately shown clear evidence of disease progression on maintenance HER2-directed therapy. After discussing options, we have agreed to switch to second-line T-DM1. I have explained the common side effects and monitoring requirements. She understands to contact us if experiencing any new symptoms or concerns. We will arrange urgent palliative radiotherapy to the symptomatic thoracic vertebra.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2023,
+      "month": 3,
+      "metastases": "multiple bone metastases involving T4, T7, L2 vertebrae",
+      "tnm_stage": "T4N2M0",
+      "other_stage": "Stage IIIC",
+      "histopathology_status": "apocrine carcinoma",
+      "biomarker_status": "AR positive, ER/PR negative, HER2 positive (3+), Ki67 60%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started neoadjuvant TCHP",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed neoadjuvant TCHP",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Right mastectomy",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed adjuvant radiotherapy",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started maintenance Trastuzumab/Pertuzumab",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Rising CA15-3 from 45 to 180",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows multiple new bone metastases",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI spine confirms T4, T7, L2 vertebral metastases",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing Trastuzumab/Pertuzumab due to disease progression",
+          "year": 2024,
+          "month": 1
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 2 due to increasing bone pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Progressive fatigue limiting daily activities"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing bone pain requiring regular opioid analgesia"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIC apocrine breast cancer progressing on maintenance HER2-directed therapy with new bone metastases. Deteriorating performance status due to bone pain."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on maintenance Trastuzumab/Pertuzumab with new bone metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Switching from Trastuzumab/Pertuzumab to second-line T-DM1 with monthly denosumab"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deteriorating to PS 2 with increasing bone pain and fatigue"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Treatment response assessment in 3 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral for palliative radiotherapy to T4 vertebra"
+      }
+    ]
+  }
+}

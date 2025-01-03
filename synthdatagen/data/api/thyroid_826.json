@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\tPapillary thyroid carcinoma, T3N1bM0, BRAF V600E positive\n\nManagement:\t15 Jan 2024 Total thyroidectomy and central neck dissection with right lateral neck dissection\n\t\t12 Feb 2024 Radioactive iodine ablation 3.7GBq\n\nHistology:\tMultifocal papillary thyroid carcinoma, largest focus 4.2cm with extrathyroidal extension. 8/15 right cervical nodes positive. Margins clear.\n\nCurrent Situation:\tPost-treatment assessment\n\nI reviewed [redacted name] today following completion of radioactive iodine therapy. The post-ablation scan shows good uptake in the thyroid bed with some residual uptake in right level IV nodes. Thyroglobulin has dropped from 42 to 18 μg/L, but remains detectable. Given the BRAF V600E mutation status and the extent of nodal involvement, we have discussed initiating lenvatinib therapy. Recent CT neck/chest/abdomen from 15 March 2024 shows two sub-centimeter right level IV nodes that are suspicious for residual disease, though otherwise clear.\n\nShe has recovered well from surgery with good voice function and normalized calcium levels. TSH suppression has been achieved with levothyroxine 175mcg daily with latest TSH <0.1 mU/L. She reports some ongoing mild dysphagia but otherwise tolerating a normal diet.\n\nAfter detailed discussion of treatment options, including the possibility of further surgery versus systemic therapy, we have agreed to commence lenvatinib at 24mg daily. I have explained the common side effects including hypertension, fatigue, diarrhea, and hand-foot syndrome, as well as the monitoring requirements. We will arrange baseline echocardiogram and blood pressure monitoring prior to treatment initiation.\n\nThe plan is to commence lenvatinib next week following completion of baseline investigations. We will review in 2 weeks with blood pressure readings and early toxicity assessment, then monthly thereafter. I have arranged CT reassessment for 3 months' time. Thyroglobulin monitoring will continue every 6 weeks.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 1,
+      "metastases": "right cervical lymph nodes",
+      "tnm_stage": "T3N1bM0",
+      "histopathology_status": "Multifocal papillary thyroid carcinoma, largest focus 4.2cm with extrathyroidal extension, 8/15 nodes positive",
+      "biomarker_status": "BRAF V600E positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy and central neck dissection with right lateral neck dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Radioactive iodine ablation 3.7GBq",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Thyroglobulin dropped from 42 to 18 μg/L but remains detectable",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows two sub-centimeter right level IV nodes suspicious for residual disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild dysphagia but tolerating normal diet"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "TSH <0.1 mU/L on levothyroxine 175mcg daily"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Good voice function and normalized calcium levels"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Post-thyroidectomy and radioiodine ablation for BRAF+ papillary thyroid cancer with nodal involvement. Evidence of residual disease in neck nodes with detectable thyroglobulin"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Post-ablation scan shows uptake in thyroid bed and right level IV nodes, thyroglobulin partially responded but remains elevated"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Decision to commence lenvatinib 24mg daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline echocardiogram and blood pressure monitoring, CT reassessment in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks for toxicity assessment, then monthly reviews with thyroglobulin monitoring every 6 weeks"
+      }
+    ]
+  }
+}

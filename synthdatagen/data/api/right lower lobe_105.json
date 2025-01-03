@@ -1,0 +1,83 @@
+{
+  "content": "Diagnosis:\tMetastatic adenocarcinoma of right lower lobe with bone metastases, RET fusion positive, PD-L1 90%\n\nI reviewed [redacted name] today for assessment during cycle 4 of selpercatinib. She was diagnosed in January 2024 following investigation of back pain, with CT showing a 4.2cm right lower lobe mass and multiple bone metastases affecting thoracic spine and right pelvis. Initial molecular testing revealed RET fusion and high PD-L1 expression.\n\nShe commenced selpercatinib 160mg BD on 15/2/24 and has tolerated this well with only grade 1 hypertension requiring amlodipine 5mg daily. Her back pain has significantly improved with combination of targeted therapy and previous palliative radiotherapy (20Gy in 5# to T6-T8 completed 1/2/24).\n\nToday she reports feeling generally well with stable symptoms. Performance status remains 1. Blood pressure well controlled at 138/82. Recent CT (15/4/24) shows stable disease in primary tumor and bone metastases. Blood tests show stable biochemistry and adequate organ function.\n\nThe plan is to continue with selpercatinib at current dose with next review in 4 weeks. CT scan will be repeated in 8 weeks to assess disease response.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right lower lobe",
+      "year": 2024,
+      "month": 1,
+      "metastases": "bone metastases affecting thoracic spine and right pelvis",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "RET fusion positive, PD-L1 90%",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing 4.2cm right lower lobe mass and multiple bone metastases",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed palliative radiotherapy 20Gy in 5 fractions to T6-T8",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started selpercatinib 160mg BD",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable disease in primary tumor and bone metastases",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Back pain improved following treatment"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Blood pressure 138/82"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood tests show stable biochemistry and adequate organ function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "RET fusion positive metastatic lung adenocarcinoma showing stable disease on selpercatinib with good symptom control"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 hypertension requiring amlodipine 5mg daily"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on CT with improved back pain"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continue selpercatinib 160mg BD"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan in 8 weeks to assess disease response"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 4 weeks"
+      }
+    ]
+  }
+}

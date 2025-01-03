@@ -1,0 +1,95 @@
+{
+  "content": "Diagnosis:\nLeft breast metaplastic carcinoma with spindle cell features, initially stage III? (T3N1M0) diagnosed March 2023. Triple negative breast cancer, androgen receptor positive (90% staining).\n\nPrevious Treatment:\nNeoadjuvant carboplatin/paclitaxel March-July 2023\nLeft mastectomy and axillary clearance August 2023\nAdjuvant capecitabine September-December 2023\n\nDisease Status:\nCT chest/abdomen/pelvis 15 April 2024 shows multiple new pulmonary metastases (largest 2.8cm right upper lobe) and three liver lesions (largest 4.2cm segment 7)\n\nCurrent Symptoms:\nProgressive breathlessness on exertion\nRight upper quadrant discomfort\nReduced appetite with 4kg weight loss over 6 weeks\nFatigue affecting daily activities\n\nPerformance Status:\nDeclined from ECOG PS 1 to PS 2\n\nI reviewed [redacted name] today, who attended with her sister. She has unfortunately experienced disease progression while on maintenance capecitabine, with new lung and liver metastases identified on recent imaging. She describes increasing breathlessness when walking, which correlates with the pulmonary disease, and new right-sided abdominal discomfort likely related to liver metastases. Her appetite has reduced significantly and she reports increasing fatigue, now spending several hours each day resting.\n\nWe had a detailed discussion about treatment options. Given her good response to initial platinum-based therapy, I have recommended second-line weekly paclitaxel with carboplatin. We discussed the possibility of clinical trial participation, but unfortunately she does not meet eligibility criteria for our current studies due to her liver function results. I have explained the aims of treatment are to control disease progression and improve symptoms, while being realistic about prognosis.\n\n[redacted name] understands the treatment schedule and potential side effects, including risk of fatigue, neuropathy, and myelosuppression. She is keen to proceed with treatment and maintains a positive outlook despite recent deterioration. I have arranged urgent portacath insertion and will start treatment next week.\n\nPlan:\n1. Weekly paclitaxel 80mg/m2 with three-weekly carboplatin AUC 5\n2. Portacath insertion booked for 22 April 2024\n3. Treatment to commence 24 April 2024\n4. CT reassessment after 3 cycles\n5. Referral to palliative care team for additional support\n6. Review in 2 weeks with blood tests",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2023,
+      "month": 3,
+      "metastases": "multiple pulmonary metastases, three liver lesions",
+      "tnm_stage": "T3N1M0",
+      "other_stage": "Stage III",
+      "histopathology_status": "metaplastic carcinoma with spindle cell features",
+      "biomarker_status": "triple negative, androgen receptor positive (90% staining)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started neoadjuvant carboplatin/paclitaxel",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Left mastectomy and axillary clearance",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant capecitabine",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows multiple new pulmonary metastases (largest 2.8cm right upper lobe) and three liver lesions (largest 4.2cm segment 7)",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Stopping capecitabine due to disease progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2, declined from PS 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Progressive breathlessness on exertion"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant discomfort"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Reduced appetite with 4kg weight loss over 6 weeks"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue affecting daily activities"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic triple negative breast cancer with disease progression on capecitabine. New lung and liver metastases with declining performance status requiring change in treatment strategy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on capecitabine with new metastatic disease"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Changing to weekly paclitaxel 80mg/m2 with three-weekly carboplatin AUC 5"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status from ECOG 1 to 2 with increasing fatigue and breathlessness"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT reassessment after 3 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks with blood tests, referral to palliative care team"
+      }
+    ]
+  }
+}

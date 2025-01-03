@@ -1,0 +1,73 @@
+{
+  "content": "I reviewed [redacted name] today who is now completing cycle 4 of concurrent chemoradiotherapy for his EBV-positive lymphoepithelioma-like carcinoma of the right lower lobe. He was diagnosed in January 2024 following investigation of persistent cough, with staging showing a T2aN1M0 tumor with high PD-L1 expression (95%). He commenced weekly cisplatin with radical radiotherapy (60Gy in 30 fractions) on March 15th 2024.\n\nHe has managed relatively well through treatment with expected grade 2 radiation esophagitis requiring regular oral analgesia and dietary modifications. His initial grade 2 fatigue has improved with reduced working hours and better sleep hygiene. Blood parameters remain stable with no concerning trends in renal function or hematology. His weight has stabilized at 72kg (down from 75kg pre-treatment) with dietetic support.\n\nHe continues to work part-time as an accountant and maintains good mobility despite the fatigue. His wife provides excellent support at home. His previous history of controlled type 2 diabetes remains stable on metformin.\n\nThe plan is to complete the final two weeks of concurrent chemoradiotherapy as scheduled. I have prescribed additional breakthrough analgesia for the esophagitis. We will arrange a post-treatment CT at 8 weeks and see him back in clinic with the results. I have also organized referral to the survivorship program given his excellent prognosis.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right lower lobe",
+      "year": 2024,
+      "month": 1,
+      "tnm_stage": "T2aN1M0",
+      "histopathology_status": "lymphoepithelioma-like carcinoma",
+      "biomarker_status": "EBV positive, PD-L1 95%",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial diagnosis following investigation of persistent cough",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started concurrent weekly cisplatin with radical radiotherapy 60Gy in 30 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completing cycle 4 of concurrent chemoradiotherapy with stable blood parameters",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes controlled on metformin"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 radiation esophagitis requiring regular analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 fatigue, improved with reduced working hours"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Working part-time as accountant, maintains good mobility"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage T2aN1M0 lung cancer undergoing concurrent chemoradiotherapy with good tolerance and maintaining function"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 radiation esophagitis and improved grade 2 fatigue"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with final two weeks of concurrent chemoradiotherapy as planned"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Post-treatment CT scan at 8 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review with CT results and referral to survivorship program"
+      }
+    ]
+  }
+}

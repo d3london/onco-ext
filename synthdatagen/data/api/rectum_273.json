@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis:\t\tRectal adenocarcinoma (T3N1M0)\n\nManagement:\t\tLong course chemoradiotherapy completed January 2024\n\t\tAnterior resection March 2024\n\nHistology:\t\tModerately differentiated mucinous adenocarcinoma\n\t\tHER2 positive, RAS wild-type\n\t\t3/12 lymph nodes positive\n\nCurrent Situation:\tPost-operative follow-up\n\n[redacted name] attended clinic today for routine post-operative review following anterior resection for locally advanced rectal cancer. She has made an excellent recovery from surgery with no ongoing complications. Her bowel function has normalized with 2-3 formed motions daily and good continence. Her surgical wounds have healed well and she reports no pain. Her appetite is good and weight stable at 72kg. She has resumed most normal activities including regular walking.\n\nOn examination today, her abdomen is soft and non-tender with well-healed laparoscopic port sites. Digital rectal examination shows a healthy anastomosis with no concerning features.\n\nWe have discussed surveillance plans. She will have a baseline CT chest/abdomen/pelvis in 3 months' time, followed by regular CEA monitoring. I will review her again in clinic with the scan results.",
+  "output": {
+    "primary_cancer": {
+      "site": "rectum",
+      "year": 2024,
+      "month": 1,
+      "metastases": "3/12 lymph nodes positive",
+      "tnm_stage": "T3N1M0",
+      "histopathology_status": "moderately differentiated mucinous adenocarcinoma",
+      "biomarker_status": "HER2 positive, RAS wild-type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Completed long course chemoradiotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Anterior resection performed",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "2-3 formed bowel motions daily with good continence"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Abdomen soft and non-tender with well-healed laparoscopic port sites"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Digital rectal examination shows healthy anastomosis with no concerning features"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Resumed most normal activities including regular walking"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced rectal cancer post anterior resection. Excellent post-operative recovery with normalized bowel function"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Completed surgical treatment with good recovery"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline CT chest/abdomen/pelvis in 3 months with CEA monitoring"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with scan results"
+      }
+    ]
+  }
+}

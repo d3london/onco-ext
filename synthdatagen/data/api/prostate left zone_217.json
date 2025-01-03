@@ -1,0 +1,83 @@
+{
+  "content": "I reviewed [redacted name] today in the prostate oncology clinic following recent disease progression. He was initially diagnosed with small cell prostate cancer in January 2024 following investigation of back pain, with biopsy confirming small cell carcinoma and elevated neuroendocrine markers. His initial PSA was only mildly elevated at 1.8 despite extensive disease. At diagnosis, imaging demonstrated widespread bone metastases throughout the axial skeleton and multiple liver metastases, the largest measuring 4.2cm in segment 7.\n\nHe commenced first-line carboplatin and etoposide chemotherapy in February 2024, completing 4 cycles. Initially, there was a good partial response with reduction in liver metastases and improvement in bone pain. However, recent CT performed on 15 May 2024 shows clear disease progression with new liver lesions and increase in size of existing metastases. His performance status has deteriorated from ECOG 1 to ECOG 3, now spending most of the day in bed due to fatigue and increasing bone pain requiring regular morphine.\n\nOn examination today, he is cachectic with obvious muscle wasting. There is tender hepatomegaly extending 4cm below the costal margin. Chest examination reveals reduced air entry at both bases with dullness to percussion, suggesting small pleural effusions. Blood tests show deteriorating liver function with bilirubin 45, ALT 156, ALP 445. His albumin has dropped to 28.\n\nI have had a detailed discussion with [redacted name] and his son about the rapid disease progression and poor prognosis. Given his deteriorating performance status and organ function, I do not feel that second-line chemotherapy would be appropriate or safe at this time. We have agreed to focus on symptom control, and I have made an urgent referral to the palliative care team. His morphine has been increased to MST 60mg BD with immediate release morphine for breakthrough pain. I have also prescribed dexamethasone 4mg BD to help with energy levels and appetite.\n\nHe will be reviewed by the palliative care team this week, and I have arranged follow-up in our supportive care clinic in 2 weeks' time. The acute oncology team are aware and will provide additional support as needed.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, left zone",
+      "year": 2024,
+      "month": 1,
+      "metastases": "widespread bone metastases throughout axial skeleton, multiple liver metastases",
+      "histopathology_status": "small cell carcinoma",
+      "biomarker_status": "PSA 1.8, elevated neuroendocrine markers",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Initial imaging shows widespread bone metastases and liver metastases, largest 4.2cm in segment 7",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin and etoposide chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial good partial response with reduction in liver metastases and improvement in bone pain",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows disease progression with new liver lesions and increase in existing metastases",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated to ECOG PS 3, spending most of day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing bone pain requiring regular morphine"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Severe fatigue"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with muscle wasting, tender hepatomegaly 4cm below costal margin, reduced air entry both bases with pleural effusions"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function - bilirubin 45, ALT 156, ALP 445, albumin 28"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Small cell prostate cancer with widespread metastases showing rapid progression after initial response to first-line chemotherapy. Now with clinical deterioration precluding further systemic therapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on CT with new liver lesions and growing existing metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy due to disease progression and poor performance status, switching to palliative approach"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status from ECOG 1 to ECOG 3 with increasing symptoms"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral made, follow-up in supportive care clinic in 2 weeks"
+      }
+    ]
+  }
+}

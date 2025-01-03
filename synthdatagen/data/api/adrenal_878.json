@@ -1,0 +1,93 @@
+{
+  "content": "I reviewed [redacted name] today in the adrenal cancer clinic following recent imaging. Unfortunately, his disease has shown significant progression despite two cycles of EDP-M (Etoposide, Doxorubicin, Cisplatin, and Mitotane). The latest CT performed on 15th April 2024 demonstrates enlargement of the primary right adrenal mass from 12.8cm to 14.5cm, with new satellite nodules. There is also progression of the pulmonary metastases with increase in size and number of nodules, largest now measuring 3.2cm compared to 2.1cm previously. The liver metastases remain stable in size but show increased enhancement. His urinary steroid profile continues to show markedly elevated levels of androgen precursors, consistent with ongoing hormonal activity of the tumor.\n\nHe reports worsening right-sided abdominal pain requiring increased doses of opioid analgesia, now on MST 60mg twice daily with oramorph breakthrough. His appetite has significantly decreased over the past three weeks with associated weight loss of 4kg. He is experiencing increasing fatigue, limiting his daily activities, and his performance status has declined from ECOG 1 to ECOG 3. He requires assistance with most activities of daily living and is now spending approximately 50% of the day in bed.\n\nOn examination today, there is marked right upper quadrant tenderness with a palpable mass extending 4cm below the costal margin. There is peripheral edema to the mid-calves bilaterally. Oxygen saturations are 94% on room air with reduced air entry at both bases.\n\nI have had a lengthy discussion with [redacted name] and his wife regarding the challenging situation we face. Given the clear evidence of disease progression and significant decline in his performance status, I do not feel that further systemic anti-cancer therapy would be appropriate or safe at this time. We have discussed focusing on symptom management and quality of life. I have referred him to our palliative care team for ongoing support and symptom control. They will arrange to see him at home this week.\n\nI have increased his dexamethasone to 4mg twice daily to help with appetite and energy levels. The district nurses will commence regular review, and I have arranged for urgent occupational therapy assessment at home for additional support equipment. We will continue monitoring his mitotane levels weekly and adjust the dose accordingly to maintain therapeutic levels while balancing side effects.\n\nHe will be reviewed again in our clinic in two weeks' time, sooner if needed. I have provided the acute oncology hotline number and discussed red flag symptoms that would warrant urgent review. His wife has my direct contact details should there be any concerns in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "adrenal, right",
+      "metastases": "pulmonary metastases, liver metastases",
+      "other_stage": "Stage IV",
+      "histopathology_status": "adrenocortical carcinoma",
+      "biomarker_status": "elevated urinary androgen precursors",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on EDP-M (Etoposide, Doxorubicin, Cisplatin, and Mitotane) regime",
+          "year": 2024
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows enlargement of primary right adrenal mass from 12.8cm to 14.5cm with new satellite nodules, progression of pulmonary metastases largest 3.2cm from 2.1cm, stable liver metastases with increased enhancement",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Urinary steroid profile shows markedly elevated androgen precursors",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuation of EDP-M due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, spending 50% of day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening right-sided abdominal pain requiring MST 60mg twice daily with oramorph breakthrough"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Decreased appetite with 4kg weight loss over past three weeks"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing fatigue limiting daily activities"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Right upper quadrant tenderness with palpable mass 4cm below costal margin"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Peripheral edema to mid-calves bilaterally"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Oxygen saturations 94% on room air with reduced air entry at both bases"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV adrenocortical carcinoma with progressive disease despite EDP-M chemotherapy. Significant clinical deterioration with worsening symptoms and declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on imaging with enlarging primary mass and pulmonary metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic anti-cancer therapy, increasing dexamethasone to 4mg twice daily"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration from ECOG PS 1 to PS 3, now requiring assistance with most activities"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral for home review this week, district nurse involvement, urgent OT assessment"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review in two weeks with weekly mitotane level monitoring"
+      }
+    ]
+  }
+}

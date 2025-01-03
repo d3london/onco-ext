@@ -1,0 +1,106 @@
+{
+  "content": "I reviewed [redacted name] today who attended with his wife following recent admission with progressive dysphagia and weight loss. As you know, he was diagnosed with a T4b N1 M1 adenosquamous carcinoma of the lower esophagus in January 2024 following investigation of progressive dysphagia. Initial staging demonstrated a 8.2cm primary tumor with invasion into the descending thoracic aorta, regional nodal disease, and three pulmonary metastases (largest 2.1cm in right lower lobe). Molecular testing showed p16 negativity and PDL1 CPS of 1.\n\nHe commenced first-line palliative chemotherapy with modified DCF (docetaxel, cisplatin, and 5-FU) on 15 February 2024. After two cycles, he developed grade 3 neutropenia requiring GCSF support and dose reduction. Following cycle 3, CT imaging on April 1st 2024 showed disease progression with increase in primary tumor size to 9.5cm and new pulmonary nodules. Treatment was discontinued at this point.\n\nHe was then switched to second-line FOLFIRI commenced on April 15th 2024, but unfortunately developed severe mucositis and diarrhea requiring hospital admission after the first cycle. Given his declining performance status (now ECOG 3) and treatment toxicity, we have had detailed discussions today about focusing on symptom control rather than further systemic therapy.\n\nHe reports worsening dysphagia now only managing liquids and nutritional supplements, with 12kg weight loss over 3 months (current weight 58kg). He has increasing retrosternal and back pain requiring regular opiates, and new onset cough particularly when lying flat. On examination, he appears cachectic with reduced chest expansion on the right side and dullness to percussion at the right base.\n\nI have explained that his cancer is unfortunately progressing despite treatment attempts, and we agreed to focus on supportive care. I have referred him to the palliative care team for urgent review of symptom control, particularly his pain and dysphagia. He will need urgent assessment for esophageal stent placement given the severity of his dysphagia. I have also arranged community palliative care involvement and referred to the dietetic team for nutritional support advice.\n\nWe will continue to support him in clinic but with flexible follow-up depending on his needs rather than fixed intervals. I have provided clear contact details for the acute oncology service if needed between appointments. His wife has my direct contact details for any urgent concerns.",
+  "output": {
+    "primary_cancer": {
+      "site": "esophagus, lower",
+      "year": 2024,
+      "month": 1,
+      "metastases": "pulmonary metastases, regional nodal disease",
+      "tnm_stage": "T4bN1M1",
+      "histopathology_status": "adenosquamous carcinoma",
+      "biomarker_status": "p16 negative, PDL1 CPS 1",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "8.2cm primary tumor with aortic invasion, regional nodes and three pulmonary metastases",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started modified DCF (docetaxel, cisplatin, and 5-FU)",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Developed grade 3 neutropenia requiring GCSF support and dose reduction",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with primary tumor increase to 9.5cm and new pulmonary nodules",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "DCF discontinued due to disease progression",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started second-line FOLFIRI",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Severe mucositis and diarrhea requiring hospital admission after first cycle",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Dysphagia only managing liquids and supplements"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Retrosternal and back pain requiring regular opiates"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset cough worse when lying flat"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with reduced chest expansion on right side and dullness at right base"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "12kg weight loss over 3 months, current weight 58kg"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced esophageal cancer with progression through two lines of chemotherapy. Significant clinical deterioration with severe dysphagia and pain"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Severe mucositis and diarrhea with FOLFIRI requiring hospital admission"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy and transitioning to supportive care focus"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant clinical deterioration with ECOG PS 3, severe dysphagia and weight loss"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team, dietetics, and for esophageal stent assessment"
+      }
+    ]
+  }
+}

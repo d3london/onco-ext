@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\nMetastatic sigmoid adenocarcinoma with peritoneal and liver metastases\nInitial staging T4bN2M1, NRAS Q61K and PIK3CA E542K mutations\n\nPrevious Treatment:\nJanuary 2024 - Emergency Hartmann's procedure\nFebruary-April 2024 - 4 cycles FOLFOX/Bevacizumab\nMay 2024 - Changed to FOLFIRI/Cetuximab due to oxaliplatin neuropathy\n\nCurrent medications:\nFOLFIRI/Cetuximab\nOndansetron 8mg prn\nLoperamide prn\nPregabalin 75mg bd for neuropathy\n\nAllergies:\nNone known\n\nCurrent situation:\nPre cycle 3 FOLFIRI/Cetuximab\n\nCT 15 June 2024 shows partial response with reduction in peritoneal disease and liver metastases\n\nTumor markers improving - CEA decreased from 450 to 180\n\nI reviewed [redacted name] today prior to cycle 3 FOLFIRI/Cetuximab. The previous cycles have been well tolerated with only grade 1 diarrhea managed with loperamide. The acneiform rash is improving with topical antibiotics. His appetite has improved significantly and weight has stabilized at 72kg. Oxaliplatin-induced neuropathy is gradually improving since switching regimens.\n\nExamination shows improving abdominal distension. Stoma is healthy and functioning well. Blood results are satisfactory for proceeding with treatment.\n\nThe plan is to continue with cycle 3 today. We will arrange CT assessment after cycle 4. Follow-up appointment in 2 weeks with blood tests. [redacted name] understands to contact us if any problems develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "sigmoid colon",
+      "year": 2024,
+      "month": 1,
+      "metastases": "peritoneal and liver metastases",
+      "tnm_stage": "T4bN2M1",
+      "histopathology_status": "mucinous adenocarcinoma",
+      "biomarker_status": "NRAS Q61K mutation; PIK3CA E542K mutation",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Emergency Hartmann's procedure",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFOX/Bevacizumab",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed to FOLFIRI/Cetuximab due to oxaliplatin neuropathy",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA decreased from 450 to 180",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows partial response with reduction in peritoneal disease and liver metastases",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "grade 1 diarrhea managed with loperamide"
+      },
+      {
+        "type": "current_symptom",
+        "value": "improving acneiform rash"
+      },
+      {
+        "type": "current_symptom",
+        "value": "gradually improving oxaliplatin-induced neuropathy"
+      },
+      {
+        "type": "examination_finding",
+        "value": "improving abdominal distension, healthy and functioning stoma"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic sigmoid cancer showing partial response to second-line FOLFIRI/Cetuximab with improving symptoms and tumor markers"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response with reduction in peritoneal disease and liver metastases on CT, CEA decreased from 450 to 180"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 diarrhea and improving acneiform rash"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with cycle 3 FOLFIRI/Cetuximab"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT assessment after cycle 4"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow-up appointment in 2 weeks with blood tests"
+      }
+    ]
+  }
+}

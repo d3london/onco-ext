@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis:\t\tVulval squamous cell carcinoma, p16 positive\n\nStage:\t\tT2N2M0 with bilateral inguinal nodal involvement\n\nTreatment:\t\tConcurrent chemoradiotherapy commenced 15 Jan 2024\n\t\tCisplatin 40mg/m2 weekly with IMRT 60Gy/30#\n\nCurrent Status:\tWeek 4 of treatment\n\n[redacted name] attended for week 4 review of concurrent chemoradiotherapy. Treatment has been well tolerated overall with grade 2 radiation dermatitis requiring regular Flamazine application. Blood parameters remain stable with latest creatinine 82, neutrophils 2.1. No ototoxicity reported. Performance status remains 1. Examination shows expected radiation changes but no evidence of disease progression. Latest weekly cisplatin proceeded at full dose.\n\nThe plan is to continue with concurrent chemoradiotherapy as scheduled. Radiotherapy is proceeding according to protocol with good compliance. We will review again next week with blood tests. Acute oncology team aware in case of complications.",
+  "output": {
+    "primary_cancer": {
+      "site": "vulva",
+      "year": 2024,
+      "month": 1,
+      "metastases": "bilateral inguinal nodal involvement",
+      "tnm_stage": "T2N2M0",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "p16 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started concurrent chemoradiotherapy with weekly cisplatin 40mg/m2",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Started IMRT 60Gy in 30 fractions",
+          "year": 2024,
+          "month": 1
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 radiation dermatitis requiring Flamazine"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Creatinine 82, neutrophils 2.1"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Expected radiation changes, no evidence of disease progression"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Vulval SCC with nodal involvement. Week 4 of concurrent chemoradiotherapy with good tolerance and stable disease."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 radiation dermatitis, no ototoxicity"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing weekly cisplatin at full dose with concurrent radiotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review with blood tests"
+      }
+    ]
+  }
+}

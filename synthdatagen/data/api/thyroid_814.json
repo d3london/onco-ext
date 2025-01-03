@@ -1,0 +1,110 @@
+{
+  "content": "I reviewed [redacted name] today who attended with his wife following recent disease progression. Unfortunately his medullary thyroid cancer has shown significant progression since our last review, particularly affecting his bone metastases and with new liver lesions appearing on the most recent imaging.\n\nTo recap, [redacted name] was initially diagnosed in September 2023 with locally advanced medullary thyroid carcinoma following investigation of a rapidly enlarging neck mass. Initial staging demonstrated a 6.8cm thyroid mass with extensive cervical lymphadenopathy and bone metastases in the thoracic spine. He underwent total thyroidectomy and central neck dissection on 15 October 2023, which confirmed a poorly differentiated medullary thyroid carcinoma with extensive extrathyroidal extension and 8/12 positive lymph nodes. His calcitonin at diagnosis was 850 pg/mL and CEA 125 ng/mL.\n\nHe commenced cabozantinib 60mg daily in November 2023 and initially showed good biochemical response with calcitonin falling to 320 pg/mL by January 2024. However, he developed significant palmar-plantar erythrodysesthesia requiring dose reduction to 40mg daily. Despite this, his most recent CT scan from 15 March 2024 shows progressive disease with new liver metastases and increasing size of known bone metastases. His latest calcitonin has risen to 1250 pg/mL and CEA to 180 ng/mL.\n\nHe reports worsening bone pain, particularly affecting his thoracic spine and right hip, requiring increased opiate analgesia. His mobility has declined significantly and he now requires a walking frame. His performance status has deteriorated to ECOG 2. He describes increasing fatigue, poor appetite, and has lost 6kg in weight over the past month despite nutritional supplements.\n\nOn examination today, he appears notably more frail than at our last review. There is tenderness over the thoracic spine and right hip. Liver span is increased to 16cm with some tenderness in the right upper quadrant. No focal neurological deficits are identified.\n\nI have discussed these findings in detail with [redacted name] and his wife. Given the clear evidence of disease progression on cabozantinib, I have recommended switching to second-line vandetanib. I have explained the potential benefits and side effects, particularly the risks of QT prolongation and the need for regular ECG monitoring. They understand this represents a challenging situation but wish to proceed with further treatment.\n\nI have arranged for him to start vandetanib 300mg daily and will see him again in two weeks for early toxicity assessment. I have increased his modified-release morphine to 60mg twice daily and added pregabalin 75mg twice daily for neuropathic pain. I have also referred him to our palliative care team for additional support with symptom management, and arranged an urgent MRI spine to exclude cord compression given his worsening mobility.\n\nWe will repeat CT imaging after 8 weeks of vandetanib to assess response. I have also arranged weekly blood tests including thyroid function, electrolytes, and liver function, with ECG monitoring prior to treatment start and at week 2.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2023,
+      "month": 9,
+      "metastases": "extensive cervical lymphadenopathy, thoracic spine bone metastases, new liver metastases",
+      "other_stage": "Stage IVB",
+      "histopathology_status": "poorly differentiated medullary thyroid carcinoma with extensive extrathyroidal extension",
+      "biomarker_status": "calcitonin 1250 pg/mL (previously 850 pg/mL), CEA 180 ng/mL (previously 125 ng/mL)",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "6.8cm thyroid mass with extensive cervical lymphadenopathy and bone metastases in thoracic spine",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "total thyroidectomy and central neck dissection showing 8/12 positive lymph nodes",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "commenced cabozantinib 60mg daily",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "calcitonin decreased to 320 pg/mL showing biochemical response",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "cabozantinib dose reduced to 40mg daily due to palmar-plantar erythrodysesthesia",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with new liver metastases and increasing bone metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "calcitonin increased to 1250 pg/mL and CEA to 180 ng/mL indicating disease progression",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "worsening bone pain affecting thoracic spine and right hip"
+      },
+      {
+        "type": "current_symptom",
+        "value": "increasing fatigue and poor appetite"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "requires walking frame, mobility significantly declined"
+      },
+      {
+        "type": "examination_finding",
+        "value": "tenderness over thoracic spine and right hip, increased liver span to 16cm with right upper quadrant tenderness"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Progressive metastatic medullary thyroid cancer with new liver metastases and worsening bone disease. Failed first-line cabozantinib due to disease progression"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on cabozantinib with rising tumor markers and new metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Developed palmar-plantar erythrodysesthesia on cabozantinib requiring dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Switching to second-line vandetanib 300mg daily"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in mobility requiring walking frame, weight loss of 6kg in past month"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to exclude cord compression, CT imaging in 8 weeks, weekly blood tests and ECG monitoring"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks for toxicity assessment, referred to palliative care team"
+      }
+    ]
+  }
+}

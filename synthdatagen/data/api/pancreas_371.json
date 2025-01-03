@@ -1,0 +1,69 @@
+{
+  "content": "Diagnosis:\nMetastatic pancreatic adenocarcinoma with liver metastases\nMET amplification positive on molecular profiling\n\nPrevious treatment:\nGemcitabine/Nab-paclitaxel - 6 cycles completed March 2024\nFOLFIRINOX - commenced April 2024\n\nCurrent medications:\nOndansetron 8mg bd\nDexamethasone 4mg bd on days 1-3 of chemotherapy\nCreon 25,000 units with meals\nOxycodone MR 30mg bd\n\nAllergies:\nNone known\n\nCurrent situation:\nCycle 4 FOLFIRINOX review\n\nI reviewed [redacted name] today prior to cycle 4 FOLFIRINOX. The previous cycle was complicated by grade 2 neutropenia requiring 1 week delay, but otherwise tolerating treatment well with good control of nausea and stable pain. Performance status remains 1. Latest CT shows stable disease in both pancreatic primary and liver metastases, with CA19-9 trending down from 1200 to 850.\n\nExamination shows no new concerns. Blood results today show improvement in neutrophils to 1.8, platelets stable at 156. Liver function remains within acceptable range for treatment.\n\nPlan to proceed with cycle 4 today at 80% dose for all agents given previous neutropenia. Will arrange CT reassessment after cycle 6. To continue with weekly blood tests and review again in 2 weeks pre cycle 5.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "metastases": "liver metastases",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "MET amplification positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Completed 6 cycles of Gemcitabine/Nab-paclitaxel",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced FOLFIRINOX",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 trending down from 1200 to 850"
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "One week delay due to grade 2 neutropenia"
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable disease in both pancreatic primary and liver metastases"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Neutrophils 1.8, platelets 156, liver function within acceptable range"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic cancer with stable disease on FOLFIRINOX, managing treatment despite neutropenia"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 neutropenia requiring 1 week delay"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 4 FOLFIRINOX at 80% dose for all agents"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT reassessment after cycle 6, weekly blood tests"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks pre cycle 5"
+      }
+    ]
+  }
+}

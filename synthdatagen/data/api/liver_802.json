@@ -1,0 +1,95 @@
+{
+  "content": "Diagnosis:\t\tHepatocellular carcinoma with portal vein invasion\n\nManagement:\t\tSorafenib commenced March 2024, discontinued April 2024 due to toxicity\n\t\tLenvatinib commenced May 2024\n\nDisease Status:\tBCLC Stage C\n\t\tAFP rising from 28000 to 42000 over 6 weeks\n\t\tCT 15/05/24 shows progressive disease with new satellite lesions\n\nCurrent Situation:\tSeen today following admission with grade 3 hand-foot syndrome and deteriorating liver function. Performance status now ECOG 2. Total bilirubin has risen to 52, ALT 156, albumin 28. INR 1.4. Child-Pugh score now B8. Significant weight loss of 6kg over 8 weeks. Moderate volume ascites requiring regular paracentesis. Portal vein thrombosis stable but extensive.\n\nPlan:\t\tDiscontinue Lenvatinib due to clinical deterioration and liver dysfunction. Referred to palliative care team. Weekly monitoring of liver function. Arrange hospice assessment. Follow up in 2 weeks with repeat AFP.\n",
+  "output": {
+    "primary_cancer": {
+      "site": "liver",
+      "year": 2024,
+      "histopathology_status": "hepatocellular carcinoma",
+      "metastases": "portal vein invasion",
+      "other_stage": "BCLC Stage C",
+      "biomarker_status": "AFP rising from 28000 to 42000",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced on Sorafenib",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued Sorafenib due to toxicity",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced on Lenvatinib",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "AFP rising from 28000 to 42000 over 6 weeks",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with new satellite lesions",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinue Lenvatinib due to clinical deterioration and liver dysfunction",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Total bilirubin 52, ALT 156, albumin 28, INR 1.4, Child-Pugh B8"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Moderate volume ascites requiring regular paracentesis"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Weight loss of 6kg over 8 weeks"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced hepatocellular carcinoma with portal vein invasion showing disease progression. Failed two lines of targeted therapy due to toxicity and clinical deterioration"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 hand-foot syndrome with deteriorating liver function"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing Lenvatinib due to clinical deterioration and liver dysfunction"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deteriorating performance status with worsening liver function and ascites"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to palliative care team and arrange hospice assessment"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Weekly monitoring of liver function and repeat AFP in 2 weeks"
+      }
+    ]
+  }
+}

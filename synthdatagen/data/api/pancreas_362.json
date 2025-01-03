@@ -1,0 +1,98 @@
+{
+  "content": "Diagnosis:\tMetastatic pancreatic adenocarcinoma with liver and lung metastases, diagnosed January 2024\n\nI reviewed [redacted name] today for assessment during cycle 4 FOLFIRINOX chemotherapy. The initial CT from 15/1/24 showed a 4.8cm pancreatic body mass with multiple liver metastases and bilateral pulmonary nodules. Molecular profiling identified RNF43 mutation. Following MDT discussion, she commenced FOLFIRINOX on 1/2/24.\n\nShe has tolerated treatment relatively well with manageable toxicities. Grade 2 fatigue persists but has not worsened. Neuropathy remains grade 1 affecting fingertips only. Her main challenge is intermittent nausea, now better controlled with additional prochlorperazine. Performance status remains 1.\n\nRecent CT scan on 15/4/24 shows stable disease by RECIST criteria with minor shrinkage of the pancreatic primary (4.8cm to 4.2cm) and stable appearance of liver and lung metastases. CA19-9 has decreased from 1200 to 850.\n\nOn examination today, she is comfortable at rest. Abdomen is soft with mild epigastric tenderness but no masses. Blood results show stable liver function and adequate marrow reserve for continued treatment.\n\nThe plan is to proceed with cycle 5 FOLFIRINOX at current doses. We will arrange CT reassessment after cycle 6. Follow-up appointment in 2 weeks with blood tests.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas, body",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple liver metastases, bilateral pulmonary nodules",
+      "tnm_stage": "T4N1M1",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "RNF43 mutation",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 4.8cm pancreatic body mass with multiple liver metastases and bilateral pulmonary nodules",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Initial CA19-9 1200",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows reduction in pancreatic primary from 4.8cm to 4.2cm with stable liver and lung metastases",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 decreased to 850",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 neuropathy affecting fingertips"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Intermittent nausea"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Abdomen soft with mild epigastric tenderness but no masses"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable liver function and adequate marrow reserve"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic cancer showing stable disease on FOLFIRINOX with manageable toxicities"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease by RECIST with minor shrinkage of pancreatic primary and stable metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 fatigue, grade 1 neuropathy, and controlled nausea with additional antiemetics"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing FOLFIRINOX at current doses"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT reassessment after cycle 6"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow-up appointment in 2 weeks with blood tests"
+      }
+    ]
+  }
+}

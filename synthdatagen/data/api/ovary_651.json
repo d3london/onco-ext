@@ -1,0 +1,112 @@
+{
+  "content": "Diagnosis\n\t1. High grade serous carcinoma of ovary, FIGO Stage IIIB\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Diagnostic laparoscopy and biopsies\n\n\tChemotherapy\n\t1. Carboplatin/Paclitaxel - 3 cycles completed March 2024\n\t2. Gemcitabine/Carboplatin - commenced April 2024\n\n\tClinical studies\n\tNone - BRCA2 variant of uncertain significance identified\n\n\tCurrent disease status\n\tProgressive disease with deteriorating performance status\n\n\tCurrent issues\n\tAscites requiring regular drainage\nMalignant bowel obstruction\nPoor oral intake\nDeterioration in mobility\n\n\tSummary of consultation\n\nI reviewed [redacted name] today who attended with her daughter. Unfortunately, she has experienced significant clinical deterioration over the past three weeks. Following the identification of disease progression on CT imaging in late March 2024, we switched to second-line chemotherapy with weekly Gemcitabine/Carboplatin. However, she has only managed one cycle due to declining performance status.\n\nShe now requires assistance with most activities of daily living and is spending approximately 70% of the day in bed or resting (WHO PS 3). Her main symptoms are progressive abdominal distension requiring weekly paracentesis, early satiety, and intermittent colicky abdominal pain suggesting partial bowel obstruction. She has lost a further 4kg in weight despite nutritional supplements.\n\nCT imaging from last week shows increasing omental disease with new liver surface deposits and moderate volume ascites. CA125 has risen from 450 to 1200 over the past month.\n\nAfter careful discussion with [redacted name] and her daughter, we have agreed that further systemic anti-cancer therapy would carry significant risks with limited potential benefit given her declining performance status. We have therefore made the decision to focus on symptom management and quality of life.\n\n\tFurther investigations\n\tNone planned\n\n\tMedication prescribed\n\tDexamethasone 4mg daily\nCyclizine 50mg TDS\nOxycodone MR 20mg BD\n\n\tFollow up\n\tReferral made to palliative care team for urgent review\nWeekly paracentesis as required\nTelephone review by CNS in one week\n\n\tRequired GP actions\n\tPlease support palliative care referral\nPrescribe anticipatory medications as recommended by palliative care team",
+  "output": {
+    "primary_cancer": {
+      "site": "ovary",
+      "year": 2024,
+      "month": 1,
+      "metastases": "omental disease, liver surface deposits, malignant ascites",
+      "other_stage": "FIGO Stage IIIB",
+      "histopathology_status": "High grade serous carcinoma",
+      "biomarker_status": "BRCA2 variant of uncertain significance",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Diagnostic laparoscopy and biopsies",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started first-line Carboplatin/Paclitaxel chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 3 cycles of Carboplatin/Paclitaxel",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Disease progression identified on CT imaging",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started second-line weekly Gemcitabine/Carboplatin",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA125 risen from 450 to 1200",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows increasing omental disease with new liver surface deposits and moderate volume ascites",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Decision to discontinue systemic therapy due to declining performance status",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "WHO PS 3, spending 70% of day in bed or resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Progressive abdominal distension requiring weekly paracentesis"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety and intermittent colicky abdominal pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Malignant bowel obstruction"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires assistance with most activities of daily living"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "4kg weight loss despite nutritional supplements"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIB ovarian cancer with progressive disease after first-line chemotherapy. Significant clinical deterioration with transition to palliative care due to poor performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on imaging with rising CA125 and clinical deterioration"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy and transitioning to palliative care focus"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status to WHO PS 3"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care referral made, weekly paracentesis as needed, CNS telephone review in one week"
+      }
+    ]
+  }
+}

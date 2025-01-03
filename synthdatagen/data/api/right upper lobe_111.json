@@ -1,0 +1,69 @@
+{
+  "content": "Diagnosis:\tT3N1M0 squamous cell carcinoma right upper lobe lung\n\nI reviewed [redacted name] today following cycle 3 of pembrolizumab monotherapy. He has shown excellent tolerance of treatment with only mild fatigue and occasional dry cough. His initial chest pain has completely resolved and he reports improved exercise tolerance, now able to walk for 30 minutes without stopping.?\n?\nCT scan performed last week shows encouraging partial response with reduction in the primary mass from 6.5cm to 4.2cm and reduction in mediastinal nodes. No new sites of disease identified.?\n?\nBlood tests today show stable renal function and normal liver function. His inflammatory markers have normalized.?\n?\nOn examination, his performance status remains 1. Chest examination reveals improved air entry in the right upper zone compared to previous visits. No peripheral edema or concerning new findings.?\n?\nThe plan is to continue with pembrolizumab as per protocol. He will have cycle 4 today and we will see him again in 3 weeks with blood tests. CT scan will be repeated after cycle 6 to assess response.?\n?\nHe understands to contact us if he develops any new symptoms or concerns in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right upper lobe",
+      "tnm_stage": "T3N1M0",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "PD-L1 100%",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Initial primary mass measuring 6.5cm with mediastinal nodes"
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on pembrolizumab monotherapy"
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows reduction in primary mass to 4.2cm and reduction in mediastinal nodes"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild fatigue and occasional dry cough"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Improved air entry in right upper zone, no peripheral edema"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function, normal liver function, normalized inflammatory markers"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Right upper lobe lung cancer showing good partial response to pembrolizumab with improving symptoms"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response with reduction in primary mass from 6.5cm to 4.2cm and reduction in mediastinal nodes"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild fatigue only"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with pembrolizumab, proceeding with cycle 4"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan after cycle 6 to assess response"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks with blood tests"
+      }
+    ]
+  }
+}

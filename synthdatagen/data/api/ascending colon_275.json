@@ -1,0 +1,91 @@
+{
+  "content": "Diagnosis\n\t1. Ascending colon adenocarcinoma, ypT3N0M0\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Mar 2024 Right hemicolectomy\n\n\tChemotherapy\n\tNeoadjuvant FOLFOX completed Feb 2024\n\n\tClinical studies\n\tPRECISION-Panc umbrella study - Arm C (Copanlisib)\n\n\tCurrent disease status\n\tNo evidence of disease\n\n\tCurrent issues\n\tGrade 3 hyperglycemia, Grade 2 hypertension\n\n\tSummary of consultation\n\tReviewed today on cycle 3 of trial medication. Blood pressure remains elevated at 158/95 despite increased amlodipine. Random glucose 13.2 mmol/L requiring temporary suspension of trial medication. Performance status remains 1. No other toxicities noted. CT scan performed last week shows no evidence of recurrence.\n\n\tFurther investigations\n\tDaily glucose monitoring\nWeekly BP checks\nRepeat CT in 6 weeks as per protocol\n\n\tMedication prescribed\n\tAmlodipine increased to 10mg daily\nMetformin 500mg bd started\n\n\tFollow up\n\tNext trial assessment in 2 weeks with protocol-mandated blood tests\nWeekly BP checks with trial nurse\n\n\tRequired GP actions\n\tMonitor blood pressure and glucose. Alert trial team if systolic BP >160 or glucose >15",
+  "output": {
+    "primary_cancer": {
+      "site": "ascending colon",
+      "year": 2024,
+      "month": 1,
+      "tnm_stage": "ypT3N0M0",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "KRAS G12V mutation; PIK3CA E542K",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced neoadjuvant FOLFOX chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed neoadjuvant FOLFOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Right hemicolectomy performed",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in PRECISION-Panc umbrella study - Arm C (Copanlisib)",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Trial medication temporarily suspended due to grade 3 hyperglycemia",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of recurrence",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Elevated blood pressure 158/95"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Hyperglycemia with random glucose 13.2 mmol/L"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT scan shows no evidence of recurrence"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Post-operative colon cancer patient on PRECISION-Panc trial. Currently experiencing trial medication toxicity requiring dose interruption"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 hyperglycemia and Grade 2 hypertension"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Trial medication temporarily suspended due to hyperglycemia"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat CT in 6 weeks as per protocol, daily glucose monitoring, weekly BP checks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Trial assessment in 2 weeks with protocol-mandated blood tests"
+      }
+    ]
+  }
+}

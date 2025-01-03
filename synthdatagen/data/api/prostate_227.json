@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis:\nProstate adenocarcinoma (mucinous variant)\nT2b N0 M0\nDiagnosed March 2023\nInitial PSA 7.8\n\nPrevious Treatment:\nRadical prostatectomy April 2023\nNo adjuvant therapy required\n\nCurrent Situation:\nRoutine follow-up\nPSA remains undetectable (<0.01)\n\nCurrent medications:\nNone cancer-related\n\nI reviewed [redacted name] in follow-up clinic today. He continues to do well following his radical prostatectomy last year. His urinary continence has fully recovered and he reports good erectile function with PDE5 inhibitors. His latest PSA remains undetectable at <0.01 ng/mL.\n\nExamination shows well-healed surgical scars. Digital rectal examination reveals no abnormalities.\n\nThe plan is to continue PSA surveillance. I have arranged his next PSA check in 3 months' time with clinic review to follow. He understands to contact us sooner if he develops any new concerns.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate",
+      "year": 2023,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "T2bN0M0",
+      "histopathology_status": "mucinous adenocarcinoma",
+      "biomarker_status": "Initial PSA 7.8, PTEN intact",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial PSA 7.8",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Radical prostatectomy",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA undetectable (<0.01 ng/mL)",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical scars, normal digital rectal examination"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Good erectile function with PDE5 inhibitors"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Full recovery of urinary continence"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Post-prostatectomy for T2b mucinous adenocarcinoma. Maintaining undetectable PSA with good functional recovery"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "PSA remains undetectable (<0.01 ng/mL)"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "PSA check in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review following PSA check"
+      }
+    ]
+  }
+}

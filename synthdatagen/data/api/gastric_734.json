@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis:\t\tGastric adenocarcinoma, intestinal type\n\nManagement:\t\tTotal gastrectomy 15 Jan 2024\n\t\tAdjuvant CAPOX-Trastuzumab completed March 2024\n\nHistology:\t\tpT2N0M0, HER2 positive (3+)\n\nCurrent Situation:\tFirst surveillance review\n\n[redacted name] attended clinic today for first surveillance review following completion of adjuvant chemotherapy. She has recovered well from her treatment with good energy levels and is now back at work part-time. Her weight has stabilized at 62kg and she is managing a normal diet with small frequent meals as advised by the dietitian. No concerning symptoms reported. Blood tests show stable parameters with normal tumour markers. The plan is to continue 3-monthly Trastuzumab until January 2025 and arrange surveillance CT in 3 months' time. We will review her again following the scan.",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "pT2N0M0",
+      "other_stage": null,
+      "histopathology_status": "intestinal type adenocarcinoma",
+      "biomarker_status": "HER2 positive (3+)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total gastrectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant CAPOX-Trastuzumab",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed CAPOX component of adjuvant therapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Normal tumour markers",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "quality_of_life_finding",
+        "value": "Back at work part-time"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood tests show stable parameters with normal tumour markers"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "First surveillance review following completed adjuvant CAPOX-Trastuzumab for early stage gastric cancer. Good recovery from treatment with stable weight and normal diet tolerance."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing 3-monthly Trastuzumab until January 2025"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance CT in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review following CT scan"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "content": "Diagnosis:\nMetastatic undifferentiated carcinoma of unknown primary origin\n\nPrevious treatment:\nCompleted 6 cycles carboplatin/etoposide March-August 2023\n\nCurrent medications:\nDexamethasone 4mg daily\nZolendronic acid monthly\nOxycodone MR 20mg BD\n\nAllergies:\nNone known\n\nCurrent situation:\nEnd of treatment review following completion of first-line chemotherapy\n\nI reviewed [redacted name] today following completion of 6 cycles carboplatin/etoposide. The treatment was generally well tolerated with only grade 1-2 fatigue and occasional nausea. CT scan on 15/8/23 shows stable disease in liver metastases and no new sites of disease. Bone scan confirms stable appearances of skeletal metastases. Performance status remains 1.\n\nSymptoms are currently well controlled on current analgesic regime. Mobility has improved with physiotherapy input and bone pain is significantly better following radiotherapy and ongoing bisphosphonates.\n\nThe plan is for regular surveillance with 3-monthly CT scans and clinic review. First follow-up arranged for November 2023 with CT scan beforehand. [redacted name] understands to contact us sooner if new symptoms develop. Written information provided regarding signs/symptoms that should prompt earlier review.",
+  "output": {
+    "primary_cancer": {
+      "site": "unknown primary",
+      "year": 2023,
+      "metastases": "bone and liver metastases",
+      "other_stage": "Stage IV",
+      "histopathology_status": "undifferentiated carcinoma",
+      "biomarker_status": "TTF1 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/etoposide chemotherapy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles carboplatin/etoposide",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows stable disease in liver metastases and no new sites of disease",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Bone scan confirms stable appearances of skeletal metastases",
+          "year": 2023,
+          "month": 8
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Bone pain - improved and well controlled on current analgesics"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Improved mobility following physiotherapy input"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic undifferentiated carcinoma with stable disease following completion of first-line chemotherapy. Symptoms well controlled."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1-2 fatigue and occasional nausea during chemotherapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on CT and bone scan with symptom improvement"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan arranged for November 2023"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review in November 2023 with 3-monthly follow-up plan"
+      }
+    ]
+  }
+}

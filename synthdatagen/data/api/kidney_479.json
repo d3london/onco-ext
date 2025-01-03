@@ -1,0 +1,61 @@
+{
+  "content": "I was pleased to review [redacted name] in follow-up clinic today. He is now 18 months post right partial nephrectomy for a T1bN0M0 clear cell renal cell carcinoma. The original tumor measured 5.2cm and surgical margins were clear. Molecular testing showed VHL wild type status.\n\nHe remains well with no concerning symptoms. His surgical scars have healed well and he has maintained his pre-operative weight and activity levels. Blood pressure is well controlled at 132/78mmHg. Recent blood tests show stable renal function with creatinine 98 umol/L. His chest x-ray from last week shows no evidence of metastatic disease.\n\nI have explained that his disease remains under good control with no evidence of recurrence. We will arrange his next surveillance CT chest/abdomen/pelvis for 6 months' time, and see him back in clinic with the results. He understands to contact us sooner if he develops any new symptoms of concern.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right",
+      "histopathology_status": "clear cell renal cell carcinoma",
+      "tnm_stage": "T1bN0M0",
+      "other_stage": "Stage I",
+      "biomarker_status": "VHL wild type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right partial nephrectomy, 5.2cm tumor with clear margins",
+          "month": null,
+          "year": null
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "VHL wild type status confirmed on molecular testing",
+          "month": null,
+          "year": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Chest x-ray shows no evidence of metastatic disease",
+          "month": null,
+          "year": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Blood pressure 132/78mmHg"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function with creatinine 98 umol/L"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Maintained pre-operative weight and activity levels"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage I clear cell renal cell carcinoma post partial nephrectomy. No evidence of recurrence at 18 months post-surgery"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance CT chest/abdomen/pelvis in 6 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with CT results"
+      }
+    ]
+  }
+}

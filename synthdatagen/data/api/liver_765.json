@@ -1,0 +1,92 @@
+{
+  "content": "Diagnosis\n\t1. Combined hepatocellular-cholangiocarcinoma with extensive metastatic disease\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNot appropriate due to extent of disease\n\n\tSystemic therapy\n\t1. Atezolizumab-Bevacizumab combination - discontinued after 2 cycles due to clinical progression\n\t2. GEMCIS (Gemcitabine-Cisplatin) - discontinued after 3 cycles due to deteriorating performance status\n\n\tClinical studies\n\tNot eligible\n\n\tCurrent disease status\n\tProgressive disease with clinical deterioration\n\n\tCurrent issues\n\t1. Worsening bone pain\n\t2. Increasing dyspnoea\n\t3. Deteriorating liver function\n\t4. Malnutrition\n\n\tSummary of consultation\n\tThis 58-year-old gentleman has unfortunately shown continued clinical deterioration despite two lines of systemic therapy. His initial presentation in January 2024 revealed a 12cm hepatic mass with satellite lesions, multiple bone metastases, and bilateral pulmonary nodules. Biopsy confirmed combined hepatocellular-cholangiocarcinoma with high PD-L1 expression (CPS 80). Initial AFP was markedly elevated at 12,000.\n\nDespite initial treatment with Atezolizumab-Bevacizumab, he showed clinical progression after 2 cycles with worsening bone pain and new pulmonary nodules. Second-line GEMCIS was attempted but discontinued after 3 cycles due to significant clinical deterioration.\n\nOn review today, his performance status has declined to ECOG 3. He requires oxygen 3L/min at rest. Examination reveals increased hepatomegaly with early ascites, decreased chest air entry bilaterally, and tender spine with reduced mobility. Latest blood tests show deteriorating synthetic liver function with albumin 28, bilirubin 45, and rising AFP now at 28,000.\n\n\tFurther investigations\n\tNot appropriate given clinical deterioration\n\n\tMedication prescribed\n\t1. Increased MST to 60mg BD\n\t2. Added Dexamethasone 4mg BD\n\t3. Started Spironolactone 100mg OD for ascites\n\n\tFollow up\n\tUrgent referral to palliative care team\n\tWeekly community palliative care review\n\n\tRequired GP actions\n\tPlease monitor liver function and arrange community nursing support\n\tConsider hospital admission if symptoms deteriorate significantly\n\n\tSummary of information given to patient\n\tDiscussed that cancer is progressing despite treatment attempts. Focus now on symptom management and quality of life. Explained palliative care referral and increased pain medication.",
+  "output": {
+    "primary_cancer": {
+      "site": "liver",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple bone metastases, bilateral pulmonary nodules",
+      "tnm_stage": "T3N1M1",
+      "histopathology_status": "combined hepatocellular-cholangiocarcinoma",
+      "biomarker_status": "AFP 12,000, PD-L1 CPS 80",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "12cm hepatic mass with satellite lesions, multiple bone metastases, and bilateral pulmonary nodules",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Initial AFP markedly elevated at 12,000",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Atezolizumab-Bevacizumab combination therapy"
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued Atezolizumab-Bevacizumab after 2 cycles due to clinical progression with worsening bone pain and new pulmonary nodules"
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started second-line GEMCIS (Gemcitabine-Cisplatin)"
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued GEMCIS after 3 cycles due to significant clinical deterioration"
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Rising AFP now at 28,000 with deteriorating liver function"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Requires oxygen 3L/min at rest"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Increased hepatomegaly with early ascites, decreased chest air entry bilaterally, and tender spine with reduced mobility"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating synthetic liver function with albumin 28, bilirubin 45"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced hepatocellular-cholangiocarcinoma with widespread metastases showing progression despite two lines of therapy. Significant clinical deterioration with worsening liver function and increasing symptom burden"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with clinical deterioration and rising tumor markers"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued all systemic therapy due to clinical deterioration, transitioning to palliative care"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with increasing oxygen requirements and reduced mobility"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team with weekly community palliative care review"
+      }
+    ]
+  }
+}

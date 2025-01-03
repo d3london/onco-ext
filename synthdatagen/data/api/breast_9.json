@@ -1,0 +1,58 @@
+{
+  "content": "Diagnosis:\tLeft breast medullary carcinoma\n\nManagement:\t12 Apr 2024 Wide local excision and sentinel lymph node biopsy\n\nHistology:\tGrade 3 medullary carcinoma, 1.8cm, pT1cN0(0/2)M0\n\t\tTILs 80%, PDL1 positive (CPS 90)\n\t\tER/PR negative, HER2 negative\n\nCurrent Situation:\tPost-operative review prior to adjuvant therapy\n\n[redacted name] is a 42-year-old lady who underwent breast conserving surgery following diagnosis of a left breast cancer. The surgery was uncomplicated and she has recovered well with good wound healing. Her arm mobility is now back to normal and she has no ongoing pain issues.\n\nThe histology confirms a triple negative medullary carcinoma with high TILs and PDL1 expression. Given these features, I have recommended adjuvant chemotherapy with 4 cycles of AC followed by 12 weeks of weekly paclitaxel. She understands the aims of treatment and the common side effects which we discussed in detail.\n\nWe will proceed with chemotherapy port insertion next week and commence treatment the following week. She will be reviewed regularly during chemotherapy and have a mammogram arranged for 6 months post completion of all treatment?\n",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2024,
+      "month": 4,
+      "metastases": "",
+      "tnm_stage": "pT1cN0M0",
+      "other_stage": "",
+      "histopathology_status": "Grade 3 medullary carcinoma, 1.8cm",
+      "biomarker_status": "TILs 80%, PDL1 positive (CPS 90), ER/PR negative, HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy, uncomplicated",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirms Grade 3 medullary carcinoma, pT1cN0(0/2)M0, TILs 80%, PDL1 positive",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "No ongoing pain issues"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Normal arm mobility, good wound healing"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage triple negative medullary breast cancer post successful surgery. Planning to commence adjuvant chemotherapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan for adjuvant chemotherapy with 4 cycles AC followed by 12 weeks weekly paclitaxel"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Mammogram to be arranged for 6 months post completion of treatment"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Chemotherapy port insertion next week, regular review during chemotherapy"
+      }
+    ]
+  }
+}

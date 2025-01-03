@@ -1,0 +1,81 @@
+{
+  "content": "Diagnosis:\nEndometrial clear cell carcinoma stage IIIA (pT3aN1M0)\nMLH1 loss on immunohistochemistry, ARID1A mutation detected\n\nPrevious Treatment:\nTotal abdominal hysterectomy and bilateral salpingo-oophorectomy with pelvic lymphadenectomy 15 Jan 2024\nCompleted 3 cycles carboplatin/paclitaxel with bevacizumab\n\nCurrent Status:\nStable disease on imaging\nCA125 trending down from 145 to 68\n\nCurrent medications:\nOndansetron 8mg prn\nDexamethasone 8mg pre-chemotherapy\nAprepitant protocol\n\nAllergies:\nNone known\n\nI reviewed [redacted name] today following cycle 3 of combination chemotherapy. She has experienced increasing peripheral neuropathy affecting both hands and feet, now grade 2 severity with functional impact on fine motor tasks. She reports pins and needles sensation extending to mid-forearms and difficulty with buttons and writing. She has also developed grade 2 fatigue requiring afternoon rest periods, though maintains reasonable activity levels in the morning.\n\nOn examination, there is reduced vibration sense to the ankles bilaterally and altered light touch sensation to the fingertips. No motor deficit is identified. Performance status remains 1.\n\nGiven the early onset of significant neuropathy, I have discussed with [redacted name] the need to modify her treatment regimen. We will discontinue paclitaxel and continue with single agent carboplatin plus bevacizumab. I have explained this still represents curative intent therapy but aims to prevent further neurological deterioration.\n\nThe plan is to proceed with cycle 4 next week using carboplatin AUC 5 and bevacizumab 15mg/kg. We will monitor her neuropathy symptoms closely and have provided written information about neuropathy management. CT scan is booked for assessment after cycle 6. Review in 3 weeks with blood tests.",
+  "output": {
+    "primary_cancer": {
+      "site": "endometrium",
+      "year": 2024,
+      "month": 1,
+      "metastases": "pelvic lymph nodes",
+      "tnm_stage": "pT3aN1M0",
+      "other_stage": "Stage IIIA",
+      "histopathology_status": "clear cell carcinoma",
+      "biomarker_status": "MLH1 loss on immunohistochemistry, ARID1A mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total abdominal hysterectomy and bilateral salpingo-oophorectomy with pelvic lymphadenectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/paclitaxel with bevacizumab",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA125 trending down from 145 to 68",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing paclitaxel due to grade 2 peripheral neuropathy, continuing carboplatin and bevacizumab",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 peripheral neuropathy affecting hands and feet with reduced vibration sense and altered light touch sensation"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 fatigue requiring afternoon rest periods"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced vibration sense to ankles bilaterally, altered light touch sensation to fingertips, no motor deficit"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIA endometrial clear cell carcinoma showing stable disease but treatment complicated by significant peripheral neuropathy requiring modification of chemotherapy regimen"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 peripheral neuropathy affecting fine motor function and grade 2 fatigue"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Changing to single agent carboplatin AUC 5 with bevacizumab 15mg/kg, discontinuing paclitaxel"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan booked after cycle 6"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks with blood tests"
+      }
+    ]
+  }
+}

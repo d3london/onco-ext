@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\tAnaplastic thyroid carcinoma, T4bN1M1\n\nManagement:\tDiagnosed March 2024 via FNA and core biopsy\n\tEmergency tracheostomy 15 March 2024 for airway compromise\n\nHistology:\tAnaplastic thyroid carcinoma with TP53 mutation\n\nCurrent Situation:\tInitial oncology assessment\n\nI reviewed [redacted name] today who has unfortunately been diagnosed with advanced anaplastic thyroid carcinoma. She initially presented to ENT services in early March with a 6-week history of rapidly enlarging neck mass, progressive dysphagia, and increasing shortness of breath. She required emergency admission on 15 March 2024 with stridor, necessitating urgent tracheostomy.\n\nImaging shows a 12cm thyroid mass extending into the mediastinum with extensive local invasion, multiple pulmonary metastases up to 3cm, and widespread bone metastases including the thoracic spine and left hip. Molecular testing has identified a TP53 mutation.\n\nHer symptoms have progressed significantly over the past month. She now reports severe neck pain requiring regular oxycodone, ongoing difficulty swallowing even liquids, and increasing fatigue. Her weight has dropped by 9kg. Her performance status has deteriorated to ECOG 3.\n\nIn her background, she has well-controlled hypertension and type 2 diabetes. Current medications include regular oxycodone 20mg bd, insulin, amlodipine, and metformin. She lives with her husband who provides excellent support, though they are both struggling with the rapid progression of her condition.\n\nGiven the aggressive nature of her disease and poor performance status, I have had a detailed discussion about prognosis and treatment options. While the outlook is very challenging, she wishes to consider systemic therapy. I have explained the role of weekly paclitaxel and the possibility of concurrent radiotherapy if she stabilizes. We have discussed the significant risks of treatment in her current condition.\n\nI have arranged urgent CT chest/abdomen/pelvis for formal baseline assessment, booked her for weekly paclitaxel to start next week pending blood results, and made an urgent referral to palliative care for symptom management. She will be reviewed twice weekly initially given the complexity of her situation. I have also arranged urgent radiotherapy assessment for consideration of palliative radiotherapy to the neck mass.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 3,
+      "metastases": "multiple pulmonary metastases, widespread bone metastases including thoracic spine and left hip",
+      "tnm_stage": "T4bN1M1",
+      "histopathology_status": "anaplastic thyroid carcinoma",
+      "biomarker_status": "TP53 mutation",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial presentation with rapidly enlarging neck mass, progressive dysphagia, and increasing shortness of breath",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Emergency tracheostomy for airway compromise",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "FNA and core biopsy confirms anaplastic thyroid carcinoma",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "12cm thyroid mass extending into mediastinum with extensive local invasion, multiple pulmonary metastases up to 3cm, and widespread bone metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Molecular testing identifies TP53 mutation",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Severe neck pain requiring regular oxycodone"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Difficulty swallowing even liquids"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing fatigue"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Well-controlled hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed aggressive anaplastic thyroid cancer with widespread metastases. Rapid clinical deterioration with poor performance status requiring emergency tracheostomy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence weekly paclitaxel pending blood results"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent CT chest/abdomen/pelvis for baseline assessment"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Twice weekly oncology review, urgent palliative care referral, urgent radiotherapy assessment"
+      }
+    ]
+  }
+}

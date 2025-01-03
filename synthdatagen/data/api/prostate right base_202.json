@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\nProstate adenocarcinoma, right base\nT2a N0 M0, Gleason 3+3=6\nInitial PSA 4.8 ng/mL (January 2024)\n\nPrevious Treatment:\nRadical prostate radiotherapy completed March 2024\n74Gy in 37 fractions using VMAT technique\n\nCurrent Situation:\nRoutine follow-up at 3 months post-radiotherapy\n\nCurrent PSA 1.2 ng/mL (stable)\n\nI reviewed [redacted name] in follow-up clinic today. He has recovered well from his radiotherapy treatment which was completed in March. His urinary symptoms have largely resolved with only mild frequency remaining. His bowel function has returned to normal. He maintains good energy levels and has resumed his regular golf activities.\n\nOn examination today, his performance status is 0. Digital rectal examination shows post-radiotherapy changes only with no concerning features.\n\nHis PSA has shown an appropriate early response, dropping from 4.8 to 1.2. We will continue PSA monitoring every 3 months for the first year. I have arranged his next PSA check for August 2024 with clinic review to follow. He understands to contact us sooner if he develops any new concerns.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, right base",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "T2aN0M0",
+      "other_stage": "",
+      "histopathology_status": "acinar adenocarcinoma, Gleason 3+3=6",
+      "biomarker_status": "Initial PSA 4.8 ng/mL",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "PSA 4.8 ng/mL at diagnosis",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radical prostate radiotherapy 74Gy in 37 fractions using VMAT technique",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA decreased to 1.2 ng/mL showing appropriate early response",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild urinary frequency"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Digital rectal examination shows post-radiotherapy changes only with no concerning features"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Resumed regular golf activities"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage prostate cancer treated with radical radiotherapy. Good initial response with appropriate PSA reduction and minimal residual symptoms"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "PSA decreased from 4.8 to 1.2 showing appropriate early response to radiotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "PSA check arranged for August 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review to follow PSA check in August 2024"
+      }
+    ]
+  }
+}

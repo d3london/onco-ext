@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\t\tGrade 1 pancreatic neuroendocrine tumor\n\nManagement:\t\tDistal pancreatectomy March 2023\n\nHistology:\t\tWell-differentiated neuroendocrine tumor, pT2N0, Ki67 2%, synaptophysin and chromogranin positive\n\nCurrent Situation:\tRoutine surveillance review\n\n[redacted name] has attended for routine follow-up today. She remains well with no new symptoms since her surgery last year. Her appetite is good and weight is stable at 68kg. Recent chromogranin A level shows continued stability at 82 (previously 85). CT pancreas protocol performed 2 weeks ago shows post-surgical changes only with no evidence of recurrence. Blood glucose remains well controlled on metformin.\n\nThe plan is to continue surveillance as per protocol. I have arranged chromogranin A testing for 3 months and CT scan in 6 months. We will review her again following these investigations.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2023,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT2N0",
+      "other_stage": null,
+      "histopathology_status": "Grade 1 well-differentiated neuroendocrine tumor, Ki67 2%",
+      "biomarker_status": "synaptophysin positive, chromogranin positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Distal pancreatectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Chromogranin A stable at 82 (previously 85)",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT pancreas protocol shows post-surgical changes only with no evidence of recurrence",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Diabetes on metformin"
+      },
+      {
+        "type": "current_symptom",
+        "value": "No new symptoms"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight stable at 68kg"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Grade 1 pancreatic NET post distal pancreatectomy. Stable disease on surveillance with normal imaging and biomarkers"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "No evidence of recurrence on imaging"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Chromogranin A in 3 months and CT scan in 6 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review following investigations"
+      }
+    ]
+  }
+}

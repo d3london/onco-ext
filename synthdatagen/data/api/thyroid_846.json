@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\t\tPapillary thyroid carcinoma\n\nManagement:\t\tTotal thyroidectomy March 2023\n\t\tRadioactive iodine ablation May 2023\n\nHistology:\t\tpT1N0M0 papillary thyroid carcinoma\n\t\tBRAF V600E mutation positive\n\nCurrent situation:\tRoutine surveillance review\n\n[redacted name] attended for routine follow-up today. She remains well with no concerning symptoms. Her TSH is appropriately suppressed at 0.1 on Levothyroxine 150mcg daily. Thyroglobulin remains undetectable at <0.1. Neck examination shows well-healed thyroidectomy scar with no palpable abnormalities. Recent ultrasound neck (15/4/24) confirms no suspicious features. She will continue current dose of Levothyroxine and we will see her in 6 months with repeat thyroglobulin and TSH. Ultrasound surveillance will continue annually.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2023,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "pT1N0M0",
+      "histopathology_status": "papillary thyroid carcinoma",
+      "biomarker_status": "BRAF V600E mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Radioactive iodine ablation",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Thyroglobulin undetectable at <0.1",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Ultrasound neck confirms no suspicious features",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Well-healed thyroidectomy scar with no palpable abnormalities"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "TSH appropriately suppressed at 0.1 on Levothyroxine 150mcg daily"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage papillary thyroid cancer treated with surgery and radioactive iodine. Currently well with no evidence of disease on surveillance"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Levothyroxine 150mcg daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat thyroglobulin and TSH in 6 months, annual ultrasound surveillance"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 6 months"
+      }
+    ]
+  }
+}

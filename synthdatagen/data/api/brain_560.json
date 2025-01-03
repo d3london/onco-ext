@@ -1,0 +1,86 @@
+{
+  "content": "Diagnosis\n\t1. WHO grade III anaplastic oligodendroglioma of right frontal lobe\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Right frontal craniotomy and gross total resection\n\n\tRadiotherapy\n\t1 Mar 2024 - 12 Apr 2024\n\tRadical intensity modulated radiotherapy (IMRT) 59.4Gy in 33 fractions\n\n\tChemotherapy\n\tPCV chemotherapy commenced 15 May 2024\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tNo evidence of disease on latest imaging\n\n\tCurrent issues\n\tMild chemotherapy-related fatigue and thrombocytopenia\n\n\tSummary of consultation\n\tReviewed today prior to cycle 3 of PCV chemotherapy. [redacted name] has managed the first two cycles reasonably well with expected side effects. Main issues have been grade 2 fatigue and grade 1 nausea, both managed with supportive medications. Latest blood tests show platelet count of 98 x 10^9/L (reduced from 125 last cycle), neutrophils stable at 2.1, and hemoglobin 11.2 g/dL.\n\nNeurologically stable with no new deficits. Seizures remain well-controlled on levetiracetam 750mg BD. Post-radiation MRI from 2 May 2024 showed expected post-treatment changes with no evidence of disease progression.\n\nPerformance status remains 1, though notes increased fatigue in the week following chemotherapy requiring additional rest periods. Has maintained good oral intake and stable weight at 72kg.\n\n\tFurther investigations\n\tRoutine blood tests prior to next cycle\nMRI brain scheduled for 15 July 2024\n\n\tMedication prescribed\n\tOndansetron 8mg BD for 3 days with each cycle\nDexamethasone 4mg BD for 3 days with each cycle\n\n\tFollow up\n\tNext oncology follow up in 3 weeks for cycle 4 PCV\nNeurosurgical follow up arranged for August 2024\n\n\tRequired GP actions\n\tWeekly FBC monitoring between cycles\nPlease monitor anticonvulsant levels as per protocol",
+  "output": {
+    "primary_cancer": {
+      "site": "brain, right frontal lobe",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "WHO grade III",
+      "histopathology_status": "anaplastic oligodendroglioma",
+      "biomarker_status": "TERT promoter mutant; CIC mutant",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right frontal craniotomy and gross total resection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radical IMRT 59.4Gy in 33 fractions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows post-treatment changes with no evidence of disease progression",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started PCV chemotherapy",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 fatigue requiring additional rest periods"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 nausea"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Platelets 98 x 10^9/L, neutrophils 2.1, hemoglobin 11.2 g/dL"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Maintained good oral intake and stable weight at 72kg"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "WHO grade III anaplastic oligodendroglioma post surgery and radiotherapy, currently receiving PCV chemotherapy with stable disease on imaging"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 fatigue and grade 1 nausea, thrombocytopenia with platelets 98"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with cycle 3 PCV chemotherapy with antiemetic and steroid support"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI brain scheduled for 15 July 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks for cycle 4 PCV"
+      }
+    ]
+  }
+}

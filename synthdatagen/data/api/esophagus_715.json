@@ -1,0 +1,79 @@
+{
+  "content": "Diagnosis:\nExtensive stage small cell carcinoma of esophagus\n\nPrevious treatment:\nCisplatin/Etoposide 4 cycles completed March 2024\nPartial response after cycle 2\nProgression confirmed on CT 15 April 2024\n\nCurrent status:\nClinical deterioration with increasing dysphagia\nWeight loss 6kg in 4 weeks\nPerformance status declined to ECOG 3\n\nRecent investigations:\nCT thorax/abdomen/pelvis 15 April 2024 - Progressive disease with increase in primary tumor size from 4.2cm to 6.8cm. New liver metastases segments 4 and 7.\n\nBlood results:\nHb 98\nWCC 12.4\nPlts 234\nAlb 28\nALT 145\nALP 456\n\nCurrent symptoms:\nGrade 3 dysphagia - tolerating liquids only\nChest pain requiring oxycodone 40mg BD\nFatigue limiting self-care\n\nAssessment and Plan:\nSignificant clinical deterioration with confirmed progressive disease following first-line platinum-etoposide. Not fit for second-line chemotherapy due to performance status. Referring to palliative care team for symptom management. Urgent referral for esophageal stent placement. Will arrange community palliative care support.",
+  "output": {
+    "primary_cancer": {
+      "site": "esophagus",
+      "histopathology_status": "small cell carcinoma",
+      "biomarker_status": "Ki67 80%",
+      "metastases": "liver metastases segments 4 and 7",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Cisplatin/Etoposide chemotherapy",
+          "year": 2024
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Partial response after cycle 2 of Cisplatin/Etoposide",
+          "year": 2024
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 4 cycles of Cisplatin/Etoposide",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with increase in primary tumor size from 4.2cm to 6.8cm and new liver metastases",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 3 dysphagia - tolerating liquids only"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Chest pain requiring oxycodone 40mg BD"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue limiting self-care"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Hb 98, WCC 12.4, Platelets 234, Albumin 28, ALT 145, ALP 456"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Extensive stage small cell carcinoma of esophagus with progressive disease after first-line chemotherapy. Significant clinical deterioration with dysphagia and declining performance status."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on CT with increase in primary tumor size and new liver metastases"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Performance status declined to ECOG 3 with 6kg weight loss in 4 weeks"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Not fit for second-line chemotherapy due to poor performance status"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral for esophageal stent placement and community palliative care support"
+      }
+    ]
+  }
+}

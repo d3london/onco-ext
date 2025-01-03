@@ -1,0 +1,94 @@
+{
+  "content": "Diagnosis:\tGlioblastoma WHO grade IV (IDH wildtype, MGMT methylated)\n\nInitially diagnosed January 2024 following presentation with focal seizures and right-sided weakness. MRI brain showed a 5.2cm left frontal mass with significant surrounding edema and midline shift.\n\nUnderwent gross total resection on 15 January 2024 with good recovery of neurological function. Completed concurrent chemoradiation with temozolomide 75mg/m2 daily during radiotherapy (60Gy in 30 fractions) completing March 2024.\n\nUnfortunately, follow-up MRI brain performed on 15 May 2024 has shown early disease progression with new enhancement in the surgical cavity and two satellite lesions in the left temporal lobe. This is accompanied by recurrence of focal seizures despite increased levetiracetam.\n\nI reviewed [redacted name] today who attended with his wife. His performance status has declined to ECOG 2-3, spending increasing time in bed due to fatigue and headaches. He describes worsening right-sided weakness affecting both limbs, though remains ambulant with a walking frame. Recent onset of mild expressive dysphasia which is particularly noticeable when tired.\n\nOn examination, there is clear right-sided weakness (MRC grade 4/5 in arm and leg) and mild expressive dysphasia. No other new neurological deficits identified. Latest blood results show stable renal and liver function.\n\nI have discussed the situation at length with [redacted name] and his wife. Given the early progression on first-line therapy, I have recommended second-line treatment with lomustine chemotherapy. We discussed the aims of treatment being to control disease progression and maintain quality of life, while acknowledging the overall poor prognosis. They understand the potential side effects including bone marrow suppression and fatigue.\n\nI have prescribed dexamethasone 4mg twice daily with PPI cover, and increased his levetiracetam to 1.5g twice daily. He will commence lomustine 110mg/m2 next week with weekly blood count monitoring. I have also referred to the neuro-oncology specialist nurse for additional support and referred to our palliative care team for involvement in symptom management.\n\nWe will arrange repeat MRI in 6 weeks to assess response, with clinical review the following week. The acute oncology team are aware of his situation should he develop any concerning symptoms in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "brain, left frontal",
+      "year": 2024,
+      "month": 1,
+      "metastases": "new satellite lesions in left temporal lobe",
+      "other_stage": "WHO grade IV",
+      "histopathology_status": "glioblastoma",
+      "biomarker_status": "IDH wildtype, MGMT methylated",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain showed 5.2cm left frontal mass with significant surrounding edema and midline shift",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Underwent gross total resection with good recovery of neurological function",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started concurrent chemoradiation with temozolomide 75mg/m2 daily",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radiotherapy 60Gy in 30 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows disease progression with new enhancement in surgical cavity and two satellite lesions in left temporal lobe",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2-3, spending increasing time in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening right-sided weakness affecting both limbs"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild expressive dysphasia, particularly when tired"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Recurrent focal seizures despite increased levetiracetam"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Right-sided weakness MRC grade 4/5 in arm and leg with mild expressive dysphasia"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal and liver function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "WHO grade IV glioblastoma showing early progression after first-line chemoradiation with declining functional status. Switching to second-line lomustine chemotherapy with palliative care involvement"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Starting lomustine 110mg/m2 with weekly blood count monitoring"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status with increasing neurological symptoms"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI brain in 6 weeks to assess response"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review following MRI, referral to neuro-oncology nurse specialist and palliative care team"
+      }
+    ]
+  }
+}

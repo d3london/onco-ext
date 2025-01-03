@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\tProstate cancer - T3a N0 M0\n\nManagement:\tFor consideration of radical radiotherapy with neoadjuvant hormone therapy\n\nHistology:\tIntraductal carcinoma, Gleason 4+4=8\n\nCurrent Situation:\tNew diagnosis, initial oncology assessment\n\nI reviewed [redacted name] in the prostate oncology clinic today following referral from the urology team. He was diagnosed following investigation of raised PSA (18.2) in January 2024. MRI showed a T3a lesion in the prostate base with extracapsular extension but no evidence of seminal vesicle invasion. Prostate biopsy on 15/02/2024 confirmed intraductal carcinoma with Gleason score 4+4=8 in 6/12 cores. Staging CT and bone scan completed 01/03/2024 show no evidence of metastatic disease.\n\nHe is otherwise fit and well with good performance status. No significant comorbidities apart from well-controlled hypertension on ramipril. He is an ex-smoker having quit 10 years ago. He lives with his wife and continues to work full-time as an accountant.\n\nOn examination today, he has good performance status (PS 0). Systemic examination was unremarkable.\n\nI have discussed treatment options including radical radiotherapy with neoadjuvant and adjuvant hormone therapy. He understands the rationale for combined treatment given the high-risk features. We have arranged for him to see our specialist radiographer next week for detailed discussion of radiotherapy planning and side effects. He will also see our hormone therapy specialist nurse for initiation of LHRH analogue.\n\nPlan is to commence hormone therapy within 2 weeks, followed by radical radiotherapy to start in approximately 3 months after adequate testosterone suppression is achieved. We will review him in clinic prior to radiotherapy commencement.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate base",
+      "year": 2024,
+      "month": 1,
+      "metastases": "none",
+      "tnm_stage": "T3aN0M0",
+      "histopathology_status": "intraductal carcinoma, Gleason 4+4=8 in 6/12 cores",
+      "biomarker_status": "PSA 18.2",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Raised PSA 18.2",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows T3a lesion in prostate base with extracapsular extension, no seminal vesicle invasion",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Prostate biopsy confirms intraductal carcinoma Gleason 4+4=8 in 6/12 cores",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Staging CT and bone scan show no evidence of metastatic disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "comorbidity",
+        "value": "well-controlled hypertension on ramipril"
+      },
+      {
+        "type": "examination_finding",
+        "value": "systemic examination unremarkable"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed high-risk prostate cancer. Initial oncology assessment for radical radiotherapy with hormone therapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan for LHRH analogue hormone therapy followed by radical radiotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Hormone therapy specialist nurse review for LHRH analogue initiation"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Radiotherapy planning appointment next week, clinic review prior to radiotherapy commencement"
+      }
+    ]
+  }
+}

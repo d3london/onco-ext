@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\tMetastatic gallbladder neuroendocrine carcinoma\n\nManagement:\t2023 Oct - Extended cholecystectomy with lymph node dissection\n\t\t2023 Nov-Jan - 3 cycles carboplatin/etoposide\n\t\t2024 Feb - Palliative radiotherapy to T8 metastasis\n\nHistology:\tPoorly differentiated neuroendocrine carcinoma, synaptophysin positive, Ki67 80%\n\nCurrent Situation:\tProgressive disease with deteriorating performance status\n\nI reviewed [redacted name] today who attended with her husband. Unfortunately, she has experienced significant clinical deterioration over the past three weeks. Her performance status has declined from 1 to 3, and she now requires assistance with most daily activities. She describes worsening right upper quadrant pain requiring increased doses of opiates, and new onset lower back pain which is affecting her mobility. Her appetite has significantly decreased, and she reports a 4kg weight loss since our last review.\n\nThe recent CT scan from 15th March 2024 shows progressive disease with enlarging liver metastases, the largest now measuring 8.2cm compared to 5.6cm six weeks ago. There are also new bone metastases in the thoracic spine (T6, T8) and left acetabulum. Her liver function has deteriorated with bilirubin now at 45 and ALT 156.\n\nWe had a detailed discussion about the challenging situation. Given her poor performance status and rapid disease progression despite first-line platinum-based chemotherapy, I have explained that further systemic therapy would carry significant risks with limited potential benefit. [redacted name] and her husband understand this and agree with focusing on symptom management.\n\nI have increased her MST Continus to 60mg BD and arranged urgent referral to our palliative care team. I've also requested an urgent MRI spine to assess for cord compression risk given her new back pain. The acute oncology team will review her tomorrow for consideration of urgent radiotherapy to the acetabular metastasis. I have provided emergency contact numbers and arranged weekly telephone follow-up with our specialist nurse team.",
+  "output": {
+    "primary_cancer": {
+      "site": "gallbladder",
+      "year": 2023,
+      "month": 10,
+      "metastases": "liver metastases, bone metastases in thoracic spine (T6, T8) and left acetabulum",
+      "tnm_stage": "T4N2M1",
+      "histopathology_status": "poorly differentiated neuroendocrine carcinoma",
+      "biomarker_status": "synaptophysin positive, Ki67 80%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Extended cholecystectomy with lymph node dissection",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/etoposide chemotherapy",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T8 metastasis",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with liver metastases increased from 5.6cm to 8.2cm, new bone metastases in T6, T8 and left acetabulum",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Deteriorating liver function with bilirubin 45 and ALT 156",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status deteriorated from 1 to 3, requiring assistance with most daily activities"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening right upper quadrant pain requiring increased opiate doses"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset lower back pain affecting mobility"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "4kg weight loss with significantly decreased appetite"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic gallbladder neuroendocrine carcinoma with rapid progression through first-line chemotherapy. Significant clinical deterioration with declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on imaging with enlarging liver metastases and new bone metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "MST Continus increased to 60mg BD, further systemic therapy deemed inappropriate due to poor performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status from 1 to 3 with reduced mobility and independence"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess for cord compression risk"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral, acute oncology review tomorrow, weekly specialist nurse telephone follow-up"
+      }
+    ]
+  }
+}

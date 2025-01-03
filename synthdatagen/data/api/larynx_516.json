@@ -1,0 +1,74 @@
+{
+  "content": "Diagnosis:\tT2N0M0 squamous cell carcinoma of larynx\n\nManagement:\t15 Jan 2024 Direct laryngoscopy and biopsy\n\t\t1 Feb 2024 Commenced radical radiotherapy\n\nHistology:\tModerately differentiated squamous cell carcinoma\n\nCurrent Situation:\tWeek 5 of radical radiotherapy\n\nI reviewed [redacted name] today during his radiotherapy treatment. He is managing well overall with expected side effects. He reports grade 2 dysphagia requiring increased use of liquid nutritional supplements and grade 2 radiation-induced pharyngitis managed with regular soluble paracetamol. His voice remains clear though slightly hoarse by the evening. He maintains good oral intake with pureed diet and maintains weight at 72kg.\n\nOn examination today, expected grade 2 skin reaction over the anterior neck treatment field. Oral cavity shows moderate mucositis but no evidence of superinfection. Performance status remains 1.\n\nHe will complete his planned course of radical radiotherapy (66Gy in 30 fractions) next week. We will review him on completion of treatment and again at 6 weeks post-treatment with repeat imaging.",
+  "output": {
+    "primary_cancer": {
+      "site": "larynx",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "T2N0M0",
+      "other_stage": "Stage II",
+      "histopathology_status": "moderately differentiated squamous cell carcinoma",
+      "biomarker_status": "",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Direct laryngoscopy and biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Commenced radical radiotherapy 66Gy in 30 fractions",
+          "year": 2024,
+          "month": 2
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 dysphagia requiring liquid nutritional supplements"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 radiation-induced pharyngitis"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Slightly hoarse voice by evening"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Grade 2 skin reaction over anterior neck treatment field"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Moderate mucositis in oral cavity without superinfection"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage II laryngeal cancer undergoing radical radiotherapy. Tolerating treatment well with expected grade 2 toxicities"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 dysphagia, pharyngitis, and skin reaction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with planned radical radiotherapy, currently in week 5"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review planned on completion of radiotherapy and at 6 weeks post-treatment with imaging"
+      }
+    ]
+  }
+}

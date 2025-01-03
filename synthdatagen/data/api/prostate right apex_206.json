@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\t\tProstate cancer, T2c N0 M0\n\nManagement:\t\tRadical external beam radiotherapy with neoadjuvant hormone therapy\n\nHistology:\t\tAcinar adenocarcinoma, Gleason 3+4=7\n\nCurrent Situation:\tWeek 5 of radiotherapy\n\n[redacted name] attended for review during his radical radiotherapy treatment. He is tolerating the treatment well with only mild urinary frequency and nocturia twice nightly. No significant bowel symptoms. Performance status remains 0. His PSA has dropped from 7.9 at diagnosis to 0.4 on latest check 12/4/24. He continues on Goserelin which was started in January 2024. On examination today there were no concerning features. His radiotherapy plan continues as prescribed with good compliance. We will see him again next week for final treatment review. He will then have follow-up arranged in 8 weeks with repeat PSA.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, right apex",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "T2cN0M0",
+      "other_stage": "",
+      "histopathology_status": "acinar adenocarcinoma, Gleason 3+4=7",
+      "biomarker_status": "Initial PSA 7.9, current PSA 0.4",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on Goserelin",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA decreased from 7.9 to 0.4",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Currently in week 5 of radical external beam radiotherapy",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild urinary frequency and nocturia twice nightly"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No concerning features on examination"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Localized prostate cancer receiving radical radiotherapy with good biochemical response to hormone therapy. Tolerating treatment well with minimal side effects."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild urinary symptoms only, no significant bowel symptoms"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with planned radiotherapy course with good compliance"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review next week for final treatment review, then follow-up in 8 weeks with PSA"
+      }
+    ]
+  }
+}

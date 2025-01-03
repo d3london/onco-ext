@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis\n\t1. Left breast cancer - acinic cell carcinoma with LCIS\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNone - metastatic at presentation\n\n\tChemotherapy\n\t1. TCHP commenced 02/2024\n\t2. Discontinued after 2 cycles due to disease progression\n\t3. Second-line Kadcyla commenced 04/2024\n\n\tClinical studies\n\tNone suitable\n\n\tCurrent disease status\n\tProgressive disease in liver\n\n\tCurrent issues\n\tWorsening liver function\nIncreasing fatigue\nRight upper quadrant pain\n\n\tSummary of consultation\n\t[redacted name] attended today's clinic with her sister. Unfortunately, recent imaging shows clear disease progression with enlarging liver metastases despite second-line treatment with Kadcyla. Her liver function has deteriorated with rising bilirubin (52) and alkaline phosphatase (342). She reports increasing right upper quadrant discomfort requiring regular breakthrough analgesia, and significant fatigue limiting her daily activities.\n\nWe have discussed the implications of disease progression and poor response to current treatment. Given her declining performance status (now ECOG 2) and worsening liver function, we have agreed to discontinue Kadcyla. I have outlined the option of third-line treatment with capecitabine, though this would need careful monitoring given her liver function.\n\n\tFurther investigations\n\tUrgent liver ultrasound to assess for biliary obstruction\nRepeat LFTs in 1 week\n\n\tMedication prescribed\n\tIncreased MST to 30mg BD\nMetoclopramide 10mg TDS PRN\n\n\tFollow up\n\tUrgent review in 1 week with investigation results\nReferral to palliative care team\n\n\tRequired GP actions\n\tPlease monitor liver function weekly\nConsider community palliative care referral",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver metastases",
+      "tnm_stage": "T3N2M1",
+      "histopathology_status": "acinic cell carcinoma with LCIS",
+      "biomarker_status": "ER negative, PR negative, HER2 positive, PIK3CA negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started TCHP chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued TCHP after 2 cycles due to disease progression",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced second-line Kadcyla",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Deteriorating liver function with bilirubin 52 and alkaline phosphatase 342",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Imaging shows enlarging liver metastases despite Kadcyla treatment",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant discomfort requiring regular breakthrough analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Significant fatigue limiting daily activities"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 52 and alkaline phosphatase 342"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic HER2+ breast cancer with progressive liver metastases. Disease progression on second-line Kadcyla with deteriorating liver function and performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with enlarging liver metastases on Kadcyla"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing Kadcyla due to disease progression and declining performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Declining performance status now ECOG 2 with increasing fatigue"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent liver ultrasound and repeat LFTs in 1 week"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent review in 1 week, referral to palliative care team"
+      }
+    ]
+  }
+}

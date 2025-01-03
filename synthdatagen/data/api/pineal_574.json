@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis:\tPineal parenchymal tumor of intermediate differentiation (WHO grade II)\n\nManagement:\t15 Jan 2023 - Endoscopic biopsy and third ventriculostomy\n\t\t02 Mar 2023 - 54Gy in 30 fractions focal radiotherapy\n\nHistology:\tKi-67 proliferation index 6%, no high-grade features\n\nCurrent situation:\tRoutine surveillance MRI\n\n[redacted name] attended for routine follow-up today. The latest MRI brain (15/5/24) shows stable appearances of the residual pineal mass measuring 1.2 x 0.8cm, unchanged from previous imaging. There is no evidence of hydrocephalus. Her neurological examination remains normal with no new deficits. She reports good energy levels and has returned to work full-time. The mild headaches she experienced during radiotherapy have completely resolved. She will continue on our standard surveillance protocol with next MRI brain in 4 months and clinic review thereafter.",
+  "output": {
+    "primary_cancer": {
+      "site": "pineal gland",
+      "year": 2023,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "WHO grade II",
+      "histopathology_status": "pineal parenchymal tumor of intermediate differentiation, Ki-67 proliferation index 6%, no high-grade features",
+      "biomarker_status": "Ki-67 6%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Endoscopic biopsy and third ventriculostomy",
+          "year": 2023,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "54Gy in 30 fractions focal radiotherapy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows stable residual pineal mass measuring 1.2 x 0.8cm, no hydrocephalus",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "neurological examination normal with no deficits"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "returned to work full-time"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "WHO grade II pineal parenchymal tumor treated with surgery and radiotherapy. Stable disease on surveillance imaging with good functional status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "stable appearances of residual pineal mass on MRI"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI brain in 4 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "clinic review after next MRI"
+      }
+    ]
+  }
+}

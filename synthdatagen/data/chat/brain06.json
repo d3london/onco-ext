@@ -1,0 +1,120 @@
+{
+    "content": "Diagnosis:\tChoroid Plexus Tumor with increasing size and progressive neurological symptoms.\n\nTumor Characteristics:\tPrimary lesion measuring 4.2cm in the left lateral ventricle with associated obstructive hydrocephalus and midline shift.\n\tHistopathology confirmed atypical choroid plexus papilloma (WHO Grade II) with high mitotic activity.\n\tMRI July 2023 showed tumor size increase to 5.1cm with evidence of brainstem compression.\n\nTreatment History:\tSurgical resection (subtotal) March 2023, followed by adjuvant fractionated radiotherapy April-May 2023 (total dose 54Gy/30 fractions).\n\tInitiated temozolomide 75mg/m2 daily June 2023. Reduced dose August 2023 due to grade 3 thrombocytopenia.\n\tSeptember 2023 MRI indicated stable disease.\n\tDecember 2023 imaging revealed new growth (6.2cm) and increased peritumoral edema.\n\tCommenced bevacizumab January 2024 (10mg/kg biweekly).\n\nCurrent Consultation:\t[redacted name] presents with worsening headache, nausea, and reduced mobility.\n\nSymptoms:\n\tProgressive gait instability, requires wheelchair for mobility.\n\tPersistent headache poorly controlled with analgesics.\n\tSevere fatigue impacting daily activities.\n\nExamination:\n\tPerformance Status ECOG 3.\n\tPapilledema on fundoscopy, no focal motor deficits.\n\nInvestigations:\tMRI 15/02/2024: Significant tumor progression to 6.9cm with enhanced peritumoral edema and worsening midline shift.\n\tCSF cytology negative for malignant cells.\n\nCurrent Medications:\tBevacizumab, dexamethasone 8mg daily, ondansetron, and omeprazole.\n\nPlan:\n\tIncrease dexamethasone to 12mg daily for symptomatic control of edema.\n\tUrgent referral to neurosurgery for reconsideration of resection options.\n\tSchedule stereotactic radiosurgery planning.\n\tDiscuss clinical trial enrollment at the next neuro-oncology MDT.\n\tArrange repeat MRI in four weeks.\n\tReview in clinic with imaging results.",
+    "output": {
+        "primary_cancer": {
+            "site": "brain, choroid plexus",
+            "year": 2023,
+            "month": 3,
+            "histopathology_status": "atypical choroid plexus papilloma (WHO Grade II) with high mitotic activity",
+            "biomarker_status": null,
+            "cancer_timeline": [
+                {
+                    "type": "treatment_surgery",
+                    "value": "Subtotal resection of choroid plexus tumor",
+                    "year": 2023,
+                    "month": 3
+                },
+                {
+                    "type": "treatment_radiotherapy",
+                    "value": "Adjuvant fractionated radiotherapy 54Gy/30 fractions",
+                    "year": 2023,
+                    "month": 5
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Started temozolomide 75mg/m2 daily",
+                    "year": 2023,
+                    "month": 6
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Reduced temozolomide dose due to grade 3 thrombocytopenia",
+                    "year": 2023,
+                    "month": 8
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "MRI showed tumor size increase to 5.1cm with brainstem compression",
+                    "year": 2023,
+                    "month": 7
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "MRI indicated stable disease",
+                    "year": 2023,
+                    "month": 9
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "MRI revealed tumor growth to 6.2cm with peritumoral edema",
+                    "year": 2023,
+                    "month": 12
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Commenced bevacizumab 10mg/kg biweekly",
+                    "year": 2024,
+                    "month": 1
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "MRI indicated significant tumor progression to 6.9cm with worsening midline shift",
+                    "year": 2024,
+                    "month": 2
+                }
+            ]
+        },
+        "patient_facts": [
+            {
+                "type": "current_symptom",
+                "value": "Progressive gait instability, requires wheelchair"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Persistent headache poorly controlled with analgesics"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Severe fatigue impacting daily activities"
+            },
+            {
+                "type": "examination_finding",
+                "value": "Papilledema on fundoscopy, no focal motor deficits"
+            },
+            {
+                "type": "performance_status",
+                "value": "ECOG 3"
+            }
+        ],
+        "status_updates": [
+            {
+                "type": "clinical_summary",
+                "value": "Progressive choroid plexus tumor with significant functional decline and urgent need for intervention. Plan for stereotactic radiotherapy, and referred to neurosurgery to consider resection options."
+            },
+            {
+                "type": "latest_treatment_response",
+                "value": "Tumor progression despite bevacizumab"
+            },
+            {
+                "type": "update_to_treatment",
+                "value": "Increase dexamethasone to 12mg daily"
+            },
+            {
+                "type": "updated_patient_functional_status",
+                "value": "Progressive gait instability, requires wheelchair for mobility"
+            },
+            {
+                "type": "planned_investigation",
+                "value": "Repeat MRI in four weeks"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Urgent referral to neurosurgery and discussion at neuro-oncology MDT"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Schedule stereotactic radiosurgery planning"
+            }            
+        ]
+    }
+}

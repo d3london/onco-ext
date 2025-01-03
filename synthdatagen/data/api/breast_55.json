@@ -1,0 +1,88 @@
+{
+  "content": "Diagnosis\n\t1. Lipid-rich carcinoma of left breast, T4N3aM1\n\t   Date of diagnosis\n\t   October 2023\n\t   Treatment aim\n\t   Palliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNot indicated - metastatic at presentation\n\n\tChemotherapy\n\t1. TCHP (Docetaxel/Carboplatin/Herceptin/Perjeta) commenced 11/2023\n\t2. Discontinued after 4 cycles due to disease progression 02/2024\n\n\tRadiotherapy\n\t20Gy in 5# to symptomatic T7 metastasis completed 12/2023\n\n\tCurrent disease status\n\tProgressive disease with new liver metastases\n\n\tCurrent issues\n\t1. Deteriorating mobility\n\t2. Increasing bone pain\n\t3. New liver metastases\n\n\tSummary of consultation\n\tUnfortunately [redacted name]'s disease has progressed despite initial TCHP chemotherapy. CT scan from 15/03/24 shows new liver metastases and progression in bone disease. Her mobility has deteriorated significantly, now requiring wheelchair for most activities. Pain control is suboptimal despite recent increase in opioids.\n\nPerformance status has declined to ECOG 3. Examination shows tender hepatomegaly and new ascites. Bloods show rising liver enzymes (ALT 156, ALP 345) and falling albumin of 28.\n\n\tFurther investigations\n\tUrgent MRI liver to assess extent of new metastases\n\n\tMedication prescribed\n\t1. Increased MST to 60mg BD\n\t2. Added dexamethasone 4mg BD\n\n\tFollow up\n\tNext oncology follow up in 1 week with MRI results\n\n\tRequired GP actions\n\tPlease monitor renal function and electrolytes\n\n\tSummary of information given to patient\n\tDiscussed disease progression and changing treatment to TDM1. Explained rationale and likely side effects. Patient understands palliative intent of ongoing care.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2023,
+      "month": 10,
+      "metastases": "widespread bone metastases, new liver metastases",
+      "tnm_stage": "T4N3aM1",
+      "histopathology_status": "lipid-rich carcinoma",
+      "biomarker_status": "ER low positive, PR negative, HER2 3+",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started TCHP (Docetaxel/Carboplatin/Herceptin/Perjeta)",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "20Gy in 5 fractions to symptomatic T7 metastasis",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued TCHP after 4 cycles due to disease progression",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows new liver metastases and progression in bone disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing bone pain requiring opioid escalation"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender hepatomegaly and new ascites"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Rising liver enzymes (ALT 156, ALP 345) and falling albumin of 28"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires wheelchair for most activities"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic breast cancer with progression on first-line TCHP. New liver metastases and worsening bone disease with declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with new liver metastases and worsening bone disease on TCHP"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to change treatment to TDM1"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in mobility, now wheelchair dependent with ECOG PS 3"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI liver to assess extent of new metastases"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 1 week with MRI results"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis:\n\nMetastatic pancreatic adenocarcinoma with ALK fusion and liver metastases\n\nPrevious medical history:\nType 2 diabetes\nHypertension\n\nCurrent medications:\nEntrectinib 600mg daily\nMetformin\nAmlodipine\n\nAllergies:\nNone known\n\nCurrent situation:\nCycle 6 Entrectinib therapy\n\nCT scan 15 May 2024 shows stable disease in pancreatic primary and liver metastases\n\nCA19-9 trending down from 1200 to 450\n\nPre cycle 7 review\nI reviewed [redacted name] today who continues to tolerate Entrectinib well. Initial grade 2 dizziness has improved with dose reduction to 400mg daily from cycle 4. Performance status remains 1. Weight has stabilized at 72kg. Latest blood tests show stable liver function and normal renal function. CEA and CA19-9 continue to trend downward, correlating with radiological stability. Examination shows no new concerns. The plan is to continue with cycle 7 today and arrange repeat imaging after cycle 9. All questions addressed and [redacted name] understands to contact us if any problems develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "metastases": "liver metastases",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "ALK fusion",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_change",
+          "value": "Entrectinib dose reduced to 400mg daily from cycle 4 due to grade 2 dizziness",
+          "year": 2024
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows stable disease in pancreatic primary and liver metastases",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 trending down from 1200 to 450",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Latest blood tests show stable liver function and normal renal function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic cancer with ALK fusion showing stable disease on Entrectinib therapy with improving toxicity after dose reduction"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on imaging with downward trending tumor markers"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Initial grade 2 dizziness improved following dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Entrectinib 400mg daily with cycle 7"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat imaging after cycle 9"
+      }
+    ]
+  }
+}

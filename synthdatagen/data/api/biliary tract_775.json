@@ -1,0 +1,86 @@
+{
+  "content": "Diagnosis:\tMixed adenoneuroendocrine carcinoma of biliary tract with liver and bone metastases\n\nDiagnosed March 2024 following investigation of obstructive jaundice. Initial CT showed 4.2cm hilar mass with bilobar liver metastases and widespread bone metastases. Biopsy confirmed mixed adenoneuroendocrine carcinoma with positive staining for Chromogranin A and Synaptophysin. PDL1 negative.\n\n[redacted name] has unfortunately experienced significant clinical deterioration over the past 4 weeks while receiving first-line cisplatin and etoposide chemotherapy. She describes worsening right upper quadrant pain requiring escalation of opiate analgesia, with new onset confusion and marked fatigue limiting her to bed-chair transfers only. Her performance status has declined from ECOG 1 to ECOG 3.\n\nRecent CT imaging on 15/4/24 shows disease progression with 30% increase in size of liver metastases and new peritoneal deposits. Her liver function has also deteriorated with bilirubin rising to 156 μmol/L despite previous stent placement. Albumin has dropped to 28 g/L.\n\nI have had a detailed discussion with [redacted name] and her daughter today regarding the change in her condition. Given her declining performance status and clear evidence of disease progression, I have explained that continuing with platinum-based chemotherapy would carry significant risks with little likelihood of benefit. We have agreed to discontinue systemic anti-cancer therapy and focus on symptom management.\n\nI have made an urgent referral to the palliative care team for review of pain control and other symptoms. I have prescribed additional breakthrough analgesia and anti-emetics today. Blood tests show stable renal function but worsening liver function - full results have been copied to her GP.\n\nThe plan is for palliative care team review this week, with telephone follow-up from our specialist nurse team. I have provided emergency contact numbers and explained the process for accessing 24-hour support if needed. [redacted name] and her family understand the situation and are in agreement with the modified treatment approach focusing on comfort and quality of life.",
+  "output": {
+    "primary_cancer": {
+      "site": "biliary tract, hilar region",
+      "year": 2024,
+      "month": 3,
+      "metastases": "bilobar liver metastases, widespread bone metastases, new peritoneal deposits",
+      "other_stage": "Stage IV",
+      "histopathology_status": "mixed adenoneuroendocrine carcinoma",
+      "biomarker_status": "Chromogranin A positive, Synaptophysin positive, PDL1 negative",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing 4.2cm hilar mass with bilobar liver metastases and widespread bone metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Biopsy confirmed mixed adenoneuroendocrine carcinoma with positive staining for Chromogranin A and Synaptophysin",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started first-line cisplatin and etoposide chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows disease progression with 30% increase in liver metastases and new peritoneal deposits",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing systemic anti-cancer therapy due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from ECOG 1 to ECOG 3, limited to bed-chair transfers"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening right upper quadrant pain requiring escalation of opiate analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset confusion and marked fatigue"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Bilirubin risen to 156 μmol/L despite previous stent placement, albumin dropped to 28 g/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV biliary tract mixed adenoneuroendocrine carcinoma with rapid clinical deterioration and disease progression on first-line chemotherapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with 30% increase in liver metastases and new peritoneal deposits"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic anti-cancer therapy, transitioning to palliative care approach"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status from ECOG 1 to ECOG 3 over 4 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team with telephone follow-up from specialist nurse team"
+      }
+    ]
+  }
+}

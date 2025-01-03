@@ -1,0 +1,82 @@
+{
+  "content": "Diagnosis:\n\nMalignant melanoma right calf, pT3b (3.8mm, ulcerated) with right inguinal nodal metastasis\n\nPrevious treatment:\nWLE and SLNB right calf 12 Jan 2024\nCompletion right groin dissection 26 Jan 2024 (1/12 nodes positive)\nStarted adjuvant Dabrafenib/Trametinib 1 Feb 2024\n\nCurrent situation:\nPre cycle 4 review\n\nClinical Assessment:\nTolerating treatment well after initial pyrexia resolved with 1 week dose interruption in cycle 1. Performance status 0. No new skin lesions. Groin wound well healed with no lymphoedema. Recent CT shows no evidence of distant disease.\n\nBloods today show normal LFTs, normal CK. Previous ejection fraction stable at 55%.\n\nPlan:\nContinue with cycle 4 Dabrafenib/Trametinib at full dose\nRepeat staging CT after cycle 6\nMonthly dermatology surveillance to continue\nFollow up in 4 weeks with blood tests",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right calf",
+      "year": 2024,
+      "month": 1,
+      "metastases": "right inguinal nodal metastasis",
+      "tnm_stage": "pT3bN1M0",
+      "histopathology_status": "melanoma, 3.8mm thickness, ulcerated",
+      "biomarker_status": "BRAF V600R positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy right calf",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Completion right groin dissection with 1/12 nodes positive",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant Dabrafenib/Trametinib",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Dose interruption for 1 week in cycle 1 due to pyrexia",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows no evidence of distant disease",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Groin wound well healed with no lymphoedema"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal LFTs, normal CK, ejection fraction stable at 55%"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III melanoma on adjuvant targeted therapy. Tolerating treatment well after initial pyrexia resolved, no evidence of recurrence"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Initial pyrexia resolved after 1 week dose interruption in cycle 1"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continue with cycle 4 Dabrafenib/Trametinib at full dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat staging CT after cycle 6"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow up in 4 weeks with blood tests, monthly dermatology surveillance to continue"
+      }
+    ]
+  }
+}

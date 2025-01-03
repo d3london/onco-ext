@@ -1,0 +1,86 @@
+{
+  "content": "Diagnosis\n\t1. Poorly differentiated thyroid carcinoma with lung and bone metastases\n\tDate of diagnosis\n\tMarch 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Mar 2024 Total thyroidectomy and central neck dissection\n\n\tRadiotherapy\n\tNot yet commenced\n\n\tSystemic therapy\n\tNot yet commenced\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tProgressive metastatic disease\n\n\tCurrent issues\n\tBreathlessness, bone pain, fatigue\n\n\tSummary of consultation\n\tThis 68 year old gentleman presents with recently diagnosed poorly differentiated thyroid carcinoma. Following thyroidectomy on 15/3/24, histology confirmed a 6.5cm poorly differentiated thyroid carcinoma with extensive vascular invasion and extracapsular extension. 4/6 central compartment nodes were positive. Molecular analysis has confirmed TERT promoter mutation.\n\nStaging CT on 28/3/24 demonstrated multiple bilateral pulmonary metastases, the largest measuring 2.8cm, and widespread bone metastases including T8 vertebral body with 40% height loss. MRI spine on 2/4/24 confirms impending cord compression at T8 level.\n\nHe describes progressive breathlessness over 6 weeks, now limiting mobility to 20 meters. He has severe thoracic back pain requiring regular oxycodone. Performance status has deteriorated to ECOG 2-3.\n\nOn examination, there is no palpable neck disease. Chest examination reveals reduced breath sounds bilaterally with right base crepitations. There is marked tenderness over T8 vertebra.\n\nPast medical history includes poorly controlled type 2 diabetes (latest HbA1c 86), hypertenshion, and atrial fibrilation. Current medications include Lantis insulin, metformin, ramipiril, apixxaban, and osycodone MR.\n\n\tFurther investigations\n\tThyroglobulin and thyroglobulin antibodies\nTFTs\nUrgent MRI brain\n\n\tMedication prescribed\n\tLevothyroxine 100mcg daily\nDexamethasone 8mg bd\n\n\tFollow up\n\tUrgent clinical oncology review for emergency radiotherapy to T8\nReview in endocrine oncology clinic in 1 week with results\n\n\tRequired GP actions\n\tPlease monitor blood glucose given high dose steroids\nWeekly blood pressure monitoring\nUrgent district nurse referral for support at home",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 3,
+      "metastases": "multiple bilateral pulmonary metastases, widespread bone metastases including T8 vertebral body",
+      "other_stage": "Stage IVC",
+      "histopathology_status": "poorly differentiated thyroid carcinoma, 6.5cm with extensive vascular invasion and extracapsular extension, 4/6 positive central compartment nodes",
+      "biomarker_status": "TERT promoter mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy and central neck dissection",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows multiple bilateral pulmonary metastases up to 2.8cm and widespread bone metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI spine confirms impending cord compression at T8 level with 40% vertebral height loss",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2-3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Progressive breathlessness limiting mobility to 20 meters"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Severe thoracic back pain requiring regular oxycodone"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced breath sounds bilaterally with right base crepitations"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Marked tenderness over T8 vertebra"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Poorly controlled type 2 diabetes with HbA1c 86"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Atrial fibrillation"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed poorly differentiated thyroid cancer with extensive metastases. Urgent intervention required for impending cord compression at T8."
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deteriorating performance status now ECOG 2-3 with mobility limited to 20 meters"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI brain, thyroglobulin levels, thyroglobulin antibodies, and TFTs"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent clinical oncology review for emergency radiotherapy to T8, endocrine oncology review in 1 week"
+      }
+    ]
+  }
+}

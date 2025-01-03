@@ -1,0 +1,99 @@
+{
+  "content": "Diagnosis:\tAnaplastic meningioma (WHO Grade III)\n\nManagement:\t2023 Oct - Craniotomy and subtotal resection\n\t\t2023 Nov-Dec - Adjuvant radiotherapy 60Gy in 30#\n\t\t2024 Jan - Commenced Bevacizumab\n\nHistology:\tPapillary meningioma WHO Grade III, Ki-67 15%, with invasion of adjacent dura\n\nCurrent Situation:\tProgressive disease with new bone metastases\n\nI reviewed [redacted name] today who has unfortunately shown evidence of disease progression despite initial bevacizumab therapy. Recent MRI brain performed on 15 March 2024 shows enlargement of the residual meningioma in the right frontal region with increasing mass effect and surrounding edema. The CT scan performed last week has also identified new bone metastases in the thoracic spine (T4, T7) and right iliac bone.\n\nShe reports worsening headaches over the past three weeks, now requiring regular dexamethasone 4mg twice daily. Her right-sided weakness has deteriorated, affecting her mobility, and she now requires a walking frame. She has also developed new pain in her mid-back region corresponding to the thoracic spine metastases. Her performance status has declined to ECOG 2.\n\nGiven the disease progression and declining clinical status, we have discussed changing treatment strategy. The plan is to commence oral cyclophosphamide and hydroxyurea combination therapy. I have explained the aims of treatment and potential side effects. We will arrange urgent palliative radiotherapy to the symptomatic thoracic spine metastases.\n\nI have increased her dexamethasone to 4mg three times daily with PPI cover and arranged urgent MRI spine for radiotherapy planning. She will be reviewed in clinic in two weeks with blood results to commence the new systemic therapy regimen. I have also referred her to the palliative care team for optimization of pain management.\n\nPlease contact us urgently if there is any acute deterioration in the meantime.",
+  "output": {
+    "primary_cancer": {
+      "site": "meninges, right frontal region",
+      "year": 2023,
+      "histopathology_status": "Papillary meningioma WHO Grade III with invasion of adjacent dura",
+      "biomarker_status": "Ki-67 15%",
+      "metastases": "bone metastases in thoracic spine (T4, T7) and right iliac bone",
+      "other_stage": "WHO Grade III",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Craniotomy and subtotal resection",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Adjuvant radiotherapy 60Gy in 30 fractions",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Bevacizumab",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows enlargement of residual meningioma with increasing mass effect and surrounding edema",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT identifies new bone metastases in thoracic spine (T4, T7) and right iliac bone",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Stopping bevacizumab due to disease progression, planning to commence cyclophosphamide and hydroxyurea combination",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Worsening headaches requiring dexamethasone 4mg twice daily"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right-sided weakness affecting mobility"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mid-back pain corresponding to thoracic spine metastases"
+      },
+      {
+        "type": "performance_status",
+        "value": "ECOG 2"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires walking frame due to right-sided weakness"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "WHO Grade III meningioma showing progression despite bevacizumab with new bone metastases and declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on bevacizumab with enlarging intracranial disease and new bone metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Increased dexamethasone to 4mg three times daily and planning to start cyclophosphamide and hydroxyurea combination therapy"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in mobility requiring walking frame and decline in performance status to ECOG 2"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine for radiotherapy planning"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks to commence new systemic therapy, referred to palliative care team"
+      }
+    ]
+  }
+}

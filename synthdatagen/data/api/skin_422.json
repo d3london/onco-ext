@@ -1,0 +1,80 @@
+{
+  "content": "Many thanks for referring [redacted name] regarding management of his locally advanced cutaneous squamous cell carcinoma. He initially presented in January 2024 with a 4.5cm ulcerated lesion on his right temple, with subsequent identification of right parotid nodal disease on staging CT. Initial surgical assessment deemed the lesion unsuitable for complete excision due to deep invasion and proximity to orbital structures.\n\nHe commenced pembrolizumab immunotherapy in February 2024 following confirmation of high PD-L1 expression (CPS 90). He completed 4 cycles with good initial response, achieving partial response in both primary lesion and nodal disease. However, he developed grade 3 pneumonitis requiring hospital admission in April 2024, necessitating high-dose steroids and permanent discontinuation of immunotherapy.\n\nOn review today, his pneumonitis has largely resolved on tapering prednisolone (currently 10mg daily). His performance status remains 1. The primary lesion shows ongoing response despite treatment cessation, now measuring 2.8cm with reduced ulceration. Parotid nodes are no longer palpable.\n\nGiven the good disease response but significant toxicity, we have discussed alternative treatment options. He has agreed to commence cemiplimab as second-line immunotherapy, which has a different side effect profile. He understands the small risk of recurrent pneumonitis but accepts this given the lack of surgical options. We will initiate treatment at 350mg every 3 weeks with careful monitoring.\n\nHe will have baseline chest imaging prior to cemiplimab initiation. I have arranged weekly review for the first cycle and provided clear instructions regarding early reporting of respiratory symptoms. We will assess response after 3 cycles with repeat imaging.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right temple",
+      "year": 2024,
+      "month": 1,
+      "metastases": "right parotid nodal disease",
+      "tnm_stage": "T3N1",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "PD-L1 high (CPS 90)",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "4.5cm ulcerated lesion on right temple with right parotid nodal disease on staging CT",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced pembrolizumab immunotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Partial response in both primary lesion and nodal disease after 4 cycles",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Pembrolizumab permanently discontinued due to grade 3 pneumonitis requiring hospitalization",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Primary lesion measures 2.8cm with reduced ulceration, parotid nodes no longer palpable"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Pneumonitis largely resolved on tapering prednisolone 10mg daily"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced cutaneous SCC with initial good response to pembrolizumab but complicated by grade 3 pneumonitis requiring cessation. Disease remains controlled despite treatment interruption."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Ongoing response with reduction in primary lesion size and resolution of palpable nodal disease"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 pneumonitis requiring hospitalization and high-dose steroids"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence cemiplimab 350mg every 3 weeks as second-line immunotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline chest imaging prior to cemiplimab initiation and response assessment imaging after 3 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review during first cycle of cemiplimab"
+      }
+    ]
+  }
+}

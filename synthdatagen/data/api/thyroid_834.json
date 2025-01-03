@@ -1,0 +1,123 @@
+{
+  "content": "Many thanks for taking over the care of [redacted name], a 67-year-old gentleman with rapidly progressive anaplastic thyroid carcinoma diagnosed in January 2024. He initially presented with a rapidly enlarging neck mass and progressive dysphagia. CT neck and thorax on January 15th 2024 revealed a 8.2cm thyroid mass with extensive local invasion, multiple pulmonary metastases, and mediastinal lymphadenopathy. Core biopsy confirmed anaplastic thyroid carcinoma. Despite urgent commencement of concurrent chemoradiotherapy with weekly Paclitaxel and radical radiotherapy (60Gy in 30 fractions) completed on March 1st 2024, he has unfortunately shown disease progression with increasing dyspnoea and new bone metastases identified on recent imaging.\n\nHe completed cycle 1 of second-line Lenvatinib 24mg daily on March 15th 2024 but developed grade 3 palmar-plantar erythrodysesthesia requiring dose reduction to 14mg daily. His most recent CT on April 1st 2024 shows mixed response with minor reduction in thyroid mass but progression in pulmonary metastases.\n\nHis performance status has deteriorated from ECOG 1 at diagnosis to current ECOG 3, spending most of the day in bed or chair. He requires supplemental oxygen (3L/min) for dyspnoea and is managing limited oral intake with increasing dysphagia requiring soft diet modification. He lives with his wife who is struggling to cope with his increasing care needs.\n\nIn his background, he has well-controlled type 2 diabetes and hypertension. Current medications include Lenvatinib 14mg daily, Morphine MR 30mg BD, Oramorph 10mg PRN, Metformin 1g BD, and Ramipril 5mg OD. He has been referred to the community palliative care team who are now visiting twice weekly.\n\nOn examination today, there is a large, firm right-sided neck mass with associated right vocal cord palsy. Chest examination reveals reduced air entry bilaterally with fine crackles at both bases. Recent bloods show stable renal function but mild transaminitis (ALT 120, AST 89).\n\nGiven his deteriorating clinical status and limited treatment options, we have had careful discussions about focusing on quality of life. He understands his prognosis is limited and wishes to prioritize symptom control. I would be grateful if you could take over his ongoing palliative care management.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple pulmonary metastases, mediastinal lymphadenopathy, bone metastases",
+      "other_stage": "Stage IVB",
+      "histopathology_status": "anaplastic thyroid carcinoma",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT neck and thorax shows 8.2cm thyroid mass with extensive local invasion, multiple pulmonary metastases, and mediastinal lymphadenopathy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Core biopsy confirmed anaplastic thyroid carcinoma",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started concurrent chemoradiotherapy with weekly Paclitaxel",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radical radiotherapy 60Gy in 30 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Disease progression with new bone metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Lenvatinib 24mg daily",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Lenvatinib dose reduced to 14mg daily due to grade 3 palmar-plantar erythrodysesthesia",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows mixed response with minor reduction in thyroid mass but progression in pulmonary metastases",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, spending most of the day in bed or chair"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Dyspnoea requiring supplemental oxygen (3L/min)"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing dysphagia requiring soft diet modification"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Large, firm right-sided neck mass with associated right vocal cord palsy"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry bilaterally with fine crackles at both bases"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Mild transaminitis (ALT 120, AST 89)"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Rapidly progressive anaplastic thyroid carcinoma with widespread metastases showing disease progression despite two lines of therapy. Significant clinical deterioration with increasing symptom burden"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Mixed response with minor reduction in thyroid mass but progression in pulmonary metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 palmar-plantar erythrodysesthesia from Lenvatinib requiring dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Lenvatinib at reduced dose of 14mg daily"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration from ECOG 1 to ECOG 3 with increasing care needs"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to community palliative care team with twice weekly visits"
+      }
+    ]
+  }
+}

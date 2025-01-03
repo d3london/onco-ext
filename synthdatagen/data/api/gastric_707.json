@@ -1,0 +1,87 @@
+{
+  "content": "Diagnosis\n\t1. Gastric adenocarcinoma, diffuse type\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Diagnostic laparoscopy with peritoneal biopsies\n\t28 Feb 2024 Total gastrectomy with D2 lymphadenectomy\n\n\tChemotherapy\n\tCompleted 3 cycles FLOT neoadjuvant chemotherapy Jan-Feb 2024\n\n\tClinical studies\n\tEnrolled in PLATFORM-Gastric trial arm C (pembrolizumab)\n\n\tCurrent disease status\n\tPost-operative stage ypT2N2M0\n\n\tCurrent issues\n\tMild post-gastrectomy syndrome\n\n\tSummary of consultation\n\tThis 58-year-old gentleman has completed neoadjuvant FLOT chemotherapy followed by total gastrectomy for locally advanced gastric cancer. Post-operative histology confirms ypT2N2M0 disease with 5/15 positive lymph nodes. Molecular profiling demonstrates MSI-high status with PDL1 CPS 15, making him eligible for the immunotherapy arm of PLATFORM-Gastric trial.\n\nHe has recovered well from surgery with only mild early satiety and occasional dumping symptoms, well-managed with dietary modification. His weight has stabilized at 72kg (pre-treatment weight 78kg). Performance status is 1.\n\nWe have completed trial screening investigations including CT chest/abdomen/pelvis showing no evidence of metastatic disease, normal cardiac echo, and satisfactory blood parameters. He meets all eligibility criteria for trial arm C.\n\nI have discussed the trial protocol in detail, including the requirement for pembrolizumab every 3 weeks for one year, with 3-monthly CT scans and quality of life assessments. We reviewed potential immune-related adverse events and monitoring requirements. He has signed trial consent forms after a 24-hour cooling-off period.\n\n\tFurther investigations\n\tBaseline CT chest/abdomen/pelvis completed 20 March 2024\n\tBaseline thyroid function and cortisol completed\n\n\tMedication prescribed\n\tPembrolizumab 200mg IV every 3 weeks as per trial protocol\n\n\tFollow up\n\tFirst trial treatment 28 March 2024\nWeekly review for first 6 weeks\nThen 3-weekly reviews with treatment\n\n\tRequired GP actions\n\tAlert team if any new symptoms develop, particularly autoimmune phenomena\nMonitor thyroid function monthly as per protocol",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "year": 2024,
+      "month": 1,
+      "tnm_stage": "ypT2N2M0",
+      "histopathology_status": "diffuse type adenocarcinoma",
+      "biomarker_status": "MSI-high, PDL1 CPS 15",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Diagnostic laparoscopy with peritoneal biopsies",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started neoadjuvant FLOT chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Total gastrectomy with D2 lymphadenectomy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Post-operative histology confirms ypT2N2M0 disease with 5/15 positive lymph nodes",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis showing no evidence of metastatic disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in PLATFORM-Gastric trial arm C for pembrolizumab therapy",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild early satiety and occasional dumping symptoms"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight stabilized at 72kg (pre-treatment weight 78kg)"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal cardiac echo and satisfactory blood parameters"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced gastric cancer post neoadjuvant chemotherapy and surgery, now enrolling in adjuvant immunotherapy trial"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Starting pembrolizumab 200mg IV every 3 weeks as per trial protocol"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "3-monthly CT scans and quality of life assessments as per trial protocol"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "First trial treatment 28 March 2024, weekly review for first 6 weeks, then 3-weekly reviews with treatment"
+      }
+    ]
+  }
+}

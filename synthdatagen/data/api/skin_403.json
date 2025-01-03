@@ -1,0 +1,84 @@
+{
+  "content": "I reviewed [redacted name] today who attended with his wife following recent admission to [redacted name] Hospital with worsening headaches and confusion. As you know, he was diagnosed with BRAF-negative metastatic melanoma in January 2024, initially presenting with a 4.2mm ulcerated lesion on his right shoulder. Despite initial response to combination immunotherapy with ipilimumab/nivolumab commenced in February 2024, his most recent imaging unfortunately shows evidence of disease progression.\n\nThe CT scan performed during his recent admission revealed new brain metastases with associated edema, the largest measuring 2.8cm in the right frontal lobe with significant mass effect. There are also multiple new liver lesions, the largest now 4.5cm compared to 2.1cm on imaging from April 2024. His previous lung metastases remain stable. His molecular profile from the original melanoma shows NF1 mutation but is BRAF wild-type, limiting our targeted therapy options.\n\nHe has experienced significant clinical deterioration over the past three weeks, with increasing confusion, persistent headaches, and new right-sided weakness. His performance status has declined from ECOG 1 to ECOG 3. He is currently taking dexamethasone 8mg twice daily which has provided some symptomatic improvement, though he continues to require assistance with most activities of daily living. His wife reports he is sleeping for much of the day and his oral intake has reduced significantly.\n\nI had a lengthy discussion with [redacted name] and his wife today about the challenging situation we face. Given the rapid progression on immunotherapy and his declining performance status, I have explained that we need to transition our focus to symptom management and quality of life. We have arranged urgent referral to our palliative care team for optimization of his symptom control. The neurosurgical team has reviewed his case and unfortunately do not feel he would benefit from surgical intervention for the brain metastases given the extent of systemic disease.\n\nI have increased his dexamethasone to 8mg three times daily and added metoclopramide for nausea. He has been referred for urgent whole brain radiotherapy for symptom control, which our clinical oncology colleagues will arrange to begin next week. We have also arranged district nurse involvement and fast-track continuing healthcare assessment.\n\nHe will be reviewed by our palliative care team tomorrow, and I have provided my direct contact details to his wife should they need urgent advice before then. I have also arranged for our specialist nurse to call them tomorrow to provide additional support and ensure all practical help is in place.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right shoulder",
+      "year": 2024,
+      "month": 1,
+      "metastases": "brain metastases (largest 2.8cm right frontal lobe), multiple liver metastases (largest 4.5cm), lung metastases",
+      "other_stage": "Stage IV",
+      "histopathology_status": "melanoma, 4.2mm thickness with ulceration",
+      "biomarker_status": "BRAF wild-type, NF1 mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started combination immunotherapy with ipilimumab/nivolumab",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Liver metastasis measuring 2.1cm on imaging",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "New brain metastases with edema, largest 2.8cm in right frontal lobe, multiple new liver metastases up to 4.5cm, stable lung metastases",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Hospital admission with worsening headaches and confusion",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from ECOG 1 to ECOG 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Confusion, persistent headaches, right-sided weakness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Reduced oral intake, sleeping most of the day"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires assistance with most activities of daily living"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV BRAF-negative melanoma with progressive brain and liver metastases. Disease progression on immunotherapy with significant clinical deterioration"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with new brain metastases and enlarging liver metastases despite immunotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Increased dexamethasone to 8mg three times daily, added metoclopramide for nausea"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline in performance status requiring assistance with most activities"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent whole brain radiotherapy planned"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team review tomorrow, district nurse involvement arranged, continuing healthcare assessment initiated"
+      }
+    ]
+  }
+}

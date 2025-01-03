@@ -1,0 +1,73 @@
+{
+  "content": "Many thanks for referring [redacted name] for discussion at our Mesothelioma MDT. I met with him and his wife following the meeting to discuss the outcome.\n\nHe is a 68-year-old gentleman with a diagnosis of left-sided epithelioid mesothelioma, confirmed on video-assisted thoracoscopic pleural biopsy performed on March 15th 2024. The histology shows BAP1 loss and MTAP deletion on immunohistochemistry. Staging investigations including CT thorax/abdomen/pelvis and PET-CT completed in late March showed extensive left pleural disease with mediastinal lymph node involvement but no distant metastases, consistent with T3N2M0 (Stage IIIB) disease. His occupational history includes significant asbestos exposure during his work as a pipe fitter between 1975-2000.\n\nHe initially presented with progressive breathlessness and left-sided chest pain in January 2024. His symptoms have been relatively well controlled following therapeutic pleural aspiration (2.1L) performed during his diagnostic VATS procedure, though he continues to experience some exertional dyspnoea. His performance status remains good at ECOG 1, and he maintains an active lifestyle including regular walking.\n\nThe case was discussed in detail at today's MDT with input from thoracic surgery, clinical oncology, and medical oncology teams. Given his good performance status, stage IIIB disease with lymph node involvement, and molecular profile showing BAP1 loss, the MDT recommendation is for systemic therapy with carboplatin/pemetrexed and pembrolizumab. The potential role of radiotherapy for symptom control was discussed but felt not to be indicated currently given his stable symptoms.\n\nI have had a detailed discussion with [redacted name] and his wife about the MDT outcome. We reviewed the expected benefits and potential side effects of immunotherapy/chemotherapy combination treatment. He was particularly concerned about the risk of fatigue impacting his ability to help care for his grandchildren, and we discussed strategies to manage this. He has expressed a wish to proceed with treatment and understands this would involve 6 cycles given every 3 weeks, followed by maintenance pembrolizumab.\n\nI have arranged baseline cardiac echo, lung function tests, and blood tests including renal function. We will see him next week to initiate treatment assuming investigations are satisfactory. I have also referred him to our mesothelioma specialist nurse who will provide additional support and information about compensation claims.\n?\n?\nThe plan is to proceed with systemic therapy as outlined above, with regular CT assessment of response every 3 cycles. He has our acute oncology contact details and understands to contact us if he develops any concerning symptoms in the meantime.",
+  "output": {
+    "primary_cancer": {
+      "site": "pleural, left-sided",
+      "year": 2024,
+      "month": 3,
+      "metastases": "mediastinal lymph node involvement",
+      "tnm_stage": "T3N2M0",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "epithelioid mesothelioma",
+      "biomarker_status": "BAP1 loss and MTAP deletion on immunohistochemistry",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial presentation with progressive breathlessness and left-sided chest pain",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Video-assisted thoracoscopic pleural biopsy with therapeutic pleural aspiration (2.1L)",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Biopsy confirms epithelioid mesothelioma with BAP1 loss and MTAP deletion",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT thorax/abdomen/pelvis and PET-CT show extensive left pleural disease with mediastinal lymph node involvement, no distant metastases",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Some exertional dyspnoea"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Maintains active lifestyle including regular walking"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed Stage IIIB epithelioid mesothelioma with nodal involvement. MDT recommendation for systemic therapy following good symptomatic response to pleural drainage."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence carboplatin/pemetrexed and pembrolizumab combination therapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline cardiac echo, lung function tests, and blood tests including renal function"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review next week to initiate treatment pending investigation results"
+      }
+    ]
+  }
+}

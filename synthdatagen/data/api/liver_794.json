@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis:\tHepatocellular carcinoma\n\nManagement:\tSingle 3.2cm lesion segment 6, diagnosed on triple phase CT liver 15 March 2024\n\tAFP 150 at diagnosis\n\tBCLC Stage A\n\nCurrent Situation:\tScreened for EMERALD trial\n\n[redacted name] has been reviewed today in the hepatobiliary clinic following recent diagnosis of hepatocellular carcinoma. The single lesion was identified on surveillance ultrasound and confirmed on triple phase CT. His background liver shows Child Pugh A cirrhosis secondary to previous alcohol excess, though he stopped drinking 5 years ago. His performance status is 0 and he remains fully independent.\n\nI have discussed the EMERALD trial which compares radiofrequency ablation versus stereotactic radiotherapy for early stage HCC. He meets all eligibility criteria including lesion size <4cm, no vascular invasion, and adequate liver function. We have completed the screening investigations including blood tests, ECG and chest x-ray. The trial procedures, follow-up requirements and potential risks/benefits have been explained. [redacted name] has signed the consent form after having time to review the patient information sheet.\n\nThe randomisation will be performed next week. We will then arrange either RFA or SBRT according to treatment allocation. Follow up will be as per trial protocol with 3-monthly CT scans and AFP measurements. The next appointment will be in 2 weeks to initiate the allocated treatment.",
+  "output": {
+    "primary_cancer": {
+      "site": "liver, segment 6",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "BCLC Stage A",
+      "histopathology_status": "hepatocellular carcinoma",
+      "biomarker_status": "AFP 150",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Single 3.2cm lesion segment 6 identified on surveillance ultrasound and confirmed on triple phase CT liver",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "AFP 150 at diagnosis",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Screened and consented for EMERALD trial comparing RFA versus SBRT",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Child Pugh A cirrhosis secondary to previous alcohol excess, abstinent for 5 years"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Fully independent"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed single HCC lesion suitable for local therapy. Enrolled in EMERALD trial comparing RFA versus SBRT"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "3-monthly CT scans and AFP measurements as per trial protocol"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks to initiate allocated treatment following randomisation"
+      }
+    ]
+  }
+}

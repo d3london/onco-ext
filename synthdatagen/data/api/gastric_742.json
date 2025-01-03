@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis:\tGastric adenocarcinoma\n\nManagement:\tTotal gastrectomy March 2024\n\nHistology:\tpT4aN2M0 tubular adenocarcinoma, HER2 negative, MSI stable\n\nCurrent Situation:\tPost-operative follow-up\n\nI reviewed [redacted name] in clinic today following completion of adjuvant CAPOX chemotherapy. He has recovered well from his treatment with resolution of the grade 1 peripheral neuropathy that developed during cycle 4. His appetite remains stable with appropriate nutritional supplementation, and weight has stabilized at 72kg. Performance status is 1.\n\nOn examination today, surgical wounds are well healed with no concerning features. Blood tests show stable parameters with improvement in previous mild anaemia.\n\nWe have arranged CT chest/abdomen/pelvis for 3 months' time as per surveillance protocol. He will be reviewed in clinic following these scans. I have provided written information about post-gastrectomy care and symptoms that should prompt earlier review.",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "pT4aN2M0",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "tubular adenocarcinoma",
+      "biomarker_status": "HER2 negative, MSI stable",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total gastrectomy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed adjuvant CAPOX chemotherapy with grade 1 peripheral neuropathy during cycle 4",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Surgical wounds well healed with no concerning features"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood tests show stable parameters with improvement in previous mild anaemia"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Stable appetite with appropriate nutritional supplementation, weight stabilized at 72kg"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIB gastric cancer post gastrectomy and adjuvant chemotherapy. Recovering well with resolved treatment toxicities and stable nutritional status"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Resolution of grade 1 peripheral neuropathy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic following CT scans"
+      }
+    ]
+  }
+}

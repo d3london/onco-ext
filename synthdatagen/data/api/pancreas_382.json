@@ -1,0 +1,89 @@
+{
+  "content": "Diagnosis:\tMetastatic pancreatic neuroendocrine carcinoma with liver and bone metastases\n\nManagement:\t2023 Oct - Commenced Capecitabine-Temozolomide\n\t\t2024 Jan - Started Lanreotide 120mg q28 days\n\t\t2024 Mar - Palliative radiotherapy to T8 vertebra\n\nHistology:\tPoorly differentiated neuroendocrine carcinoma, Ki67 25%, DAXX/ATRX loss on molecular testing\n\nCurrent Situation:\tDisease progression on current therapy\n\nI reviewed [redacted name] today to discuss recent imaging findings. Unfortunately, his CT scan from 15th April 2024 shows clear evidence of disease progression with growth of multiple liver metastases, the largest increasing from 4.2cm to 6.8cm in segment 7. There are also new bone metastases in the right iliac bone. His chromogranin A has increased significantly from 850 to 2400 over the past 8 weeks.\n\nHe reports worsening right upper quadrant pain requiring increased opiate analgesia, with his oxycodone now at 40mg BD. His appetite has deteriorated with early satiety and he has lost 4kg over the past month. His performance status has declined to ECOG 2. On examination, there is tender hepatomegaly extending 6cm below the costal margin.\n\nGiven the clear evidence of disease progression and declining performance status, we have discussed changing treatment strategy. I have explained that the standard second-line option would be FOLFOX chemotherapy. We reviewed the potential benefits and risks in detail, including neutropenia, neuropathy, and impact on quality of life. [redacted name] understands that this is palliative treatment with the aims of controlling disease progression and improving symptoms.\n\nWe will proceed with FOLFOX chemotherapy, starting next week. I have arranged insertion of a PICC line for Thursday. We will continue Lanreotide for symptom control. I have increased his oxycodone to 50mg BD and added metoclopramide for nausea. He will be reviewed by our palliative care team for additional symptom management support.\n\nThe plan is to assess response after 3 cycles with CT imaging and chromogranin A measurement. We will see him weekly during the first cycle to monitor tolerability. I have also referred him to our dietitian for nutritional support.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2023,
+      "metastases": "liver and bone metastases",
+      "tnm_stage": "T4N2M1",
+      "histopathology_status": "poorly differentiated neuroendocrine carcinoma, Ki67 25%",
+      "biomarker_status": "DAXX/ATRX loss",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Capecitabine-Temozolomide",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Lanreotide 120mg q28 days",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T8 vertebra",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Chromogranin A increased from 850 to 2400",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows growth of liver metastases, largest increasing from 4.2cm to 6.8cm in segment 7, new bone metastases in right iliac bone",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening right upper quadrant pain requiring increased opiate analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety with 4kg weight loss over past month"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender hepatomegaly extending 6cm below the costal margin"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic neuroendocrine carcinoma showing disease progression on current therapy with declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with growing liver metastases and new bone metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Changing to FOLFOX chemotherapy, continuing Lanreotide for symptom control"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Declining performance status with increased pain and weight loss"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT imaging and chromogranin A measurement after 3 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review during first cycle, referral to palliative care team and dietitian"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "content": "Diagnosis:\tDiffuse midline glioma, H3F3A K27M-mutant (WHO grade IV)\n\nManagement:\t15 Jan 2024 - Started on Temozolomide 75mg/m2 with concurrent radiotherapy\n\t\t12 Feb 2024 - Completed radiotherapy 54Gy in 30 fractions\n\t\t20 Feb 2024 - Commenced maintenance Temozolomide 150mg/m2 D1-5 q28 days\n\nCurrent Situation:\tProgressive disease with deteriorating neurological status\n\nI reviewed [redacted name] today, who attended with his parents. Unfortunately, his condition has deteriorated significantly over the past two weeks. The latest MRI from 15 April 2024 shows disease progression with expansion of the pontine lesion and new periventricular enhancement. There is associated increasing mass effect and early hydrocephalus.\n\nHis neurological symptoms have worsened with new onset of diplopia, progressive right-sided weakness (power now 3/5 in right arm and leg), and increasing ataxia requiring wheelchair use. He is also experiencing more frequent headaches, particularly in the morning, with occasional vomiting. His dexamethasone has been increased to 8mg twice daily with some symptomatic benefit. Current ECOG performance status is 3.\n\nBlood tests show pancytopenia with platelets 45, neutrophils 0.8, and hemoglobin 9.8, reflecting cumulative bone marrow toxicity from Temozolomide. LFTs and renal function remain stable.\n\nGiven the clear evidence of disease progression and current poor tolerance of chemotherapy, we have discussed discontinuing Temozolomide. The focus will shift to symptomatic management and quality of life. I have made an urgent referral to the palliative care team and neurosurgery for consideration of VP shunt given the hydrocephalus.\n\nWe have arranged weekly review in our supportive care clinic. The family understands the change in treatment direction and has been provided with 24-hour contact details for our acute oncology service.",
+  "output": {
+    "primary_cancer": {
+      "site": "brain, brainstem, pons",
+      "year": 2024,
+      "histopathology_status": "Diffuse midline glioma, WHO grade IV",
+      "biomarker_status": "H3F3A K27M-mutant",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Temozolomide 75mg/m2 with concurrent radiotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radiotherapy 54Gy in 30 fractions",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced maintenance Temozolomide 150mg/m2 D1-5 q28 days",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows disease progression with expansion of pontine lesion, new periventricular enhancement, mass effect and early hydrocephalus",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing Temozolomide due to disease progression and poor tolerance",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG performance status 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Diplopia, right-sided weakness (power 3/5 in arm and leg), ataxia requiring wheelchair"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Morning headaches with occasional vomiting"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Pancytopenia with platelets 45, neutrophils 0.8, hemoglobin 9.8"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Diffuse midline glioma showing disease progression after initial chemoradiation. Significant neurological deterioration with new hydrocephalus"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on MRI with clinical deterioration"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Pancytopenia from cumulative Temozolomide toxicity"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing Temozolomide, increasing dexamethasone to 8mg twice daily"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deteriorating neurological status requiring wheelchair, ECOG PS 3"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review in supportive care clinic, urgent referral to palliative care and neurosurgery"
+      }
+    ]
+  }
+}

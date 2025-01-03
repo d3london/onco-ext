@@ -1,0 +1,96 @@
+{
+  "content": "Diagnosis:\tHigh grade serous carcinoma of ovary\n\nManagement:\t15 Jan 2024 Primary debulking surgery - total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy\n\nHistology:\tHigh grade serous carcinoma, Stage IIIC with peritoneal deposits. BRCA1 germline mutation positive. HRD positive.\n\nCurrent Situation:\tCycle 4 carboplatin/paclitaxel with maintenance niraparib\n\nI reviewed [redacted name] today who is progressing through her adjuvant chemotherapy regimen. She has completed three cycles of carboplatin AUC5 and paclitaxel 175mg/m2 with reasonable tolerance. The main challenges have been grade 2 peripheral neuropathy affecting her fingertips and toes, and intermittent nausea despite optimal antiemetic prophylaxis. Her most recent CT scan on 15 March 2024 shows excellent response to treatment with resolution of previously noted small volume peritoneal disease. Her CA125 has normalized from 450 at diagnosis to 22 currently.\n\nOn examination today, her abdomen is soft and non-tender with well-healed surgical scars. There is no clinical evidence of ascites. Her performance status remains 1 due to ongoing fatigue, though she continues to manage daily activities independently. She describes increasing difficulty with fine motor tasks due to the neuropathy, particularly with buttons and writing. We have discussed dose reducing the paclitaxel to 135mg/m2 for cycle 4 to prevent worsening of these symptoms.\n\nGiven her BRCA1 mutation and HRD positive status, we have discussed maintenance therapy with niraparib following completion of platinum-based chemotherapy. I have provided written information about the expected side effects and monitoring requirements. She will be reviewed by our specialist nurse prior to starting maintenance therapy.\n\nThe plan is to proceed with cycle 4 chemotherapy today with the discussed dose modification. We will arrange CT chest/abdomen/pelvis after cycle 6 to document response. She will be reviewed again in clinic in 3 weeks prior to cycle 5.",
+  "output": {
+    "primary_cancer": {
+      "site": "ovary",
+      "year": 2024,
+      "month": 1,
+      "metastases": "peritoneal deposits",
+      "other_stage": "Stage IIIC",
+      "histopathology_status": "High grade serous carcinoma",
+      "biomarker_status": "BRCA1 germline mutation positive, HRD positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Primary debulking surgery - total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Initial CA125 450",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin AUC5 and paclitaxel 175mg/m2",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows excellent response with resolution of peritoneal disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA125 normalized to 22",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Paclitaxel dose reduced to 135mg/m2 due to grade 2 peripheral neuropathy",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1 due to fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 peripheral neuropathy affecting fingertips and toes"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Intermittent nausea despite antiemetic prophylaxis"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Abdomen soft and non-tender with well-healed surgical scars, no clinical evidence of ascites"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIC ovarian cancer showing excellent response to adjuvant chemotherapy. Currently managing cycle 4 with dose modification due to neuropathy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Excellent response with resolution of peritoneal disease on CT and normalization of CA125"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 peripheral neuropathy affecting fine motor tasks"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 4 chemotherapy with reduced paclitaxel dose 135mg/m2"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis after cycle 6"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 weeks prior to cycle 5"
+      }
+    ]
+  }
+}

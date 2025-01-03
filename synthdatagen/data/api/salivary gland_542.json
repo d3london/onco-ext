@@ -1,0 +1,83 @@
+{
+  "content": "Diagnosis:\nT3N0M0 mucoepidermoid carcinoma of right parotid gland\n\nPrevious medical history:\nHypertension\nType 2 diabetes\n\nCurrent medications:\nMetformin 1g bd\nRamipril 5mg od\n\nAllergies:\nNone known\n\nCurrent situation:\nNewly diagnosed salivary gland cancer with progressive symptoms\n\nI reviewed [redacted name] today following recent investigations for a progressively enlarging right parotid mass. She initially noticed a small lump in December 2023 which has gradually increased in size, now measuring 4.2cm on recent imaging. She reports increasing discomfort and occasional sharp pains in the region, though no facial weakness. She has experienced some difficulty with mastication on the right side and notes intermittent pain radiating to the right ear.\n\nMRI performed on 15 March 2024 showed a 4.2 x 3.8cm mass in the superficial lobe of the right parotid gland with deep lobe extension. FNA cytology from 20 March 2024 confirmed high-grade mucoepidermoid carcinoma. CT staging completed on 25 March 2024 showed no evidence of nodal involvement or distant metastases.\n\nOn examination today, there is a firm, relatively fixed mass in the right parotid region. No cervical lymphadenopathy is palpable. Facial nerve function remains intact on all branches. Performance status is 1 due to local symptoms affecting daily activities.\n\nI have discussed the case with our head and neck MDT. The consensus recommendation is for primary surgical resection with facial nerve monitoring and potential sacrifice if involved, followed by adjuvant radiotherapy given the high-grade nature and T3 status. I have explained these recommendations to [redacted name] today, including the risks of facial nerve injury and other surgical complications. She will be reviewed by [redacted name] in the surgical clinic next week to discuss operative details.\n\nThe plan is for:\n1. Surgical assessment next week\n2. Aim for surgery within 2 weeks\n3. Post-operative radiotherapy to be planned\n4. Regular follow-up in combined head and neck clinic",
+  "output": {
+    "primary_cancer": {
+      "site": "right parotid gland",
+      "year": 2024,
+      "month": 3,
+      "metastases": "no evidence of nodal or distant metastases",
+      "tnm_stage": "T3N0M0",
+      "histopathology_status": "high-grade mucoepidermoid carcinoma",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial notice of small parotid lump",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows 4.2 x 3.8cm mass in superficial lobe of right parotid with deep lobe extension",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "FNA cytology confirms high-grade mucoepidermoid carcinoma",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT staging shows no nodal involvement or distant metastases",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing discomfort and sharp pains in right parotid region"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Difficulty with mastication on right side"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Intermittent pain radiating to right ear"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Firm, relatively fixed mass in right parotid region, no cervical lymphadenopathy, intact facial nerve function"
+      },
+      {
+        "type": "performance_status",
+        "value": "PS 1 due to local symptoms affecting daily activities"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed T3N0M0 high-grade mucoepidermoid carcinoma of right parotid with progressive local symptoms. MDT recommendation for surgical resection followed by adjuvant radiotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surgical assessment next week"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Regular follow-up planned in combined head and neck clinic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "content": "I reviewed [redacted name] today who attended with his wife following recent admission to [redacted name] Hospital with worsening breathlessness and right upper quadrant pain. As you know, he was diagnosed with small cell carcinoma of the bladder in January 2024, with widespread metastatic disease affecting both lungs and liver. Initial staging showed a 6.8cm bladder mass with extensive bilateral pulmonary metastases and multiple liver lesions, the largest measuring 8.2cm in segment 7. Immunohistochemistry confirmed small cell carcinoma (CD56 and Synaptophysin strongly positive).\n\nHe initially responded well to first-line carboplatin and etoposide chemotherapy, completing 4 cycles between February and April 2024 with partial response evident on interim imaging. However, restaging CT in May 2024 showed disease progression with new liver lesions and increasing size of pulmonary metastases. He commenced second-line chemotherapy with weekly paclitaxel in June 2024 but unfortunately developed grade 3 neutropenia requiring two hospital admissions and GCSF support.\n\nDespite dose reduction to 80% from cycle 3, his most recent CT scan on 15th July 2024 shows further disease progression with new peritoneal deposits and increasing size of liver metastases. His performance status has deteriorated significantly from ECOG 1 to ECOG 3, now spending most of the day in bed or chair. He requires oxygen 3L/min at rest (increased from 2L/min last week) and has developed peripheral edema despite diuretic therapy.\n\nOn examination today, he is cachectic with marked peripheral edema to mid-thigh. Chest examination reveals decreased air entry at both bases with dullness to percussion. The abdomen is distended with a tender hepatomegaly extending 6cm below the costal margin. Blood tests show deteriorating liver function with bilirubin 65 μmol/L (previously 45), ALT 156, ALP 876. His albumin has dropped to 28 g/L despite supplementation.\n\nGiven his deteriorating clinical status and clear evidence of disease progression despite two lines of therapy, I have had a detailed discussion with [redacted name] and his wife about focusing on symptom control. We have discontinued the paclitaxel and I have made an urgent referral to the palliative care team. He understands that his prognosis is now measured in weeks rather than months. I have prescribed additional analgesia (oxycodone MR 20mg BD) and increased his furosemide to 80mg BD. The palliative care team will review him at home tomorrow to ensure optimal symptom control.",
+  "output": {
+    "primary_cancer": {
+      "site": "bladder",
+      "year": 2024,
+      "month": 1,
+      "metastases": "widespread bilateral pulmonary metastases, multiple liver lesions, new peritoneal deposits",
+      "other_stage": "Stage IV",
+      "histopathology_status": "small cell carcinoma",
+      "biomarker_status": "CD56 and Synaptophysin strongly positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Initial staging shows 6.8cm bladder mass with extensive bilateral pulmonary metastases and 8.2cm liver lesion in segment 7",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started first-line carboplatin and etoposide chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Partial response to carboplatin/etoposide after 4 cycles",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows disease progression with new liver lesions and increasing pulmonary metastases",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced second-line weekly paclitaxel",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Paclitaxel dose reduced to 80% from cycle 3 due to grade 3 neutropenia",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows further progression with new peritoneal deposits and increasing liver metastases",
+          "year": 2024,
+          "month": 7
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued paclitaxel due to disease progression and clinical deterioration",
+          "year": 2024,
+          "month": 7
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, spending most of day in bed or chair"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Requires oxygen 3L/min at rest"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant pain"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with peripheral edema to mid-thigh"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Decreased air entry at both lung bases with dullness"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender hepatomegaly 6cm below costal margin"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 65 μmol/L, ALT 156, ALP 876, albumin 28 g/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic small cell bladder cancer with rapid progression through two lines of therapy. Significant clinical deterioration with transition to palliative care."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on CT with new peritoneal deposits and increasing liver metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 neutropenia requiring hospital admission and GCSF support"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued paclitaxel and transitioning to palliative care"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration from ECOG 1 to ECOG 3 with increasing oxygen requirements"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team review arranged for tomorrow"
+      }
+    ]
+  }
+}

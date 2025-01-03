@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\nT2N0M0 basaloid squamous cell carcinoma of mid-esophagus\n\nPrevious medical history:\nHypertension\nType 2 diabetes\n\nCurrent medications:\nMetformin 1g bd\nRamipril 5mg od\n\nAllergies:\nNone reported\n\nCurrent situation:\nNewly diagnosed esophageal cancer following investigation of dysphagia\n\nEndoscopy 15 March 2024 - 4cm ulcerated lesion at 28-32cm\nCT 20 March 2024 - T2 mid-esophageal lesion, no nodal or distant metastases\nPET-CT 1 April 2024 - Confirms localized disease only\n\nI reviewed [redacted name] today following completion of staging investigations. He presents with a 3-month history of progressive dysphagia, initially for solids and now for semi-solid foods. He has lost 5kg in weight but maintains good appetite for soft foods. Performance status remains excellent at PS 0.\n\nOn examination, he appears well with no concerning findings. Weight today 78kg.\n\nI have discussed the diagnosis and treatment options with [redacted name]. Given the localized nature of disease, we would recommend definitive chemoradiotherapy with curative intent. I have explained the treatment process and likely side effects. He will be reviewed at next week's Upper GI MDT for formal treatment planning.\n\nThe plan is to proceed with dental assessment, baseline hearing test, and EDTA clearance prior to treatment. We will see him again following MDT discussion with detailed treatment plan.",
+  "output": {
+    "primary_cancer": {
+      "site": "esophagus, mid",
+      "year": 2024,
+      "month": 3,
+      "metastases": "none",
+      "tnm_stage": "T2N0M0",
+      "other_stage": "Stage II",
+      "histopathology_status": "basaloid squamous cell carcinoma",
+      "biomarker_status": "",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Endoscopy shows 4cm ulcerated lesion at 28-32cm",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows T2 mid-esophageal lesion, no nodal or distant metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "PET-CT confirms localized disease only",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Progressive dysphagia for solids and semi-solid foods"
+      },
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "5kg weight loss, current weight 78kg"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed localized mid-esophageal cancer. Good performance status with manageable dysphagia symptoms."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan for definitive chemoradiotherapy with curative intent"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Dental assessment, baseline hearing test, and EDTA clearance"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "For Upper GI MDT discussion next week followed by clinic review with treatment plan"
+      }
+    ]
+  }
+}

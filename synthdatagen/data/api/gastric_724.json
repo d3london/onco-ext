@@ -1,0 +1,54 @@
+{
+  "content": "Diagnosis:\t\tGastric neuroendocrine carcinoma\n\nStaging:\t\tT4N3M0 (Stage IIIC)\n\nHistology:\t\tPoorly differentiated neuroendocrine carcinoma\n\t\tSynaptophysin positive, Chromogranin positive\n\t\tKi67 80%\n\nManagement:\t\t12 Jan 2024 - Total gastrectomy\n\t\tD2 lymphadenectomy - 8/15 nodes positive\n\nCurrent Status:\tPost-operative recovery\n\nMDT Discussion:\tCase presented at Upper GI MDT 15 March 2024\n\nThe MDT reviewed post-operative imaging showing no evidence of residual or metastatic disease. Given the high-risk features (T4 disease, nodal involvement, Ki67 80%), the consensus recommendation is for adjuvant platinum-etoposide chemotherapy. The proposed regimen is 6 cycles of carboplatin AUC 5 and etoposide 100mg/m2. Patient to be reviewed in medical oncology clinic next week for chemotherapy discussion. Routine surveillance imaging to be arranged at 3-monthly intervals.\n\nPlan:\t\tMedical oncology review 22 March 2024\n\t\tBaseline CT chest/abdomen/pelvis prior to chemotherapy\n\t\tRoutine chromogranin A monitoring",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "year": 2024,
+      "month": 1,
+      "metastases": "8/15 lymph nodes positive",
+      "tnm_stage": "T4N3M0",
+      "other_stage": "Stage IIIC",
+      "histopathology_status": "Poorly differentiated neuroendocrine carcinoma",
+      "biomarker_status": "Synaptophysin positive, Chromogranin positive, Ki67 80%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total gastrectomy with D2 lymphadenectomy - 8/15 nodes positive",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Post-operative imaging shows no evidence of residual or metastatic disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "investigation_finding",
+        "value": "Post-operative imaging shows no evidence of residual or metastatic disease"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "High-risk gastric neuroendocrine carcinoma post total gastrectomy. MDT recommends adjuvant platinum-etoposide chemotherapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan for 6 cycles of carboplatin AUC 5 and etoposide 100mg/m2"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline CT chest/abdomen/pelvis prior to chemotherapy and routine chromogranin A monitoring"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Medical oncology review 22 March 2024"
+      }
+    ]
+  }
+}

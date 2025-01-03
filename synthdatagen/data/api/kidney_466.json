@@ -1,0 +1,103 @@
+{
+  "content": "Diagnosis\n\t1. Renal medullary carcinoma with SMARCB1/INI1 loss\n\t2. Sickle cell trait carrier status\n\nDate of diagnosis\n\tJanuary 2024\n\nTreatment aim\n\tPalliative\n\nSummary of completed treatment and relevant dates\n\nSurgery\n\t15 Jan 2024 Right radical nephrectomy\n\nChemotherapy\n\t1. Feb-Mar 2024: Two cycles carboplatin/gemcitabine - discontinued due to disease progression\n\t2. Mar-Apr 2024: Two cycles MVAC (methotrexate, vinblastine, doxorubicin, cisplatin) - discontinued due to clinical deterioration\n\nCurrent disease status\n\tProgressive disease with growing liver metastases and new peritoneal deposits\n\nCurrent issues\n\t1. Worsening right upper quadrant pain\n\t2. Increasing fatigue and anorexia\n\t3. New onset peripheral edema\n\nSummary of consultation\n\nI reviewed [redacted name] today who attended with his wife. Unfortunately, his most recent CT scan from 25/4/24 shows clear disease progression with enlarging liver metastases and new peritoneal deposits. His performance status has declined to ECOG 3, spending more than 50% of time in bed. He reports worsening right upper quadrant pain requiring increased opioid doses, with current daily morphine equivalent of 120mg.\n\nOn examination, there is marked hepatomegaly extending 6cm below costal margin with moderate ascites. Bilateral ankle edema noted. Blood tests show deteriorating liver function with bilirubin 45, ALT 156, ALP 345.\n\nGiven the aggressive disease progression despite two lines of chemotherapy and declining performance status, we have had a detailed discussion about focusing on symptom control. [redacted name] and his wife understand that further systemic therapy is unlikely to be beneficial and carries significant risks.\n\nFurther investigations\n\tNone planned\n\nMedication changes\n\t1. Increased MST to 60mg BD\n\t2. Started dexamethasone 4mg OD\n\t3. Commenced spironolactone 100mg OD\n\nFollow up\n\t1. Urgent referral to palliative care team - completed today\n\t2. Community specialist nurse referral - completed today\n\t3. Next oncology review in 2 weeks or sooner if needed",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver metastases, peritoneal deposits",
+      "histopathology_status": "renal medullary carcinoma",
+      "biomarker_status": "SMARCB1/INI1 loss",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right radical nephrectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/gemcitabine chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued carboplatin/gemcitabine after 2 cycles due to disease progression",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started MVAC chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued MVAC after 2 cycles due to clinical deterioration",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows enlarging liver metastases and new peritoneal deposits",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Sickle cell trait carrier status"
+      },
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, spending more than 50% of time in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening right upper quadrant pain requiring increased opioid doses"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing fatigue and anorexia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Peripheral edema"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Hepatomegaly extending 6cm below costal margin with moderate ascites"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45, ALT 156, ALP 345"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Aggressive renal medullary carcinoma with progressive liver metastases. Disease progression through two lines of chemotherapy with significant clinical deterioration"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with enlarging liver metastases and new peritoneal deposits"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy due to disease progression and poor performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with increasing care needs"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and community specialist nurse"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "content": "Diagnosis:\t\tDescending colon cancer\n\nManagement:\t\t15 Jan 2024 Laparoscopic left hemicolectomy\n\nHistology:\t\tpT3N1M0 medullary carcinoma\n\t\tMSI-high, PDL1 CPS 90\n\t\t2/12 lymph nodes positive\n\nCurrent Situation:\tPost-operative follow-up\n\n[redacted name] attended clinic today following completion of adjuvant pembrolizumab. She has recovered well from her surgery and immunotherapy treatment. Her bowel function has normalized and she reports no ongoing symptoms. Her latest CT scan from 15/5/24 shows no evidence of recurrent disease. Blood tests including CEA are within normal range. Given her excellent recovery and stable disease status, we will continue with 3-monthly follow-up and surveillance imaging as per protocol. Next clinic review arranged for August 2024 with repeat CT scan.",
+  "output": {
+    "primary_cancer": {
+      "site": "descending colon",
+      "year": 2024,
+      "month": 1,
+      "metastases": "2/12 lymph nodes positive",
+      "tnm_stage": "pT3N1M0",
+      "histopathology_status": "medullary carcinoma",
+      "biomarker_status": "MSI-high, PDL1 CPS 90",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Laparoscopic left hemicolectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant pembrolizumab",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed adjuvant pembrolizumab course",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of recurrent disease",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA within normal range",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "No ongoing symptoms"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT 15/5/24 shows no evidence of recurrent disease"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III descending colon cancer post surgery and adjuvant immunotherapy. Currently well with no evidence of recurrence."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "No evidence of recurrent disease on imaging"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Continue 3-monthly follow-up with next review August 2024"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan arranged for August 2024"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "Diagnosis:\tMetastatic pancreatic neuroendocrine carcinoma with liver and bone metastases\n\nI reviewed [redacted name] today in the neuroendocrine clinic following completion of 6 cycles of carboplatin/etoposide chemotherapy. She was diagnosed in January 2024 following investigation of back pain, with biopsy confirming a poorly differentiated (Grade 3) pancreatic neuroendocrine carcinoma with Ki67 of 80% and positive chromogranin A staining. Initial staging showed a 4.2cm pancreatic head primary with multiple bilobar liver metastases and widespread bone metastases including T8 vertebral body.\n\nShe commenced first-line carboplatin/etoposide in February 2024 and has shown a mixed response. The most recent CT scan on 15 April 2024 shows stable appearance of the pancreatic primary, partial response in liver metastases with reduction in size of the largest lesion from 5.6cm to 3.2cm, but unfortunately new bone metastases in the right femoral neck and L3 vertebral body. Her chromogranin A has risen from 250 to 450 over the past month.\n\nShe has experienced significant toxicity from chemotherapy including grade 3 neutropenia requiring two hospital admissions, grade 2 fatigue, and persistent grade 2 peripheral neuropathy affecting her hands and feet. Her performance status has deteriorated from ECOG 1 to ECOG 2.\n\nGiven the mixed response to platinum-based chemotherapy and significant toxicity, we have discussed changing treatment strategy. I have recommended second-line treatment with capecitabine and temozolomide. We have also arranged urgent referral to clinical oncology for consideration of palliative radiotherapy to the symptomatic L3 metastasis.\n\nShe lives with her husband who provides excellent support. She has required increasing help with activities of daily living due to fatigue and mobility issues. She is taking regular oxycodone SR 40mg BD which is providing good pain control.\n\nThe plan is to commence capecitabine/temozolomide once her blood counts have recovered, likely in 2 weeks. We will arrange CT reassessment after 3 cycles. I have also referred her to our palliative care team for ongoing symptom management support.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas head",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple bilobar liver metastases, widespread bone metastases including T8 vertebral body",
+      "other_stage": "Stage IV",
+      "histopathology_status": "poorly differentiated (Grade 3) neuroendocrine carcinoma",
+      "biomarker_status": "Ki67 80%, chromogranin A positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/etoposide chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Two hospital admissions for grade 3 neutropenia during carboplatin/etoposide treatment",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable pancreatic primary, partial response in liver metastases, new bone metastases in right femoral neck and L3",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Chromogranin A risen from 250 to 450 over past month",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2, deteriorated from ECOG 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Back pain requiring regular oxycodone SR 40mg BD"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requiring increasing help with activities of daily living due to fatigue and mobility issues"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV pancreatic neuroendocrine carcinoma showing mixed response to first-line chemotherapy with significant toxicity"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Mixed response with stable primary, partial response in liver but new bone metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 neutropenia, grade 2 fatigue, persistent grade 2 peripheral neuropathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Stopping carboplatin/etoposide, plan to switch to capecitabine/temozolomide"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT reassessment after 3 cycles of new treatment"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to clinical oncology for palliative radiotherapy to L3 metastasis and referral to palliative care team"
+      }
+    ]
+  }
+}

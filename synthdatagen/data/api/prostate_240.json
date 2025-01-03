@@ -1,0 +1,76 @@
+{
+  "content": "I reviewed [redacted name] today following recent disease progression. He was diagnosed in January 2024 with small cell carcinoma of the prostate with large cell features, initially presenting with T4N2M1 disease with liver metastases. Initial PSA was only 0.4 despite extensive disease, and molecular profiling revealed MYCN amplification. He commenced first-line carboplatin/etoposide chemotherapy on 15/2/24 and completed 4 cycles with initial good partial response, but recent CT on 12/5/24 shows clear progression with 30% increase in liver metastases and new pelvic lymphadenopathy. His performance status has declined from 1 to 2 with increasing fatigue and right upper quadrant discomfort. Blood tests show rising LDH to 850 and stable PSA at 0.5.\n\nGiven the aggressive progression and poor prognostic features, I have discussed second-line treatment options. He remains suitable for further systemic therapy and we have agreed to commence weekly paclitaxel. I have explained the aims of treatment and potential side effects. He understands this is non-curative treatment aimed at controlling disease progression and managing symptoms.\n\nThe plan is to start paclitaxel next week with CT reassessment after 6 weeks. I have arranged urgent referral to palliative care for symptom management support. We will review him weekly during treatment to monitor tolerability. His wife attended today and they both understand to contact us immediately if he develops new symptoms or deteriorates.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver metastases, pelvic lymphadenopathy",
+      "tnm_stage": "T4N2M1",
+      "histopathology_status": "small cell carcinoma with large cell features",
+      "biomarker_status": "PSA 0.4, MYCN amplified",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/etoposide chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 30% increase in liver metastases and new pelvic lymphadenopathy",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Rising LDH to 850, PSA stable at 0.5",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Stopping carboplatin/etoposide after 4 cycles due to disease progression",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status deteriorated from 1 to 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing fatigue and right upper quadrant discomfort"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Aggressive small cell prostate cancer with liver metastases showing disease progression after 4 cycles of first-line chemotherapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with 30% increase in liver metastases and new pelvic lymphadenopathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence second-line weekly paclitaxel"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status from 1 to 2"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT reassessment after 6 weeks of paclitaxel"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review during treatment and urgent referral to palliative care"
+      }
+    ]
+  }
+}

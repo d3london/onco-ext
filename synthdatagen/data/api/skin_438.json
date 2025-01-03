@@ -1,0 +1,65 @@
+{
+  "content": "Diagnosis:\tBasal cell carcinoma right temple, T2 with local invasion\n\nManagement:\t12 Jan 2024 Diagnostic biopsy\n\t\t15 Feb 2024 Commenced radiotherapy\n\nHistology:\tNodular basal cell carcinoma with infiltrative features\n\nCurrent situation:\tWeek 4 of radiotherapy treatment\n\n[redacted name] attended for week 4 review of superficial radiotherapy to right temple lesion. Treatment has been well tolerated with expected grade 1 radiation dermatitis. The lesion shows good response with reduction in size and induration. No concerning symptoms reported. Examination shows brisk erythema of treatment field with appropriate moist desquamation centrally. Treatment field margins appear adequate. Patient understands to continue with regular moisturizer and sun protection. Will complete planned course of 45Gy in 10 fractions next week. Follow-up arranged in 6 weeks to assess treatment response.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right temple",
+      "year": 2024,
+      "month": 1,
+      "metastases": "local invasion",
+      "tnm_stage": "T2",
+      "histopathology_status": "nodular basal cell carcinoma with infiltrative features",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Diagnostic biopsy performed",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Started superficial radiotherapy, planned 45Gy in 10 fractions",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Week 4 of radiotherapy with good response, reduction in lesion size",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "brisk erythema of treatment field with appropriate moist desquamation centrally"
+      },
+      {
+        "type": "current_symptom",
+        "value": "grade 1 radiation dermatitis"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "T2 basal cell carcinoma right temple undergoing radiotherapy with good early response"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "reduction in size and induration of lesion"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "grade 1 radiation dermatitis, well tolerated"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "continuing with planned radiotherapy course of 45Gy in 10 fractions"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "follow-up arranged in 6 weeks to assess treatment response"
+      }
+    ]
+  }
+}

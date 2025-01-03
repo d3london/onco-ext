@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis\n\t1. Metastatic cecal adenocarcinoma with signet ring features\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Diagnostic laparoscopy and biopsy\n\n\tChemotherapy\n\tCommenced FOLFOX + Bevacizumab 12 Feb 2024\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tStable disease on imaging\n\n\tCurrent issues\n\tMild peripheral neuropathy\n\n\tSummary of consultation\n\tI was very pleased to review [redacted name] today who attended with his wife for assessment prior to cycle 4 FOLFOX with Bevacizumab. He has been managing the treatment remarkably well and maintaining an excellent quality of life. His appetite remains good and he has maintained his weight at 78kg. He continues his regular swimming three times per week which is wonderful to see.\n\nHe has developed mild tingling in his fingertips which is an expected side effect of the oxaliplatin component. This is currently grade 1 and not interfering with daily activities. No other significant toxicities noted.\n\nCT scan performed last week shows stable disease compared to baseline, with the primary cecal mass unchanged in size at 6.8cm and stable peritoneal deposits. His CEA has decreased from 245 to 180.\n\n\tFurther investigations\n\tRoutine bloods including CEA prior to next cycle\n\n\tMedication prescribed\n\tContinue current supportive medications\n\n\tFollow up\n\tNext oncology follow up in 2 weeks prior to cycle 5\n\n\tRequired GP actions\n\tNone required at present",
+  "output": {
+    "primary_cancer": {
+      "site": "cecum",
+      "year": 2024,
+      "month": 1,
+      "metastases": "peritoneal deposits",
+      "other_stage": "Stage IV",
+      "histopathology_status": "adenocarcinoma with signet ring features",
+      "biomarker_status": "NRAS Q61R mutation",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Diagnostic laparoscopy and biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced FOLFOX + Bevacizumab",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA decreased from 245 to 180",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable disease with primary cecal mass unchanged at 6.8cm and stable peritoneal deposits",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "quality_of_life_finding",
+        "value": "Maintains regular swimming three times per week"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CEA decreased to 180 from 245"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV cecal cancer with peritoneal metastases showing stable disease on FOLFOX-Bevacizumab with good tolerability"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 peripheral neuropathy affecting fingertips, not interfering with daily activities"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on CT with unchanged primary mass and peritoneal deposits"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing FOLFOX-Bevacizumab, proceeding to cycle 4"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Routine bloods including CEA prior to next cycle"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks prior to cycle 5"
+      }
+    ]
+  }
+}

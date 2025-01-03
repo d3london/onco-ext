@@ -1,0 +1,85 @@
+{
+  "content": "Diagnosis\n\t1. Gallbladder adenocarcinoma with liver metastases\n\tDate of diagnosis\n\tMarch 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Mar 2024 Diagnostic laparoscopy and biopsy\n\n\tRadiotherapy\n\tNot indicated\n\n\tChemotherapy\n\tGemcitabine/Cisplatin commenced 28 Mar 2024\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tPartial response to first-line chemotherapy\n\n\tCurrent issues\n\tMild peripheral neuropathy, stable liver function\n\n\tSummary of consultation\n\tThis 64-year-old lady was diagnosed following investigation of right upper quadrant pain and weight loss. Initial CT showed a 4.2cm gallbladder mass with three liver metastases in segments 4a, 7, and 8, measuring up to 3.5cm. Diagnostic laparoscopy confirmed unresectable disease. Biopsy showed moderately differentiated adenocarcinoma, HER2 negative, MSI-low.\n\nShe has completed two cycles of Gemcitabine/Cisplatin with good tolerability. Latest CT shows 30% reduction in liver metastases and primary mass. Blood tests show improving liver function with bilirubin now normal at 15, ALT 45, ALP 225.\n\nPerformance status remains 1. She reports grade 1 peripheral neuropathy affecting fingertips only. Appetite has improved and weight has stabilized at 68kg.\n\n\tFurther investigations\n\tCT chest/abdomen/pelvis after cycle 4\n\n\tMedication prescribed\n\tOndansetron 8mg bd for 3 days post-chemotherapy\nDexamethasone 8mg bd for 3 days post-chemotherapy\n\n\tFollow up\n\tNext oncology follow up in 2 weeks pre-cycle 3\n\n\tRequired GP actions\n\tWeekly FBC, U&Es, LFTs during chemotherapy",
+  "output": {
+    "primary_cancer": {
+      "site": "gallbladder",
+      "year": 2024,
+      "month": 3,
+      "metastases": "liver metastases in segments 4a, 7, and 8",
+      "histopathology_status": "moderately differentiated adenocarcinoma",
+      "biomarker_status": "HER2 negative, MSI-low",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 4.2cm gallbladder mass with three liver metastases up to 3.5cm",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Diagnostic laparoscopy and biopsy confirming unresectable disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Gemcitabine/Cisplatin chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Improving liver function with normal bilirubin 15, ALT 45, ALP 225",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 30% reduction in liver metastases and primary mass",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 peripheral neuropathy affecting fingertips only"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight stabilized at 68kg with improved appetite"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic gallbladder cancer showing good initial response to first-line chemotherapy with improving liver function and partial radiological response"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "30% reduction in liver metastases and primary mass after two cycles of chemotherapy"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 peripheral neuropathy affecting fingertips"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with Gemcitabine/Cisplatin chemotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis after cycle 4"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks pre-cycle 3"
+      }
+    ]
+  }
+}

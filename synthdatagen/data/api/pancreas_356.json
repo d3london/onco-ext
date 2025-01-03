@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\t\tPancreatic adenocarcinoma\n\nManagement:\t\tWhipple's procedure 15 Jan 2024\n\nHistology:\t\tModerately differentiated pancreatic ductal adenocarcinoma, pT3N0M0 (Stage IIA), R0 resection. PALB2 mutation detected.\n\nCurrent Situation:\tPost-operative follow-up, cycle 4 adjuvant FOLFIRINOX\n\n[redacted name] attended clinic today for review during adjuvant chemotherapy. She is tolerating treatment well with only grade 1 fatigue and minimal neuropathy. Her appetite has improved significantly since surgery and she has gained 2kg over the past month. Blood tests show stable liver function and CA19-9 has normalized to 15 (previously 120 pre-operatively). Performance status remains 0. No concerning clinical findings on examination today. She will proceed with cycle 4 FOLFIRINOX at full dose. We will arrange CT chest/abdomen/pelvis prior to cycle 6, and review her again in 3 weeks time.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "pT3N0M0",
+      "other_stage": "Stage IIA",
+      "histopathology_status": "moderately differentiated pancreatic ductal adenocarcinoma, R0 resection",
+      "biomarker_status": "PALB2 mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure performed",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 normalized to 15 from pre-operative level of 120",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "grade 1 fatigue and minimal neuropathy"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "gained 2kg over the past month with improved appetite"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Post-Whipple's procedure for Stage IIA pancreatic cancer, tolerating adjuvant FOLFIRINOX well with normalized tumor markers"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and minimal neuropathy from FOLFIRINOX"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 4 FOLFIRINOX at full dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis arranged prior to cycle 6"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks"
+      }
+    ]
+  }
+}

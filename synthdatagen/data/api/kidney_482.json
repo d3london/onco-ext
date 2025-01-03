@@ -1,0 +1,80 @@
+{
+  "content": "Diagnosis:\tPapillary renal cell carcinoma type 1, right kidney\n\nManagement:\t15 Jan 2024 Right radical nephrectomy\n\t\t12 Feb 2024 Started Cabozantinib 60mg daily\n\nHistology:\tpT3aN0M1, PTEN mutation positive\n\nCurrent Situation:\tTreatment review - 3 months on Cabozantinib\n\nI reviewed [redacted name] today who has been receiving Cabozantinib for metastatic renal cell carcinoma. The initial diagnosis followed investigation of right-sided abdominal pain, leading to the identification of a 8.5cm right renal mass with renal vein involvement. Following radical nephrectomy in January, staging revealed three pulmonary nodules in the right lung, the largest measuring 2.1cm. Molecular profiling identified a PTEN mutation.\n\nHe commenced Cabozantinib 60mg daily in February and has generally tolerated this well, though requiring a dose reduction to 40mg daily after 6 weeks due to grade 2 palmar-plantar erythrodysesthesia and persistent diarrhea. These side effects have now improved significantly with the dose reduction. His blood pressure has remained stable on his usual antihypertensive medication.\n\nRecent CT imaging on 15 April 2024 shows an encouraging partial response, with the largest lung nodule reducing from 2.1cm to 1.4cm, and the other nodules showing similar proportional reductions. His renal function remains stable with creatinine 110 μmol/L. Current performance status is 1, mainly due to mild fatigue which he is managing well.\n\nOn examination today, there is good wound healing from his nephrectomy site. His blood pressure is 138/82 mmHg. There is mild residual palmar erythema but this is not limiting activities.\n\nThe plan is to continue Cabozantinib at the current dose of 40mg daily. We will arrange repeat CT chest/abdomen/pelvis in 8 weeks to monitor response. I have provided prescription for two months' supply and will review him again in clinic with the scan results. He has the acute oncology contact details and understands to contact us if any new concerns arise.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "right lung, three nodules",
+      "tnm_stage": "pT3aN0M1",
+      "histopathology_status": "papillary renal cell carcinoma type 1",
+      "biomarker_status": "PTEN mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right radical nephrectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Cabozantinib 60mg daily",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cabozantinib dose reduced to 40mg daily due to grade 2 palmar-plantar erythrodysesthesia and persistent diarrhea",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows partial response, largest lung nodule reduced from 2.1cm to 1.4cm",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 1 due to mild fatigue"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Blood pressure 138/82 mmHg, good wound healing at nephrectomy site, mild palmar erythema"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Creatinine 110 μmol/L, stable renal function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic renal cell carcinoma showing partial response to Cabozantinib. Initial dose reduction required for toxicity but now stable on 40mg daily with good disease control."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response with reduction in size of all lung nodules"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Improved grade 2 palmar-plantar erythrodysesthesia and diarrhea following dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Cabozantinib 40mg daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 8 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with scan results"
+      }
+    ]
+  }
+}

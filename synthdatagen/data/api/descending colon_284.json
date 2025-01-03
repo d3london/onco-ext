@@ -1,0 +1,74 @@
+{
+  "content": "I reviewed [redacted name] today who is now completing cycle 4 of FOLFIRI chemotherapy for metastatic descending colon cancer. The initial diagnosis was made in January 2024 following investigation of iron deficiency anaemia, with colonoscopy showing a descending colon mass. Staging investigations revealed liver metastases in segments 6 and 7, with the largest measuring 4.2cm. Molecular testing confirmed NRAS G12C mutation with wild-type BRAF status.\n\nHe commenced FOLFIRI chemotherapy in February 2024 and has tolerated treatment well with only grade 1 fatigue and manageable nausea. Recent CT imaging shows an encouraging partial response with 40% reduction in the primary tumour size and similar improvements in the liver lesions. His CEA has fallen from 245 to 82.\n\nHe remains suitable to continue with the current regimen. We have prescribed cycle 5 today and arranged review before cycle 6 in three weeks. A progress CT scan will be performed after 6 cycles to guide ongoing management. The possibility of surgical reassessment will be considered at that point if the good response is maintained.",
+  "output": {
+    "primary_cancer": {
+      "site": "descending colon",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver metastases in segments 6 and 7",
+      "other_stage": "Duke's D",
+      "biomarker_status": "NRAS G12C mutation positive, BRAF wild-type",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Colonoscopy showing descending colon mass",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Initial CEA 245",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFIRI chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA decreased to 82",
+          "year": 2024
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 40% reduction in primary tumour size and liver lesions"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue and manageable nausea"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic colon cancer showing good response to FOLFIRI chemotherapy with reducing tumour markers and radiological improvement"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "40% reduction in primary tumour size and liver metastases on CT, CEA decreased from 245 to 82"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and manageable nausea"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with FOLFIRI chemotherapy, proceeding to cycle 5"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Progress CT scan after completion of 6 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review before cycle 6 in three weeks"
+      }
+    ]
+  }
+}

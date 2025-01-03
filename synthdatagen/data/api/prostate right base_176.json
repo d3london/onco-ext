@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\t\tProstate adenocarcinoma (ductal variant), T3bN1M0\n\nManagement:\t\tCommenced androgen deprivation therapy January 2024\n\t\tStarted radiotherapy 15 March 2024\n\nHistology:\t\tGleason 4+4 (Grade Group 4) ductal adenocarcinoma\n\t\tPSA at diagnosis 28.4\n\nCurrent situation:\tWeek 4 of radiotherapy\n\n[redacted name] is attending for review during radical radiotherapy to prostate and pelvic nodes. He is managing treatment well with good compliance. PSA has dropped to 0.8 from 28.4 at diagnosis. He reports mild urinary frequency but maintains good bladder control. Bowel habit remains regular with no significant change. Performance status remains 0.\n\nLatest blood tests show testosterone at castrate level (<0.4) and normal renal function. He will complete planned radiotherapy next week. We will arrange PSA check in 6 weeks and review in combined clinic with urology team.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, right base",
+      "year": 2024,
+      "month": 1,
+      "metastases": "pelvic lymph nodes",
+      "tnm_stage": "T3bN1M0",
+      "histopathology_status": "ductal adenocarcinoma, Gleason 4+4 (Grade Group 4)",
+      "biomarker_status": "Initial PSA 28.4",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial PSA 28.4",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced androgen deprivation therapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Started radical radiotherapy to prostate and pelvic nodes",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA dropped to 0.8, testosterone at castrate level <0.4",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild urinary frequency with maintained bladder control"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal renal function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced prostate cancer responding well to hormone therapy and currently receiving radical radiotherapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Good biochemical response with PSA reduction from 28.4 to 0.8"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing radiotherapy with good compliance, due to complete next week"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "PSA check in 6 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in combined clinic with urology team"
+      }
+    ]
+  }
+}

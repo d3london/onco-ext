@@ -1,0 +1,97 @@
+{
+  "content": "Diagnosis:\t\tBilateral breast cancer with lung metastases\n\nPrimary Disease:\tLeft breast - Grade 3 pleomorphic lobular carcinoma diagnosed March 2023\n\t\t\tRight breast - Grade 3 pleomorphic lobular carcinoma diagnosed June 2023\n\t\t\tBoth ER positive/PR negative/HER2 negative\n\t\t\tESR1 mutation detected in ctDNA March 2024\n\nManagement:\t\tLeft mastectomy April 2023\n\t\t\tRight mastectomy July 2023\n\t\t\tCompleted 6 cycles FEC-T chemotherapy December 2023\n\t\t\tStarted Fulvestrant/Palbociclib January 2024\n\nCurrent Status:\tProgressive disease with new lung metastases\n\n[redacted name] attended today's breast oncology clinic for urgent review following CT chest showing multiple new bilateral pulmonary nodules, largest measuring 2.1cm in right upper lobe. She reports increasing breathlessness on exertion and persistent dry cough for the past 3 weeks. Her performance status has declined to ECOG 2 from previous ECOG 1. Blood tests show rising CA15-3 at 145 (previously 89). Given detection of ESR1 mutation and disease progression on current endocrine therapy, we will switch treatment to oral Capivasertib with Fulvestrant. I have discussed the side effect profile including potential hyperglycemia and diarrhea. She will start treatment next week following baseline echocardiogram. Review arranged in 2 weeks with blood tests.\n",
+  "output": {
+    "primary_cancer": {
+      "site": "breast bilateral",
+      "year": 2023,
+      "month": 3,
+      "metastases": "multiple bilateral pulmonary nodules, largest 2.1cm in right upper lobe",
+      "histopathology_status": "Grade 3 pleomorphic lobular carcinoma",
+      "biomarker_status": "ER positive/PR negative/HER2 negative, ESR1 mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Left mastectomy",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Right mastectomy",
+          "year": 2023,
+          "month": 7
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Completed 6 cycles FEC-T chemotherapy",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Fulvestrant/Palbociclib",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "ESR1 mutation detected in ctDNA",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Rising CA15-3 at 145 (previously 89)",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest showing multiple new bilateral pulmonary nodules, largest 2.1cm in right upper lobe",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 2, declined from previous ECOG 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing breathlessness on exertion"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Persistent dry cough for past 3 weeks"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Bilateral breast cancer with new lung metastases and ESR1 mutation. Disease progression on current endocrine therapy with declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with new pulmonary metastases and rising tumor markers"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Switching to oral Capivasertib with Fulvestrant due to ESR1 mutation and disease progression"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Performance status declined to ECOG 2 from ECOG 1"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline echocardiogram before starting new treatment"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks with blood tests"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "content": "I reviewed [redacted name] today following her recent admission with progressive pelvic pain and declining mobility. She was diagnosed in January 2024 with FIGO stage IIIC1 endometrial carcinoma, initially presenting with post-menopausal bleeding. Her initial staging surgery on 15th January 2024 revealed a grade 3 endometrioid adenocarcinoma with extensive lymphovascular space invasion and positive pelvic nodes (5/12 positive). Molecular testing confirmed MMR-deficiency and MSI-high status.\n\nShe commenced adjuvant carboplatin-paclitaxel chemotherapy in February 2024 but experienced significant toxicity with grade 3 neutropenia requiring GCSF support and dose reduction after cycle 2. Despite these modifications, restaging CT in April 2024 showed disease progression with new pelvic sidewall deposits and enlarging residual pelvic lymphadenopathy. Given this early progression, we switched to second-line pembrolizumab immunotherapy, taking advantage of her MSI-high status.\n\nUnfortunately, she has continued to deteriorate clinically over the past 6 weeks. She now requires two people for transfers and reports severe pelvic pain requiring regular oxycodone. Her most recent CT last week shows further progression with new hydronephrosis. Her performance status has declined to ECOG 3. She is experiencing significant fatigue, poor appetite with 8kg weight loss over 2 months, and increasing lower limb lymphoedema.\n\nI had a detailed discussion today with [redacted name] and her daughter about the changing goals of care. Given her declining performance status and rapid disease progression despite two lines of therapy, I have explained that further systemic anti-cancer therapy is unlikely to be beneficial and carries significant risks. We agreed to focus on symptom control and quality of life. I have made an urgent referral to the palliative care team and arranged admission to the local hospice for symptom management. I have prescribed additional breakthrough analgesia and increased her regular oxycodone dose. The district nurses will continue to support with lymphoedema management.\n\nI will hand over her care to the palliative team but remain available if needed. I have explained to [redacted name] and her family that while we cannot predict exact timeframes, her prognosis is likely to be measured in weeks rather than months given the rapid disease progression. They understood this difficult news and expressed gratitude for the honest discussion. The palliative care team will be in touch within 24 hours to arrange admission.",
+  "output": {
+    "primary_cancer": {
+      "site": "endometrium",
+      "year": 2024,
+      "month": 1,
+      "metastases": "positive pelvic nodes (5/12), pelvic sidewall deposits, hydronephrosis",
+      "other_stage": "FIGO IIIC1",
+      "histopathology_status": "grade 3 endometrioid adenocarcinoma with extensive lymphovascular space invasion",
+      "biomarker_status": "MMR-deficient, MSI-high",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Initial staging surgery revealing grade 3 endometrioid adenocarcinoma with positive pelvic nodes",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant carboplatin-paclitaxel chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Dose reduction after cycle 2 due to grade 3 neutropenia requiring GCSF support",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing disease progression with new pelvic sidewall deposits and enlarging residual pelvic lymphadenopathy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Switched to second-line pembrolizumab immunotherapy due to disease progression",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows further progression with new hydronephrosis",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Severe pelvic pain requiring regular oxycodone"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Significant fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Poor appetite with 8kg weight loss over 2 months"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing lower limb lymphoedema"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires two people for transfers"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIC1 endometrial cancer with rapid progression through two lines of therapy. Significant clinical deterioration with declining performance status requiring transition to palliative care"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on pembrolizumab with new hydronephrosis and clinical deterioration"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy and transitioning to palliative care focus"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration requiring two-person transfers and increased pain management"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and arranged admission to local hospice"
+      }
+    ]
+  }
+}

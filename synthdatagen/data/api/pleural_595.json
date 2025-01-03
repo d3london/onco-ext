@@ -1,0 +1,87 @@
+{
+  "content": "Diagnosis:\tMalignant pleural mesothelioma (desmoplastic variant)\n\tDiagnosed March 2024 via VATS pleural biopsy\n\tStage T2N1M0\n\tCalretinin and CK5/6 positive on immunohistochemistry\n\nI reviewed [redacted name] today in the mesothelioma clinical trials clinic following his recent diagnosis. He has a clear history of asbestos exposure through his work as a pipe fitter between 1975-2000. His initial presentation was with progressive right-sided chest pain and dyspnoea, leading to diagnostic thoracentesis in February 2024 followed by VATS biopsy confirming desmoplastic mesothelioma. Staging investigations including CT-PET on 15/3/24 showed right pleural disease with a single involved subcarinal node but no distant metastases.\n\nHe has made an excellent recovery from his VATS procedure with good expansion of the right lung and improving exercise tolerance. His baseline chest pain has significantly improved with regular paracetamol and pregabalin. Performance status is currently 1. His other medical history includes well-controlled hypertension on amlodipine 5mg daily.\n\nI have discussed in detail the MARS-3 trial comparing extended pleurectomy decortication followed by chemotherapy versus chemotherapy alone. [redacted name] meets all eligibility criteria including adequate cardiac function (ECHO 12/3/24 shows EF 62%) and pulmonary function (FEV1 2.4L, TLCO 65% predicted). We reviewed the trial schema, randomisation process, and potential risks and benefits of both treatment arms. [redacted name] has expressed a clear wish to participate.\n\nHe has completed all screening investigations including baseline CT chest/abdomen/pelvis 20/3/24, blood tests, and quality of life questionnaires. His wife attended today and both have signed the informed consent forms. I have registered him on the trial database and randomisation will occur within 48 hours.\n\nWe will review him next week to discuss the randomisation outcome and initiate the allocated treatment pathway. The trial coordinator will contact him tomorrow to arrange baseline PRO assessments. He has the 24-hour trial contact number and understands to contact us with any concerns.",
+  "output": {
+    "primary_cancer": {
+      "site": "pleural, right",
+      "year": 2024,
+      "month": 3,
+      "tnm_stage": "T2N1M0",
+      "histopathology_status": "desmoplastic mesothelioma",
+      "biomarker_status": "Calretinin positive, CK5/6 positive",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial presentation with progressive right-sided chest pain and dyspnoea",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Diagnostic thoracentesis",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "VATS pleural biopsy confirming desmoplastic mesothelioma",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT-PET shows right pleural disease with single involved subcarinal node, no distant metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "investigation_finding",
+          "value": "Baseline CT chest/abdomen/pelvis completed for trial screening",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Registered for MARS-3 trial comparing extended pleurectomy decortication followed by chemotherapy versus chemotherapy alone",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Hypertension on amlodipine 5mg daily"
+      },
+      {
+        "type": "performance_status",
+        "value": "PS 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Chest pain, improved with regular paracetamol and pregabalin"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "ECHO shows EF 62%"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "FEV1 2.4L, TLCO 65% predicted"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed desmoplastic mesothelioma with nodal involvement, improving symptoms post-VATS, being enrolled in surgical trial"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Good recovery from VATS with improving exercise tolerance"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review next week to discuss randomisation outcome and initiate allocated treatment pathway"
+      }
+    ]
+  }
+}

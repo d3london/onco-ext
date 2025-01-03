@@ -1,0 +1,107 @@
+{
+  "content": "Diagnosis:\tMetastatic non-small cell lung cancer, left upper lobe primary\n\nManagement:\t2024-01-15 Started Sotorasib 960mg daily\n\t\t2024-02-01 Whole brain radiotherapy 20Gy in 5#\n\t\t2024-02-20 Commenced prophylactic dexamethasone\n\nHistology:\tAdenocarcinoma with KRAS G12C mutation\n\nCurrent Situation:\tCycle 2 review Sotorasib\n\nI reviewed [redacted name] today who is unfortunately experiencing significant clinical deterioration since starting targeted therapy. She describes worsening breathlessness requiring oxygen 2L/min at rest, increasing bone pain particularly affecting the thoracic spine, and new onset headaches despite completing whole brain radiotherapy three weeks ago. Her appetite has significantly declined with 4kg weight loss over the past month. She is spending most of the day resting due to fatigue.\n\nOn examination today, there are reduced breath sounds in the left upper zone with associated dullness to percussion. Neurological examination shows no focal deficits but she appears quite unsteady on her feet. Recent blood tests show stable liver function but rising inflammatory markers with CRP 156.\n\nCT chest/abdomen/pelvis from last week demonstrates disease progression with 30% increase in the left upper lobe primary mass now measuring 8.2cm, new pleural effusion, and increased size and number of liver metastases. MRI brain shows stable appearances of previously treated metastases but two new small lesions in the right frontal lobe.\n\nI have discussed these findings with [redacted name] and her daughter. Given the clear evidence of disease progression on Sotorasib after only 6 weeks of treatment, we will discontinue this therapy. I have explained that the next line of treatment would be platinum-doublet chemotherapy with immunotherapy, but given her declining clinical status, we should first focus on symptom control.\n\nI have increased her dexamethasone to 8mg daily and arranged urgent palliative radiotherapy to the thoracic spine. She has been referred to the palliative care team for review of pain control and additional support. We will review her again in one week to reassess her clinical status and discuss chemotherapy options if appropriate.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, left upper lobe",
+      "year": 2024,
+      "metastases": "brain metastases, liver metastases, bone metastases including thoracic spine",
+      "tnm_stage": "T4N2M1c",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "KRAS G12C mutation",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Sotorasib 960mg daily",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Whole brain radiotherapy 20Gy in 5 fractions",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced prophylactic dexamethasone",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 30% increase in left upper lobe primary mass to 8.2cm, new pleural effusion, increased liver metastases",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows two new right frontal lobe metastases",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing Sotorasib due to disease progression after 6 weeks",
+          "year": 2024,
+          "month": 2
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Worsening breathlessness requiring oxygen 2L/min at rest"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing bone pain particularly affecting thoracic spine"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset headaches"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Significant fatigue, spending most of day resting"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced breath sounds in left upper zone with percussion dullness"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Unsteady gait, no focal neurological deficits"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Rising inflammatory markers with CRP 156"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic KRAS-mutant lung cancer with rapid progression on targeted therapy. Significant clinical deterioration with worsening symptoms requiring urgent palliative intervention."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression after 6 weeks of Sotorasib with 30% increase in primary tumor and new metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing Sotorasib, increased dexamethasone to 8mg daily"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant clinical deterioration with increasing oxygen requirements and reduced mobility"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Clinical review in one week to assess suitability for chemotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and arranged urgent palliative radiotherapy to thoracic spine"
+      }
+    ]
+  }
+}

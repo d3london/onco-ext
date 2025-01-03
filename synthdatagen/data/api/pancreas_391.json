@@ -1,0 +1,112 @@
+{
+  "content": "I reviewed [redacted name] today following recent CT imaging which unfortunately shows disease progression. She was diagnosed with locally advanced pancreatic adenocarcinoma in January 2024, initially presenting with obstructive jaundice requiring ERCP and stent placement. Initial staging demonstrated a 6.8cm pancreatic mass with extensive local invasion, multiple liver metastases, and peritoneal deposits. Molecular profiling identified an NFE2L2 mutation.\n\nShe commenced first-line FOLFIRINOX chemotherapy in February 2024 but experienced significant toxicity with grade 3 neutropenia requiring GCSF support and dose reduction after cycle 2. Despite this, she completed 6 cycles with stable disease on interim imaging in April 2024. However, she then developed progressive disease with new peritoneal deposits and increasing liver metastases, leading to a switch to gemcitabine/nab-paclitaxel in May 2024.\n\nUnfortunately, recent CT imaging shows further disease progression with increasing size and number of liver metastases, new ascites, and progression of peritoneal disease. Her CA19-9 has risen from 2,500 to 8,900. Her performance status has declined to ECOG 3, spending most of the day in bed due to fatigue and abdominal pain. She requires regular opioid analgesia and has lost 12kg over the past 8 weeks despite nutritional support.\n\nOn examination today, she appears cachectic with marked peripheral edema and moderate ascites. There is significant tenderness in the right upper quadrant and epigastrium. Given her deteriorating performance status and clear evidence of disease progression on second-line therapy, I have had a detailed discussion about focusing on symptom control rather than further systemic therapy. She understands this decision and agrees with prioritizing quality of life.\n\nI have referred her to the palliative care team for urgent review and symptom management. They will arrange community support and consider ascitic drainage if symptoms worsen. I have prescribed additional breakthrough analgesia and increased her regular modified-release morphine. We will continue to provide supportive care through our nurse specialist team with telephone support as needed. I will review her again in 2 weeks' time, or sooner if required.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple liver metastases, peritoneal deposits, ascites",
+      "tnm_stage": "T4N2M1",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "NFE2L2 mutation",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial presentation with obstructive jaundice requiring ERCP and stent placement",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started first-line FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Dose reduction of FOLFIRINOX after cycle 2 due to grade 3 neutropenia",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Stable disease on interim imaging after 6 cycles FOLFIRINOX",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Disease progression with new peritoneal deposits and increasing liver metastases",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started second-line gemcitabine/nab-paclitaxel",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 increased from 2,500 to 8,900",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows increasing liver metastases, new ascites, and progression of peritoneal disease",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, spending most of the day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue and abdominal pain requiring regular opioid analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "12kg weight loss over past 8 weeks despite nutritional support"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with marked peripheral edema and moderate ascites"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Significant tenderness in right upper quadrant and epigastrium"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced pancreatic cancer with progressive disease on second-line therapy. Significant clinical deterioration with declining performance status requiring transition to palliative care."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on imaging with increasing liver metastases, new ascites, and rising CA19-9"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy and transitioning to supportive care only"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with significant symptom burden"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral for symptom management and community support"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks or sooner if required"
+      }
+    ]
+  }
+}

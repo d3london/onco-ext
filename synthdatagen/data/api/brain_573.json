@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\tAnaplastic pleomorphic xanthoastrocytoma (WHO grade III)\n\tRight temporal lobe lesion diagnosed March 2024\n\tBRAF V600E mutation positive, CDKN2A/B loss\n\nI reviewed [redacted name] today in the neuro-oncology clinic following completion of cycle 2 of adjuvant temozolomide. The patient has made an excellent recovery from their initial craniotomy performed by [redacted name] on 15/3/24, which achieved a gross total resection. Post-operative MRI on 17/3/24 confirmed no residual enhancing disease.\n\nThe molecular pathology results confirmed BRAF V600E mutation and CDKN2A/B loss, and following MDT discussion, the patient completed a course of involved-field radiotherapy (60Gy in 30 fractions) which finished on 30/4/24. They then commenced adjuvant temozolomide at 150mg/m2 D1-5 q28 days from 21/5/24.\n\nI am pleased to report that cycle 1 was well tolerated with only grade 1 nausea and minimal fatigue. The dose was escalated to 200mg/m2 for cycle 2 as planned. Current cycle has been similarly well-tolerated with good compliance to antiemetics. Surveillance MRI performed yesterday shows no evidence of disease recurrence.\n\nOn examination today, the surgical wound has healed well. Neurological examination is normal with no focal deficits. The patient reports continued improvement in exercise tolerance and has returned to work part-time. Blood results show stable FBC with platelets 245 and neutrophils 3.2, normal renal and liver function.\n\nThe plan is to continue with cycle 3 temozolomide at the current dose of 200mg/m2. We will arrange the next surveillance MRI prior to cycle 4. I have provided antiemetic prescriptions and discussed the importance of reporting any new neurological symptoms promptly. Review arranged in 4 weeks with blood tests beforehand.",
+  "output": {
+    "primary_cancer": {
+      "site": "brain, right temporal lobe",
+      "year": 2024,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": null,
+      "other_stage": "WHO grade III",
+      "histopathology_status": "anaplastic pleomorphic xanthoastrocytoma",
+      "biomarker_status": "BRAF V600E mutation positive, CDKN2A/B loss",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Gross total resection via craniotomy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Post-operative MRI confirmed no residual enhancing disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed involved-field radiotherapy 60Gy in 30 fractions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant temozolomide 150mg/m2 D1-5 q28 days",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Temozolomide dose escalated to 200mg/m2 for cycle 2",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Surveillance MRI shows no evidence of disease recurrence",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Surgical wound healed well, normal neurological examination with no focal deficits"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable FBC with platelets 245 and neutrophils 3.2, normal renal and liver function"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Returned to work part-time with improving exercise tolerance"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "WHO grade III anaplastic pleomorphic xanthoastrocytoma post gross total resection and radiotherapy. Good tolerance of adjuvant temozolomide with no evidence of recurrence"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 nausea and minimal fatigue with cycle 2 temozolomide"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continue with cycle 3 temozolomide at current dose of 200mg/m2"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance MRI to be arranged prior to cycle 4"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 4 weeks with blood tests beforehand"
+      }
+    ]
+  }
+}

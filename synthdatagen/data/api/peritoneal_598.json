@@ -1,0 +1,87 @@
+{
+  "content": "Diagnosis:\nPrimary peritoneal carcinoma, Stage IV\nWT1 positive, PD-L1 negative\nDiagnosed March 2024 via laparoscopic biopsy\n\nPrevious medical history:\nHypertension\nType 2 diabetes\nHypothyroidism\n\nCurrent medications:\nCarboplatin AUC5 and Paclitaxel 175mg/m2 3-weekly\nMetformin 1g BD\nLevothyroxine 100mcg OD\nRamipril 5mg OD\n\nAllergies:\nNone known\n\nCurrent situation:\nCycle 4 of 6 planned cycles carboplatin/paclitaxel\n\nDisease assessment:\nCT 15/05/2024 shows stable disease compared to baseline\nCA125 trending down from 1200 to 450\n\nTreatment tolerance:\nGrade 2 peripheral neuropathy\nGrade 1 fatigue\nNo significant myelosuppression\n\nI reviewed [redacted name] today prior to cycle 4 chemotherapy. She continues to tolerate treatment reasonably well though experiencing increasing peripheral neuropathy affecting her fingers and toes. This remains grade 2 and she is managing daily activities. Her main symptoms of abdominal bloating and early satiety have improved significantly since starting treatment. Performance status remains 1. Today's blood results show stable renal function and adequate cell counts for treatment. We will proceed with cycle 4 today at full dose but will need to monitor neuropathy closely. Follow-up arranged in 3 weeks for cycle 5, with interim telephone review by specialist nurse. End of treatment CT scan has been booked.",
+  "output": {
+    "primary_cancer": {
+      "site": "peritoneal",
+      "year": 2024,
+      "month": 3,
+      "metastases": "widespread peritoneal deposits",
+      "other_stage": "Stage IV",
+      "biomarker_status": "WT1 positive, PD-L1 negative",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Diagnosis confirmed via laparoscopic biopsy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin AUC5 and paclitaxel 175mg/m2 3-weekly",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA125 decreased from 1200 to 450",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable disease compared to baseline",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypothyroidism"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Improved abdominal bloating and early satiety"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function and adequate cell counts"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV primary peritoneal carcinoma showing stable disease on carboplatin/paclitaxel with improving symptoms but developing neuropathy"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 peripheral neuropathy affecting fingers and toes, Grade 1 fatigue"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 4 carboplatin/paclitaxel at full dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "End of treatment CT scan booked"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks for cycle 5 with interim telephone nurse review"
+      }
+    ]
+  }
+}

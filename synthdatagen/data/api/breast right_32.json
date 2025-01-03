@@ -1,0 +1,97 @@
+{
+  "content": "Diagnosis:\t\tMetastatic lobular breast cancer, ER/HER2 positive, PIK3CA mutated\n\nManagement:\t\tPrevious right mastectomy March 2023\n\t\tCompleted adjuvant trastuzumab/pertuzumab/docetaxel x 6 cycles\n\t\tProgression with brain/bone metastases September 2023\n\t\tCompleted whole brain radiotherapy October 2023\n\t\tStarted T-DM1 November 2023\n\nCurrent Situation:\tClinical and radiological progression on T-DM1\n\n[redacted name] has unfortunately shown clear evidence of disease progression on current treatment. Recent MRI brain 15/4/24 shows multiple new enhancing lesions despite previous whole brain radiotherapy. CT chest/abdomen/pelvis confirms progression in bone metastases with new thoracic vertebral lesions. She describes worsening headaches and new onset right-sided hip pain requiring increased analgesia. Performance status has declined to ECOG 2. Blood tests show rising CA15-3 to 245 (previously 180). Given clear evidence of progression, we will discontinue T-DM1 and commence tucatinib/capecitabine/trastuzumab combination. I have prescribed dexamethasone 4mg BD for symptom control and made an urgent referral for palliative radiotherapy to the right hip. She will require close monitoring of neurological symptoms. Review arranged in one week with blood tests to commence new treatment regimen. Acute oncology team aware if deterioration before then.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2023,
+      "month": 3,
+      "metastases": "brain metastases, bone metastases including thoracic vertebrae and right hip",
+      "histopathology_status": "lobular carcinoma, grade 2",
+      "biomarker_status": "ER positive, HER2 positive, PIK3CA mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right mastectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant trastuzumab/pertuzumab/docetaxel",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Progression with new brain and bone metastases",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed whole brain radiotherapy",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started T-DM1",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows multiple new enhancing brain lesions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA15-3 risen to 245 from 180",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening headaches"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset right-sided hip pain requiring increased analgesia"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic breast cancer with brain and bone metastases showing disease progression on T-DM1 with new brain lesions and worsening symptoms"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Clinical and radiological progression on T-DM1 with new brain lesions and increasing tumor markers"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing T-DM1 and commencing tucatinib/capecitabine/trastuzumab combination"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Performance status declined to ECOG 2"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Blood tests in one week"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral for palliative radiotherapy to right hip, review in one week to commence new treatment"
+      }
+    ]
+  }
+}

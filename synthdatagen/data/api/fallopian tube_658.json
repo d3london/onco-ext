@@ -1,0 +1,100 @@
+{
+  "content": "Diagnosis\n\t1. High grade serous carcinoma of fallopian tube with omental metastases\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Diagnostic laparoscopy and biopsy\n\n\tChemotherapy\n\t1. Carboplatin/Paclitaxel - 3 cycles completed March 2024\n\t2. Bevacizumab maintenance commenced April 2024\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tProgressive disease\n\n\tCurrent issues\n\t1. Increasing abdominal pain and distension\n\t2. Deteriorating performance status\n\t3. Symptomatic ascites requiring drainage\n\n\tSummary of consultation\n\tI reviewed [redacted name] today who attended with her daughter. Unfortunately, she has experienced significant clinical deterioration over the past three weeks. Her CA125 has risen from 450 to 1200, and CT performed on 15/5/24 shows progressive disease with increasing omental cake and new peritoneal deposits. There is moderate volume ascites.\n\nShe is experiencing increasing abdominal pain requiring escalation of analgesia, with background MST increased to 30mg BD and breakthrough oxycodone usage increasing. Her appetite has significantly declined and she has lost 4kg in weight over 6 weeks. Performance status has declined to ECOG 2-3.\n\nOn examination today, there is marked abdominal distension with shifting dullness consistent with ascites. Tender palpable omental cake in right upper quadrant. No lower limb edema.\n\nI have had a detailed discussion with [redacted name] and her daughter about disease progression. We have agreed to discontinue bevacizumab and consider second-line platinum-based chemotherapy once her performance status improves. She has been referred for urgent paracentesis.\n\n\tFurther investigations\n\t1. Urgent paracentesis\n\t2. Repeat CA125 in 2 weeks\n\n\tMedication prescribed\n\t1. MST increased to 30mg BD\n\t2. Oxycodone 5mg PRN\n\t3. Metoclopramide 10mg TDS\n\n\tFollow up\n\tUrgent review in 2 weeks after paracentesis\n\n\tRequired GP actions\n\tPlease monitor renal function and electrolytes\n\tPlease continue community support",
+  "output": {
+    "primary_cancer": {
+      "site": "fallopian tube",
+      "year": 2024,
+      "month": 1,
+      "metastases": "omental metastases, peritoneal deposits, ascites",
+      "tnm_stage": "T3cN1M0",
+      "histopathology_status": "high grade serous carcinoma",
+      "biomarker_status": "RAD51C pathogenic variant",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Diagnostic laparoscopy and biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Carboplatin/Paclitaxel chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Bevacizumab maintenance therapy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA125 risen from 450 to 1200",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with increasing omental cake and new peritoneal deposits, moderate volume ascites",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing bevacizumab due to disease progression",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2-3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing abdominal pain requiring escalation of analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Marked abdominal distension with ascites"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender palpable omental cake in right upper quadrant, shifting dullness consistent with ascites, no lower limb edema"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Lost 4kg in weight over 6 weeks with declining appetite"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "High grade serous carcinoma of fallopian tube showing disease progression after first-line therapy. Significant clinical deterioration with symptomatic ascites and declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on bevacizumab with rising CA125 and new peritoneal disease on imaging"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing bevacizumab, plan for second-line platinum-based chemotherapy once performance status improves"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status to ECOG 2-3 with increasing symptom burden"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent paracentesis and repeat CA125 in 2 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent review in 2 weeks after paracentesis"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis\n\t1. Cutaneous melanoma right calf, pT2bN1M0\n\tBreslow 2.8mm, ulcerated, 1 positive sentinel node\n\n\tDate of diagnosis\n\tMarch 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Mar 2024 Wide local excision right calf with 2cm margins and sentinel lymph node biopsy\n\t02 Apr 2024 Completion lymph node dissection right groin\n\n\tChemotherapy\n\tNot indicated\n\n\tClinical studies\n\tIMPACT-Mel trial registration completed today\n\n\tCurrent disease status\n\tNo evidence of residual disease post-surgery\n\n\tCurrent issues\n\tPost-operative wound healing right groin\n\n\tSummary of consultation\n\tThis 45-year-old lady has been reviewed today following completion of surgical treatment for her NRAS Q61K positive melanoma. The primary lesion was a 2.8mm Breslow thickness ulcerated melanoma of the right calf, with one positive sentinel node from three sampled. Subsequent completion lymphadenectomy showed no additional nodal involvement from 12 nodes examined.\n\nI have discussed at length the role of adjuvant immunotherapy in her situation. Given her high-risk features including ulceration and nodal involvement, she meets criteria for the IMPACT-Mel trial comparing standard adjuvant anti-PD1 therapy versus combination immunotherapy. We have reviewed the trial protocol, potential benefits, and side effect profile of both treatment arms in detail.\n\nShe has completed all screening investigations including CT chest/abdomen/pelvis on 15/4/24 showing no evidence of metastatic disease, and normal baseline blood tests including LFTs, TFTs, and cortisol. Her right groin wound is healing well with minimal seroma.\n\n\tFurther investigations\n\tBaseline brain MRI scheduled 22/4/24\n\tBaseline cardiac echo and ECG arranged for 24/4/24\n\n\tMedication prescribed\n\tNone\n\n\tFollow up\n\tTrial randomisation visit scheduled 29/4/24\nFirst treatment planned 2/5/24\nSurgical follow-up with Mr [redacted name] arranged for 3 months\n\n\tRequired GP actions\n\tWeekly blood monitoring as per trial protocol once treatment commences\nUrgent review if immune-related symptoms develop\n\n\tSummary of information given to the patient\n\tFull trial information pack provided\nWritten and verbal information about immunotherapy side effects\nTrial emergency contact card issued",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right calf",
+      "year": 2024,
+      "month": 3,
+      "metastases": "one positive sentinel lymph node",
+      "tnm_stage": "pT2bN1M0",
+      "histopathology_status": "Melanoma, Breslow 2.8mm, ulcerated",
+      "biomarker_status": "NRAS Q61K positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision right calf with 2cm margins and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Completion lymph node dissection right groin - no additional nodal involvement from 12 nodes",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis shows no evidence of metastatic disease",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Registered for IMPACT-Mel trial comparing standard adjuvant anti-PD1 versus combination immunotherapy",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Right groin wound healing well with minimal seroma"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal baseline blood tests including LFTs, TFTs, and cortisol"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "High-risk melanoma with single node involvement, post-surgical treatment. Being enrolled in adjuvant immunotherapy trial following complete resection."
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline brain MRI 22/4/24 and cardiac echo/ECG 24/4/24"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Trial randomisation 29/4/24, first treatment 2/5/24, surgical follow-up in 3 months"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "content": "Diagnosis:\t\tEndometrial cancer\n\nManagement:\t\tTotal laparoscopic hysterectomy and bilateral salpingo-oophorectomy 15 March 2024\n\nHistology:\t\tGrade 3 endometrioid adenocarcinoma\n\t\tStage pT1aN0M0\n\t\tPOLε mutation detected\n\t\tLymphovascular invasion absent\n\nCurrent situation:\tPost-operative review\n\n[redacted name] has recovered well from her surgery with minimal post-operative pain and good mobility. She reports no current symptoms of concern. Her wound sites have healed well. Performance status is 0. Examination today shows no concerning features.\n\nGiven the high-risk features (Grade 3, POLε mutation) but early stage disease, we have discussed the role of adjuvant treatment. The evidence suggests good prognosis with surgery alone in this molecular subtype. We will therefore proceed with surveillance rather than adjuvant therapy.\n\nPlan for 3-monthly follow up with alternate CT imaging. First surveillance CT chest/abdomen/pelvis arranged for June 2024. She understands to contact us sooner if any new symptoms develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "endometrium",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "pT1aN0M0",
+      "other_stage": "",
+      "histopathology_status": "Grade 3 endometrioid adenocarcinoma, lymphovascular invasion absent",
+      "biomarker_status": "POLε mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total laparoscopic hysterectomy and bilateral salpingo-oophorectomy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Grade 3 endometrioid adenocarcinoma, pT1aN0M0, POLε mutation detected, lymphovascular invasion absent",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No concerning features on examination"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Minimal post-operative pain, good mobility"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage high grade endometrial cancer with POLε mutation. Good post-operative recovery, proceeding with surveillance given favorable molecular subtype."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Decision for surveillance rather than adjuvant therapy due to POLε mutation status despite Grade 3 histology"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis arranged for June 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "3-monthly follow up with alternate CT imaging"
+      }
+    ]
+  }
+}

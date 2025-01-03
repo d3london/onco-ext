@@ -1,0 +1,67 @@
+{
+  "content": "Many thanks for referring [redacted name] who I met today following his recent diagnosis of renal cell carcinoma. He presented initially to his GP in January 2024 with intermittent right flank pain and microscopic haematuria. CT imaging revealed a 7.2cm mass arising from the right kidney, with no evidence of local invasion or metastatic disease. He underwent right radical nephrectomy on March 15th 2024, and I'm pleased to report the histology has confirmed a grade 2 clear cell renal cell carcinoma (pT2aN0M0), with clear margins and no lymphovascular invasion. Immunohistochemistry shows high PD-L1 expression with CPS 95.\n\nHe has recovered very well from surgery with minimal post-operative pain and his wound has healed nicely. His baseline renal function remains stable with creatinine 110 μmol/L. He describes good energy levels and has already returned to his regular walking routine. His appetite is excellent and he has maintained his weight at 82kg.\n\nIn terms of background, he is otherwise fit and well with only well-controlled hypertension for which he takes amlodipine 5mg daily. He lives with his wife and works as an accountant, currently back at work part-time. He has never smoked and drinks alcohol only occasionally.\n\nOn examination today, his surgical wounds are well-healed, and abdominal examination is unremarkable. His blood pressure is well-controlled at 132/78 mmHg.\n\nI have explained to [redacted name] that given the complete resection of his kidney cancer with no adverse features, the prognosis is very favourable. While his tumor shows high PD-L1 expression, there is no current indication for adjuvant therapy given the stage and complete resection. I have outlined our standard follow-up protocol, which will involve regular clinical reviews with periodic CT scanning.\n\nThe plan is for CT chest/abdomen/pelvis in 3 months' time, followed by clinic review. I have provided written information about kidney cancer and our surveillance protocol. [redacted name] understands to contact us sooner if he develops any concerning symptoms in the meantime.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT2aN0M0",
+      "other_stage": "Stage II",
+      "histopathology_status": "grade 2 clear cell renal cell carcinoma, clear margins, no lymphovascular invasion",
+      "biomarker_status": "PD-L1 CPS 95",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT imaging revealed 7.2cm mass arising from the right kidney, no evidence of local invasion or metastatic disease",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "right radical nephrectomy performed",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "histology confirmed grade 2 clear cell renal cell carcinoma pT2aN0M0, clear margins, no lymphovascular invasion, high PD-L1 expression CPS 95",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "well-controlled hypertension on amlodipine 5mg daily"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "stable renal function with creatinine 110 μmol/L"
+      },
+      {
+        "type": "examination_finding",
+        "value": "surgical wounds well-healed, abdominal examination unremarkable, blood pressure 132/78 mmHg"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "good energy levels, returned to regular walking routine, back at work part-time"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed right renal cell carcinoma, completely resected with favorable features. Good post-operative recovery with return to normal activities"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "clinic review following CT scan in 3 months"
+      }
+    ]
+  }
+}

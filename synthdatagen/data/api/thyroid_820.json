@@ -1,0 +1,87 @@
+{
+  "content": "Diagnosis:\tMedullary thyroid carcinoma\n\nManagement:\t15 Jan 2024 Total thyroidectomy with central compartment neck dissection\n\t\t20 Feb 2024 Commenced Selpercatinib 160mg BD\n\nHistology:\tpT3N1aM0 medullary thyroid carcinoma with 4/12 positive central compartment nodes\n\t\tRET mutation positive\n\nCurrent Situation:\tReview at 12 weeks of Selpercatinib therapy\n\nI reviewed [redacted name] today following 12 weeks of treatment with Selpercatinib. She has shown an excellent biochemical response with calcitonin levels falling from 1200 pg/mL pre-treatment to 180 pg/mL currently. Her CEA has also normalized from 24 to 3.2 μg/L. The neck ultrasound performed last week shows significant reduction in the size of residual lymph nodes, with the largest node decreasing from 1.8cm to 0.8cm.\n\nShe has generally tolerated treatment well though experienced grade 2 hypertension requiring initiation of Amlodipine 5mg daily, which has successfully controlled her blood pressure. She also reports mild fatigue and intermittent dry mouth, both grade 1 and manageable. Her thyroid function remains well controlled on Levothyroxine 125mcg daily.\n\nOn examination today, her surgical scar is well-healed with no palpable cervical lymphadenopathy. Her blood pressure is now well-controlled at 138/82 mmHg. Recent blood tests show stable liver function and normal QTc interval on ECG.\n\nGiven the excellent response and acceptable toxicity profile, we will continue Selpercatinib at the current dose. I have arranged repeat calcitonin, CEA, TFTs, and liver function in 4 weeks, with clinical review in 6 weeks. A follow-up CT neck/chest/abdomen/pelvis is scheduled for 3 months' time to fully assess response.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 1,
+      "metastases": "central compartment lymph nodes",
+      "tnm_stage": "pT3N1aM0",
+      "other_stage": "Stage III",
+      "histopathology_status": "medullary thyroid carcinoma with 4/12 positive central compartment nodes",
+      "biomarker_status": "RET mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy with central compartment neck dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Initial calcitonin 1200 pg/mL, CEA 24 μg/L",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Selpercatinib 160mg BD",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Calcitonin decreased to 180 pg/mL, CEA normalized to 3.2 μg/L",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Neck ultrasound shows reduction in lymph nodes, largest decreased from 1.8cm to 0.8cm",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical scar, no palpable cervical lymphadenopathy"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Blood pressure 138/82 mmHg"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable liver function and normal QTc interval on ECG"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Medullary thyroid cancer post-surgery showing excellent biochemical and radiological response to Selpercatinib therapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Excellent biochemical response with significant reduction in calcitonin and CEA, radiological response in lymph nodes"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 hypertension controlled with Amlodipine, grade 1 fatigue and dry mouth"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Selpercatinib 160mg BD with good tolerability"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat calcitonin, CEA, TFTs, and liver function in 4 weeks, CT neck/chest/abdomen/pelvis in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review in 6 weeks"
+      }
+    ]
+  }
+}

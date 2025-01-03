@@ -1,0 +1,101 @@
+{
+  "content": "Diagnosis:\tMetastatic large cell neuroendocrine carcinoma of breast with extensive brain metastases\n\tT4 N3 M1 triple negative disease\n\tPDL1 strongly positive (CPS 100)\n\nI reviewed [redacted name] today who has unfortunately shown significant clinical deterioration since our last review 3 weeks ago. She initially presented in January 2024 with locally advanced right breast cancer and was found to have multiple brain metastases on staging. She received whole brain radiotherapy (20Gy in 5#) completed 15/2/24 followed by carboplatin/etoposide which she started on 1/3/24.\n\nShe managed two cycles but developed grade 3 thrombocytopenia requiring platelet transfusion after cycle 2. Her main symptoms now are worsening headaches, new onset confusion, and increasing right-sided weakness. Her husband reports she has become increasingly drowsy over the past week. Her performance status has declined from 2 to 3-4.\n\nMRI brain performed yesterday shows significant progression of brain metastases with increasing perilesional edema despite being on maximum dose dexamethasone 8mg BD. CT chest/abdomen/pelvis shows stable disease in primary breast lesion but new liver metastases.\n\nI have had a lengthy discussion with [redacted name] and her husband about the significant disease progression and poor prognosis. Given her declining performance status and progression through first-line therapy, I do not feel further systemic anti-cancer therapy would be appropriate or safe. We have agreed to focus on symptom control.\n\nI have increased her dexamethasone to 12mg BD and arranged urgent palliative care review. I have also referred to the hospital palliative care team for consideration of hospice admission given her rapid decline. Her husband understands the situation and has my direct contact details should they need urgent support.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple brain metastases, new liver metastases",
+      "tnm_stage": "T4N3M1",
+      "other_stage": "Stage 4",
+      "histopathology_status": "large cell neuroendocrine carcinoma",
+      "biomarker_status": "triple negative (ER/PR/HER2 negative), PDL1 strongly positive (CPS 100)",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Presentation with locally advanced breast cancer and multiple brain metastases",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed whole brain radiotherapy 20Gy in 5 fractions",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/etoposide chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Stopped after 2 cycles due to grade 3 thrombocytopenia requiring platelet transfusion",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows progression of brain metastases with increasing perilesional edema",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable primary breast lesion but new liver metastases",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from PS 2 to PS 3-4"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening headaches"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset confusion"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing right-sided weakness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing drowsiness over past week"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic breast neuroendocrine carcinoma with brain metastases. Significant clinical deterioration with progressive brain disease despite whole brain radiotherapy and chemotherapy"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 thrombocytopenia requiring platelet transfusion"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease in brain with new liver metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Stopping systemic therapy due to disease progression and poor performance status, increased dexamethasone to 12mg BD"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status from 2 to 3-4 with increasing confusion and weakness"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review arranged and referral to hospital palliative care team for hospice consideration"
+      }
+    ]
+  }
+}

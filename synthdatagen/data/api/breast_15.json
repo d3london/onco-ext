@@ -1,0 +1,102 @@
+{
+  "content": "Diagnosis:\n\nInflammatory breast cancer with liver and bone metastases\n\nStaging March 2024: T4dN2M1, Grade 3 inflammatory carcinoma, ER/PR negative, HER2 positive, PIK3CA mutation detected\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nDepression\n\nCurrent medications:\nTrastuzumab/Pertuzumab/Docetaxel combination\nAlpelisib commenced 15/3/24\nMetformin\nRamipril\nSertraline\n\nAllergies:\nNone known\n\nCurrent situation:\nProgressive disease on cycle 4 of current treatment\n\nI reviewed [redacted name] today who attended with her daughter. Unfortunately, she has experienced significant clinical deterioration over the past three weeks. Her inflammatory changes affecting the right breast have worsened with increased erythema and skin nodularity. She describes worsening right upper quadrant discomfort which I suspect reflects progression of her liver metastases. Her mobility has declined significantly due to increasing bone pain, particularly affecting her lumbar spine and left hip. She now requires assistance with most daily activities and is spending approximately 60% of the day resting.\n\nHer latest CT scan from 12/4/24 shows progressive disease with a 30% increase in liver metastases and new bone lesions in T11 and right acetabulum. The inflammatory changes in the right breast have also progressed clinically. Her tumor markers show a corresponding rise with CA15-3 increasing from 120 to 345.\n\nWe had a detailed discussion about modifying her treatment approach. Given her HER2 positive disease, I have recommended switching to Trastuzumab-deruxtecan (T-DXd). I have explained the rationale, potential benefits and side effects in detail. We will arrange urgent radiotherapy to her symptomatic bone metastases before commencing the new treatment. I have also referred her to our palliative care team for additional support with symptom management.\n\nThe plan is to proceed with urgent radiotherapy planning next week, aiming to treat her lumbar spine and left hip. We will then commence T-DXd, with the first cycle planned for 2/5/24. I have organized weekly review initially given her declining status. I have also arranged urgent bone strengthening with Zoledronic acid which will be given tomorrow.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2024,
+      "month": 3,
+      "metastases": "liver metastases, bone metastases including T11 vertebra and right acetabulum",
+      "tnm_stage": "T4dN2M1",
+      "histopathology_status": "Grade 3 inflammatory carcinoma",
+      "biomarker_status": "ER/PR negative, HER2 positive, PIK3CA mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on Trastuzumab/Pertuzumab/Docetaxel combination therapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Alpelisib",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 30% increase in liver metastases and new bone lesions in T11 and right acetabulum",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA15-3 increased from 120 to 345",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Clinical progression of inflammatory changes in right breast",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Depression"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant discomfort"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Bone pain affecting lumbar spine and left hip"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Spending 60% of day resting, requires assistance with most daily activities"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Increased breast erythema and skin nodularity"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Inflammatory breast cancer with liver and bone metastases showing disease progression after 4 cycles of current therapy. Significant clinical deterioration with worsening symptoms and declining functional status."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with 30% increase in liver metastases and new bone lesions"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing current therapy and switching to Trastuzumab-deruxtecan (T-DXd)"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline in mobility, now requiring assistance with most daily activities"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent radiotherapy planning next week for lumbar spine and left hip"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review arranged, urgent Zoledronic acid tomorrow, referral to palliative care team"
+      }
+    ]
+  }
+}

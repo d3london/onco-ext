@@ -1,0 +1,63 @@
+{
+  "content": "Diagnosis:\t\tProstate adenocarcinoma, T2a N0 M0\n\nManagement:\t\tRadical radiotherapy completed March 2024\n\nBiomarkers:\tInitial PSA 5.4, AR-V7 negative\n\nCurrent Situation:\tPost-treatment review\n\n[redacted name] attended for his first review following completion of radical radiotherapy to the prostate. He completed treatment on 15/3/24 and has experienced minimal side effects, with only grade 1 urinary frequency that is now improving. His bowel function remains normal. He maintains good hydration and continues with regular pelvic floor exercises as advised.\n\nOn examination today his performance status is 0. Digital rectal examination shows no concerning features. His most recent PSA from 12/4/24 has fallen appropriately to 2.1.\n\nI am pleased with his progress. We will continue with PSA monitoring, with the next check due in 3 months. He will be reviewed in clinic following those results. I have provided written information about expected recovery timeline and post-radiotherapy care. He understands to contact us if he develops any new concerns.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, right apex",
+      "year": 2024,
+      "metastases": "none",
+      "tnm_stage": "T2aN0M0",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "Initial PSA 5.4, AR-V7 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radical radiotherapy to prostate",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA fallen to 2.1",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 urinary frequency, improving"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Digital rectal examination shows no concerning features"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Localized prostate cancer treated with radical radiotherapy. Good treatment response with falling PSA and minimal side effects"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 urinary frequency, improving post-radiotherapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "PSA falling appropriately post-treatment from 5.4 to 2.1"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "PSA monitoring in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review after next PSA results"
+      }
+    ]
+  }
+}

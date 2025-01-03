@@ -1,0 +1,78 @@
+{
+  "content": "Diagnosis:\t\tLocally advanced laryngeal squamous cell carcinoma\n\nStaging:\t\tT3N1M0 (Stage III), p16 negative, PDL1 CPS 20\n\nTreatment:\t\tConcurrent chemoradiotherapy with cisplatin\n\nCurrent Status:\tWeek 5 of treatment\n\n[redacted name] attended for week 5 review of concurrent chemoradiotherapy. He has completed cycles 1 and 2 of cisplatin (100mg/m2) on days 1 and 22, with the final cycle scheduled for day 43. Radiotherapy has been delivered without interruption, now at fraction 25/35. Treatment response appears favorable with reduction in visible laryngeal disease on nasendoscopy performed today. His voice quality has improved significantly since treatment initiation.\n\nHe is experiencing expected grade 2 radiation-induced mucositis requiring regular soluble morphine and benzydamine mouthwash. There is grade 2 radiation dermatitis to the anterior neck managed with appropriate skincare. His swallowing function remains adequate for soft diet though he reports increased use of thickened fluids. Weight has dropped by 3kg since treatment start but has stabilized with dietetic support and supplementary drinks.\n\nBlood results show stable renal function with eGFR 68, magnesium 0.72 maintained with oral supplementation. Latest radiotherapy imaging confirms excellent setup accuracy with minimal shifts required.\n\nThe plan is to proceed with cycle 3 cisplatin next week pending blood results. Speech and language therapy review is scheduled for next week. We will continue weekly treatment reviews and arrange post-treatment CT neck at 12 weeks.",
+  "output": {
+    "primary_cancer": {
+      "site": "larynx",
+      "tnm_stage": "T3N1M0",
+      "other_stage": "Stage III",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "p16 negative, PDL1 CPS 20",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started concurrent chemoradiotherapy with cisplatin 100mg/m2"
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed cycle 2 cisplatin on day 22"
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed 25 fractions of planned 35 fraction course"
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Improvement in voice quality and reduction in visible laryngeal disease on nasendoscopy"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 radiation-induced mucositis"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 radiation dermatitis to anterior neck"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Requiring thickened fluids for swallowing"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "eGFR 68, magnesium 0.72"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Radiotherapy imaging confirms excellent setup accuracy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III laryngeal cancer showing good response to concurrent chemoradiotherapy at week 5, with improving voice quality despite expected toxicities"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Reduction in visible laryngeal disease on nasendoscopy with improved voice quality"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 mucositis and radiation dermatitis, 3kg weight loss stabilized with nutritional support"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 3 cisplatin next week pending blood results"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Post-treatment CT neck at 12 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly treatment reviews and speech and language therapy review next week"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "content": "Diagnosis:\t\tPancreatic VIPoma with regional nodal disease\n\nManagement:\t\tCommenced Lanreotide 120mg monthly from 15 March 2024\n\nHistology:\t\tWell-differentiated neuroendocrine tumor (VIPoma) of pancreatic tail with 3/8 regional lymph nodes positive. VIP level 200 pmol/L (normal <30). Chromogranin A elevated at 450 ng/mL.\n\nCurrent Situation:\tInitial oncology assessment\n\n[redacted name] is a 56-year-old gentleman who has recently been diagnosed with a pancreatic neuroendocrine tumor (VIPoma) following a 6-month history of profound watery diarrhea and associated weight loss of 12kg. Initial CT imaging demonstrated a 4.2cm mass in the tail of pancreas with enlarged regional lymph nodes. He underwent distal pancreatectomy with regional lymphadenectomy on 1 March 2024, which confirmed a well-differentiated VIPoma with 3/8 lymph nodes positive for metastatic disease. His pre-operative VIP level was significantly elevated at 200 pmol/L with raised Chromogranin A at 450 ng/mL.\n\nHe has experienced marked improvement in his symptoms following surgery and initiation of Lanreotide therapy. His diarrhea has reduced from 15-20 episodes daily to 2-3 episodes, and he has regained 3kg in weight. Current performance status is 1. His potassium and bicarbonate levels have normalized with treatment.\n\nThe plan is to continue monthly Lanreotide injections with monitoring of VIP levels and Chromogranin A. We will arrange a follow-up CT scan in 3 months' time and review him in clinic with these results. He has been provided with contact details for our neuroendocrine specialist nurse.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas, tail",
+      "year": 2024,
+      "month": 3,
+      "metastases": "3/8 regional lymph nodes positive",
+      "histopathology_status": "well-differentiated neuroendocrine tumor (VIPoma)",
+      "biomarker_status": "VIP level 200 pmol/L, Chromogranin A 450 ng/mL",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing 4.2cm mass in tail of pancreas with enlarged regional lymph nodes",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Pre-operative VIP level 200 pmol/L and Chromogranin A 450 ng/mL",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Distal pancreatectomy with regional lymphadenectomy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Lanreotide 120mg monthly",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Marked improvement in symptoms with reduction in diarrhea from 15-20 to 2-3 episodes daily",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "2-3 episodes of diarrhea daily, improved from 15-20 episodes"
+      },
+      {
+        "type": "performance_status",
+        "value": "PS 1"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normalized potassium and bicarbonate levels"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed pancreatic VIPoma with nodal involvement. Good symptomatic response to surgery and Lanreotide initiation"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Marked improvement in diarrhea and weight gain of 3kg following surgery and Lanreotide"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing monthly Lanreotide 120mg"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan in 3 months with VIP levels and Chromogranin A monitoring"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with scan and blood results in 3 months"
+      }
+    ]
+  }
+}

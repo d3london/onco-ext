@@ -1,0 +1,78 @@
+{
+  "content": "Diagnosis:\tWHO Grade II oligodendroglioma, right frontal lobe\n\nManagement:\t15 March 2024 Stereotactic biopsy\n\nHistology:\tOligodendroglioma WHO Grade II, IDH1 mutant, 1p/19q co-deleted\n\nCurrent Situation:\tPost-operative review following biopsy\n\nI reviewed [redacted name] today following his recent stereotactic biopsy. He initially presented in February 2024 with focal seizures affecting his left hand, which led to neuroimaging revealing a 4.2cm right frontal lobe mass. He underwent stereotactic biopsy on 15th March 2024 which confirmed WHO Grade II oligodendroglioma with favorable molecular profile (IDH1 mutant and 1p/19q co-deleted).\n\nHe has made an excellent recovery from the biopsy with no new neurological deficits. His seizures are well controlled on Levetiracetam 750mg twice daily, with no episodes in the last 3 weeks. He describes mild fatigue but has otherwise maintained his usual activities. He continues to work from home as a software engineer and lives with his wife who attended today's consultation.\n\nOn examination, he is alert and fully oriented with no cognitive deficits. Cranial nerve examination is normal. He has normal power and sensation throughout, with no evidence of focal neurological deficit. His surgical wound has healed well.\n\nI have discussed the diagnosis and management options in detail. Given the molecular profile and his excellent performance status, I have recommended proceeding with radiotherapy (54Gy in 30 fractions) followed by PCV chemotherapy. We will arrange a radiotherapy planning appointment for next week. I have provided written information about both treatments and their potential side effects.\n\nHe will have a baseline MRI brain next week prior to starting radiotherapy. We will see him again in clinic during week 1 of radiotherapy to check his progress. I have also made a referral to our neuro-oncology specialist nurse for ongoing support.",
+  "output": {
+    "primary_cancer": {
+      "site": "brain, right frontal lobe",
+      "year": 2024,
+      "month": 2,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "WHO Grade II",
+      "histopathology_status": "oligodendroglioma",
+      "biomarker_status": "IDH1 mutant, 1p/19q co-deleted",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Presented with focal seizures affecting left hand",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Neuroimaging revealed 4.2cm right frontal lobe mass",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Stereotactic biopsy performed",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Biopsy confirmed WHO Grade II oligodendroglioma, IDH1 mutant, 1p/19q co-deleted",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Seizures well controlled on Levetiracetam 750mg twice daily"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Alert and fully oriented with no cognitive deficits, normal cranial nerve examination, normal power and sensation"
+      },
+      {
+        "type": "performance_status",
+        "value": "Excellent performance status, maintaining usual activities"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed WHO Grade II oligodendroglioma following focal seizures. Excellent recovery from biopsy with well-controlled symptoms"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Currently on Levetiracetam 750mg twice daily for seizure control"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline MRI brain next week prior to starting radiotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Radiotherapy planning appointment next week, clinic review during week 1 of radiotherapy"
+      }
+    ]
+  }
+}

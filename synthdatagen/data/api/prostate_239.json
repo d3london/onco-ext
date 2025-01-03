@@ -1,0 +1,80 @@
+{
+  "content": "Diagnosis:\nProstate adenocarcinoma with vacuolated cell features\nT2b N0 M0, diagnosed January 2024\nInitial PSA 8.9, PTEN monoallelic loss on genomic testing\n\nPrevious medical history:\nHypertension\nType 2 diabetes\n\nCurrent medications:\nBicalutamide 150mg daily\nLeuprorelin 3-monthly depot\nMetformin\nRamipril\n\nCurrent situation:\nPSA trend:\n8.9 (Jan 2024)\n0.8 (Mar 2024)\n0.4 (today)\n\nSeen for review following 3 months of hormone therapy. Tolerating treatment well with only grade 1 hot flushes. Performance status remains 0. No urinary symptoms. Digital rectal examination shows reduction in size of right-sided nodule. Latest testosterone confirms castrate level at 0.4nmol/L. Plan to continue current hormone therapy with PSA check and review in 3 months.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "T2bN0M0",
+      "histopathology_status": "adenocarcinoma with vacuolated cell features",
+      "biomarker_status": "Initial PSA 8.9, PTEN monoallelic loss",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial PSA 8.9",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on bicalutamide 150mg daily and leuprorelin depot",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA decreased to 0.8",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA further decreased to 0.4, testosterone confirms castrate level at 0.4nmol/L",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Digital rectal examination shows reduction in size of right-sided nodule"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Localized prostate cancer responding well to hormone therapy with good PSA response and no significant toxicity"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 hot flushes"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing bicalutamide 150mg daily and leuprorelin 3-monthly depot"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "PSA check in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 months"
+      }
+    ]
+  }
+}

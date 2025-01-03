@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis:\tRectal cancer - T2N0M0 basaloid squamous cell carcinoma, p16 positive, PD-L1 high (CPS 80)\n\nManagement:\tCompleted long-course chemoradiotherapy March 2024 (50.4Gy in 28 fractions with concurrent capecitabine)\n\nHistology:\tBasaloid squamous cell carcinoma confirmed on endoscopic biopsy January 2024\n\nCurrent Situation:\tPost-treatment surveillance\n\nI reviewed [redacted name] in follow-up clinic today. He has recovered well from his chemoradiotherapy which completed 8 weeks ago. His bowel function has largely returned to normal with 2-3 formed motions daily. He reports no bleeding or pain. His appetite has improved and his weight is stable at 72kg. Performance status remains 0.\n\nOn examination today, digital rectal examination shows good healing with no palpable abnormality. Blood tests show stable parameters with CEA 2.1 (previously 2.3).\n\nI have arranged an MRI pelvis for 3 months' time to assess treatment response, followed by clinic review. I have explained the surveillance plan which he understands. He has contact details for the specialist nursing team if any concerns arise before then.",
+  "output": {
+    "primary_cancer": {
+      "site": "rectum",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "T2N0M0",
+      "histopathology_status": "basaloid squamous cell carcinoma",
+      "biomarker_status": "p16 positive, PD-L1 high (CPS 80)",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Endoscopic biopsy confirms basaloid squamous cell carcinoma",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed long-course chemoradiotherapy 50.4Gy in 28 fractions with concurrent capecitabine",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA 2.1, previously 2.3",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "2-3 formed bowel motions daily"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Digital rectal examination shows good healing with no palpable abnormality"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "T2N0M0 rectal basaloid squamous cell carcinoma. Good recovery following completion of chemoradiotherapy with improving symptoms"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Stable weight at 72kg with improved appetite"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI pelvis in 3 months to assess treatment response"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review following MRI pelvis"
+      }
+    ]
+  }
+}

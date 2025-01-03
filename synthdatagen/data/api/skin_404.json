@@ -1,0 +1,50 @@
+{
+  "content": "Diagnosis:\tBasal cell carcinoma right temple region\n\nManagement:\t12 Jan 2024 Wide local excision with 4mm margins\n\nHistology:\tNodular basal cell carcinoma, completely excised\n\nCurrent Situation:\tPost-operative follow up\n\nI reviewed [redacted name] in clinic today following his wide local excision of right temple basal cell carcinoma. The surgical site has healed well with an acceptable cosmetic result. There is no evidence of local recurrance. The patient reports no new skin changes or concerning lesions elsewhere. Examination of the surgical site shows apropriate healing with no evidence of residual or recurrent disease. The rest of the face and scalp appear clear of suspicious lesions. We have discussed sun protection measures and signs to watch for. Given the complete excision and good healing, I am happy to discharge [redacted name] back to his GP's care. He understands to seek review if he notices any new or changing skin lesions. I have provided written information about skin cancer prevention.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right temple region",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "T2",
+      "other_stage": null,
+      "histopathology_status": "nodular basal cell carcinoma",
+      "biomarker_status": null,
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision with 4mm margins, completely excised",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Surgical site well healed with acceptable cosmetic result, no evidence of recurrence",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Surgical site shows appropriate healing with no evidence of residual or recurrent disease"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Rest of face and scalp clear of suspicious lesions"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "T2 basal cell carcinoma of right temple treated with wide local excision. Post-operative review shows good healing with no evidence of recurrence"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Discharged to GP care with advice about skin cancer prevention and surveillance"
+      }
+    ]
+  }
+}

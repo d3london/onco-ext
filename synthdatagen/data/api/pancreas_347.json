@@ -1,0 +1,82 @@
+{
+  "content": "Diagnosis:\tPancreatic adenocarcinoma T3N1M0, KRAS G12D mutation positive\n\nInitial surgery 15 March 2024 - Whipple's procedure with R0 resection. Histology confirmed moderately differentiated pancreatic ductal adenocarcinoma with 2/15 lymph nodes positive, clear margins.\n\nCompleted 3 cycles of adjuvant modified FOLFIRINOX with 20% dose reduction from cycle 2 due to grade 2 neutropenia.\n\n[redacted name] attended for review today prior to cycle 4 adjuvant chemotherapy. She is tolerating treatment reasonably well following the dose reduction. Main side effects are grade 1 fatigue and occasional loose stools well managed with loperamide. Performance status remains 1. Blood tests show stable parameters with neutrophils 1.8, platelets 165.\n\nCT scan performed last week shows no evidence of disease recurrence. CA19-9 has normalized from pre-operative level of 850 to current level of 28.\n\nPlan is to proceed with cycle 4 modified FOLFIRINOX today. Will arrange CT chest/abdomen/pelvis after completion of planned 6 cycles. Follow-up appointment in 3 weeks.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "T3N1M0",
+      "histopathology_status": "moderately differentiated pancreatic ductal adenocarcinoma, R0 resection, 2/15 lymph nodes positive, clear margins",
+      "biomarker_status": "KRAS G12D mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure with R0 resection",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant modified FOLFIRINOX",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "20% dose reduction from cycle 2 due to grade 2 neutropenia",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 normalized from pre-operative level of 850 to current level of 28",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of disease recurrence",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "grade 1 fatigue and occasional loose stools well managed with loperamide"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "blood tests show stable parameters with neutrophils 1.8, platelets 165"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Post-operative pancreatic cancer on adjuvant modified FOLFIRINOX. Tolerating treatment well after dose reduction with no evidence of recurrence"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "grade 1 fatigue and occasional loose stools"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "proceeding with cycle 4 modified FOLFIRINOX"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis after completion of planned 6 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow-up appointment in 3 weeks"
+      }
+    ]
+  }
+}

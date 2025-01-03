@@ -1,0 +1,95 @@
+{
+  "content": "Many thanks for referring [redacted name] who I reviewed today following her recent bilateral breast cancer diagnoses. She initially presented in January 2024 with a right breast lump, and subsequent imaging revealed suspicious lesions in both breasts. Core biopsies from both sides confirmed grade 2 invasive ductal carcinoma - the right breast tumor measuring 2.8cm and the left 1.9cm. Both tumors are ER/PR positive with high Ki67 (40%) and HER2 positive on immunohistochemistry, confirmed by FISH testing.\n\nShe has completed staging investigations including CT chest/abdomen/pelvis and bone scan which show no evidence of metastatic disease. Cardiac function has been assessed with MUGA scan showing normal left ventricular ejection fraction of 62%.\n\nFollowing discussion at our breast MDT on 15th March 2024, we recommended neo-adjuvant systemic therapy with dual HER2-targeted treatment. She commenced treatment on 20th March with docetaxel, pertuzumab and trastuzumab. She has now completed two cycles with excellent clinical response - both breast masses have reduced significantly in size. The right breast mass has decreased from 2.8cm to 1.2cm, and the left from 1.9cm to 0.8cm on clinical measurement.\n\nShe has experienced moderate fatigue and grade 1 peripheral neuropathy affecting her fingertips, but has maintained good oral intake and activity levels. Blood tests show stable parameters with no significant toxicity. She continues to work part-time as a teacher.\n\nThe plan is to complete 6 cycles of current therapy, followed by bilateral surgery. Timing of surgery will be determined by response assessment after cycle 4. We will see her again before cycle 3 next week, with routine cardiac monitoring arranged.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast bilateral",
+      "year": 2024,
+      "month": 1,
+      "metastases": "no evidence of metastatic disease",
+      "histopathology_status": "grade 2 invasive ductal carcinoma",
+      "biomarker_status": "ER/PR positive, HER2 positive, Ki67 40%",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "right breast tumor 2.8cm and left breast tumor 1.9cm on initial presentation",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Core biopsies confirm bilateral grade 2 invasive ductal carcinoma, ER/PR and HER2 positive",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "MUGA scan shows normal left ventricular ejection fraction of 62%",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Discussed at breast MDT - recommended neo-adjuvant systemic therapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started docetaxel, pertuzumab and trastuzumab",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Clinical response - right breast mass reduced to 1.2cm, left to 0.8cm",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "moderate fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "grade 1 peripheral neuropathy affecting fingertips"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "maintains good oral intake and activity levels, continues part-time work as teacher"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "blood tests show stable parameters with no significant toxicity"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Bilateral breast cancer showing excellent response to neo-adjuvant HER2-targeted therapy with docetaxel/pertuzumab/trastuzumab"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Excellent clinical response with significant reduction in size of both breast masses"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Experiencing moderate fatigue and grade 1 peripheral neuropathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with planned neo-adjuvant therapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Response assessment after cycle 4, routine cardiac monitoring arranged"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review before cycle 3 next week"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "content": "I reviewed [redacted name] today who attended with his wife and daughter. Unfortunately, his disease has shown significant progression despite third-line treatment.\n\nAs you know, [redacted name] was diagnosed with poorly differentiated gastric adenocarcinoma in January 2023, initially presenting with extensive peritoneal disease, liver metastases, and bone involvement. He received FLOT chemotherapy with initial good response, but developed progression after 4 months. Second-line treatment with ramucirumab and paclitaxel was commenced in August 2023, achieving disease stabilization for 5 months before further progression was noted on CT in January 2024. Third-line treatment with trifluridine/tipiracil was initiated in February 2024, but unfortunately recent imaging shows clear disease progression with new peritoneal deposits and increasing ascites.\n\nHe has experienced a significant decline in his performance status over the past month, now spending approximately 70% of the day resting (WHO PS 3). His main symptoms include increasing abdominal distension requiring weekly paracentesis, early satiety, and new onset bone pain affecting his thoracic spine and right hip. His weight has dropped from 68kg to 62kg over the past 6 weeks despite nutritional supplements.\n\nOn examination today, he appears notably more cachectic with obvious ascites and peripheral edema to mid-calf. There is moderate tenderness in the right upper quadrant where a firm liver edge is palpable 4cm below the costal margin. Chest examination reveals reduced air entry at both bases.\n\nI had a lengthy discussion with [redacted name] and his family about his disease progression and deteriorating clinical condition. We agreed that further systemic anti-cancer therapy would likely cause more harm than benefit at this stage. I have therefore discontinued the trifluridine/tipiracil and made a referral to our palliative care team for specialist symptom management. They will arrange to see him at home within the next 48 hours.\n\nI have prescribed dexamethasone 4mg twice daily to help with appetite and energy levels, and increased his breakthrough oxycodone to 5mg every 4 hours as needed for pain. The district nurses will continue with weekly paracentesis, and I have arranged for him to have a hospital bed delivered to his home tomorrow. Our specialist nurse [redacted name] will maintain regular telephone contact with the family, and I will review him again in our clinic in 2 weeks' time, or sooner if needed.\n\nI have explained to [redacted name] and his family that our focus now is on ensuring his comfort and maintaining the best possible quality of life. They understand this change in treatment approach and are grateful for the ongoing support.",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "year": 2023,
+      "month": 1,
+      "metastases": "extensive peritoneal disease, liver metastases, bone involvement",
+      "histopathology_status": "poorly differentiated adenocarcinoma",
+      "biomarker_status": "HER2 negative, MSI stable",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FLOT chemotherapy",
+          "year": 2023,
+          "month": 1
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Disease progression after 4 months of FLOT",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced second-line ramucirumab and paclitaxel",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing disease progression",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started third-line trifluridine/tipiracil",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Imaging shows new peritoneal deposits and increasing ascites",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued trifluridine/tipiracil due to disease progression and clinical deterioration",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "WHO PS 3, spending 70% of day resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing abdominal distension requiring weekly paracentesis"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Bone pain affecting thoracic spine and right hip"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with obvious ascites and peripheral edema to mid-calf"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Firm liver edge palpable 4cm below costal margin with moderate tenderness"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry at both lung bases"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced gastric cancer with progression through three lines of therapy. Now showing clinical deterioration with increasing ascites and new bone pain"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on trifluridine/tipiracil with new peritoneal deposits and increasing ascites"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued trifluridine/tipiracil and commenced on dexamethasone 4mg twice daily with increased breakthrough oxycodone"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline in performance status, now PS 3 with weight loss from 68kg to 62kg over 6 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care referral for home review within 48 hours, oncology review in 2 weeks"
+      }
+    ]
+  }
+}

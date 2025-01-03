@@ -1,0 +1,87 @@
+{
+  "content": "Diagnosis:\n\nLocally advanced laryngeal squamous cell carcinoma T3N2bM0, p16 negative, PDL1 CPS 60\n\nPrevious treatment:\nInduction TPF chemotherapy March-May 2024 - 3 cycles completed\nPlanned for concurrent chemoradiation\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nChronic kidney disease stage 3\n\nCurrent medications:\nMetformin 1g BD\nRamipril 5mg OD\nAmlodipine 10mg OD\n\nAllergies:\nPenicillin - rash\n\nCurrent situation:\nPost induction chemotherapy assessment\n\nCT neck 12 June 2024 shows partial response with primary tumor reduction from 4.2cm to 2.8cm and reduction in nodal disease volume\n\nI reviewed [redacted name] today following completion of induction TPF chemotherapy. The treatment has been challenging with grade 3 mucositis during cycle 2 requiring brief admission for supportive care, and grade 2 peripheral neuropathy affecting hands and feet. Despite these challenges, radiological assessment shows encouraging partial response. However, given the toxicity profile and impact on performance status, which has declined from PS 0 to PS 2, we have decided to modify our treatment approach.\n\nRather than proceeding with concurrent cisplatin-based chemoradiation as originally planned, we will now proceed with radiotherapy alone using an accelerated fractionation schedule (66Gy in 30 fractions over 6 weeks). This decision takes into account his reduced performance status, cumulative cisplatin exposure, and borderline renal function with current eGFR 45.\n\nI have discussed this change in treatment plan with [redacted name] and his wife. They understand the rationale and agree with this modified approach. We have arranged radiotherapy planning CT for next week with aim to commence treatment in 2 weeks time. He will be reviewed weekly during radiotherapy in the combined head and neck clinic. I have also arranged urgent dental assessment and speech and language therapy review prior to starting radiation.",
+  "output": {
+    "primary_cancer": {
+      "site": "larynx",
+      "year": 2024,
+      "metastases": "nodal disease present",
+      "tnm_stage": "T3N2bM0",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "p16 negative, PDL1 CPS 60",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started induction TPF chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cycle 2 TPF complicated by grade 3 mucositis requiring hospital admission",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 3 cycles of TPF chemotherapy",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT neck shows partial response with primary tumor reduction from 4.2cm to 2.8cm and reduction in nodal disease volume",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Chronic kidney disease stage 3"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status declined from PS 0 to PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 peripheral neuropathy affecting hands and feet"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced laryngeal cancer showing partial response to induction chemotherapy. Treatment complicated by significant toxicity requiring modification of subsequent treatment plan."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response with primary tumor reduction from 4.2cm to 2.8cm and reduction in nodal disease volume"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 mucositis and grade 2 peripheral neuropathy from TPF chemotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Changed from planned concurrent chemoradiation to radiotherapy alone using accelerated fractionation schedule (66Gy in 30 fractions)"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Radiotherapy planning CT next week"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review during radiotherapy in combined head and neck clinic, urgent dental assessment and speech therapy review"
+      }
+    ]
+  }
+}

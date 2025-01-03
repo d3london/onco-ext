@@ -1,0 +1,94 @@
+{
+  "content": "I reviewed [redacted name] today following recent MRI imaging which unfortunately shows disease progression. As background, she was diagnosed with WHO grade III meningeal hemangiopericytoma in September 2023 following investigation of progressive headaches and focal seizures. Initial treatment with surgical debulking in October 2023 achieved good local control, though residual disease remained at the left temporal convexity due to proximity to critical structures. She completed adjuvant radiotherapy (60Gy in 30 fractions) in December 2023 with good initial response.\n\nUnfortunately, surveillance MRI in February 2024 showed early local progression with new enhancement along the surgical margins. She commenced Pazopanib 800mg daily in March 2024 but developed significant hand-foot syndrome requiring dose reduction to 600mg daily after 4 weeks. Despite this, the most recent MRI from April 2024 shows further local progression with new areas of enhancement and increasing mass effect. Additionally, bone scan now confirms metastatic deposits in T4 vertebra and left iliac bone.\n\nGiven this progression on first-line TKI therapy, I have discussed the case at our CNS MDT. The consensus recommendation is to switch to combination therapy with Bevacizumab 10mg/kg every 2 weeks and weekly Temozolomide, which has shown activity in progressive hemangiopericytoma. I have explained the rationale and potential side effects to [redacted name] and her husband today, including risks of hypertension, proteinuria, and delayed wound healing with Bevacizumab, and the cumulative bone marrow toxicity risk with Temozolomide.\n\nShe will require baseline urinalysis, blood pressure monitoring, and weekly blood counts. I have arranged urgent MRI spine to fully characterize the T4 lesion and assessment by our spinal team regarding possible vertebroplasty. We will see her again in 2 weeks to commence the new treatment regimen, with early response assessment planned after 8 weeks.\n\nThe histopathology has been reviewed and confirms STAT6 nuclear positivity, though full molecular profiling results are still pending. These results will help inform potential future treatment options if required.",
+  "output": {
+    "primary_cancer": {
+      "site": "meninges, left temporal convexity",
+      "year": 2023,
+      "month": 9,
+      "metastases": "T4 vertebra and left iliac bone",
+      "other_stage": "WHO grade III",
+      "histopathology_status": "hemangiopericytoma",
+      "biomarker_status": "STAT6 nuclear positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Surgical debulking with residual disease at left temporal convexity",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed adjuvant radiotherapy 60Gy in 30 fractions",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows early local progression with new enhancement along surgical margins",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Pazopanib 800mg daily",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Pazopanib dose reduced to 600mg daily due to hand-foot syndrome",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows further local progression with new enhancement and mass effect",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Bone scan confirms metastatic deposits in T4 vertebra and left iliac bone",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "investigation_finding",
+        "value": "MRI shows progressive disease with new enhancement and mass effect"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Bone scan positive for metastatic deposits in T4 vertebra and left iliac bone"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "WHO grade III meningeal hemangiopericytoma with progressive local disease and new bone metastases despite Pazopanib. Disease progression confirmed on imaging requiring switch to second-line therapy."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on Pazopanib with new enhancement on MRI and new bone metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Significant hand-foot syndrome on Pazopanib requiring dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to switch to combination Bevacizumab 10mg/kg every 2 weeks and weekly Temozolomide"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to characterize T4 lesion and response assessment in 8 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks to commence new treatment regimen"
+      }
+    ]
+  }
+}

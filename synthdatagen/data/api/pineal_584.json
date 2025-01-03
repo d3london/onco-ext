@@ -1,0 +1,78 @@
+{
+  "content": "Diagnosis:\tPineal region papillary tumor, WHO grade II\n\nManagement:\t12 March 2024 - Endoscopic third ventriculostomy and tumor biopsy\n\nHistology:\tPapillary tumor of the pineal region, WHO grade II. GFAP and cytokeratin positive. Ki-67 10%.\n\nCurrent Situation:\tPost-operative review\n\nI reviewed [redacted name] following his recent neurosurgical intervention for a newly diagnosed pineal region tumor. He initially presented with a 3-month history of progressive headaches and intermittent diplopia. MRI brain demonstrated a well-circumscribed enhancing mass in the pineal region measuring 2.8 x 2.4 cm with associated obstructive hydrocephalus.\n\nHe underwent endoscopic third ventriculostomy and tumor biopsy on 12/03/24, which confirmed a WHO grade II papillary tumor of the pineal region. The procedure was uncomplicated, and post-operative imaging shows good resolution of the hydrocephalus. His symptoms have significantly improved, with complete resolution of the diplopia and marked improvement in headaches.\n\nOn examination today, he is alert and oriented with no focal neurological deficits. His visual fields are full to confrontation, and extraocular movements are intact. His gait is steady and Romberg's test is negative.\n\nI have discussed the case with our neuro-oncology MDT. Given the WHO grade II histology and the significant symptomatic improvement following CSF diversion, we recommend close surveillance rather than immediate further intervention. We have arranged an MRI brain in 8 weeks' time, following which we will review him in clinic with the results. I have provided him with written information about papillary tumors of the pineal region and our contact details should he develop any new symptoms.\n\nHe understands the surveillance plan and the importance of reporting any new neurological symptoms promptly. We will see him again following his next MRI scan.",
+  "output": {
+    "primary_cancer": {
+      "site": "pineal region",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "WHO grade II",
+      "histopathology_status": "Papillary tumor of the pineal region, Ki-67 10%",
+      "biomarker_status": "GFAP and cytokeratin positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain showed 2.8 x 2.4 cm enhancing mass in pineal region with obstructive hydrocephalus",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Endoscopic third ventriculostomy and tumor biopsy performed",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Biopsy confirmed WHO grade II papillary tumor, GFAP and cytokeratin positive, Ki-67 10%",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Post-operative imaging shows resolution of hydrocephalus",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Previous headaches and diplopia now resolved following surgery"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Alert and oriented with no focal neurological deficits, full visual fields, intact extraocular movements"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Steady gait, negative Romberg's test"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed WHO grade II pineal region papillary tumor, good symptomatic response to CSF diversion via endoscopic third ventriculostomy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Complete resolution of diplopia and marked improvement in headaches following surgical intervention"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "MDT recommendation for surveillance rather than immediate further intervention"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI brain arranged in 8 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review following MRI scan"
+      }
+    ]
+  }
+}

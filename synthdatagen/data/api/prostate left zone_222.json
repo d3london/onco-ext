@@ -1,0 +1,123 @@
+{
+  "content": "Diagnosis\n\t1. Metastatic castration-resistant prostate cancer\n\tDate of diagnosis\n\tJanuary 2023\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNone\n\n\tRadiotherapy\n\t1. March 2023 - Palliative radiotherapy to T12 metastasis\n\t2. August 2023 - Palliative radiotherapy to right hip\n\n\tSystemic therapy\n\t1. January-June 2023 - ADT and Docetaxel chemotherapy\n\t2. July-October 2023 - Enzalutamide\n\t3. November 2023-present - Cabazitaxel\n\n\tClinical studies\n\tNone suitable\n\n\tCurrent disease status\n\tProgressive disease with rising PSA and new bone metastases\n\n\tCurrent issues\n\t1. Worsening bone pain\n\t2. Progressive fatigue\n\t3. Weight loss\n\n\tSummary of consultation\n\nUnfortunately [redacted name]'s disease has continued to progress despite third-line treatment with cabazitaxel. His PSA has risen from 450 to 789 over the past 6 weeks. Recent bone scan shows multiple new metastases in the thoracic and lumbar spine. His performance status has declined to ECOG 2-3, now spending most of the day resting due to fatigue and pain.\n\nOn examination today, he is cachectic with tender points in thoracic spine. Blood pressure 142/85, pulse 92. No focal neurological deficits identified.\n\nWe have discussed the situation in detail. Given his declining performance status and limited benefit from current treatment, we have agreed to discontinue cabazitaxel. Recent molecular testing shows AR amplification, making further androgen-receptor targeted therapy unlikely to be beneficial.\n\n\tFurther investigations\n\t1. Urgent MRI spine to exclude cord compression\n\t2. Bone profile and LFTs\n\n\tMedication changes\n\t1. Increased MST to 60mg BD\n\t2. Added pregabalin 75mg BD for neuropathic pain\n\n\tFollow up\n\t1. Urgent palliative care review arranged for tomorrow\n\t2. Oncology review in 1 week with scan results\n\n\tRequired GP actions\n\t1. Please monitor renal function\n\t2. Consider community support referral",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, left zone",
+      "year": 2023,
+      "month": 1,
+      "metastases": "multiple bone metastases in thoracic and lumbar spine",
+      "histopathology_status": "acinar adenocarcinoma",
+      "biomarker_status": "PSA 789, AR amplification",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started ADT and Docetaxel chemotherapy",
+          "year": 2023,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T12 metastasis",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed Docetaxel chemotherapy",
+          "year": 2023,
+          "month": 6
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Enzalutamide",
+          "year": 2023,
+          "month": 7
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to right hip",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued Enzalutamide due to progression",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Cabazitaxel",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA risen from 450 to 789 over 6 weeks",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Bone scan shows multiple new metastases in thoracic and lumbar spine",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued Cabazitaxel due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 1
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2-3, spending most of day resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Progressive fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Weight loss with cachexia"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender points in thoracic spine, BP 142/85, pulse 92, no focal neurological deficits"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic castration-resistant prostate cancer with progressive disease despite three lines of therapy. Now showing clinical deterioration with rising PSA and new bone metastases"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on cabazitaxel with rising PSA and new bone metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing cabazitaxel due to disease progression and poor performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Declining performance status to ECOG 2-3 with increasing fatigue and pain"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to exclude cord compression, bone profile and LFTs"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review tomorrow, oncology review in 1 week with scan results"
+      }
+    ]
+  }
+}

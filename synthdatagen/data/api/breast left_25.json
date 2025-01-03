@@ -1,0 +1,62 @@
+{
+  "content": "Diagnosis:\nLeft breast cancer - Grade 3 invasive ductal carcinoma, Stage IIIB (T4N2M0)\nER/PR negative, HER2 positive, PDL1 85%\n\nPrevious Treatment:\nCompleted neoadjuvant chemotherapy with 6 cycles docetaxel/carboplatin/trastuzumab/pertuzumab (TCHP) March-August 2024\n\nCurrent Situation:\nPost-neoadjuvant chemotherapy assessment\nMRI breast 12 September 2024 shows partial response with reduction in primary tumor from 6.8cm to 3.2cm\nResidual axillary lymphadenopathy\n\nMDT Discussion 15 September 2024:\nCase presented with full imaging review. Noted good but incomplete response to neoadjuvant therapy. Discussion focused on surgical approach given initial skin involvement. Consensus reached that patient would benefit from mastectomy and axillary clearance given extent of residual disease. Post-operative systemic therapy plan will depend on final pathology, but likely to include adjuvant T-DM1 given residual disease after neoadjuvant therapy.\n\nTreatment Plan:\n1. Proceed to left mastectomy and axillary clearance\n2. Consider immediate reconstruction - plastic surgery review arranged\n3. Post-operative systemic therapy likely to include 14 cycles of adjuvant T-DM1\n4. Consider post-mastectomy radiotherapy depending on final pathology\n\nNext Steps:\nSurgical assessment arranged for 22 September 2024\nPlastic surgery assessment arranged for same date\nWill review again in combined clinic following surgery with final pathology\n\nPatient has been fully informed of MDT recommendations and agrees with proposed plan. She understands the rationale for mastectomy rather than breast conservation and will discuss reconstruction options with plastic surgery team.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2024,
+      "metastases": "axillary lymph nodes",
+      "tnm_stage": "T4N2M0",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "Grade 3 invasive ductal carcinoma",
+      "biomarker_status": "ER/PR negative, HER2 positive, PDL1 85%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started neoadjuvant TCHP (docetaxel/carboplatin/trastuzumab/pertuzumab)",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles of neoadjuvant TCHP",
+          "year": 2024,
+          "month": 8
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows partial response with reduction in primary tumor from 6.8cm to 3.2cm, residual axillary lymphadenopathy",
+          "year": 2024,
+          "month": 9
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "investigation_finding",
+        "value": "MRI breast 12/09/24 shows partial response with reduction in primary tumor from 6.8cm to 3.2cm, residual axillary lymphadenopathy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIB left breast cancer with partial response to neoadjuvant TCHP. MDT recommends proceeding to mastectomy and axillary clearance"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response to neoadjuvant therapy with reduction in primary tumor from 6.8cm to 3.2cm"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan for mastectomy and axillary clearance followed by likely adjuvant T-DM1"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surgical and plastic surgery assessment arranged for 22 September 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in combined clinic following surgery with final pathology"
+      }
+    ]
+  }
+}

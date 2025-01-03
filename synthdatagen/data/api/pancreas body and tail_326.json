@@ -1,0 +1,89 @@
+{
+  "content": "Diagnosis\n\t1. Mucinous adenocarcinoma of pancreas body and tail with peritoneal metastases\n\n\tDate of diagnosis\n\tMarch 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Mar 2024 Diagnostic laparoscopy with peritoneal biopsies\n\n\tChemotherapy\n\t28 Mar 2024 - 25 Apr 2024 Modified FOLFIRINOX (dose reduced due to PS 2)\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tProgressive disease with increasing peritoneal disease and ascites\n\n\tCurrent issues\n\tIncreasing abdominal pain\nWorsening ascites requiring weekly drainage\nDecreasing oral intake\nDeterioration in performance status\n\n\tSummary of consultation\n\tCase discussed at HPB MDT today. CT imaging from 25/4/24 shows increasing peritoneal disease with new nodules and moderate volume ascites. CA19-9 has increased from 1200 to 3500. Patient has required three ascitic drains in past 2 weeks.\n\nFirst-line modified FOLFIRINOX was discontinued after 2 cycles due to clinical deterioration and radiological progression. Current PS 3.\n\nMDT recommendations:\n1. Not fit for second-line chemotherapy due to poor PS\n2. Refer to palliative care team for symptom management\n3. Consider permanent ascitic drain\n\n\tFurther investigations\n\tNone indicated\n\n\tMedication prescribed\n\tPrescribed Dexamethasone 4mg bd\nIncreased Oxycodone MR to 40mg bd\n\n\tFollow up\n\tUrgent palliative care review arranged for tomorrow\nPermanent drain insertion scheduled for 3/5/24\n\n\tRequired GP actions\n\tPlease support palliative care referral\nPrescribe breakthrough analgesia as required",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas body and tail",
+      "year": 2024,
+      "month": 3,
+      "metastases": "peritoneal deposits with ascites",
+      "histopathology_status": "mucinous adenocarcinoma",
+      "biomarker_status": "PD-L1 CPS 80",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Diagnostic laparoscopy with peritoneal biopsies",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started modified FOLFIRINOX with dose reduction due to PS 2",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 increased from 1200 to 3500",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows increasing peritoneal disease with new nodules and moderate volume ascites",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "FOLFIRINOX discontinued after 2 cycles due to clinical deterioration and radiological progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing abdominal pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening ascites requiring weekly drainage"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Decreasing oral intake"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic cancer with rapid progression through first-line chemotherapy. Clinical deterioration with increasing ascites and pain requiring transition to palliative care."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on imaging with rising CA19-9 from 1200 to 3500"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "FOLFIRINOX discontinued due to disease progression and clinical deterioration"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to PS 3 with decreasing oral intake and increasing care needs"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Permanent ascitic drain insertion scheduled for 3/5/24"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review arranged for tomorrow"
+      }
+    ]
+  }
+}

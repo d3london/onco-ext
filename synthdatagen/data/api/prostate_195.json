@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\tProstate adenocarcinoma\n\nManagement:\tRadical radiotherapy planned\n\nHistology:\tGleason 3+4 (Grade Group 2) adenocarcinoma, T2c N0 M0\n\nCurrent Situation:\tInitial oncology assessment\n\nI reviewed [redacted name] today following referral from the urology team. He was diagnosed following raised PSA of 9.2 in January 2024, with subsequent MRI and targeted biopsies confirming T2c Gleason 3+4 prostate adenocarcinoma. Staging investigations including bone scan and CT chest/abdomen/pelvis on 15 March 2024 show no evidence of metastatic disease.\n\nHe is currently well with good performance status (PS 0). Lower urinary tract symptoms have improved on tamsulosin. He denies bone pain or other symptoms. He has well-controlled hypertension on amlodipine but no other significant medical history.\n\nWe discussed treatment options in detail including radical radiotherapy versus active surveillance. Given the intermediate risk disease features, I have recommended radical radiotherapy with 6 months of hormone therapy. He is keen to proceed with this approach. I have arranged for hormone therapy to commence next week, followed by radiotherapy planning CT in 8 weeks. We will see him again prior to starting radiotherapy to review hormone therapy tolerance.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "T2cN0M0",
+      "other_stage": "",
+      "histopathology_status": "Gleason 3+4 (Grade Group 2) adenocarcinoma",
+      "biomarker_status": "PSA 9.2",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "PSA elevated at 9.2",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI and targeted biopsies confirm T2c prostate cancer",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Bone scan and CT chest/abdomen/pelvis show no evidence of metastatic disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension well-controlled on amlodipine"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Lower urinary tract symptoms improved on tamsulosin"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed intermediate risk prostate cancer. Good performance status, suitable for radical treatment."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan for radical radiotherapy with 6 months hormone therapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Radiotherapy planning CT in 8 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review after starting hormone therapy, before radiotherapy begins"
+      }
+    ]
+  }
+}

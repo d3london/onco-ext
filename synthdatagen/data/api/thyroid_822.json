@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis:\t\tPapillary thyroid microcarcinoma\n\nManagement:\t\tTotal thyroidectomy March 2023\n\t\tRadioactive iodine ablation May 2023\n\nHistology:\t\tRight lobe 8mm papillary thyroid microcarcinoma\n\t\tBRAF V600E positive\n\t\tpT1aN0M0\n\nCurrent situation:\tRoutine surveillance review\n\n[redacted name] attended for routine follow-up today. She is clinically well with no concerning symptoms. Thyroid function tests show good biochemical control on Levothyroxine 125mcg daily. Thyroglobulin remains undetectable at <0.1. Neck examination shows well-healed thyroidectomy scar with no palpable abnormalities. Recent ultrasound neck (15.01.24) shows no evidence of recurrence. The plan is to continue current Levothyroxine dose and arrange routine follow-up in 6 months with repeat TFTs and thyroglobulin.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid, right lobe",
+      "year": 2023,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT1aN0M0",
+      "other_stage": null,
+      "histopathology_status": "8mm papillary thyroid microcarcinoma",
+      "biomarker_status": "BRAF V600E positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Radioactive iodine ablation",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Thyroglobulin undetectable at <0.1",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Ultrasound neck shows no evidence of recurrence",
+          "year": 2024,
+          "month": 1
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Well-healed thyroidectomy scar with no palpable abnormalities"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Thyroid function tests show good biochemical control on Levothyroxine 125mcg daily"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage papillary thyroid microcarcinoma treated with surgery and radioactive iodine. Currently well with no evidence of recurrence on surveillance."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Levothyroxine 125mcg daily"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Routine follow-up in 6 months with repeat TFTs and thyroglobulin"
+      }
+    ]
+  }
+}

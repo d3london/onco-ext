@@ -1,0 +1,73 @@
+{
+  "content": "Diagnosis:\nLimited stage small cell lung cancer, right lower lobe\nDLL3 positive on immunohistochemistry\n\nPrevious treatment:\nCompleted 4 cycles concurrent chemoradiotherapy March-May 2024\nCisplatin/Etoposide with radical radiotherapy 45Gy in 30 fractions\nProphylactic cranial irradiation completed June 2024\n\nCurrent medications:\nOndansetron 8mg prn\nLansoprazole 30mg daily\n\nCurrent situation:\nFirst follow-up post completion of treatment\n\nI reviewed [redacted name] today following completion of concurrent chemoradiotherapy and prophylactic cranial irradiation for limited stage small cell lung cancer. She has made an excellent recovery from treatment with resolution of previous radiation pneumonitis. Her appetite and energy levels have significantly improved, and she has regained 3kg of weight. She denies any new respiratory symptoms or concerning features.\n\nCT thorax performed last week shows excellent partial response with >50% reduction in the right lower lobe primary mass and resolution of previous mediastinal lymphadenopathy. Brain MRI shows no evidence of metastatic disease.\n\nThe plan is to continue regular surveillance with 3-monthly CT imaging. I have arranged follow up in clinic in 3 months with repeat CT chest. She understands to contact us sooner if any new symptoms develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right lower lobe",
+      "year": 2024,
+      "metastases": null,
+      "tnm_stage": null,
+      "other_stage": "limited stage",
+      "histopathology_status": "small cell carcinoma",
+      "biomarker_status": "DLL3 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started concurrent cisplatin/etoposide chemotherapy with radical radiotherapy 45Gy in 30 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed prophylactic cranial irradiation",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT thorax shows excellent partial response with >50% reduction in right lower lobe primary mass and resolution of mediastinal lymphadenopathy",
+          "year": 2024,
+          "month": 7
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Brain MRI shows no evidence of metastatic disease",
+          "year": 2024,
+          "month": 7
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Resolution of previous radiation pneumonitis"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Improved appetite and energy levels with 3kg weight gain"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT thorax shows >50% reduction in primary mass, resolution of lymphadenopathy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Limited stage small cell lung cancer showing excellent response to concurrent chemoradiotherapy with improving symptoms and radiological partial response"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": ">50% reduction in right lower lobe primary mass and resolution of mediastinal lymphadenopathy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat CT chest in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 months with CT imaging"
+      }
+    ]
+  }
+}

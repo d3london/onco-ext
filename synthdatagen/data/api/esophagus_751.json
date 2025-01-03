@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis:\tLocally advanced esophageal squamous cell carcinoma\n\nManagement:\tCompleted definitive chemoradiotherapy March 2024\n\nHistology:\tModerately differentiated squamous cell carcinoma, p16 negative, PDL1 CPS 4\n\nCurrent Situation:\tFirst follow-up post treatment completion\n\nI reviewed [redacted name] in clinic today following completion of definitive chemoradiotherapy for his stage III esophageal cancer. He completed treatment on 15/3/24 and has made a good recovery from the acute side effects. His swallowing has significantly improved and he is managing a soft diet without requiring supplementary nutrition. Weight has stabilized at 72kg. He denies any new symptoms and maintains PS 1. Clinical examination today was unremarkable.\n\nI have arranged a surveillance CT chest/abdomen/pelvis for 3 months' time and will review him with the results. I have provided advice regarding red flag symptoms and contact details for the support team if needed before the next appointment.",
+  "output": {
+    "primary_cancer": {
+      "site": "esophagus",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "Stage III",
+      "histopathology_status": "moderately differentiated squamous cell carcinoma",
+      "biomarker_status": "p16 negative, PDL1 CPS 4",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Completed definitive chemoradiotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Good recovery from acute treatment side effects with improved swallowing",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Managing soft diet without supplementary nutrition"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight stable at 72kg"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Clinical examination unremarkable"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III esophageal SCC post definitive chemoradiotherapy. Stable disease with good recovery from treatment effects"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Improved swallowing function post treatment completion"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance CT chest/abdomen/pelvis in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review with CT results in 3 months"
+      }
+    ]
+  }
+}

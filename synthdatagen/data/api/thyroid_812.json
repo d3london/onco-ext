@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\t\tPapillary thyroid carcinoma\n\nManagement:\t\tTotal thyroidectomy March 2023\n\t\tRadioactive iodine ablation May 2023\n\nHistology:\t\tpT1N0M0 papillary thyroid carcinoma\n\t\tBRAF V600E mutation positive\n\nCurrent situation:\tRoutine surveillance review\n\n[redacted name] attended for routine follow-up today. She remains well with no concerning symptoms. Her TSH is well-suppressed at 0.1 and thyroglobulin remains undetectable (<0.1). Neck examination shows well-healed thyroidectomy scar with no palpable abnormalities. Recent ultrasound neck (15/4/24) shows no evidence of recurrence. Tolerating levothyroxine 150mcg daily with no side effects. Plan to continue current management with next review in 6 months with thyroglobulin measurement and TSH check. Will arrange repeat ultrasound neck for 12 months' time.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2023,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT1N0M0",
+      "histopathology_status": "papillary thyroid carcinoma",
+      "biomarker_status": "BRAF V600E mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Radioactive iodine ablation",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "TSH well-suppressed at 0.1 and thyroglobulin undetectable (<0.1)",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Ultrasound neck shows no evidence of recurrence",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Well-healed thyroidectomy scar with no palpable abnormalities"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "TSH 0.1, thyroglobulin <0.1"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage papillary thyroid cancer post thyroidectomy and radioiodine. Disease-free on surveillance with suppressed TSH."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing levothyroxine 150mcg daily with good tolerance"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat ultrasound neck in 12 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 6 months with thyroglobulin and TSH check"
+      }
+    ]
+  }
+}

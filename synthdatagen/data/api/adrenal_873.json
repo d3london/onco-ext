@@ -1,0 +1,89 @@
+{
+  "content": "Diagnosis\n\t1. Oncocytic adrenocortical carcinoma with lung metastases\n\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Right adrenalectomy\n\n\tSystemic therapy\n\t1. Mitotane commenced Feb 2024, titrated to therapeutic range\n\t2. EDP (Etoposide, Doxorubicin, Cisplatin) commenced March 2024\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tStable disease on imaging\n\n\tCurrent issues\n\t1. Mitotane-induced nausea\n\t2. Grade 2 peripheral neuropathy\n\n\tSummary of consultation\n\tReviewed today prior to cycle 4 EDP. Latest CT chest/abdomen/pelvis from 15/5/24 shows stable disease with no new metastases. Lung nodules stable in size and number. Post-surgical bed appearances unchanged.\n\nMitotane levels now therapeutic at 15 mg/L. Steroid replacement adequate with no features of adrenal insufficiency. Experiencing ongoing grade 2 neuropathy affecting fingers and toes, but maintaining function. Some nausea with mitotane despite maximal antiemetics.\n\nExamination shows?stable respiratory findings?with clear chest examination.?Surgical wound well healed.?Performance status remains 1.\n\n\tFurther investigations\n\tMitotane levels and cortisol day curve in 2 weeks\n\n\tMedication prescribed\n\tIncreased domperidone to 10mg qds\n\n\tFollow up\n\tNext oncology follow up with cycle 4 EDP in 2 weeks\n\n\tRequired GP actions\n\tWeekly monitoring of mitotane levels to continue",
+  "output": {
+    "primary_cancer": {
+      "site": "adrenal, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "lung metastases",
+      "histopathology_status": "oncocytic adrenocortical carcinoma",
+      "biomarker_status": "therapeutic mitotane level 15 mg/L",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right adrenalectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Mitotane commenced and titrated",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started EDP (Etoposide, Doxorubicin, Cisplatin)",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis shows stable disease with no new metastases, stable lung nodules",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Mitotane levels therapeutic at 15 mg/L",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 peripheral neuropathy affecting fingers and toes"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Nausea from mitotane despite maximal antiemetics"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Clear chest examination, well-healed surgical wound"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic adrenocortical carcinoma with stable disease on combination of mitotane and EDP chemotherapy. Therapeutic mitotane levels achieved but experiencing treatment-related toxicities."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on imaging with no new metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 peripheral neuropathy and ongoing mitotane-induced nausea"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Increased domperidone to 10mg qds for nausea control"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Mitotane levels and cortisol day curve in 2 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review with cycle 4 EDP in 2 weeks"
+      }
+    ]
+  }
+}

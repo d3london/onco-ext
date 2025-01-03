@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis:\t\tSmall cell carcinoma of left chest wall, T3N0M0\n\nManagement:\t\t12 Mar 2024 Wide local excision with chest wall reconstruction\n\t\t\t20 Mar 2024 Started adjuvant chemotherapy carboplatin/etoposide\n\nHistology:\t\tSmall cell carcinoma, 5.2cm, clear margins. PTEN loss on molecular testing.\n\nCurrent situation:\tPre cycle 2 carboplatin/etoposide\n\n[redacted name] has completed cycle 1 of adjuvant carboplatin/etoposide following surgical resection of her left chest wall small cell carcinoma. She has tolerated the first cycle well with only grade 1 fatigue and mild nausea well controlled with standard antiemetics. Her neutrophils dropped to 0.9 on day 10 but recovered spontaneously. She reports good energy levels and has maintained her weight. She has experienced some mild peripheral neuropathy affecting her fingertips only. Her port-a-cath is functioning well with no complications. Today's blood tests show adequate parameters for cycle 2. Given the good tolerability, we will proceed with full dose cycle 2 today. I have arranged CT chest/abdomen/pelvis after cycle 3 to assess response. We will review her again in 3 weeks prior to cycle 3. She understands to contact the acute oncology service if she develops any concerning symptoms.",
+  "output": {
+    "primary_cancer": {
+      "site": "left chest wall",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "T3N0M0",
+      "histopathology_status": "Small cell carcinoma, 5.2cm, clear margins",
+      "biomarker_status": "PTEN loss",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision with chest wall reconstruction",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant chemotherapy carboplatin/etoposide",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Neutrophils dropped to 0.9 on day 10 but recovered spontaneously",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild peripheral neuropathy affecting fingertips only"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue and mild nausea well controlled with antiemetics"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Small cell carcinoma of chest wall post surgical resection, tolerating adjuvant chemotherapy well with minimal toxicity"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue, mild nausea, and mild peripheral neuropathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with full dose cycle 2 carboplatin/etoposide"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis after cycle 3"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks prior to cycle 3"
+      }
+    ]
+  }
+}

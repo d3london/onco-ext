@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis:\tMetastatic adenocarcinoma with neuroendocrine features of unknown primary\n\nStaging:\tT4bNxM1 with liver and lung metastases\n\nBiomarkers:\tChromogranin A 450 ng/mL (elevated)\n\tNSE 35 ng/mL (elevated)\n\nMDT Discussion:\tCase presented at NET MDT 15 April 2024\n\nRadiology review confirms stable appearances of liver metastases (largest lesion segment 7 measuring 4.2cm unchanged from January 2024) and stable pulmonary nodules (largest 8mm right lower lobe). No new sites of disease. Previous octreotide scan from February 2024 showed high uptake in liver lesions.\n\nPathology review of liver biopsy confirms moderately differentiated adenocarcinoma with neuroendocrine features. Ki67 15%. Synaptophysin and chromogranin positive.\n\nMDT Recommendations:\t1. Continue current Lanreotide 120mg q4weekly given stable disease\n\t\t2. Maintain current dose without escalation\n\t\t3. Next imaging in 3 months with CT chest/abdomen/pelvis\n\t\t4. Monthly chromogranin A monitoring to continue\n\t\t5. Re-discuss at MDT if evidence of progression",
+  "output": {
+    "primary_cancer": {
+      "site": "unknown primary",
+      "metastases": "liver and lung metastases",
+      "tnm_stage": "T4bNxM1",
+      "histopathology_status": "moderately differentiated adenocarcinoma with neuroendocrine features, Ki67 15%, Synaptophysin and chromogranin positive",
+      "biomarker_status": "Chromogranin A 450 ng/mL (elevated), NSE 35 ng/mL (elevated)",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Octreotide scan shows high uptake in liver lesions",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable liver metastases (largest 4.2cm segment 7) and stable pulmonary nodules (largest 8mm right lower lobe)",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Liver biopsy confirms moderately differentiated adenocarcinoma with neuroendocrine features, Ki67 15%",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "investigation_finding",
+        "value": "Chromogranin A 450 ng/mL (elevated)"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "NSE 35 ng/mL (elevated)"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic neuroendocrine tumor of unknown primary with liver and lung involvement. Disease remains stable on Lanreotide therapy."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on imaging with unchanged liver and lung metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continue Lanreotide 120mg q4weekly at current dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 3 months with monthly chromogranin A monitoring"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Re-discuss at MDT if evidence of progression"
+      }
+    ]
+  }
+}

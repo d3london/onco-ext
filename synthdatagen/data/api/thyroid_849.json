@@ -1,0 +1,113 @@
+{
+  "content": "I reviewed [redacted name] today who attended with her husband following recent admission to [redacted name] Hospital with increasing confusion and headaches. As you know, she was diagnosed with poorly differentiated thyroid carcinoma in January 2024 following investigation of rapidly enlarging neck mass. Initial staging demonstrated widespread bone metastases and unfortunately, surveillance MRI in March 2024 revealed multiple brain metastases.\n\nShe initially commenced on Lenvatinib 24mg daily in February 2024 but required dose reduction to 14mg daily due to grade 3 hypertension and significant fatigue. Despite initial minor response in the neck mass, repeat imaging in April 2024 showed disease progression in both skeletal metastases and brain lesions. She completed whole brain radiotherapy (20Gy in 5 fractions) in early May 2024 with some improvement in her neurological symptoms.\n\nHowever, over the past three weeks, she has experienced significant deterioration with worsening confusion, unsteady gait, and increasing bone pain particularly affecting her thoracic spine. Her performance status has declined from ECOG 1 to ECOG 3, now spending most of the day in bed or chair. She requires assistance with most activities of daily living and has lost 4kg in weight despite nutritional supplements.\n\nOn examination today, she appears significantly more frail than during her last review. She is confused (abbreviated mental test score 6/10) with mild right-sided weakness. There is tenderness over multiple thoracic vertebrae. The neck mass appears larger on clinical examination measuring approximately 8cm.\n\nI have had a lengthy discussion with [redacted name] and her husband about the challenging situation. Given her declining performance status and progressive disease despite Lenvatinib, I have recommended discontinuing this treatment. We have arranged urgent palliative care review and I have prescribed additional analgesia today (Oxycodone modified release 20mg twice daily). I have also requested an urgent MRI spine to assess for cord compression given her increasing thoracic pain.\n\nWe will review her next week with the scan results and palliative care team input. I have provided emergency contact details and explained symptoms that should prompt immediate medical attention. The acute oncology team are aware of her situation and will provide additional support as needed.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 1,
+      "metastases": "widespread bone metastases, multiple brain metastases",
+      "other_stage": "Stage IVC",
+      "histopathology_status": "poorly differentiated thyroid carcinoma",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial presentation with rapidly enlarging neck mass",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Lenvatinib 24mg daily",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Lenvatinib dose reduced to 14mg daily due to grade 3 hypertension and significant fatigue",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI reveals multiple brain metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Imaging shows disease progression in skeletal metastases and brain lesions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed whole brain radiotherapy 20Gy in 5 fractions",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing Lenvatinib due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, spending most of day in bed or chair"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Confusion with abbreviated mental test score 6/10"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing bone pain particularly affecting thoracic spine"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Unsteady gait"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Mild right-sided weakness"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tenderness over multiple thoracic vertebrae"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Neck mass approximately 8cm"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Poorly differentiated thyroid cancer with brain and bone metastases. Significant clinical deterioration with neurological symptoms despite whole brain radiotherapy and Lenvatinib"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression in skeletal metastases and brain lesions despite Lenvatinib"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration with decline in performance status from ECOG 1 to ECOG 3"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing Lenvatinib, commenced on Oxycodone modified release 20mg twice daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess for cord compression"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review next week with scan results and palliative care team input"
+      }
+    ]
+  }
+}

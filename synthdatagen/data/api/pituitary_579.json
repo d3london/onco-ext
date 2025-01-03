@@ -1,0 +1,86 @@
+{
+  "content": "I reviewed [redacted name] today following completion of fractionated stereotactic radiotherapy to his thyrotroph pituitary adenoma. He completed treatment on March 15th 2024, receiving 50.4Gy in 28 fractions. The treatment was generally well-tolerated with only mild fatigue and occasional headaches which resolved with simple analgesia.?\n?\nHis initial presentation in September 2023 was with headaches and visual disturbance, leading to the identification of a 2.8cm pituitary macroadenoma. Immunohistochemistry from the surgical specimen confirmed a thyrotroph adenoma (SF1 negative, PIT1 positive). He underwent partial trans-sphenoidal resection on October 12th 2023, achieving good decompression of the optic chiasm but with residual tumor along the right cavernous sinus measuring 1.5cm.?\n?\nI am pleased to report that his symptoms have significantly improved since completing radiotherapy. His headaches have completely resolved and his visual fields have normalized according to the ophthalmology review on April 1st 2024. The latest MRI from April 10th shows stable appearance of the residual disease with no evidence of progression.?\n?\nEndocrine function remains stable on replacement with levothyroxine 100mcg daily. His most recent thyroid function tests show TSH 1.2 mU/L (0.4-4.0) and free T4 16 pmol/L (12-22). Cortisol axis remains preserved with normal short synacthen test results.?\n?\nHe continues to work full-time as an accountant and maintains good exercise tolerance with regular swimming. On examination today, his visual fields are full to confrontation and cranial nerves are intact.?\n?\nThe plan is to continue current hormone replacement and arrange follow-up MRI pituitary in 3 months. We will review him in the combined pituitary clinic with endocrinology in July 2024. I have provided him with contact details for the specialist nurse should he develop any concerning symptoms in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "pituitary",
+      "year": 2023,
+      "month": 9,
+      "histopathology_status": "thyrotroph adenoma",
+      "biomarker_status": "SF1 negative, PIT1 positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "2.8cm pituitary macroadenoma identified on initial presentation",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Partial trans-sphenoidal resection with residual tumor 1.5cm along right cavernous sinus",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed fractionated stereotactic radiotherapy 50.4Gy in 28 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows stable appearance of residual disease with no progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Previous symptoms of headaches and visual disturbance now resolved"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal visual fields on ophthalmology review"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "TSH 1.2 mU/L and free T4 16 pmol/L on levothyroxine replacement"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal cortisol axis with normal short synacthen test"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Working full-time as accountant with regular swimming exercise"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Visual fields full to confrontation and cranial nerves intact"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Thyrotroph pituitary adenoma treated with surgery and radiotherapy. Good clinical response with stable residual disease and normalized visual fields"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Complete resolution of headaches and normalization of visual fields following radiotherapy"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild fatigue and occasional headaches during radiotherapy, resolved with simple analgesia"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Follow-up MRI pituitary in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Combined pituitary clinic review with endocrinology in July 2024"
+      }
+    ]
+  }
+}

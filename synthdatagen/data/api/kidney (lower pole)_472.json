@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis\n\t1. Chromophobe renal cell carcinoma, right kidney lower pole\n\n\tDate of diagnosis\n\tMarch 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Mar 2024 Right partial nephrectomy performed by Mr [redacted name]\n\n\tRadiotherapy\n\tNot indicated\n\n\tChemotherapy\n\tNot indicated\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tNo evidence of disease\n\n\tCurrent issues\n\tPost-operative recovery\n\n\tSummary of consultation\n\tThis 58-year-old gentleman was referred following right partial nephrectomy for an incidentally detected renal mass. The surgery was uncomplicated with good preservation of renal function. Histology confirms a 4.2cm chromophobe renal cell carcinoma, completely excised with clear margins. Immunohistochemistry shows CD10 positivity. Staging CT chest/abdomen/pelvis shows no evidence of metastatic disease.\n\nHe has made an excellent post-operative recovery with good wound healing and stable renal function (creatinine 98). His main symptom is mild residual right-sided discomfort which is improving. He has returned to most normal activities and has resumed work as an accountant.\n\nOn examination today, his surgical wound is well-healed. His blood pressure is 138/82 and other observations are within normal range. Cardiorespiratory examination is unremarkable.\n\n\tFurther investigations\n\tRoutine surveillance imaging as per protocol\n\n\tMedication prescribed\n\tNone required\n\n\tFollow up\n\tNext oncology follow up in 3 months with repeat CT chest/abdomen/pelvis\n\n\tRequired GP actions\n\tPlease monitor blood pressure and renal function\n\n\tSummary of information given to the patient\n\tWe have discussed the good prognosis associated with completely resected chromophobe renal cell carcinoma. [redacted name] understands the surveillance plan which involves regular imaging and monitoring of renal function.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right lower pole",
+      "year": 2024,
+      "month": 3,
+      "metastases": "none",
+      "other_stage": "Stage II",
+      "histopathology_status": "chromophobe renal cell carcinoma, 4.2cm, completely excised with clear margins",
+      "biomarker_status": "CD10 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right partial nephrectomy performed by Mr [redacted name]",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirms 4.2cm chromophobe renal cell carcinoma, completely excised with clear margins, CD10 positive",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Staging CT chest/abdomen/pelvis shows no evidence of metastatic disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "mild residual right-sided discomfort which is improving"
+      },
+      {
+        "type": "examination_finding",
+        "value": "surgical wound well-healed, blood pressure 138/82, cardiorespiratory examination unremarkable"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "stable renal function with creatinine 98"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage II chromophobe renal cell carcinoma treated with partial nephrectomy. Excellent post-operative recovery with no evidence of residual disease."
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Returned to most normal activities including work as an accountant"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Oncology follow up in 3 months with imaging"
+      }
+    ]
+  }
+}

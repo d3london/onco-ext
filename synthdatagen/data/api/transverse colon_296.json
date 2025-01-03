@@ -1,0 +1,81 @@
+{
+  "content": "Diagnosis:\tTransverse colon medullary carcinoma, Duke's D with liver and lung metastases\n\nManagement:\t2023 Right hemicolectomy\n\t\tJan-Apr 2024 Pembrolizumab monotherapy\n\nBiomarkers:\tMSI-high, TMB-high, PDL1 CPS 95\n\nCurrent Situation:\tEnd of treatment assessment post immunotherapy\n\nI reviewed [redacted name] today following completion of 6 cycles of pembrolizumab immunotherapy. The latest CT scan from 15/4/24 shows excellent partial response with 70% reduction in liver metastases and complete resolution of lung nodules. Tumor markers have normalized. Performance status has improved to ECOG 0 from initial PS 2. The grade 2 immune-mediated colitis that developed after cycle 4 has completely resolved following temporary treatment interruption and short course steroids. Blood tests today show normal liver function and inflammatory markers.\n\nGiven the excellent response to immunotherapy and current complete symptom resolution, we have agreed to stop treatment as planned. The patient understands the follow-up arrangements with 3-monthly CT scans and clinic reviews. The first scan will be arranged for July 2024.",
+  "output": {
+    "primary_cancer": {
+      "site": "transverse colon",
+      "year": 2023,
+      "histopathology_status": "medullary carcinoma",
+      "other_stage": "Duke's D",
+      "metastases": "liver and lung metastases",
+      "biomarker_status": "MSI-high, TMB-high, PDL1 CPS 95",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right hemicolectomy",
+          "year": 2023
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started pembrolizumab monotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Temporary interruption of pembrolizumab due to grade 2 immune-mediated colitis",
+          "year": 2024
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 70% reduction in liver metastases and complete resolution of lung nodules",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Tumor markers normalized",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles of pembrolizumab",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 0, improved from initial PS 2"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal liver function and inflammatory markers"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic colon cancer showing excellent response to immunotherapy. Completed planned treatment course with good outcome despite previous immune-related toxicity."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Excellent partial response with 70% reduction in liver metastases and complete resolution of lung nodules"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 immune-mediated colitis resolved following temporary treatment interruption and steroids"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Stopping pembrolizumab as planned after completing 6 cycles with good response"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "3-monthly CT scans and clinic reviews, first scan planned for July 2024"
+      }
+    ]
+  }
+}

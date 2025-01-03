@@ -1,0 +1,84 @@
+{
+  "content": "Diagnosis:\t\tBilateral metaplastic breast carcinoma\n\nManagement:\t\tRight mastectomy March 2023\n\t\tLeft mastectomy May 2023\n\t\tAdjuvant chemotherapy completed September 2023\n\nHistology:\t\tRight: pT1c spindle cell metaplastic carcinoma, grade 3\n\t\tLeft: pT1c spindle cell metaplastic carcinoma, grade 3\n\t\tBoth tumours PD-L1 positive with high TILs (75%)\n\nCurrent situation:\tRoutine follow-up\n\n[redacted name] attended clinic today for routine follow-up following completion of adjuvant chemotherapy for bilateral metaplastic breast cancer. She has made an excellent recovery from her bilateral mastectomies and subsequent chemotherapy. Her energy levels have significantly improved since completing treatment, though she still experiences mild peripheral neuropathy affecting her fingertips from the taxane chemotherapy. She has maintained her weight and has returned to work part-time as a teacher. Clinical examination today shows well-healed mastectomy scars bilaterally with no concerning features. There is no lymphadenopathy or evidence of recurrence. Recent CT chest/abdomen/pelvis from 15/01/2024 shows no evidence of metastatic disease. Blood tests including liver function are all within normal range. The plan is to continue regular follow-up with clinical review and annual mammography of the chest wall. She will be reviewed again in clinic in 3 months' time.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast bilateral",
+      "year": 2023,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT1c",
+      "other_stage": null,
+      "histopathology_status": "spindle cell metaplastic carcinoma, grade 3",
+      "biomarker_status": "PD-L1 positive with high TILs (75%)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right mastectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Left mastectomy",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant chemotherapy including taxanes",
+          "year": 2023,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed adjuvant chemotherapy",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis shows no evidence of metastatic disease",
+          "year": 2024,
+          "month": 1
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "mild peripheral neuropathy affecting fingertips"
+      },
+      {
+        "type": "examination_finding",
+        "value": "well-healed mastectomy scars bilaterally with no concerning features, no lymphadenopathy"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "blood tests including liver function within normal range"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "returned to work part-time as a teacher"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Bilateral metaplastic breast cancer treated with bilateral mastectomies and adjuvant chemotherapy. Now in follow-up with no evidence of recurrence."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "residual mild peripheral neuropathy from taxane chemotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "annual mammography of chest wall"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "review in clinic in 3 months"
+      }
+    ]
+  }
+}

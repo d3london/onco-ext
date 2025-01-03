@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis:\t\tClear cell renal cell carcinoma\n\nManagement:\t\t12 Apr 2024 Left partial nephrectomy\n\nHistology:\t\tpT1b (4.5cm) clear cell renal cell carcinoma, Fuhrman grade 2, margins clear\n\t\t\tPD-L1 CPS 10\n\t\t\tStage pT1bN0M0\n\nCurrent Situation:\tPost-operative follow-up\n\n[redacted name] was reviewed in the Uro-oncology clinic today following his recent left partial nephrectomy. His post-operative recovery has been uncomplicated with good wound healing. His baseline renal function remains stable with creatinine 98 umol/L. CT chest/abdomen/pelvis performed on 2 May 2024 shows expected post-surgical changes with no evidence of residual or metastatic disease. Given the favourable histological features and stage, we have discussed that active surveillance is appropriate. The plan is for 3-monthly clinical review with regular cross-sectional imaging as per our surveillance protocol. The first follow-up CT scan will be arranged for 3 months' time. We will see him back in clinic with these results.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, left",
+      "year": 2024,
+      "month": 4,
+      "metastases": "",
+      "tnm_stage": "pT1bN0M0",
+      "other_stage": "",
+      "histopathology_status": "clear cell renal cell carcinoma, Fuhrman grade 2, 4.5cm, margins clear",
+      "biomarker_status": "PD-L1 CPS 10",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Left partial nephrectomy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis shows expected post-surgical changes with no evidence of residual or metastatic disease",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Stable renal function with creatinine 98 umol/L",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Good wound healing post-operatively"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Creatinine 98 umol/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed clear cell renal cell carcinoma treated with partial nephrectomy. Uncomplicated post-operative recovery with no evidence of residual disease."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "For active surveillance given favourable histological features and stage"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review in 3 months with imaging results"
+      }
+    ]
+  }
+}

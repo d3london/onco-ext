@@ -1,0 +1,62 @@
+{
+  "content": "Diagnosis:\t\tMucoepidermoid carcinoma of right main bronchus\n\nManagement:\t\tRight upper lobectomy March 2024\n\nHistology:\t\tpT2aN0M0 mucoepidermoid carcinoma, MAML2 fusion positive\n\nCurrent situation:\tPost-operative surveillance\n\n[redacted name] attended bronchial oncology follow-up clinic today. She has made an excellent recovery following surgery with no post-operative complications. Her exercise tolerance has returned to baseline and she reports no respiratory symptoms. Chest examination shows good air entry bilaterally with no added sounds. Recent chest x-ray on 15/5/24 shows expected post-operative changes with no concerning features. Blood tests are satisfactory. Given the complete resection and pathological stage, no adjuvant therapy is indicated. The plan is for continued surveillance with 3-monthly chest x-rays and 6-monthly CT scans for the first two years. Next clinic review will be in 3 months with chest x-ray.",
+  "output": {
+    "primary_cancer": {
+      "site": "right main bronchus",
+      "year": 2024,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT2aN0M0",
+      "other_stage": null,
+      "histopathology_status": "mucoepidermoid carcinoma",
+      "biomarker_status": "MAML2 fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right upper lobectomy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "investigation_finding",
+          "value": "Chest x-ray shows expected post-operative changes with no concerning features",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Good air entry bilaterally with no added sounds"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood tests satisfactory"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Exercise tolerance returned to baseline"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Completely resected mucoepidermoid carcinoma of bronchus. Excellent post-operative recovery with no complications"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "No adjuvant therapy indicated given complete resection and pathological stage"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance with 3-monthly chest x-rays and 6-monthly CT scans for first two years"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 months with chest x-ray"
+      }
+    ]
+  }
+}

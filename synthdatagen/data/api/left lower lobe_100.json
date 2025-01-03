@@ -1,0 +1,93 @@
+{
+  "content": "I reviewed [redacted name] today in the lung oncology clinic following recent disease progression. As you are aware, he was diagnosed with a left lower lobe squamous cell carcinoma in January 2024, initially presenting with persistent cough and weight loss. Staging investigations confirmed a T4N2M0 Stage IIIB disease with bulky mediastinal lymphadenopathy but no distant metastases. PD-L1 testing was negative. He commenced concurrent chemoradiotherapy with weekly carboplatin and paclitaxel in February 2024, completing radiotherapy of 60Gy in 30 fractions in March 2024.\n\nUnfortunately, his most recent CT scan from last week shows disease progression with enlargement of the primary mass from 4.8cm to 6.2cm and increasing mediastinal lymphadenopathy. His performance status has deteriorated to ECOG 2, with increasing breathlessness, now requiring oxygen 2L/min at rest, and he describes new onset right-sided chest pain requiring regular opioid analgesia. His weight has dropped by a further 3kg since last review.\n\nOn examination today, there is reduced air entry in the left lower zone with dull percussion note and tactile vocal fremitus. New right-sided pleural effusion is noted clinically, correlating with radiological findings. His oxygen saturation was 92% on 2L/min oxygen.\n\nGiven his disease progression following first-line treatment, we have discussed second-line treatment options. Despite his PD-L1 negative status, given the lack of targetable mutations and his deteriorating performance status, we have agreed to commence single-agent immunotherapy with nivolumab. I have explained the mechanism of action, potential side effects including immune-related adverse events, and the importance of early reporting of new symptoms. He understands that response rates are modest but that some patients can achieve durable benefit.\n\nI have arranged for him to commence nivolumab 240mg every 2 weeks, with his first dose scheduled for next week. He will have CT assessment after 4 cycles. I have also referred him to the palliative care team for optimization of his symptom control, particularly his breathlessness and pain. We will review him in 2 weeks' time with blood results, and he has been given contact details for the acute oncology service if needed before then.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, left lower lobe",
+      "year": 2024,
+      "month": 1,
+      "metastases": "bulky mediastinal lymphadenopathy",
+      "tnm_stage": "T4N2M0",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "PD-L1 negative",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial presentation with persistent cough and weight loss",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started concurrent chemoradiotherapy with weekly carboplatin and paclitaxel",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radiotherapy 60Gy in 30 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with primary mass increased from 4.8cm to 6.2cm and increasing mediastinal lymphadenopathy, new right-sided pleural effusion",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing breathlessness requiring oxygen 2L/min at rest"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right-sided chest pain requiring regular opioid analgesia"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry in left lower zone with dull percussion note and tactile vocal fremitus"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Right-sided pleural effusion"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Oxygen saturation 92% on 2L/min oxygen"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIB left lower lobe squamous cell carcinoma with disease progression following concurrent chemoradiotherapy. Deteriorating performance status with increasing respiratory symptoms."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on imaging with enlarging primary mass and lymphadenopathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence second-line treatment with nivolumab 240mg every 2 weeks"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status with increasing oxygen requirements and weight loss"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT assessment after 4 cycles of nivolumab"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks with blood results, referred to palliative care team"
+      }
+    ]
+  }
+}

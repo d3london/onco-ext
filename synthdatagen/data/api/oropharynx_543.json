@@ -1,0 +1,77 @@
+{
+  "content": "Diagnosis:\tT2N0M0 p16 positive squamous cell carcinoma of right tonsil\n\nI reviewed [redacted name] today following completion of radical chemoradiotherapy in March 2024. He completed 6 weeks of radiotherapy with concurrent weekly cisplatin, managing 5 out of the planned 6 cycles. The final cycle was omitted due to grade 2 mucositis.\n\nHe reports good improvement in swallowing function over the past 6 weeks, now managing a soft diet without requiring supplementary nutrition. His weight has stabilized at 72kg. Taste sensation is gradually returning though he still has some dry mouth requiring regular sips of water. His voice quality has returned to normal. Performance status is now 1, improved from 2 during treatment.\n\nOn examination today, the oropharynx shows expected post-radiotherapy changes with no concerning features. No palpable cervical lymphadenopathy. Latest blood tests show stable renal function and normal thyroid function.\n\nThe plan is to continue regular follow-up. I have arranged a contrast-enhanced CT neck in 3 months' time and will see him in clinic following this. He understands to contact us sooner if any new concerns develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "oropharynx, right tonsil",
+      "year": 2024,
+      "metastases": null,
+      "tnm_stage": "T2N0M0",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "p16 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started concurrent weekly cisplatin with radiotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed 6 weeks of radical radiotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 5 out of 6 planned cycles of cisplatin, final cycle omitted due to grade 2 mucositis",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 1, improved from PS 2 during treatment"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Dry mouth requiring regular sips of water"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Gradually improving taste sensation"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Expected post-radiotherapy changes in oropharynx, no concerning features, no palpable cervical lymphadenopathy"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function and normal thyroid function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "P16 positive oropharyngeal cancer treated with radical chemoradiotherapy. Good recovery from treatment with improving symptoms"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 mucositis during treatment requiring omission of final chemotherapy cycle"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Managing soft diet without supplementary nutrition, weight stable at 72kg"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Contrast-enhanced CT neck in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic following CT scan"
+      }
+    ]
+  }
+}

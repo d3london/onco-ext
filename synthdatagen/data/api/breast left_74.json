@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis:\nLeft breast cancer - mixed mucinous and neuroendocrine carcinoma\nT2N1Mx, Grade 2\nER positive (8/8), PR low positive (2/8), HER2 2+ (FISH pending)\n\nPrevious Treatment:\nWide local excision and axillary clearance 15 Jan 2024\n3/12 nodes positive, largest deposit 12mm\nCommenced adjuvant FEC-T chemotherapy March 2024\n\nCurrent medications:\nOndansetron 8mg bd\nDexamethasone 8mg bd (days 1-3 of each cycle)\nPegfilgrastim 6mg SC day 2\n\nAllergies:\nNone reported\n\nCurrent situation:\nPre cycle 4 FEC\n\nI reviewed [redacted name] today prior to cycle 4 FEC chemotherapy. The previous cycle was complicated by grade 2 neutropenia requiring a 1-week delay, though she has now recovered with neutrophils 1.8. She reports ongoing grade 1 peripheral neuropathy affecting fingertips only, and grade 1 fatigue that improves by day 10 of each cycle. No significant nausea with current antiemetic regime. Performance status remains 0.\n\nHER2 FISH testing results are pending and will guide addition of targeted therapy. Bloods today show adequate parameters for treatment. The plan is to proceed with cycle 4 FEC at full dose with enhanced GCSF support. We will review again in 3 weeks for final FEC cycle, then transition to docetaxel pending satisfactory recovery.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2024,
+      "month": 1,
+      "metastases": "3/12 axillary nodes positive, largest deposit 12mm",
+      "tnm_stage": "T2N1Mx",
+      "histopathology_status": "mixed mucinous and neuroendocrine carcinoma, Grade 2",
+      "biomarker_status": "ER positive (8/8), PR low positive (2/8), HER2 2+ (FISH pending)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and axillary clearance, 3/12 nodes positive",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant FEC-T chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cycle 3 delayed by 1 week due to grade 2 neutropenia",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 peripheral neuropathy affecting fingertips"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue improving by day 10 of each cycle"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early breast cancer on adjuvant FEC chemotherapy. Previous cycle delayed due to neutropenia but now recovered and tolerating treatment well"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 neutropenia with previous cycle, grade 1 peripheral neuropathy and fatigue"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 4 FEC at full dose with enhanced GCSF support"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Awaiting HER2 FISH testing results"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks for final FEC cycle before transitioning to docetaxel"
+      }
+    ]
+  }
+}

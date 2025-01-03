@@ -1,0 +1,112 @@
+{
+  "content": "Diagnosis:\n\nMetastatic clear cell carcinoma of right renal pelvis with widespread metastatic disease\n\nPrevious treatment:\nNephroureterectomy March 2023\nPembrolizumab/Axitinib combination from May 2023\nPalliative radiotherapy to T8 vertebra August 2023\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nChronic kidney disease stage 3\n\nCurrent medications:\nAxitinib 5mg bd (reduced from 7mg bd)\nPembrolizumab 200mg every 3 weeks\nZomorph 30mg bd\nOxycodone 5mg prn\nAmlodipine 10mg od\nMetformin 1g bd\n\nCurrent situation:\nProgressive disease on recent imaging\n\nI reviewed [redacted name] today who has unfortunately experienced significant clinical deterioration over the past 4 weeks. Her performance status has declined from 1 to 3, and she now requires assistance with most activities of daily living. She describes worsening bone pain despite recent increases in analgesia, new onset breathlessness at rest, and marked fatigue. Her appetite has significantly reduced with 6kg weight loss over the past month.\n\nCT imaging from last week shows progressive disease with new pulmonary metastases, increase in size of existing liver lesions, and new peritoneal deposits. There is also evidence of progressive bone disease with risk of cord compression at T4 level.\n\nWe had a lengthy discussion about the current situation. Given her declining performance status and clear evidence of disease progression on current treatment, I have recommended discontinuing systemic therapy. [redacted name] understands this decision and expressed her wish to focus on symptom management.\n\nI have made an urgent referral to the palliative care team and arranged admission to the local hospice for symptom control. I have also requested urgent MRI spine and referred to clinical oncology for consideration of urgent radiotherapy to T4. Blood tests today show deteriorating renal function with eGFR 32 (previously 45) and rising calcium at 2.89.\n\nThe plan is for best supportive care with close monitoring by the palliative team. We will continue to provide support through our specialist nursing team, and I will review her progress with the palliative care team next week.",
+  "output": {
+    "primary_cancer": {
+      "site": "right renal pelvis",
+      "year": 2023,
+      "month": 3,
+      "metastases": "pulmonary metastases, liver metastases, bone metastases, peritoneal deposits",
+      "other_stage": "Stage IV",
+      "histopathology_status": "clear cell carcinoma",
+      "biomarker_status": "PTEN loss",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Nephroureterectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Pembrolizumab/Axitinib combination therapy",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T8 vertebra",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Axitinib dose reduced to 5mg bd from 7mg bd",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with new pulmonary metastases, increased liver lesions, new peritoneal deposits, progressive bone disease with T4 cord compression risk",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Deteriorating renal function with eGFR 32 (previously 45) and rising calcium 2.89",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status deteriorated from 1 to 3, requiring assistance with most activities of daily living"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain despite increased analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Breathlessness at rest"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Marked fatigue"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Chronic kidney disease stage 3"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "6kg weight loss over past month with reduced appetite"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic clear cell carcinoma of renal pelvis with widespread progression. Significant clinical deterioration with declining performance status leading to discontinuation of systemic therapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on imaging with new metastases and growth of existing lesions"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy due to disease progression and declining performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration requiring assistance with most activities of daily living"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine requested"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and local hospice, referral to clinical oncology for consideration of urgent radiotherapy to T4"
+      }
+    ]
+  }
+}

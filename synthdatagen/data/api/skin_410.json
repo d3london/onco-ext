@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\tMalignant melanoma, right calf\n\nManagement:\t15 Jan 2024 Wide local excision and right groin node dissection\n\nHistology:\tBreslow 4.2mm, ulcerated melanoma with microsatellitosis\n\t\tRight groin nodes: 3/12 positive with extracapsular extension\n\t\tBRAF V600E mutation positive, PD-L1 90%\n\nCurrent Situation:\tWeek 12 assessment on KEYNOTE-A355 trial (Arm B - combination pembrolizumab/lenvatinib)\n\nI reviewed [redacted name] today for his scheduled 12-week trial assessment. He has completed 4 cycles of combination therapy on the KEYNOTE-A355 trial and is tolerating treatment remarkably well. The initial grade 2 fatigue we observed during cycles 1-2 has improved significantly with appropriate rest periods and maintained physical activity. His blood pressure remains well-controlled on amlodipine 5mg daily, which was initiated after cycle 2 due to grade 2 hypertension (maximum reading 158/95).\n\nThe latest trial-mandated CT scan performed on 15 April 2024 shows excellent partial response, with reduction in size of all target lymph nodes. The right external iliac node has decreased from 32mm to 14mm, and the right inguinal node from 28mm to 11mm. No new lesions have been identified.\n\nOn examination today, his right groin surgical site remains well-healed. The mild lymphedema of the right leg has improved with compression stockings and physiotherapy. His performance status remains ECOG 0. Blood tests show stable thyroid function and liver enzymes, with no evidence of immune-related adverse events.\n\nWe have completed all trial-mandated assessments including quality of life questionnaires and adverse event documentation. The trial coordinator has arranged the next cycle of treatment for next week. We will continue with the current dose of pembrolizumab 200mg IV q3weekly and lenvatinib 20mg oral daily. I have provided prescriptions for supportive medications including amlodipine.\n\nThe plan is to proceed with cycle 5 next week as scheduled. We will see him again in 3 weeks for his next trial assessment, with repeat thyroid function, liver function, and renal profile as per protocol. A repeat CT scan will be performed at week 24 as per trial schedule.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right calf",
+      "year": 2024,
+      "month": 1,
+      "metastases": "right groin lymph nodes with extracapsular extension",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "Breslow 4.2mm, ulcerated melanoma with microsatellitosis",
+      "biomarker_status": "BRAF V600E mutation positive, PD-L1 90%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and right groin node dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "3/12 positive lymph nodes with extracapsular extension",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in KEYNOTE-A355 trial Arm B - combination pembrolizumab/lenvatinib",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Started amlodipine 5mg daily for grade 2 hypertension after cycle 2",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows partial response - right external iliac node decreased from 32mm to 14mm, right inguinal node from 28mm to 11mm",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild lymphedema of right leg, improving with compression stockings and physiotherapy"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Right groin surgical site well-healed"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable thyroid function and liver enzymes, no evidence of immune-related adverse events"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIB melanoma showing excellent partial response to trial combination therapy with pembrolizumab/lenvatinib. Tolerating treatment well with controlled hypertension"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response on CT with significant reduction in size of all target lymph nodes"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Initial grade 2 fatigue improved, grade 2 hypertension controlled with amlodipine"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing pembrolizumab 200mg IV q3weekly and lenvatinib 20mg oral daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat thyroid function, liver function, and renal profile in 3 weeks, CT scan at week 24"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks for next trial assessment"
+      }
+    ]
+  }
+}

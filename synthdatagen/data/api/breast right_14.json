@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\tRight breast cancer - Grade 1 cribriform carcinoma\n\nManagement:\t15 Jan 2024 Wide local excision and sentinel lymph node biopsy\n\t\t12 Feb 2024 Started adjuvant endocrine therapy\n\nHistology:\tpT1b (12mm) N0 (0/2) M0, Grade 1 cribriform carcinoma\n\tER 8/8, PR 8/8, HER2 negative, Ki67 5%\n\nCurrent Situation:\tRoutine follow-up on adjuvant endocrine therapy\n\nI was pleased to review [redacted name] today for her routine follow-up appointment. She is now three months into her adjuvant endocrine therapy with anastrozole. She has adapted well to the medication and reports only mild joint stiffness in the mornings which improves with gentle exercise. Her energy levels have gradually improved since surgery, and she has returned to her usual activities including regular swimming three times per week. She has experienced some mild hot flushes but finds these manageable and is keen to continue with the current treatment.\n\nHer breast wound has healed excellently with no concerns. She understands the importance of breast awareness and will continue with regular mammographic surveillance as planned. She has attended the local cancer support group which she has found helpful.\n\nThe plan is to continue with anastrozole 1mg daily. I have provided written information about managing side effects. We will arrange her first surveillance mammogram for January 2025 and see her back in clinic in 6 months' time. She knows to contact the breast care nurses if she has any concerns in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT1bN0M0",
+      "other_stage": "",
+      "histopathology_status": "Grade 1 cribriform carcinoma, 12mm",
+      "biomarker_status": "ER 8/8, PR 8/8, HER2 negative, Ki67 5%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirms pT1b (12mm) N0 (0/2) Grade 1 cribriform carcinoma",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant anastrozole",
+          "year": 2024,
+          "month": 2
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild joint stiffness in mornings improving with exercise"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild hot flushes, reported as manageable"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Regular swimming three times per week"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage breast cancer post surgery, tolerating adjuvant endocrine therapy well with good functional recovery"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild joint stiffness and hot flushes on anastrozole"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing anastrozole 1mg daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance mammogram planned for January 2025"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 6 months"
+      }
+    ]
+  }
+}

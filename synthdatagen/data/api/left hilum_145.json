@@ -1,0 +1,83 @@
+{
+  "content": "Diagnosis\n\t1. Limited stage small cell lung cancer, left hilar primary\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNot indicated\n\n\tRadiotherapy\n\tCompleted concurrent chemoradiotherapy 45Gy in 30 fractions twice daily to left hilum and mediastinum March 2024\n\n\tChemotherapy\n\t4 cycles Carboplatin/Etoposide completed April 2024\n\n\tClinical studies\n\tEnrolled in MYCN-TARGET-01 trial of MYCN inhibitor vs placebo post-chemoradiotherapy\n\n\tCurrent disease status\n\tNo evidence of disease progression\n\n\tCurrent issues\n\tGrade 2 fatigue, Grade 1 radiation pneumonitis\n\n\tSummary of consultation\n\tThis 62 year old gentleman is reviewed today for his week 6 trial assessment. He completed standard concurrent chemoradiotherapy for limited stage small cell lung cancer in April 2024, achieving good radiological response. He was subsequently enrolled in the MYCN-TARGET-01 trial based on confirmed MYCN amplification status.\n\nHe reports ongoing fatigue which impacts his daily activities but is gradually improving. He describes mild breathlessness on moderate exertion which has been attributed to Grade 1 radiation pneumonitis on recent CT imaging. His appetite remains good and weight is stable at 76kg.\n\nOn examination today, there are no new concerning features. Chest auscultation reveals minimal crackles at the left base. Performance status remains 1.\n\nTrial-mandated CT chest/abdomen/pelvis performed last week shows stable appearances with no evidence of disease progression. Post-treatment changes are noted in the radiation field with features of mild radiation pneumonitis.\n\n\tFurther investigations\n\tTrial-mandated blood samples collected today\nNext CT scan due in 6 weeks as per protocol\n\n\tMedication prescribed\n\tContinuing trial medication as per protocol\nPrednisolone 30mg daily commenced for radiation pneumonitis\n\n\tFollow up\n\tNext trial assessment in 2 weeks\nTrial coordinator to arrange PET-CT at week 12\n\n\tRequired GP actions\n\tWeekly blood pressure monitoring requested\nPlease monitor blood glucose while on steroids",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, left hilar",
+      "year": 2024,
+      "month": 1,
+      "histopathology_status": "small cell carcinoma",
+      "other_stage": "Limited stage",
+      "biomarker_status": "MYCN amplified",
+      "cancer_timeline": [
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed concurrent chemoradiotherapy 45Gy in 30 fractions twice daily to left hilum and mediastinum",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Completed 4 cycles Carboplatin/Etoposide",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in MYCN-TARGET-01 trial of MYCN inhibitor vs placebo post-chemoradiotherapy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis shows stable appearances with post-treatment changes and mild radiation pneumonitis",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 fatigue impacting daily activities"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild breathlessness on moderate exertion"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Minimal crackles at the left base"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT shows features of mild radiation pneumonitis in treatment field"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Limited stage small cell lung cancer post chemoradiotherapy, now enrolled in MYCN inhibitor trial. Stable disease with radiation pneumonitis requiring steroid treatment"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 radiation pneumonitis requiring prednisolone 30mg daily"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing trial medication as per protocol, commenced on prednisolone for radiation pneumonitis"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Trial-mandated CT scan in 6 weeks and PET-CT at week 12"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Next trial assessment in 2 weeks"
+      }
+    ]
+  }
+}

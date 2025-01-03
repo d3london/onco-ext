@@ -1,0 +1,60 @@
+{
+  "content": "Diagnosis\n\t1. Solid pseudopapillary neoplasm of pancreas\n\n\tDate of diagnosis\n\tMarch 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Mar 2024 Distal pancreatectomy and splenectomy performed by Mr [redacted name]\n\n\tRadiotherapy\n\tNot indicated\n\n\tChemotherapy\n\tNot indicated\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tNo evidence of disease\n\n\tCurrent issues\n\tPost-operative recovery\n\n\tSummary of consultation\n\tThis 28 year old lady was referred following incidental finding of a pancreatic mass on ultrasound performed for non-specific abdominal pain. CT pancreas confirmed a 3.2cm well-circumscribed mass in the tail of pancreas. She underwent successful distal pancreatectomy and splenectomy on 15/3/24.\n\nHistology confirms a solid pseudopapillary neoplasm, completely excised with clear margins. Immunohistochemistry shows beta-catenin nuclear positivity. No lymphovascular invasion identified. Final staging pT1N0.\n\nShe has made an excellent post-operative recovery with no complications. Her wound has healed well and she reports good energy levels. She has commenced recommended post-splenectomy vaccinations.\n\nOn examination today, her surgical wound is well-healed. Abdomen is soft and non-tender. No concerning features.\n\n\tFurther investigations\n\tNone required at present\n\n\tMedication prescribed\n\tProphylactic penicillin V 250mg BD\n\n\tFollow up\n\tNext oncology follow up in 3 months with surveillance CT\n\n\tRequired GP actions\n\tPlease ensure completion of post-splenectomy vaccination schedule\n\n\tSummary of information given to the patient\n\tExcellent prognosis discussed. Explained importance of post-splenectomy precautions and vaccinations. Written information provided regarding solid pseudopapillary neoplasms.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas, tail",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "pT1N0",
+      "other_stage": "Stage I",
+      "histopathology_status": "solid pseudopapillary neoplasm, completely excised with clear margins, no lymphovascular invasion",
+      "biomarker_status": "beta-catenin nuclear positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT pancreas shows 3.2cm well-circumscribed mass in tail of pancreas",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Distal pancreatectomy and splenectomy performed",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirms solid pseudopapillary neoplasm, completely excised with clear margins, beta-catenin nuclear positive",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Surgical wound well-healed, abdomen soft and non-tender"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Good energy levels"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage I solid pseudopapillary neoplasm of pancreas successfully treated with surgery. Excellent post-operative recovery with no complications."
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Excellent post-operative recovery with no complications"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Oncology follow up in 3 months with surveillance CT"
+      }
+    ]
+  }
+}

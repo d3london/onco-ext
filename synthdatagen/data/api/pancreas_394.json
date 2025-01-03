@@ -1,0 +1,84 @@
+{
+  "content": "Diagnosis:\tPancreatic adenocarcinoma (mucinous type)\n\nManagement:\t12 Apr 2024 Whipple's procedure\n\nHistology:\tpT3N1(2/18)M0 mucinous adenocarcinoma of pancreatic head\n\tNOTCH1 mutation detected\n\nCurrent Situation:\tPost-operative assessment for adjuvant therapy\n\nI reviewed [redacted name] today in the pancreatic oncology clinic following his recent Whipple's procedure. He has made an excellent recovery from surgery with good wound healing and is now eating and drinking normally. His weight has stabilized at 72kg (pre-operative weight 78kg) and he is gradually building up his exercise tolerance with daily walks.\n\nThe surgical pathology confirmed a 4.2cm mucinous adenocarcinoma of the pancreatic head with clear resection margins (R0). Two of eighteen lymph nodes contained metastatic disease. Molecular analysis has detected a NOTCH1 mutation. His post-operative CT scan on 2nd May showed expected post-surgical changes with no evidence of residual or metastatic disease.\n\nIn terms of his recovery, he reports mild early satiety and occasional loose stools which are gradually improving. He has experienced some fatigue but this is also improving. His performance status is now 1. On examination today, his surgical wounds are well healed and his abdomen is soft and non-tender. His blood tests show stable liver function and CA19-9 has normalized to 22 (pre-operative value 156).\n\nI have discussed adjuvant chemotherapy with [redacted name] today. Given the nodal involvement and tumor size, I have recommended 6 months of modified FOLFIRINOX. We have discussed the aims, schedule and potential side effects in detail. He will require a PICC line insertion which I have arranged for next week. We plan to commence treatment in 2 weeks' time once he has fully recovered from surgery.\n\nI have provided written information about chemotherapy and arranged PICC line insertion for next Thursday. We will see him again prior to cycle 1 with repeat bloods and clinical assessment.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas, head",
+      "year": 2024,
+      "month": 4,
+      "metastases": "2/18 lymph nodes positive",
+      "tnm_stage": "pT3N1M0",
+      "histopathology_status": "mucinous adenocarcinoma, 4.2cm, R0 resection margins",
+      "biomarker_status": "NOTCH1 mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Pre-operative CA19-9 elevated at 156",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure performed",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Post-operative CA19-9 normalized to 22",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows post-surgical changes with no evidence of residual or metastatic disease",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild early satiety and occasional loose stools"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue, improving"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Surgical wounds well healed, abdomen soft and non-tender"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight stable at 72kg, down from pre-operative 78kg"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable liver function tests"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently resected pancreatic adenocarcinoma with lymph node involvement. Good post-operative recovery and now suitable for adjuvant chemotherapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence 6 months of modified FOLFIRINOX"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "PICC line insertion arranged for next week"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review prior to cycle 1 chemotherapy with repeat bloods"
+      }
+    ]
+  }
+}

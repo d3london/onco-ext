@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\nClear cell renal cell carcinoma, right kidney\nT3aN0M0 (Stage III)\nKIT mutation positive\n\nPrevious medical history:\nHypertension\nType 2 diabetes\n\nCurrent medications:\nAmlodipine 5mg daily\nMetformin 1g twice daily\n\nAllergies:\nNone known\n\nCurrent situation:\nRecently diagnosed following investigation of incidental finding on routine ultrasound\n\nCT abdomen/pelvis 15 March 2024 - 7.2cm mass right kidney upper pole with perinephric fat invasion\nCT chest 18 March 2024 - No evidence of metastatic disease\nBone scan 20 March 2024 - Normal\n\nPerformance status 0\n\nI reviewed [redacted name] today following recent diagnosis of locally advanced renal cell carcinoma. The staging investigations show no evidence of metastatic spread. The tumor is confined to the kidney but with evidence of local invasion into perinephric fat. Molecular testing has confirmed presence of KIT mutation.\n\nOn examination today, he is well with normal vital signs. Abdomen is soft and non-tender with no palpable masses. No peripheral edema.\n\nI have discussed the case with our uro-oncology MDT. Given the locally advanced nature but absence of metastatic disease, we recommend proceeding with right radical nephrectomy. I have explained the procedure, recovery process and potential complications. [redacted name] understands and wishes to proceed.\n\nPlan:\n1. Referred to [redacted name] for surgical assessment\n2. Pre-operative assessment to be arranged\n3. Follow up in combined surgical-oncology clinic in 2 weeks with surgical date",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right upper pole",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "T3aN0M0",
+      "other_stage": "Stage III",
+      "histopathology_status": "clear cell renal cell carcinoma",
+      "biomarker_status": "KIT mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT abdomen/pelvis shows 7.2cm mass right kidney upper pole with perinephric fat invasion",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest shows no evidence of metastatic disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Bone scan normal with no evidence of metastatic disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Abdomen soft and non-tender with no palpable masses, no peripheral edema"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed locally advanced right renal cell carcinoma with perinephric fat invasion. No evidence of metastatic disease on complete staging."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "MDT recommendation for right radical nephrectomy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Combined surgical-oncology clinic review in 2 weeks with surgical date"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Pre-operative assessment to be arranged"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\t\tCecal adenocarcinoma with liver metastases\n\nManagement:\t\t15.4.23 Right hemicolectomy\n\t\t\t6/5/23-Aug 2023 FOLFOX/Bevacizumab\n\t\t\tSept 2023-present FOLFIRI/Bevacizumab\n\nHistology:\t\tModerately differentiated adenocarcinoma pT4aN2bM1, MMR proficient, BRAF V600K mutation\n\nCurrent Situation:\tPre-cycle 8 FOLFIRI/Bevacizumab\n\nI was very pleased to review [redacted name] in clinic today. She has been managing relatively well on FOLFIRI/Bevacizumab since switching from FOLFOX due to grade 3 peripheral neuropathy. Her latest CT scan from 15 March 2024 shows continued stable disease in the liver metastases, with the largest lesion in segment 7 measuring 3.2cm (previously 3.3cm). Her CEA has remained stable at 45 (previously 48). She reports good energy levels and is maintaining her usual activities, including regular swimming which she finds therapeutic. Her main ongoing challenge is grade 1 mucositis which she manages well with regular mouth care. Her bowels have settled with loperamide as needed.\n\nOn examination today, she looks well with PS 1. Her blood results show stable parameters with hemoglobin 110 g/L and normal liver function. After careful discussion about her stable disease and good tolerability, we have agreed to continue with FOLFIRI/Bevacizumab at current doses. She will have her next CT scan after cycle 9, and we will see her again in clinic in 3 weeks' time with blood tests.",
+  "output": {
+    "primary_cancer": {
+      "site": "cecum",
+      "year": 2023,
+      "month": 4,
+      "metastases": "liver metastases",
+      "other_stage": "Stage IIIC",
+      "histopathology_status": "moderately differentiated adenocarcinoma pT4aN2bM1",
+      "biomarker_status": "MMR proficient, BRAF V600K mutation",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right hemicolectomy",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFOX/Bevacizumab",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Switched from FOLFOX to FOLFIRI/Bevacizumab due to grade 3 peripheral neuropathy",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows stable liver metastases, largest lesion in segment 7 measuring 3.2cm",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA stable at 45 (previously 48)",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "grade 1 mucositis managed with mouth care"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "hemoglobin 110 g/L and normal liver function"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "maintaining usual activities including regular swimming"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic cecal cancer with liver involvement. Stable disease on FOLFIRI/Bevacizumab following switch from FOLFOX due to neuropathy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on CT with largest liver lesion 3.2cm (previously 3.3cm)"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 mucositis managed with regular mouth care"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continue FOLFIRI/Bevacizumab at current doses"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan after cycle 9"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 weeks with blood tests"
+      }
+    ]
+  }
+}

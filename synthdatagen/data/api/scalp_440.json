@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis\n\t1. Locally advanced squamous cell carcinoma of right parietal scalp with regional lymph node involvement\n\n\tDate of diagnosis\n\tFebruary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Feb 2024 Wide local excision of scalp lesion with skin grafting and selective neck dissection\n\n\tRadiotherapy\n\tNot yet commenced\n\n\tChemotherapy\n\tNot yet commenced\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tPost-surgical, awaiting adjuvant therapy\n\n\tCurrent issues\n\tDelayed wound healing at graft site\n\n\tSummary of consultation\n\tThis 67-year-old gentleman's case was discussed at today's Head and Neck MDT. The pathology from his recent surgery shows a 4.2cm moderately differentiated squamous cell carcinoma with 8mm depth of invasion. There is extensive lymphovascular invasion and perineural invasion. The deep margin was close at 1mm. Two of seven lymph nodes from the selective neck dissection show extracapsular spread. PD-L1 testing shows CPS of 30.\n\nThe surgical site is showing delayed healing with a small area of graft failure (2x3cm) requiring ongoing dressing care. Otherwise, he is recovering well with good shoulder movement and no facial nerve weakness. His performance status remains 1.\n\nAfter extensive discussion, the MDT recommends adjuvant chemoradiotherapy with concurrent cisplatin, given the high-risk features (extracapsular spread, close margins, lymphovascular invasion). The radiotherapy plan will encompass the primary site and ipsilateral neck to a dose of 66Gy in 33 fractions with a simultaneous integrated boost to areas of extracapsular spread.\n\n\tFurther investigations\n\tBaseline audiometry and EDTA clearance required before cisplatin\n\n\tMedication prescribed\n\tNone today\n\n\tFollow up\n\tUrgent referral to clinical oncology for treatment planning\nSurgical follow-up in 2 weeks for wound review\n\n\tRequired GP actions\n\tPlease continue wound care support via district nursing\nMonitor renal function prior to chemotherapy\n\n\tSummary of information given to the patient\n\tMDT outcome will be discussed at next clinic visit",
+  "output": {
+    "primary_cancer": {
+      "site": "scalp, right parietal",
+      "year": 2024,
+      "month": 2,
+      "metastases": "regional lymph node involvement with extracapsular spread",
+      "other_stage": "Stage III",
+      "histopathology_status": "moderately differentiated squamous cell carcinoma, 4.2cm with 8mm depth of invasion, extensive lymphovascular and perineural invasion, close deep margin 1mm",
+      "biomarker_status": "PD-L1 CPS 30",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision of scalp lesion with skin grafting and selective neck dissection",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Pathology shows 2/7 lymph nodes positive with extracapsular spread, PD-L1 CPS 30",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "MDT discussion - recommended for adjuvant chemoradiotherapy with concurrent cisplatin",
+          "year": 2024,
+          "month": 2
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Delayed wound healing with 2x3cm area of graft failure requiring dressing care"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Good shoulder movement and no facial nerve weakness"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III scalp SCC with high-risk features post-surgery. MDT recommends adjuvant chemoradiotherapy despite ongoing wound healing issues."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan for adjuvant chemoradiotherapy - 66Gy in 33 fractions with concurrent cisplatin"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline audiometry and EDTA clearance before starting cisplatin"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to clinical oncology for treatment planning and surgical follow-up in 2 weeks for wound review"
+      }
+    ]
+  }
+}

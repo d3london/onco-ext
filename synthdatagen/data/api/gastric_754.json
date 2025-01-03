@@ -1,0 +1,74 @@
+{
+  "content": "Diagnosis:\nLocally advanced gastric adenocarcinoma\n\nHistology:\nModerately differentiated intestinal type adenocarcinoma\nMMR deficient, HER2 negative\nStage IIIC (T4aN3aM0)\n\nPrevious treatment:\nNeoadjuvant FLOT chemotherapy completed March 2024\nTotal gastrectomy with D2 lymphadenectomy 15 April 2024\n\nMDT Discussion:\nCase presented at Upper GI MDT 16 May 2024\nPathology review confirms ypT3N2 (6/28 nodes positive)\nEvidence of treatment response in primary tumor (modified Ryan score 2)\nNo lymphovascular invasion identified\nResection margins clear (R0)\n\nMDT Recommendation:\nProceed with adjuvant FLOT chemotherapy to complete perioperative protocol\nTarget start date within 6 weeks of surgery\nStandard protocol - 4 cycles\nWeekly clinical review during treatment\n\nCurrent situation:\nReviewed today following MDT\nRecovering well from surgery\nNutritional status improving with dietetic support\nPerformance status 1\nBloods show Hb 98, WCC 6.8, Platelets 345, normal renal and liver function\n\nPlan discussed with patient who wishes to proceed with adjuvant treatment as recommended\nAppointment arranged with chemotherapy unit for next week",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "year": 2024,
+      "month": null,
+      "metastases": null,
+      "tnm_stage": "ypT3N2",
+      "other_stage": "Stage IIIC",
+      "histopathology_status": "moderately differentiated intestinal type adenocarcinoma",
+      "biomarker_status": "MMR deficient, HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started neoadjuvant FLOT chemotherapy",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed neoadjuvant FLOT chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Total gastrectomy with D2 lymphadenectomy performed",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Pathology confirms ypT3N2 (6/28 nodes positive), modified Ryan score 2 showing treatment response, R0 resection",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Hb 98, WCC 6.8, Platelets 345, normal renal and liver function"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Recovering well from surgery with improving nutritional status"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIC gastric cancer post neoadjuvant chemotherapy and surgery, showing partial treatment response. Now recovering well and planned for adjuvant chemotherapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Pathological response to neoadjuvant therapy with modified Ryan score 2"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "MDT recommendation to proceed with adjuvant FLOT chemotherapy, 4 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Appointment arranged with chemotherapy unit for next week"
+      }
+    ]
+  }
+}

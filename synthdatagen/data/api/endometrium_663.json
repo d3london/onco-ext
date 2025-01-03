@@ -1,0 +1,96 @@
+{
+  "content": "Many thanks for referring [redacted name] who I reviewed today with her daughter present. She is a 64 year old lady who was diagnosed with endometrial cancer in September 2023, initially presenting with post-menopausal bleeding. She underwent total abdominal hysterectomy and bilateral salpingo-oophorectomy with pelvic and para-aortic lymph node dissection in October 2023, which revealed a grade 2 endometrioid adenocarcinoma with extensive lymphovascular space invasion. Staging showed involvement of pelvic and para-aortic nodes (stage IIIC2). Molecular testing confirmed MMR-proficient status with wild-type p53.\n\nShe commenced adjuvant chemotherapy with Carboplatin and Paclitaxel in November 2023, completing 4 cycles with reasonable tolerence despite grade 2 peripheral neuropathy requiring a 20% dose reduction of Paclitaxel from cycle 3. Unfortunately, surveilance CT in February 2024 showed enlarging para-aortic lymphadenopathy suggesting disease progression. She then received pelvic and extended field radiotherapy with concurrent weekly Cisplatin, completing treatment on 15 March 2024.\n\nShe has unfortunately experienced significant deterioration over the past 4 weeks with increasing abdominal pain, early satiety, and 6kg weight loss. Recent CT imaging on 12 April 2024 shows further progression with new peritoneal deposits and increasing para-aortic lymphadenopathy. Her performance status has declined from 1 to 2-3, spending approximately 50% of the day in bed.\n\nOn examination today, she appears cachectic with evidence of ascites. There is tenderness in the right upper quadrant where a probable omental mass is palpable. Blood tests show declining renal function with creatinine 156 (previously 98) and mild transaminitis.\n\nI have had a lengthy discussion with [redacted name] and her daughter regarding disease progression and treatment options. Given her declining performance status and organ function, I have recommended commencing second-line treatment with weekly Doxorubicin rather than combination chemotherapy. We have discussed the aims of treatment being to control disease progression and improve symptoms while minimizing toxicity. I have arranged urgent paracentesis and dietetic review, and made a referral to the palliative care team for additional support with symptom management.\n\nI have prescribed weekly Doxorubicin 60mg/m2 to commence next week, with close monitoring of symptoms and blood parameters. We will assess response after 6 weeks of treatment.",
+  "output": {
+    "primary_cancer": {
+      "site": "endometrium",
+      "year": 2023,
+      "month": 9,
+      "metastases": "pelvic nodes, para-aortic nodes, peritoneal deposits",
+      "other_stage": "Stage IIIC2",
+      "histopathology_status": "grade 2 endometrioid adenocarcinoma with extensive lymphovascular space invasion",
+      "biomarker_status": "MMR-proficient, p53 wild-type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "total abdominal hysterectomy and bilateral salpingo-oophorectomy with pelvic and para-aortic lymph node dissection",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "commenced adjuvant Carboplatin and Paclitaxel",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "20% dose reduction of Paclitaxel from cycle 3 due to grade 2 peripheral neuropathy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showed enlarging para-aortic lymphadenopathy suggesting disease progression",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "completed pelvic and extended field radiotherapy with concurrent weekly Cisplatin",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows further progression with new peritoneal deposits and increasing para-aortic lymphadenopathy",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "performance status 2-3, spending approximately 50% of the day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "increasing abdominal pain, early satiety, and 6kg weight loss"
+      },
+      {
+        "type": "examination_finding",
+        "value": "cachectic with evidence of ascites, tenderness in right upper quadrant with palpable omental mass"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "declining renal function with creatinine 156 (previously 98) and mild transaminitis"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIC2 endometrial cancer with progressive disease following surgery, adjuvant chemotherapy and chemoradiation. Significant clinical deterioration with declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on imaging with new peritoneal deposits and increasing para-aortic lymphadenopathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence weekly Doxorubicin 60mg/m2"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status from 1 to 2-3 with increasing symptoms"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Response assessment after 6 weeks of treatment"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent paracentesis, dietetic review, and palliative care team referral arranged"
+      }
+    ]
+  }
+}

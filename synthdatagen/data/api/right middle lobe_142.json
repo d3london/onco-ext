@@ -1,0 +1,91 @@
+{
+  "content": "I reviewed [redacted name] today following completion of 4 cycles of first-line carboplatin/etoposide chemotherapy for extensive stage small cell lung cancer. The initial diagnosis was made in January 2024 following investigation of respiratory symptoms, with CT demonstrating a 4.8cm right middle lobe mass. Subsequent staging revealed multiple liver metastases and unfortunately three small brain metastases (largest 12mm in right frontal lobe). DLL3 testing was positive. She completed whole brain radiotherapy (20Gy in 5 fractions) in February 2024 prior to commencing systemic therapy.\n\nI am pleased to report an excellent response to initial chemotherapy, with the most recent CT chest/abdomen/pelvis on 15 April 2024 showing approximately 70% reduction in the primary mass (now measuring 1.4cm) and near complete resolution of liver metastases. MRI brain last week demonstrated complete response of all brain metastases. Her performance status has improved from ECOG 2 at diagnosis to ECOG 1, with resolution of her initial cough and right-sided chest pain. She has experienced moderate fatigue and grade 2 neutropenia requiring one dose delay, but otherwise tolerated treatment well.\n\nGiven the excellent response to first-line therapy, I have discussed with [redacted name] transitioning to maintenance immunotherapy with atezolizumab. She understands the rationale for maintenance treatment and the potential side effects. We have arranged baseline thyroid function, cortisol, and autoimmune screen prior to commencing immunotherapy.\n\nShe continues to experience mild peripheral neuropathy affecting her fingers from the platinum chemotherapy, though this is gradually improving. Her other medical conditions including type 2 diabetes remain well controlled on current medications.\n\nThe plan is to commence atezolizumab maintenance therapy next week, with clinical review arranged in 3 weeks. We will perform interval CT imaging after 3 cycles to assess disease response. I have provided written information about immunotherapy and arranged review with our specialist nursing team for additional support and monitoring.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right middle lobe",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple liver metastases, three brain metastases (largest 12mm in right frontal lobe)",
+      "histopathology_status": "small cell carcinoma",
+      "biomarker_status": "DLL3 positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing 4.8cm right middle lobe mass with multiple liver metastases and three brain metastases",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed whole brain radiotherapy 20Gy in 5 fractions",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced carboplatin/etoposide chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "One chemotherapy dose delay required due to grade 2 neutropenia",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 70% reduction in primary mass (now 1.4cm) and near complete resolution of liver metastases",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows complete response of all brain metastases",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 1, improved from ECOG 2 at diagnosis"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes, well controlled"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild peripheral neuropathy affecting fingers, gradually improving"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Extensive stage small cell lung cancer showing excellent response to first-line chemotherapy with resolution of brain metastases and significant improvement in primary disease"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "70% reduction in primary tumor, near complete liver response, complete resolution of brain metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 neutropenia causing dose delay, moderate fatigue, and mild peripheral neuropathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Completing carboplatin/etoposide and transitioning to maintenance atezolizumab"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline thyroid function, cortisol, and autoimmune screen before starting immunotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review in 3 weeks after starting atezolizumab, CT after 3 cycles"
+      }
+    ]
+  }
+}

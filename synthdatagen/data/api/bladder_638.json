@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis:\t\tMetastatic bladder cancer (glandular variant) with bone metastases\n\nManagement:\t\tCycle 4 Gemcitabine/Cisplatin\n\nHistology:\t\tGlandular variant urothelial carcinoma, CDKN2A/B loss on molecular testing\n\nCurrent Situation:\tPre-cycle 5 review\n\nI reviewed [redacted name] today in the urology oncology clinic. He has completed 4 cycles of Gemcitabine/Cisplatin chemotherapy for metastatic bladder cancer. His most recent CT scan from 15 May 2024 shows stable disease in both the primary bladder tumor and the bone metastases, which correlates well with his improving symptoms. His pelvic pain has significantly decreased, and he now requires only occasional breakthrough analgesia. Performance status remains stable at 1.\n\nHis blood results today show stable renal function with creatinine clearance of 65ml/min and adequate haematological parameters for cycle 5. He has experienced grade 1 fatigue and occasional nausea but is managing these well with supportive medications. Pure tone audiometry last week showed no significant changes.\n\nThe plan is to proceed with cycle 5 of chemotherapy today. We will arrange a progress CT scan after cycle 6 to assess disease response. I will review him again in three weeks' time prior to his final cycle.",
+  "output": {
+    "primary_cancer": {
+      "site": "bladder",
+      "metastases": "bone metastases",
+      "histopathology_status": "glandular variant urothelial carcinoma",
+      "biomarker_status": "CDKN2A/B loss",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on Gemcitabine/Cisplatin chemotherapy",
+          "year": 2024
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows stable disease in primary bladder tumor and bone metastases",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Pure tone audiometry shows no significant changes",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Occasional requirement for breakthrough analgesia for pelvic pain"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Creatinine clearance 65ml/min with adequate haematological parameters"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic bladder cancer showing stable disease on chemotherapy with improving symptoms"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on imaging with symptomatic improvement in pelvic pain"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and occasional nausea"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 5 Gemcitabine/Cisplatin"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Progress CT scan after cycle 6"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in three weeks prior to final cycle"
+      }
+    ]
+  }
+}

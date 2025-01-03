@@ -1,0 +1,98 @@
+{
+    "content": "Diagnosis:\n\nNon-small cell lung cancer (squamous cell subtype) T4N2M0.\n\nCo-morbidities:\nParoxysmal supraventricular tachycardia with occasional episodes requiring medical management.\n\nPrevious treatment: Combined modality therapy with concurrent cisplatin/etoposide and thoracic radiotherapy as part of ILLUMINATE-2 trial protocol, completed March 2024.\n\nInitial therapy complicated by radiation esophagitis requiring temporary feeding tube placement; radiation pneumonitis managed with high-dose corticosteroids from August 2024. \n\nDisease progression documented on PET-CT October 2024; commenced second-line therapy with docetaxel.\n\nCurrent situation:\nPARACHUTE-115 trial (novel oral tyrosine kinase inhibitor);\n\nSuspended study medication 08.01.25 due to grade 2 hepatotoxicity and grade 3 palmar-plantar erythrodysesthesia; toxicities improved to grade 1 by 12.01.25;\n\nPlanned resumption at reduced dose level (-2) (75mg daily) from 15.01.25.\n\n[redacted name] contacted the trial coordinator on Friday 8 January reporting worsening hand-foot syndrome and new onset nausea.  Following discussion with the trial team, immediate treatment interruption was advised.  I am pleased to report significant improvement in these adverse effects.  \n\nHis performance status remains borderline between 1-2, with grade 1 skin changes persisting but previous hand-foot syndrome now largely resolved. Chest examination demonstrates persistent right-sided pleural thickening with associated reduced air entry.\n\n[redacted name] underwent protocol-mandated CT assessment on 7 January, compared with baseline imaging from October. Despite documented progression prior to trial entry, current imaging shows disease stabilization by RECIST 1.1 criteria. I have discussed with [redacted name] that despite experiencing significant side effects, there is evidence of clinical benefit through disease control.  \n\nThe patient has expressed willingness to resume study medication at the reduced dose of 75mg daily, with close monitoring. We have agreed to restart treatment on Friday 15 January with clinic review scheduled for one week thereafter.",
+    "output": {
+        "primary_cancer": {
+            "site": "lung",
+            "year": 2024,
+            "month": 3,
+            "tnm_stage": "T4N2M0",
+            "histopathology_status": "squamous cell carcinoma",
+            "cancer_timeline": [
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Started concurrent cisplatin/etoposide and thoracic radiotherapy on ILLUMINATE-2 trial",
+                    "year": 2024,
+                    "month": 3
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Completed combined modality therapy",
+                    "year": 2024,
+                    "month": 3
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Radiation esophagitis requiring temporary feeding tube placement",
+                    "year": 2024,
+                    "month": 8
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Radiation pneumonitis managed with high-dose corticosteroids",
+                    "year": 2024,
+                    "month": 8
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "Disease progression documented on PET-CT",
+                    "year": 2024,
+                    "month": 10
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Started second-line docetaxel",
+                    "year": 2024,
+                    "month": 10
+                },
+                {
+                    "type": "clinical_trial_update",
+                    "value": "Enrolled in PARACHUTE-115 trial with novel oral tyrosine kinase inhibitor",
+                    "year": 2024,
+                    "month": 12
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Suspended study medication due to grade 2 hepatotoxicity and grade 3 palmar-plantar erythrodysesthesia",
+                    "year": 2025,
+                    "month": 1
+                }
+            ]
+        },
+        "patient_facts": [
+            {
+                "type": "comorbidity",
+                "value": "Paroxysmal supraventricular tachycardia with occasional episodes requiring medical management"
+            },
+            {
+                "type": "performance_status",
+                "value": "Performance status borderline between 1-2"
+            },
+            {
+                "type": "examination_finding",
+                "value": "Persistent right-sided pleural thickening with associated reduced air entry"
+            }
+        ],
+        "status_updates": [
+            {
+                "type": "clinical_summary",
+                "value": "NSCLC progressed after first-line chemoradiotherapy, now on clinical trial with oral TKI showing disease stabilization despite significant toxicities requiring dose reduction"
+            },
+            {
+                "type": "latest_treatment_toxicity",
+                "value": "grade 1 skin changes persisting but previous hand-foot syndrome now largely resolved"
+            },
+            {
+                "type": "latest_treatment_response",
+                "value": "Disease stabilization by RECIST 1.1 criteria"
+            },
+            {
+                "type": "update_to_treatment",
+                "value": "Planned resumption at reduced dose level (75mg daily) from 15.01.25"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Clinic review scheduled one week after treatment resumption"
+            }
+        ]
+    }
+}

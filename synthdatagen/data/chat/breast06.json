@@ -1,0 +1,83 @@
+{
+    "content": "Diagnosis: De novo metastatic triple negative breast cancer of left breast initially diagnosed January 2024, T4N2M1, with extensive nodal disease (bilateral axillary, internal mammary, and supraclavicular nodes) and diffuse pulmonary metastases.\nDisease distribution now includes breast primary, pulmonary disease, and newly identified hepatic metastases with overall radiologically stable appearance on latest imaging.\n\nTreatment:\nHas completed sequential therapy including initial gemcitabine/carboplatin doublet, followed by epirubicin/cyclophosphamide combination, then eribulin monotherapy. Currently receiving capecitabine in combination with bevacizumab with evidence of disease stability on interval scanning.\n\nPMH: Well-controlled epilepsy since 2022.\n\n\nTelephone consultation completed today with patient.\n\nTolerating current treatment protocol adequately while managing limited activities of daily living. Primary concerns center around evolving toxicities.\n\nDescribes progressive palmar-plantar erythrodysesthesia affecting both hands and feet, grade 2 severity, with particular impact on mobility and self-care tasks. Associated with intermittent oral mucositis causing difficulty with solid food intake. Appetite remains reasonable with stable weight, though noting early satiety. No significant diarrhea or other gastrointestinal complications from current regimen.\n\nThe hand-foot syndrome is significantly impacting quality of life, though patient expresses strong preference to maintain current dosing given disease stability. Discussion included optimization of current topical management protocol and consideration of prophylactic measures. Has implemented regular moisturizing routine and protective footwear as advised by specialist nursing team.\n\nIn view of symptom severity, will arrange urgent toxicity assessment clinic review prior to next cycle. May need to implement 25% dose reduction of capecitabine if symptoms worsen, while maintaining current bevacizumab dosing. Patient understands need to balance toxicity management with maintenance of disease control.\n\nUrgent referral completed to specialist palliative care team for optimization of symptomatic management. Will also provide contact details for local podiatry service with expertise in chemotherapy-related foot complications.\n\nPlan to review in two weeks with formal toxicity assessment and continue present treatment meantime.\n",
+    "output": {
+        "primary_cancer": {
+            "site": "breast, left",
+            "year": 2024,
+            "month": 1,
+            "metastases": "bilateral axillary, internal mammary, and supraclavicular nodes, diffuse pulmonary metastases, hepatic metastases",
+            "tnm_stage": "T4N2M1",
+            "biomarker_status": "triple negative",
+            "cancer_timeline": [
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Initial gemcitabine/carboplatin doublet therapy"
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Changed to epirubicin/cyclophosphamide combination"
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Changed to eribulin monotherapy"
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Started capecitabine in combination with bevacizumab"
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "Newly identified hepatic metastases with overall radiologically stable appearance"
+                }
+            ]
+        },
+        "patient_facts": [
+            {
+                "type": "comorbidity",
+                "value": "Well-controlled epilepsy since 2022"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Grade 2 palmar-plantar erythrodysesthesia affecting both hands and feet"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Intermittent oral mucositis causing difficulty with solid food intake"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Early satiety"
+            }
+        ],
+        "status_updates": [
+            {
+                "type": "clinical_summary",
+                "value": "De novo metastatic triple negative breast cancer with widespread disease, progressing through multiple lines of systemic therapy with current disease stability on capecitabine/bevacizumab. Telephone review reveals significant hand-foot syndrome impacting quality of life despite maintained disease control on current regimen."
+            },            
+            {
+                "type": "latest_treatment_response",
+                "value": "Disease stability on interval scanning"
+            },
+            {
+                "type": "latest_treatment_toxicity",
+                "value": "Grade 2 palmar-plantar erythrodysesthesia significantly impacting quality of life"
+            },
+            {
+                "type": "update_to_treatment",
+                "value": "May need to implement 25% dose reduction of capecitabine if symptoms worsen, while maintaining current bevacizumab dosing"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Urgent referral completed to specialist palliative care team for optimization of symptomatic management"
+            },            
+            {
+                "type": "planned_investigation",
+                "value": "Urgent toxicity assessment clinic review prior to next cycle"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Review in two weeks with formal toxicity assessment"
+            }
+        ]
+    }
+}

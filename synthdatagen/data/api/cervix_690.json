@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis\n\t1. Cervical adenocarcinoma FIGO stage IB1\n\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Laparoscopic radical hysterectomy and pelvic lymph node dissection\n\n\tRadiotherapy\n\tNot indicated\n\n\tChemotherapy\n\tNot indicated\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tNo evidence of disease\n\n\tCurrent issues\n\tMild post-operative pelvic discomfort\n\n\tSummary of consultation\n\tThis 42-year-old lady attended for her three-month post-operative review. She has made an excellent recovery from her surgery with good healing of her port sites. She reports occasional mild pelvic discomfort but this is improving week by week. She has returned to work part-time and is gradually increasing her activity levels.\n\nOn examination today, her vault is well-healed with no concerning features. Abdominal examination is normal with well-healed laparoscopy ports.\n\nHistology from her surgery showed a 2.2cm moderately differentiated HPV-18 positive adenocarcinoma of the cervix. The margins were clear (>10mm) and there was no lymphovascular space invasion. All 18 pelvic lymph nodes were negative.\n\n\tFurther investigations\n\tNone required at present\n\n\tMedication prescribed\n\tNone\n\n\tFollow up\n\tNext oncology follow up in 3 months with vault smear\n\n\tRequired GP actions\n\tRoutine health monitoring\n\n\tSummary of information given to the patient\n\tDiscussed excellent prognosis given complete surgical resection and node-negative disease. Explained follow-up schedule of 3-monthly reviews for first two years.",
+  "output": {
+    "primary_cancer": {
+      "site": "cervix",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "FIGO stage IB1",
+      "histopathology_status": "moderately differentiated adenocarcinoma, 2.2cm, clear margins >10mm, no lymphovascular space invasion, 0/18 lymph nodes",
+      "biomarker_status": "HPV-18 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Laparoscopic radical hysterectomy and pelvic lymph node dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirms 2.2cm moderately differentiated adenocarcinoma, clear margins, no LVSI, 18 negative nodes",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Three month post-operative review shows good recovery, no evidence of disease",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Occasional mild pelvic discomfort, improving"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed vault, normal abdominal examination with healed laparoscopy ports"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Returned to work part-time, gradually increasing activity levels"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage cervical adenocarcinoma treated with radical surgery. Excellent recovery with no evidence of disease at 3 months post-op"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Good recovery from surgery with return to work and increasing activity"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Vault smear at next visit"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Oncology follow up in 3 months with vault smear"
+      }
+    ]
+  }
+}

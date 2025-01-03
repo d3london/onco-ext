@@ -1,0 +1,84 @@
+{
+  "content": "Diagnosis\n\t1. Prostate cancer - bilateral ductal adenocarcinoma T3aN0M0\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNot indicated\n\n\tRadiotherapy\n\tNot yet commenced\n\n\tChemotherapy\n\tNot indicated\n\n\tClinical studies\n\tPROTECT-2 trial of novel androgen receptor inhibitor XJ-573\n\tRandomised 15 Feb 2024\n\tCommenced treatment 01 Mar 2024\n\n\tCurrent disease status\n\tStable disease on trial treatment\n\n\tCurrent issues\n\tGrade 1 fatigue\n\n\tSummary of consultation\n\tThis 62-year-old gentleman is participating in the PROTECT-2 trial and attended for his week 8 assessment. His PSA has decreased from 23.4 at baseline to 4.2, representing an excellent biochemical response. He reports mild fatigue but maintains his usual activities. No other toxicities noted. Trial-mandated blood tests show stable liver function and testosterone remains adequately suppressed at <0.3nmol/L.\n\nOn examination today, digital rectal examination shows reduction in prostatic induration compared to baseline. No new concerning features. Performance status remains 0.\n\n\tFurther investigations\n\tTrial-mandated MRI prostate scheduled for 15 May 2024\n\n\tMedication prescribed\n\tTrial medication (XJ-573 vs placebo) continuing at full dose\n\n\tFollow up\n\tNext trial assessment in 4 weeks with PSA, testosterone, and liver function\n\n\tRequired GP actions\n\tPlease monitor blood pressure weekly as per trial protocol",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate bilateral",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "T3aN0M0",
+      "histopathology_status": "ductal adenocarcinoma",
+      "biomarker_status": "PSA 23.4 at baseline, NBN mutation",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial PSA 23.4",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Randomised to PROTECT-2 trial of XJ-573 vs placebo",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started trial medication XJ-573/placebo",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA decreased to 4.2, testosterone <0.3nmol/L",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Digital rectal examination shows reduction in prostatic induration"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable liver function, testosterone adequately suppressed <0.3nmol/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed bilateral prostate cancer showing good biochemical response to trial medication with minimal toxicity"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "PSA reduction from 23.4 to 4.2 with reduction in prostatic induration"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue only"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing trial medication at full dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Trial-mandated MRI prostate scheduled for 15 May 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Next trial assessment in 4 weeks with PSA, testosterone, and liver function"
+      }
+    ]
+  }
+}

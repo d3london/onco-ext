@@ -1,0 +1,106 @@
+{
+  "content": "Diagnosis:\tMetastatic melanoma, BRAF wild type, PD-L1 95%\n\nInitial diagnosis March 2023 - right shoulder melanoma, Breslow 4.2mm, ulcerated. Wide local excision and sentinel lymph node biopsy showed 2/3 nodes positive. Completed adjuvant immunotherapy with pembrolizumab. Unfortunately developed new pulmonary nodules and bone metastases in January 2024.\n\n[redacted name] has experienced significant deterioration over the past 6 weeks. Her main symptoms are worsening bone pain affecting the thoracic spine and left hip, progressive breathlessness, and marked fatigue. She has lost 7kg despite nutritional supplements and reports reduced oral intake due to early satiety and nausea. Her mobility has declined significantly - she now requires a wheelchair for anything more than short distances and spends approximately 70% of the day resting.\n\nHer most recent CT scan on 15/4/24 shows progressive disease with increase in size and number of pulmonary metastases, largest now measuring 4.2cm (previously 2.8cm). There are also new liver lesions and progression in known bone metastases with evidence of impending cord compression at T4. MRI spine on 18/4/24 confirms epidural extension at T4 with moderate canal stenosis but no cord signal change.\n\nOn examination today, her performance status has deteriorated to ECOG 3. She has reduced air entry in both lung bases with dullness to percussion. There is tenderness over the thoracic spine but no focal neurological deficit. Blood pressure 142/85, pulse 98, oxygen saturations 92% on room air.\n\nI have had a lengthy discussion with [redacted name] and her husband regarding disease progression and treatment options. Given her declining performance status and rapid progression through immunotherapy, we have agreed to commence palliative chemotherapy with weekly paclitaxel. I have explained this is non-curative but aims to improve symptoms and hopefully slow disease progression. She understands the risks including further deterioration in performance status.\n\nI have arranged urgent radiotherapy to the T4 vertebra (20Gy in 5 fractions) starting tomorrow. She will commence weekly paclitaxel next week, initially at 80% dose given her performance status. I have increased her dexamethasone to 4mg twice daily and arranged hospital transport for treatments. The palliative care team will review her today for optimization of pain control. We will see her again next week before the first chemotherapy, with close monitoring via our acute oncology service in the interim if needed.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right shoulder",
+      "year": 2023,
+      "month": 3,
+      "metastases": "pulmonary metastases, bone metastases, new liver lesions, epidural extension at T4",
+      "other_stage": "Stage IV",
+      "histopathology_status": "melanoma, Breslow 4.2mm, ulcerated",
+      "biomarker_status": "BRAF wild type, PD-L1 95%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy showed 2/3 nodes positive",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant pembrolizumab",
+          "year": 2023,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Developed new pulmonary nodules and bone metastases",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with increase in pulmonary metastases to 4.2cm, new liver lesions, progression in bone metastases",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI spine confirms epidural extension at T4 with moderate canal stenosis",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, requires wheelchair for anything more than short distances"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain affecting thoracic spine and left hip"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Progressive breathlessness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Marked fatigue, spends 70% of day resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "7kg weight loss with reduced oral intake due to early satiety and nausea"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry in both lung bases with dullness to percussion"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tenderness over thoracic spine but no focal neurological deficit"
+      },
+      {
+        "type": "examination_finding",
+        "value": "BP 142/85, pulse 98, oxygen saturations 92% on room air"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic melanoma with rapid progression through immunotherapy. Significant clinical deterioration with impending cord compression requiring urgent intervention."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on imaging with new liver metastases and growing pulmonary metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to start weekly paclitaxel at 80% dose and urgent radiotherapy to T4 vertebra"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status to ECOG 3 with reduced mobility requiring wheelchair"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Close monitoring via acute oncology service"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review next week before first chemotherapy, urgent palliative care review for pain control"
+      }
+    ]
+  }
+}

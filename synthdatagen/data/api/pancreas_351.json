@@ -1,0 +1,102 @@
+{
+  "content": "I reviewed [redacted name] today who has unfortunately shown clear evidence of disease progression on current treatment. As you will recall, she was diagnosed with metastatic pancreatic adenocarcinoma in January 2024 following investigation of progressive abdominal pain and weight loss. Initial staging demonstrated a 4.8cm pancreatic tail mass with multiple liver metastases, bilateral pulmonary nodules, and bone metastases affecting T11 and left iliac wing. Molecular profiling identified CDK4/6 amplification.\n\nShe initially commenced FOLFIRINOX chemotherapy in February 2024 and completed 4 cycles with reasonable disease control, though requiring a 20% dose reduction from cycle 3 due to grade 2 peripheral neuropathy. She subsequently received palliative radiotherapy (20Gy in 5 fractions) to the symptomatic T11 metastasis in April 2024 with good pain control.\n\nUnfortunately, restaging CT last week has shown clear disease progression with new liver lesions, increase in size of pulmonary nodules, and new bone metastases in T8 and right acetabulum. Her CA19-9 has risen from 1200 to 4500. She reports worsening abdominal pain requiring increased opioid doses (now on Oxycondone 40mg bd), early satiety, and increasing fatigue. Her performance status has deteriorated to ECOG 2-3.\n\nOn examination today, she appears notably more cachectic with obvious discomfort. Her weight has dropped to 48kg from 52kg four weeks ago. There is tender hepatomegaly extending 4cm below the costal margin. Chest examination reveals reduced air entry at both bases.\n\nI have had a detailed discussion with [redacted name] and her daughter about disease progression and treatment options. Given her deteriorating performance status and previous toxicities, we have agreed to switch to a less intensive second-line regimen with weekly Gemcitabine and Nab-paclitaxel. I have explained the aims of treatment and potential side effects. We will commence treatment next week at 80% doses initially.\n\nI have referred her to palliative care for optimization of symptom control and arranged urgent MRI spine to assess for cord compression risk at T8. She will have blood tests next week prior to cycle 1, and we will review her response after 2 cycles with CT scan and tumor markers. I have also prescribed Dexamethazone 4mg bd for 5 days to help with appetite and energy levels.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas, tail",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple liver metastases, bilateral pulmonary nodules, bone metastases in T11, T8, left iliac wing and right acetabulum",
+      "other_stage": "Stage IV",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "CDK4/6 amplification",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "20% dose reduction of FOLFIRINOX due to grade 2 peripheral neuropathy after cycle 3",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy 20Gy in 5 fractions to T11 metastasis",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 risen from 1200 to 4500",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with new liver lesions, increased pulmonary nodules, new bone metastases in T8 and right acetabulum",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2-3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening abdominal pain requiring increased opioids (Oxycodone 40mg bd)"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety and increasing fatigue"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with tender hepatomegaly 4cm below costal margin"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry at both lung bases"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight dropped to 48kg from 52kg in four weeks"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic cancer with progression on FOLFIRINOX. Deteriorating performance status requiring switch to second-line therapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on FOLFIRINOX with new metastases and rising CA19-9"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 peripheral neuropathy from FOLFIRINOX"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Switching to weekly Gemcitabine and Nab-paclitaxel at 80% doses"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status to ECOG 2-3 with significant weight loss"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess T8 metastasis, CT scan after 2 cycles"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to palliative care for symptom control, review next week pre-cycle 1"
+      }
+    ]
+  }
+}

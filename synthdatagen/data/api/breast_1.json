@@ -1,0 +1,62 @@
+{
+  "content": "Diagnosis:\tInvasive ductal carcinoma of right breast\n\nManagement:\t15 Jan 2024 Wide local excision and sentinel lymph node biopsy\n\t\t20 Feb 2024 Commenced adjuvant endocrine therapy with Letrozole\n\nHistology:\tGrade 2 invasive ductal carcinoma, 28mm, ER 8/8, PR 7/8, HER2 negative, Ki67 15%\n\t\tpT2N0(0/3)M0, no lymphovascular invasion\n\nCurrent Situation:\tRoutine follow-up at 3 months post-surgery\n\nI reviewed [redacted name] today for her first follow-up following completion of breast cancer treatment. She has started Letrozole 2.5mg daily and is tolerating this well with only mild joint stiffness in the mornings which improves with gentle exercise. The surgical site has healed well with good cosmetic outcome. She reports no new breast symptoms.\n\nOn examination today, both breasts and axillae are normal with well-healed right breast surgical scar. No suspicious findings.\n\nI have explained the importance of continuing endocrine therapy and attending regular mammographic surveillance. She understands to report any new symptoms promptly. The plan is to continue Letrozole and arrange annual mammogram. We will review her again in the breast clinic in 6 months' time.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT2N0M0",
+      "other_stage": "",
+      "histopathology_status": "Grade 2 invasive ductal carcinoma, 28mm, no lymphovascular invasion",
+      "biomarker_status": "ER 8/8, PR 7/8, HER2 negative, Ki67 15%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced adjuvant endocrine therapy with Letrozole",
+          "year": 2024,
+          "month": 2
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Mild joint stiffness in the mornings improving with gentle exercise"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Both breasts and axillae normal with well-healed right breast surgical scar"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early breast cancer post-surgery, commenced on adjuvant endocrine therapy. Tolerating treatment well with good wound healing."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild morning joint stiffness on Letrozole"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Letrozole 2.5mg daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Annual mammogram to be arranged"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in breast clinic in 6 months"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "content": "Diagnosis:\tGastric adenocarcinoma, initially cT3N2M0, now ypT0N1M0\n\nManagement:\t\tCompleted perioperative chemotherapy FLOT regimen and total gastrectomy\n\nHistology:\tComplete pathological response in primary tumor (ypT0), 2/15 nodes positive. HER2 negative, MSI-high\n\nCurrent Situation:\tEnd of treatment review\n\nI reviewed [redacted name] following completion of adjuvant FLOT chemotherapy. The final cycle was completed on 15/4/24 with good tolerance. No significant toxicities during the last cycle. Performance status remains 0. Weight has stabilized at 72kg with good nutritional intake following dietetic support. Post-operative recovery has been excellent with return to normal activities.\n\nOn examination today, surgical wounds are well healed. No concerning clinical findings. Latest bloods show stable parameters with hemoglobin 12.1 and normal LFTs.\n\nWe have discussed surveillance strategy. Given the excellent pathological response and MSI-high status, prognosis is favorable. Plan for 3-monthly clinical review with 6-monthly CT scans for the first 2 years. First surveillance CT arranged for July 2024. Patient understands to contact us if any new symptoms develop in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "histopathology_status": "adenocarcinoma with complete pathological response in primary tumor",
+      "tnm_stage": "ypT0N1M0",
+      "other_stage": "",
+      "biomarker_status": "HER2 negative, MSI-high",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started perioperative FLOT chemotherapy",
+          "year": null,
+          "month": null
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Total gastrectomy performed",
+          "year": null,
+          "month": null
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Complete pathological response in primary tumor (ypT0), 2/15 nodes positive",
+          "year": null,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed final cycle of adjuvant FLOT chemotherapy",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Return to normal activities following surgery"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Surgical wounds well healed, no concerning clinical findings"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable blood parameters with hemoglobin 12.1 and normal LFTs"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Gastric cancer with excellent response to perioperative chemotherapy and surgery. Complete pathological response in primary tumor with favorable MSI-high status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Complete pathological response to neoadjuvant therapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Completed adjuvant FLOT chemotherapy with good tolerance"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance CT arranged for July 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "3-monthly clinical review with 6-monthly CT scans for first 2 years"
+      }
+    ]
+  }
+}

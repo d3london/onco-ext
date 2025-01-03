@@ -1,0 +1,110 @@
+{
+    "content": "Diagnosis:\tStage IV rectal adenocarcinoma, initially diagnosed March 2015 with liver and lung metastases confirmed on CT. KRAS mutant.?\n\nTreatment:\t\tTotal mesorectal excision April 2015 with partial hepatectomy for synchronous liver metastases.?\n\t\t\tCompleted adjuvant CAPOX June 2015.?\n\t\t\tProgression noted in February 2018 with new pulmonary metastases; started on FOLFOX with bevacizumab.?\n\t\t\tDiscontinued FOLFOX December 2019 due to neurotoxicity.?\n\t\t\tInitiated nivolumab as part of clinical trial March 2020; ceased June 2022 following progression.?\n\t\t\tRecent imaging August 2024 showed progression in hepatic lesions and new peritoneal implants.?\n\n[redacted name] attended today's clinic reporting significant fatigue and difficulty managing daily tasks, requiring increased use of home aids. He describes ongoing right-sided abdominal pain, rated 6/10, managed with regular paracetamol and occasional tramadol. His appetite is reduced with a 4kg weight loss over 3 months.?\n\nExamination revealed mild pallor, no jaundice, and moderate ascites with tenderness in the right upper quadrant. Performance status has declined to ECOG 2.?\n\nRecent Investigations:\n? CT August 2024: Progression in liver metastases (largest lesion 3.5cm → 5.2cm) and new peritoneal disease.?\n? CEA risen from 23 to 78 over 4 months.?\n? Bloods show mild hypoalbuminemia (32g/L) and elevated alkaline phosphatase (185U/L).?\n\nPlan:\n? Discontinue current therapy (irinotecan-based) due to progression.?\n? Initiate regorafenib with dose escalation protocol.?\n? Prescribe spironolactone 50mg daily for ascites management.?\n? Refer to palliative care for quality-of-life support and symptom management.?\n? Schedule repeat CT abdomen/pelvis in 8 weeks to assess response.?\n? Follow-up clinic visit in 3 weeks for regorafenib tolerance assessment.",
+    "output": {
+        "primary_cancer": {
+            "site": "rectum",
+            "year": 2015,
+            "month": 3,
+            "metastases": "liver, lung, peritoneum",
+            "tnm_stage": "Stage IV",
+            "histopathology_status": "adenocarcinoma",
+            "biomarker_status": "KRAS mutant",
+            "cancer_timeline": [
+                {
+                    "type": "treatment_surgery",
+                    "value": "Total mesorectal excision with partial hepatectomy for synchronous liver metastases",
+                    "year": 2015,
+                    "month": 4
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Completed adjuvant CAPOX",
+                    "year": 2015,
+                    "month": 6
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Started FOLFOX with bevacizumab for pulmonary metastases",
+                    "year": 2018,
+                    "month": 2
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Discontinued FOLFOX due to neurotoxicity",
+                    "year": 2019,
+                    "month": 12
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Initiated nivolumab as part of clinical trial",
+                    "year": 2020,
+                    "month": 3
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Ceased nivolumab following progression",
+                    "year": 2022,
+                    "month": 6
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "Progression in hepatic lesions and new peritoneal implants on CT",
+                    "year": 2024,
+                    "month": 8
+                }
+            ]
+        },
+        "patient_facts": [
+            {
+                "type": "current_symptom",
+                "value": "Significant fatigue"
+            },
+            {
+                "type": "performance_status",
+                "value": "Performance status has declined to ECOG 2"
+            },                        
+            {
+                "type": "quality_of_life_finding",
+                "value": "Significant fatigue and increased use of home aids"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Right-sided abdominal pain, 6/10 severity"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Reduced appetite and 4kg weight loss over 3 months"
+            },
+            {
+                "type": "examination_finding",
+                "value": "Moderate ascites with tenderness in right upper quadrant"
+            }
+        ],
+        "status_updates": [
+            {
+                "type": "clinical_summary",
+                "value": "Stage IV rectal cancer with progression in liver and peritoneal metastases. Discontinuing current therapy, initiating regorafenib with supportive care."
+            },
+            {
+                "type": "update_to_treatment",
+                "value": "Discontinue current irinotecan-based therapy, initiate regorafenib with dose escalation protocol"
+            },
+            {
+                "type": "planned_investigation",
+                "value": "Repeat CT abdomen/pelvis in 8 weeks to assess response"
+            },
+            {
+                "type": "updated_patient_functional_status",
+                "value": "performance status declined, and requires increased home aids"
+            },            
+            {
+                "type": "follow_up_referral",
+                "value": "Palliative care referral for quality-of-life support and symptom management"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Follow-up clinic visit in 3 weeks for regorafenib tolerance assessment"
+            }
+        ]
+    }
+}

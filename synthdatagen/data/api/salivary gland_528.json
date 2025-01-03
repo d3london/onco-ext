@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\tAdenoid cystic carcinoma of right parotid gland\n\nManagement:\t12 Jan 2024 Right total parotidectomy with facial nerve preservation\n\nHistology:\tpT3N0M0 adenoid cystic carcinoma, perineural invasion present, NTRK fusion positive\n\nCurrent Situation:\tCycle 3 Larotrectinib\n\nI reviewed [redacted name] today in the head and neck oncology clinic. She is tolerating the Larotrectinib well with only grade 1 fatigue and mild nausea which is controlled with PRN ondansetron. Her facial nerve function remains intact with no evidence of weakness. The surgical site has healed well with no signs of local recurrence. Her weight is stable at 68kg.\n\nBlood tests show stable liver function and full blood count. The latest MRI neck from 15 March 2024 shows no evidence of local recurrence or nodal disease. Given the good tolerability and radiological response, we will continue with the current dose of Larotrectinib 100mg twice daily.\n\nPlan is to continue current treatment with review in 4 weeks. Next MRI scan due in 2 months.",
+  "output": {
+    "primary_cancer": {
+      "site": "right parotid gland",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT3N0M0",
+      "other_stage": "Stage III",
+      "histopathology_status": "adenoid cystic carcinoma with perineural invasion",
+      "biomarker_status": "NTRK fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right total parotidectomy with facial nerve preservation",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on Larotrectinib 100mg twice daily",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI neck shows no evidence of local recurrence or nodal disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue and mild nausea controlled with PRN ondansetron"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Intact facial nerve function with no weakness"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical site with no signs of local recurrence"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable liver function and full blood count"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Post-operative adenoid cystic carcinoma of parotid on targeted therapy with Larotrectinib. Good treatment response with stable disease on imaging and acceptable tolerability"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and mild nausea managed with antiemetics"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Larotrectinib 100mg twice daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI scan in 2 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in head and neck oncology clinic in 4 weeks"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "content": "Diagnosis:\t\tAscending colon cancer\n\nManagement:\t\t15 Apr 2024 Right hemicolectomy\n\nHistology:\t\tMedullary carcinoma with lymphoid stroma\n\t\t\tpT3N0M0 (AJCC 8th edition)\n\t\t\tMSI-high, Lynch syndrome confirmed on germline testing\n\nCurrent situation:\tPost-operative review\n\n[redacted name] attended clinic today following right hemicolectomy performed on 15/4/24. The surgery was uncomplicated and she made an excellent recovery. Histology confirms a medullary carcinoma with lymphoid stroma, completely excised with clear margins. No lymph node involvement was identified in 18 nodes examined. Given the MSI-high status and confirmed Lynch syndrome, we have discussed surveillance recommendations with our genetics colleagues. No adjuvant chemotherapy is indicated given the stage and favorable histological features. The plan is for 3-monthly CEA measurements and annual CT surveillance for 5 years. Colonoscopy surveillance will be arranged through the genetics service. First follow-up CT is booked for July 2024. We will review her again in clinic with these results.",
+  "output": {
+    "primary_cancer": {
+      "site": "ascending colon",
+      "year": 2024,
+      "month": 4,
+      "metastases": "",
+      "tnm_stage": "pT3N0M0",
+      "other_stage": "",
+      "histopathology_status": "medullary carcinoma with lymphoid stroma, clear margins, 0/18 lymph nodes",
+      "biomarker_status": "MSI-high, Lynch syndrome positive on germline testing",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right hemicolectomy performed, uncomplicated",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirms medullary carcinoma with lymphoid stroma, pT3N0M0, 0/18 nodes",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III ascending colon cancer status post uncomplicated right hemicolectomy. MSI-high with confirmed Lynch syndrome."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "No adjuvant chemotherapy indicated given stage and favorable histological features"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT surveillance scan booked for July 2024, 3-monthly CEA measurements"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review planned after CT scan, colonoscopy surveillance to be arranged through genetics service"
+      }
+    ]
+  }
+}

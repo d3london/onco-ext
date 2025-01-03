@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\tPapillary thyroid carcinoma\n\nManagement:\t15 Jan 2024 Total thyroidectomy and central neck dissection\n\nHistology:\tClassical variant papillary thyroid carcinoma, 2.8cm, no extrathyroidal extension\n\tpT2N0M0, RET fusion positive\n\nCurrent Situation:\tPost-radioiodine ablation review\n\nI reviewed [redacted name] today following completion of radioiodine ablation therapy on 15 March 2024. The treatment was well tolerated with only mild symptoms of radiation thyroiditis which have now completely resolved. Her thyroglobulin level has appropriately decreased from 4.2 to 0.8 ng/mL post ablation, and thyroid stimulating hormone is well-suppressed at 0.1 mU/L on levothyroxine 150mcg daily.\n\nThe whole body scan performed one week after radioiodine treatment showed good uptake in the thyroid bed with no evidence of distant metastatic disease. The surgical site has healed well with no complications, and her voice remains normal with no evidence of recurrent laryngeal nerve dysfunction.\n\nI have discussed these results with [redacted name] who is understandably pleased with her progress. Given her RET fusion positive status, we have arranged molecular tumor board review to discuss the potential role of selective RET inhibitor therapy, though this may not be required given her excellent response to standard treatment.\n\nThe plan is to continue with TSH suppression and monitor thyroglobulin levels every 3 months. We will arrange a follow-up neck ultrasound in 6 months' time. I will review her again in clinic with these results.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT2N0M0",
+      "histopathology_status": "Classical variant papillary thyroid carcinoma, 2.8cm, no extrathyroidal extension",
+      "biomarker_status": "RET fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy and central neck dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radioiodine ablation therapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Thyroglobulin decreased from 4.2 to 0.8 ng/mL post ablation",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Whole body scan showed good uptake in thyroid bed with no evidence of distant metastatic disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "investigation_finding",
+        "value": "TSH well-suppressed at 0.1 mU/L on levothyroxine 150mcg daily"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Surgical site healed well with normal voice and no recurrent laryngeal nerve dysfunction"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage papillary thyroid cancer post surgery and radioiodine ablation with excellent response to treatment"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Good response to radioiodine ablation with appropriate decrease in thyroglobulin levels"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild radiation thyroiditis, now resolved"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing TSH suppression with levothyroxine 150mcg daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Follow-up neck ultrasound in 6 months with thyroglobulin monitoring every 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with ultrasound and thyroglobulin results"
+      }
+    ]
+  }
+}

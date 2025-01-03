@@ -1,0 +1,81 @@
+{
+  "content": "Many thanks for referring [redacted name] for ongoing management of his locally advanced esophageal cancer. As you are aware, he was diagnosed in January 2024 with a T4aN1M0 squamous cell carcinoma of the mid-esophagus, initially presenting with progressive dysphagia and 10kg weight loss. Initial staging demonstrated a 7cm primary tumor with invasion into adjacent structures and regional nodal involvement, though fortunately no distant metastatic disease was identified.\n\nHe commenced definitive chemoradiotherapy on 15th February 2024 with weekly carboplatin and paclitaxel concurrent with radiotherapy (50Gy in 25 fractions). Unfortunately, after week 3 of treatment he developed grade 3 esophagitis requiring hospital admission for symptom control and insertion of a nasogastric feeding tube. Following this episode, chemotherapy was suspended though radiotherapy continued with intensive supportive care.\n\nI am pleased to report that he has now completed the planned course of radiotherapy with good tolerance of the final two weeks. His symptoms have significantly improved with the nasogastric feeding regime, and he has regained 3kg in weight. The severe odynophagia has settled to allow intake of soft diet, though he continues to use the feeding tube for supplementary nutrition.\n\nGiven his excellent recovery from the acute toxicity and good clinical response to treatment thus far, we have discussed resumption of systemic therapy. The MDT recommendation is to commence maintenance immunotherapy with nivolumab, particularly given the locally advanced nature of his disease. I have explained the rationale, schedule, and potential side effects in detail. He will undergo baseline thyroid function, cortisol, and chest x-ray next week prior to starting treatment.\n\nThe plan is to commence nivolumab 480mg every 4 weeks, with first treatment scheduled for 15th April 2024. We will arrange a CT scan after 3 cycles to assess response. I have provided written information about immunotherapy and contact details for the acute oncology service. He will be reviewed in clinic prior to each cycle with appropriate blood monitoring.",
+  "output": {
+    "primary_cancer": {
+      "site": "esophagus, mid",
+      "year": 2024,
+      "month": 1,
+      "tnm_stage": "T4aN1M0",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "p16 negative, PDL1 CPS 2",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "7cm primary tumor with invasion into adjacent structures and regional nodal involvement",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started weekly carboplatin and paclitaxel with concurrent radiotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Chemotherapy suspended due to grade 3 esophagitis requiring hospital admission",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed planned course of radiotherapy 50Gy in 25 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Clinical improvement with 3kg weight gain and improved swallowing",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Improved odynophagia allowing soft diet intake with supplementary nasogastric feeding"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Baseline thyroid function, cortisol, and chest x-ray pending"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced esophageal SCC showing good response to chemoradiotherapy despite treatment break due to toxicity. Now recovered and suitable for maintenance immunotherapy"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 esophagitis requiring hospital admission and nasogastric feeding, now improved"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Clinical improvement with weight gain and improved swallowing function"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence nivolumab 480mg every 4 weeks"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan after 3 cycles of nivolumab"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic prior to each immunotherapy cycle"
+      }
+    ]
+  }
+}

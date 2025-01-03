@@ -1,0 +1,92 @@
+{
+  "content": "Many thanks for referring [redacted name] for urgent MDT discussion following recent disease progression. This 42-year-old gentleman was initially diagnosed with a 4.2mm ulcerated melanoma from his right posterior shoulder in January 2024, with microsatellite deposits noted on wide local excision. Initial staging showed right axillary nodal disease but no distant metastases. Molecular analysis confirmed BRAF V600E mutation and NF1 mutation, with PD-L1 expression of 85%.\n\nHe underwent right axillary lymph node dissection in February 2024, which showed 4 of 12 nodes positive with extracapsular extension. He commenced combination immunotherapy with ipilimumab/nivolumab in March 2024, receiving 4 cycles. Unfortunately, he developed grade 3 colitis after cycle 2 requiring high-dose steroids and temporary treatment interruption. After careful discussion, he proceeded with cycles 3 and 4 of nivolumab monotherapy.\n\nRecent surveillance imaging performed last week shows concerning new findings with enlargement of residual right axillary nodes (largest now 3.2cm vs 1.8cm previously) and new right supraclavicular nodes. His case was discussed at today's Melanoma MDT with input from medical oncology, clinical oncology, and surgical teams. Given his BRAF mutation status and relatively rapid progression on immunotherapy, the consensus recommendation is to commence targeted therapy with dabrafenib/trametinib combination.\n\nI reviewed [redacted name] immediately after the MDT to discuss these findings. He remains relatively well with ECOG performance status 1, though notes increasing right arm lymphoedema and new right shoulder discomfort. He has recovered completely from his previous immunotherapy-related colitis. On examination, there is obvious right axillary lymphadenopathy which is mildly tender, with associated arm swelling to the elbow.\n\nI have discussed the rationale for changing to targeted therapy, including the expected response rates and common side effects of dabrafenib/trametinib. He will commence treatment next week after baseline cardiac assessment and ophthalmology review. I have arranged urgent referral to the lymphoedema service and will see him again in 2 weeks to assess treatment tolerance. CT imaging will be repeated after 8 weeks of therapy to assess response.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right posterior shoulder",
+      "year": 2024,
+      "month": 1,
+      "metastases": "right axillary nodes, right supraclavicular nodes",
+      "other_stage": "Stage IIID",
+      "histopathology_status": "4.2mm ulcerated melanoma with microsatellite deposits",
+      "biomarker_status": "BRAF V600E mutation positive, NF1 mutation positive, PD-L1 85%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision showing microsatellite deposits",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Right axillary lymph node dissection showing 4/12 nodes positive with extracapsular extension",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started combination immunotherapy with ipilimumab/nivolumab",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Developed grade 3 colitis after cycle 2 requiring high-dose steroids and treatment interruption",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Switched to nivolumab monotherapy for cycles 3 and 4",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Imaging shows enlargement of right axillary nodes (3.2cm vs 1.8cm) and new right supraclavicular nodes",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right arm lymphoedema and right shoulder discomfort"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Right axillary lymphadenopathy with mild tenderness and arm swelling to elbow"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIID melanoma with nodal progression after immunotherapy. MDT recommendation to switch to BRAF-targeted therapy."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with enlarging axillary nodes and new supraclavicular nodes on immunotherapy"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Previous grade 3 colitis from immunotherapy now resolved"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence dabrafenib/trametinib combination therapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT imaging after 8 weeks of targeted therapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent lymphoedema service referral and oncology review in 2 weeks"
+      }
+    ]
+  }
+}

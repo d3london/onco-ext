@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis\n\t1. Prostate adenocarcinoma, right zone\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Transrectal ultrasound guided biopsy\n\n\tRadiotherapy\n\tCommenced external beam radiotherapy 15 Mar 2024, due to complete 26 Apr 2024\n\n\tHormone therapy\n\tLeuprorelin 3-monthly depot commenced 01 Feb 2024\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tResponding to treatment\n\n\tCurrent issues\n\tMild fatigue, Grade 1 radiation proctitis\n\n\tSummary of consultation\n\tReviewed today during week 4 of radical radiotherapy. Tolerating treatment well with only mild fatigue and grade 1 radiation proctitis managed with local measures. No urinary symptoms. Performance status remains 0.\n\nLatest PSA has fallen appropriately to 0.8 ng/mL from pre-treatment level of 6.7 ng/mL. Testosterone confirmed at castrate level.\n\nOn examination, no concerning features. Digital rectal examination deferred during radiotherapy.\n\n\tFurther investigations\n\tPSA and testosterone check in 6 weeks\n\n\tMedication prescribed\n\tContinue Leuprorelin 3-monthly depot\n\n\tFollow up\n\tReview in radiotherapy clinic in 2 weeks\nUrology follow-up arranged for 3 months\n\n\tRequired GP actions\n\tPlease monitor renal function and bone health during hormone therapy",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, right zone",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "T2b",
+      "histopathology_status": "acinar adenocarcinoma, Gleason 3+4",
+      "biomarker_status": "Initial PSA 6.7 ng/mL",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Transrectal ultrasound guided biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Leuprorelin 3-monthly depot",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Commenced external beam radiotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA fallen to 0.8 ng/mL, testosterone at castrate level",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 radiation proctitis"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Localized prostate cancer responding well to radical radiotherapy and hormone therapy with good PSA response"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 radiation proctitis managed with local measures"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with planned radiotherapy course and Leuprorelin"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "PSA and testosterone check in 6 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in radiotherapy clinic in 2 weeks, urology follow-up in 3 months"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "content": "Diagnosis:\t\tMetastatic small cell carcinoma of prostate\n\nManagement:\t\tCompleted 6 cycles carboplatin/etoposide March-July 2023\n\t\tPalliative radiotherapy to T7-T9 August 2023\n\t\tSecond-line topotecan commenced September 2023\n\nHistology:\t\tSmall cell neuroendocrine carcinoma, Ki67 80%\n\t\tPSA 0.8, Chromogranin A 380 (elevated)\n\nCurrent Situation:\tDisease progression on topotecan\n\nI reviewed [redacted name] today in the urgent assessment clinic. Unfortunately his recent CT shows clear disease progression with growth of liver metastases (largest lesion increased from 3.2cm to 4.8cm) and new pulmonary nodules. His bone metastases appear stable post-radiotherapy but he reports increasing pain in his right hip requiring escalation of analgesia. His performance status has declined to ECOG 3, spending >50% of time in bed. He has developed significant fatigue, anorexia with 6kg weight loss over 6 weeks, and new onset right upper quadrant pain. Blood tests show deteriorating liver function with bilirubin 45, ALT 156.\n\nGiven his declining performance status and clear disease progression, we have discussed stopping topotecan. He understands the poor prognosis at this stage. I have referred urgently to palliative care and arranged weekly supportive care review. We will continue current morphine (Zomorph 30mg BD) but increase breakthrough oxycodone to 5mg PRN. CT head arranged for next week given new intermittent headaches. Will review with results in supportive care clinic next week.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, right base",
+      "metastases": "liver metastases, pulmonary nodules, bone metastases including T7-T9 and right hip",
+      "histopathology_status": "small cell neuroendocrine carcinoma, Ki67 80%",
+      "biomarker_status": "PSA 0.8, Chromogranin A 380 (elevated)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced carboplatin/etoposide chemotherapy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles carboplatin/etoposide",
+          "year": 2023,
+          "month": 7
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T7-T9",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Second-line topotecan commenced",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Disease progression with growth of liver metastases (largest 4.8cm from 3.2cm) and new pulmonary nodules",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, spending >50% of time in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing right hip pain requiring escalation of analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Significant fatigue and anorexia with 6kg weight loss over 6 weeks"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New intermittent headaches"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45, ALT 156"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic small cell prostate cancer with progressive disease in liver and lungs despite second-line therapy. Significant clinical deterioration with declining performance status."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on topotecan with growing liver metastases and new pulmonary nodules"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Stopping topotecan due to disease progression and declining performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with significant symptom burden"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT head arranged for next week"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care referral and weekly supportive care review"
+      }
+    ]
+  }
+}

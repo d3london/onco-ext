@@ -1,0 +1,143 @@
+{
+    "content": "Diagnosis:\tEndometrial carcinoma - Grade 3 endometrioid adenocarcinoma with serous features\n\nStage:\t\tInitially FIGO Stage IIIC1 (2022), now with progressive metastatic disease\n\nPrevious Cancer:\tBreast cancer 2015 - complete response to treatment\n\nCurrent Status:\tProgressive disease with new liver metastases\n\nI reviewed [redacted name] today in the gynecological oncology clinic, accompanied by her daughter. She was initially diagnosed with high-grade endometrial cancer in March 2022, when she presented with post-menopausal bleeding. She underwent robotic total hysterectomy and bilateral salpingo-oophorectomy with pelvic lymph node dissection in April 2022, which showed Grade 3 endometrioid adenocarcinoma with serous features, FIGO Stage IIIC1 with 3/18 positive pelvic nodes. She completed 6 cycles of carboplatin/paclitaxel chemotherapy in October 2022 with good response.\n\nUnfortunately, surveillance CT in March 2023 showed new peritoneal deposits and a small liver lesion. She commenced second-line treatment with doxorubicin, completing 4 cycles with partial response, but developed significant cardiotoxicity with drop in ejection fraction from 55% to 38%, necessitating treatment discontinuation in July 2023. She then received single-agent weekly paclitaxel from August 2023, completing 12 weeks of treatment until November 2023.\n\nRecent CT imaging from last week shows disease progression with increase in size and number of liver metastases, largest now 4.2cm (previously 2.8cm), new peritoneal deposits, and a new 2.1cm left para-aortic node. Her CA125 has risen from 145 to 890 over 8 weeks.\n\nOf note, she has a history of left breast cancer treated in 2015 with surgery, chemotherapy and radiotherapy, currently with no evidence of recurrence. Her other medical history includes type 2 diabetes, hypertension, and atrial fibrillation on apixaban.\n\nClinically, she has deteriorated significantly over the past month with increasing abdominal pain, early satiety, and fatigue. Her performance status has declined from ECOG 1 to ECOG 3. She requires assistance with most activities of daily living and is now spending approximately 50% of the day in bed. She has lost 6kg in weight over 6 weeks despite dietetic input. On examination, there is moderate ascites with shifting dullness, tender hepatomegaly, and peripheral edema to mid-calf.\n\nI have had a lengthy discussion with [redacted name] and her daughter about the current situation. Given her poor performance status, cardiac dysfunction, and aggressive disease progression, I do not feel that further systemic anti-cancer therapy would be appropriate or safe at this time. We have discussed focusing on symptom control and quality of life. I have referred her to the palliative care team for review next week and arranged for urgent paracentesis to help with her symptoms. We will continue regular follow-up in our supportive care clinic.\n\nPlan:\n1. Urgent paracentesis - arranged for tomorrow\n2. Palliative care review next week\n3. Increase analgesia - have prescribed oxycodone MR 10mg BD\n4. Continue apixaban given high risk of VTE\n5. Review in supportive care clinic in 2 weeks\n6. Open access to acute oncology service as needed",
+    "output": {
+        "primary_cancer": {
+            "site": "endometrium",
+            "year": 2022,
+            "month": 3,
+            "metastases": "liver metastases, peritoneal deposits, left para-aortic node",
+            "other_stage": "Initially FIGO Stage IIIC1, now metastatic",
+            "histopathology_status": "Grade 3 endometrioid adenocarcinoma with serous features",
+            "cancer_timeline": [
+                {
+                    "type": "treatment_surgery",
+                    "value": "Robotic total hysterectomy and bilateral salpingo-oophorectomy with pelvic lymph node dissection showing 3/18 positive pelvic nodes",
+                    "year": 2022,
+                    "month": 4
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Commenced carboplatin/paclitaxel chemotherapy",
+                    "year": 2022,
+                    "month": 5
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Completed 6 cycles of carboplatin/paclitaxel with good response",
+                    "year": 2022,
+                    "month": 10
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "CT showing new peritoneal deposits and small liver lesion",
+                    "year": 2023,
+                    "month": 3
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Started second-line doxorubicin",
+                    "year": 2023,
+                    "month": 3
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Discontinued doxorubicin after 4 cycles due to cardiotoxicity with ejection fraction drop to 38%",
+                    "year": 2023,
+                    "month": 7
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Commenced weekly paclitaxel",
+                    "year": 2023,
+                    "month": 8
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Completed 12 weeks of weekly paclitaxel",
+                    "year": 2023,
+                    "month": 11
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "CT showing progression with increased liver metastases (largest 4.2cm), new peritoneal deposits, and new 2.1cm left para-aortic node",
+                    "year": 2024,
+                    "month": 3
+                },
+                {
+                    "type": "laboratory_finding",
+                    "value": "CA125 risen from 145 to 890 over 8 weeks",
+                    "year": 2024,
+                    "month": 3
+                }
+            ]
+        },
+        "other_cancers": [
+            {
+                "site": "breast, left",
+                "year": 2015,
+                "histopathology_status": "not specified",
+                "latest_situation": "no evidence of recurrence"
+            }
+        ],
+        "patient_facts": [
+            {
+                "type": "comorbidity",
+                "value": "type 2 diabetes"
+            },
+            {
+                "type": "comorbidity",
+                "value": "hypertension"
+            },
+            {
+                "type": "comorbidity",
+                "value": "atrial fibrillation on apixaban"
+            },
+            {
+                "type": "performance_status",
+                "value": "ECOG 3, deteriorated from ECOG 1"
+            },
+            {
+                "type": "current_symptom",
+                "value": "increasing abdominal pain, early satiety, and fatigue"
+            },
+            {
+                "type": "examination_finding",
+                "value": "moderate ascites with shifting dullness, tender hepatomegaly, and peripheral edema to mid-calf"
+            },
+            {
+                "type": "quality_of_life_finding",
+                "value": "spending approximately 50% of day in bed, requires assistance with most activities of daily living"
+            }
+        ],
+        "status_updates": [
+            {
+                "type": "clinical_summary",
+                "value": "Advanced endometrial cancer with progressive liver and peritoneal disease following multiple lines of therapy. Now with clinical deterioration and not fit for further systemic treatment."
+            },
+            {
+                "type": "latest_treatment_response",
+                "value": "Disease progression on imaging with increased size and number of liver metastases and new peritoneal disease"
+            },
+            {
+                "type": "latest_treatment_toxicity",
+                "value": "Previous doxorubicin causing significant cardiotoxicity with ejection fraction drop to 38%"
+            },
+            {
+                "type": "update_to_treatment",
+                "value": "Decision to stop systemic anti-cancer therapy due to poor performance status, cardiac dysfunction, and disease progression"
+            },
+            {
+                "type": "updated_patient_functional_status",
+                "value": "Significant deterioration with ECOG PS 3, requiring assistance with most activities"
+            },
+            {
+                "type": "planned_investigation",
+                "value": "Urgent paracentesis arranged for tomorrow"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Palliative care review next week and supportive care clinic review in 2 weeks"
+            }
+        ]
+    }
+}

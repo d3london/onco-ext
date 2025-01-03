@@ -1,0 +1,104 @@
+{
+  "content": "I reviewed [redacted name] today in the hepatobiliary clinic, who attended with his wife. Unfortunately, his intrahepatic cholangiocarcinoma has shown clear evidence of disease progression despite two lines of systemic therapy.\n\nTo recap, he was initially diagnosed in January 2024 following investigation of right upper quadrant pain and weight loss. Initial staging demonstrated a 6.8cm mass in the right hepatic lobe with regional lymphadenopathy and peritoneal deposits. Biopsy confirmed intrahepatic cholangiocarcinoma, and molecular profiling showed BRAF wild-type status with no actionable mutations identified.\n\nHe commenced first-line gemcitabine/cisplatin in February 2024 but developed significant toxicity with grade 3 neutropenia requiring two hospital admissions and GCSF support. Despite dose reductions, CT assessment in April 2024 showed disease progression with increase in the primary mass to 8.2cm and new peritoneal deposits. He transitioned to second-line FOLFOX chemotherapy but has only managed two cycles due to declining performance status and recurrent ascites requiring weekly drainage.\n\nCurrent CT imaging from 15th May 2024 shows further progression with extensive peritoneal disease and moderate volume ascites. His performance status has deteriorated to ECOG 3, spending more than 50% of the day in bed. He requires regular opioid analgesia for right upper quadrant pain and reports early satiety with 12kg weight loss over the past month despite nutritional supplements.\n\nOn examination today, he appears cachectic with marked muscle wasting. There is moderate ascites with shifting dullness and tender hepatomegaly extending 6cm below the costal margin. Blood tests show worsening liver function with bilirubin 45, ALT 156, ALP 432, and albumin 28.\n\nI have had a lengthy discussion with [redacted name] and his wife about his disease progression and poor tolerance of previous treatments. Given his deteriorating performance status and lack of benefit from two lines of therapy, I have recommended transitioning to best supportive care with involvement of specialist palliative services. They understand this decision and agree it is the most appropriate course of action.\n\nI have made an urgent referral to the hospital palliative care team and community palliative care services. They will focus on symptom management, particularly his pain and ascites. I have prescribed additional breakthrough analgesia and arranged weekly ascitic drainage as needed. We will continue to support him in clinic but with flexible appointments based on his needs. His wife has my direct contact details should they need urgent review.",
+  "output": {
+    "primary_cancer": {
+      "site": "intrahepatic biliary tract, right hepatic lobe",
+      "year": 2024,
+      "month": 1,
+      "metastases": "regional lymphadenopathy and peritoneal deposits",
+      "tnm_stage": "T3N1M1",
+      "histopathology_status": "intrahepatic cholangiocarcinoma",
+      "biomarker_status": "BRAF wild-type, no actionable mutations",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Initial staging shows 6.8cm mass in right hepatic lobe with regional lymphadenopathy and peritoneal deposits",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started first-line gemcitabine/cisplatin",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Dose reductions required due to grade 3 neutropenia requiring hospital admissions",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with primary mass increased to 8.2cm and new peritoneal deposits",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started second-line FOLFOX chemotherapy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows further progression with extensive peritoneal disease and moderate volume ascites",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, spending more than 50% of day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant pain requiring regular opioid analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety with 12kg weight loss over past month"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Recurrent ascites requiring weekly drainage"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with marked muscle wasting, moderate ascites with shifting dullness and tender hepatomegaly 6cm below costal margin"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Worsening liver function with bilirubin 45, ALT 156, ALP 432, and albumin 28"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Progressive intrahepatic cholangiocarcinoma with peritoneal metastases following failure of two lines of chemotherapy. Significant clinical deterioration with ECOG PS 3"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on second-line FOLFOX after only two cycles"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Poor tolerance of chemotherapy with grade 3 neutropenia and recurrent ascites"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing active treatment and transitioning to best supportive care"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status to ECOG 3 with cachexia"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to hospital and community palliative care services"
+      }
+    ]
+  }
+}

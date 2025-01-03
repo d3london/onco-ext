@@ -1,0 +1,69 @@
+{
+  "content": "Diagnosis:\nFibrolamellar hepatocellular carcinoma with pulmonary metastases\nInitial diagnosis March 2023\nCK7 and CD68 positive on immunohistochemistry\n\nPrevious treatment:\nRight hepatectomy April 2023\nCommenced Atezolizumab/Bevacizumab May 2023\n\nCurrent medications:\nAtezolizumab 1200mg IV every 3 weeks\nBevacizumab 15mg/kg IV every 3 weeks\n\nCurrent situation:\nPre-cycle 12 immunotherapy\n\nCT chest/abdomen 15 April 2024 - stable appearances of pulmonary metastases, no new lesions\n\nI reviewed [redacted name] today prior to cycle 12 of immunotherapy. Treatment continues to be well tolerated with only grade 1 fatigue. Performance status remains 0. Latest liver function tests are stable and within normal range. No new symptoms reported. The recent CT scan shows continued disease stability with no new concerning features. The plan is to continue with the current treatment regimen and arrange repeat imaging in 3 months. Will review again before cycle 13 in 3 weeks.",
+  "output": {
+    "primary_cancer": {
+      "site": "liver",
+      "year": 2023,
+      "month": 3,
+      "metastases": "pulmonary metastases",
+      "histopathology_status": "fibrolamellar hepatocellular carcinoma",
+      "biomarker_status": "CK7 positive, CD68 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right hepatectomy",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Atezolizumab/Bevacizumab combination therapy",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen shows stable appearances of pulmonary metastases, no new lesions",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Liver function tests stable and within normal range"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Fibrolamellar HCC with stable pulmonary metastases on immunotherapy maintenance. Well tolerated treatment with continued disease control."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue only"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Atezolizumab 1200mg and Bevacizumab 15mg/kg every 3 weeks"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat imaging in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review before cycle 13 in 3 weeks"
+      }
+    ]
+  }
+}

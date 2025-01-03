@@ -1,0 +1,86 @@
+{
+    "content": "Diagnosis:\tLocally extensive right breast carcinoma with infiltration of axillary nodes\n\nHistology:\tGrade III invasive ductal carcinoma\n\tEstrogen receptor low positive (3/8), HER2 negative\n\tUltrasound-guided biopsy confirmed metastatic involvement of right axillary nodes\n\nTrial participation:\tEnrolled in BEACON-3 trial January 2024\n\nTreatment delivered:\tCompleted per-protocol 4 cycles epirubicin/cyclophosphamide followed by 4 cycles docetaxel with marked clinical response\n\nSurgical intervention:\tRight mastectomy with axillary lymph node dissection and immediate TRAM flap reconstruction August 2024. Post-operative course complicated by partial flap necrosis requiring debridement\n\nAdjuvant therapy:\tCompleted chest wall radiotherapy 40Gy in 15 fractions November 2024\n\nPast medical history:\tAutoimmune hypothyroidism\n\tChronic kidney disease stage 3A\n\tRecurrent depression on maintenance SSRI\n\nCurrent situation:\tRecently diagnosed cerebellar metastases on MRI February 2025\n\nI reviewed [redacted name] today following the recent MRI brain which has unfortunately demonstrated two cerebellar metastatic lesions, the dominant lesion measuring 3.1cm in the right cerebellar hemisphere with surrounding edema and early compression of the fourth ventricle. She reports progressive unsteadiness over the last 4 weeks, with increasing difficulty managing stairs and tendency to veer to the right when walking. She has also developed intermittent nausea and diplopia. She commenced on Dexamethasone 8mg daily three days ago with mild improvement in symptoms.?\n\nAfter thorough discussion of management options, we have agreed to proceed with stereotactic radiosurgery to both lesions, scheduled for next week. I have provided detailed guidance regarding dexamethasone dosing with a 6-week tapering schedule, emphasizing the need for immediate medical review if any worsening of cerebellar symptoms occurs, as dose escalation may be necessary.?\n\nShe has opted to postpone her daughter's wedding in Australia planned for next month. I have made an urgent referral to our neurological rehabilitation team and palliative care service for comprehensive support.?",
+  
+    "output": {
+      "primary_cancer": {
+        "site": "breast, right",
+        "year": 2024,
+        "month": 1,
+        "metastases": "right axillary nodes, cerebellar metastases",
+        "histopathology_status": "Grade III invasive ductal carcinoma",
+        "biomarker_status": "Estrogen receptor low positive (3/8), HER2 negative",
+        "cancer_timeline": [
+          {
+            "type": "clinical_trial_update",
+            "value": "Enrolled in BEACON-3 trial",
+            "year": 2024,
+            "month": 1
+          },
+          {
+            "type": "treatment_systemic_start",
+            "value": "Started protocol treatment with 4 cycles epirubicin/cyclophosphamide followed by 4 cycles docetaxel",
+            "year": 2024,
+            "month": 1
+          },
+          {
+            "type": "treatment_surgery",
+            "value": "Right mastectomy with axillary lymph node dissection and immediate TRAM flap reconstruction, complicated by partial flap necrosis requiring debridement",
+            "year": 2024,
+            "month": 8
+          },
+          {
+            "type": "treatment_radiotherapy",
+            "value": "Completed chest wall radiotherapy 40Gy in 15 fractions",
+            "year": 2024,
+            "month": 11
+          },
+          {
+            "type": "anatomical_finding",
+            "value": "MRI showing two cerebellar metastatic lesions, dominant lesion 3.1cm with surrounding edema and early compression of fourth ventricle",
+            "year": 2025,
+            "month": 2
+          }
+        ]
+      },
+      "patient_facts": [
+        {
+          "type": "comorbidity",
+          "value": "Autoimmune hypothyroidism"
+        },
+        {
+          "type": "comorbidity",
+          "value": "Chronic kidney disease stage 3A"
+        },
+        {
+          "type": "comorbidity",
+          "value": "Recurrent depression on maintenance SSRI"
+        },
+        {
+          "type": "current_symptom",
+          "value": "Progressive unsteadiness, difficulty managing stairs, veering to right when walking, intermittent nausea and diplopia"
+        }
+      ],
+      "status_updates": [
+        {
+          "type": "clinical_summary",
+          "value": "Locally advanced breast cancer initially treated with neoadjuvant chemotherapy on trial, surgery, and radiotherapy with good response. New cerebellar metastases presenting with progressive neurological symptoms, now requiring urgent stereotactic radiosurgery and supportive care."
+        },
+        {
+          "type": "latest_treatment_response",
+          "value": "marked clinical response to neoadjuvant chemotherapy"
+        },
+        {
+          "type": "update_to_treatment",
+          "value": "Started on Dexamethasone 8mg daily for cerebellar metastases"
+        },
+        {
+          "type": "follow_up_referral",
+          "value": "urgent referral to our neurological rehabilitation team and palliative care service for comprehensive support"
+        },        
+        {
+          "type": "follow_up_referral",
+          "value": "stereotactic radiosurgery to both cerebellar lesions"
+        }
+      ]
+    }
+  }

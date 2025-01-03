@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\tFollicular thyroid carcinoma, Stage II (pT2N0M0)\n\nManagement:\t15 Jan 2024 Total thyroidectomy\n\t\t12 Feb 2024 Radioactive iodine ablation 100mCi\n\nHistology:\tWell-differentiated follicular thyroid carcinoma, 3.5cm capsulated tumor with minimal capsular invasion, PAX8/PPARγ fusion positive\n\nCurrent situation:\tFirst post-treatment review\n\n[redacted name] attended clinic today following completion of radioactive iodine ablation. She has recovered well from both surgery and RAI treatment. Her voice has returned to normal and she reports no swallowing difficulties. Neck examination shows well-healed thyroidectomy scar with no palpable masses. TSH is appropriately suppressed at <0.1 on Levothyroxine 150mcg daily. Thyroglobulin has fallen from 45 to 2.3. Calcium and PTH levels are normal. She will continue on current Levothyroxine dose with TSH monitoring. Follow-up whole body scan and thyroglobulin measurement planned for 6 months. Next clinic review in 3 months with blood tests.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT2N0M0",
+      "other_stage": "Stage II",
+      "histopathology_status": "Well-differentiated follicular thyroid carcinoma, 3.5cm capsulated tumor with minimal capsular invasion",
+      "biomarker_status": "PAX8/PPARγ fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Radioactive iodine ablation 100mCi",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Thyroglobulin decreased from 45 to 2.3",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Well-healed thyroidectomy scar with no palpable masses"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "TSH appropriately suppressed at <0.1 on Levothyroxine 150mcg daily"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Calcium and PTH levels normal"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage II follicular thyroid carcinoma post total thyroidectomy and RAI ablation. Good recovery with appropriate biochemical response"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Good biochemical response with thyroglobulin reduction from 45 to 2.3"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Levothyroxine 150mcg daily with TSH suppression"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Whole body scan and thyroglobulin measurement in 6 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review in 3 months with blood tests"
+      }
+    ]
+  }
+}

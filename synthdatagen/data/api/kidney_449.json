@@ -1,0 +1,101 @@
+{
+  "content": "Diagnosis\n\t1. Collecting duct carcinoma of right kidney with bone metastases\n\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Right cytoreductive nephrectomy\n\n\tSystemic therapy\n\t1. Gemcitabine/Cisplatin commenced Feb 2024\n\t2. Changed to Cabozantinib 60mg OD March 2024 due to disease progression\n\n\tRadiotherapy\n\t20Gy in 5# to T8 metastasis completed 15 Apr 2024\n\n\tClinical studies\n\tNot eligible\n\n\tCurrent disease status\n\tProgressive disease with new symptomatic bone lesions\n\n\tCurrent issues\n\t1. Deteriorating mobility\n\t2. Bone pain\n\t3. Hypercalcemia\n\n\tSummary of consultation\n\nUnfortunately [redacted name] has experienced significant clinical deterioration over the past 2 weeks. His mobility has declined markedly, now requiring wheelchair for all transfers. He describes severe pain affecting thoracic spine and left hip despite recent radiotherapy to T8. Recent MRI spine shows new metastatic deposits at T4 and L2 with epidural extension at T4 level.\n\nBlood tests show worsening hypercalcemia (corrected calcium 3.1) and deteriorating renal function (eGFR 32). Performance status has declined to ECOG 3. CT scan performed yesterday demonstrates progressive disease with increasing size of bone metastases and new pulmonary nodules.\n\nOn examination, there is marked tenderness over thoracic spine with reduced power in lower limbs (4/5 bilaterally). No sensory level identified.\n\n\tFurther investigations\n\t1. Urgent MRI whole spine\n\t2. Bone profile and renal function in 48 hours\n\n\tManagement plan\n\t1. Immediate admission for IV fluids and bisphosphonate\n\t2. Urgent neurosurgical review regarding T4 lesion\n\t3. Increase analgesia - commenced on Oxycodone MR 40mg BD\n\t4. Discontinue Cabozantinib due to disease progression\n\t5. Consider 3rd line therapy options once stabilized\n\n\tFollow up\n\tUrgent admission arranged to oncology ward\n\n\tRequired GP actions\n\tNone - patient being admitted",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "bone metastases with T4, T8, L2 involvement and epidural extension at T4, new pulmonary nodules",
+      "other_stage": "Stage IV",
+      "histopathology_status": "collecting duct carcinoma",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right cytoreductive nephrectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Gemcitabine/Cisplatin",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed to Cabozantinib 60mg daily due to disease progression",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed 20Gy in 5 fractions to T8 metastasis",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows new metastatic deposits at T4 and L2 with epidural extension at T4 level",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with increasing size of bone metastases and new pulmonary nodules",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Worsening hypercalcemia (corrected calcium 3.1) and deteriorating renal function (eGFR 32)",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Severe pain affecting thoracic spine and left hip"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Marked tenderness over thoracic spine with reduced power in lower limbs (4/5 bilaterally)"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires wheelchair for all transfers"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV collecting duct carcinoma with progressive bone metastases despite two lines of therapy. Acute deterioration with hypercalcemia and concerning spinal cord compression"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with new metastatic deposits and worsening symptoms despite recent radiotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing Cabozantinib due to disease progression"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in mobility, now wheelchair dependent with declining performance status"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI whole spine and repeat bone profile/renal function in 48 hours"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Immediate admission arranged to oncology ward for IV fluids and bisphosphonate"
+      }
+    ]
+  }
+}

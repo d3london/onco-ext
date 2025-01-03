@@ -1,0 +1,84 @@
+{
+  "content": "Diagnosis:\tSpindle cell carcinoma of right lung apex with chest wall invasion\n\nStaging:\tT3N1M0 at diagnosis January 2024\n\tPD-L1 60%, SMA positive\n\nI reviewed [redacted name] today for assessment during cycle 3 of pembrolizumab/carboplatin/paclitaxel combination therapy. The initial chest wall pain has significantly improved following radiotherapy (30Gy in 10 fractions) completed on 15/3/24. His exercise tolerance has improved and he can now manage one flight of stairs without stopping. Performance status has improved to 1 from initial PS 2.\n\nCT chest performed last week shows encouraging 40% reduction in the primary mass with resolution of associated atelectasis. The previously noted right hilar node has reduced from 22mm to 12mm. No new sites of disease identified.\n\nBlood results show stable renal function and acceptable haematological parameters for cycle 3. Mild treatment-related fatigue persists but has not worsened. The previous grade 2 peripheral neuropathy has improved to grade 1 following the 20% paclitaxel dose reduction implemented at cycle 2.\n\nHe will proceed with cycle 3 today at current doses. I have arranged CT chest/abdomen/pelvis prior to cycle 4 to formally assess response. Review in 3 weeks with results.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right apex",
+      "year": 2024,
+      "month": 1,
+      "metastases": "chest wall invasion, right hilar lymph node",
+      "tnm_stage": "T3N1M0",
+      "histopathology_status": "spindle cell carcinoma",
+      "biomarker_status": "PD-L1 60%, SMA positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started pembrolizumab/carboplatin/paclitaxel combination therapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "20% paclitaxel dose reduction implemented at cycle 2 due to grade 2 peripheral neuropathy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radiotherapy 30Gy in 10 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 40% reduction in primary mass, hilar node reduced from 22mm to 12mm, no new disease",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status improved to PS 1 from initial PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild treatment-related fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 peripheral neuropathy"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Can manage one flight of stairs without stopping"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Right apical lung spindle cell carcinoma showing good response to combination chemo-immunotherapy and radiotherapy with improving symptoms"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "40% reduction in primary mass and reduction in hilar node size on CT"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 peripheral neuropathy, improved from grade 2 after paclitaxel dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 3 at current doses"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis arranged prior to cycle 4"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks with results"
+      }
+    ]
+  }
+}

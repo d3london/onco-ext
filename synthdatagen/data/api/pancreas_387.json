@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis:\t\tAcinar cell carcinoma of pancreas\n\nManagement:\t\t12 Jan 2024 Whipple's procedure\n\nHistology:\t\tAcinar cell carcinoma, R0 resection, no lymphovascular invasion. TGFBR2 mutation detected.\n\nCurrent situation:\tRoutine surveillance review\n\n[redacted name] attended for routine follow-up today. She has made an excellent recovery following her Whipple's procedure in January. Her post-operative course was uncomplicated and she has now returned to her usual weight of 65kg. Her appetite is good and she is managing a normal diet with pancreatic enzyme replacement. Blood tests show stable liver function and CA19-9 remains within normal range at 12 U/mL. Recent surveillance CT on 15/4/24 shows post-operative changes only with no evidence of recurrence. The plan is to continue 3-monthly surveillance with next CT scan due in July 2024. We will review her again following this scan.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "",
+      "histopathology_status": "acinar cell carcinoma, R0 resection, no lymphovascular invasion",
+      "biomarker_status": "TGFBR2 mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure performed with R0 resection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 within normal range at 12 U/mL",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows post-operative changes only with no evidence of recurrence",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Managing normal diet with pancreatic enzyme replacement"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable liver function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Acinar cell carcinoma of pancreas treated with Whipple's procedure. Excellent post-operative recovery with no evidence of recurrence"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Returned to usual weight of 65kg with good appetite"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan due July 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review following next CT scan"
+      }
+    ]
+  }
+}

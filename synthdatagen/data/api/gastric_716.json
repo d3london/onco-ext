@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis:\t\tGastric adenocarcinoma, initially cT3N1M0, now ypT0N0M0\n\nManagement:\t\tNeoadjuvant FLOT chemotherapy completed March-July 2024\n\t\tTotal gastrectomy 15 August 2024\n\nHistology:\t\tComplete pathological response\n\t\tHER2 negative, MSI stable\n\nCurrent Situation:\tPost-operative follow-up review\n\n[redacted name] attended clinic today following completion of treatment for gastric cancer. She has made an excellent recovery from surgery with no ongoing complications. Her weight has stabilized at 62kg and she is managing a suitable post-gastrectomy diet with appropriate supplements. She reports good energy levels and has returned to work part-time. Blood tests show satisfactory vitamin B12 and iron levels. No concerning symptoms or examination findings. The complete pathological response to neoadjuvant chemotherapy is very encouraging. We have discussed the standard follow-up schedule. She will have 3-monthly clinic reviews for the first year with surveillance CT at 6 months. I have provided written information about post-gastrectomy care and symptoms that should prompt earlier review.",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "year": 2024,
+      "histopathology_status": "adenocarcinoma with complete pathological response",
+      "tnm_stage": "ypT0N0M0, initially cT3N1M0",
+      "biomarker_status": "HER2 negative, MSI stable",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started neoadjuvant FLOT chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed FLOT chemotherapy",
+          "year": 2024,
+          "month": 7
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Total gastrectomy performed",
+          "year": 2024,
+          "month": 8
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Complete pathological response on surgical specimen",
+          "year": 2024,
+          "month": 8
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "quality_of_life_finding",
+        "value": "Returned to work part-time"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Satisfactory vitamin B12 and iron levels"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Gastric cancer treated with neoadjuvant FLOT chemotherapy and total gastrectomy, achieving complete pathological response. Good post-operative recovery with stable weight and diet tolerance."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Complete pathological response to neoadjuvant chemotherapy"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Weight stable at 62kg, managing post-gastrectomy diet with supplements"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance CT scan at 6 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "3-monthly clinic reviews for the first year"
+      }
+    ]
+  }
+}

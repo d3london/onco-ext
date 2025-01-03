@@ -1,0 +1,96 @@
+{
+  "content": "Diagnosis:\tMetastatic appendiceal adenocarcinoma with signet ring and goblet cell features, T4N1M1\n\nDiagnosed following emergency appendicectomy March 2024 with subsequent staging CT demonstrating peritoneal carcinomatosis and Sister Mary Joseph nodule. KRAS wild-type.\n\nInitial management with FOLFOX commenced 15/4/24 but complicated by grade 3 neutropenia requiring GCSF support. Subsequent CT 20/5/24 showed disease progression with new ascites and increasing peritoneal disease. Changed to weekly Paclitaxel from 1/6/24 but further clinical deterioration with increasing ascites requiring two paracenteses.\n\nMost recent CT 10/7/24 confirms progressive peritoneal disease with new small volume liver metastases. Performance status now 3 due to cachexia, fatigue, and frequent paracentesis requirement. Latest albumin 24, weight down 12kg since diagnosis to 58kg.\n\nI have discussed [redacted name]'s case with the palliative care team who will take over her ongoing care. She understands that further systemic therapy is not appropriate given her declining performance status. She will be admitted to [redacted name] Hospice tomorrow for symptom control and supportive care.\n\nThe palliative care team will coordinate ongoing care including management of ascites and pain control. I have provided a complete summary of her treatment to date and have arranged for her notes to be transferred to the palliative care team. Please do not hesitate to contact us if any additional information is required.",
+  "output": {
+    "primary_cancer": {
+      "site": "appendix",
+      "year": 2024,
+      "month": 3,
+      "metastases": "peritoneal carcinomatosis, Sister Mary Joseph nodule, new small volume liver metastases",
+      "tnm_stage": "T4N1M1",
+      "histopathology_status": "adenocarcinoma with signet ring and goblet cell features",
+      "biomarker_status": "KRAS wild-type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "emergency appendicectomy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "commenced FOLFOX",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "FOLFOX complicated by grade 3 neutropenia requiring GCSF support",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showed disease progression with new ascites and increasing peritoneal disease",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "changed to weekly Paclitaxel",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT confirms progressive peritoneal disease with new small volume liver metastases",
+          "year": 2024,
+          "month": 7
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "cachexia with 12kg weight loss to 58kg"
+      },
+      {
+        "type": "current_symptom",
+        "value": "fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "ascites requiring frequent paracentesis"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "albumin 24"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic appendiceal cancer with rapid progression through two lines of chemotherapy. Now with clinical deterioration and not fit for further systemic therapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on imaging with clinical deterioration"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy due to clinical deterioration"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to PS 3 with cachexia and frequent paracentesis requirement"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Transfer of care to palliative team with admission to hospice arranged"
+      }
+    ]
+  }
+}

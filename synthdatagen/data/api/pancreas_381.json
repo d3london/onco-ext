@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\t\tPancreatic adenocarcinoma\n\nManagement:\t\t12 Jan 2024 Whipple's procedure\n\nHistology:\t\tModerately differentiated pancreatic ductal adenocarcinoma\n\t\tpT3N1M0 (AJCC 8th Ed, Stage IIB)\n\t\tKEAP1 mutation detected\n\t\t2/18 lymph nodes positive\n\nCurrent situation:\tPost-operative follow-up\n\n[redacted name] attended clinic today following completion of 3 months adjuvant modified FOLFIRINOX chemotherapy. She has managed the treatment well with only grade 1 fatigue and mild peripheral neuropathy. Her performance status remains excellent at PS0. Recent CT scan on 15/4/24 shows no evidence of disease recurrence. Blood tests including CA19-9 are within normal range. The plan is to continue regular surveillance with 3-monthly CT scans and CA19-9 monitoring. Next clinic review arranged for July 2024 with repeat imaging.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "pT3N1M0",
+      "other_stage": "Stage IIB",
+      "histopathology_status": "moderately differentiated pancreatic ductal adenocarcinoma",
+      "biomarker_status": "KEAP1 mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "2/18 lymph nodes positive on surgical specimen",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant modified FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of disease recurrence",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 within normal range",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "grade 1 fatigue and mild peripheral neuropathy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIB pancreatic cancer post Whipple's procedure. Completed adjuvant modified FOLFIRINOX with good tolerance and no evidence of recurrence"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "grade 1 fatigue and mild peripheral neuropathy from chemotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "3-monthly CT scans and CA19-9 monitoring"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "clinic review in July 2024 with repeat imaging"
+      }
+    ]
+  }
+}

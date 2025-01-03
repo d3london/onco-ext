@@ -1,0 +1,74 @@
+{
+  "content": "Diagnosis:\tMerkel cell carcinoma right pinna\n\nStage:\t\tT2N1M0 (AJCC 8th edition)\n\nBiomarkers:\tMCPyV positive, PD-L1 CPS 85%\n\nI reviewed [redacted name] today for consideration of the MERKLIN-2 trial of adjuvant immunotherapy. He was diagnosed following excision of a 3.2cm lesion from the right pinna on 15 March 2024, with subsequent positive sentinel lymph node biopsy showing 2 of 3 nodes involved. The surgical wounds have healed well with no evidence of local recurrence.\n\nHe has completed staging investigations including CT chest/abdomen/pelvis on 2 April 2024 showing no evidence of distant metastatic disease, and MRI head showing no intracranial involvement. His blood tests including renal and liver function are within normal range. His performance status is 0 and he remains very active, working full-time as an accountant.\n\nI have discussed the MERKLIN-2 trial in detail, which randomizes between 12 months of adjuvant avelumab versus active surveillance. [redacted name] meets all eligibility criteria and understands the requirements for regular blood tests and 3-weekly hospital visits if randomized to the treatment arm. He has been provided with the patient information sheet and will return next week for formal consent and randomization.\n\nThe plan is to complete trial screening investigations including thyroid function, HIV testing, and hepatitis serology. We will see him next Thursday for randomization and to commence trial participation if allocated to the treatment arm. Regular follow-up will be arranged as per protocol.",
+  "output": {
+    "primary_cancer": {
+      "site": "right pinna",
+      "year": 2024,
+      "month": 3,
+      "metastases": "2 of 3 sentinel lymph nodes positive",
+      "tnm_stage": "T2N1M0",
+      "histopathology_status": "Merkel cell carcinoma",
+      "biomarker_status": "MCPyV positive, PD-L1 CPS 85%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Excision of 3.2cm lesion from right pinna",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Sentinel lymph node biopsy showing 2 of 3 nodes involved",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis shows no evidence of distant metastatic disease",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI head shows no intracranial involvement",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Assessed for MERKLIN-2 trial of adjuvant avelumab versus active surveillance",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal renal and liver function"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Very active, working full-time as an accountant"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed Merkel cell carcinoma of right pinna with nodal involvement, post-surgery being assessed for adjuvant immunotherapy trial"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Complete trial screening including thyroid function, HIV testing, and hepatitis serology"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review next Thursday for trial randomization and potential treatment initiation"
+      }
+    ]
+  }
+}

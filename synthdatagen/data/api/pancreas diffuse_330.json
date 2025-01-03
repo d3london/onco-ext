@@ -1,0 +1,88 @@
+{
+  "content": "Diagnosis:\tMetastatic pancreatic sarcomatoid carcinoma with HER2 amplification\n\nManagement:\t2023 Dec - Gemcitabine/nab-paclitaxel\n\t\t2024 Jan - Commenced trastuzumab/pertuzumab combination\n\nHistology:\tSarcomatoid carcinoma with HER2 amplification (FISH ratio >5.0)\n\nCurrent Situation:\tProgressive disease with deteriorating performance status\n\nI reviewed [redacted name] today who attended with his wife. Unfortunately, he has experienced significant clinical deterioration over the past three weeks. His performance status has declined from ECOG 1 to ECOG 3, now spending approximately 70% of the day in bed. He describes worsening bone pain affecting his thoracic spine and left hip, despite recent increases in his opiate medications. His oral intake has reduced significantly, managing only small sips of fluid and occasional soft diet.\n\nHis wife reports he has become increasingly confused over the past week, though this improves somewhat during the day. He has developed new onset right-sided weakness over the past 48 hours. Recent blood tests show deteriorating liver function with bilirubin rising to 89 μmol/L and albumin dropping to 25 g/L. His CA19-9 has increased from 1200 to 4500 over the past month.\n\nCT imaging from 15/4/24 shows progressive disease with new liver metastases and increasing size of known bone metastases. There is also evidence of new brain metastases with a 2.8cm right parietal lesion with surrounding edema, likely explaining his new neurological symptoms.\n\nWe have discussed at length the significant change in his clinical situation. The current HER2-directed therapy has unfortunately not controlled his disease. Given his marked deterioration in performance status and new brain metastases, I have explained that further systemic anti-cancer therapy would carry significant risks with little likelihood of benefit. We have had a sensitive discussion about focusing on symptom control and quality of life.\n\nI have made an urgent referral to the palliative care team and increased his dexamethasone to 8mg twice daily to help with the cerebral edema. I have prescribed additional breakthrough analgesia and arranged urgent hospice review. His wife understands to contact the acute oncology team if there are any immediate concerns. We will arrange follow-up with the palliative care team within the next 48 hours.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas diffuse",
+      "year": 2023,
+      "metastases": "bone metastases, liver metastases, brain metastases",
+      "histopathology_status": "sarcomatoid carcinoma",
+      "biomarker_status": "HER2 amplified (FISH ratio >5.0)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Gemcitabine/nab-paclitaxel",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced trastuzumab/pertuzumab combination",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 increased from 1200 to 4500",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with new liver metastases, increasing bone metastases, and 2.8cm right parietal brain metastasis",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing HER2-directed therapy due to disease progression and clinical deterioration",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated to ECOG PS 3, spending 70% of day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain affecting thoracic spine and left hip"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset right-sided weakness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing confusion"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 89 μmol/L, albumin 25 g/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic sarcomatoid carcinoma with rapid clinical deterioration and disease progression on HER2-directed therapy. New brain metastases and marked decline in performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on imaging with clinical deterioration"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy and transitioning to palliative care focus"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status from ECOG 1 to ECOG 3"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral with review within 48 hours"
+      }
+    ]
+  }
+}

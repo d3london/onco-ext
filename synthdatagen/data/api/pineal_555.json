@@ -1,0 +1,87 @@
+{
+  "content": "Diagnosis:\nPineal germinoma\nDiagnosed March 2024\nPLAP positive, AFP negative\nNo evidence of CSF or systemic metastases\n\nPresenting symptoms:\nHeadaches and diplopia for 3 months\nMild ataxia\nNo endocrine symptoms\n\nInvestigations:\nMRI brain 12/03/24 - 2.8cm pineal mass with obstructive hydrocephalus\nCSF cytology negative for malignant cells\nSpinal MRI - no drop metastases\nStaging CT - no systemic disease\n\nTreatment to date:\n15/03/24 - Endoscopic third ventriculostomy for hydrocephalus\n20/03/24 - Stereotactic biopsy confirming germinoma\n\nCurrent situation:\nImproved symptoms following CSF diversion\nNo new neurological deficits\nPerformance status 1\n\nPlan:\nFor standard dose cranio-spinal radiotherapy 24Gy in 15 fractions followed by boost to primary site to 40Gy\nRadiotherapy planning appointment arranged for next week\nWeekly review during treatment\nBaseline endocrine assessment arranged",
+  "output": {
+    "primary_cancer": {
+      "site": "pineal gland",
+      "year": 2024,
+      "month": 3,
+      "metastases": "no CSF or systemic metastases",
+      "histopathology_status": "germinoma",
+      "biomarker_status": "PLAP positive, AFP negative",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows 2.8cm pineal mass with obstructive hydrocephalus",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CSF cytology negative for malignant cells",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Spinal MRI shows no drop metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Staging CT shows no systemic disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Endoscopic third ventriculostomy for hydrocephalus",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Stereotactic biopsy confirming germinoma",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Headaches and diplopia for 3 months"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild ataxia"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "MRI brain 12/03/24 shows 2.8cm pineal mass with obstructive hydrocephalus"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed pineal germinoma presenting with raised intracranial pressure. Improved following CSF diversion, now for definitive radiotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Improved symptoms following CSF diversion, no new neurological deficits"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline endocrine assessment arranged"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Radiotherapy planning appointment next week with weekly review during treatment"
+      }
+    ]
+  }
+}

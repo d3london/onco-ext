@@ -1,0 +1,85 @@
+{
+  "content": "Diagnosis:\tHepatocellular carcinoma, BCLC stage D with extensive bone metastases\n\nI reviewed [redacted name] today following discontinuation of sorafenib therapy. Unfortunately, his disease has shown clear radiological progression on the most recent CT performed on 15 April 2024, with enlarging liver lesions and new bone metastases. His AFP has risen significantly from 25,000 to 50,000 over the past 6 weeks. His performance status has deteriorated to ECOG 3, spending most of the day in bed due to fatigue and bone pain. He requires increasing doses of opiates for pain control.\n\nHe has experienced grade 3 hand-foot syndrome and significant weight loss (12kg over 8 weeks) on sorafenib, despite dose reduction to 400mg daily from 12 March 2024. After careful discussion with the patient and family today, we have agreed to discontinue systemic therapy and focus on symptom control.\n\nI have made an urgent referral to the palliative care team and arranged admission to the local hospice for pain management. His current medications include MST 60mg BD and oxycodone breakthrough, which need review. I have also referred him to our specialist nurse team for additional support. We will continue to provide outpatient support as needed but will not arrange routine follow-up given his declining condition.",
+  "output": {
+    "primary_cancer": {
+      "site": "liver",
+      "histopathology_status": "hepatocellular carcinoma",
+      "other_stage": "BCLC stage D",
+      "metastases": "extensive bone metastases",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_change",
+          "value": "Sorafenib dose reduced to 400mg daily due to hand-foot syndrome",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "AFP increased from 25,000 to 50,000",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows enlarging liver lesions and new bone metastases",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued sorafenib due to disease progression and deteriorating condition",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, spending most of day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Significant bone pain requiring increasing opiate doses"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 3 hand-foot syndrome"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Severe fatigue"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "12kg weight loss over 8 weeks"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced hepatocellular carcinoma with progressive disease and clinical deterioration. Treatment discontinued due to progression and poor tolerance"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with enlarging liver lesions and new bone metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 hand-foot syndrome and significant weight loss on sorafenib"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued sorafenib and transitioning to palliative care approach"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with increasing care needs"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and local hospice for pain management"
+      }
+    ]
+  }
+}

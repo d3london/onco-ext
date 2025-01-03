@@ -1,0 +1,900 @@
+topography,morphology,stage,biomarker,extent_mets,disease_trajectory,treatment_complexity,excluded_subblocks,data_quality_issue,letter_type,structural_style,language_style
+breast,invasive ductal carcinoma,T2N0M0,ER+/PR+/HER2-/Ki67 15%,,stable,simple,social_background,,Simple Follow-up,Standard Narrative,Concise factual
+breast right,lobular carcinoma,Stage IIB,ER8/8 PR6/8 HER2 1+ BRCA1+,bone liver,deteriorating,complex,examination_findings;vital_signs,misspelled biomarkers,Complex Progressive Disease,Block-Label Format,Verbose professional
+breast left,mixed ductal/lobular,pT1cN1miM0,Triple negative/BRCA2-,,improving,simple,care_plan,missing dates,Treatment Review,Short Structured,Brief business-like
+breast,metaplastic carcinoma,T4N2M1,PD-L1 80%/ER-/PR-/HER2+,brain lung,deteriorating,complex,,,Treatment Change,Standard Semi-Structured,Verbose empathetic
+breast bilateral,tubular carcinoma,Stage 3A,ER90% PR85% HER2 2+,,stable,simple,medical_background,corrupted measurements,Initial Assessment,Highly Structured Summary,Concise factual
+breast right,invasive ductal grade 3,T2(m)N1M0,ER-/PR-/HER2 3+/Ki67 80%,bone only,improving,complex,clinical_trial,,Treatment Review,Standard Narrative,Brief business-like
+breast,mucinous carcinoma,,ESR1 mutation positive/HER2-,liver widespread,deteriorating,complex,social_background;medical_background,missing stage,Complex Progressive Disease,Fully Narrative,Verbose professional
+breast left,papillary carcinoma,IIA,ER+/PR+/HER- BRCA VUS,,stable,simple,,,Simple Follow-up,Short Structured,Concise factual
+breast,medullary carcinoma,T1N0M0,TILs 80% PDL1+,none,improving,simple,vital_signs,truncated letter ending,Initial Assessment,Standard Semi-Structured,Brief business-like
+breast right,invasive lobular grade 2,Stage IV,ER7/8 PR2/8 HER2+,bone liver brain,deteriorating,complex,,formatting artifacts,Multiple Cancer,Block-Label Format,Verbose empathetic
+breast,micropapillary carcinoma,T3N2M0,AR+ GATA3+ TILs 60%,,stable,complex,patient_status,random word omissions,Clinical Trial Registration,Highly Structured Summary,Verbose professional
+breast left,pleomorphic lobular,pT4bN3aM1,ER-/PR-/HER2- PDL1 90%,lung pleura,deteriorating,complex,,,Treatment Change,Standard Narrative,Concise factual
+breast,apocrine carcinoma,Stage IIIC,AR+/ER-/PR-/HER2+,,improving,simple,clinical_trial;care_plan,missing paragraphs,End of Treatment,Short Structured,Brief business-like
+breast right,cribriform carcinoma,T1bN0M0,ER8/8 PR8/8 HER2- Ki67 5%,none,stable,simple,examination_findings,,Simple Follow-up,Standard Semi-Structured,Verbose professional
+breast,inflammatory carcinoma,T4dN2M1,ER-/HER2+ PIK3CA+,liver bone,deteriorating,complex,vital_signs;social_background,inconsistent dates,Complex Progressive Disease,Block-Label Format,Verbose empathetic
+breast bilateral,ductal grade 2,,ER+/PR+/HER2+ Ki67 40%,,improving,complex,medical_background,missing TNM stage,Multiple Cancer,Fully Narrative,Concise factual
+breast left,mixed tubular/lobular,Stage IB,ER low positive PR- HER2-,none,stable,simple,,,Initial Assessment,Short Structured,Brief business-like
+breast,metaplastic squamous,T3N1M0,PDL1 IHC 95% ER/PR/HER2-,,deteriorating,complex,care_plan;clinical_trial,garbled biomarker text,Treatment Review,Standard Semi-Structured,Verbose professional
+breast right,adenoid cystic,pT2pN0M0,Triple negative BRCA-,lung solitary,stable,simple,examination_findings,missing measurements,Treatment Change,Highly Structured Summary,Concise factual
+breast,invasive ductal grade 1,Stage IA,ER95% PR90% HER2 1+,,improving,simple,vital_signs,,Simple Follow-up,Standard Narrative,Brief business-like
+breast left,lobular pleomorphic,T4N3M1,ESR1/PIK3CA+ HER2-,bone widespread,deteriorating,complex,social_background,corrupt characters,Complex Progressive Disease,Block-Label Format,Verbose empathetic
+breast,micropapillary mixed,IIB,ER+/PR+/HER2+ BRCA1-,,stable,complex,medical_background;care_plan,,Clinical Trial Assessment,Short Structured,Verbose professional
+breast right,mucinous grade 1,T1cN0M0,ER8/8 PR7/8 HER2 neg,none,improving,simple,,,Initial Assessment,Standard Semi-Structured,Concise factual
+breast,inflammatory IBC,,Triple negative BRCA2+,liver lung bone,deteriorating,complex,clinical_trial,missing stage,Treatment Change,Fully Narrative,Brief business-like
+breast left,ductal grade 3,Stage IIIB,ER-/PR-/HER2+ PDL1 85%,,stable,complex,examination_findings;vital_signs,incomplete biomarkers,MDT Outcome,Block-Label Format,Verbose professional
+breast bilateral,mixed carcinoma,T2N1M0,ER+/PR low/HER2 equivocal,,improving,simple,social_background,,Simple Follow-up,Highly Structured Summary,Verbose empathetic
+breast,lobular classic type,pT3pN2M0,ER95% PR90% HER2-,bone solitary,stable,complex,,,Treatment Review,Standard Narrative,Concise factual
+breast right,medullary-like,Stage IV,TILs 90% PDL1+ BRCA1+,brain multiple,deteriorating,complex,care_plan,missing dates,Complex Progressive Disease,Short Structured,Brief business-like
+breast,ductal with DCIS,T1aN0M0,ER+/PR+/HER2+ Ki67 30%,,improving,simple,medical_background;clinical_trial,,Initial Assessment,Standard Semi-Structured,Verbose professional
+breast left,metaplastic spindle,IIIA,Triple negative AR+,lung liver,deteriorating,complex,vital_signs,corrupted staging,Treatment Change,Block-Label Format,Verbose empathetic
+breast,papillary invasive,T2N1M0,ER7/8 PR6/8 HER2 2+,,stable,simple,examination_findings,,Simple Follow-up,Fully Narrative,Concise factual
+breast right,lobular grade 2,,ER+/HER2+ PIK3CA+,bone brain,deteriorating,complex,social_background,missing TNM,Complex Progressive Disease,Short Structured,Brief business-like
+breast bilateral,mixed ductal/mucinous,Stage IIA,ER-/PR-/HER2 3+,,improving,simple,care_plan;clinical_trial,,Treatment Review,Standard Semi-Structured,Verbose professional
+breast,inflammatory ductal,T4dN3M1,PDL1+ TILs 70%,liver widespread,deteriorating,complex,,,MDT Outcome,Highly Structured Summary,Verbose empathetic
+breast left,cribriform grade 1,pT1bN0M0,ER95% PR85% HER2-,,stable,simple,medical_background,,Initial Assessment,Standard Narrative,Concise factual
+breast,apocrine carcinoma,Stage IIIC,AR+/ER-/HER2+ Ki67 60%,bone multiple,deteriorating,complex,vital_signs;examination_findings,corrupted biomarkers,Treatment Change,Block-Label Format,Brief business-like
+breast right,micropapillary pure,T2N1M0,ER+/PR+/HER2- BRCA VUS,,improving,simple,social_background,,Simple Follow-up,Short Structured,Verbose professional
+breast,tubular mixed,IB,ER8/8 PR7/8 HER2 1+,none,stable,simple,clinical_trial,,End of Treatment,Standard Semi-Structured,Verbose empathetic
+breast left,metaplastic matrix,T3N2M1,Triple negative PDL1 90%,lung liver bone,deteriorating,complex,care_plan,missing dates,Complex Progressive Disease,Fully Narrative,Concise factual
+breast,ductal grade 2,Stage IIB,ER+/PR low/HER2-,,improving,simple,medical_background;vital_signs,,Treatment Review,Block-Label Format,Brief business-like
+breast right,lobular classic,,ER90% PR85% HER2 neg,bone solitary,stable,complex,examination_findings,missing stage,Clinical Trial Assessment,Highly Structured Summary,Verbose professional
+breast bilateral,mixed carcinoma,T4N2M0,ER-/PR-/HER2+ TILs 80%,liver widespread,deteriorating,complex,social_background,formatting errors,Complex Progressive Disease,Standard Narrative,Verbose empathetic
+breast,inflammatory IBC,IIIB,Triple negative BRCA1+,,improving,simple,clinical_trial,,Initial Assessment,Short Structured,Concise factual
+breast left,ductal with LCIS,pT2pN1M0,ER8/8 PR6/8 HER2 3+,brain solitary,deteriorating,complex,care_plan;vital_signs,corrupted measurements,Treatment Change,Standard Semi-Structured,Brief business-like
+breast,mucinous pure type,Stage IA,ER+/PR+/HER2- Ki67 10%,,stable,simple,medical_background,,Simple Follow-up,Block-Label Format,Verbose professional
+breast right,papillary invasive,T1cN0M0,AR+/ER-/HER2+ PDL1 85%,none,improving,simple,examination_findings;social_background,,End of Treatment,Fully Narrative,Verbose empathetic
+breast,metaplastic chondroid,T4N3M1,Triple negative PIK3CA+,bone liver brain,deteriorating,complex,clinical_trial,missing biomarkers,Complex Progressive Disease,Highly Structured Summary,Concise factual
+breast left,mixed tubular/cribriform,Stage IIA,ER95% PR90% HER2 2+,,stable,complex,vital_signs,corrupted dates,Treatment Review,Standard Narrative,Brief business-like
+breast bilateral,lobular pleomorphic,T3N2M0,ESR1+ ER+/PR-/HER2-,lung multiple,deteriorating,complex,care_plan;medical_background,,Multiple Cancer,Short Structured,Verbose professional
+breast left,invasive ductal carcinoma,T:4b; N:2; M:1,ESR1/FGFR mut/HER2 2+,bone liver brain,deteriorating,complex,vital_signs,split TNM staging,Complex Progressive Disease,Standard Narrative,Verbose professional
+breast,lobular pleomorphic,M0 (T2N1),ER 90% PR neg HER2-,,improving,simple,examination_findings,,Treatment Review,Block-Label Format,Concise factual
+breast right,glycogen-rich carcinoma,N: positive (3/21); T2,PDL1 CPS 80/ER-/PR-,lung only,stable,complex,social_background,incomplete staging,Clinical Trial Registration,Short Structured,Brief business-like
+breast bilateral,neuroendocrine carcinoma,Stage 4 (T4d N2),ER+/PR+/HER2+ mTOR+,liver diffuse,deteriorating,complex,,missing M stage,Multiple Cancer,Fully Narrative,Verbose empathetic
+breast left,secretory carcinoma,T1mi; N0,Triple negative NTRK+,,stable,simple,care_plan;medical_background,,Initial Assessment,Standard Semi-Structured,Concise factual
+breast,lipid-rich carcinoma,N3a (T4 M1),ER low/PR-/HER2 3+,bone widespread,deteriorating,complex,clinical_trial,corrupted text,Treatment Change,Highly Structured Summary,Brief business-like
+breast right,acinic cell carcinoma,Stage: T2; N:1mi,AR+ GATA3+ HER2-,,improving,simple,vital_signs;examination_findings,,Simple Follow-up,Standard Narrative,Verbose professional
+breast,sebaceous carcinoma,M1; T3; N2,ER-/PR-/HER2+ PDL1 95%,brain leptomeningeal,deteriorating,complex,social_background,missing biomarkers,Complex Progressive Disease,Block-Label Format,Verbose empathetic
+breast left,small cell carcinoma,T:1c; N:0,Triple negative TILs 90%,,stable,simple,medical_background,,End of Treatment,Short Structured,Concise factual
+breast bilateral,oncocytic carcinoma,N1 (T2 M0),ER8/8 PR7/8 HER2 1+,,improving,complex,clinical_trial;care_plan,garbled text,Treatment Review,Standard Semi-Structured,Brief business-like
+breast,adenomyoepithelioma,Stage 3c (T4N3),ER+/PR+/HER2- PIK3CA+,bone solitary,stable,complex,examination_findings,missing dates,MDT Outcome,Fully Narrative,Verbose professional
+breast right,squamous cell carcinoma,M1; N2; T4,PD-L1 IHC 100%,lung pleural,deteriorating,complex,vital_signs,split staging,Complex Progressive Disease,Highly Structured Summary,Verbose empathetic
+breast left,clear cell carcinoma,T1b; N0; M0,ER-/PR-/HER2 2+ AKT+,,improving,simple,social_background,,Initial Assessment,Standard Narrative,Concise factual
+breast,mixed neuroendocrine,N: positive (15/16),Triple pos Ki67 80%,liver multiple,deteriorating,complex,medical_background;care_plan,incomplete nodes,Treatment Change,Block-Label Format,Brief business-like
+breast right,tall cell carcinoma,Stage 2 (T2N0),ER95% PR90% HER2-,,stable,simple,clinical_trial,,Simple Follow-up,Short Structured,Verbose professional
+breast bilateral,spindle cell carcinoma,T4d; N3c; M1,PDL1+ LAG3+ TILs 85%,brain bone liver,deteriorating,complex,examination_findings;vital_signs,corrupted biomarkers,Complex Progressive Disease,Standard Semi-Structured,Verbose empathetic
+breast left,low-grade adenosquamous,M0 (N0),ER+/PR+/HER2+ NTRK-,,stable,simple,medical_background,missing T stage,Initial Assessment,Highly Structured Summary,Brief business-like
+breast right,fibromatosis-like,Stage 3a (T3N2),ER-/PR-/HER2 3+ mTOR-,bone diffuse,deteriorating,complex,care_plan,formatting issues,Treatment Change,Standard Narrative,Verbose professional
+breast,signet ring carcinoma,N1mi (T1c M0),Triple negative AR+,,improving,simple,clinical_trial;vital_signs,,Simple Follow-up,Block-Label Format,Verbose empathetic
+breast bilateral,basal-like carcinoma,T:4b; M:1,PDL1 90% TILs 80%,lung multiple,deteriorating,complex,examination_findings,missing N stage,Complex Progressive Disease,Short Structured,Concise factual
+breast left,claudin-low carcinoma,Stage 1b (T1c N0),ER7/8 PR6/8 HER2 1+,,stable,simple,social_background,,End of Treatment,Standard Semi-Structured,Brief business-like
+breast,myoepithelial carcinoma,N2 (T3 M1),AR+/ER-/HER2+ FGFR+,liver bone,deteriorating,complex,medical_background;care_plan,,Multiple Cancer,Fully Narrative,Verbose professional
+breast right,adenomyoepithelial,T1a; N0; M0,Triple positive Ki67 15%,,improving,simple,clinical_trial,,Initial Assessment,Highly Structured Summary,Verbose empathetic
+breast,large cell neuroendocrine,Stage 4 (N3 M1),ER-/PR-/HER2- PDL1 100%,brain widespread,deteriorating,complex,vital_signs,split TNM,Complex Progressive Disease,Standard Narrative,Concise factual
+breast left,mixed mucinous/neuroendocrine,T:2; N:1,ER+/PR low/HER2 2+,,stable,complex,examination_findings,missing M stage,Treatment Review,Block-Label Format,Brief business-like
+breast bilateral,glycogen-rich ductal,M0 (T1c),Triple negative BRCA2+,,improving,simple,social_background;medical_background,,Simple Follow-up,Short Structured,Verbose professional
+breast right,lipid-rich lobular,Stage 3b (T4N2),ER95% PR85% HER2 3+,bone solitary,deteriorating,complex,care_plan,,Treatment Change,Standard Semi-Structured,Verbose empathetic
+breast,secretory with DCIS,N: positive (1/15),PD-L1+ TILs 95%,,stable,simple,clinical_trial,missing T/M stage,MDT Outcome,Fully Narrative,Concise factual
+breast left,acinic cell with LCIS,T3; M1; N2,ER-/PR-/HER2+ PIK3CA-,liver multiple,deteriorating,complex,vital_signs;examination_findings,split staging,Complex Progressive Disease,Highly Structured Summary,Brief business-like
+breast,sebaceous with DCIS,Stage 2a (T2N0),Triple positive mTOR+,,improving,simple,social_background,,Initial Assessment,Standard Narrative,Verbose professional
+breast right,small cell variant,N0 (T1b M0),ER8/8 PR8/8 HER2 1+,,stable,simple,medical_background;care_plan,,Treatment Review,Block-Label Format,Verbose empathetic
+breast bilateral,oncocytic variant,T:4; N:3; M:1,PDL1 IHC 85% AR+,bone brain liver,deteriorating,complex,clinical_trial,corrupted text,Multiple Cancer,Short Structured,Concise factual
+breast left,adenomyoepithelioma malignant,Stage 1a (T1bN0),ER+/PR+/HER2- AKT-,,improving,simple,examination_findings,,Simple Follow-up,Standard Semi-Structured,Brief business-like
+breast,squamous with DCIS,M1 (T4 N2),Triple negative NTRK+,lung pleural,deteriorating,complex,vital_signs;social_background,missing stage details,Complex Progressive Disease,Fully Narrative,Verbose professional
+breast right,clear cell variant,T:2; N:1mi,ER-/PR-/HER2 3+ LAG3+,,stable,complex,medical_background,,Treatment Change,Highly Structured Summary,Verbose empathetic
+breast,mixed neuroendocrine/ductal,Stage 4 (T3N3),ER95% PR90% HER2 2+,bone widespread,deteriorating,complex,care_plan,split TNM,Clinical Trial Assessment,Standard Narrative,Concise factual
+breast left,tall cell papillary,N: negative (0/12),Triple positive Ki67 30%,,improving,simple,clinical_trial;examination_findings,missing T/M stage,Initial Assessment,Block-Label Format,Brief business-like
+breast bilateral,spindle cell metaplastic,T1c; M0,PD-L1+ TILs 75%,,stable,simple,vital_signs,,Simple Follow-up,Short Structured,Verbose professional
+breast right,adenoid cystic variant,Stage 3c (T4N3),ER-/PR-/HER2- BRCA1+,liver multiple,deteriorating,complex,social_background,corrupted biomarkers,Complex Progressive Disease,Standard Semi-Structured,Verbose empathetic
+breast,low-grade adenosquamous carcinoma,M1; T3; N2,AR+/HER2+ PIK3CA+,brain leptomeningeal,deteriorating,complex,medical_background;care_plan,split staging,Treatment Change,Fully Narrative,Concise factual
+breast left,fibromatosis-like metaplastic,T:1mi; N:0,ER+/PR+/HER2- mTOR-,,improving,simple,clinical_trial,,End of Treatment,Highly Structured Summary,Brief business-like
+breast bilateral,signet ring variant,N1 (T2 M0),Triple negative PDL1 95%,,stable,complex,examination_findings;vital_signs,,Treatment Review,Standard Narrative,Verbose professional
+breast right,basal-like ductal,Stage 2b (T3N0),ER8/8 PR7/8 HER2 1+,,improving,simple,social_background,,Initial Assessment,Block-Label Format,Verbose empathetic
+breast,claudin-low variant,T:4; M:1,PD-L1+ LAG3+ TILs 90%,bone liver,deteriorating,complex,medical_background,,Complex Progressive Disease,Short Structured,Concise factual
+breast left,myoepithelial malignant,N2 (T3),ER-/PR-/HER2 3+ FGFR-,,stable,simple,care_plan;clinical_trial,incomplete staging,Treatment Review,Standard Semi-Structured,Brief business-like
+breast bilateral,adenomyoepithelial carcinoma,Stage 4 (T4dN3),Triple positive Ki67 85%,lung widespread,deteriorating,complex,vital_signs,corrupted text,Multiple Cancer,Fully Narrative,Verbose professional
+breast right,large cell neuroendocrine variant,T2; N1mi; M0,ER+/PR low/HER2- AKT+,,improving,complex,examination_findings,,Clinical Trial Assessment,Highly Structured Summary,Verbose empathetic
+breast,mixed mucinous/ductal,M1 (T4 N3),PDL1 100% AR+ TILs 80%,brain bone,deteriorating,complex,social_background;medical_background,split staging,Complex Progressive Disease,Standard Narrative,Concise factual
+breast left,glycogen-rich variant,Stage 1b (T1cN0),ER95% PR85% HER2 2+,,stable,simple,clinical_trial,,Simple Follow-up,Block-Label Format,Brief business-like
+right upper lobe,adenocarcinoma,T1bN0M0,EGFR L858R positive; PD-L1 80%; ALK negative,,stable,simple,"treatment_toxicity,social_background",,Simple Follow-up,Standard Narrative,Concise and factual
+left lower lobe,squamous cell carcinoma,Stage IIIB,PD-L1 negative,mediastinal nodes,deteriorating,complex,living_situation,missing treatment dates,Treatment Change,Fully Narrative,Verbose professional
+right hilum,small cell carcinoma,extensive stage,,liver and bone,improving,complex,"smoking_status,grade",,Complex Progressive Disease,Short Structured,Brief business-like
+left upper lobe,,T4N2M1c,KRAS G12C mutation,brain; liver; bone,deteriorating,complex,performance_status,missing staging details,Treatment Review,Standard Semi-structured,Verbose narrative
+right middle lobe,adenosquamous carcinoma,Stage IV,PD-L1 15%; EGFR/ALK/ROS1 negative,pleural effusion,stable,simple,"marker_trends,vital_signs",,Initial Assessment,Block-Label Format,Concise and factual
+bilateral lung,large cell neuroendocrine,T3N2M0,MYCN amplified,mediastinal nodes,improving,complex,examination_findings,inconsistent date formats,Clinical Trial Registration,Highly Structured Summary,Verbose professional
+right lower lobe,adenocarcinoma,,RET fusion positive; PD-L1 90%,bone only,stable,simple,"trial_status,living_situation",,Treatment Review,Standard Narrative,Brief business-like
+left lung,mesothelioma,T4N2M0,,pleural and peritoneal,deteriorating,complex,comorbidities,,Complex Initial Assessment,Fully Narrative,Verbose narrative
+right upper lobe,squamous cell carcinoma,Stage IIIA,PD-L1 60%,locally advanced,improving,simple,allergies,incomplete TNM staging,Simple Follow-up,Short Structured,Concise and factual
+lingula,adenocarcinoma,T2aN1M1b,EGFR exon 19 deletion; ROS1 negative,brain only,stable,complex,"smoking_status,vital_signs",,MDT Outcome,Standard Semi-structured,Brief business-like
+right lung,small cell carcinoma,limited stage,MYCN amplified,,deteriorating,simple,trial_name,missing performance status,Treatment Change,Block-Label Format,Verbose professional
+left lower lobe,adenocarcinoma,Stage IV,NTRK fusion; PD-L1 negative,widespread bone,stable,complex,"grade,marker_trends",missing metastasis details,Complex Progressive Disease,Highly Structured Summary,Verbose narrative
+right upper lobe,squamous cell carcinoma,T3N1M0,PD-L1 100%,,improving,simple,living_situation,,Simple Follow-up,Standard Narrative,Concise and factual
+bilateral lung,adenocarcinoma,T4N3M1c,MET exon 14 skipping mutation,lymphangitis carcinomatosis,deteriorating,complex,"trial_status,examination_findings",incorrect biomarker formatting,Treatment Review,Fully Narrative,Brief business-like
+left hilum,small cell carcinoma,extensive stage,DLL3 positive,liver and brain,stable,complex,performance_status,missing treatment details,Clinical Trial Assessment,Short Structured,Verbose professional
+right lung,,Stage IIIB,EGFR T790M mutation,locally advanced,improving,simple,"smoking_status,vital_signs",incomplete patient details,Initial Assessment,Standard Semi-structured,Concise and factual
+left upper lobe,adenocarcinoma,T2bN2M1,ALK rearrangement; PD-L1 5%,pleural effusion,deteriorating,complex,marker_trends,,Treatment Change,Block-Label Format,Verbose narrative
+right lower lobe,squamous cell carcinoma,Stage IV,PD-L1 85%; FGFR amplification,bone and liver,stable,complex,"grade,allergies",missing biomarker dates,Complex Progressive Disease,Highly Structured Summary,Brief business-like
+lingula,small cell carcinoma,T4N3M1b,,widespread,improving,simple,trial_name,inconsistent staging format,MDT Outcome,Standard Narrative,Verbose professional
+right upper lobe,adenocarcinoma,Stage IIIA,BRAF V600E mutation; PD-L1 40%,locally advanced,stable,complex,"living_situation,vital_signs",,Treatment Review,Fully Narrative,Concise and factual
+left lung,mesothelioma,T3N2M0,BAP1 negative,,deteriorating,complex,examination_findings,missing histology details,Complex Initial Assessment,Short Structured,Brief business-like
+right middle lobe,adenocarcinoma,Stage IV,HER2 exon 20 insertion,brain and bone,stable,simple,"performance_status,marker_trends",incomplete biomarker results,Simple Follow-up,Standard Semi-structured,Verbose narrative
+left lower lobe,squamous cell carcinoma,T2bN1M0,PD-L1 95%,,improving,simple,trial_status,,Treatment Change,Block-Label Format,Verbose professional
+bilateral lung,small cell carcinoma,extensive stage,MYCN amplified,liver and brain,deteriorating,complex,"smoking_status,grade",missing treatment responses,Clinical Trial Registration,Highly Structured Summary,Concise and factual
+right upper lobe,adenocarcinoma,T3N2M1c,NRG1 fusion; PD-L1 negative,widespread bone,stable,complex,allergies,incomplete staging information,Complex Progressive Disease,Standard Narrative,Brief business-like
+left hilum,squamous cell carcinoma,Stage IIIB,FGFR1 amplification,locally advanced,improving,simple,"living_situation,vital_signs",,Initial Assessment,Fully Narrative,Verbose narrative
+right lung,,T4N2M0,PD-L1 70%,pleural effusion,deteriorating,complex,trial_name,missing morphology,Treatment Review,Short Structured,Concise and factual
+left upper lobe,adenocarcinoma,Stage IV,EGFR G719X mutation; ROS1 negative,brain and bone,stable,complex,"examination_findings,marker_trends",inconsistent biomarker formatting,MDT Outcome,Standard Semi-structured,Brief business-like
+right lower lobe,small cell carcinoma,limited stage,DLL3 positive,,improving,simple,performance_status,,Simple Follow-up,Block-Label Format,Verbose professional
+lingula,adenocarcinoma,T2aN1M1b,ROS1 fusion; PD-L1 80%,liver only,deteriorating,complex,"smoking_status,grade",missing treatment dates,Treatment Change,Highly Structured Summary,Verbose narrative
+right upper lobe,squamous cell carcinoma,Stage IIIA,PD-L1 55%,locally advanced,stable,simple,allergies,,Complex Initial Assessment,Standard Narrative,Concise and factual
+left lung,adenocarcinoma,T4N3M1c,KRAS G12D mutation; EGFR negative,widespread,improving,complex,"living_situation,vital_signs",incomplete response assessment,Clinical Trial Assessment,Fully Narrative,Brief business-like
+right middle lobe,small cell carcinoma,extensive stage,,liver and brain,deteriorating,complex,trial_name,missing biomarker values,Complex Progressive Disease,Short Structured,Verbose professional
+left lower lobe,adenocarcinoma,Stage IV,HER2 amplification; PD-L1 20%,bone and brain,stable,simple,"examination_findings,marker_trends",,Treatment Review,Standard Semi-structured,Concise and factual
+bilateral lung,squamous cell carcinoma,T3N1M0,FGFR2 fusion,locally advanced,improving,complex,performance_status,inconsistent date formats,Initial Assessment,Block-Label Format,Brief business-like
+right upper lobe,,Stage IIIB,PD-L1 100%,,deteriorating,simple,"smoking_status,grade",missing morphology,Simple Follow-up,Highly Structured Summary,Verbose narrative
+left hilum,adenocarcinoma,T2bN2M1,EGFR L861Q mutation; ALK negative,pleural and bone,stable,complex,allergies,,Treatment Change,Standard Narrative,Verbose professional
+right lung,small cell carcinoma,limited stage,MYCN amplified,,improving,simple,"living_situation,vital_signs",missing performance status,MDT Outcome,Fully Narrative,Concise and factual
+left upper lobe,squamous cell carcinoma,T4N2M0,PD-L1 45%,locally advanced,deteriorating,complex,trial_name,incomplete staging details,Complex Progressive Disease,Short Structured,Brief business-like
+right lower lobe,adenocarcinoma,Stage IV,MET amplification; ROS1 negative,widespread bone,stable,complex,"examination_findings,marker_trends",,Clinical Trial Registration,Standard Semi-structured,Verbose narrative
+lingula,mesothelioma,T3N2M0,BAP1 positive,,improving,simple,performance_status,missing biomarker dates,Treatment Review,Block-Label Format,Verbose professional
+right upper lobe,adenocarcinoma,T1aN0M0,EGFR S768I mutation; PD-L1 90%,,stable,simple,"smoking_status,grade",,Simple Follow-up,Highly Structured Summary,Concise and factual
+left lung,squamous cell carcinoma,Stage IIIB,FGFR3 fusion; PD-L1 75%,locally advanced,deteriorating,complex,allergies,incomplete treatment details,Complex Initial Assessment,Standard Narrative,Brief business-like
+right middle lobe,small cell carcinoma,extensive stage,DLL3 positive,liver and brain,improving,complex,"living_situation,vital_signs",missing staging information,Treatment Change,Fully Narrative,Verbose professional
+left lower lobe,adenocarcinoma,T3N2M1b,KRAS G12V mutation; EGFR negative,bone and liver,stable,simple,trial_name,,MDT Outcome,Short Structured,Concise and factual
+bilateral lung,squamous cell carcinoma,Stage IV,PD-L1 35%; PIK3CA mutation,widespread,deteriorating,complex,"examination_findings,marker_trends",inconsistent biomarker reporting,Complex Progressive Disease,Standard Semi-structured,Brief business-like
+left hilum,small cell carcinoma,limited stage,MYCN amplified,,stable,complex,"smoking_status,grade",missing treatment responses,Clinical Trial Assessment,Highly Structured Summary,Verbose professional
+right lung,mesothelioma,T4N2M0,BAP1 negative,pleural,deteriorating,complex,allergies,incomplete staging format,Complex Initial Assessment,Standard Narrative,Concise and factual
+lung NOS,adenocarcinoma,Stage IV,KEAP1/STK11 co-mutation; PD-L1 negative,bone/liver/adrenal,deteriorating,complex,"treatment_toxicity,social_background",,Complex Progressive Disease,Standard Narrative,Verbose professional
+right lung,pleomorphic carcinoma,T4N3M1b,PD-L1 90%,carcinomatous meningitis,deteriorating,complex,living_situation,missing biomarker dates,Treatment Change,Fully Narrative,Verbose narrative
+bronchus,mucoepidermoid carcinoma,T2aN0M0,MAML2 fusion,none,stable,simple,"smoking_status,grade",,Simple Follow-up,Short Structured,Concise and factual
+bilateral lungs,adenocarcinoma,Stage IIIC,STK11/KEAP1 mutation; PD-L1 5%,bulky mediastinal disease,improving,complex,performance_status,,Clinical Trial Registration,Standard Semi-structured,Brief business-like
+lung primary,combined small cell carcinoma,T3N2M1c,DLL3 high; ASCL1 positive,widespread metastases,deteriorating,complex,"marker_trends,vital_signs",,End of Treatment,Block-Label Format,Verbose professional
+left main bronchus,typical carcinoid,T2N0M0,SSTR2 positive,,stable,simple,examination_findings,,Initial Assessment,Highly Structured Summary,Concise and factual
+right apical,spindle cell carcinoma,T3N1M0,PD-L1 60%; SMA positive,chest wall invasion,improving,complex,"trial_status,living_situation",,Treatment Review,Standard Narrative,Brief business-like
+lung,giant cell carcinoma,Stage IV,PD-L1 100%; EGFR amplified,leptomeningeal disease,deteriorating,complex,comorbidities,,Complex Initial Assessment,Fully Narrative,Verbose narrative
+central airway,adenoid cystic carcinoma,T4N0M0,MYB-NFIB fusion,,stable,simple,allergies,,Simple Follow-up,Short Structured,Concise and factual
+right lung base,large cell carcinoma,T2bN2M1a,PD-L1 80%; FGFR4 mutation,pleural metastases,improving,complex,"smoking_status,vital_signs",,MDT Outcome,Standard Semi-structured,Brief business-like
+endobronchial,squamous cell carcinoma,Stage IIIA,NFE2L2 mutation; PD-L1 40%,locally advanced,stable,simple,trial_name,,Treatment Change,Block-Label Format,Verbose professional
+bilateral disease,adenocarcinoma,T4N3M1c,HER2 G776delinsVC mutation,miliary metastases,deteriorating,complex,"grade,marker_trends",,Complex Progressive Disease,Highly Structured Summary,Verbose narrative
+right hilar mass,basaloid carcinoma,Stage IIIB,SOX2 amplification; PD-L1 25%,mediastinal invasion,improving,simple,living_situation,,Clinical Trial Assessment,Standard Narrative,Concise and factual
+lung,lymphoepithelioma-like carcinoma,T2aN1M0,EBV positive; PD-L1 95%,,stable,complex,"trial_status,examination_findings",,Treatment Review,Fully Narrative,Brief business-like
+central,small cell carcinoma,Stage IV,NOTCH inactivation,brain/liver/bone,deteriorating,complex,performance_status,,End of Treatment,Short Structured,Verbose professional
+bronchial,atypical carcinoid,T1bN0M0,SSTR2/5 positive,,improving,simple,"smoking_status,vital_signs",,Initial Assessment,Standard Semi-structured,Concise and factual
+peripheral lung,sarcomatoid carcinoma,T3N2M1a,MDM2 amplification,pleural disease,deteriorating,complex,marker_trends,,Treatment Change,Block-Label Format,Verbose narrative
+lung parenchyma,adenocarcinoma,Stage IVB,SMARCA4 mutation; PD-L1 0%,widespread bone/liver,stable,complex,"grade,allergies",,Complex Progressive Disease,Highly Structured Summary,Brief business-like
+right lower,NUT carcinoma,T4N2M1b,NUT midline rearrangement,brain metastases,deteriorating,simple,trial_name,,MDT Outcome,Standard Narrative,Verbose professional
+lung,adenosquamous carcinoma,Stage IIIB,PIK3CA mutation; PD-L1 50%,locally advanced,stable,complex,"living_situation,vital_signs",,Treatment Review,Fully Narrative,Concise and factual
+left chest wall,small cell carcinoma,T3N0M0,PTEN loss,,improving,complex,examination_findings,,Complex Initial Assessment,Short Structured,Brief business-like
+subpleural,adenocarcinoma,Stage IV,KRASG12C/STK11 co-mutation,oligometastatic brain,stable,simple,"performance_status,marker_trends",,Simple Follow-up,Standard Semi-structured,Verbose narrative
+mainstem bronchus,squamous cell carcinoma,T4N1M0,CDKN2A loss; PD-L1 30%,,deteriorating,simple,trial_status,,Treatment Change,Block-Label Format,Verbose professional
+diffuse lung,large cell neuroendocrine,extensive stage,RB1/TP53 loss,liver/bone,improving,complex,"smoking_status,grade",,Clinical Trial Registration,Highly Structured Summary,Concise and factual
+right apex,adenocarcinoma,T1cN0M1c,EGFR C797S mutation,solitary brain,stable,complex,allergies,,Complex Progressive Disease,Standard Narrative,Brief business-like
+lung,papillary adenocarcinoma,Stage IIIA,BRAF non-V600E; PD-L1 85%,locally advanced,improving,simple,"living_situation,vital_signs",,Initial Assessment,Fully Narrative,Verbose narrative
+prostate peripheral zone,acinar adenocarcinoma,T2aN0M0,PSA 4.2 Gleason 3+3 (Grade Group 1),none,stable,simple,patient_status:vital_signs,,Simple Follow-up,Standard Narrative,Concise and factual
+prostate apex,adenocarcinoma,,PSA 125 Gleason 4+5=9,bone spine pelvis,deteriorating,complex,"social_background:smoking_status,medical_background:allergies",missing entire medications section,Complex Progressive Disease,Fully Narrative,Verbose professional
+prostate bilateral,small cell carcinoma,Stage IV,Chromogranin A elevated PSA 2.1,liver lungs bone,deteriorating,complex,,,Clinical Trial Assessment,Highly Structured Summary,Concise and factual
+prostate right base,ductal adenocarcinoma,T3bN1M0,PSA 28.4 Gleason 4+4 (Grade Group 4),lymph nodes,stable,simple,"treatment:treatment_toxicity,administrative:clinic_type",,Treatment Review,Short Structured,Brief business-like
+prostate,acinar adenocarcinoma,T2c,PSA 8.2 PSMA PET positive,none,improving,simple,,,Initial Assessment,Standard Semi-Structured,Concise and factual
+prostate left base,adenocarcinoma with neuroendocrine differentiation,mets,PSA 542 NE markers positive,widespread bone,deteriorating,complex,"social_background:living_situation,patient_status:vital_signs",inconsistent date formats,Treatment Change,Block-Label Format,Verbose professional
+prostate transition zone,acinar adenocarcinoma,T1c,PSA 6.8 Gleason 3+4 (Grade Group 2),none,stable,simple,medical_background:medications,,Simple Follow-up,Standard Narrative,Brief business-like
+prostate,,Stage IIIB,PSA 42.1 Gleason 4+3,regional nodes,stable,complex,care_plan:planned_investigations,missing staging details,MDT Outcome,Highly Structured Summary,Concise and factual
+prostate bilateral,mixed acinar-ductal carcinoma,T4N1M1,PSA 892 Gleason 5+5,bone liver brain,deteriorating,complex,,,Complex Progressive Disease,Fully Narrative,Verbose professional
+prostate right apex,adenocarcinoma,T2a,PSA 5.4 AR-V7 negative,none,improving,simple,"administrative:mdt_details,social_background:smoking_status",,Treatment Review,Short Structured,Brief business-like
+prostate base,intraductal carcinoma,T3a,PSA 18.2 Gleason 4+4,none,stable,simple,,,Initial Assessment,Standard Semi-Structured,Concise and factual
+prostate multifocal,acinar adenocarcinoma,Stage IV,PSA 234 BRCA2 positive,bone,deteriorating,complex,"patient_status:vital_signs,administrative:clinic_type",missing biomarker values,Clinical Trial Registration,Block-Label Format,Verbose professional
+prostate right zone,small cell carcinoma,,PSA 1.2 NE markers elevated,liver lung,deteriorating,complex,medical_background:allergies,,Complex Progressive Disease,Standard Narrative,Brief business-like
+prostate left base,adenocarcinoma,T2b,PSA 7.8 PD-L1 10%,none,stable,simple,,,Treatment Review,Highly Structured Summary,Concise and factual
+prostate,ductal adenocarcinoma,mets,PSA 445 MMR-deficient,bone brain,deteriorating,complex,"social_background:living_situation,administrative:mdt_details",inconsistent biomarker formatting,Treatment Change,Fully Narrative,Verbose professional
+prostate bilateral,acinar adenocarcinoma,T3bN1M0,PSA 32.1 Gleason 4+5,lymph nodes,stable,complex,care_plan:planned_investigations,,MDT Outcome,Short Structured,Brief business-like
+prostate right base,,Stage IV,PSA 678 PTEN loss,widespread,deteriorating,complex,"patient_status:vital_signs,medical_background:medications",missing morphology details,Complex Progressive Disease,Standard Semi-Structured,Concise and factual
+prostate apex,adenocarcinoma with neuroendocrine features,T4N1M1c,PSA 3.2 Chromogranin A high,liver bone,deteriorating,complex,,,Clinical Trial Assessment,Block-Label Format,Verbose professional
+prostate,acinar adenocarcinoma,T2a,PSA 5.6 Gleason 3+3,none,improving,simple,"administrative:clinic_type,social_background:smoking_status",,Simple Follow-up,Standard Narrative,Brief business-like
+prostate left zone,mixed carcinoma,Stage IIIC,PSA 89.4 ATM mutation,nodes,stable,complex,patient_status:vital_signs,,Treatment Review,Highly Structured Summary,Concise and factual
+prostate multifocal,ductal adenocarcinoma,T3b,PSA 28.9 BRCA1 positive,none,stable,complex,"medical_background:allergies,administrative:mdt_details",missing treatment dates,Clinical Trial Registration,Fully Narrative,Verbose professional
+prostate right base,small cell carcinoma,mets,PSA 0.8 NE markers high,liver lung bone,deteriorating,complex,social_background:living_situation,,Complex Progressive Disease,Short Structured,Brief business-like
+prostate,acinar adenocarcinoma,T2c,PSA 9.2 Gleason 3+4,none,improving,simple,,,Initial Assessment,Standard Semi-Structured,Concise and factual
+prostate bilateral,adenocarcinoma,Stage IV,PSA 567 CHEK2 mutation,bone brain,deteriorating,complex,"patient_status:vital_signs,care_plan:planned_investigations",inconsistent staging format,Treatment Change,Block-Label Format,Verbose professional
+prostate left apex,mixed carcinoma,T4N1M1,PSA 789 MSI-high,widespread,deteriorating,complex,medical_background:medications,,Complex Progressive Disease,Standard Narrative,Brief business-like
+prostate right zone,acinar adenocarcinoma,T2b,PSA 6.7 Gleason 3+4,none,stable,simple,"administrative:clinic_type,social_background:smoking_status",,Treatment Review,Highly Structured Summary,Concise and factual
+prostate base,ductal adenocarcinoma,Stage IIIB,PSA 45.6 CDK12 loss,nodes,stable,complex,,,MDT Outcome,Fully Narrative,Verbose professional
+prostate,adenocarcinoma with ductal features,T3aN1M0,PSA 34.2 Gleason 4+4,lymph nodes,stable,complex,"patient_status:vital_signs,administrative:mdt_details",missing examination findings,Clinical Trial Assessment,Short Structured,Brief business-like
+prostate bilateral,,mets,PSA 892 PALB2 mutation,bone liver,deteriorating,complex,social_background:living_situation,,Complex Progressive Disease,Standard Semi-Structured,Concise and factual
+prostate right base,acinar adenocarcinoma,T2a,PSA 4.8 Gleason 3+3,none,improving,simple,,,Simple Follow-up,Block-Label Format,Verbose professional
+prostate left zone,small cell carcinoma,Stage IV,PSA 1.4 NE markers elevated,liver lung bone,deteriorating,complex,"medical_background:allergies,care_plan:planned_investigations",missing biomarker details,Treatment Change,Standard Narrative,Brief business-like
+prostate,adenocarcinoma,T3b,PSA 28.6 FANCA mutation,none,stable,complex,"administrative:clinic_type,patient_status:vital_signs",,Clinical Trial Registration,Highly Structured Summary,Concise and factual
+prostate multifocal,ductal adenocarcinoma,T4N1M1,PSA 678 RAD51D positive,widespread,deteriorating,complex,,,Complex Progressive Disease,Fully Narrative,Verbose professional
+prostate right apex,acinar adenocarcinoma,T2c,PSA 7.9 Gleason 3+4,none,improving,simple,social_background:smoking_status,,Treatment Review,Short Structured,Brief business-like
+prostate base,mixed carcinoma,Stage IIIC,PSA 67.8 SPOP mutation,nodes,stable,complex,"medical_background:medications,administrative:mdt_details",inconsistent PSA units,MDT Outcome,Standard Semi-Structured,Concise and factual
+prostate left zone,adenocarcinoma with neuroendocrine features,,PSA 2.1 Chromogranin A high,liver bone,deteriorating,complex,patient_status:vital_signs,,Complex Progressive Disease,Block-Label Format,Verbose professional
+prostate,acinar adenocarcinoma,T2b,PSA 6.2 Gleason 3+3,none,stable,simple,,,Simple Follow-up,Standard Narrative,Brief business-like
+prostate bilateral,ductal adenocarcinoma,T3aN0M0,PSA 23.4 NBN mutation,none,stable,complex,"care_plan:planned_investigations,social_background:living_situation",,Clinical Trial Assessment,Highly Structured Summary,Concise and factual
+prostate right base,small cell carcinoma,Stage IV,PSA 0.9 NE markers high,liver lung,deteriorating,complex,medical_background:allergies,missing treatment response details,Treatment Change,Fully Narrative,Verbose professional
+prostate left apex,adenocarcinoma,T2a,PSA 5.1 BRIP1 positive,none,improving,simple,"administrative:clinic_type,patient_status:vital_signs",,Treatment Review,Short Structured,Brief business-like
+prostate,mixed carcinoma,mets,PSA 456 TP53 mutation,bone brain,deteriorating,complex,,,Complex Progressive Disease,Standard Semi-Structured,Concise and factual
+prostate multifocal,acinar adenocarcinoma,T3b,PSA 34.5 Gleason 4+4,none,stable,complex,"social_background:smoking_status,administrative:mdt_details",missing examination findings,MDT Outcome,Block-Label Format,Verbose professional
+prostate right zone,ductal adenocarcinoma,Stage IIIB,PSA 89.2 HOXB13 mutation,nodes,stable,complex,medical_background:medications,,Clinical Trial Registration,Standard Narrative,Brief business-like
+prostate base,adenocarcinoma with ductal features,T4N1M1,PSA 567 MMR-deficient,widespread,deteriorating,complex,"patient_status:vital_signs,care_plan:planned_investigations",,Complex Progressive Disease,Highly Structured Summary,Concise and factual
+prostate left zone,small cell carcinoma,,PSA 1.8 NE markers elevated,liver bone,deteriorating,complex,social_background:living_situation,missing staging information,Treatment Change,Fully Narrative,Verbose professional
+prostate,acinar adenocarcinoma,T2c,PSA 8.4 Gleason 3+4,none,improving,simple,,,Simple Follow-up,Short Structured,Brief business-like
+prostate bilateral,mixed carcinoma,Stage IV,PSA 234 FANCI mutation,bone,deteriorating,complex,"medical_background:allergies,administrative:mdt_details",inconsistent date formats,Clinical Trial Assessment,Standard Semi-Structured,Concise and factual
+prostate right apex,ductal adenocarcinoma,T3aN1M0,PSA 45.6 Gleason 4+5,lymph nodes,stable,complex,"patient_status:vital_signs,social_background:smoking_status",,MDT Outcome,Block-Label Format,Verbose professional
+prostate base,adenocarcinoma,T2b,PSA 6.9 CHEK1 mutation,none,stable,simple,care_plan:planned_investigations,,Treatment Review,Standard Narrative,Brief business-like
+prostate left zone,acinar adenocarcinoma,mets,PSA 789 AR amplification,widespread,deteriorating,complex,"administrative:clinic_type,medical_background:medications",missing biomarker values,Complex Progressive Disease,Highly Structured Summary,Concise and factual
+prostate,sarcomatoid carcinoma,T3bN0M1,PSA 0.1 HR-deficient,lung liver brain,deteriorating,complex,patient_status:vital_signs,,Complex Progressive Disease,Standard Narrative,Verbose professional
+prostate,adenosquamous carcinoma,T4N2M1,PSA 3.2 PD-L1 90%,widespread bone brain CSF,deteriorating,complex,,,Clinical Trial Assessment,Highly Structured Summary,Concise and factual
+prostate,basal cell carcinoma,T2aN0M0,PSA 12.4 p53 negative,none,improving,simple,"treatment:treatment_toxicity,social_background:smoking_status",,Initial Assessment,Short Structured,Brief business-like
+prostate,pleomorphic giant cell carcinoma,Stage IVB,PSA 1892 MSI-high TMB-high,leptomeningeal,deteriorating,complex,,,Complex Progressive Disease,Standard Semi-Structured,Verbose professional
+prostate,mucinous adenocarcinoma,T2b,PSA 7.8 PTEN intact,none,stable,simple,patient_status:vital_signs,,Simple Follow-up,Block-Label Format,Brief business-like
+prostate,signet ring carcinoma,M1c,PSA 345 CDK12 biallelic loss,peritoneal carcinomatosis,deteriorating,complex,,,Treatment Change,Fully Narrative,Verbose professional
+prostate,adenocarcinoma with Paneth cell-like differentiation,T3a,PSA 18.9 MMR-proficient,none,stable,simple,"medical_background:allergies,administrative:clinic_type",,Treatment Review,Standard Narrative,Concise and factual
+prostate,rhabdoid carcinoma,Stage IV,PSA 567 RB1/TP53 loss,brain spine cord compression,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,Verbose professional
+prostate,lymphoepithelioma-like carcinoma,T2cN1M0,PSA 23.4 EBV positive,nodes only,stable,complex,care_plan:planned_investigations,,Clinical Trial Registration,Short Structured,Brief business-like
+prostate,plasmacytoid carcinoma,T4N1M1,PSA 789 AR-null,bone marrow replacement,deteriorating,complex,,,Treatment Change,Standard Semi-Structured,Verbose professional
+prostate,clear cell adenocarcinoma,T1c,PSA 4.2 BRCA1/2 wildtype,none,improving,simple,"patient_status:vital_signs,social_background:smoking_status",,Simple Follow-up,Block-Label Format,Concise and factual
+prostate,carcinosarcoma,Stage IVB,PSA 2345 RB1 loss NE-high,visceral crisis,deteriorating,complex,,,MDT Outcome,Fully Narrative,Brief business-like
+prostate,micropapillary carcinoma,T3b,PSA 28.6 SPOP wildtype,none,stable,simple,"treatment:treatment_toxicity,administrative:clinic_type",,Treatment Review,Standard Narrative,Verbose professional
+prostate,adenocarcinoma with glomeruloid features,T2a,PSA 6.4 FOXA1 mutant,none,improving,simple,,,Initial Assessment,Highly Structured Summary,Concise and factual
+prostate,osteoclast-rich undifferentiated carcinoma,M1b,PSA 892 GATA2 positive,superscan bone mets,deteriorating,complex,patient_status:vital_signs,,Complex Progressive Disease,Short Structured,Brief business-like
+prostate,giant cell carcinoma,Stage IV,PSA 1.2 NE transformation,CNS only,deteriorating,complex,,,Clinical Trial Assessment,Standard Semi-Structured,Verbose professional
+prostate,adenocarcinoma with vacuolated cell features,T2b,PSA 8.9 PTEN monoallelic,none,stable,simple,"medical_background:allergies,social_background:smoking_status",,Simple Follow-up,Block-Label Format,Concise and factual
+prostate,small cell carcinoma with large cell features,T4N2M1,PSA 0.4 MYCN amplified,liver only,deteriorating,complex,,,Treatment Change,Fully Narrative,Brief business-like
+prostate,pleomorphic carcinoma,T3aN0M0,PSA 34.5 AR-low,none,stable,complex,care_plan:planned_investigations,,MDT Outcome,Standard Narrative,Verbose professional
+prostate,hybrid acinar-neuroendocrine carcinoma,Stage IV,PSA 456 RB1/TP53/PTEN loss,brain bone liver,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,Concise and factual
+prostate,basaloid carcinoma,T2c,PSA 9.2 basal marker positive,none,improving,simple,"patient_status:vital_signs,administrative:clinic_type",,Treatment Review,Short Structured,Brief business-like
+prostate,adenosquamous carcinoma with sarcomatoid change,T4N2M1,PSA 678 PD-L1 100%,cutaneous mets,deteriorating,complex,,,Clinical Trial Assessment,Standard Semi-Structured,Verbose professional
+prostate,mixed adenocarcinoma-neuroendocrine carcinoma,M1c,PSA 2.1 AURKA amplified,choroidal mets,deteriorating,complex,,,Treatment Change,Block-Label Format,Concise and factual
+prostate,adenocarcinoma with squamoid features,T1c,PSA 4.8 AR-V7 positive,none,stable,simple,"medical_background:allergies,social_background:smoking_status",,Simple Follow-up,Fully Narrative,Brief business-like
+prostate,neuroendocrine carcinoma with rhabdoid features,Stage IVB,PSA 0.1 TP53/RB1/PTEN/CYLD loss,dural mets,deteriorating,complex,,,Complex Progressive Disease,Standard Narrative,Verbose professional
+sigmoid colon,adenocarcinoma,pT3N1M0,MMR proficient; KRAS mutant; BRAF wild-type,none,stable,simple,,missing_words_in_treatment_section,Simple Follow-up,Standard Narrative,Concise and factual
+rectum,mucinous adenocarcinoma,Duke's C1,MSI-high; NRAS G12D mutation,liver mets,deteriorating,complex,medical_background,,Complex Progressive Disease,Fully Narrative,Verbose professional
+ascending colon,signet ring adenocarcinoma,T4bN2M1,HER2 amplified; PIK3CA mutant,peritoneal disease,improving,complex,social_background,inconsistent_date_formats,Treatment Change,Block-Label Format,Brief business-like
+cecum,,Stage IIIB,MMR deficient; BRAF V600E mutant,,stable,simple,clinical_trial,missing_performance_status,Simple Follow-up,Short Structured,Concise and factual
+rectosigmoid junction,adenocarcinoma,pT2N0M0,NTRK fusion positive,none,improving,simple,,,Initial Assessment,Standard Semi-Structured,Verbose professional
+transverse colon,adenocarcinoma with neuroendocrine features,Duke's B,MSS; KRAS G12V mutation,liver and lung mets,deteriorating,complex,,spelling_errors_in_diagnosis,Treatment Review,Highly Structured Summary,Brief business-like
+descending colon,conventional adenocarcinoma,Stage IV,POLE mutant,widespread bone mets,stable,complex,patient_status,,Clinical Trial Registration,Standard Narrative,Verbose empathetic
+rectum,poorly differentiated adenocarcinoma,ypT3N1M0,HER2 negative; RAS wild-type,liver only,improving,simple,care_plan,missing_biomarker_values,MDT Outcome,Block-Label Format,Concise and factual
+cecum,medullary carcinoma,T3N1M0,MSI-high; TMB-high,none,stable,simple,,inconsistent_spacing,Simple Follow-up,Short Structured,Brief business-like
+sigmoid colon,,Duke's D,BRAF V600E mutant; MMR proficient,peritoneal and liver,deteriorating,complex,social_background,,Complex Progressive Disease,Fully Narrative,Verbose professional
+ascending colon,adenocarcinoma,Stage IIIC,KRAS G13D mutation,,stable,complex,medical_background,missing_staging_details,Treatment Review,Standard Semi-Structured,Concise and factual
+rectum,mucinous adenocarcinoma,ypT0N0M0,EGFR amplification; HER2 positive,none,improving,simple,,corrupted_treatment_dates,End of Treatment,Highly Structured Summary,Brief business-like
+hepatic flexure,micropapillary adenocarcinoma,T4aN2bM1,RAS/RAF wild-type,liver only,stable,complex,clinical_trial,,Clinical Trial Assessment,Standard Narrative,Verbose empathetic
+sigmoid colon,serrated adenocarcinoma,Duke's C2,MSI-low; BRAF non-V600E mutant,lung mets,deteriorating,complex,,missing_social_history,Treatment Change,Block-Label Format,Concise and factual
+rectum,,Stage IIA,NTRK1-LMNA fusion,none,improving,simple,patient_status,incomplete_biomarker_section,Initial Assessment,Short Structured,Brief business-like
+cecum,adenocarcinoma with signet ring features,pT4bN2M1c,HER2 positive; MMR proficient,peritoneal disease,deteriorating,complex,,,Complex Progressive Disease,Standard Semi-Structured,Verbose professional
+transverse colon,conventional adenocarcinoma,Duke's B,KRAS A146T mutation; PIK3CA E545K,none,stable,simple,medical_background,missing_comorbidities,Simple Follow-up,Highly Structured Summary,Concise and factual
+rectosigmoid junction,,T3N0M0,MSS; BRAF wild-type,,improving,simple,care_plan,,Treatment Review,Standard Narrative,Brief business-like
+ascending colon,mucinous adenocarcinoma,Stage IIIB,ERBB2 amplified,liver and lung mets,deteriorating,complex,,corrupted_biomarker_values,Treatment Change,Block-Label Format,Verbose empathetic
+descending colon,medullary carcinoma,pT3N1M0,MSI-high; PDL1 CPS 90,none,stable,simple,clinical_trial,missing_examination_findings,Simple Follow-up,Short Structured,Concise and factual
+rectum,poorly differentiated adenocarcinoma,Duke's C1,KRAS G12D mutation; BRAF wild-type,liver only,improving,complex,,,MDT Outcome,Fully Narrative,Verbose professional
+sigmoid colon,adenocarcinoma,T4N1M1,MMR proficient; HER2 negative,peritoneal disease,deteriorating,complex,social_background,inconsistent_staging_format,Complex Progressive Disease,Standard Semi-Structured,Brief business-like
+cecum,signet ring adenocarcinoma,Stage IV,NRAS Q61R mutation,,stable,simple,patient_status,,Treatment Review,Highly Structured Summary,Verbose empathetic
+transverse colon,,pT2N0M0,MSS; PIK3CA H1047R mutant,none,improving,simple,,missing_treatment_details,Initial Assessment,Standard Narrative,Concise and factual
+hepatic flexure,conventional adenocarcinoma,Duke's D,BRAF V600K mutant; MMR proficient,liver and bone mets,deteriorating,complex,medical_background,,Complex Progressive Disease,Block-Label Format,Brief business-like
+rectum,mucinous adenocarcinoma,T3N1M0,HER2 positive; RAS wild-type,none,stable,simple,clinical_trial,incomplete_performance_status,Simple Follow-up,Short Structured,Verbose professional
+sigmoid colon,micropapillary adenocarcinoma,Stage IIIC,MSI-high; TMB-high,liver mets,improving,complex,,missing_dates,Treatment Change,Standard Semi-Structured,Concise and factual
+ascending colon,,ypT3N0M0,KRAS G12V mutation; PIK3CA E542K,,deteriorating,complex,care_plan,,Clinical Trial Assessment,Highly Structured Summary,Brief business-like
+descending colon,adenocarcinoma with neuroendocrine features,Duke's B,NTRK3-ETV6 fusion,none,stable,simple,patient_status,corrupted_pathology_details,Simple Follow-up,Standard Narrative,Verbose empathetic
+rectosigmoid junction,poorly differentiated adenocarcinoma,T4bN2M1,MMR proficient; BRAF wild-type,peritoneal and liver,deteriorating,complex,,,Complex Progressive Disease,Block-Label Format,Concise and factual
+cecum,conventional adenocarcinoma,Stage IIB,KRAS Q61H mutation,none,improving,simple,medical_background,missing_social_details,Initial Assessment,Short Structured,Brief business-like
+sigmoid colon,mucinous adenocarcinoma,pT3N2M0,MSI-low; HER2 negative,,stable,complex,clinical_trial,,Treatment Review,Standard Semi-Structured,Verbose professional
+rectum,,Duke's C2,BRAF V600E mutant; PIK3CA mutant,liver only,deteriorating,complex,social_background,inconsistent_biomarker_format,Treatment Change,Highly Structured Summary,Concise and factual
+transverse colon,adenocarcinoma,T2N0M0,KRAS G13D mutation; MMR proficient,none,improving,simple,,missing_examination_section,Simple Follow-up,Standard Narrative,Brief business-like
+ascending colon,signet ring adenocarcinoma,Stage IV,HER2 positive; RAS wild-type,peritoneal disease,stable,complex,care_plan,,Clinical Trial Registration,Block-Label Format,Verbose empathetic
+hepatic flexure,medullary carcinoma,pT4aN2M1,MSI-high; PDL1 CPS 85,liver and lung mets,deteriorating,complex,,corrupted_treatment_sections,Complex Progressive Disease,Short Structured,Concise and factual
+descending colon,,Duke's D,NRAS G12C mutation; BRAF wild-type,,improving,simple,patient_status,,Treatment Review,Fully Narrative,Brief business-like
+rectosigmoid junction,adenocarcinoma,T3N1M0,MMR proficient; PIK3CA E545K,none,stable,simple,medical_background,missing_staging_information,Simple Follow-up,Standard Semi-Structured,Verbose professional
+sigmoid colon,mucinous adenocarcinoma,Stage IIIB,ERBB2 amplified; RAS wild-type,liver mets,deteriorating,complex,,,MDT Outcome,Highly Structured Summary,Concise and factual
+cecum,poorly differentiated adenocarcinoma,pT2N0M0,MSS; BRAF V600E mutant,none,improving,simple,clinical_trial,incomplete_biomarker_values,Initial Assessment,Standard Narrative,Brief business-like
+rectum,,Duke's B,KRAS G12A mutation; HER2 negative,peritoneal disease,stable,complex,social_background,,Complex Progressive Disease,Block-Label Format,Verbose empathetic
+transverse colon,adenocarcinoma with signet ring features,T4N2M1,NTRK2-STRN fusion,,deteriorating,complex,care_plan,missing_treatment_response,Treatment Change,Short Structured,Concise and factual
+ascending colon,conventional adenocarcinoma,Stage IIA,MMR proficient; PIK3CA H1047R,none,improving,simple,,,Simple Follow-up,Standard Semi-Structured,Brief business-like
+descending colon,micropapillary adenocarcinoma,pT3N1M0,KRAS G12C mutation; BRAF wild-type,liver and bone mets,stable,complex,medical_background,corrupted_patient_details,Clinical Trial Assessment,Highly Structured Summary,Verbose professional
+rectosigmoid junction,,Duke's C1,HER2 positive; MSI-high,none,deteriorating,simple,patient_status,,Treatment Review,Standard Narrative,Concise and factual
+sigmoid colon,mucinous adenocarcinoma,T4bN2M1,NRAS Q61K mutation; PIK3CA E542K,peritoneal and liver,improving,complex,clinical_trial,missing_performance_status,Complex Progressive Disease,Block-Label Format,Brief business-like
+cecum,adenocarcinoma,Stage IIIC,MMR proficient; BRAF V600K,liver only,stable,complex,,inconsistent_date_formats,Treatment Change,Short Structured,Verbose empathetic
+rectum,poorly differentiated adenocarcinoma,pT2N0M0,KRAS G13D mutation; HER2 negative,none,deteriorating,simple,social_background,,Simple Follow-up,Fully Narrative,Concise and factual
+transverse colon,medullary carcinoma,Duke's D,MSI-high; TMB-high; PDL1 CPS 95,liver and lung mets,improving,complex,care_plan,missing_treatment_details,End of Treatment,Standard Semi-Structured,Brief business-like
+appendix,goblet cell adenocarcinoma,T4N1M1,MSI-high; BRAF V600E; PD-L1 high,peritoneal with krukenberg,deteriorating,complex,,,Complex Progressive Disease,Standard Narrative,Verbose professional
+rectum,squamous cell carcinoma,T2N0M0,PD-L1 CPS 95; HPV positive,none,improving,simple,,,Initial Assessment,Block-Label Format,Concise and factual
+ileocecal valve,neuroendocrine carcinoma,T3N2M1,SSTR2 positive; Ki67 80%,liver and bone,stable,complex,,,Treatment Change,Highly Structured Summary,Brief business-like
+rectum,melanoma,T4bN2M1,BRAF V600E; KIT negative,widespread,deteriorating,complex,,,Complex Initial Assessment,Standard Semi-Structured,Verbose professional
+sigmoid colon,adenosquamous carcinoma,T3N1M0,MMR proficient; PD-L1 negative,none,stable,simple,,,MDT Outcome,Short Structured,Concise and factual
+cecum,clear cell adenocarcinoma,T4N2M1,MSI-high; Lynch syndrome,peritoneal and ovarian,improving,complex,,,Clinical Trial Registration,Fully Narrative,Verbose professional
+rectum,basaloid squamous carcinoma,T2N0M0,p16 positive; PD-L1 high,none,stable,simple,,,Simple Follow-up,Standard Narrative,Brief business-like
+transverse colon,adenocarcinoma ex serrated adenoma,TisN0M0,KRAS G12C; BRAF wild-type,none,improving,simple,,,Initial Assessment,Block-Label Format,Concise and factual
+rectosigmoid,small cell carcinoma,T3N1M1,SSTR2 negative; Ki67 95%,liver and brain,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,Verbose professional
+appendix,low-grade appendiceal mucinous neoplasm,T4aN0M1,GNAS mutant,extensive pseudomyxoma,stable,complex,,,Treatment Review,Standard Semi-Structured,Brief business-like
+rectum,gastrointestinal stromal tumor,NA,KIT exon 11 mutation,liver only,improving,complex,,,Clinical Trial Assessment,Short Structured,Concise and factual
+ascending colon,mixed adenoneuroendocrine carcinoma,T3N1M1,SSTR2 positive; KRAS mutant,liver and nodes,deteriorating,complex,,,Complex Progressive Disease,Fully Narrative,Verbose professional
+rectum,mucinous adenocarcinoma post-neoadjuvant,ypT0N0M0,Complete pathological response,none,improving,simple,,,End of Treatment,Standard Narrative,Brief business-like
+sigmoid colon,micropapillary variant,T4bN2M1,HER2 amplified; MSI-high,peritoneal and distant nodes,stable,complex,,,Treatment Change,Block-Label Format,Concise and factual
+cecum,synchronous adenocarcinomas,T3N0M0/T2N0M0,Discordant MMR status,none,improving,complex,,,Multiple Cancer,Highly Structured Summary,Verbose professional
+rectum,spindle cell carcinoma,T4aN2M1,PD-L1 high; MMR proficient,lung and liver,deteriorating,complex,,,Complex Progressive Disease,Standard Semi-Structured,Brief business-like
+ascending colon,medullary carcinoma with lymphoid stroma,T3N0M0,MSI-high; Lynch syndrome,none,stable,simple,,,Initial Assessment,Short Structured,Concise and factual
+rectum,primary squamous with HPV,T2N1M0,p16 positive; PD-L1 CPS 90,nodes only,improving,simple,,,Treatment Review,Fully Narrative,Verbose professional
+appendix,signet ring with goblet cell features,T4N1M1,KRAS wild-type,peritoneal with Sister Mary Joseph,deteriorating,complex,,,Transfer of Care,Standard Narrative,Brief business-like
+hepatic flexure,collision tumor (adeno-NET),T3N1M0,Mixed SSTR2/KRAS status,none,stable,complex,,,MDT Outcome,Block-Label Format,Concise and factual
+rectum,rhabdoid features,T4bN2M1,INI1 loss; PD-L1 high,widespread,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,Verbose professional
+sigmoid colon,choriocarcinomatous differentiation,T3N1M1,β-HCG producing,lung and liver,improving,complex,,,Clinical Trial Registration,Standard Semi-Structured,Brief business-like
+rectum,verrucous carcinoma,T2N0M0,p16 negative; MMR proficient,none,stable,simple,,,Simple Follow-up,Short Structured,Concise and factual
+cecum,adenocarcinoma with osseous metaplasia,T4aN2M1,NTRK fusion; MSI-high,bone predominant,deteriorating,complex,,,Complex Progressive Disease,Fully Narrative,Verbose professional
+transverse colon,carcinosarcoma,T4bN2M1,PDL1 high; MMR proficient,widespread,deteriorating,complex,,,Transfer of Care,Standard Narrative,Brief business-like
+pancreas head,ductal adenocarcinoma,T3N1M0,KRAS G12D; BRCA2 negative,liver; peritoneum,deteriorating,complex,performance_status; follow_up,,Complex Progressive Disease,Standard Semi-Structured,Verbose narrative
+pancreas tail,poorly differentiated adenocarcinoma,Stage IIB,CDK4/6 amplification,none,stable,simple,social_background,,Simple Follow-up,Short Structured,Concise factual
+pancreas body,acinar cell carcinoma,T4N0M1,MSI-high; TMB 35 mut/Mb,liver,improving,complex,care_plan,,Treatment Review,Block-Label Format,Professional clinical
+pancreas head,neuroendocrine carcinoma,Stage IV,Ki67 80%; ChromograninA +,bone; liver,stable,complex,tumor_characteristics,,Treatment Change,Standard Narrative,Verbose narrative
+pancreas body and tail,mucinous adenocarcinoma,,PD-L1 CPS 80,peritoneal deposits,deteriorating,complex,examination_findings,missing staging information,MDT Outcome,Highly Structured Summary,Concise factual
+pancreas uncinate,mixed ductal-acinar carcinoma,T2N0M0,CDKN2A germline mutation,none,improving,simple,vital_signs,,Initial Assessment,Standard Narrative,Professional clinical
+pancreas head,adenosquamous carcinoma,Stage III,TP53 mutation; SMAD4 loss,,deteriorating,complex,weight_status,multiple spelling errors in treatments,Complex Initial Assessment,Fully Narrative,Empathetic descriptive
+pancreas body,clear cell carcinoma,T3N1M0,NTRK fusion positive,liver; lung,stable,complex,living_situation,,Treatment Review,Block-Label Format,Professional clinical
+pancreas diffuse,sarcomatoid carcinoma,,HER2 amplified,widespread bone,deteriorating,complex,smoking_status,inconsistent date formats,Complex Progressive Disease,Standard Semi-Structured,Verbose narrative
+pancreas head,medullary carcinoma,Stage IIA,MMR deficient,none,stable,simple,marker_trends,,Simple Follow-up,Short Structured,Concise factual
+pancreas tail,solid pseudopapillary neoplasm,T1N0M0,Beta-catenin nuclear +ve,,improving,simple,trial_status,,End of Treatment,Standard Narrative,Professional clinical
+pancreas body,intraductal papillary mucinous carcinoma,Stage IV,GNAS mutation,liver; lung; peritoneum,deteriorating,complex,investigation_findings,,Treatment Change,Highly Structured Summary,Verbose narrative
+pancreas head,colloid carcinoma,T4N1M0,CEA elevated >1000,widespread,stable,complex,allergies,missing entire treatment history,Transfer of Care,Block-Label Format,Professional clinical
+pancreas uncinate,signet ring adenocarcinoma,Stage IIB,CA19-9 >20000,none,improving,simple,clinical_trial,,Initial Assessment,Standard Semi-Structured,Concise factual
+pancreas body and tail,mixed neuroendocrine-ductal,,Synaptophysin +ve; CD56 +ve,liver,deteriorating,complex,living_situation,corrupted biomarker section,Complex Progressive Disease,Fully Narrative,Empathetic descriptive
+pancreas head,undifferentiated carcinoma,T3N0M0,BRAF V600E mutation,none,stable,simple,treatment_toxicity,,Simple Follow-up,Short Structured,Professional clinical
+pancreas diffuse,large cell neuroendocrine carcinoma,Stage III,NSE elevated; CgA normal,liver; bone,deteriorating,complex,social_background,,Treatment Review,Standard Narrative,Verbose narrative
+pancreas tail,microcystic serous carcinoma,T2N1M0,VHL mutation,none,improving,simple,marker_trends,,End of Treatment,Block-Label Format,Concise factual
+pancreas body,anaplastic carcinoma,Stage IV,p53 diffuse positive,widespread,deteriorating,complex,examination_findings,missing patient demographics,Complex Progressive Disease,Standard Semi-Structured,Professional clinical
+pancreas head,mixed acinar-endocrine,T4N1M1,PDX1 positive,liver; lung,stable,complex,vital_signs,,Treatment Change,Highly Structured Summary,Verbose narrative
+pancreas tail,small cell carcinoma,,CD56 strong positive,bone,deteriorating,complex,care_plan,random text corruption,Complex Initial Assessment,Fully Narrative,Empathetic descriptive
+pancreas body,hepatoid adenocarcinoma,Stage IIA,AFP markedly elevated,none,improving,simple,performance_status,,Simple Follow-up,Short Structured,Professional clinical
+pancreas head,oncocytic carcinoma,T3N1M0,KRAS wild type,none,stable,simple,smoking_status,,Initial Assessment,Standard Narrative,Concise factual
+pancreas diffuse,pleomorphic carcinoma,Stage IV,PDGFRα mutation,widespread,deteriorating,complex,trial_name,,Treatment Review,Block-Label Format,Professional clinical
+pancreas tail,spindle cell carcinoma,T2N0M0,CD117 positive,none,improving,simple,investigation_findings,,End of Treatment,Standard Semi-Structured,Verbose narrative
+pancreas,adenocarcinoma,T3N1M0,KRAS mutant G12D,none,stable,simple,"patient_status:vital_signs,administrative:clinic_type",,Simple Follow-up,Standard Narrative,Concise and factual
+pancreas,ductal adenocarcinoma,Stage IIB,MSI-high,none,improving,complex,"social_background:smoking_status,medical_background:allergies",,Treatment Review,Block-Label Format,Verbose professional
+pancreas,poorly differentiated adenocarcinoma,T4N2M1,PD-L1 CPS 80,liver|peritoneal,deteriorating,complex,patient_status:weight_status,missing treatment dates,Complex Progressive Disease,Standard Semi-Structured,Brief business-like
+pancreas,mucinous adenocarcinoma,,BRCA2 pathogenic variant,none,stable,simple,"care_plan:follow_up,administrative:mdt_details",,Initial Assessment,Short Structured,Concise and factual
+pancreas,adenocarcinoma,Stage IV,CDK4/6 amplification,liver|lung|bone,deteriorating,complex,clinical_trial:trial_status,multiple typos in medication names,Treatment Change,Fully Narrative,Verbose narrative
+pancreas,acinar cell carcinoma,T2N0M0,Microsatellite stable,none,improving,simple,"patient_status:examination_findings,medical_background:medications",,Simple Follow-up,Standard Narrative,Brief business-like
+pancreas,mixed ductal-acinar carcinoma,Stage III,CDKN2A germline mutation,peritoneal,stable,complex,social_background:functional_status,,Treatment Review,Highly Structured Summary,Verbose professional
+pancreas,neuroendocrine carcinoma,,Ki-67 80%,liver,deteriorating,complex,"cancer_diagnosis:grade,treatment:treatment_toxicity",missing biomarker results,Complex Progressive Disease,Standard Semi-Structured,Brief business-like
+pancreas,small cell carcinoma,T3N2M1,FGFR2 fusion,liver|lung,stable,complex,patient_status:vital_signs,,Treatment Change,Block-Label Format,Concise and factual
+pancreas,adenocarcinoma,Stage IIA,PALB2 mutation,none,improving,simple,"administrative:communication_details,clinical_trial:trial_name",,Simple Follow-up,Short Structured,Brief business-like
+pancreas,intraductal papillary mucinous neoplasm,T1N0M0,GNAS mutation,none,stable,simple,medical_background:comorbidities,,Initial Assessment,Standard Narrative,Concise and factual
+pancreas,adenosquamous carcinoma,Stage IV,TP53 mutation|SMAD4 loss,liver|peritoneal|lung,deteriorating,complex,social_background:living_situation,missing entire examination section,Complex Progressive Disease,Fully Narrative,Verbose professional
+pancreas,ductal adenocarcinoma,,HER2 amplified,liver,stable,complex,"treatment:treatment_response,administrative:accompanied_by",,Treatment Review,Standard Semi-Structured,Brief business-like
+pancreas,colloid carcinoma,T2N1M0,ATM mutation,none,improving,simple,patient_status:performance_status,,Simple Follow-up,Block-Label Format,Concise and factual
+pancreas,mixed neuroendocrine-non-neuroendocrine,Stage IIIB,Chromogranin A positive,peritoneal,deteriorating,complex,"cancer_diagnosis:lymph_node_status,care_plan:next_treatment",inconsistent date formats,Treatment Change,Highly Structured Summary,Verbose professional
+pancreas,adenocarcinoma,T4N1M1,RNF43 mutation,liver|lung,stable,complex,clinical_trial:trial_status,,Treatment Review,Standard Narrative,Brief business-like
+pancreas,solid-pseudopapillary neoplasm,,Beta-catenin nuclear positive,none,improving,simple,"medical_background:allergies,administrative:mdt_details",,Initial Assessment,Short Structured,Concise and factual
+pancreas,medullary carcinoma,Stage IV,MLH1/PMS2 loss,liver|bone,deteriorating,complex,patient_status:symptom_status,missing staging information,Complex Progressive Disease,Standard Semi-Structured,Verbose professional
+pancreas,adenocarcinoma,T3N0M0,NTRK fusion,none,stable,simple,"social_background:smoking_status,care_plan:planned_investigations",,Simple Follow-up,Block-Label Format,Brief business-like
+pancreas,large cell neuroendocrine,Stage IIIA,Synaptophysin positive,peritoneal,improving,complex,treatment:treatment_toxicity,,Treatment Review,Highly Structured Summary,Concise and factual
+pancreas,ductal adenocarcinoma,T4N2M1,ARID1A mutation,liver|lung,deteriorating,complex,"cancer_diagnosis:tumor_characteristics,administrative:clinic_type",garbled biomarker section,Complex Progressive Disease,Fully Narrative,Verbose professional
+pancreas,serous cystadenocarcinoma,,BAP1 loss,none,stable,simple,patient_status:vital_signs,,Initial Assessment,Standard Narrative,Brief business-like
+pancreas,adenocarcinoma,Stage IIB,BRAF V600E mutation,none,improving,simple,"medical_background:medications,clinical_trial:trial_name",,Simple Follow-up,Short Structured,Concise and factual
+pancreas,mixed ductal-neuroendocrine,T3N1M1,STK11 mutation,liver|peritoneal,deteriorating,complex,social_background:functional_status,,Treatment Change,Standard Semi-Structured,Verbose professional
+pancreas,adenocarcinoma,,MET amplification,liver,stable,complex,"cancer_diagnosis:grade,administrative:communication_details",multiple missing dates,Treatment Review,Block-Label Format,Brief business-like
+pancreas,signet ring cell carcinoma,Stage IV,ERBB3 mutation,liver|lung|bone,improving,complex,patient_status:examination_findings,,Treatment Change,Highly Structured Summary,Concise and factual
+pancreas,undifferentiated carcinoma,T4N2M1,PIK3CA mutation,liver|peritoneal,deteriorating,complex,"treatment:treatment_response,care_plan:follow_up",incomplete medication list,Complex Progressive Disease,Fully Narrative,Verbose professional
+pancreas,adenocarcinoma,Stage IIA,ERBB2 mutation,none,stable,simple,clinical_trial:trial_status,,Simple Follow-up,Standard Narrative,Brief business-like
+pancreas,neuroendocrine tumor,T2N0M0,Chromogranin B positive,none,improving,simple,"medical_background:comorbidities,administrative:mdt_details",,Initial Assessment,Short Structured,Concise and factual
+pancreas,ductal adenocarcinoma,Stage IIIB,NRG1 fusion,peritoneal,deteriorating,complex,patient_status:performance_status,,Treatment Change,Standard Semi-Structured,Verbose professional
+pancreas,adenocarcinoma,,FGFR1 amplification,liver,stable,complex,"social_background:living_situation,treatment:treatment_toxicity",,Treatment Review,Block-Label Format,Brief business-like
+pancreas,mucinous cystic neoplasm,T1N0M0,RB1 loss,none,improving,simple,cancer_diagnosis:lymph_node_status,,Simple Follow-up,Highly Structured Summary,Concise and factual
+pancreas,adenocarcinoma,Stage IV,TSC1/TSC2 mutation,liver|lung,deteriorating,complex,"administrative:accompanied_by,care_plan:next_treatment",missing social history,Complex Progressive Disease,Fully Narrative,Verbose professional
+pancreas,mixed acinar-ductal,T3N1M0,PTEN loss,none,stable,simple,clinical_trial:trial_name,,Initial Assessment,Standard Narrative,Brief business-like
+pancreas,adenocarcinoma,Stage IIB,KEAP1 mutation,none,improving,simple,"patient_status:vital_signs,medical_background:allergies",,Simple Follow-up,Short Structured,Concise and factual
+pancreas,neuroendocrine carcinoma,T4N2M1,DAXX/ATRX loss,liver|bone,deteriorating,complex,social_background:smoking_status,,Treatment Change,Standard Semi-Structured,Verbose professional
+pancreas,adenocarcinoma,,ALK fusion,liver,stable,complex,"cancer_diagnosis:grade,administrative:clinic_type",,Treatment Review,Block-Label Format,Brief business-like
+pancreas,solid pseudopapillary,Stage I,Beta-catenin positive,none,improving,simple,"treatment:treatment_response,care_plan:planned_investigations",,Initial Assessment,Highly Structured Summary,Concise and factual
+pancreas,ductal adenocarcinoma,T3N2M1,CCNE1 amplification,liver|peritoneal,deteriorating,complex,"patient_status:examination_findings,clinical_trial:trial_status",missing treatment response,Complex Progressive Disease,Fully Narrative,Verbose professional
+pancreas,adenocarcinoma,Stage IIIA,MAP2K4 mutation,peritoneal,stable,complex,"medical_background:medications,administrative:mdt_details",,Treatment Review,Standard Narrative,Brief business-like
+pancreas,acinar cell carcinoma,,TGFBR2 mutation,none,improving,simple,"social_background:functional_status,administrative:communication_details",,Simple Follow-up,Short Structured,Concise and factual
+pancreas,adenocarcinoma,Stage IV,CDKN2A deletion,liver|lung|bone,deteriorating,complex,patient_status:performance_status,,Treatment Change,Standard Semi-Structured,Verbose professional
+pancreas,mixed neuroendocrine,T2N1M0,MGMT methylated,none,stable,simple,"cancer_diagnosis:tumor_characteristics,care_plan:follow_up",,Initial Assessment,Block-Label Format,Brief business-like
+pancreas,ductal adenocarcinoma,Stage IIB,ROS1 fusion,none,improving,simple,"treatment:treatment_toxicity,clinical_trial:trial_name",,Simple Follow-up,Highly Structured Summary,Concise and factual
+pancreas,adenocarcinoma,T4N2M1,NFE2L2 mutation,liver|peritoneal,deteriorating,complex,"medical_background:comorbidities,administrative:accompanied_by",missing biomarker section,Complex Progressive Disease,Fully Narrative,Verbose professional
+pancreas,neuroendocrine tumor,,SMARCA4 mutation,liver,stable,complex,"social_background:living_situation,patient_status:vital_signs",,Treatment Review,Standard Narrative,Brief business-like
+pancreas,adenocarcinoma,Stage IIIB,GATA6 amplification,peritoneal,improving,complex,"cancer_diagnosis:lymph_node_status,administrative:clinic_type",,Treatment Change,Short Structured,Concise and factual
+pancreas,mucinous adenocarcinoma,T3N1M0,NOTCH1 mutation,none,stable,simple,"treatment:treatment_response,care_plan:next_treatment",,Initial Assessment,Standard Semi-Structured,Verbose professional
+pancreas,adenocarcinoma,Stage IV,FAT1 mutation,liver|lung,deteriorating,complex,"clinical_trial:trial_status,medical_background:allergies",incomplete staging information,Complex Progressive Disease,Block-Label Format,Brief business-like
+pancreas,ductal adenocarcinoma,,KDM6A mutation,liver,stable,complex,"patient_status:examination_findings,social_background:smoking_status",,Treatment Review,Highly Structured Summary,Concise and factual
+skin,melanoma,pT2aN0M0,BRAF V600E+,,stable,simple,cancer_diagnosis:lymph_node_status,,Simple Follow-up,Standard Narrative,Concise factual
+skin,melanoma,T4bN1M1,PD-L1 80%; BRAF-; NRAS+,liver and lung,deteriorating,complex,,,Complex Progressive Disease,Standard Semi-Structured,Verbose professional
+skin,squamous cell carcinoma,T2N0,PD-L1 CPS 45,none,improving,simple,patient_status:vital_signs;medical_background:medications,,Treatment Review,Block-Label Format,Brief business-like
+skin,merkel cell carcinoma,,MCPyV negative; PD-L1+,bone,stable,complex,,,Clinical Trial Registration,Highly Structured Summary,Verbose professional
+skin,melanoma,Stage IIIC,BRAF V600K+; PD-L1 60%,nodal,improving,complex,social_background,,Initial Assessment,Standard Narrative,Brief business-like
+scalp,squamous cell carcinoma,T3N1M0,PD-L1 low,regional nodes,stable,simple,care_plan:planned_investigations,missing staging details,Treatment Review,Short Structured,Concise factual
+skin,melanoma,Stage IV,BRAF-; NF1 mutation,brain; liver,deteriorating,complex,,,Complex Progressive Disease,Fully Narrative,Verbose empathetic
+skin,basal cell carcinoma,T2,PD-L1 not tested,local invasion,stable,simple,medical_background:allergies,multiple spelling errors,Simple Follow-up,Standard Semi-Structured,Brief business-like
+skin,melanoma,pT1bN0M0,NRAS Q61R+,,improving,simple,disease_status,,Initial Assessment,Block-Label Format,Concise factual
+temple,squamous cell carcinoma,Stage III,PD-L1 high,regional spread,stable,complex,patient_status:weight_status,,MDT Outcome,Highly Structured Summary,Verbose professional
+skin,melanoma,T3bN2M1,KIT mutation+; BRAF-,lung,deteriorating,complex,,,Treatment Change,Standard Narrative,Brief business-like
+skin,merkel cell carcinoma,T2N1M0,MCPyV+,nodes,improving,simple,cancer_diagnosis:grade,,Treatment Review,Short Structured,Concise factual
+forehead,basal cell carcinoma,T1,,none,stable,simple,administrative:mdt_details,missing biomarker data,Simple Follow-up,Block-Label Format,Brief business-like
+skin,melanoma,Stage IIIB,BRAF V600E+; PD-L1 90%,nodal,improving,complex,,,Clinical Trial Assessment,Standard Semi-Structured,Verbose professional
+skin,squamous cell carcinoma,T4N1,PD-L1 CPS 15,local invasion,stable,complex,patient_status:vital_signs,,Treatment Review,Fully Narrative,Verbose empathetic
+skin,melanoma,T2aN0M0,NRAS-; BRAF-,,stable,simple,social_background:smoking_status,incorrect dates,Simple Follow-up,Standard Narrative,Concise factual
+neck,merkel cell carcinoma,Stage IV,MCPyV-; PD-L1 high,lung; liver,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,Verbose professional
+skin,melanoma,pT3bN1M0,BRAF V600R+,nodes,improving,complex,medical_background:medications,,Treatment Review,Block-Label Format,Brief business-like
+skin,squamous cell carcinoma,T2N0,PD-L1 low,none,stable,simple,cancer_diagnosis:tumor_characteristics,,Initial Assessment,Standard Semi-Structured,Concise factual
+skin,melanoma,Stage IIID,BRAF+; NF1+; PD-L1 85%,nodal,deteriorating,complex,,,MDT Outcome,Fully Narrative,Verbose professional
+scalp,basal cell carcinoma,T3,,local invasion,stable,simple,administrative:communication_details,truncated letter content,Simple Follow-up,Short Structured,Brief business-like
+skin,melanoma,T4bN2M1,BRAF V600K+; PD-L1 70%,brain,deteriorating,complex,,,Complex Progressive Disease,Standard Narrative,Verbose empathetic
+skin,squamous cell carcinoma,Stage II,PD-L1 CPS 25,none,improving,simple,patient_status:examination_findings,,Treatment Review,Block-Label Format,Concise factual
+skin,merkel cell carcinoma,T1N0M0,MCPyV+; PD-L1 low,,stable,simple,cancer_diagnosis:metastatic_sites,missing biomarker values,Initial Assessment,Standard Semi-Structured,Brief business-like
+skin,melanoma,pT2bN1M0,NRAS Q61K+,nodes,improving,complex,,,Clinical Trial Registration,Highly Structured Summary,Verbose professional
+skin,squamous cell carcinoma,T3N1,PD-L1 high,regional nodes,stable,complex,social_background:living_situation,,Treatment Change,Fully Narrative,Brief business-like
+skin,melanoma,Stage IV,BRAF-; PD-L1 95%,lung; bone,deteriorating,complex,,,Complex Progressive Disease,Standard Narrative,Verbose professional
+cheek,basal cell carcinoma,T1,,none,stable,simple,medical_background:comorbidities,inconsistent formatting,Simple Follow-up,Block-Label Format,Concise factual
+skin,melanoma,T3aN0M0,KIT D816V+,,improving,simple,disease_status:marker_trends,,Treatment Review,Short Structured,Brief business-like
+skin,squamous cell carcinoma,Stage III,PD-L1 CPS 60,regional spread,stable,complex,,,MDT Outcome,Standard Semi-Structured,Verbose professional
+skin,merkel cell carcinoma,T2N1M1,MCPyV-,lung,deteriorating,complex,patient_status:performance_status,,Complex Progressive Disease,Highly Structured Summary,Verbose empathetic
+skin,melanoma,pT4bN2M0,BRAF V600E+; PD-L1 55%,nodes,improving,complex,,,Clinical Trial Assessment,Standard Narrative,Brief business-like
+nose,squamous cell carcinoma,T2N0,PD-L1 low,none,stable,simple,care_plan:next_treatment,missing clinical details,Simple Follow-up,Block-Label Format,Concise factual
+skin,melanoma,Stage IIIC,NRAS G13R+; BRAF-,nodal,deteriorating,complex,,,Treatment Change,Fully Narrative,Verbose professional
+skin,basal cell carcinoma,T3,,local invasion,stable,simple,cancer_diagnosis:biomarker_status,,Treatment Review,Standard Semi-Structured,Brief business-like
+skin,melanoma,T1bN0M0,BRAF V600K+,,improving,simple,patient_status:symptom_status,missing staging info,Initial Assessment,Short Structured,Concise factual
+skin,squamous cell carcinoma,Stage IV,PD-L1 CPS 80,bone,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,Verbose professional
+ear,merkel cell carcinoma,T2N1M0,MCPyV+; PD-L1 high,nodes,stable,complex,,,Clinical Trial Registration,Standard Narrative,Brief business-like
+skin,melanoma,pT3aN1M0,BRAF-; NF1+,nodes,improving,complex,social_background:functional_status,,Treatment Review,Block-Label Format,Verbose empathetic
+skin,squamous cell carcinoma,T1N0,PD-L1 low,none,stable,simple,administrative:clinic_type,,Simple Follow-up,Standard Semi-Structured,Concise factual
+skin,melanoma,Stage IV,KIT L576P+; BRAF-,brain; bone,deteriorating,complex,,,Complex Progressive Disease,Fully Narrative,Verbose professional
+skin,basal cell carcinoma,T2,,local invasion,stable,simple,medical_background:medications,incomplete history,Treatment Review,Short Structured,Brief business-like
+skin,melanoma,T2bN0M0,NRAS Q61R+,,improving,simple,disease_status:investigation_findings,,Initial Assessment,Standard Narrative,Concise factual
+scalp,squamous cell carcinoma,Stage III,PD-L1 CPS 30,regional spread,stable,complex,,,MDT Outcome,Highly Structured Summary,Verbose professional
+skin,merkel cell carcinoma,T1N1M1,MCPyV-; PD-L1 low,lung,deteriorating,complex,,,Complex Progressive Disease,Block-Label Format,Brief business-like
+skin,melanoma,pT4aN2M0,BRAF V600E+; PD-L1 75%,nodes,improving,complex,care_plan:follow_up,,Treatment Change,Standard Semi-Structured,Verbose empathetic
+skin,squamous cell carcinoma,T2N0,PD-L1 high,none,stable,simple,patient_status:vital_signs,missing demographics,Simple Follow-up,Fully Narrative,Concise factual
+skin,melanoma,Stage IIIB,NRAS G12D+; BRAF-,nodal,improving,complex,,,Clinical Trial Assessment,Standard Narrative,Verbose professional
+kidney,clear cell renal cell carcinoma,T3aN0M0,PD-L1 CPS 80,none,stable,simple,,,,standard_narrative,concise
+kidney,papillary renal cell carcinoma type 1,Stage III,c-MET amplified,lung only,improving,complex,medical_background;social_background,missing_dates,treatment_review,block_label,verbose
+kidney,chromophobe renal cell carcinoma,pT2bN0,CD117 positive,none,stable,simple,,,simple_follow_up,short_structured,factual
+kidney,clear cell renal cell carcinoma,T4N1M1,VEGF expression high,bone;liver;lung,deteriorating,complex,,,,standard_semi_structured,empathetic
+kidney,collecting duct carcinoma,Stage IV,NF2 loss,widespread bone,deteriorating,complex,social_background,multiple_spelling_errors,complex_progressive,highly_structured,professional
+kidney,clear cell renal cell carcinoma,T1aN0M0,BAP1 negative,none,stable,simple,,,initial_assessment,fully_narrative,verbose
+kidney (upper pole),papillary renal cell carcinoma type 2,T2N1M0,PBRM1 mutated;SETD2 loss,regional nodes,stable,complex,,truncated_investigation_section,treatment_change,standard_narrative,factual
+kidney,unclassified renal cell carcinoma,Stage IIB,TFE3 rearrangement,none,improving,simple,,,simple_follow_up,short_structured,concise
+kidney,clear cell renal cell carcinoma,pT3bN1M1,PD-L1 TPS 90%,IVC thrombus;lung,deteriorating,complex,,,mdt_outcome,block_label,professional
+kidney,tubulocystic renal cell carcinoma,,KDM5C mutated,none,stable,simple,clinical_trial,,initial_assessment,standard_semi_structured,factual
+kidney,clear cell renal cell carcinoma,T2aN0M0,TERT promoter mutation,none,improving,simple,,,simple_follow_up,fully_narrative,empathetic
+kidney (lower pole),papillary renal cell carcinoma type 1,Stage III,FH deficient,lung;pleura,stable,complex,patient_status,missing_medications,treatment_review,highly_structured,professional
+kidney,clear cell renal cell carcinoma,T1bN0M0,PD-L1 negative,none,stable,simple,,,initial_assessment,standard_narrative,concise
+kidney,chromophobe renal cell carcinoma,T3N1M1,CDKN2A loss,liver;bone,deteriorating,complex,,garbled_staging_information,complex_progressive,block_label,verbose
+kidney,clear cell renal cell carcinoma,Stage II,VHL mutated,none,improving,simple,medical_background,,simple_follow_up,short_structured,factual
+kidney (mid pole),multilocular cystic renal cell carcinoma,T2bN0M0,PTEN loss,none,stable,simple,,,initial_assessment,standard_semi_structured,professional
+kidney,clear cell renal cell carcinoma,T4N1M1,mTOR pathway activation,brain;bone;liver,deteriorating,complex,,,complex_progressive,highly_structured,empathetic
+kidney,mucinous tubular and spindle cell carcinoma,Stage I,CK7 positive,none,stable,simple,,missing_patient_demographics,simple_follow_up,fully_narrative,concise
+kidney,clear cell renal cell carcinoma,T3aN1M0,CAIX high,regional nodes,improving,complex,,,treatment_review,standard_narrative,professional
+kidney,papillary renal cell carcinoma type 2,pT2N0,MET mutation,none,stable,simple,social_background,,initial_assessment,block_label,factual
+kidney,clear cell renal cell carcinoma,Stage IV,PD-L1 CPS 60,lung;brain,deteriorating,complex,,,complex_progressive,standard_semi_structured,verbose
+kidney,renal medullary carcinoma,,SMARCB1/INI1 loss,liver,deteriorating,complex,clinical_trial,incomplete_treatment_details,treatment_change,highly_structured,professional
+kidney,clear cell renal cell carcinoma,T1aN0M0,HIF-1α high,none,stable,simple,,,simple_follow_up,fully_narrative,empathetic
+kidney (upper pole),translocation renal cell carcinoma,T2bN1M0,ALK rearrangement,regional nodes,stable,complex,,corrupted_biomarker_section,treatment_review,standard_narrative,factual
+kidney,clear cell renal cell carcinoma,Stage III,KIT mutation,none,improving,simple,,,initial_assessment,block_label,concise
+kidney,papillary renal cell carcinoma type 1,T3bN1M1,CK19 positive,bone;liver,deteriorating,complex,medical_background,,complex_progressive,short_structured,professional
+kidney,clear cell renal cell carcinoma,T2aN0M0,VEGFR2 high,none,stable,simple,,,simple_follow_up,standard_semi_structured,factual
+kidney (lower pole),chromophobe renal cell carcinoma,Stage II,CD10 positive,none,improving,simple,clinical_trial,,initial_assessment,highly_structured,verbose
+kidney,clear cell renal cell carcinoma,T4N1M1,PD-L1 TPS 85%,widespread,deteriorating,complex,,,mdt_outcome,fully_narrative,professional
+kidney,acquired cystic disease-associated RCC,,BCL2 positive,none,stable,simple,social_background,missing_examination_findings,simple_follow_up,standard_narrative,concise
+kidney,clear cell renal cell carcinoma,T2bN0M0,EGFR mutation,none,improving,simple,,,treatment_review,block_label,factual
+kidney (mid pole),papillary renal cell carcinoma type 2,Stage IV,mTOR mutation,lung;bone,deteriorating,complex,,,complex_progressive,standard_semi_structured,empathetic
+kidney,clear cell renal cell carcinoma,T1bN0M0,PD-L1 CPS 10,none,stable,simple,patient_status,,initial_assessment,short_structured,professional
+kidney,chromophobe renal cell carcinoma,T3aN1M0,KIT negative,regional nodes,improving,complex,,,treatment_change,highly_structured,verbose
+kidney,clear cell renal cell carcinoma,Stage I,VHL wild type,none,stable,simple,,,simple_follow_up,fully_narrative,concise
+kidney (upper pole),collecting duct carcinoma,T4N1M1,OCT3/4 positive,widespread,deteriorating,complex,,jumbled_treatment_timeline,complex_progressive,standard_narrative,professional
+kidney,clear cell renal cell carcinoma,T2N0M0,CAIX low,none,improving,simple,medical_background,,initial_assessment,block_label,factual
+kidney,papillary renal cell carcinoma type 1,Stage III,PTEN mutation,lung,stable,complex,,,treatment_review,standard_semi_structured,verbose
+kidney,clear cell renal cell carcinoma,T1aN0M0,BAP1 positive,none,stable,simple,,,simple_follow_up,short_structured,concise
+kidney (lower pole),unclassified renal cell carcinoma,T3bN1M1,TFE3 negative,liver;bone,deteriorating,complex,clinical_trial,,complex_progressive,highly_structured,professional
+kidney,clear cell renal cell carcinoma,Stage II,PD-L1 CPS 95,none,improving,simple,,,initial_assessment,fully_narrative,empathetic
+kidney,mucinous tubular and spindle cell carcinoma,T2aN0M0,CK7 negative,none,stable,simple,social_background,,simple_follow_up,standard_narrative,factual
+kidney,clear cell renal cell carcinoma,T4N1M1,mTOR high activity,brain;bone,deteriorating,complex,,,mdt_outcome,block_label,verbose
+kidney (mid pole),papillary renal cell carcinoma type 2,Stage I,MET amplified,none,stable,simple,,,initial_assessment,standard_semi_structured,professional
+kidney,clear cell renal cell carcinoma,T3aN1M0,VEGF low,regional nodes,improving,complex,patient_status,,treatment_review,highly_structured,concise
+kidney,chromophobe renal cell carcinoma,T1bN0M0,CD117 negative,none,stable,simple,,,simple_follow_up,fully_narrative,factual
+kidney,clear cell renal cell carcinoma,Stage IV,PD-L1 TPS 70%,widespread,deteriorating,complex,medical_background,,complex_progressive,standard_narrative,empathetic
+kidney (upper pole),translocation renal cell carcinoma,T2N0M0,TFEB rearrangement,none,improving,simple,,,treatment_change,block_label,professional
+kidney,clear cell renal cell carcinoma,T3bN1M1,HIF-2α high,lung;liver,deteriorating,complex,clinical_trial,,mdt_outcome,standard_semi_structured,verbose
+oropharynx,squamous cell carcinoma,T2N1M0,p16 positive,none,stable,simple,care_plan:planned_investigations,,Simple Follow-up,Standard Narrative,Concise and factual
+larynx,squamous cell carcinoma,Stage III,p16 negative; PDL1 CPS 20,none,improving,complex,medical_background:allergies,,Treatment Review,Short Structured,Verbose professional
+oral cavity,adenoid cystic carcinoma,T4aN2bM0,NTRK fusion positive,lung mets,deteriorating,complex,social_background:functional_status;patient_status:vital_signs,,Complex Progressive Disease,Highly Structured Summary,Brief business-like
+hypopharynx,squamous cell carcinoma,IVA,PDL1 CPS 80,bone mets,stable,complex,,,Treatment Change,Block-Label Format,Verbose narrative
+nasopharynx,undifferentiated carcinoma,T3N1M0,EBV positive,none,improving,simple,care_plan:follow_up,missing stage information,Initial Assessment,Standard Semi-Structured,Concise and factual
+oral tongue,squamous cell carcinoma,Stage II,,none,stable,simple,treatment:treatment_toxicity,,Simple Follow-up,Standard Narrative,Brief business-like
+oropharynx,squamous cell carcinoma,T4bN2cM0,p16 positive; PDL1 CPS 45,lung & bone mets,deteriorating,complex,,,Complex Progressive Disease,Fully Narrative,Verbose professional
+salivary gland,mucoepidermoid carcinoma,pT2N0,HER2 positive,none,improving,simple,,missing biomarker results,Treatment Review,Short Structured,Concise and factual
+larynx,,T3N0M0,p16 negative,none,stable,complex,patient_status:vital_signs,,Treatment Change,Standard Semi-Structured,Brief business-like
+oral cavity,squamous cell carcinoma,Stage IVB,PDL1 CPS 5,lung mets,deteriorating,complex,social_background:smoking_status,incorrect TNM staging format,Complex Progressive Disease,Highly Structured Summary,Verbose professional
+nasopharynx,undifferentiated carcinoma,,EBV positive,bone mets,stable,complex,,,Treatment Review,Block-Label Format,Concise and factual
+oropharynx,squamous cell carcinoma,T2N1M0,p16 positive; PDL1 CPS 15,none,improving,simple,medical_background:medications,multiple misspellings present,Simple Follow-up,Standard Narrative,Brief business-like
+hypopharynx,squamous cell carcinoma,III,p16 negative,none,stable,simple,,,Initial Assessment,Short Structured,Verbose professional
+salivary gland,adenoid cystic carcinoma,T4N1M1,NTRK fusion negative,lung & bone mets,deteriorating,complex,care_plan:planned_investigations,,Complex Progressive Disease,Fully Narrative,Concise and factual
+oral tongue,squamous cell carcinoma,Stage II,PDL1 CPS 30,none,improving,simple,,inconsistent date formats,Treatment Review,Standard Semi-Structured,Brief business-like
+larynx,squamous cell carcinoma,T3N2bM0,p16 negative; PDL1 CPS 60,none,stable,complex,patient_status:examination_findings,,Treatment Change,Block-Label Format,Verbose professional
+oropharynx,squamous cell carcinoma,IVA,p16 positive,lung mets,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,Concise and factual
+nasopharynx,undifferentiated carcinoma,T2N1M0,EBV positive; PDL1 CPS 25,none,improving,simple,social_background:living_situation,missing treatment dates,Simple Follow-up,Standard Narrative,Brief business-like
+oral cavity,squamous cell carcinoma,,PDL1 CPS 40,bone mets,stable,complex,,,Treatment Review,Short Structured,Verbose professional
+hypopharynx,squamous cell carcinoma,Stage III,p16 negative,none,improving,simple,medical_background:comorbidities,,Initial Assessment,Standard Semi-Structured,Concise and factual
+salivary gland,adenocarcinoma,T1N0M0,HER2 negative,none,stable,simple,,,Simple Follow-up,Block-Label Format,Brief business-like
+oropharynx,squamous cell carcinoma,T4aN2cM1,p16 positive; PDL1 CPS 90,lung & liver mets,deteriorating,complex,care_plan:next_treatment,incomplete staging information,Complex Progressive Disease,Fully Narrative,Verbose professional
+larynx,squamous cell carcinoma,Stage II,,none,improving,simple,,,Treatment Review,Standard Semi-Structured,Concise and factual
+oral tongue,squamous cell carcinoma,T2N1M0,PDL1 CPS 10,none,stable,complex,patient_status:performance_status,,Treatment Change,Short Structured,Brief business-like
+nasopharynx,undifferentiated carcinoma,IVB,EBV positive; PDL1 CPS 35,lung & bone mets,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,Verbose professional
+hypopharynx,squamous cell carcinoma,T3N0M0,p16 negative,none,improving,simple,social_background:functional_status,truncated letter content,Simple Follow-up,Standard Narrative,Concise and factual
+oral cavity,squamous cell carcinoma,Stage III,PDL1 CPS 55,none,stable,complex,,,Treatment Review,Block-Label Format,Brief business-like
+salivary gland,mucoepidermoid carcinoma,,HER2 positive,bone mets,deteriorating,complex,medical_background:allergies,,Complex Progressive Disease,Fully Narrative,Verbose professional
+oropharynx,squamous cell carcinoma,T2N2bM0,p16 positive; PDL1 CPS 70,none,improving,simple,,,Initial Assessment,Standard Semi-Structured,Concise and factual
+larynx,squamous cell carcinoma,IVA,p16 negative,lung mets,stable,complex,care_plan:follow_up,,Treatment Change,Short Structured,Brief business-like
+oral tongue,squamous cell carcinoma,T3N1M0,PDL1 CPS 25,none,deteriorating,simple,,,Treatment Review,Block-Label Format,Verbose professional
+nasopharynx,undifferentiated carcinoma,Stage II,EBV positive,none,improving,simple,patient_status:vital_signs,missing biomarker values,Simple Follow-up,Standard Narrative,Concise and factual
+hypopharynx,squamous cell carcinoma,,p16 negative; PDL1 CPS 40,bone mets,stable,complex,,,Complex Progressive Disease,Highly Structured Summary,Brief business-like
+oral cavity,squamous cell carcinoma,T4bN2cM1,PDL1 CPS 85,lung & liver mets,deteriorating,complex,social_background:smoking_status,,Complex Progressive Disease,Fully Narrative,Verbose professional
+salivary gland,adenoid cystic carcinoma,Stage III,NTRK fusion positive,none,improving,simple,,,Treatment Review,Standard Semi-Structured,Concise and factual
+oropharynx,squamous cell carcinoma,T2N0M0,p16 positive,none,stable,simple,medical_background:medications,,Simple Follow-up,Short Structured,Brief business-like
+larynx,squamous cell carcinoma,IVB,p16 negative; PDL1 CPS 50,lung & bone mets,deteriorating,complex,,,Complex Progressive Disease,Block-Label Format,Verbose professional
+oral tongue,squamous cell carcinoma,,PDL1 CPS 20,none,improving,simple,care_plan:planned_investigations,,Treatment Review,Standard Narrative,Concise and factual
+nasopharynx,undifferentiated carcinoma,T3N2bM0,EBV positive; PDL1 CPS 65,none,stable,complex,,,Treatment Change,Highly Structured Summary,Brief business-like
+hypopharynx,squamous cell carcinoma,Stage III,p16 negative,bone mets,deteriorating,complex,patient_status:examination_findings,inconsistent formatting,Complex Progressive Disease,Fully Narrative,Verbose professional
+oral cavity,squamous cell carcinoma,T2N1M0,PDL1 CPS 30,none,improving,simple,,,Initial Assessment,Standard Semi-Structured,Concise and factual
+salivary gland,adenocarcinoma,IVA,HER2 positive,lung mets,stable,complex,social_background:living_situation,,Treatment Review,Short Structured,Brief business-like
+oropharynx,squamous cell carcinoma,Stage II,p16 positive; PDL1 CPS 75,none,deteriorating,simple,,,Treatment Change,Block-Label Format,Verbose professional
+larynx,squamous cell carcinoma,,p16 negative,none,improving,simple,medical_background:comorbidities,missing TNM staging,Simple Follow-up,Standard Narrative,Concise and factual
+oral tongue,squamous cell carcinoma,T4aN2cM1,PDL1 CPS 95,lung & liver mets,stable,complex,,,Complex Progressive Disease,Highly Structured Summary,Brief business-like
+nasopharynx,undifferentiated carcinoma,Stage III,EBV positive,none,deteriorating,simple,care_plan:next_treatment,,Treatment Review,Fully Narrative,Verbose professional
+hypopharynx,squamous cell carcinoma,T2N1M0,p16 negative; PDL1 CPS 35,none,improving,complex,,,Treatment Change,Standard Semi-Structured,Concise and factual
+oral cavity,squamous cell carcinoma,IVB,PDL1 CPS 45,bone mets,stable,complex,patient_status:performance_status,,Complex Progressive Disease,Short Structured,Brief business-like
+salivary gland,mucoepidermoid carcinoma,T3N0M0,HER2 negative,none,deteriorating,simple,,,Initial Assessment,Block-Label Format,Verbose professional
+oropharynx,squamous cell carcinoma,Stage II,p16 positive,none,improving,simple,social_background:functional_status,,Simple Follow-up,Standard Narrative,Concise and factual
+larynx,squamous cell carcinoma,T4bN2cM1,p16 negative; PDL1 CPS 80,lung & bone mets,stable,complex,,,Complex Progressive Disease,Highly Structured Summary,Brief business-like
+brain,glioblastoma,WHO grade IV,MGMT methylated; IDH wildtype,none,deteriorating,complex,social_background,,Complex Progressive Disease,Standard Narrative,professional verbose
+brain,diffuse astrocytoma,,IDH mutant,none,stable,simple,medical_background;administrative,,Simple Follow-up,Short Structured,concise factual
+brain,oligodendroglioma,WHO grade II,1p/19q co-deleted; IDH mutant,none,improving,simple,,,Initial Assessment,Standard Semi-Structured,professional verbose
+brain stem,diffuse midline glioma,H3K27M-mutant,HIST1H3B mutation positive,leptomeningeal,deteriorating,complex,care_plan,missing treatment dates,Treatment Change,Fully Narrative,professional verbose
+meninges,meningioma,WHO grade I,PR positive; Ki-67 2%,,stable,simple,clinical_trial;treatment,,Simple Follow-up,Block-Label Format,concise factual
+pituitary,prolactinoma,,Ki-67 < 1%; p53 negative,none,improving,simple,patient_status,misspelled medications,Treatment Review,Short Structured,concise factual
+brain,medulloblastoma,M0,WNT-activated,none,stable,complex,,,Clinical Trial Registration,Highly Structured Summary,professional verbose
+cerebellum,hemangioblastoma,,,none,stable,simple,disease_status;administrative,,Simple Follow-up,Standard Narrative,concise factual
+brain,anaplastic ependymoma,WHO grade III,RELA fusion-positive,CSF dissemination,deteriorating,complex,,jumbled paragraph order,Complex Progressive Disease,Fully Narrative,professional verbose
+brain,gliosarcoma,,EGFR amplified; p53 mutant,multiple brain lesions,deteriorating,complex,clinical_trial,,Treatment Change,Standard Narrative,professional verbose
+pineal,germinoma,M0,PLAP+; AFP negative,none,improving,simple,medical_background,,Initial Assessment,Block-Label Format,concise factual
+brain,ganglioglioma,WHO grade I,BRAF V600E mutant,,stable,simple,,,Simple Follow-up,Short Structured,concise factual
+brain,pilocytic astrocytoma,,KIAA1549-BRAF fusion,none,improving,simple,treatment,,Initial Assessment,Standard Semi-Structured,professional verbose
+meninges,hemangiopericytoma,WHO grade III,STAT6 nuclear positive,bone,deteriorating,complex,patient_status,missing biomarker values,Treatment Change,Fully Narrative,professional verbose
+brain,pleomorphic xanthoastrocytoma,,BRAF V600E; ATRX retained,none,stable,simple,,,Simple Follow-up,Block-Label Format,concise factual
+brain,anaplastic oligodendroglioma,WHO grade III,TERT promoter mutant; CIC mutant,none,improving,complex,,,Treatment Review,Highly Structured Summary,professional verbose
+pituitary,corticotroph adenoma,,USP8 mutant,none,stable,simple,clinical_trial;care_plan,,Simple Follow-up,Short Structured,concise factual
+brain stem,DIPG,H3K27M-mutant,TP53 mutation,brainstem,deteriorating,complex,administrative,missing patient details,Treatment Change,Standard Semi-Structured,professional verbose
+brain,desmoplastic infantile ganglioglioma,WHO grade I,BRAF wildtype,,improving,simple,disease_status,,Initial Assessment,Block-Label Format,concise factual
+meninges,atypical meningioma,WHO grade II,Ki-67 12%; PR negative,none,stable,complex,,,Treatment Review,Standard Narrative,professional verbose
+brain,giant cell glioblastoma,,ATRX loss; p53 mutant,ventricles,deteriorating,complex,social_background,,Complex Progressive Disease,Fully Narrative,professional verbose
+pineal,pineoblastoma,Chang M0,INI1 retained,none,improving,simple,medical_background;administrative,incorrect dates,Initial Assessment,Short Structured,concise factual
+brain,subependymoma,WHO grade I,,,stable,simple,clinical_trial,,Simple Follow-up,Standard Semi-Structured,concise factual
+brain,choroid plexus carcinoma,,INI1 retained; p53 mutant,CSF dissemination,deteriorating,complex,patient_status,,Treatment Change,Standard Narrative,professional verbose
+meninges,rhabdoid meningioma,WHO grade III,BAP1 loss; Ki-67 20%,bone,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,professional verbose
+brain,astroblastoma,WHO grade IV,MN1 alteration,multiple brain lesions,stable,complex,social_background;administrative,,Treatment Review,Fully Narrative,professional verbose
+pituitary,silent corticotroph adenoma,,SF1 negative,none,improving,simple,,,Simple Follow-up,Short Structured,concise factual
+brain,diffuse midline glioma,H3F3A K27M-mutant,ATRX retained,brainstem,deteriorating,complex,care_plan,missing metastases info,Treatment Change,Standard Semi-Structured,professional verbose
+brain,anaplastic pleomorphic xanthoastrocytoma,WHO grade III,BRAF V600E; CDKN2A/B loss,none,improving,complex,,,Treatment Review,Standard Narrative,professional verbose
+pineal,pineal parenchymal tumor,WHO grade II,Ki-67 6%,,stable,simple,disease_status;administrative,,Simple Follow-up,Short Structured,concise factual
+brain,epithelioid glioblastoma,,BRAF V600E; TERT mutant,CSF dissemination,deteriorating,complex,social_background,incomplete biomarker data,Complex Progressive Disease,Fully Narrative,professional verbose
+meninges,papillary meningioma,WHO grade III,Ki-67 15%,bone,deteriorating,complex,,,Treatment Change,Standard Semi-Structured,professional verbose
+brain,myxopapillary ependymoma,WHO grade I,,,improving,simple,clinical_trial;care_plan,,Initial Assessment,Block-Label Format,concise factual
+brain,anaplastic ganglioglioma,WHO grade III,BRAF V600E; TP53 mutant,multiple brain lesions,deteriorating,complex,patient_status,,Complex Progressive Disease,Standard Narrative,professional verbose
+pituitary,thyrotroph adenoma,,SF1 negative; PIT1 positive,none,improving,simple,medical_background,garbled text sections,Treatment Review,Fully Narrative,professional verbose
+brain,pilomyxoid astrocytoma,,KIAA1549-BRAF fusion,,stable,simple,disease_status,,Simple Follow-up,Standard Semi-Structured,concise factual
+brain,clear cell ependymoma,WHO grade III,L1CAM positive,ventricles,deteriorating,complex,,,Complex Progressive Disease,Standard Narrative,professional verbose
+meninges,anaplastic meningioma,WHO grade III,Ki-67 25%; PR negative,bone,deteriorating,complex,clinical_trial,missing staging info,Treatment Change,Block-Label Format,professional verbose
+brain,dysembryoplastic neuroepithelial tumor,WHO grade I,CD34+,none,stable,simple,,,Simple Follow-up,Short Structured,concise factual
+pineal,papillary tumor,WHO grade II,GFAP+; CK positive,,improving,simple,administrative,,Initial Assessment,Standard Semi-Structured,professional verbose
+brain,central neurocytoma,,Ki-67 < 3%; Synaptophysin+,none,stable,simple,patient_status;care_plan,,Simple Follow-up,Fully Narrative,concise factual
+brain,chordoid glioma,WHO grade II,TTF1+; GFAP+,none,improving,simple,clinical_trial,,Treatment Review,Block-Label Format,professional verbose
+meninges,secretory meningioma,WHO grade I,Ki-67 3%; PR positive,,stable,simple,disease_status,,Simple Follow-up,Short Structured,concise factual
+brain,extraventricular neurocytoma,WHO grade II,Synaptophysin+; NeuN+,none,stable,simple,medical_background;administrative,,Initial Assessment,Standard Semi-Structured,concise factual
+pleural,epithelioid mesothelioma,T3N2M0,BAP1 negative; PD-L1 TPS 90%,widespread pleural disease,deteriorating,complex,social_background,,Complex Progressive Disease,Standard Narrative,verbose professional
+pleural,mesothelioma,Stage IV,PD-L1 negative,pleural and peritoneal involvement,stable,simple,patient_status;care_plan,missing dates,Simple Follow-up,Short Structured,concise factual
+peritoneal,biphasic mesothelioma,T2N0M0,MTAP loss; BAP1 retained,localized disease,improving,simple,medical_background,,Treatment Review,Standard Semi-Structured,verbose professional
+pleural,,cT4N2M0,PD-L1 TPS 5%,extensive chest wall invasion,deteriorating,complex,clinical_trial,multiple spelling errors,MDT Outcome,Block-Label Format,concise factual
+pleural,sarcomatoid mesothelioma,Stage III,BAP1 loss; MTAP retained,pleural and lymph nodes,stable,complex,,,Initial Assessment,Fully Narrative,verbose empathetic
+peritoneal,mesothelioma,,CD31 positive; WT1 positive,omental caking,deteriorating,simple,administrative,truncated letter content,Treatment Change,Highly Structured Summary,concise factual
+pleural,desmoplastic mesothelioma,T2N1M0,Calretinin positive; CK5/6 positive,,improving,complex,disease_status,missing patient identifiers,Clinical Trial Registration,Standard Narrative,verbose professional
+,mesothelioma,Stage IIIB,BAP1 negative,pleural and pericardial involvement,stable,simple,,,Simple Follow-up,Short Structured,concise factual
+pleural,epithelioid mesothelioma,T4N0M0,MTAP loss; PD-L1 TPS 80%,bilateral pleural disease,deteriorating,complex,social_background;medical_background,formatting errors,Complex Initial Assessment,Standard Semi-Structured,verbose professional
+peritoneal,,Stage IV,WT1 positive; PD-L1 negative,widespread peritoneal deposits,stable,complex,clinical_trial,,Treatment Review,Block-Label Format,concise factual
+pleural,mesothelioma,T3N1M0,BAP1 retained; MTAP retained,pleural and chest wall,improving,simple,,,End of Treatment,Fully Narrative,verbose empathetic
+pleural,biphasic mesothelioma,,PD-L1 TPS 60%,extensive pleural disease,deteriorating,complex,care_plan,inconsistent spacing,Transfer of Care,Highly Structured Summary,concise factual
+peritoneal,mesothelioma,Stage IIIA,Calretinin positive,omental and peritoneal disease,stable,simple,patient_status,,Simple Follow-up,Standard Narrative,verbose professional
+pleural,sarcomatoid mesothelioma,T4N2M0,BAP1 loss; PD-L1 TPS 90%,pleural and mediastinal,deteriorating,complex,,,Complex Progressive Disease,Short Structured,concise factual
+pleural,,Stage IV,MTAP loss; WT1 positive,widespread metastatic disease,stable,complex,medical_background,missing laboratory values,Treatment Change,Standard Semi-Structured,verbose professional
+peritoneal,epithelioid mesothelioma,T3N0M0,PD-L1 TPS 40%,localized peritoneal disease,improving,simple,clinical_trial,,Clinical Trial Assessment,Block-Label Format,concise factual
+pleural,mesothelioma,Stage IIIB,BAP1 negative; MTAP loss,pleural and lymphatic,stable,complex,,,MDT Outcome,Fully Narrative,verbose empathetic
+pleural,desmoplastic mesothelioma,,CD31 positive; Calretinin positive,extensive pleural involvement,deteriorating,simple,administrative,incomplete treatment dates,Initial Assessment,Highly Structured Summary,concise factual
+peritoneal,mesothelioma,T2N1M0,PD-L1 TPS 30%; BAP1 retained,peritoneal and omental,stable,complex,disease_status,,Treatment Review,Standard Narrative,verbose professional
+bladder,urothelial carcinoma,T2N0M0,PD-L1 CPS 80,none,stable,simple,social_background,,Simple Follow-up,Standard Narrative,Concise and factual
+bladder,small cell carcinoma,Stage IV,CD56+/Synaptophysin+,liver/lung extensive,deteriorating,complex,care_plan,,Complex Progressive Disease,Fully Narrative,Verbose professional
+bladder,adenocarcinoma,T3bN1,MSI-high/dMMR,regional nodes only,improving,simple,medical_background;administrative,,Treatment Review,Short Structured,Brief business-like
+bladder,squamous cell carcinoma,,PD-L1 negative,bone oligomets,stable,complex,,,Initial Assessment,Standard Semi-Structured,Verbose narrative empathetic
+upper tract,transitional cell carcinoma,T1N0M0,FGFR3 mutation,none,improving,simple,patient_status,missing entire diagnosis block,Treatment Change,Block-Label Format,Concise and factual
+bladder,,cT4N1M1,HER2 positive IHC 3+,widespread visceral,deteriorating,complex,social_background;clinical_trial,,MDT Outcome,Highly Structured Summary,Verbose professional
+renal pelvis,micropapillary variant,Stage IIIA,TERT promoter mutation,lymph nodes only,stable,simple,,multiple spelling errors treatment section,Simple Follow-up,Standard Narrative,Brief business-like
+bladder,nested variant urothelial,ypT0N0,FGFR2/3 fusion,none,improving,simple,medical_background,,End of Treatment,Short Structured,Concise and factual
+ureter,plasmacytoid urothelial,T2N1M0,PD-L1 TPS 90%,none,stable,simple,,,Treatment Review,Standard Semi-Structured,Verbose narrative empathetic
+bladder,sarcomatoid carcinoma,Stage IV,NF2 loss,widespread bone,deteriorating,complex,administrative,missing patient details,Complex Progressive Disease,Fully Narrative,Verbose professional
+bladder,clear cell carcinoma,,PPARG rearranged,liver only,stable,complex,clinical_trial,,Initial Assessment,Block-Label Format,Brief business-like
+bladder,glandular urothelial,T3aN0M0,CDKN2A deletion,none,improving,simple,,corrupted staging information,Treatment Change,Standard Narrative,Concise and factual
+upper tract,lymphoepithelioma-like,T4N2M1,TSC1 mutation,extensive nodal,deteriorating,complex,care_plan,,Clinical Trial Registration,Highly Structured Summary,Verbose professional
+bladder,giant cell carcinoma,Stage II,TERT C228T mutation,none,stable,simple,social_background,,Simple Follow-up,Short Structured,Brief business-like
+bladder,urothelial papillary,T1N0,ERBB2 amplification,none,improving,simple,,,Treatment Review,Standard Semi-Structured,Concise and factual
+renal pelvis,mixed urothelial-squamous,,RB1 loss,lung oligomets,stable,complex,medical_background,missing biomarker results,Complex Initial Assessment,Block-Label Format,Verbose narrative empathetic
+bladder,lipid-rich urothelial,T2bN1M0,FGFR3 S249C mutation,regional nodes only,deteriorating,complex,,,Clinical Trial Assessment,Fully Narrative,Verbose professional
+ureter,neuroendocrine carcinoma,Stage IIIB,TROP2 high,liver/lung limited,stable,simple,administrative,,Treatment Change,Standard Narrative,Brief business-like
+bladder,microcystic urothelial,T4aN0M0,PD-L1 IC 15%,none,improving,simple,,garbled treatment dates,End of Treatment,Short Structured,Concise and factual
+bladder,signet ring cell,Stage IV,ERCC2 mutation,peritoneal,deteriorating,complex,clinical_trial,,Complex Progressive Disease,Standard Semi-Structured,Verbose professional
+bladder,small cell neuroendocrine,T3bN2M1,ASCL1+/CD56+,widespread,stable,complex,social_background,missing metastasis details,Transfer of Care,Highly Structured Summary,Brief business-like
+bladder,adenosquamous,Stage IIIA,TP53/RB1 loss,lymph nodes only,improving,simple,,,Treatment Review,Block-Label Format,Concise and factual
+upper tract,micropapillary variant,T2N0M0,FGFR3/TACC3 fusion,none,stable,simple,care_plan,,Simple Follow-up,Standard Narrative,Verbose narrative empathetic
+bladder,plasmacytoid variant,,HER2 low (IHC 2+),bone/liver,deteriorating,complex,medical_background,inconsistent staging data,Complex Progressive Disease,Fully Narrative,Verbose professional
+bladder,urothelial carcinoma,T1N0,PD-L1 CPS 10,none,improving,simple,,,Initial Assessment,Short Structured,Brief business-like
+renal pelvis,squamous cell carcinoma,Stage IV,PIK3CA mutation,widespread,stable,complex,administrative,,Clinical Trial Registration,Standard Semi-Structured,Concise and factual
+bladder,nested variant,T3aN1M0,ERBB3 mutation,regional nodes only,deteriorating,complex,clinical_trial,missing social history,MDT Outcome,Block-Label Format,Verbose professional
+bladder,small cell carcinoma,Stage II,AURKA amplification,none,improving,simple,,,Treatment Change,Standard Narrative,Brief business-like
+ureter,transitional cell,T4bN2M1,TSC2 mutation,extensive nodal/liver,stable,complex,social_background,,Complex Initial Assessment,Highly Structured Summary,Verbose narrative empathetic
+bladder,micropapillary urothelial,Stage IIIB,mTOR pathway activation,lymph nodes only,deteriorating,complex,care_plan,,Clinical Trial Assessment,Fully Narrative,Concise and factual
+bladder,glandular variant,,CDKN2A/B loss,bone only,stable,simple,medical_background,,Treatment Review,Short Structured,Verbose professional
+bladder,sarcomatoid variant,T3bN1M0,NF1 mutation,regional nodes only,improving,simple,,,End of Treatment,Standard Semi-Structured,Brief business-like
+upper tract,clear cell carcinoma,Stage IV,PTEN loss,widespread,deteriorating,complex,administrative,,Complex Progressive Disease,Block-Label Format,Verbose narrative empathetic
+bladder,urothelial carcinoma,T2aN0M0,FGFR inhibitor sensitive,none,stable,simple,clinical_trial,,Simple Follow-up,Standard Narrative,Concise and factual
+bladder,mixed small cell,T4N1M1,CD56+/ChromograninA+,liver/lung/bone,deteriorating,complex,social_background,,Transfer of Care,Highly Structured Summary,Verbose professional
+renal pelvis,papillary urothelial,Stage I,TERT mutation,none,improving,simple,care_plan,,Treatment Review,Fully Narrative,Brief business-like
+bladder,lipid-rich variant,T3aN0,BAP1 loss,none,stable,simple,,,Initial Assessment,Short Structured,Concise and factual
+ureter,neuroendocrine tumor,Stage IIIA,ARID1A mutation,lymph nodes only,deteriorating,complex,medical_background,,Complex Initial Assessment,Standard Semi-Structured,Verbose professional
+bladder,squamous differentiation,T4bN2M1,PD-L1 TPS 5%,widespread,stable,complex,administrative,,Clinical Trial Assessment,Block-Label Format,Brief business-like
+bladder,adenocarcinoma,Stage II,MSI-stable/pMMR,none,improving,simple,clinical_trial,,Treatment Change,Standard Narrative,Verbose narrative empathetic
+ovary,high grade serous carcinoma,IIIc,BRCA1 positive germline;HRD positive,peritoneal deposits,stable,complex,patient_status:weight_status,,Treatment Review,Standard Semi-Structured,Verbose narrative
+endometrium,grade 2 endometrioid adenocarcinoma,FIGO 1A,MSI-high;MMR-deficient,none,improving,simple,social_background:smoking_status,,Simple Follow-up,Short Structured,Concise factual
+cervix,squamous cell carcinoma,FIGO IB2,p16 positive;HPV 16,none,stable,simple,,,Initial Assessment,Standard Narrative,Professional clinical
+ovary,,IIIB,BRCA2 VUS,omental cake;liver surface deposits,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,Verbose narrative
+endometrium,grade 3 endometrioid carcinoma,T1bN0M0,POLE mutated,none,improving,simple,medical_background:medications,,Treatment Review,Block-Label Format,Concise factual
+vulva,invasive squamous cell carcinoma,T2N1M0,p16 negative,inguinal nodes,stable,complex,,,MDT Outcome,Standard Semi-Structured,Professional clinical
+ovary,low grade serous carcinoma,stage IV,KRAS G12V mutation,pleural effusion;liver metastases,deteriorating,complex,,,Treatment Change,Fully Narrative,Verbose narrative
+cervix,clear cell carcinoma,stage IVB,PD-L1 CPS 80,lung metastases;bone metastases,stable,complex,care_plan:planned_investigations,mismatched dates in text,Clinical Trial Assessment,Standard Narrative,Professional clinical
+endometrium,carcinosarcoma,T3aN0M0,TP53 mutation;MSS,none,improving,simple,,,Initial Assessment,Short Structured,Concise factual
+ovary,mucinous adenocarcinoma,III,HER2 positive,peritoneal disease,stable,complex,administrative:clinic_type,,Treatment Review,Standard Semi-Structured,Professional clinical
+fallopian tube,high grade serous carcinoma,T3cN1M0,RAD51C pathogenic variant,omental deposits,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,Verbose narrative
+cervix,adenocarcinoma,IIA1,,none,improving,simple,patient_status:vital_signs,missing entire treatment section,Simple Follow-up,Block-Label Format,Concise factual
+endometrium,grade 1 endometrioid adenocarcinoma,FIGO IA,PTEN loss;MLH1 methylation,none,stable,simple,,,End of Treatment,Standard Narrative,Professional clinical
+ovary,clear cell carcinoma,IC3,ARID1A mutation,none,improving,simple,social_background:living_situation,,Initial Assessment,Short Structured,Concise factual
+vulva,basal cell carcinoma,T1N0M0,,inguinal nodes,stable,complex,,,Treatment Review,Standard Semi-Structured,Professional clinical
+endometrium,,stage IIIC2,MMR-proficient;p53 wild-type,para-aortic nodes,deteriorating,complex,care_plan:follow_up,multiple spelling errors throughout,Complex Progressive Disease,Fully Narrative,Verbose narrative
+cervix,neuroendocrine carcinoma,IVA,Chromogranin A positive,bladder invasion,stable,complex,,,Clinical Trial Registration,Highly Structured Summary,Professional clinical
+ovary,low grade serous carcinoma,IIIA,BRAF V600E mutation,small volume peritoneal,improving,simple,medical_background:allergies,,Treatment Review,Block-Label Format,Concise factual
+endometrium,grade 2 endometrioid adenocarcinoma,T2N0M0,MSI-low;CTNNB1 mutation,none,stable,simple,,,Simple Follow-up,Standard Narrative,Professional clinical
+cervix,adenosquamous carcinoma,IB1,HPV 18;p16 positive,none,improving,simple,patient_status:examination_findings,inconsistent patient name usage,Initial Assessment,Short Structured,Concise factual
+ovary,high grade serous carcinoma,IIIC,ATM mutation;HRD positive,extensive peritoneal,deteriorating,complex,,,Complex Progressive Disease,Standard Semi-Structured,Verbose narrative
+fallopian tube,serous tubal intraepithelial carcinoma,TisN0M0,BRCA1 VUS,none,stable,simple,,,End of Treatment,Highly Structured Summary,Professional clinical
+endometrium,clear cell carcinoma,IIIA,ARID1A mutation;MLH1 loss,pelvic nodes,stable,complex,social_background:functional_status,,Treatment Change,Block-Label Format,Professional clinical
+ovary,granulosa cell tumor,IC,FOXL2 mutation,none,improving,simple,,,Simple Follow-up,Standard Narrative,Concise factual
+cervix,small cell neuroendocrine carcinoma,IVB,Synaptophysin positive,liver metastases,deteriorating,complex,care_plan:next_treatment,missing biomarker values,Clinical Trial Assessment,Fully Narrative,Verbose narrative
+vulva,melanoma,T3bN1M0,BRAF V600E positive,inguinal nodes,stable,complex,,,MDT Outcome,Standard Semi-Structured,Professional clinical
+ovary,endometrioid carcinoma,IIA,PTEN mutation,none,improving,simple,patient_status:performance_status,,Treatment Review,Short Structured,Concise factual
+endometrium,serous carcinoma,T3bN1M0,TP53 mutation;HER2 positive,cervical involvement,stable,complex,,,Complex Initial Assessment,Highly Structured Summary,Verbose narrative
+cervix,,IIA2,PD-L1 negative,none,improving,simple,medical_background:comorbidities,truncated letter ending,Simple Follow-up,Block-Label Format,Concise factual
+ovary,mixed serous and clear cell,IIIC,BRCA2 positive somatic,peritoneal;pleural,deteriorating,complex,,,Treatment Change,Standard Narrative,Professional clinical
+fallopian tube,high grade serous carcinoma,IV,RAD51D mutation;HRD positive,liver metastases,stable,complex,,,Clinical Trial Registration,Standard Semi-Structured,Verbose narrative
+endometrium,grade 3 endometrioid,T1aN0M0,POLε mutation,none,improving,simple,administrative:mdt_details,,Initial Assessment,Short Structured,Concise factual
+ovary,small cell carcinoma,IIIB,synaptophysin positive,omental disease,stable,complex,,,Treatment Review,Highly Structured Summary,Professional clinical
+cervix,adenocarcinoma,IB2,HPV 16;p16 positive,none,improving,simple,patient_status:symptom_status,formatting errors throughout,Simple Follow-up,Block-Label Format,Concise factual
+endometrium,,FIGO IIIC1,MMR-deficient;MSI-high,pelvic nodes,deteriorating,complex,,,Complex Progressive Disease,Fully Narrative,Verbose narrative
+ovary,high grade serous carcinoma,IIIC,PALB2 mutation;HRD positive,peritoneal disease,stable,complex,,,Clinical Trial Assessment,Standard Semi-Structured,Professional clinical
+vulva,squamous cell carcinoma,T2N2M0,p16 positive,bilateral nodes,improving,complex,social_background:smoking_status,,Treatment Review,Short Structured,Concise factual
+cervix,glassy cell carcinoma,IVA,PD-L1 CPS 90,bladder invasion,stable,complex,,,MDT Outcome,Highly Structured Summary,Professional clinical
+ovary,clear cell carcinoma,IC2,ARID1A mutation;HNF1B positive,none,improving,simple,,,Initial Assessment,Block-Label Format,Concise factual
+endometrium,grade 2 endometrioid,T1bN0M0,PTEN loss;MLH1 methylation,none,stable,simple,care_plan:planned_investigations,,Simple Follow-up,Standard Narrative,Professional clinical
+fallopian tube,,IIIA,BRCA1 positive germline,peritoneal deposits,deteriorating,complex,medical_background:medications,missing patient demographics,Complex Progressive Disease,Standard Semi-Structured,Verbose narrative
+ovary,juvenile granulosa cell tumor,IC,FOXL2 wild-type,none,improving,simple,,,Treatment Review,Short Structured,Concise factual
+cervix,adenocarcinoma,IB1,HPV 18 positive,none,stable,simple,,,End of Treatment,Highly Structured Summary,Professional clinical
+endometrium,carcinosarcoma,T2N1M0,TP53 mutation;p53 abnormal,none,deteriorating,complex,patient_status:vital_signs,,Treatment Change,Block-Label Format,Professional clinical
+ovary,low grade serous carcinoma,IIIB,KRAS G12D mutation,omental deposits,stable,complex,,,Clinical Trial Registration,Fully Narrative,Verbose narrative
+cervix,clear cell carcinoma,IVB,HNF1B positive,lung metastases,deteriorating,complex,,,Complex Progressive Disease,Standard Semi-Structured,Professional clinical
+vulva,adenocarcinoma,T1bN1M0,,inguinal nodes,improving,simple,administrative:communication_details,,Treatment Review,Short Structured,Concise factual
+ovary,high grade serous carcinoma,IIIC,BRCA1 VUS;HRD positive,peritoneal disease,stable,complex,,,MDT Outcome,Highly Structured Summary,Professional clinical
+endometrium,grade 1 endometrioid,IA,PTEN mutation;MSS,none,improving,simple,social_background:living_situation,missing staging details,Simple Follow-up,Block-Label Format,Concise factual
+cervix,adenosquamous carcinoma,IIA1,p16 positive;HPV 16,none,stable,simple,,,Initial Assessment,Standard Narrative,Professional clinical
+ovary,mucinous carcinoma,IC1,HER2 negative,none,improving,simple,,,Treatment Review,Standard Semi-Structured,Professional clinical
+fallopian tube,high grade serous carcinoma,IIIC,BRCA2 positive germline,peritoneal disease,deteriorating,complex,care_plan:next_treatment,,Complex Progressive Disease,Fully Narrative,Verbose narrative
+endometrium,grade 3 endometrioid,T3aN0M0,POLE wild-type;p53 normal,none,stable,simple,,,Simple Follow-up,Short Structured,Concise factual
+ovary,clear cell carcinoma,IV,ARID1A mutation,liver metastases,deteriorating,complex,medical_background:comorbidities,,Clinical Trial Assessment,Highly Structured Summary,Professional clinical
+cervix,squamous cell carcinoma,IB2,PD-L1 CPS 70,none,improving,simple,,,Treatment Review,Block-Label Format,Professional clinical
+endometrium,serous carcinoma,IIIC1,TP53 mutation;HER2 positive,pelvic nodes,stable,complex,patient_status:performance_status,inconsistent date formats,Complex Initial Assessment,Standard Narrative,Verbose narrative
+ovary,dysgerminoma,IC2,FOXL2 mutation,none,improving,simple,,,End of Treatment,Standard Semi-Structured,Professional clinical
+esophagus,adenocarcinoma,T3N1M0,HER2 positive (3+),no metastases,stable,simple,,misspelled medications,Initial Assessment,Standard Narrative,Concise factual
+esophagus,squamous cell carcinoma,Stage III,,liver metastases,deteriorating,complex,treatment_toxicity,,Treatment Change,Block-Label Format,Professional verbose
+gastric,diffuse type adenocarcinoma,ypT2N2M0,MSI-high PDL1 CPS 15,peritoneal deposits,improving,complex,social_background,,Clinical Trial Registration,Highly Structured Summary,Professional verbose
+esophagus,adenocarcinoma,T4aN2M1,HER2 negative MMR proficient,bone liver lung,deteriorating,complex,,,Complex Progressive Disease,Standard Semi-Structured,Professional verbose
+gastric,intestinal type adenocarcinoma,,HER2 equivocal (2+) FISH negative,none,stable,simple,lymph_node_status,,Simple Follow-up,Short Structured,Concise factual
+gastric,signet ring cell carcinoma,T4bN3bM1,PDL1 CPS 2,peritoneal carcinomatosis,deteriorating,complex,,random missing words,Treatment Review,Standard Narrative,Professional verbose
+esophagus,squamous cell carcinoma,Stage IVA,p16 negative,regional nodes only,stable,simple,medical_background,,MDT Outcome,Block-Label Format,Brief business-like
+gastric,,pT3N2M0,MSI stable EBV negative,none,improving,simple,,,End of Treatment,Standard Semi-Structured,Professional verbose
+esophagus,adenocarcinoma,T2N0M0,HER2 positive FGFR2 amplified,none,stable,simple,clinical_trial,,Initial Assessment,Fully Narrative,Empathetic descriptive
+gastric,mixed adenoneuroendocrine carcinoma,Stage IV,Chromogranin A positive,liver lung bone,deteriorating,complex,,,Complex Initial Assessment,Standard Narrative,Professional verbose
+esophagus,small cell carcinoma,,Ki67 80%,extensive disease,deteriorating,complex,care_plan,missing entire sections,Treatment Change,Block-Label Format,Concise factual
+gastric,adenocarcinoma,ypT0N0M0,HER2 negative MSI stable,none,improving,simple,,,End of Treatment,Short Structured,Brief business-like
+esophagus,squamous cell carcinoma,T3N2M0,p16 positive PDL1 CPS 20,none,stable,simple,patient_status,,Clinical Trial Assessment,Highly Structured Summary,Professional verbose
+gastric,poorly cohesive carcinoma,Stage IIIB,HER2 negative MSI high,none,improving,complex,,,Treatment Review,Standard Semi-Structured,Professional verbose
+esophagus,adenocarcinoma,T1bN0M0,HER2 positive (3+),none,stable,simple,,formatting errors,Simple Follow-up,Short Structured,Concise factual
+gastric,tubular adenocarcinoma,pT4aN3aM1,PDL1 CPS 5 MMR proficient,peritoneal liver,deteriorating,complex,social_background,,Complex Progressive Disease,Standard Narrative,Professional verbose
+esophagus,basaloid squamous carcinoma,Stage II,,none,improving,simple,treatment_toxicity,,Initial Assessment,Block-Label Format,Brief business-like
+gastric,mucinous adenocarcinoma,T3N2M0,MSI stable HER2 negative,none,stable,complex,,,Treatment Review,Standard Semi-Structured,Professional verbose
+esophagus,adenosquamous carcinoma,T4bN1M1,p16 negative PDL1 CPS 1,lung mets,deteriorating,complex,,inconsistent dates,Complex Progressive Disease,Fully Narrative,Professional verbose
+gastric,neuroendocrine carcinoma,Stage IIIC,Synaptophysin positive,none,improving,simple,medical_background,,MDT Outcome,Short Structured,Concise factual
+esophagus,adenocarcinoma,ypT3N1M0,HER2 positive FGFR2 normal,none,stable,complex,,,Treatment Review,Standard Narrative,Professional verbose
+gastric,,T4aN2M0,MSI high EBV positive,none,improving,simple,lymph_node_status,,Simple Follow-up,Block-Label Format,Brief business-like
+esophagus,squamous cell carcinoma,Stage IVB,PDL1 CPS 25,brain bone liver,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,Professional verbose
+gastric,adenocarcinoma,T2N1M0,HER2 negative MSI stable,none,stable,simple,clinical_trial,,Initial Assessment,Standard Semi-Structured,Concise factual
+esophagus,small cell carcinoma,Extensive stage,Ki67 95%,liver lung nodes,deteriorating,complex,care_plan,,Treatment Change,Standard Narrative,Professional verbose
+gastric,mixed carcinoma,pT3N2M0,HER2 equivocal MMR deficient,none,improving,simple,,duplicated paragraphs,End of Treatment,Short Structured,Brief business-like
+esophagus,adenocarcinoma,T3N1M0,HER2 negative PDL1 CPS 10,none,stable,complex,patient_status,,Clinical Trial Registration,Block-Label Format,Professional verbose
+gastric,diffuse type adenocarcinoma,Stage IV,MSI stable PD-L1 negative,peritoneal bone,deteriorating,complex,,,Complex Initial Assessment,Standard Semi-Structured,Professional verbose
+esophagus,squamous cell carcinoma,,p16 negative PDL1 CPS 5,lung liver,deteriorating,complex,social_background,,Treatment Review,Fully Narrative,Empathetic descriptive
+gastric,intestinal type adenocarcinoma,T2N0M0,HER2 positive (3+),none,stable,simple,,,Simple Follow-up,Short Structured,Concise factual
+esophagus,adenocarcinoma,Stage III,FGFR2 amplified PDL1 CPS 15,none,improving,complex,treatment_toxicity,,Treatment Change,Standard Narrative,Professional verbose
+gastric,signet ring cell carcinoma,T4bN3bM1,MSI stable HER2 negative,peritoneal liver,deteriorating,complex,,missing biomarker values,Complex Progressive Disease,Block-Label Format,Professional verbose
+esophagus,squamous cell carcinoma,T3N2M0,p16 positive PDL1 CPS 30,none,stable,simple,medical_background,,MDT Outcome,Highly Structured Summary,Brief business-like
+gastric,,ypT0N1M0,HER2 negative MSI high,none,improving,simple,lymph_node_status,,End of Treatment,Standard Semi-Structured,Concise factual
+esophagus,adenocarcinoma,Stage IVA,HER2 positive FGFR2 normal,liver lung,deteriorating,complex,,,Complex Initial Assessment,Standard Narrative,Professional verbose
+gastric,poorly cohesive carcinoma,T3N2M0,PDL1 CPS 8 MMR proficient,none,stable,simple,clinical_trial,,Clinical Trial Assessment,Block-Label Format,Professional verbose
+esophagus,small cell carcinoma,Limited stage,Ki67 85%,regional nodes,improving,complex,care_plan,,Treatment Review,Short Structured,Brief business-like
+gastric,tubular adenocarcinoma,Stage IIIB,HER2 negative MSI stable,none,stable,simple,,incomplete treatment dates,Simple Follow-up,Standard Semi-Structured,Concise factual
+esophagus,squamous cell carcinoma,T4aN1M0,p16 negative PDL1 CPS 2,none,improving,complex,patient_status,,Treatment Change,Fully Narrative,Professional verbose
+gastric,mucinous adenocarcinoma,T4bN3aM1,MSI high EBV negative,peritoneal nodes,deteriorating,complex,,,Complex Progressive Disease,Standard Narrative,Professional verbose
+esophagus,adenocarcinoma,Stage II,HER2 positive (3+),none,stable,simple,social_background,,Initial Assessment,Block-Label Format,Brief business-like
+gastric,neuroendocrine carcinoma,T2N1M0,Chromogranin A Synaptophysin positive,none,improving,simple,,,MDT Outcome,Highly Structured Summary,Professional verbose
+esophagus,basaloid squamous carcinoma,T3N2M0,p16 positive PDL1 CPS 18,none,stable,complex,treatment_toxicity,,Treatment Review,Standard Semi-Structured,Professional verbose
+gastric,adenocarcinoma,Stage IV,HER2 negative MSI stable,liver bone,deteriorating,complex,,jumbled paragraphs,Complex Progressive Disease,Short Structured,Professional verbose
+esophagus,adenosquamous carcinoma,ypT2N0M0,PDL1 CPS 12 MMR proficient,none,improving,simple,medical_background,,End of Treatment,Standard Narrative,Concise factual
+gastric,mixed carcinoma,T4aN2M1,HER2 equivocal (2+) FISH positive,peritoneal liver lung,deteriorating,complex,,,Complex Initial Assessment,Block-Label Format,Professional verbose
+esophagus,squamous cell carcinoma,Stage III,p16 negative PDL1 CPS 4,none,stable,simple,lymph_node_status,,Simple Follow-up,Standard Semi-Structured,Brief business-like
+gastric,diffuse type adenocarcinoma,T3N1M0,MSI high PD-L1 CPS 20,none,improving,complex,,,Clinical Trial Registration,Fully Narrative,Professional verbose
+esophagus,adenocarcinoma,T4bN2M1,HER2 positive FGFR2 amplified,liver bone brain,deteriorating,complex,clinical_trial,,Treatment Change,Standard Narrative,Professional verbose
+gastric,intestinal type adenocarcinoma,Stage IIIC,HER2 negative MMR deficient,none,stable,simple,care_plan,,MDT Outcome,Block-Label Format,Concise factual
+esophagus,small cell carcinoma,,Ki67 90%,liver lung,deteriorating,complex,,,Complex Progressive Disease,Highly Structured Summary,Professional verbose
+gastric,signet ring cell carcinoma,T2N1M0,PDL1 CPS 3 MSI stable,none,improving,simple,patient_status,,Treatment Review,Standard Semi-Structured,Brief business-like
+esophagus,adenocarcinoma,Stage IVB,HER2 positive (3+),liver bone nodes,deteriorating,complex,,,Complex Initial Assessment,Short Structured,Professional verbose
+gastric,poorly cohesive carcinoma,T3N2M0,MSI high EBV positive,none,stable,simple,social_background,,Simple Follow-up,Standard Narrative,Concise factual
+esophagus,squamous cell carcinoma,ypT3N1M0,p16 positive PDL1 CPS 25,none,improving,complex,treatment_toxicity,,Treatment Change,Block-Label Format,Professional verbose
+gastric,tubular adenocarcinoma,T4bN3bM1,HER2 negative MSI stable,peritoneal liver bone,deteriorating,complex,,,Complex Progressive Disease,Fully Narrative,Empathetic descriptive
+esophagus,adenocarcinoma,Stage II,FGFR2 normal PDL1 CPS 8,none,stable,simple,medical_background,,Initial Assessment,Standard Semi-Structured,Brief business-like
+gastric,mucinous adenocarcinoma,T3N2M0,HER2 equivocal MMR proficient,none,improving,simple,,,End of Treatment,Highly Structured Summary,Professional verbose
+esophagus,basaloid squamous carcinoma,T4aN1M1,p16 negative PDL1 CPS 15,liver lung,deteriorating,complex,lymph_node_status,,Treatment Review,Standard Narrative,Professional verbose
+liver,hepatocellular carcinoma,BCLC B,AFP 450,no metastases,stable,simple,patient_status:vital_signs,,Simple Follow-up,Standard Narrative,Concise and factual
+liver,combined hepatocellular-cholangiocarcinoma,T3N1M1,AFP 12000; PDL1 CPS 80,extensive bone and lung,deteriorating,complex,social_background:smoking_status;administrative:accompanied_by,missing treatment dates,Complex Progressive Disease,Highly Structured Summary,Verbose professional
+biliary tract,intrahepatic cholangiocarcinoma,stage IVB,IDH1 mutant; MSI-high,peritoneal carcinomatosis,stable,complex,,,Treatment Review,Standard Semi-Structured,Brief business-like
+liver,,pT2N0M0,AFP within normal range,none,improving,simple,medical_background:medications,misspelled medications,Initial Assessment,Short Structured,Concise and factual
+gallbladder,adenocarcinoma,T4N1M1,HER2 amplified (FISH positive),liver and nodal,deteriorating,complex,,,MDT Outcome,Block-Label Format,Verbose professional
+liver,fibrolamellar carcinoma,stage III,CK7 positive; CK19 positive,,stable,simple,care_plan:planned_investigations,,Simple Follow-up,Standard Narrative,Brief business-like
+bile duct,extrahepatic cholangiocarcinoma,T2N1M0,FGFR2 fusion positive,regional nodes only,improving,complex,patient_status:weight_status,missing patient demographics,Treatment Change,Fully Narrative,Verbose empathetic
+liver,hepatocellular carcinoma,BCLC C,AFP 25000; PIVKA-II elevated,portal vein invasion,deteriorating,complex,,,Clinical Trial Registration,Highly Structured Summary,Verbose professional
+biliary tract,,stage IVA,PDL1 TPS 90%,widespread lymph nodes,stable,complex,administrative:mdt_details,fragmented treatment history,Treatment Review,Standard Semi-Structured,Concise and factual
+gallbladder,squamous cell carcinoma,T3N2M1,p53 mutation; MSS status,peritoneal and liver,deteriorating,complex,,,Complex Progressive Disease,Block-Label Format,Brief business-like
+liver,hepatocellular carcinoma,BCLC A,AFP 120,single lesion,stable,simple,social_background:living_situation,,Simple Follow-up,Short Structured,Concise and factual
+biliary tract,mixed adenoneuroendocrine carcinoma,stage IV,Chromogranin A positive; PDL1 negative,bone and liver,deteriorating,complex,,,Treatment Change,Standard Narrative,Verbose professional
+liver,hepatocellular carcinoma,T2N0M0,AFP 800; beta-catenin mutation,none,improving,simple,,,Initial Assessment,Standard Semi-Structured,Brief business-like
+bile duct,perihilar cholangiocarcinoma,,ERBB2 amplified,local invasion only,stable,complex,patient_status:examination_findings,incomplete staging,Treatment Review,Block-Label Format,Concise and factual
+liver,epithelioid hemangioendothelioma,not staged,CD31 positive; CD34 positive,multifocal liver,stable,simple,,,Clinical Trial Assessment,Fully Narrative,Verbose empathetic
+gallbladder,,T4N2M1,MMR deficient,widespread metastases,deteriorating,complex,medical_background:allergies,corrupted biomarker data,Complex Progressive Disease,Highly Structured Summary,Verbose professional
+liver,hepatocellular carcinoma,BCLC D,AFP 50000,extensive bone,deteriorating,complex,,,End of Treatment,Standard Narrative,Brief business-like
+bile duct,adenosquamous carcinoma,stage IIIB,NTRK fusion positive,regional nodes,improving,complex,,,Treatment Change,Standard Semi-Structured,Concise and factual
+liver,clear cell carcinoma,T3aN0M0,AFP normal; CD10 positive,none,stable,simple,care_plan:follow_up,,Simple Follow-up,Short Structured,Brief business-like
+biliary tract,intrahepatic cholangiocarcinoma,stage IVB,BRAF V600E mutation,lung and peritoneal,deteriorating,complex,,,Complex Progressive Disease,Block-Label Format,Verbose professional
+liver,hepatocellular carcinoma,BCLC B,AFP 2500; PIVKA-II normal,no metastases,stable,simple,,,Treatment Review,Standard Narrative,Concise and factual
+gallbladder,adenocarcinoma,,HER2 negative; MSI-low,liver only,improving,complex,administrative:communication_details,truncated letter ending,Initial Assessment,Highly Structured Summary,Brief business-like
+liver,combined hepatocellular-cholangiocarcinoma,T4N1M1,AFP 15000; PDL1 CPS 60,bone and brain,deteriorating,complex,,,Complex Progressive Disease,Standard Semi-Structured,Verbose professional
+bile duct,extrahepatic cholangiocarcinoma,stage IIA,FGFR mutation negative,none,stable,simple,patient_status:performance_status,,Simple Follow-up,Block-Label Format,Concise and factual
+liver,,BCLC C,AFP 35000,portal vein thrombosis,deteriorating,complex,,,Treatment Change,Fully Narrative,Brief business-like
+biliary tract,intrahepatic cholangiocarcinoma,T3N1M1,IDH2 mutant,widespread nodal,stable,complex,medical_background:comorbidities,missing biomarker values,Treatment Review,Standard Narrative,Verbose professional
+liver,hepatocellular carcinoma,stage II,AFP 300; beta-catenin wild-type,none,improving,simple,,,Initial Assessment,Short Structured,Concise and factual
+gallbladder,neuroendocrine carcinoma,T4N2M1,Synaptophysin positive,liver and bone,deteriorating,complex,,,Complex Progressive Disease,Standard Semi-Structured,Verbose empathetic
+liver,fibrolamellar carcinoma,,CK7 positive; CD68 positive,lung only,stable,simple,social_background:functional_status,incomplete TNM staging,Simple Follow-up,Block-Label Format,Brief business-like
+bile duct,perihilar cholangiocarcinoma,stage IIIB,ERBB3 amplified,local invasion,improving,complex,,,Treatment Review,Highly Structured Summary,Concise and factual
+liver,hepatocellular carcinoma,BCLC A,AFP 150,single lesion,stable,simple,,,Clinical Trial Registration,Standard Narrative,Brief business-like
+biliary tract,cholangiocarcinoma,T3N0M0,PDL1 CPS 40,none,improving,simple,patient_status:vital_signs,,Simple Follow-up,Standard Semi-Structured,Concise and factual
+liver,,stage IVB,AFP 40000; MSI-high,widespread metastases,deteriorating,complex,,,Complex Progressive Disease,Block-Label Format,Verbose professional
+gallbladder,adenocarcinoma,T2N1M0,HER2 positive (IHC 3+),regional nodes,stable,complex,care_plan:next_treatment,missing response assessment,Treatment Change,Fully Narrative,Brief business-like
+liver,hepatocellular carcinoma,BCLC B,AFP 1800; PIVKA-II elevated,no metastases,improving,simple,,,Treatment Review,Standard Narrative,Concise and factual
+bile duct,extrahepatic cholangiocarcinoma,stage IVA,FGFR2 fusion negative,widespread nodal,deteriorating,complex,,,End of Treatment,Highly Structured Summary,Verbose professional
+liver,combined hepatocellular-cholangiocarcinoma,T3N1M0,AFP 5000; PDL1 TPS 70%,none,stable,simple,,,Initial Assessment,Standard Semi-Structured,Brief business-like
+biliary tract,,stage IV,IDH1 wild-type,bone and liver,deteriorating,complex,medical_background:medications,garbled text sections,Complex Progressive Disease,Block-Label Format,Verbose empathetic
+liver,hepatocellular carcinoma,BCLC C,AFP 28000,portal vein invasion,deteriorating,complex,,,Treatment Change,Short Structured,Concise and factual
+gallbladder,adenosquamous carcinoma,T4N2M1,p53 mutation; MMR proficient,widespread metastases,deteriorating,complex,,,Complex Progressive Disease,Standard Narrative,Verbose professional
+liver,clear cell carcinoma,,CD10 positive; vimentin positive,lung only,stable,simple,administrative:mdt_details,missing dates,Simple Follow-up,Standard Semi-Structured,Brief business-like
+bile duct,perihilar cholangiocarcinoma,stage IIIA,ERBB2/3 co-amplified,local invasion,improving,complex,,,Treatment Review,Block-Label Format,Concise and factual
+liver,hepatocellular carcinoma,BCLC A,AFP 200; beta-catenin mutation,none,stable,simple,,,Clinical Trial Assessment,Highly Structured Summary,Brief business-like
+biliary tract,intrahepatic cholangiocarcinoma,T3N1M1,BRAF wild-type,peritoneal only,deteriorating,complex,,,Complex Progressive Disease,Fully Narrative,Verbose professional
+liver,epithelioid hemangioendothelioma,not staged,CD31/CD34 co-expression,multifocal liver,stable,simple,patient_status:symptom_status,,Simple Follow-up,Standard Narrative,Concise and factual
+gallbladder,,T4N1M1,HER2 equivocal (IHC 2+),liver and lung,deteriorating,complex,,,Treatment Change,Standard Semi-Structured,Verbose empathetic
+liver,hepatocellular carcinoma,BCLC B,AFP 3500,no metastases,improving,simple,,,Treatment Review,Block-Label Format,Brief business-like
+biliary tract,cholangiocarcinoma,stage IVB,PDL1 CPS 90%,widespread metastases,deteriorating,complex,,,End of Treatment,Highly Structured Summary,Concise and factual
+thyroid,papillary thyroid carcinoma,T1N0M0,BRAF V600E positive,none,stable,simple,medical_background;social_background,,Simple Follow-up,Short Structured,Concise factual
+thyroid,follicular thyroid carcinoma,T2N1M0,RET fusion negative,cervical nodes,improving,complex,,,Treatment Review,Standard Narrative,Verbose professional
+thyroid,medullary thyroid carcinoma,Stage IVB,Calcitonin 850 pg/mL;CEA 125 ng/mL,bone;liver,deteriorating,complex,clinical_trial,,Complex Progressive Disease,Fully Narrative,Verbose empathetic
+thyroid,anaplastic thyroid carcinoma,T4bN1M1,TP53 mutation,widespread,deteriorating,complex,,missing entire examination section,Initial Assessment,Standard Semi-Structured,Verbose professional
+thyroid,hurthle cell carcinoma,T3N0M0,,none,stable,simple,care_plan,,Treatment Change,Block-Label Format,Concise factual
+thyroid,poorly differentiated thyroid carcinoma,Stage IVC,TERT promoter mutation,lung;bone,deteriorating,complex,social_background,multiple spelling errors in medications,Complex Initial Assessment,Highly Structured Summary,Verbose professional
+thyroid,papillary thyroid carcinoma,T1aN0M0,BRAF negative;RAS negative,none,stable,simple,patient_status,,Simple Follow-up,Short Structured,Concise factual
+thyroid,follicular variant papillary thyroid cancer,,RET/PTC rearrangement positive,cervical nodes,stable,complex,,,MDT Outcome,Standard Narrative,Verbose professional
+thyroid,medullary thyroid carcinoma,Stage III,RET mutation positive;Calcitonin 1200 pg/mL,none,improving,complex,administrative,,Treatment Review,Standard Semi-Structured,Verbose professional
+thyroid,mixed medullary-follicular carcinoma,T2N1M1,CEA 80 ng/mL,bone,deteriorating,complex,,investigation dates missing,Complex Progressive Disease,Fully Narrative,Verbose empathetic
+thyroid,papillary thyroid microcarcinoma,T1aN0M0,BRAF V600E positive,none,stable,simple,medical_background,,Simple Follow-up,Short Structured,Concise factual
+thyroid,follicular thyroid carcinoma,Stage II,,none,stable,simple,clinical_trial,,End of Treatment,Block-Label Format,Concise factual
+thyroid,hurthle cell carcinoma,T2N1M0,PAX8/PPARγ fusion negative,cervical nodes,improving,complex,,corrupted treatment dates,Treatment Review,Standard Narrative,Verbose professional
+thyroid,anaplastic thyroid carcinoma,Stage IVC,TERT mutation;TP53 mutation,lung;brain,deteriorating,complex,,,Transfer of Care,Highly Structured Summary,Verbose professional
+thyroid,papillary thyroid carcinoma,T3N1bM0,BRAF positive,cervical nodes,stable,complex,social_background,,Treatment Change,Standard Semi-Structured,Verbose professional
+thyroid,medullary thyroid carcinoma,,Calcitonin 2500 pg/mL,liver,deteriorating,complex,,missing staging information,Complex Progressive Disease,Fully Narrative,Verbose empathetic
+thyroid,follicular thyroid carcinoma,T1bN0M0,RAS mutation positive,none,stable,simple,clinical_trial,,Simple Follow-up,Short Structured,Concise factual
+thyroid,poorly differentiated thyroid carcinoma,Stage IVA,ALK fusion positive,lung,deteriorating,complex,,,Initial Assessment,Standard Narrative,Verbose professional
+thyroid,papillary thyroid carcinoma,T2N1M0,NTRK fusion positive,cervical nodes,improving,complex,medical_background,,Treatment Review,Standard Semi-Structured,Verbose professional
+thyroid,hurthle cell carcinoma,T4aN1M1,TERT promoter mutation,bone;liver,deteriorating,complex,,incorrect patient demographics,Complex Progressive Disease,Highly Structured Summary,Verbose professional
+thyroid,follicular variant papillary thyroid cancer,Stage I,BRAF negative,none,stable,simple,patient_status,,End of Treatment,Block-Label Format,Concise factual
+thyroid,medullary thyroid carcinoma,T2N0M0,RET mutation negative;Calcitonin 400 pg/mL,none,improving,simple,,,Treatment Review,Standard Narrative,Verbose professional
+thyroid,anaplastic thyroid carcinoma,Stage IVB,,widespread,deteriorating,complex,care_plan,,Transfer of Care,Fully Narrative,Verbose empathetic
+thyroid,papillary thyroid carcinoma,T1N1M0,BRAF V600E positive,cervical nodes,stable,complex,clinical_trial,,MDT Outcome,Standard Semi-Structured,Verbose professional
+thyroid,follicular thyroid carcinoma,Stage II,PAX8/PPARγ fusion positive,none,improving,simple,,,Simple Follow-up,Short Structured,Concise factual
+thyroid,hurthle cell carcinoma,T3N1M0,TERT mutation negative,cervical nodes,stable,complex,social_background,,Treatment Change,Standard Narrative,Verbose professional
+thyroid,medullary thyroid carcinoma,Stage IVC,Calcitonin 3000 pg/mL;CEA 200 ng/mL,bone;brain,deteriorating,complex,,missing biomarker values,Complex Progressive Disease,Highly Structured Summary,Verbose professional
+thyroid,papillary thyroid carcinoma,T1microN0M0,BRAF positive,none,stable,simple,medical_background,,Simple Follow-up,Short Structured,Concise factual
+thyroid,poorly differentiated thyroid carcinoma,T4N1M1,TP53 mutation;TERT mutation,lung;bone,deteriorating,complex,,,Initial Assessment,Standard Narrative,Verbose professional
+thyroid,follicular thyroid carcinoma,Stage I,,none,stable,simple,clinical_trial,,End of Treatment,Block-Label Format,Concise factual
+thyroid,papillary thyroid carcinoma,T2N0M0,RET fusion positive,none,improving,simple,patient_status,,Treatment Review,Standard Semi-Structured,Verbose professional
+thyroid,medullary thyroid carcinoma,T3N1M1,RET mutation positive;Calcitonin 1500 pg/mL,liver;bone,deteriorating,complex,,,Complex Progressive Disease,Fully Narrative,Verbose empathetic
+thyroid,hurthle cell carcinoma,Stage II,TERT promoter mutation negative,none,stable,simple,care_plan,,Simple Follow-up,Short Structured,Concise factual
+thyroid,anaplastic thyroid carcinoma,T4bN1M1,TP53 mutation,widespread,deteriorating,complex,,missing treatment details,Transfer of Care,Highly Structured Summary,Verbose professional
+thyroid,papillary thyroid carcinoma,T1N0M0,BRAF V600E positive,none,stable,simple,medical_background,,Simple Follow-up,Short Structured,Concise factual
+thyroid,follicular thyroid carcinoma,Stage IVA,PAX8/PPARγ fusion positive,lung,deteriorating,complex,,,Treatment Change,Standard Narrative,Verbose professional
+thyroid,medullary thyroid carcinoma,T2N1M0,Calcitonin 600 pg/mL,cervical nodes,improving,complex,social_background,,Treatment Review,Standard Semi-Structured,Verbose professional
+thyroid,poorly differentiated thyroid carcinoma,Stage IVC,TERT mutation,bone;brain,deteriorating,complex,,corrupted biomarker section,Complex Progressive Disease,Fully Narrative,Verbose empathetic
+thyroid,papillary thyroid carcinoma,T1aN0M0,NTRK fusion negative,none,stable,simple,clinical_trial,,End of Treatment,Block-Label Format,Concise factual
+thyroid,hurthle cell carcinoma,T3N1M0,RAS mutation positive,cervical nodes,improving,complex,,,MDT Outcome,Standard Narrative,Verbose professional
+adrenal,adrenocortical carcinoma,T3N0M1,Ki67 80%,liver mets,deteriorating,complex,cancer_diagnosis:grade;patient_status:vital_signs,,Type 11: Complex Progressive Disease,Standard Narrative,verbose professional
+pancreas,neuroendocrine tumor,G1 pT2N0,chromogranin A elevated; synaptophysin positive,none,stable,simple,social_background:smoking_status;administrative:mdt_details,missing entire examination section,Type 2: Simple Follow-up,Short Structured,concise factual
+adrenal,pheochromocytoma,pT2N0,SDHB mutation positive,,improving,simple,treatment:treatment_toxicity,,Type 1: Initial Assessment,Standard Semi-Structured,verbose professional
+pancreas,glucagonoma,Stage IIB,glucagon 455 pmol/L; CgA 890 ng/mL,liver mets,stable,complex,,,Type 3: Treatment Review,Block-Label Format,concise factual
+islet cell,insulinoma,T1N0M0,insulin 45 mIU/L; C-peptide elevated,none,improving,simple,medical_background:allergies,random question marks throughout text,Type 10: End of Treatment,Highly Structured Summary,verbose professional
+adrenal,malignant pheochromocytoma,,plasma metanephrines >10x ULN; SDHD mutation,bone mets,deteriorating,complex,,,Type 4: Complex Initial Assessment,Standard Narrative,verbose professional
+pancreas,VIPoma,T4N1M1,VIP 150 pmol/L,liver; peritoneal,stable,complex,patient_status:weight_status;social_background:functional_status,,Type 9: Treatment Change,Standard Semi-Structured,concise factual
+pancreas,non-functional NET,Ki67 2%,,none,improving,simple,,,Type 2: Simple Follow-up,Short Structured,concise factual
+adrenal,cortisol-secreting ACC,Stage IV,cortisol 1200 nmol/L,lung; liver,deteriorating,complex,care_plan:planned_investigations,multiple misspelled medical terms,Type 11: Complex Progressive Disease,Fully Narrative,verbose professional
+islet cell,gastrinoma,T2N1,gastrin 400 pg/mL; CgA positive,regional nodes,stable,simple,,,Type 3: Treatment Review,Block-Label Format,concise factual
+pancreas,mixed NET-acinar,G3 T3N1M1,Ki67 45%; synaptophysin weak positive,widespread,deteriorating,complex,social_background,,Type 8: MDT Outcome,Standard Narrative,verbose professional
+adrenal,,T4N0M0,cortisol; androgen elevation,local invasion,stable,complex,administrative:communication_details,inconsistent date formats,Type 3: Treatment Review,Short Structured,concise factual
+pancreas,neuroendocrine carcinoma,Stage IIIB,SSTR2 positive; Ki67 25%,,deteriorating,complex,,,Type 9: Treatment Change,Standard Semi-Structured,verbose professional
+islet cell,malignant insulinoma,T2N1M1,insulin 180 mIU/L; proinsulin elevated,liver; bone,stable,complex,patient_status:vital_signs,missing patient demographics,Type 4: Complex Initial Assessment,Highly Structured Summary,concise factual
+adrenal,mixed corticomedullary tumor,,mixed hormone profile,local invasion,improving,simple,,,Type 1: Initial Assessment,Block-Label Format,verbose professional
+pancreas,glucagonoma,G2 T3N1,glucagon 890 pmol/L,regional nodes,stable,complex,medical_background:medications,truncated letter ending,Type 3: Treatment Review,Standard Narrative,concise factual
+adrenal,ACTH-producing ACC,Stage III,ACTH 200 pg/mL; SF1 positive,,deteriorating,complex,,,Type 11: Complex Progressive Disease,Fully Narrative,verbose professional
+pancreas,somatostatinoma,T4N1M0,somatostatin >50x ULN,none,improving,simple,patient_status:examination_findings,missing entire treatment history,Type 10: End of Treatment,Standard Semi-Structured,concise factual
+islet cell,,Ki67 15%,chromogranin A; synaptophysin positive,liver mets,stable,complex,,,Type 3: Treatment Review,Short Structured,verbose professional
+adrenal,pheochromocytoma,pT3N0,plasma normetanephrine elevation; SDHA mutation,none,improving,simple,social_background:living_situation,,Type 2: Simple Follow-up,Block-Label Format,concise factual
+pancreas,NET G3,Stage IV,Ki67 80%; SSTR2 negative,widespread,deteriorating,complex,,,Type 4: Complex Initial Assessment,Standard Narrative,verbose professional
+adrenal,oncocytic ACC,,steroid profile abnormal,lung mets,stable,complex,care_plan:follow_up,corrupted formatting in examination section,Type 3: Treatment Review,Highly Structured Summary,concise factual
+pancreas,mixed neuroendocrine-ductal,T3N1M1,Ki67 60%; PDL1 positive,liver; peritoneal,deteriorating,complex,,,Type 9: Treatment Change,Standard Semi-Structured,verbose professional
+islet cell,malignant gastrinoma,Stage IIB,gastrin 1200 pg/mL,regional nodes,improving,simple,administrative:clinic_type,random line breaks throughout,Type 10: End of Treatment,Short Structured,concise factual
+adrenal,malignant paraganglioma,T4N1,dopamine elevation; SDHC mutation,local invasion,stable,complex,,,Type 8: MDT Outcome,Block-Label Format,verbose professional
+pancreas,non-functional NET,G1 T2N0M0,Ki67 2%; CgA normal,none,improving,simple,patient_status:performance_status,,Type 2: Simple Follow-up,Standard Narrative,concise factual
+adrenal,ACC,Stage IV,steroid profile deranged,widespread,deteriorating,complex,medical_background,,Type 11: Complex Progressive Disease,Fully Narrative,verbose professional
+pancreas,glucagonoma,T3N1M1,glucagon 670 pmol/L; Ki67 35%,liver mets,stable,complex,social_background:functional_status,,Type 3: Treatment Review,Standard Semi-Structured,concise factual
+islet cell,VIPoma,Stage IIIA,VIP 200 pmol/L; CgA elevated,regional nodes,improving,simple,cancer_diagnosis:grade,missing staging information,Type 1: Initial Assessment,Short Structured,verbose professional
+unknown,poorly differentiated carcinoma,cT4N2M1,PDL1 CPS 85,widespread bone and liver,deteriorating,complex,patient_status:vital_signs,,Type 3: Treatment Review,Standard Narrative,verbose professional
+unknown,adenocarcinoma,Stage IV,,extensive peritoneal,stable,complex,treatment:treatment_toxicity,missing treatment dates,Type 1: Initial Assessment,Short Structured,concise factual
+unknown,neuroendocrine carcinoma,T3N1M1b,Ki67 80%,isolated liver,improving,simple,social_background:smoking_status,,Type 2: Simple Follow-up,Standard Semi-Structured,brief business-like
+unknown,signet ring adenocarcinoma,,BRAF V600E negative,bone and brain,deteriorating,complex,,,Type 11: Complex Progressive Disease,Fully Narrative,verbose empathetic
+unknown,squamous cell carcinoma,Stage IVB,CD117 positive,pleural and peritoneal,stable,simple,medical_background:medications,,Type 9: Treatment Change,Block-Label Format,concise factual
+unknown,small cell carcinoma,extensive stage,Synaptophysin positive,widespread visceral,deteriorating,complex,care_plan:planned_investigations,multiple spelling errors,Type 4: Complex Initial Assessment,Highly Structured Summary,verbose professional
+unknown,adenocarcinoma with neuroendocrine features,T4bNxM1,Chromogranin A elevated,liver and lung,stable,complex,patient_status:examination_findings,missing entire sections,Type 8: MDT Outcome,Short Structured,concise factual
+unknown,clear cell carcinoma,,PD-L1 TPS 90%,widespread lymph nodes,deteriorating,complex,,,Type 3: Treatment Review,Standard Semi-Structured,verbose professional
+unknown,undifferentiated carcinoma,Stage IV,TTF1 negative,bone and liver,stable,simple,administrative:mdt_details,,Type 10: End of Treatment,Block-Label Format,brief business-like
+unknown,mixed adenoneuroendocrine carcinoma,T3N2M1,NSE elevated,peritoneal only,improving,complex,,,Type 1: Initial Assessment,Fully Narrative,verbose empathetic
+unknown,poorly cohesive carcinoma,IVB,SSTR2 positive,pleural and bone,deteriorating,complex,clinical_trial:trial_status,formatting artifacts,Type 11: Complex Progressive Disease,Highly Structured Summary,verbose professional
+unknown,adenosquamous carcinoma,,PDL1 CPS 15,widespread visceral,stable,simple,,,Type 2: Simple Follow-up,Standard Narrative,concise factual
+unknown,large cell neuroendocrine carcinoma,Stage IVC,Synaptophysin/CD56 positive,liver and brain,deteriorating,complex,social_background:living_situation,inconsistent spacing,Type 4: Complex Initial Assessment,Short Structured,verbose professional
+unknown,signet ring carcinoma,T4N3M1,HER2 negative,bone and peritoneal,stable,simple,,,Type 9: Treatment Change,Standard Semi-Structured,brief business-like
+unknown,poorly differentiated carcinoma,,CK7-/CK20+,widespread lymph nodes,improving,complex,treatment:treatment_type,missing biomarker values,Type 3: Treatment Review,Block-Label Format,verbose professional
+unknown,adenocarcinoma with signet ring features,Stage IV,GATA3 positive,liver only,deteriorating,complex,,,Type 1: Initial Assessment,Fully Narrative,verbose empathetic
+unknown,small cell carcinoma with large cell features,extensive stage,CD56 positive,bone and pleural,stable,simple,medical_background:allergies,,Type 10: End of Treatment,Standard Narrative,concise factual
+unknown,mixed neuroendocrine-non-neuroendocrine,T4NxM1,Ki67 60%,widespread visceral,deteriorating,complex,,,Type 11: Complex Progressive Disease,Highly Structured Summary,verbose professional
+unknown,undifferentiated carcinoma,IVB,PDL1 TPS 70%,peritoneal and lymph nodes,improving,simple,patient_status:weight_status,truncated letter ending,Type 2: Simple Follow-up,Short Structured,brief business-like

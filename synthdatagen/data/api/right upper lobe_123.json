@@ -1,0 +1,96 @@
+{
+  "content": "Diagnosis:\tMetastatic adenocarcinoma of right upper lobe with NRG1 fusion\n\nI reviewed [redacted name] today following his recent admission with increasing bone pain. He was diagnosed in January 2024 with a T3N2M1c adenocarcinoma of the right upper lobe with widespread bone metastases. Initial molecular profiling identified an NRG1 fusion, with PD-L1 negative status. He commenced first-line afatinib 40mg daily on 15/2/24 but required dose reduction to 30mg daily after 2 weeks due to grade 3 diarrhea.\n\nUnfortunately, his most recent CT on 15/4/24 shows disease progression with increase in the primary mass from 4.8cm to 6.2cm and new bone metastases in T4 and L2 vertebrae. His performance status has declined from 1 to 2, with increasing bone pain requiring morphine SR 30mg bd. He reports grade 2 fatigue and ongoing grade 1 diarrhea despite dose reduction.\n\nOn examination today, he has reduced air entry in the right upper zone and tenderness over the thoracic spine. His latest bloods show stable renal function but mild transaminitis (ALT 120).\n\nI have discussed his case at today's Lung MDT. Given the disease progression on afatinib and identification of the NRG1 fusion, we recommend discontinuing afatinib and enrolling in the Phase II PIONEER trial of seribantumab. I have explained the trial protocol and potential side effects. [redacted name] is keen to proceed.\n\nPlan:\n1. Discontinue afatinib\n2. Urgent MRI spine to assess for cord compression given new vertebral metastases\n3. Referral to clinical trials team for PIONEER study screening\n4. Palliative radiotherapy assessment for symptomatic bone metastases\n5. Increase morphine SR to 40mg bd\n6. Review in 2 weeks with trial screening results",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right upper lobe",
+      "year": 2024,
+      "month": 1,
+      "metastases": "widespread bone metastases, new T4 and L2 vertebral metastases",
+      "tnm_stage": "T3N2M1c",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "NRG1 fusion positive, PD-L1 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started afatinib 40mg daily",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Afatinib dose reduced to 30mg daily due to grade 3 diarrhea",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows increase in primary mass from 4.8cm to 6.2cm and new bone metastases in T4 and L2 vertebrae",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Decision to discontinue afatinib due to disease progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status declined from 1 to 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing bone pain requiring morphine SR 30mg bd"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 diarrhea"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry in right upper zone and tenderness over thoracic spine"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function but mild transaminitis (ALT 120)"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic lung adenocarcinoma with NRG1 fusion showing disease progression on afatinib with declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with increase in primary mass and new bone metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 diarrhea persisting despite dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing afatinib, plan for PIONEER trial of seribantumab"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status from 1 to 2 with increasing bone pain"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess for cord compression"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks with trial screening results"
+      }
+    ]
+  }
+}

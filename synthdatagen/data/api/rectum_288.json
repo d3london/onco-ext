@@ -1,0 +1,108 @@
+{
+  "content": "Diagnosis:\nRectal adenocarcinoma, initially Duke's B at diagnosis March 2023, now with peritoneal metastases. KRAS G12A mutation positive, HER2 negative.\n\nPrevious Treatment:\nAnterior resection March 2023\nAdjuvant CAPOX completed August 2023\nPeritoneal disease detected October 2023\nFOLFIRI/Bevacizumab commenced November 2023\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nDepression\n\nCurrent medications:\nIrinotecan 180mg/m2\nFluorouracil 2400mg/m2 continuous infusion\nBevacizumab 5mg/kg\nMetformin 1g BD\nAmlodipine 10mg OD\nSertraline 100mg OD\n\nAllergies:\nPenicillin - rash\n\nCurrent situation:\nCycle 8 FOLFIRI/Bevacizumab\n\nI reviewed [redacted name] today who is managing remarkably well with treatment despite some ongoing challenges. His main symptoms are fatigue and intermittent abdominal discomfort, though both have improved since dose reduction of irinotecan at cycle 6. The grade 3 diarrhea that necessitated previous dose reduction has largely resolved with current supportive medications. His appetite remains reasonable though he reports early satiety. Weight has stabilized at 72kg following previous 5kg loss.\n\nCT scan from last week shows stable peritoneal disease compared to 3 months ago, with no new sites of disease. CEA has decreased from 45 to 28. Performance status remains 1. Blood results today show stable picture with hemoglobin 108 g/L, platelets 156, normal renal and liver function.\n\nWe had a detailed discussion about treatment options. Given the stable disease picture and reasonable tolerability following dose modification, we have agreed to continue with current treatment. I have explained that we will reassess after cycle 10, with repeat imaging at that point to guide further management. He understands to contact us if any new symptoms develop, particularly any worsening abdominal pain or bleeding.\n\nPlan:\n1. Continue FOLFIRI/Bevacizumab at current doses\n2. CT scan prior to cycle 10\n3. Review in 2 weeks with blood tests\n4. Maintain current supportive medications including loperamide prn",
+  "output": {
+    "primary_cancer": {
+      "site": "rectum",
+      "year": 2023,
+      "month": 3,
+      "metastases": "peritoneal disease",
+      "other_stage": "Initially Duke's B, now metastatic",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "KRAS G12A mutation positive, HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Anterior resection",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant CAPOX",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed adjuvant CAPOX",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Peritoneal disease detected",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFIRI/Bevacizumab",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Irinotecan dose reduction at cycle 6 due to grade 3 diarrhea",
+          "year": 2024
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA decreased from 45 to 28",
+          "year": 2024
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Depression"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue and intermittent abdominal discomfort"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Hemoglobin 108 g/L, platelets 156, normal renal and liver function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic rectal cancer with peritoneal disease, showing stable disease on FOLFIRI/Bevacizumab after dose reduction for toxicity"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable peritoneal disease on CT, CEA decreasing from 45 to 28"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Previous grade 3 diarrhea now resolved following dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing FOLFIRI/Bevacizumab at reduced dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan prior to cycle 10"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks with blood tests"
+      }
+    ]
+  }
+}

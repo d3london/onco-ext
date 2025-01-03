@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis\n\t1. Mixed acinar-endocrine carcinoma of pancreatic head\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNot suitable - locally advanced at presentation\n\n\tChemotherapy\n\t1. FOLFIRINOX 4 cycles Jan-Mar 2024\n\t2. Gemcitabine/Nab-paclitaxel commenced April 2024\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tStable disease on imaging with mixed response in liver metastases\n\n\tCurrent issues\n\tGrade 3 peripheral neuropathy\nIntermittent vomiting\nWeight loss\n\n\tSummary of consultation\n\tI reviewed [redacted name] today who has been receiving second-line gemcitabine/nab-paclitaxel for metastatic pancreatic mixed acinar-endocrine carcinoma. Unfortunately, she has developed significant peripheral neuropathy affecting both hands and feet (grade 3), which is significantly impacting her quality of life. She reports difficulties with fine motor tasks and is experiencing constant tingling and numbness up to her knees.\n\nHer most recent CT scan from 15/5/24 shows stable disease in the pancreatic primary (6.2cm vs 6.3cm) with mixed response in liver metastases - two lesions have reduced in size while one has increased from 2.1cm to 2.8cm. Lung metastases remain stable. Her CA19-9 has risen slightly from 850 to 920.\n\nGiven the significant neuropathy and somewhat equivocal disease response, we have discussed changing treatment strategy. We will discontinue nab-paclitaxel and continue with single-agent gemcitabine at full dose. I have explained this offers a reasonable balance between disease control and quality of life.\n\n\tFurther investigations\n\tCT chest/abdomen/pelvis in 8 weeks\nCA19-9 monitoring with each cycle\n\n\tMedication prescribed\n\tGabapentin dose increased to 300mg TDS for neuropathy\nMetoclopramide 10mg TDS PRN continued\n\n\tFollow up\n\tNext oncology follow up in 3 weeks pre-cycle 2 modified regimen\n\n\tRequired GP actions\n\tPlease monitor renal function\nTitrate gabapentin dose as needed for neuropathy symptoms",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas head",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver metastases, lung metastases",
+      "tnm_stage": "T4N1M1",
+      "histopathology_status": "mixed acinar-endocrine carcinoma",
+      "biomarker_status": "PDX1 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced gemcitabine/nab-paclitaxel as second-line therapy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 increased from 850 to 920",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable pancreatic primary (6.2cm vs 6.3cm) with mixed response in liver metastases, stable lung metastases",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued nab-paclitaxel due to grade 3 peripheral neuropathy, continuing single-agent gemcitabine",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Grade 3 peripheral neuropathy affecting hands and feet up to knees"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Intermittent vomiting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Weight loss"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT 15/5/24 shows mixed response - two liver lesions reduced, one increased from 2.1cm to 2.8cm"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic mixed acinar-endocrine carcinoma with stable disease but significant treatment-related neuropathy requiring change in regimen"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Mixed response with stable primary tumor but variable liver metastases response"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 peripheral neuropathy affecting fine motor function"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing nab-paclitaxel, continuing single-agent gemcitabine at full dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 8 weeks with CA19-9 monitoring each cycle"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks pre-cycle 2 of modified regimen"
+      }
+    ]
+  }
+}

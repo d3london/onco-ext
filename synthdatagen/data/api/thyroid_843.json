@@ -1,0 +1,103 @@
+{
+  "content": "I reviewed [redacted name] today who attended with his wife following recent disease progression. Unfortunately, his metastatic medullary thyroid cancer has shown concerning progression despite initial response to Selpercatinib. His symptoms have significantly worsened over the past 6 weeks, with increasing bone pain affecting his thoracic spine and right hip, alongside marked fatigue limiting his daily activities. He reports new onset of night sweats and has lost 4kg despite maintaining reasonable oral intake.\n\nTo recap, [redacted name] was diagnosed in January 2023 with medullary thyroid cancer harboring a RET mutation. He initially underwent total thyroidectomy and central neck dissection, but post-operative staging unfortunately revealed liver and bone metastases. He commenced Selpercatinib 160mg twice daily in March 2023 with excellent initial response, achieving partial response in liver metastases and improvement in bone pain. His calcitonin dropped from 1500 to 450 pg/mL.\n\nHowever, recent CT imaging from 15th April 2024 shows concerning disease progression with 30% increase in liver metastases and new bone lesions in T8 vertebra and right acetabulum. His calcitonin has risen to 2200 pg/mL. His performance status has declined from ECOG 1 to ECOG 2-3, spending more than 50% of the day resting due to fatigue and pain.\n\nOn examination today, he appears cachectic with tender hepatomegaly extending 4cm below the costal margin. There is point tenderness over T8 vertebra and the right hip. His blood pressure is elevated at 165/95 mmHg, likely related to pain.\n\nI have had a lengthy discussion with [redacted name] and his wife about the changing situation. We have increased his analgesia, adding Pregabalin 75mg twice daily to his current MST 30mg twice daily, with immediate release morphine for breakthrough pain. I have arranged urgent MRI spine to assess for cord compression risk and referred for consideration of palliative radiotherapy to symptomatic bone sites.\n\nRegarding systemic therapy, we have discussed second-line options including Cabozantinib. I have explained the rationale, potential benefits and risks, and [redacted name] wishes to proceed. We will commence Cabozantinib 60mg daily once his pain is better controlled, likely next week. I have arranged weekly review initially to monitor tolerability.\n\nI have also made a referral to our palliative care team for additional support with symptom management, and our clinical nurse specialist will maintain regular telephone contact. We will see him again next Tuesday to initiate Cabozantinib, by which time we should have the MRI results to guide further management of his bone disease.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2023,
+      "month": 1,
+      "metastases": "liver and bone metastases, including T8 vertebra and right acetabulum",
+      "tnm_stage": "T3N1M1",
+      "histopathology_status": "medullary thyroid carcinoma",
+      "biomarker_status": "RET mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "total thyroidectomy and central neck dissection",
+          "year": 2023,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "initial calcitonin 1500 pg/mL",
+          "year": 2023,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "commenced Selpercatinib 160mg twice daily",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "calcitonin dropped to 450 pg/mL showing treatment response",
+          "year": 2023
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 30% increase in liver metastases and new bone lesions in T8 vertebra and right acetabulum",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "calcitonin risen to 2200 pg/mL indicating disease progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "declined from ECOG 1 to ECOG 2-3, spending more than 50% of day resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "increasing bone pain affecting thoracic spine and right hip"
+      },
+      {
+        "type": "current_symptom",
+        "value": "marked fatigue limiting daily activities"
+      },
+      {
+        "type": "current_symptom",
+        "value": "night sweats and 4kg weight loss"
+      },
+      {
+        "type": "examination_finding",
+        "value": "cachectic with tender hepatomegaly extending 4cm below costal margin"
+      },
+      {
+        "type": "examination_finding",
+        "value": "point tenderness over T8 vertebra and right hip"
+      },
+      {
+        "type": "examination_finding",
+        "value": "blood pressure elevated at 165/95 mmHg"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic medullary thyroid cancer with RET mutation showing disease progression after initial response to Selpercatinib. Significant clinical deterioration with worsening bone pain and declining performance status."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with 30% increase in liver metastases and new bone lesions"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Increased analgesia with addition of Pregabalin 75mg twice daily to MST 30mg twice daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess for cord compression risk"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review planned with initiation of Cabozantinib 60mg daily next week"
+      }
+    ]
+  }
+}

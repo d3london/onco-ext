@@ -1,0 +1,100 @@
+{
+  "content": "Diagnosis\n\t1. Medullary thyroid carcinoma with brain and bone metastases\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Total thyroidectomy and central neck dissection\n\n\tSystemic therapy\n\t1 Mar 2024 Commenced Cabozantinib 60mg daily\n\t15 Apr 2024 Dose reduction to 40mg daily due to grade 3 palmar-plantar syndrome\n\n\tRadiotherapy\n\t20 Mar 2024 Whole brain radiotherapy 20Gy in 5 fractions\n\t10 Apr 2024 Palliative radiotherapy to T7 vertebra 8Gy single fraction\n\n\tCurrent disease status\n\tProgressive disease with worsening symptoms\n\n\tCurrent issues\n\t1. Deteriorating mobility\n\t2. Increasing bone pain\n\t3. Grade 2 fatigue\n\t4. Intermittent headaches\n\n\tSummary of consultation\n\tUnfortunately [redacted name] has experienced significant clinical deterioration over the past 4 weeks. Despite initial disease stabilization with Cabozantinib, recent imaging shows progressive disease with new bone metastases and enlarging brain metastases. Her mobility has declined significantly, now requiring a wheelchair for most activities. She reports worsening bone pain, particularly in her thoracic spine and left hip, despite regular opioid analgesia. Calcitonin has risen from 2400 to 3000 pg/mL and CEA from 150 to 200 ng/mL over the past month.\n\nOn examination today, she appears notably more frail with ECOG performance status deteriorating to 3. There is marked tenderness over the thoracic spine and left hip. Neurological examination shows new mild right-sided weakness, though she remains cognitively intact.\n\n\tFurther investigations\n\tMRI brain with contrast - urgent\n\tCT chest/abdomen/pelvis with bone windows\n\tCalcitonin and CEA levels\n\n\tMedication changes\n\tOxycodone modified release increased to 40mg BD\n\tDexamethasone commenced 4mg BD\n\n\tFollow up\n\tUrgent palliative care review arranged\n\tNext oncology review in 1 week with scan results\n\n\tRequired actions\n\t1. Urgent MRI brain to assess progression\n\t2. Consider further palliative radiotherapy pending MRI results\n\t3. Discussion at next available thyroid MDT regarding systemic therapy options\n\t4. District nurse referral for support with mobility",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 1,
+      "metastases": "brain and bone metastases",
+      "other_stage": "Stage IVC",
+      "histopathology_status": "medullary thyroid carcinoma",
+      "biomarker_status": "Calcitonin 3000 pg/mL, CEA 200 ng/mL",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy and central neck dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Cabozantinib 60mg daily",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Whole brain radiotherapy 20Gy in 5 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T7 vertebra 8Gy single fraction",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cabozantinib dose reduced to 40mg daily due to grade 3 palmar-plantar syndrome",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Calcitonin risen from 2400 to 3000 pg/mL and CEA from 150 to 200 ng/mL over past month",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG performance status 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain in thoracic spine and left hip"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Intermittent headaches"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 fatigue"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Marked tenderness over thoracic spine and left hip"
+      },
+      {
+        "type": "examination_finding",
+        "value": "New mild right-sided weakness"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic medullary thyroid cancer with progressive disease in brain and bones despite Cabozantinib. Significant clinical deterioration with declining performance status."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with new bone metastases and enlarging brain metastases"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deteriorating mobility requiring wheelchair, ECOG PS declined to 3"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI brain with contrast and CT chest/abdomen/pelvis with bone windows"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review arranged and oncology review in 1 week with scan results"
+      }
+    ]
+  }
+}

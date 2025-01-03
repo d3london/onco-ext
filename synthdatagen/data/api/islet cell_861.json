@@ -1,0 +1,79 @@
+{
+  "content": "Diagnosis:\nGastrinoma of pancreatic head with regional nodal disease\n\nPrevious treatment:\nWhipple's procedure March 2023\nCommenced Lanreotide 120mg monthly from May 2023\n\nCurrent medications:\nLanreotide 120mg monthly\nPantoprazole 40mg twice daily\n\nCurrent situation:\nCycle 6 Lanreotide treatment review\n\nInvestigation results:\nGastrin level 180 pg/mL (down from 400 pg/mL at diagnosis)\nChromogranin A within normal range\nCT scan 15/04/2024 shows no evidence of recurrence\n\nI reviewed [redacted name] today for assessment during treatment with Lanreotide. Treatment has been well tolerated with only mild injection site reactions. His gastric symptoms are well controlled on current PPI dose. Weight is stable at 72kg. Performance status remains 0. Blood tests show continued biochemical response with gastrin now 180 pg/mL. Recent CT imaging confirms stable appearances with no evidence of recurrent disease. The plan is to continue with monthly Lanreotide injections and review again in 3 months with repeat imaging and biochemical markers.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreatic head, islet cell",
+      "year": 2023,
+      "metastases": "regional nodal disease",
+      "tnm_stage": "T2N1",
+      "histopathology_status": "gastrinoma",
+      "biomarker_status": "gastrin 400 pg/mL at diagnosis, chromogranin A positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Lanreotide 120mg monthly",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Gastrin reduced to 180 pg/mL, Chromogranin A normalized",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of recurrence",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild injection site reactions to Lanreotide"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Gastrin 180 pg/mL, Chromogranin A normal"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Gastrinoma of pancreatic head post Whipple's procedure, showing good biochemical response to Lanreotide with stable disease on imaging"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Biochemical response with gastrin reduction and normal chromogranin A, stable disease on CT"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild injection site reactions to Lanreotide"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing monthly Lanreotide 120mg"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat imaging and biochemical markers in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 months"
+      }
+    ]
+  }
+}

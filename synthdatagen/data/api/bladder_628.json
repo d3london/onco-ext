@@ -1,0 +1,99 @@
+{
+  "content": "Diagnosis\n\t1. Small cell neuroendocrine carcinoma of bladder, T3bN2M1\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t12 Jan 2024 TURBT - incomplete resection due to muscle invasion\n\n\tChemotherapy\n\t1. Carboplatin AUC5/Etoposide 100mg/m2 D1-3 q21 days - 4 cycles completed March 2024\n\t2. Atezolizumab maintenance 1200mg q21 days commenced April 2024\n\n\tRadiotherapy\n\tProphylactic cranial irradiation 25Gy in 10 fractions completed 15 April 2024\n\n\tClinical studies\n\tNot enrolled\n\n\tCurrent disease status\n\tStable disease on maintenance immunotherapy\n\n\tCurrent issues\n\tGrade 2 fatigue\nMild immune-related thyroiditis\n\n\tSummary of consultation\n\tThis 67-year-old gentleman has completed first-line platinum/etoposide chemotherapy for metastatic small cell neuroendocrine carcinoma of the bladder, achieving stable disease. Initial staging showed extensive pelvic lymphadenopathy and widespread metastatic disease. He completed 4 cycles with good tolerance apart from grade 2 fatigue. Restaging CT in March 2024 confirmed stable disease and he proceeded to prophylactic cranial irradiation followed by maintenance atezolizumab.\n\nHe has developed mild thyroiditis on immunotherapy requiring thyroxine replacement but otherwise tolerating treatment well. Latest thyroid function shows TSH 5.2 with normal free T4. Performance status remains 1.\n\nOn examination today, he has stable abdominal findings with no new concerns. Recent cystoscopy shows no local progression.\n\n\tFurther investigations\n\tCT chest/abdomen/pelvis booked for 20 May 2024\nTFTs to be monitored weekly\n\n\tMedication prescribed\n\tAtezolizumab 1200mg q21 days\nLevothyroxine 50mcg daily\n\n\tFollow up\n\tTransferring care to local oncology unit at [redacted name] Hospital\nNext immunotherapy due 15 May 2024\nRequires 3-monthly CT imaging\n\n\tRequired GP actions\n\tWeekly TFT monitoring\nUrgent referral back if new neurological symptoms",
+  "output": {
+    "primary_cancer": {
+      "site": "bladder",
+      "year": 2024,
+      "month": 1,
+      "tnm_stage": "T3bN2M1",
+      "histopathology_status": "small cell neuroendocrine carcinoma",
+      "biomarker_status": "ASCL1+/CD56+",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "TURBT - incomplete resection due to muscle invasion",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Carboplatin AUC5/Etoposide 100mg/m2 D1-3 q21 days",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 4 cycles of Carboplatin/Etoposide with stable disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started maintenance Atezolizumab 1200mg q21 days",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed prophylactic cranial irradiation 25Gy in 10 fractions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Developed immune-related thyroiditis on Atezolizumab requiring thyroxine replacement",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 fatigue"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "TSH 5.2 with normal free T4"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Stable abdominal findings with no new concerns"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Cystoscopy shows no local progression"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic small cell neuroendocrine bladder cancer with stable disease after platinum/etoposide, now on maintenance immunotherapy. Transferring care to local unit."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on maintenance immunotherapy"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 fatigue and immune-related thyroiditis requiring thyroxine replacement"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Atezolizumab 1200mg q21 days with thyroid monitoring"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis booked for 20 May 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Transferring care to local oncology unit, next immunotherapy due 15 May 2024"
+      }
+    ]
+  }
+}

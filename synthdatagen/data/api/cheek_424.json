@@ -1,0 +1,50 @@
+{
+  "content": "Diagnosis:\nBasal cell carcinoma right cheek\n\nPrevious Treatment:\nExcision March 2024 - complete excision with clear margins\n\nCurrent medications:\nNone cancer-related\n\nAllergies:\nNone documented\n\nCurrent situation:\nRoutine follow-up at 3 months post-excision\n\nI reviewed [redacted name] today in the skin cancer follow-up clinic. The surgical site on the right cheek has healed well with an excellent cosmetic result. There is no evidence of recurrence on careful examination of the scar and surrounding skin. No suspicious lesions noted elsewhere on head and neck examination.\n\nThe patient reports no new skin concerns and understands the importance of sun protection and self-monitoring. They are managing well with regular sunscreen use and appropriate protective clothing.\n\nPlan is for final follow-up in 6 months' time with clinical photographs, after which discharge to GP care if remains well. Written information provided regarding signs of recurrence to monitor for.",
+  "output": {
+    "primary_cancer": {
+      "site": "cheek, right",
+      "year": 2024,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "T1",
+      "other_stage": null,
+      "histopathology_status": "basal cell carcinoma",
+      "biomarker_status": null,
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Complete excision with clear margins",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Surgical site well healed with excellent cosmetic result, no evidence of recurrence",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical scar on right cheek, no evidence of recurrence"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No suspicious lesions on head and neck examination"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "T1 basal cell carcinoma of right cheek treated with surgical excision. Routine follow-up shows good healing with no evidence of recurrence"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Final follow-up in 6 months with clinical photographs, then discharge to GP if remains well"
+      }
+    ]
+  }
+}

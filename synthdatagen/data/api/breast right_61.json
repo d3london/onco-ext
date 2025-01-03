@@ -1,0 +1,94 @@
+{
+  "content": "Diagnosis\n\t1. Right breast squamous cell carcinoma with pleural and pulmonary metastases\n\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Core biopsy right breast\n\n\tChemotherapy\n\t1. First line carboplatin/gemcitabine Jan-March 2024\n\t2. Second line weekly paclitaxel March-April 2024\n\n\tRadiotherapy\n\tNot indicated\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tProgressive disease with worsening pleural effusion and new pulmonary nodules\n\n\tCurrent issues\n\tBreathlessness, chest pain, fatigue\n\n\tSummary of consultation\n\tI reviewed [redacted name] today who attended with her daughter. She has unfortunately experienced significant clinical deterioration over the past three weeks with worsening breathlessness, now requiring oxygen 2L/min at rest. Her exercise tolerance has reduced to approximately 20 meters. She describes constant right-sided chest pain requiring regular breakthrough analgesia.\n\nHer most recent CT scan from 15 April 2024 shows progression of disease with enlarging pleural effusion and multiple new pulmonary nodules. The primary breast mass has also increased in size from 6.8cm to 8.2cm. Previous immunotherapy was discontinued after 2 cycles due to grade 3 pneumonitis requiring hospital admission.\n\nWe had a detailed discussion about prognosis and treatment options. Given her declining performance status (now ECOG 3) and previous immunotherapy-related toxicity, we agreed to transition to best supportive care with involvement of the palliative care team. She expressed a clear wish to focus on symptom management and quality of life.\n\n\tFurther investigations\n\tUrgent pleural aspiration being arranged\n\n\tMedication prescribed\n\t1. Oxycodone modified release 20mg BD\n\t2. Breakthrough oxycodone 5mg PRN\n\t3. Regular dexamethasone 4mg daily\n\n\tFollow up\n\tUrgent palliative care review arranged for tomorrow\n\tNext oncology review in 2 weeks or sooner if needed\n\n\tRequired GP actions\n\tPlease support with community palliative care referral\n\tPrescribe breakthrough medications as above\n\n\tSummary of information given to patient\n\tDetailed discussion regarding disease progression and transition to palliative approach. Written information provided about palliative care services. Emergency contact numbers given.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "pleural and pulmonary metastases",
+      "tnm_stage": "T4N2M1",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "PD-L1 IHC 100%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Core biopsy right breast",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started first line carboplatin/gemcitabine",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed to second line weekly paclitaxel",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Immunotherapy discontinued due to grade 3 pneumonitis requiring hospital admission",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with enlarging pleural effusion, multiple new pulmonary nodules, primary breast mass increased to 8.2cm",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Breathlessness requiring oxygen 2L/min at rest"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Constant right-sided chest pain requiring regular breakthrough analgesia"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Exercise tolerance reduced to approximately 20 meters"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT 15/04/24 shows disease progression with enlarging pleural effusion and new pulmonary nodules"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic breast squamous cell carcinoma with rapid progression and declining performance status. Treatment limited by severe immunotherapy toxicity, now transitioning to palliative care."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 pneumonitis requiring hospital admission"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Transitioning to best supportive care with palliative team involvement"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant clinical deterioration with worsening breathlessness and reduced mobility"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent pleural aspiration being arranged"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review tomorrow and oncology review in 2 weeks"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "content": "Diagnosis:\t\tLeft breast small cell carcinoma\n\nStage:\t\tpT1cN0M0\n\nBiomarkers:\tTriple negative breast cancer, TILs 90%\n\nTreatment:\t\t12 Jan 2024 Wide local excision and sentinel lymph node biopsy\n\t\t\t1 Feb - 15 Mar 2024 Adjuvant chemotherapy with 4 cycles of dose-dense AC\n\t\t\t20 Mar - 30 Apr 2024 Adjuvant radiotherapy completed\n\nCurrent Situation:\tEnd of treatment review\n\n[redacted name] has completed her planned course of adjuvant treatment for early stage breast cancer. She tolerated chemotherapy well with only grade 1 fatigue and minimal nausea. Radiotherapy was completed with expected grade 1 skin reaction which is now resolving. Her energy levels are improving and she has maintained good mobility throughout treatment with regular walking.\n\nOn examination today, the left breast shows expected post-radiotherapy changes with mild skin pigmentation. The surgical scar is well-healed. No concerning features are identified in either breast or axillae.\n\nI have explained that she has completed her planned adjuvant treatment. We will arrange mammogram in 6 months and see her in clinic afterwards. She understands to contact us sooner if any new concerns develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT1cN0M0",
+      "other_stage": "",
+      "histopathology_status": "small cell carcinoma",
+      "biomarker_status": "Triple negative breast cancer, TILs 90%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant chemotherapy with dose-dense AC",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed course of adjuvant radiotherapy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Completed all planned adjuvant treatment",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Left breast shows post-radiotherapy changes with mild skin pigmentation, well-healed surgical scar"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Maintained good mobility throughout treatment with regular walking"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage triple negative breast cancer. Successfully completed planned course of multimodality adjuvant treatment with good tolerance"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and minimal nausea during chemotherapy, grade 1 skin reaction to radiotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Completed all planned adjuvant treatment including surgery, chemotherapy and radiotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Mammogram in 6 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic after mammogram"
+      }
+    ]
+  }
+}

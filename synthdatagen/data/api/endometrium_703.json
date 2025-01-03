@@ -1,0 +1,105 @@
+{
+  "content": "Diagnosis:\tHigh grade serous carcinoma of endometrium, FIGO stage IIIC1 (pT3a pN1 M0)\n\nPresenting in January 2024 with post-menopausal bleeding. Endometrial biopsy confirmed high grade serous carcinoma. Staging CT 15.01.24 showed 4.2cm endometrial mass with pelvic lymphadenopathy but no distant metastases. MRI pelvis 22/1/24 confirmed FIGO stage IIIC1 disease with myometrial invasion >50% and right external iliac nodal involvement.\n\n[redacted name] underwent total abdominal hysterectomy, bilateral salpingo-oophorectomy and pelvic lymph node dissection on February 12th 2024. Histology confirmed high grade serous carcinoma with lymphovascular space invasion, clear surgical margins, and 3/15 pelvic nodes positive. Molecular testing shows TP53 mutation and HER2 positivity (IHC 3+).\n\nIn her past medical history, she has well-controlled type 2 diabetes (latest HbA1c 52), hypertension, and previous DVT in 2018 following ankle surgery. Her current medications include metformin 1g BD, ramipril 5mg OD, and apixaban 5mg BD which was started pre-operatively.\n\nShe lives with her husband who provides excellent support. She worked as a primary school teacher but took early retirement last year. She has two adult children who live nearby. She has never smoked and drinks minimal alcohol.\n\nFollowing discussion at our Gynae-oncology MDT on March 1st 2024, we recommend combination chemotherapy with carboplatin and paclitaxel, followed by maintenance trastuzumab given the HER2 positivity. I have discussed this in detail with [redacted name] today, including the rationale for adjuvant therapy, expected side effects, and monitoring requirements.\n\nOn examination today, she has well-healed surgical scars. Cardiorespiratory examination is normal. Recent baseline investigations show normal renal and liver function, adequate bone marrow reserve (Hb 118, WCC 5.8, Platelets 287), and normal baseline ECG with LVEF 62% on echocardiogram.\n\nThe plan is to commence 6 cycles of carboplatin AUC5 and paclitaxel 175mg/m2 every 21 days, with cardiac monitoring every 12 weeks during subsequent trastuzumab maintenance. I have arranged PICC line insertion for next week. She will be reviewed prior to each cycle with regular toxicity assessment. We have provided emergency contact details and written information about chemotherapy side effects. The first cycle is booked for March 15th 2024.",
+  "output": {
+    "primary_cancer": {
+      "site": "endometrium",
+      "year": 2024,
+      "month": 1,
+      "metastases": "pelvic lymph nodes - right external iliac nodal involvement",
+      "tnm_stage": "pT3a pN1 M0",
+      "other_stage": "FIGO stage IIIC1",
+      "histopathology_status": "high grade serous carcinoma with lymphovascular space invasion",
+      "biomarker_status": "TP53 mutation positive, HER2 positive (IHC 3+)",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Presenting with post-menopausal bleeding",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Endometrial biopsy confirmed high grade serous carcinoma",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showed 4.2cm endometrial mass with pelvic lymphadenopathy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI pelvis confirmed FIGO IIIC1 disease with myometrial invasion >50% and right external iliac nodal involvement",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Total abdominal hysterectomy, bilateral salpingo-oophorectomy and pelvic lymph node dissection",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirmed high grade serous carcinoma with lymphovascular space invasion, clear margins, 3/15 positive nodes",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Molecular testing shows TP53 mutation and HER2 positivity (IHC 3+)",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Case discussed at Gynae-oncology MDT - recommended combination chemotherapy with carboplatin/paclitaxel followed by trastuzumab",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes with HbA1c 52"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Previous DVT in 2018 following ankle surgery"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical scars, normal cardiorespiratory examination"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal renal and liver function, Hb 118, WCC 5.8, Platelets 287, normal ECG, LVEF 62% on echocardiogram"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed high grade serous endometrial cancer, FIGO IIIC1, post-surgical treatment. HER2 positive disease suitable for targeted therapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence carboplatin AUC5 and paclitaxel 175mg/m2 every 21 days for 6 cycles, followed by trastuzumab maintenance"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Cardiac monitoring every 12 weeks during trastuzumab maintenance"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "PICC line insertion next week, review prior to each chemotherapy cycle"
+      }
+    ]
+  }
+}

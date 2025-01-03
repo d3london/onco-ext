@@ -1,0 +1,58 @@
+{
+  "content": "Diagnosis:\nMalignant melanoma right forearm\nBreslow thickness 0.9mm, no ulceration, mitotic rate 1/mm2\npT1bN0M0 (AJCC 8th edition)\nNRAS Q61R mutation detected\n\nPrevious medical history:\nHypertension\nType 2 diabetes\n\nCurrent medications:\nRamipril 5mg daily\nMetformin 1g twice daily\n\nAllergies:\nNone known\n\nCurrent situation:\nWide local excision performed 15 March 2024 by Dr [redacted name]\nClear margins achieved (1cm peripheral and deep)\nHealing well with no complications\n\nI reviewed [redacted name] today following his recent melanoma surgery. The pathology confirms a 0.9mm Breslow thickness melanoma with no ulceration but presence of mitoses. Molecular testing has detected an NRAS Q61R mutation. Clinical examination today shows a well-healing surgical site with no concerning features. There is no palpable lymphadenopathy and no suspicious skin lesions elsewhere.\n\nI have explained the diagnosis, prognosis and surveillance plan in detail. Given the stage, we will arrange 3-monthly reviews for the first year. I have provided written information about sun protection and skin self-examination. A repeat chest x-ray and LFTs will be arranged prior to next review in 3 months.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right forearm",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "pT1bN0M0",
+      "other_stage": "",
+      "histopathology_status": "Melanoma, Breslow thickness 0.9mm, no ulceration, mitotic rate 1/mm2",
+      "biomarker_status": "NRAS Q61R mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision with 1cm margins, clear peripheral and deep margins achieved",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "NRAS Q61R mutation detected on molecular testing",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healing surgical site with no concerning features, no palpable lymphadenopathy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage melanoma post successful surgical excision. No evidence of metastatic disease."
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Chest x-ray and liver function tests prior to next review"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "3-monthly reviews planned for first year"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis\n\t1. Left breast micropapillary carcinoma T3N2M0\n\n\tDate of diagnosis\n\tMarch 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Mar 2024 Core biopsy left breast and axillary nodes\n\n\tRadiotherapy\n\tNot yet commenced\n\n\tChemotherapy\n\tNot yet commenced\n\n\tClinical studies\n\tIMPACT-BC trial registration completed today\n\n\tCurrent disease status\n\tLocally advanced disease awaiting neoadjuvant treatment\n\n\tCurrent issues\n\tNone acute\n\n\tSummary of consultation\n\tThis 48-year-old lady has recently diagnosed left breast micropapillary carcinoma. Diagnostic imaging showed 7.2cm left breast mass with multiple abnormal axillary nodes. Core biopsy confirmed micropapillary carcinoma, AR and GATA3 positive with high TIL score 60%. Staging CT and bone scan show no evidence of metastatic disease.\n\nI have discussed at length the IMPACT-BC trial which is investigating intensified neoadjuvant chemotherapy in high-risk early breast cancer. [redacted name] meets all eligibility criteria including adequate cardiac function (LVEF 62%) and normal baseline blood parameters. We reviewed the trial schema, randomisation process, and additional trial-specific requirements including research biopsies and more frequent cardiac monitoring.\n\nShe has good understanding of the trial aims and additional procedures required. Written informed consent obtained today following full discussion of alternative standard treatment options.\n\n\tFurther investigations\n\tBaseline cardiac MRI scheduled 22 Apr 2024\n\tResearch tissue collection 25 Apr 2024\n\n\tMedication prescribed\n\tNone\n\n\tFollow up\n\tTrial randomisation 26 Apr 2024\n\tChemotherapy teaching 29 Apr 2024\n\tFirst treatment scheduled 2 May 2024\n\n\tRequired GP actions\n\tNone\n\n\tSummary of information given to patient\n\tFull trial information provided including written materials\nDiscussed standard vs trial treatment options\nReviewed potential benefits and additional requirements of trial participation",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2024,
+      "month": 3,
+      "metastases": "multiple abnormal axillary nodes",
+      "tnm_stage": "T3N2M0",
+      "histopathology_status": "micropapillary carcinoma",
+      "biomarker_status": "AR positive, GATA3 positive, TILs 60%",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Diagnostic imaging shows 7.2cm left breast mass with multiple abnormal axillary nodes",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Core biopsy left breast and axillary nodes",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Core biopsy confirms micropapillary carcinoma, AR and GATA3 positive with TILs 60%",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Staging CT and bone scan show no evidence of metastatic disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Registered for IMPACT-BC trial investigating intensified neoadjuvant chemotherapy",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "investigation_finding",
+        "value": "LVEF 62% on baseline cardiac assessment"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal baseline blood parameters"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed locally advanced left breast micropapillary carcinoma. Registered for neoadjuvant chemotherapy trial after confirming eligibility."
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline cardiac MRI scheduled 22 Apr 2024, Research tissue collection 25 Apr 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Trial randomisation 26 Apr 2024, Chemotherapy teaching 29 Apr 2024, First treatment scheduled 2 May 2024"
+      }
+    ]
+  }
+}

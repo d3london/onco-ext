@@ -1,0 +1,94 @@
+{
+  "content": "I reviewed [redacted name] today who attended with his daughter for assessment during cycle 3 of palliative pembrolizumab/carboplatin/paclitaxel for his metastatic esophageal squamous cell carcinoma. Unfortunately, he has experienced significant deterioration since starting treatment in March 2024. His dysphagia has worsened, now struggling with even liquids, and he requires regular ondansetron and dexamethasone to maintain even minimal oral intake. His weight has dropped from 68kg to 61kg over the past 6 weeks despite nutritional supplements.\n\nHe was admitted last week with grade 3 neutropenic sepsis requiring IV antibiotics and GCSF support. Though he has recovered from this episode, his performance status has declined from ECOG 1 to ECOG 3, now spending most of the day in bed or chair. He describes increasing right upper quadrant pain requiring escalation of his opioid medications, now on MST 30mg BD with oramorph breakthrough.\n\nCT scan performed during his admission shows disease progression with increase in size of the primary esophageal tumor from 6.8cm to 8.2cm, new satellite nodules in both lungs, and enlarging liver metastases with the largest lesion now measuring 5.6cm compared to 3.8cm pre-treatment. There is also new moderate right pleural effusion which may be contributing to his increasing breathlessness.\n\nOn examination today, he appears cachectic with obvious muscle wasting. Chest examination reveals reduced air entry at the right base consistent with the pleural effusion. The liver edge is palpable 4cm below the costal margin and tender. There is no peripheral edema.\n\nI have had a lengthy discussion with [redacted name] and his daughter about the clear evidence of disease progression despite treatment. Given his deteriorating performance status and significant toxicity, I have recommended discontinuing systemic anti-cancer therapy. We have agreed to focus on symptom control, and I have made an urgent referral to the palliative care team. I have also requested urgent dietetic review for consideration of feeding tube placement to help manage his dysphagia.\n\nHe will be reviewed by the palliative care team this week, and I have arranged follow-up in our supportive care clinic in 2 weeks' time. The acute oncology team are aware and will provide additional support as needed. I have prescribed additional breakthrough analgesia and anti-emetics today.",
+  "output": {
+    "primary_cancer": {
+      "site": "esophagus",
+      "year": 2024,
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "p16 negative, PDL1 CPS 5",
+      "metastases": "lung metastases with satellite nodules, liver metastases, right pleural effusion",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started pembrolizumab/carboplatin/paclitaxel",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Primary esophageal tumor increased from 6.8cm to 8.2cm with new satellite lung nodules and enlarging liver metastases (largest 5.6cm from 3.8cm)",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued systemic anti-cancer therapy due to disease progression and poor performance status",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Admitted with grade 3 neutropenic sepsis requiring IV antibiotics and GCSF support",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from ECOG 1 to ECOG 3, spending most of day in bed or chair"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening dysphagia struggling with liquids"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing right upper quadrant pain requiring escalated opioids"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing breathlessness"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with muscle wasting, reduced air entry right base, liver edge palpable 4cm below costal margin and tender"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Weight dropped from 68kg to 61kg over 6 weeks despite nutritional supplements"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic esophageal SCC with progressive disease despite first-line palliative chemotherapy. Significant clinical deterioration with dysphagia, weight loss, and recent neutropenic sepsis"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on imaging with increasing primary tumor size and new/enlarging metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 neutropenic sepsis requiring hospital admission"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Systemic anti-cancer therapy discontinued due to disease progression and poor performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status from ECOG 1 to 3"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral and review in supportive care clinic in 2 weeks"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent dietetic review for feeding tube assessment"
+      }
+    ]
+  }
+}

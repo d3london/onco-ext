@@ -1,0 +1,58 @@
+{
+  "content": "Diagnosis\n\t1. Squamous cell carcinoma of left temple region with regional lymph node involvement\n\n\tDate of diagnosis\n\tFebruary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Feb 2024 Wide local excision with involved margin\n\tRegional lymph node dissection showing 2/8 nodes positive\n\n\tRadiotherapy\n\tNot yet commenced\n\n\tChemotherapy\n\tNot yet commenced\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tResidual disease at primary site with nodal involvement\n\n\tCurrent issues\n\tPost-surgical wound healing well\n\n\tSummary of consultation\n\tThis case was discussed at today's Head & Neck MDT. The patient is a 67-year-old gentleman with a left temple region squamous cell carcinoma, initially excised on 15th February 2024 showing a 4.2cm lesion with 2mm deep margin involvement. Subsequent nodal dissection revealed 2/8 positive nodes, largest 12mm with extracapsular spread. PD-L1 testing shows high expression (CPS 85).\n\nImaging shows no evidence of distant metastatic disease but there is residual enhancement at the primary site suggesting incomplete excision.\n\nAfter detailed discussion, the MDT recommends:\n1. Re-excision of primary site\n2. Following healing, to commence adjuvant chemoradiotherapy with weekly cisplatin\n3. Consider pembrolizumab based on high PD-L1 expression following completion of primary therapy\n\n\tFurther investigations\n\tRepeat CT head/neck/chest in 3 months\n\n\tMedication prescribed\n\tNone\n\n\tFollow up\n\tUrgent referral to plastic surgery for re-excision\nReview in combined head and neck clinic in 2 weeks\n\n\tRequired GP actions\n\tNone at present\n\n\tSummary of information given to the patient\n\tMDT outcome to be discussed at next clinic visit",
+  "output": {
+    "primary_cancer": {
+      "site": "temple, left",
+      "year": 2024,
+      "month": 2,
+      "metastases": "2/8 positive lymph nodes with extracapsular spread",
+      "other_stage": "Stage III",
+      "histopathology_status": "4.2cm squamous cell carcinoma with 2mm deep margin involvement",
+      "biomarker_status": "PD-L1 high expression (CPS 85)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision with involved margin and regional lymph node dissection showing 2/8 nodes positive",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PD-L1 testing shows high expression (CPS 85)",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Imaging shows residual enhancement at primary site suggesting incomplete excision, no distant metastases",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Post-surgical wound healing well"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III left temple SCC with positive margins and nodal involvement. MDT recommends re-excision followed by adjuvant chemoradiotherapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "MDT recommends re-excision followed by adjuvant chemoradiotherapy with weekly cisplatin, consideration of pembrolizumab"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat CT head/neck/chest in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to plastic surgery for re-excision and review in combined head and neck clinic in 2 weeks"
+      }
+    ]
+  }
+}

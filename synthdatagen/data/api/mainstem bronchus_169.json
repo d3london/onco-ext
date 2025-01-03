@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\nLocally advanced squamous cell carcinoma of right mainstem bronchus, T4N1M0\n\nPrevious treatment:\nCompleted concurrent chemoradiotherapy March 2024 (cisplatin/etoposide with 60Gy in 30 fractions)\n\nCurrent medications:\nDexamethasone 4mg bd\nCo-codamol 30/500mg qds prn\nOndansetron 8mg bd prn\n\nAllergies:\nNone known\n\nCurrent situation:\nDisease progression confirmed on CT 15 May 2024\n\nI reviewed [redacted name] today who has unfortunately shown radiological progression of disease following completion of concurrent chemoradiotherapy. The CT scan from 15/5/24 shows enlargement of the right hilar mass from 4.2cm to 6.1cm with new right paratracheal lymphadenopathy and increasing right upper lobe collapse. His main symptoms are worsening dyspnoea on minimal exertion and persistent cough productive of white sputum. His performance status has declined to ECOG 2, and he has lost 4kg in weight over the past month despite nutritional supplements.\n\nOn examination today, there is reduced air entry throughout the right lung field with coarse crackles in the upper zone. Oxygen saturations are 92% on room air at rest. No peripheral oedema or clubbing.\n\nGiven the confirmed progression and current performance status, I have had a detailed discussion with [redacted name] regarding second-line treatment options. His tumor shows PD-L1 expression of 30% and CDKN2A loss on molecular testing. We have agreed to commence single-agent pembrolizumab 200mg every 3 weeks. I have explained the mechanism of action, potential side effects including immune-related toxicities, and expected response rates. He understands to contact us urgently if he develops any new symptoms.\n\nPlan:\n1. Commence pembrolizumab 200mg every 3 weeks\n2. Continue current supportive medications\n3. Urgent referral to palliative care team for symptom management\n4. CT chest/abdomen/pelvis after 3 cycles to assess response\n5. Review in 3 weeks pre-cycle 2",
+  "output": {
+    "primary_cancer": {
+      "site": "right mainstem bronchus",
+      "metastases": "right paratracheal lymphadenopathy, right upper lobe collapse",
+      "tnm_stage": "T4N1M0",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "PD-L1 30%, CDKN2A loss",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced concurrent chemoradiotherapy with cisplatin/etoposide",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radiotherapy 60Gy in 30 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows enlargement of right hilar mass from 4.2cm to 6.1cm with new right paratracheal lymphadenopathy",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Disease progression confirmed following completion of chemoradiotherapy",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening dyspnoea on minimal exertion"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Persistent cough productive of white sputum"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry throughout right lung field with coarse crackles in upper zone"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Oxygen saturations 92% on room air at rest"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Lost 4kg in weight over past month despite nutritional supplements"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced squamous cell lung cancer showing disease progression after concurrent chemoradiotherapy with declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with enlarging primary tumor and new lymphadenopathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence pembrolizumab 200mg every 3 weeks"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status to ECOG 2 with weight loss and increasing breathlessness"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis after 3 cycles of pembrolizumab"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks pre-cycle 2, urgent referral to palliative care team"
+      }
+    ]
+  }
+}

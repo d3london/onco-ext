@@ -1,0 +1,102 @@
+{
+  "content": "Diagnosis:\tCollecting duct carcinoma of right kidney (upper pole), T4N1M1 with widespread metastases. OCT3/4 positive on immunohistochemistry.\n\nUnfortunately [redacted name]'s disease has shown significant progression despite third-line therapy. Initial diagnosis was made in September 2023 following investigation of right flank pain and weight loss. CT demonstrated a 12cm right upper pole renal mass with para-aortic lymphadenopathy and multiple pulmonary nodules. Biopsy confirmed collecting duct carcinoma with positive OCT3/4 staining.\n\nFirst-line treatment with gemcitabine/cisplatin was commenced 10/2023 but discontinued after 2 cycles due to grade 3 thrombocytopenia and deteriorating renal function. Second-line cabozantinib was initiated 12/2023 but stopped after 6 weeks due to disease progression with new liver metastases. Third-line immunotherapy with pembrolizumab was started 02/2024 but recent imaging shows further progression.\n\nCurrent CT (15/04/2024) demonstrates enlarging primary mass now 15cm, new skeletal metastases in thoracic spine and pelvis, progression of liver metastases, and moderate right pleural effusion. Performance status has declined from 1 to 3 over past month with increasing pain, breathlessness, and fatigue requiring hospital admission last week for symptom control.\n\nShe is currently requiring oxygen 3L/min at rest. Examination reveals reduced breath sounds right base, tender hepatomegaly, and peripheral edema. Blood results show deteriorating renal function (eGFR 32) and rising calcium (2.89). Recent admission has somewhat improved pain control with increased opioids, though mobility remains very limited.\n\nI have had a detailed discussion with [redacted name] and family regarding prognosis and goals of care. Given rapid progression through three lines of therapy and declining performance status, we have agreed to transition to best supportive care with focus on symptom management. I have made urgent referrals to palliative care team and arranged community support. We will continue fortnightly review in supportive care clinic. Acute oncology team are aware and available for urgent review if needed.\n\nPlan includes:\n- Urgent outpatient palliative care review\n- Consider pleural drainage if symptoms worsen\n- Monitor calcium and renal function\n- Continue current analgesia with scope to increase if needed\n- Early involvement of community palliative care team",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right upper pole",
+      "year": 2023,
+      "month": 9,
+      "metastases": "para-aortic lymphadenopathy, multiple pulmonary nodules, liver metastases, skeletal metastases in thoracic spine and pelvis, right pleural effusion",
+      "tnm_stage": "T4N1M1",
+      "histopathology_status": "collecting duct carcinoma",
+      "biomarker_status": "OCT3/4 positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing 12cm right upper pole renal mass with para-aortic lymphadenopathy and multiple pulmonary nodules",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started first-line gemcitabine/cisplatin",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued gemcitabine/cisplatin after 2 cycles due to grade 3 thrombocytopenia and deteriorating renal function",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started second-line cabozantinib",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Disease progression with new liver metastases",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started third-line pembrolizumab",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows enlarging primary mass (15cm), new skeletal metastases, progression of liver metastases, moderate right pleural effusion",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 3, declined from PS 1 over past month"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing pain, breathlessness, fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Requiring oxygen 3L/min at rest"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced breath sounds right base, tender hepatomegaly, peripheral edema"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating renal function (eGFR 32) and rising calcium (2.89)"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced collecting duct carcinoma of kidney showing rapid progression through three lines of therapy. Significant clinical deterioration with declining performance status and new metastases"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on pembrolizumab with enlarging primary mass and new metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Transition to best supportive care due to disease progression and declining performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status, now requiring oxygen and with limited mobility"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and fortnightly review in supportive care clinic"
+      }
+    ]
+  }
+}

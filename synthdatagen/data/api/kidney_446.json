@@ -1,0 +1,86 @@
+{
+  "content": "Diagnosis:\nMetastatic papillary renal cell carcinoma type 1, c-MET amplified\n\nPrevious Treatment:\nRight radical nephrectomy - pT3aN0M0\nProgression with bilateral pulmonary metastases\nCabozantinib 60mg daily commenced with subsequent dose reduction to 40mg daily\n\nCurrent Situation:\nPre-cycle 6 review\n\nI reviewed [redacted name] today in the renal oncology clinic. The latest CT scan demonstrates an excellent partial response to treatment with approximately 65% reduction in the size of pulmonary metastases. The largest lesion in the right lower lobe has decreased from 3.2cm to 1.1cm, and several smaller nodules are no longer visible. Performance status remains 1.\n\nThe patient continues to experience grade 2 palmar-plantar erythrodysesthesia affecting both hands, though this has improved since the dose reduction. The previous diarrhea has resolved with loperamide as needed. Blood pressure remains well-controlled on amlodipine 10mg daily. Recent thyroid function tests show subclinical hypothyroidism with TSH 6.8, for which we have commenced levothyroxine 50mcg daily.\n\nLiver function tests and other biochemistry remain within normal range. The patient reports improved energy levels and has regained 2kg in weight over the past month. Exercise tolerance has improved, now able to climb stairs without breathlessness.\n\nPlan:\nContinue cabozantinib 40mg daily\nRepeat CT chest/abdomen/pelvis in 8 weeks\nThyroid function test monitoring in 6 weeks\nClinical review in 4 weeks with blood tests\nProvided prescription for loperamide to continue as needed",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right",
+      "metastases": "bilateral pulmonary metastases",
+      "tnm_stage": "pT3aN0M0",
+      "histopathology_status": "papillary renal cell carcinoma type 1",
+      "biomarker_status": "c-MET amplified",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right radical nephrectomy"
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Development of bilateral pulmonary metastases"
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started cabozantinib 60mg daily"
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cabozantinib dose reduced to 40mg daily"
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 65% reduction in pulmonary metastases, largest lesion decreased from 3.2cm to 1.1cm"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 palmar-plantar erythrodysesthesia affecting both hands"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "TSH 6.8 indicating subclinical hypothyroidism"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Normal liver function tests and biochemistry"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Improved exercise tolerance, able to climb stairs without breathlessness"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic renal cell carcinoma showing excellent partial response to cabozantinib with manageable toxicities"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "65% reduction in pulmonary metastases on CT, with some nodules no longer visible"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Ongoing grade 2 palmar-plantar erythrodysesthesia, improved since dose reduction. Previous diarrhea resolved with loperamide"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing cabozantinib 40mg daily, commenced levothyroxine 50mcg daily for subclinical hypothyroidism"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Improved energy levels with 2kg weight gain over past month"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 8 weeks, thyroid function test in 6 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review in 4 weeks with blood tests"
+      }
+    ]
+  }
+}

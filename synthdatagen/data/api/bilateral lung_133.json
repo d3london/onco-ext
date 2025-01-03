@@ -1,0 +1,88 @@
+{
+  "content": "Diagnosis:\nBilateral synchronous primary squamous cell carcinoma of lung\n\nRight lung: T3N1M0 squamous cell carcinoma, right upper lobe\nLeft lung: T2N0M0 squamous cell carcinoma, left lower lobe\n\nMolecular profile:\nRight lung primary - FGFR2-TACC3 fusion detected\nLeft lung primary - pending\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nEx-smoker (stopped 2020, 40 pack years)\n\nCurrent medications:\nMetformin 1g BD\nRamipril 5mg OD\n\nAllergies:\nNone known\n\nCurrent situation:\n\nInitial presentation 15/3/24 with haemoptysis. CT thorax showed 4.8cm mass right upper lobe with ipsilateral hilar nodes and separate 2.2cm left lower lobe mass. PET-CT 28 March 2024 confirmed FDG-avid bilateral lung lesions without distant metastases. Bronchoscopic biopsies 5 April 2024 confirmed squamous cell carcinoma from both lesions.\n\nMolecular testing has identified actionable FGFR2 fusion in the right lung primary. Left-sided molecular results pending. MRI brain shows no metastases.\n\nOn examination today, respiratory rate 18, oxygen saturations 96% on air. Reduced breath sounds right upper zone. No clubbing. No lymphadenopathy.\n\nDiscussed at Lung MDT 12/4/24. Recommendation for FGFR inhibitor therapy (Pemigatinib) to right-sided disease followed by assessment for possible surgery to left lung primary depending on response.\n\nI have explained the diagnosis and treatment plan. [redacted name] understands the complexity of managing synchronous primaries and the rationale for targeted therapy. We will commence Pemigatinib next week following baseline ophthalmology assessment and phosphate monitoring. Review arranged in 2 weeks with blood tests.",
+  "output": {
+    "primary_cancer": {
+      "site": "bilateral lung, right upper lobe and left lower lobe",
+      "year": 2024,
+      "month": 3,
+      "metastases": "right hilar nodes",
+      "tnm_stage": "Right: T3N1M0, Left: T2N0M0",
+      "histopathology_status": "synchronous squamous cell carcinoma",
+      "biomarker_status": "Right lung: FGFR2-TACC3 fusion positive, Left lung: pending",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial presentation with haemoptysis",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT thorax shows 4.8cm right upper lobe mass with hilar nodes and separate 2.2cm left lower lobe mass",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "PET-CT confirms FDG-avid bilateral lung lesions without distant metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Bronchoscopic biopsies confirm squamous cell carcinoma from both lesions",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "FGFR2 fusion identified in right lung primary",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Discussed at Lung MDT - recommended FGFR inhibitor therapy",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Respiratory rate 18, oxygen saturations 96% on air. Reduced breath sounds right upper zone. No clubbing. No lymphadenopathy"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "MRI brain shows no metastases"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed bilateral synchronous lung squamous cell carcinoma. Right lung primary FGFR2 fusion positive, planned for targeted therapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "To commence Pemigatinib following baseline assessments"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline ophthalmology assessment and phosphate monitoring"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks with blood tests"
+      }
+    ]
+  }
+}

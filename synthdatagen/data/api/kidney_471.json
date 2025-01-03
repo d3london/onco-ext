@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis:\tClear cell renal cell carcinoma\n\nManagement:\t12 Jan 2024 Right partial nephrectomy\n\nHistology:\tpT2aN0M0 clear cell renal cell carcinoma, Grade 2, margins clear\n\nCurrent Situation:\tRoutine surveillance follow-up\n\nI reviewed [redacted name] in the renal oncology clinic today. He is now 3 months post right partial nephrectomy and has made an excellent recovery. His surgical wounds have healed well and he reports no current symptoms. His renal function remains stable with creatinine 98 umol/L. Performance status is 0 and he has returned to work full-time.\n\nOn examination, his surgical sites are well-healed with no concerning features. Blood pressure is 132/78 mmHg. Recent surveillance CT chest/abdomen/pelvis from 1st April 2024 shows post-surgical changes in the right kidney with no evidence of disease recurrence. There are no concerning features elsewhere.\n\nThe plan is to continue surveillance as per protocol. I have arranged his next CT scan for 3 months' time and will review him in clinic with the results. He understands to contact us sooner if he develops any new symptoms.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT2aN0M0",
+      "other_stage": "",
+      "histopathology_status": "Clear cell renal cell carcinoma, Grade 2, margins clear",
+      "biomarker_status": "",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right partial nephrectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis shows post-surgical changes in right kidney with no evidence of disease recurrence",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Surgical sites well-healed with no concerning features"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Blood pressure 132/78 mmHg"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Creatinine 98 umol/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Right kidney clear cell carcinoma treated with partial nephrectomy. Excellent post-operative recovery with no evidence of recurrence on surveillance imaging"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Returned to work full-time with no current symptoms"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with CT results"
+      }
+    ]
+  }
+}

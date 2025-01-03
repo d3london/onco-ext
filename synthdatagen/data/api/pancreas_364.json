@@ -1,0 +1,94 @@
+{
+  "content": "Diagnosis:\tPancreatic medullary carcinoma with MLH1/PMS2 loss\n\nManagement:\t2023 Dec - Commenced FOLFIRINOX\n\t\t2024 Jan - Palliative radiotherapy to T12 metastasis\n\t\t2024 Feb - Changed to gemcitabine/nab-paclitaxel\n\nHistology:\tMedullary carcinoma of pancreas with MMR deficiency (MLH1/PMS2 loss)\n\nCurrent Situation:\tProgressive disease on second-line chemotherapy\n\nI reviewed [redacted name] today in the pancreatic oncology clinic, accompanied by his daughter. Unfortunately, recent imaging shows clear evidence of disease progression with enlarging liver metastases and new bone deposits despite second-line chemotherapy. The CT performed on 15 March 2024 demonstrates the primary pancreatic mass has increased from 4.2cm to 5.8cm, with multiple new liver lesions and additional bone metastases in T8 and L2 vertebrae. His CA19-9 has risen significantly from 2400 to 6800.\n\nHe has experienced significant clinical deterioration over the past month with declining performance status, now ECOG PS 3. He requires assistance with most activities of daily living and is spending approximately 70% of the day in bed or resting. His oral intake has reduced significantly with early satiety and he has lost 6kg in the last month despite nutritional supplements.\n\nIn view of his declining performance status and clear evidence of disease progression, we have had a detailed discussion about focusing on symptom control and quality of life. I have explained that further chemotherapy would carry significant risks with little likelihood of benefit. [redacted name] and his daughter understand this situation and agree with transitioning to best supportive care.\n\nI have made an urgent referral to the palliative care team and arranged admission to the local hospice for symptom management and respite care. I have prescribed additional breakthrough analgesia and started dexamethasone 4mg daily. The specialist nurse will maintain regular telephone contact and provide support to the family. We will review him again in the outpatient clinic in 2 weeks' time, or sooner if needed.\n\nI have also referred him for consideration of palliative radiotherapy to the symptomatic T8 vertebral metastasis, though this will depend on his clinical condition improving sufficiently to tolerate treatment.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2023,
+      "histopathology_status": "medullary carcinoma",
+      "biomarker_status": "MLH1/PMS2 loss, MMR deficient",
+      "metastases": "liver metastases, bone metastases in T8, T12, and L2 vertebrae",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced FOLFIRINOX",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T12 metastasis",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed to second-line gemcitabine/nab-paclitaxel",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows primary pancreatic mass increased to 5.8cm with multiple new liver lesions and bone metastases in T8 and L2",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 increased from 2400 to 6800",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing systemic therapy due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, spending 70% of day in bed or resting"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires assistance with most activities of daily living"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety with reduced oral intake"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Symptomatic T8 vertebral metastasis"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced pancreatic medullary carcinoma with progressive disease despite second-line therapy. Significant clinical deterioration with transition to palliative care."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with enlarging primary tumor, new liver metastases and bone deposits"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy, commenced dexamethasone 4mg daily and breakthrough analgesia"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status, now ECOG PS 3 with 6kg weight loss in past month"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and local hospice, outpatient review in 2 weeks"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Consider palliative radiotherapy to T8 vertebral metastasis pending clinical condition"
+      }
+    ]
+  }
+}

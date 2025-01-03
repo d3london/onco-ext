@@ -1,0 +1,90 @@
+{
+  "content": "Diagnosis:\tMalignant pleural mesothelioma (sarcomatoid type)\n\nStaging:\tT4N2M0 at diagnosis March 2024\n\tBAP1 loss, PD-L1 TPS 90%\n\nTreatment:\t1. Carboplatin/Pemetrexed - 2 cycles (March-April 2024)\n\t2. Nivolumab commenced May 2024\n\nCurrent Status:\tClinical and radiological disease progression\n\n[redacted name] has unfortunately shown clear evidence of disease progression on recent imaging. CT thorax 12/6/24 demonstrates increasing right pleural thickening with new chest wall invasion and enlarging mediastinal lymphadenopathy. There is a new moderate left pleural effusion. Performance status has declined to ECOG 3, with increasing dyspnoea at rest requiring 4L/min oxygen. Weight has dropped 4kg since last review.\n\nBloods show rising inflammatory markers with CRP 156, normal renal and liver function. Latest cardiac ejection fraction 52% (down from 58%).\n\nI have had a detailed discussion with [redacted name] and family regarding disease progression. We have agreed to discontinue immunotherapy in view of clear progression and declining performance status. Referral made to palliative care team for symptom management, particularly focusing on breathlessness. Will arrange urgent pleural aspiration for symptomatic relief.\n\nPlan:\t1. Discontinue nivolumab\n\t2. Urgent pleural aspiration\n\t3. Palliative care review this week\n\t4. Weekly telephone review by specialist nurse\n\t5. Next clinic review in 2 weeks or sooner if needed",
+  "output": {
+    "primary_cancer": {
+      "site": "pleural, right",
+      "year": 2024,
+      "month": 3,
+      "metastases": "mediastinal lymphadenopathy, left pleural effusion, chest wall invasion",
+      "tnm_stage": "T4N2M0",
+      "histopathology_status": "sarcomatoid mesothelioma",
+      "biomarker_status": "BAP1 loss, PD-L1 TPS 90%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Carboplatin/Pemetrexed chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 2 cycles Carboplatin/Pemetrexed",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Nivolumab immunotherapy",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows increasing right pleural thickening, new chest wall invasion, enlarging mediastinal nodes, new left pleural effusion",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing Nivolumab due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Dyspnoea at rest requiring 4L/min oxygen"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CRP 156, cardiac ejection fraction 52% decreased from 58%"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "4kg weight loss since last review"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Sarcomatoid mesothelioma showing disease progression despite chemotherapy and immunotherapy. Significant clinical deterioration with worsening dyspnoea and declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on imaging with increasing pleural disease and new metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing Nivolumab due to disease progression"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with increasing oxygen requirements"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent pleural aspiration"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review, weekly specialist nurse phone review, clinic review in 2 weeks"
+      }
+    ]
+  }
+}

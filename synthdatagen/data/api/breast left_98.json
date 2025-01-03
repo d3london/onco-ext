@@ -1,0 +1,80 @@
+{
+  "content": "Diagnosis:\nLeft breast cancer - T1cN0M0 glycogen-rich variant invasive ductal carcinoma, grade 2\nER 95%, PR 85%, HER2 2+ (FISH negative)\n\nPrevious treatment:\nWide local excision and sentinel lymph node biopsy 15 January 2024\nAdjuvant radiotherapy completed March 2024\n\nCurrent medications:\nTamoxifen 20mg daily since April 2024\n\nCurrent situation:\nRoutine follow-up at 3 months post-radiotherapy\n\nI reviewed [redacted name] today for her first follow-up since completing adjuvant radiotherapy. She has recovered well from treatment with only mild residual breast tenderness. She is tolerating tamoxifen with minimal side effects, reporting occasional mild hot flushes. Her energy levels have improved and she has returned to work full-time.\n\nOn examination, the left breast shows expected post-treatment changes with good cosmetic outcome. No new concerning features. Performance status remains 0.\n\nPlan is to continue current management with tamoxifen. She will have annual mammogram surveillance starting from January 2025. Next clinic review in 6 months.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "T1cN0M0",
+      "other_stage": "Stage 1b",
+      "histopathology_status": "glycogen-rich variant invasive ductal carcinoma, grade 2",
+      "biomarker_status": "ER 95%, PR 85%, HER2 2+ (FISH negative)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and sentinel lymph node biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed adjuvant radiotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started tamoxifen 20mg daily",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild residual breast tenderness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Occasional mild hot flushes"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Left breast shows expected post-treatment changes with good cosmetic outcome"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Returned to work full-time"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage breast cancer. Good recovery from primary treatment with minimal side effects from adjuvant tamoxifen"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild hot flushes from tamoxifen"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing tamoxifen 20mg daily"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Annual mammogram surveillance starting from January 2025"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review in 6 months"
+      }
+    ]
+  }
+}

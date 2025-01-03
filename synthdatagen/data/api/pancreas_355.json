@@ -1,0 +1,74 @@
+{
+  "content": "Diagnosis:\nMetastatic small cell carcinoma of pancreas with liver and lung metastases\nFGFR2 fusion positive\nStage T3N2M1\n\nPrevious treatment:\nCisplatin/Etoposide completed March 2024 - 6 cycles\nPartial response initially but subsequent progression\n\nCurrent medications:\nOndansetron 8mg bd\nDexamethasone 4mg od\nLansoprazole 30mg od\n\nCurrent situation:\nProgressive disease on CT 15 April 2024\nNew liver lesions and enlarging lung metastases\nCA19-9 rising from 450 to 890\n\nTreatment plan:\nCommencing Pemigatinib 13.5mg daily based on FGFR2 fusion status\nDiscussed with molecular tumour board 18 April 2024\nPatient understands potential side effects including hyperphosphatemia and eye toxicity\n\nI reviewed [redacted name] today following CT showing disease progression. Performance status remains 1 with stable weight and good appetite. Main symptoms are mild right upper quadrant discomfort and occasional dry cough. Examination shows no new concerns.\n\nWe have discussed the role of targeted therapy with Pemigatinib given the presence of FGFR2 fusion. [redacted name] understands this is a newer treatment approach with monitoring requirements including regular phosphate levels and ophthalmology review. We will commence treatment next week following baseline eye examination.\n\nPlan:\nBaseline ophthalmology assessment arranged for 22 April 2024\nCommence Pemigatinib 13.5mg daily from 24 April 2024\nWeekly blood tests including phosphate levels\nCT assessment after 8 weeks\nReview in clinic in 2 weeks with blood results",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "metastases": "liver and lung metastases",
+      "tnm_stage": "T3N2M1",
+      "histopathology_status": "small cell carcinoma",
+      "biomarker_status": "FGFR2 fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Cisplatin/Etoposide chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial partial response to Cisplatin/Etoposide followed by progression",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with new liver lesions and enlarging lung metastases",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 rising from 450 to 890",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild right upper quadrant discomfort and occasional dry cough"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Stable weight and good appetite"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic small cell pancreatic cancer progressing after first-line chemotherapy. Changing to targeted therapy with Pemigatinib based on FGFR2 fusion status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on CT with new liver lesions and enlarging lung metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence Pemigatinib 13.5mg daily from 24 April 2024"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline ophthalmology assessment 22 April 2024, weekly blood tests including phosphate levels, CT assessment after 8 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 2 weeks with blood results"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "content": "Diagnosis:\tLocally advanced pancreatic ductal adenocarcinoma with liver and peritoneal metastases\n\nManagement:\t15 Jan 2024 Started FOLFIRINOX chemotherapy\n\t\t12 Mar 2024 Modified to Gemcitabine/Nab-paclitaxel due to toxicity\n\nHistology:\tModerately differentiated pancreatic ductal adenocarcinoma, KRAS G12D mutation positive, BRCA2 wild type\n\nCurrent Situation:\tDisease progression on second-line chemotherapy\n\nI reviewed [redacted name] today who has unfortunately experienced significant clinical deterioration over the past three weeks. She reports worsening abdominal pain requiring escalation of her opiate medications, with her current dose of MST now at 60mg twice daily with good effect. Her appetite has declined significantly with early satiety and she has lost a further 4kg since our last review, bringing her total weight loss to 12kg over 6 months. She describes increasing fatigue and is now spending most of the day resting.\n\nHer most recent CT scan from 15/4/24 shows progressive disease with increase in size of liver metastases (largest lesion segment 7 now measuring 6.2cm from 4.8cm) and new peritoneal nodularity. There is also evidence of developing biliary obstruction with mild intrahepatic duct dilatation, though her liver function tests remain relatively stable with bilirubin 24 μmol/L.\n\nThe current chemotherapy regimen of Gemcitabine/Nab-paclitaxel, which we commenced in March following FOLFIRINOX-related toxicity, has unfortunately not controlled her disease. She has completed 4 cycles with initial stability but now clear progression. Given her declining clinical status and limited benefit from second-line therapy, we had a detailed discussion about focusing on symptom management rather than further systemic treatment.\n\nI have referred [redacted name] to our palliative care team for ongoing symptom management and support. We have increased her MST to 90mg twice daily and added metoclopramide 10mg TDS for nausea. I have also arranged an urgent biliary stent assessment given the early signs of obstruction. We will continue to support her through our nurse specialist team who will maintain regular telephone contact.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas head",
+      "year": 2024,
+      "metastases": "liver metastases, peritoneal metastases",
+      "histopathology_status": "moderately differentiated pancreatic ductal adenocarcinoma",
+      "biomarker_status": "KRAS G12D mutation positive, BRCA2 wild type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed from FOLFIRINOX to Gemcitabine/Nab-paclitaxel due to toxicity",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with increased liver metastases (segment 7 lesion 6.2cm from 4.8cm) and new peritoneal nodularity",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Evidence of developing biliary obstruction with mild intrahepatic duct dilatation",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Worsening abdominal pain requiring escalation of opiate medications to MST 60mg twice daily"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety with 4kg weight loss in past three weeks, total 12kg over 6 months"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing fatigue, spending most of day resting"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Liver function tests relatively stable with bilirubin 24 μmol/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic cancer with progressive disease despite two lines of chemotherapy. Significant clinical deterioration with worsening symptoms requiring transition to palliative care."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression after 4 cycles of second-line Gemcitabine/Nab-paclitaxel"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy and transitioning to symptom-focused care"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent biliary stent assessment"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to palliative care team for symptom management and support"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "content": "Diagnosis:\nClear cell renal cell carcinoma, right kidney\nT2N0M0, Grade 2\nDiagnosed March 2024\n\nImaging:\nCT 15 March 2024 - 7.2cm mass arising from upper pole of right kidney, no evidence of local invasion or metastatic disease\nMRI 20 March 2024 - confirms T2 disease confined to kidney, no vascular invasion\n\nHistology:\nUltrasound-guided biopsy 22 March 2024 - Clear cell renal cell carcinoma, WHO/ISUP Grade 2\nCAIX expression low on immunohistochemistry\n\nCurrent situation:\nFit for surgery\nECOG Performance Status 0\n\nSocial background:\nLives with spouse\nWorks as accountant\nNo smoking history\n\nCurrent symptoms:\nIncidental finding on routine ultrasound\nNo haematuria or flank pain\nWeight stable\n\nExamination findings:\nNo palpable abdominal mass\nNo lymphadenopathy\nChest clear\n\nPlan:\nReferral completed for right radical nephrectomy\nDiscussed at Urology MDT 25 March 2024 - confirmed surgical candidate\nFollow-up arranged in surgical clinic in 1 week\nPost-operative oncology review to be arranged following surgery",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right upper pole",
+      "year": 2024,
+      "month": 3,
+      "metastases": "none",
+      "tnm_stage": "T2N0M0",
+      "other_stage": "",
+      "histopathology_status": "Clear cell renal cell carcinoma, WHO/ISUP Grade 2",
+      "biomarker_status": "CAIX expression low",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 7.2cm mass arising from upper pole of right kidney, no evidence of local invasion or metastatic disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI confirms T2 disease confined to kidney, no vascular invasion",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Ultrasound-guided biopsy confirms Clear cell renal cell carcinoma, WHO/ISUP Grade 2, CAIX expression low",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Discussed at Urology MDT - confirmed surgical candidate",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG Performance Status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Asymptomatic, incidental finding on routine ultrasound"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No palpable abdominal mass, no lymphadenopathy, chest clear"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed localized right renal cell carcinoma suitable for surgical management. Asymptomatic incidental finding with no evidence of metastatic disease."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Referral completed for right radical nephrectomy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow-up arranged in surgical clinic in 1 week"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Post-operative oncology review to be arranged following surgery"
+      }
+    ]
+  }
+}

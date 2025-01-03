@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\nWHO Grade I meningioma, right frontal convexity\nDiagnosed March 2023 following seizure\nSubtotal resection April 2023\n\nPrevious medical history:\nMigraine\nHypertension\n\nCurrent medications:\nLevetiracetam 500mg twice daily\nPropranolol 80mg daily\n\nCurrent situation:\nRoutine surveillance MRI brain 15 March 2024\n\nI reviewed [redacted name] in the neuro-oncology surveillance clinic today. She remains seizure-free on current anti-epileptic medication and reports no new neurological symptoms. Her last headache was 2 months ago, well controlled with usual migraine medication. Performance status remains 0.\n\nSurveillance MRI brain shows stable appearances of the residual right frontal convexity meningioma measuring 1.8 x 1.2cm, unchanged from previous imaging. There is no evidence of disease progression.\n\nThe plan is to continue current management with annual MRI surveillance. I have arranged follow up in 12 months with repeat MRI brain one month before. She understands to contact us sooner if any new symptoms develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "meninges, right frontal convexity",
+      "year": 2023,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": null,
+      "other_stage": "WHO Grade I",
+      "histopathology_status": "meningioma",
+      "biomarker_status": null,
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Presented with seizure",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Subtotal resection",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows stable residual right frontal convexity meningioma measuring 1.8 x 1.2cm",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Migraine"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Seizure-free on current anti-epileptic medication"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "MRI brain 15/03/24 shows stable appearances of residual meningioma"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "WHO Grade I right frontal convexity meningioma status post subtotal resection. Stable disease on surveillance imaging with good symptom control"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable appearances of residual meningioma on MRI"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Annual surveillance MRI brain"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow up in neuro-oncology clinic in 12 months with MRI one month before"
+      }
+    ]
+  }
+}

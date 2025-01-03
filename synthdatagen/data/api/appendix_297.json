@@ -1,0 +1,118 @@
+{
+  "content": "Diagnosis:\tGoblet cell adenocarcinoma of appendix, T4N1M1 with peritoneal and ovarian metastases (Krukenberg)\n\tInitial diagnosis March 2023 following emergency appendicectomy\n\tMSI-high, BRAF V600E mutation positive, PD-L1 CPS 85\n?\n[redacted name] has unfortunately shown evidence of disease progression despite initial response to systemic therapy. She was diagnosed following emergency surgery in March 2023, when histology revealed goblet cell adenocarcinoma of the appendix with peritoneal deposits. Initial systemic therapy with FOLFOX/Bevacizumab was commenced in April 2023, with good partial response after 6 cycles but subsequent progression noted on CT in November 2023.\n?\nShe switched to second-line FOLFIRI/Bevacizumab in December 2023 but unfortunately developed significant toxicity with grade 3 diarrhea requiring hospital admission, and grade 2 palmar-plantar syndrome. Despite dose reduction to 75%, repeat imaging in February 2024 showed disease progression with new peritoneal deposits and increasing Krukenberg tumors.\n?\nShe has experienced significant clinical deterioration over the past 4 weeks with increasing abdominal pain, early satiety, and weight loss of 4kg. Her performance status has declined from 1 to 2-3. Current symptoms include intermittent bowel obstruction requiring regular antiemetics, moderate-severe abdominal pain requiring oxycodone, and increasing bilateral leg edema.\n?\nOn examination today, she appears cachectic with obvious ascites and peripheral edema to mid-calf. Abdominal examination reveals shifting dullness and tender hepatomegaly extending 4cm below costal margin. Blood tests show deteriorating liver function with bilirubin 45, ALT 156, ALP 345, and albumin 28.\n?\nGiven her MSI-high and PD-L1 high status, we have discussed transitioning to immunotherapy with pembrolizumab. I have explained the rationale, potential benefits and risks, including immune-related adverse events. She understands this represents a change in treatment approach but wishes to proceed.\n?\nI have arranged urgent paracentesis through our day unit next week. We will commence pembrolizumab once her liver function has improved and performance status has stabilized. I have referred to palliative care for additional support with symptom management, particularly around the bowel obstruction symptoms. We will review her in 2 weeks with repeat bloods and clinical assessment.\n?\nIn the meantime, I have increased her dexamethasone to 4mg twice daily, commenced spironolactone 100mg daily for the ascites, and uptitrated her oxycodone to 20mg twice daily with immediate release morphine for breakthrough pain. She has our acute oncology contact details and understands to contact us if symptoms worsen.",
+  "output": {
+    "primary_cancer": {
+      "site": "appendix",
+      "year": 2023,
+      "month": 3,
+      "metastases": "peritoneal metastases, ovarian metastases (Krukenberg tumors)",
+      "tnm_stage": "T4N1M1",
+      "histopathology_status": "goblet cell adenocarcinoma",
+      "biomarker_status": "MSI-high, BRAF V600E mutation positive, PD-L1 CPS 85",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Emergency appendicectomy revealing goblet cell adenocarcinoma with peritoneal deposits",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFOX/Bevacizumab",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Good partial response after 6 cycles FOLFOX/Bevacizumab",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing disease progression",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started second-line FOLFIRI/Bevacizumab",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "FOLFIRI/Bevacizumab dose reduced to 75% due to grade 3 diarrhea and grade 2 palmar-plantar syndrome",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Imaging showing disease progression with new peritoneal deposits and increasing Krukenberg tumors",
+          "year": 2024,
+          "month": 2
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from PS 1 to PS 2-3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Intermittent bowel obstruction requiring regular antiemetics"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Moderate-severe abdominal pain requiring oxycodone"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Bilateral leg edema to mid-calf"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with obvious ascites and peripheral edema"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender hepatomegaly 4cm below costal margin with shifting dullness"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45, ALT 156, ALP 345, albumin 28"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced appendiceal goblet cell adenocarcinoma with progressive disease despite two lines of chemotherapy. Clinical deterioration with bowel obstruction symptoms and declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on FOLFIRI/Bevacizumab with new peritoneal deposits and increasing Krukenberg tumors"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 diarrhea requiring admission and grade 2 palmar-plantar syndrome on FOLFIRI/Bevacizumab"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to transition to pembrolizumab immunotherapy once liver function improved"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant clinical deterioration with PS 2-3, weight loss 4kg, and increasing symptoms"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat bloods and clinical assessment in 2 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent paracentesis arranged, palliative care referral made, oncology review in 2 weeks"
+      }
+    ]
+  }
+}

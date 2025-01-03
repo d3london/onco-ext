@@ -1,0 +1,98 @@
+{
+  "content": "Diagnosis:\nMetastatic pancreatic pleomorphic carcinoma with PDGFRα mutation\n\nStaging:\nStage IV at diagnosis with widespread hepatic and peritoneal metastases\nInitial CT 15 March 2024 showing 6.8cm pancreatic mass with multiple liver deposits\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nChronic kidney disease stage 3\n\nCurrent medications:\nGemcitabine/nab-paclitaxel\nLansoprazole 30mg od\nOxycodone MR 40mg bd\nOxycodone IR 5mg prn\n\nAllergies:\nPenicillin - severe rash\n\nCurrent situation:\nPre cycle 4 gemcitabine/nab-paclitaxel\n\nI reviewed [redacted name] today who is experiencing increasing difficulties with treatment. Performance status has deteriorated to ECOG 2-3, spending approximately 60% of the day resting. There has been a 4kg weight loss over the past 3 weeks despite dietetic input. Significant fatigue and anorexia persist.\n\nCT scan performed last week shows disease progression with 30% increase in liver metastases and new peritoneal deposits. CA19-9 has risen from 2500 to 4800.\n\nToday's blood tests show deteriorating liver function with bilirubin 45, ALT 156, ALP 445. Albumin has dropped to 28. Platelets remain adequate at 178.\n\nOn examination, there is marked peripheral edema and tender hepatomegaly. Ascites is now clinically apparent.\n\nIn view of disease progression and declining performance status, we have agreed to discontinue chemotherapy. I have referred to palliative care and arranged weekly community nurse reviews. Will organize hospice assessment. Next oncology review in 2 weeks with focus on symptom control.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas diffuse",
+      "year": 2024,
+      "month": 3,
+      "metastases": "widespread hepatic and peritoneal metastases",
+      "other_stage": "Stage IV",
+      "histopathology_status": "pleomorphic carcinoma",
+      "biomarker_status": "PDGFRα mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Initial CT showing 6.8cm pancreatic mass with multiple liver deposits",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on gemcitabine/nab-paclitaxel chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 risen from 2500 to 4800",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows disease progression with 30% increase in liver metastases and new peritoneal deposits",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing chemotherapy due to disease progression and declining performance status",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Chronic kidney disease stage 3"
+      },
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2-3, spending approximately 60% of the day resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Significant fatigue and anorexia"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Marked peripheral edema and tender hepatomegaly, clinically apparent ascites"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45, ALT 156, ALP 445, albumin 28"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV pancreatic cancer with widespread metastases. Disease progression on gemcitabine/nab-paclitaxel with clinical deterioration requiring treatment discontinuation"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with 30% increase in liver metastases and new peritoneal deposits"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "4kg weight loss over past 3 weeks despite dietetic input, deteriorating performance status"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing chemotherapy due to disease progression and declining performance status"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to palliative care with weekly community nurse reviews and planned hospice assessment"
+      }
+    ]
+  }
+}

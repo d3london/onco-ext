@@ -1,0 +1,102 @@
+{
+  "content": "Diagnosis:\tCombined hepatocellular-cholangiocarcinoma with bone and brain metastases\n\nManagement:\t15 Jan 2024 Started atezolizumab/bevacizumab\n\t\t12 Feb 2024 Whole brain radiotherapy 20Gy in 5#\n\t\t28 Feb 2024 Stereotactic radiotherapy to T12 vertebral metastasis\n\nHistology:\tCombined HCC-CC, poorly differentiated. PDL1 CPS 60.\n\nCurrent Situation:\tProgressive disease with deteriorating performance status\n\nI reviewed [redacted name] today who attended with his wife. Unfortunately, his condition has significantly deteriorated over the past three weeks. His performance status has declined from ECOG 1 to ECOG 3, now spending most of the day in bed. He reports worsening right upper quadrant pain requiring increased opioid doses, with his oxycodone now at 40mg BD (previously 20mg BD). His appetite has significantly decreased with 6kg weight loss over the past month despite dietetic support.\n\nHis most recent MRI brain from 15/3/24 shows progression of cerebral metastases with increased perilesional edema despite completion of whole brain radiotherapy. CT abdomen shows enlarging liver lesions with new satellite nodules and progression of bone metastases. His AFP has risen from 15,000 to 23,500 over the past month.\n\nOn examination today, he appears cachectic with marked muscle wasting. There is tender hepatomegaly extending 6cm below the costal margin. Neurological examination reveals new mild right-sided weakness (4/5) in both limbs, though he remains cognitively intact. His current medications include dexamethasone 4mg BD, oxycodone MR 40mg BD, pregabalin 75mg BD for neuropathic pain, and regular ondansetron.\n\nI have had a lengthy discussion with [redacted name] and his wife about the significance of disease progression and declining performance status. We have agreed to discontinue immunotherapy given the clear evidence of progression and poor tolerance. I have made an urgent referral to the palliative care team for optimization of symptom control and community support. We have also arranged admission to our local hospice for respite care and symptom management.\n\nI have prescribed increased dexamethasone 8mg BD for cerebral edema and arranged weekly community nurse reviews. The acute oncology team will maintain telephone contact with the family. We will review him again in two weeks' time, or sooner if needed via the acute oncology service.",
+  "output": {
+    "primary_cancer": {
+      "site": "liver",
+      "year": 2024,
+      "month": 1,
+      "metastases": "bone and brain metastases",
+      "tnm_stage": "T4N1M1",
+      "histopathology_status": "combined hepatocellular-cholangiocarcinoma, poorly differentiated",
+      "biomarker_status": "PDL1 CPS 60, AFP 23,500 (rising from 15,000)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started atezolizumab/bevacizumab",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Whole brain radiotherapy 20Gy in 5 fractions",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Stereotactic radiotherapy to T12 vertebral metastasis",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows progression of cerebral metastases with increased perilesional edema",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT abdomen shows enlarging liver lesions with new satellite nodules and progression of bone metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "AFP risen from 15,000 to 23,500",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued immunotherapy due to disease progression and poor tolerance",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, deteriorated from ECOG 1, now spending most of day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening right upper quadrant pain requiring increased opioid doses"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New mild right-sided weakness (4/5) in both limbs"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with marked muscle wasting, tender hepatomegaly extending 6cm below costal margin"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "6kg weight loss over past month despite dietetic support"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced hepatocellular-cholangiocarcinoma with progressive brain and bone metastases. Significant clinical deterioration with failing immunotherapy requiring transition to palliative care"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease in brain, liver, and bone metastases with rising AFP"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued immunotherapy, increased dexamethasone to 8mg BD"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status from ECOG 1 to 3"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care referral, arranged hospice admission, weekly community nurse reviews"
+      }
+    ]
+  }
+}

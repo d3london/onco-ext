@@ -1,0 +1,89 @@
+{
+  "content": "Diagnosis:\nPancreatic glucagonoma with liver metastases\n\nInitial Presentation:\nDiagnosed January 2024 following investigation of necrolytic migratory erythema and diabetes. Initial glucagon 455 pmol/L, Chromogranin A 890 ng/mL.\n\nPrevious Treatment:\nLanreotide 120mg monthly commenced February 2024\nCycle 1-2 Capecitabine/Temozolomide March-April 2024\n\nCurrent Status:\nPre cycle 3 CAPTEM review\n\nCurrent Symptoms:\nNecrolytic migratory erythema improved\nDiabetes stable on insulin\nGrade 1 hand-foot syndrome\nMild fatigue\n\nBloods:\nGlucagon decreased to 280 pmol/L\nCgA trending down to 456 ng/mL\nFBC/LFTs/U&Es satisfactory for cycle 3\n\nImaging:\nMRI liver 15/04/2024 shows partial response with reduction in size of largest liver metastasis from 3.2cm to 2.1cm\n\nPerformance Status:\nECOG PS 1\n\nPlan:\nProceed with cycle 3 CAPTEM today\nContinue monthly Lanreotide\nRepeat biochemical markers in 3 weeks\nMRI liver after cycle 4\nReview in clinic prior to cycle 4",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver metastases",
+      "histopathology_status": "glucagonoma",
+      "biomarker_status": "Initial glucagon 455 pmol/L, Chromogranin A 890 ng/mL",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial glucagon 455 pmol/L, Chromogranin A 890 ng/mL at diagnosis",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Lanreotide 120mg monthly",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Capecitabine/Temozolomide (CAPTEM)",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Glucagon decreased to 280 pmol/L, CgA decreased to 456 ng/mL",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI liver shows partial response with reduction in largest liver metastasis from 3.2cm to 2.1cm",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 hand-foot syndrome"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild fatigue"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "FBC/LFTs/U&Es satisfactory for cycle 3"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic glucagonoma showing biochemical and radiological response to CAPTEM chemotherapy and Lanreotide"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response on MRI with reduction in liver metastases and improving biochemical markers"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 hand-foot syndrome and mild fatigue"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with cycle 3 CAPTEM and monthly Lanreotide"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Biochemical markers in 3 weeks and MRI liver after cycle 4"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic prior to cycle 4"
+      }
+    ]
+  }
+}

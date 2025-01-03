@@ -1,0 +1,114 @@
+{
+    "content": "Diagnosis:\t\tMetastatic castration resistant prostate cancer with extensive bone metastases\n\nBackground:\t\tMarch 2020: T3a N0M0, Gleason 4+4=8 prostate adenocarcinoma, initial PSA 7.8\nMay 2020 - Initiated androgen deprivation therapy on TITAN protocol\nDecember 2020 - Escalated to complete androgen blockade\nApril 2021 - Completed radical radiotherapy to prostate and pelvic nodes\nJanuary 2022 - PSMA-PET demonstrated solitary T8 vertebral metastasis\n\t\t\tFebruary 2022 - Stereotactic radiotherapy to T8 lesion\n2023 - Rising PSA with new bone metastases on imaging, no visceral involvement, commenced abiraterone with prednisone\nSeptember 2023 - Radiological and biochemical progression\nJanuary 2024 - Completed 6 cycles radium-223\n\nCurrent situation:\tDisease progression post-radium-223, under consideration for docetaxel chemotherapy\n\nI reviewed [redacted name] in clinic today following completion of radium-223 therapy. Unfortunately, recent imaging demonstrates disease progression with new bone metastases in the thoracic spine and pelvis, along with a suspicious 2.1cm lesion in segment 7 of the liver. Relevant imaging reports are attached.\n\nAt today's consultation, [redacted name] reports preserved appetite but acknowledges a 6kg weight loss over the past 6 weeks. His bowel function remains normal and urinary symptoms are well-controlled on current medication. While his previous thoracic pain has improved on transdermal buprenorphine 10mcg/hr, he describes new onset right shoulder pain significantly limiting overhead activities.\n\n[redacted name]'s primary concern is progressive weakness in both legs. This developed gradually over 8 weeks, and his walking distance has declined from unlimited to approximately 100 meters. He describes associated paresthesia in both feet, particularly noticeable at night.\n\nWe discussed his disease progression and treatment options. Given that he has now received all standard therapies for castrate-resistant disease except for chemotherapy, we reviewed the role of docetaxel treatment. Information about chemotherapy side effects and monitoring requirements has been provided. Recent blood tests revealed hemoglobin of 98 g/L and platelets of 89 x 10^9/L, necessitating transfusion support with two units of packed red cells.\n\n[redacted name] has an upcoming appointment with [redacted name], but given his clinical deterioration, I would be grateful if this could be expedited.",
+    "output": {
+        "primary_cancer": {
+            "site": "prostate",
+            "year": 2020,
+            "month": 3,
+            "metastases": "bone metastases in thoracic spine and pelvis, suspicious liver lesion",
+            "tnm_stage": "T3aN0M0",
+            "histopathology_status": "Gleason 4+4=8 adenocarcinoma",
+            "cancer_timeline": [
+                {
+                    "type": "laboratory_finding",
+                    "value": "Initial PSA 7.8",
+                    "year": 2020,
+                    "month": 3
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Initiated androgen deprivation therapy on TITAN protocol",
+                    "year": 2020,
+                    "month": 5
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Escalated to complete androgen blockade",
+                    "year": 2020,
+                    "month": 12
+                },
+                {
+                    "type": "treatment_radiotherapy",
+                    "value": "Completed radical radiotherapy to prostate and pelvic nodes",
+                    "year": 2021,
+                    "month": 4
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "PSMA-PET demonstrated solitary T8 vertebral metastasis",
+                    "year": 2022,
+                    "month": 1
+                },
+                {
+                    "type": "treatment_radiotherapy",
+                    "value": "Stereotactic radiotherapy to T8 lesion",
+                    "year": 2022,
+                    "month": 2
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Commenced abiraterone with prednisone for bone metastases",
+                    "year": 2023
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Radiological and biochemical progression on abiraterone",
+                    "year": 2023,
+                    "month": 9
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Completed 6 cycles radium-223",
+                    "year": 2024,
+                    "month": 1
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "New bone metastases in thoracic spine and pelvis, suspicious 2.1cm liver lesion",
+                    "year": 2024,
+                    "month": 1
+                }
+            ]
+        },
+        "patient_facts": [
+            {
+                "type": "current_symptom",
+                "value": "6kg weight loss over past 6 weeks"
+            },
+            {
+                "type": "current_symptom",
+                "value": "New onset right shoulder pain limiting overhead activities"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Progressive weakness in both legs with reduced walking distance to 100 meters"
+            },
+            {
+                "type": "current_symptom",
+                "value": "Paresthesia in both feet, particularly at night"
+            },
+            {
+                "type": "investigation_finding",
+                "value": "Hemoglobin 98 g/L and platelets 89 x 10^9/L"
+            }
+        ],
+        "status_updates": [
+            {
+                "type": "clinical_summary",
+                "value": "Metastatic castration resistant prostate cancer showing disease progression after completing radium-223, with new bone metastases and possible liver involvement. Clinical deterioration with neurological symptoms and cytopenias requiring transfusion support."
+            },
+            {
+                "type": "latest_treatment_response",
+                "value": "Disease progression with new bone metastases in thoracic spine and pelvis, and suspicious liver lesion"
+            },
+            {
+                "type": "update_to_treatment",
+                "value": "Received transfusion support with two units of packed red cells"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Request for expedited appointment with [redacted name] due to clinical deterioration"
+            }
+        ]
+    }
+}

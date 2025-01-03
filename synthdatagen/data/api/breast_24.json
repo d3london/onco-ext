@@ -1,0 +1,72 @@
+{
+  "content": "I reviewed [redacted name] today following recent admission with neutropenic sepsis and progressive disease. She was diagnosed with inflammatory breast cancer in January 2024, found to be triple negative with germline BRCA2 mutation. Despite initial response to carboplatin/gemcitabine, her most recent CT on 15/4/24 shows disease progression with new liver lesions and increasing size of pulmonary metastases. Her bone metastases remain stable but symptomatic.\n\nShe has experienced significant complications from current treatment including two admissions with neutropenic sepsis despite G-CSF support. Her performance status has declined to ECOG 3, spending most of the day in bed. She requires increasing doses of opiates for bone pain control.\n\nGiven the clear evidence of disease progression and poor tolerance of current treatment, we have discussed changing approach. She understands the situation and wishes to try further treatment. We have discussed single agent weekly paclitaxel with dose reduction to 60mg/m2 given recent toxicity. I have explained the aims of treatment are to control disease progression and improve symptoms if possible.\n\nShe will require weekly blood tests and clinical review. I have arranged urgent CT scan in 6 weeks to assess response. She has been referred to palliative care for additional support with symptom management. Her husband attended today and they both understand the situation is serious but wish to continue active treatment for now.\n\nPlan is to start weekly paclitaxel next week pending blood results. We will review after first treatment and adjust dose if needed. She has direct contact numbers for the acute oncology team if problems develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, inflammatory",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver metastases, pulmonary metastases, bone metastases",
+      "biomarker_status": "triple negative, germline BRCA2 mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started on carboplatin/gemcitabine",
+          "year": 2024
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Two admissions with neutropenic sepsis despite G-CSF support",
+          "year": 2024
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows disease progression with new liver lesions and increasing size of pulmonary metastases, stable bone metastases",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Stopping carboplatin/gemcitabine due to disease progression and poor tolerance",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, spending most of the day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Bone pain requiring increasing opiate doses"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Inflammatory breast cancer with widespread metastases showing disease progression. Multiple complications from current treatment requiring change in approach."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on carboplatin/gemcitabine with new liver lesions and increasing pulmonary metastases"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Recurrent neutropenic sepsis despite G-CSF support"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Changing to weekly paclitaxel at reduced dose of 60mg/m2"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan in 6 weeks to assess response"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly blood tests and clinical review, referred to palliative care"
+      }
+    ]
+  }
+}

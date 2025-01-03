@@ -1,0 +1,95 @@
+{
+  "content": "Diagnosis:\nLocally advanced pancreatic clear cell carcinoma with liver and lung metastases, NTRK fusion positive\n\nPrevious treatment:\nCycle 1-4 FOLFIRINOX March-May 2024\nCommenced Larotrectinib 100mg BD June 2024 following molecular results\n\nCurrent medications:\nLarotrectinib 100mg BD\nCreon 25,000 units with meals\nLansoprazole 30mg OD\nOxycodone MR 30mg BD\n\nCurrent situation:\nPre cycle 3 assessment on Larotrectinib\n\nI reviewed [redacted name] today who is tolerating treatment well overall. The initial grade 2 transaminitis has resolved following temporary dose interruption and she has maintained stable disease on imaging. Her main symptoms are improving with better appetite and reduced abdominal pain. Weight has stabilized at 64kg.\n\nLatest CT (15/07/24) shows stable disease in pancreatic primary (4.2cm vs 4.3cm) and hepatic metastases. Small lung nodules unchanged. No new sites of disease.\n\nBlood results show normal LFTs, stable CA19-9 at 450 (previously 480).\n\nExamination reveals soft abdomen with no masses or tenderness. ECOG performance status remains 1.\n\nPlan is to continue Larotrectinib at current dose with next CT scan in 8 weeks. Will review in clinic in 4 weeks with blood tests including LFTs.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas body",
+      "year": 2024,
+      "histopathology_status": "clear cell carcinoma",
+      "tnm_stage": "T3N1M0",
+      "biomarker_status": "NTRK fusion positive",
+      "metastases": "liver and lung metastases",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 4 cycles FOLFIRINOX",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced Larotrectinib 100mg BD following molecular results",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Temporary dose interruption of Larotrectinib due to grade 2 transaminitis",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable disease in pancreatic primary (4.2cm vs 4.3cm) and hepatic metastases, unchanged lung nodules",
+          "year": 2024,
+          "month": 7
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 stable at 450 (previously 480), normal LFTs",
+          "year": 2024,
+          "month": 7
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG performance status 1"
+      },
+      {
+        "type": "examination_finding",
+        "value": "soft abdomen with no masses or tenderness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "improving appetite and reduced abdominal pain"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "weight stabilized at 64kg"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic pancreatic clear cell carcinoma showing stable disease on Larotrectinib following initial FOLFIRINOX. Recent transaminitis resolved with temporary dose interruption."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on imaging with stable CA19-9"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 transaminitis resolved following temporary dose interruption"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Larotrectinib 100mg BD"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan in 8 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 4 weeks with blood tests including LFTs"
+      }
+    ]
+  }
+}

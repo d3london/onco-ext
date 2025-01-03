@@ -1,0 +1,85 @@
+{
+  "content": "Many thanks for referring [redacted name] for urgent assessment following his recent deterioration. I reviewed him today accompanied by his wife and daughter.\n\nAs you know, [redacted name] was diagnosed with epithelioid glioblastoma in January 2024 following presentation with progressive headaches and left-sided weakness. Initial MRI showed a 4.8cm right parietal mass with significant surrounding edema. He underwent subtotal resection on 15th January 2024, achieving approximately 80% debulking according to post-operative imaging. Molecular analysis confirmed BRAF V600E mutation and TERT promoter mutation, though IDH status remains pending.\n\nHe completed a 6-week course of concurrent chemoradiation with temozolomide in March 2024, but unfortunately developed significant fatigue and grade 3 thrombocytopenia requiring platelet transfusion support. His maintenance temozolomide was commenced at a reduced dose of 150mg/m2 in April 2024.\n\nUnfortunately, his most recent MRI from 15th May 2024 shows concerning evidence of leptomeningeal disease with new enhancing nodules in the posterior fossa and cervical spine. His left-sided weakness has significantly worsened (power now 3/5 in left upper and lower limbs compared to 4+/5 previously), and he has developed new onset diplopia. His performance status has declined from ECOG 1 to ECOG 3.\n\nOn examination today, he is alert but disorientated to time. There is obvious left-sided facial droop and diplopia on left lateral gaze. Power is reduced to 3/5 in both left limbs with increased tone and brisk reflexes. Truncal ataxia is evident on sitting.\n\nGiven the molecular profile showing BRAF V600E mutation, I have discussed his case with our molecular oncology team. We propose commencing combination BRAF/MEK inhibition with dabrafenib and trametinib. I have explained that while this is not standard therapy, there is emerging evidence for efficacy in BRAF-mutant glioblastoma with leptomeningeal spread. The main side effects including pyrexia, fatigue, and skin toxicity have been discussed.\n\nI have arranged urgent MRI brain and spine with CSF sampling next week. We will commence dexamethasone 4mg QDS with PPI cover, and I have referred him to our neuro-rehabilitation team for urgent assessment. I will review him again next week with the results and to initiate targeted therapy if appropriate.\n?\n?\nPlease contact our acute oncology service if there is any acute deterioration in the meantime.",
+  "output": {
+    "primary_cancer": {
+      "site": "brain, right parietal",
+      "year": 2024,
+      "month": 1,
+      "metastases": "leptomeningeal disease with enhancing nodules in posterior fossa and cervical spine",
+      "histopathology_status": "epithelioid glioblastoma",
+      "biomarker_status": "BRAF V600E mutation positive, TERT promoter mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Subtotal resection achieving 80% debulking",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started concurrent chemoradiation with temozolomide",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Developed grade 3 thrombocytopenia requiring platelet transfusion during chemoradiation",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started maintenance temozolomide at reduced dose 150mg/m2",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows new leptomeningeal disease with enhancing nodules in posterior fossa and cervical spine",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from ECOG 1 to ECOG 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Left-sided weakness with power 3/5 in upper and lower limbs"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New onset diplopia"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Alert but disorientated to time, left-sided facial droop, diplopia on left lateral gaze, power 3/5 in left limbs, increased tone, brisk reflexes, truncal ataxia"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Epithelioid glioblastoma with new leptomeningeal spread despite initial treatment. Significant clinical deterioration with new neurological deficits."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 thrombocytopenia during chemoradiation requiring platelet support"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Starting dexamethasone 4mg QDS with PPI cover"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI brain and spine with CSF sampling next week"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to neuro-rehabilitation team for urgent assessment, review next week to initiate targeted therapy"
+      }
+    ]
+  }
+}

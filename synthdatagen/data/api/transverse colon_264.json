@@ -1,0 +1,66 @@
+{
+  "content": "Diagnosis\n\t1. Transverse colon adenocarcinoma, Duke's B\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Laparoscopic extended right hemicolectomy\n\n\tChemotherapy\n\t1 Mar 2024 - ongoing CAPOX adjuvant chemotherapy\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tNo evidence of disease\n\n\tCurrent issues\n\tMild peripheral neuropathy\n\n\tSummary of consultation\n\tReviewed today prior to cycle 4 of adjuvant CAPOX chemotherapy. Treatment has been well tolerated with only grade 1 peripheral neuropathy affecting fingertips. Performance status remains 0. Weight stable at 72kg. Blood results satisfactory for proceeding with treatment.\n\n\tFurther investigations\n\tRoutine CT surveillance scan booked for completion of treatment\n\n\tMedication prescribed\n\tContinue CAPOX at 100% doses\n\n\tFollow up\n\tNext oncology follow up in 3 weeks pre cycle 5\n\n\tRequired GP actions\n\tNone required",
+  "output": {
+    "primary_cancer": {
+      "site": "transverse colon",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": null,
+      "other_stage": "Duke's B",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "KRAS A146T mutation; PIK3CA E545K",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Laparoscopic extended right hemicolectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started CAPOX adjuvant chemotherapy",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "grade 1 peripheral neuropathy affecting fingertips"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "weight stable at 72kg"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Duke's B transverse colon cancer post surgery, tolerating adjuvant CAPOX chemotherapy well with minimal toxicity"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "grade 1 peripheral neuropathy affecting fingertips"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "continuing CAPOX chemotherapy at 100% doses"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT surveillance scan booked for completion of treatment"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "review in 3 weeks pre cycle 5"
+      }
+    ]
+  }
+}

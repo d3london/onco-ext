@@ -1,0 +1,86 @@
+{
+  "content": "Diagnosis\n\t1. Intrahepatic cholangiocarcinoma with widespread metastatic disease\n\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t12 Jan 2024 Diagnostic laparoscopy and biopsy\n\n\tChemotherapy\n\t1. Gemcitabine/Cisplatin Jan-Mar 2024 (3 cycles)\n\t2. Durvalumab/Gemcitabine/Cisplatin Mar-May 2024 (4 cycles)\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tProgressive disease with clinical deterioration\n\n\tCurrent issues\n\t1. Progressive liver dysfunction\n\t2. Malignant ascites requiring weekly drainage\n\t3. Severe fatigue\n\n\tSummary of consultation\n\tThis 62-year-old gentleman has unfortunately shown disease progression despite two lines of systemic therapy. Recent CT on 15/5/24 shows increasing liver metastases with new peritoneal deposits and malignant ascites. His performance status has declined to ECOG 3, spending >50% of time in bed. Liver function shows progressive deterioration with bilirubin 85, ALT 156, ALP 445. He requires weekly paracentesis for symptomatic ascites.\n\nAfter detailed discussion with [redacted name] and family, we have agreed to discontinue systemic anti-cancer therapy and focus on symptom control. He understands the poor prognosis but maintains good understanding and engagement in care decisions.\n\n\tFurther investigations\n\tWeekly monitoring of liver function\n\n\tMedication prescribed\n\tDexamethasone 4mg daily\n\tFurosemide 40mg daily\n\tOxycodone MR 30mg BD\n\n\tFollow up\n\tReferred to palliative care team\nWeekly ascites drainage clinic\n\n\tRequired GP actions\n\tPlease monitor liver function weekly\nPrescribe breakthrough analgesia as needed\nDS1500 completed today",
+  "output": {
+    "primary_cancer": {
+      "site": "intrahepatic biliary tract",
+      "year": 2024,
+      "month": 1,
+      "metastases": "liver metastases, peritoneal deposits, malignant ascites",
+      "other_stage": "Stage IVB",
+      "histopathology_status": "cholangiocarcinoma",
+      "biomarker_status": "PDL1 CPS 90%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Diagnostic laparoscopy and biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Gemcitabine/Cisplatin chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed to Durvalumab/Gemcitabine/Cisplatin",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows increasing liver metastases with new peritoneal deposits and malignant ascites",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued all systemic anti-cancer therapy due to disease progression and clinical deterioration",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, spending >50% of time in bed"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Liver function deteriorating with bilirubin 85, ALT 156, ALP 445"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Malignant ascites requiring weekly paracentesis"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Severe fatigue"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced cholangiocarcinoma with progressive disease despite two lines of therapy. Clinical deterioration with liver dysfunction and malignant ascites"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on imaging with clinical deterioration"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued all systemic anti-cancer therapy, transition to palliative care"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3, requiring weekly paracentesis"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to palliative care team and weekly ascites drainage clinic"
+      }
+    ]
+  }
+}

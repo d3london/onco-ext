@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis:\nMalignant paraganglioma of right adrenal with local invasion\nSDHC mutation positive\nDopamine-secreting\n\nPrevious management:\nDiagnosis January 2024 following investigation of resistant hypertension\nInitial alpha blockade with phenoxybenzamine commenced February 2024\nBeta blockade added March 2024\n\nCurrent situation:\nDiscussed at Combined Endocrine-Oncology MDT 15 April 2024\n\nImaging review:\nCT 10 April 2024 shows 8.2cm right adrenal mass with invasion into posterior abdominal wall musculature and displacement of right kidney. No distant metastases identified. Single enlarged para-aortic lymph node measuring 1.8cm.\n\nBiochemistry review:\nPlasma metanephrines - normetanephrine 1250 pmol/L (elevated), metanephrine 380 pmol/L (normal)\nPlasma dopamine significantly elevated at 850 pmol/L\n24-hour urinary catecholamines confirm excess dopamine secretion\n\nMDT Recommendations:\n1. Not currently surgically resectable due to local invasion\n2. Recommend 4 cycles of neoadjuvant CVD chemotherapy (cyclophosphamide, vincristine, dacarbazine)\n3. Continue alpha blockade with phenoxybenzamine 10mg TDS\n4. Continue beta blockade with propranolol 40mg BD\n5. Weekly blood pressure monitoring\n6. Genetic counselling referral for family screening given SDHC mutation\n7. Re-imaging after cycle 2 and cycle 4 to assess response\n8. Re-discussion at MDT after completion of neoadjuvant therapy\n\nI have discussed these recommendations with [redacted name] today. She understands the rationale for neoadjuvant treatment and the importance of continuing alpha and beta blockade. She will commence chemotherapy next week following insertion of PICC line. Blood pressure currently stable at 125/75 on current blockade.",
+  "output": {
+    "primary_cancer": {
+      "site": "adrenal, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "single enlarged para-aortic lymph node, invasion into posterior abdominal wall musculature",
+      "tnm_stage": "T4N1",
+      "histopathology_status": "malignant paraganglioma",
+      "biomarker_status": "SDHC mutation positive, dopamine-secreting tumor",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Diagnosed following investigation of resistant hypertension",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started phenoxybenzamine for alpha blockade",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Beta blockade added with propranolol",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 8.2cm right adrenal mass with local invasion and single enlarged para-aortic node",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Elevated plasma normetanephrine 1250 pmol/L and dopamine 850 pmol/L",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "investigation_finding",
+        "value": "Blood pressure stable at 125/75 on current blockade"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced dopamine-secreting paraganglioma. MDT recommendation for neoadjuvant chemotherapy due to current surgical unresectability."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing phenoxybenzamine 10mg TDS and propranolol 40mg BD"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Re-imaging after cycle 2 and cycle 4 of chemotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly blood pressure monitoring and genetic counselling referral"
+      }
+    ]
+  }
+}

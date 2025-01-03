@@ -1,0 +1,80 @@
+{
+  "content": "Diagnosis:\tHepatocellular carcinoma, BCLC stage B\n\nInitial diagnosis March 2023 with multifocal disease in segments 4a, 5 and 8. AFP at diagnosis 450. Child-Pugh A5 liver function with background hepatitis B cirrhosis.\n\nTreatment with TACE to all lesions April 2023 and July 2023 with good response.\n\nI reviewed [redacted name] today in follow-up clinic. He remains well with stable performance status and good appetite. No symptoms suggestive of disease progression. Latest AFP has fallen to 120. Recent triple-phase CT liver (15/09/2023) shows stable post-TACE appearances with no new lesions identified. Child-Pugh score remains A5 with well-preserved synthetic function.\n\nThe plan is to continue surveillance with 3-monthly AFP and imaging. Next triple-phase CT liver arranged for December 2023. Will review in clinic with results. Patient understands to contact us sooner if new symptoms develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "liver, segments 4a, 5 and 8",
+      "year": 2023,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "BCLC stage B",
+      "histopathology_status": "hepatocellular carcinoma, multifocal",
+      "biomarker_status": "AFP 450 at diagnosis",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "AFP 450",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "TACE to all lesions",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Second TACE to all lesions",
+          "year": 2023,
+          "month": 7
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "AFP decreased to 120",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Triple-phase CT liver shows stable post-TACE appearances with no new lesions",
+          "year": 2023,
+          "month": 9
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "hepatitis B cirrhosis, Child-Pugh A5"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Child-Pugh A5 with well-preserved synthetic function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Multifocal HCC treated with two rounds of TACE showing stable disease on imaging and falling AFP"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable post-TACE appearances with no new lesions, AFP decreased to 120"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Stable performance status with good appetite"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Triple-phase CT liver arranged for December 2023"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with CT results"
+      }
+    ]
+  }
+}

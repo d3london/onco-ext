@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis:\tGrade 1 pancreatic neuroendocrine tumour\n\nManagement:\t12 March 2023 Distal pancreatectomy and splenectomy\n\nHistology:\tWell-differentiated neuroendocrine tumour, G1 (Ki67 2%), R0 resection, pT2N0M0\n\nCurrent Situation:\tRoutine surveillance review\n\nI reviewed [redacted name] today for routine follow-up following surgery for pancreatic NET. She has recovered well from her operation with no ongoing symptoms. Her weight is stable and appetite good. She denies any abdominal pain, change in bowel habit, or flushing symptoms. Blood tests show normal Chromogranin A at 56 pmol/L (range 0-60). Recent CT scan on 15/4/24 shows post-surgical changes only with no evidence of recurrence.\n\nOn examination today, her surgical wounds are well healed. Abdomen is soft and non-tender with no masses. She remains clinically well.\n\nThe plan is to continue surveillance with 6-monthly Chromogranin A measurements and annual CT scanning. I will review her again in clinic in 6 months with repeat blood tests. She understands to contact us sooner if she develops any new symptoms of concern.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2023,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT2N0M0",
+      "other_stage": null,
+      "histopathology_status": "Well-differentiated neuroendocrine tumour, Grade 1",
+      "biomarker_status": "Ki67 2%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Distal pancreatectomy and splenectomy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Chromogranin A normal at 56 pmol/L",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows post-surgical changes only with no evidence of recurrence",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "No abdominal pain, change in bowel habit, or flushing symptoms"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Surgical wounds well healed, abdomen soft and non-tender with no masses"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Chromogranin A normal at 56 pmol/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Grade 1 pancreatic NET post successful surgical resection. Clinically well with no evidence of recurrence on surveillance imaging"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "6-monthly Chromogranin A measurements and annual CT scanning"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 6 months with repeat blood tests"
+      }
+    ]
+  }
+}

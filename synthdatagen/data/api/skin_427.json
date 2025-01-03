@@ -1,0 +1,82 @@
+{
+  "content": "Diagnosis\n\t1. Merkel cell carcinoma right forearm\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Wide local excision and axillary node dissection\n\n\tChemotherapy\n\t1 Feb 2024 - 15 Mar 2024 Carboplatin/Etoposide\n\n\tClinical studies\n\tNot eligible for current immunotherapy trials due to autoimmune disease\n\n\tCurrent disease status\n\tProgressive disease with new pulmonary metastases\n\n\tCurrent issues\n\tBreathlessness, right-sided chest pain, fatigue\n\n\tSummary of consultation\n\tI reviewed [redacted name] today, who attended with her husband. Unfortunately, her recent CT scan has shown progression of disease with multiple new pulmonary metastases, the largest measuring 3.2cm in the right lower lobe. This correlates with her increasing breathlessness and right-sided chest pain over the past three weeks.\n\nShe completed three cycles of carboplatin/etoposide in March 2024, but developed significant neutropenic sepsis requiring ICU admission after the final cycle. Her initial response was good with complete resolution of the primary site and reduction in axillary nodes, but she has now developed progressive disease within 6 weeks of completing chemotherapy.\n\nGiven her recent severe toxicity with chemotherapy and her underlying rheumatoid arthritis, we have had a detailed discussion about treatment options. We agreed to proceed with palliative radiotherapy to the largest symptomatic lung lesion, with a view to considering second-line chemotherapy with dose reduction once she has recovered further strength.\n\n\tFurther investigations\n\tUrgent CT-planning scan booked for tomorrow\n\n\tMedication prescribed\n\tOxycodone 5mg PRN for chest pain\n\n\tFollow up\n\tUrgent radiotherapy planning tomorrow\nReview in 2 weeks after completion of radiotherapy\n\n\tRequired GP actions\n\tPlease monitor renal function and FBC weekly\nPlease refer to district nurses for support with increasing care needs\n\n\tSummary of information given to patient\n\tDetailed discussion about disease progression and treatment options. Patient understands palliative intent of ongoing care. Written information provided about palliative radiotherapy.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right forearm",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple pulmonary metastases, largest 3.2cm in right lower lobe",
+      "tnm_stage": "T2N1M1",
+      "histopathology_status": "Merkel cell carcinoma",
+      "biomarker_status": "MCPyV negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and axillary node dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Carboplatin/Etoposide chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed three cycles of carboplatin/etoposide with neutropenic sepsis requiring ICU admission after final cycle",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Complete response at primary site and reduction in axillary nodes after initial chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows multiple new pulmonary metastases, largest 3.2cm in right lower lobe",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "rheumatoid arthritis"
+      },
+      {
+        "type": "current_symptom",
+        "value": "increasing breathlessness and right-sided chest pain over past three weeks"
+      },
+      {
+        "type": "current_symptom",
+        "value": "fatigue"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Merkel cell carcinoma with new pulmonary progression within 6 weeks of completing first-line chemotherapy, complicated by previous neutropenic sepsis"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Neutropenic sepsis requiring ICU admission after final cycle of carboplatin/etoposide"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan for palliative radiotherapy to largest symptomatic lung lesion"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent CT-planning scan booked for tomorrow"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks after completion of radiotherapy"
+      }
+    ]
+  }
+}

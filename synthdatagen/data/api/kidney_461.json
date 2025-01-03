@@ -1,0 +1,117 @@
+{
+  "content": "Diagnosis\n\t1. Clear cell renal cell carcinoma, right kidney\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Jan 2024 Right cytoreductive nephrectomy\n\n\tSystemic therapy\n\t1 Feb 2024 - Started Cabozantinib 60mg daily\n\t15 Mar 2024 - Dose reduction to 40mg due to grade 3 palmar-plantar syndrome\n\t1 Apr 2024 - Treatment discontinued due to disease progression\n\n\tRadiotherapy\n\t20 Mar 2024 - Whole brain radiotherapy 20Gy in 5 fractions for multiple brain metastases\n\n\tCurrent disease status\n\tProgressive disease with deteriorating clinical status\n\n\tCurrent issues\n\tWorsening bone pain\n\tIncreasing fatigue\n\tDecreased oral intake\n\tNeurological symptoms from brain metastases\n\n\tSummary of consultation\n\nI reviewed [redacted name] today, who attended with her husband. Unfortunately, she has experienced significant clinical deterioration over the past three weeks. Her performance status has declined from ECOG 2 to 3, spending more than 50% of time in bed. She describes worsening bone pain particularly affecting her thoracic spine and left hip, despite recent increases in opiate analgesia. Her neurological symptoms have also progressed with increasing headaches and mild right-sided weakness, though she remains independently mobile with a walking frame.\n\nShe has developed significant fatigue limiting her daily activities and reports poor appetite with 4kg weight loss over the past month. She is struggling with ongoing nausea, though denies any frank vomiting. The palmar-plantar syndrome which previously required Cabozantinib dose reduction has now resolved following treatment discontinuation.\n\nOn examination, she appears cachectic with obvious muscle wasting. There is tenderness over T8-T10 vertebrae. Neurological examination reveals mild right-sided weakness (4+/5) but preserved reflexes and sensation. Recent CT shows progressive disease with enlarging liver metastases and new pulmonary nodules. MRI brain demonstrates enlarging metastases despite whole brain radiotherapy.\n\n\tFurther investigations\n\tUrgent MRI spine to assess for cord compression\n\tBlood tests including LFTs, bone profile, and clotting\n\n\tMedication changes\n\tMorphine modified release increased to 60mg BD\n\tDexamethasone 8mg daily commenced\n\tMetoclopramide 10mg TDS added\n\n\tFollow up\n\tUrgent palliative care review arranged for tomorrow\n\tNext oncology review in 1 week\n\n\tRequired actions\n\tReferral completed to community palliative care team\n\tDistrict nurse referral for support at home\n\tUrgent SALT assessment requested for swallowing assessment",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple brain metastases, bone metastases affecting thoracic spine and left hip, liver metastases, pulmonary nodules",
+      "tnm_stage": "T4N1M1",
+      "histopathology_status": "clear cell renal cell carcinoma",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right cytoreductive nephrectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Cabozantinib 60mg daily",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cabozantinib dose reduction to 40mg due to grade 3 palmar-plantar syndrome",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Whole brain radiotherapy 20Gy in 5 fractions for multiple brain metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cabozantinib discontinued due to disease progression",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with enlarging liver metastases and new pulmonary nodules",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain demonstrates enlarging metastases despite whole brain radiotherapy",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, spending more than 50% of time in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain affecting thoracic spine and left hip"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Headaches and mild right-sided weakness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Significant fatigue limiting daily activities"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Poor appetite with 4kg weight loss over past month"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with obvious muscle wasting"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tenderness over T8-T10 vertebrae"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Mild right-sided weakness (4+/5) but preserved reflexes and sensation"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic renal cell carcinoma with progressive disease following failed first-line therapy. Significant clinical deterioration with declining performance status and increasing symptom burden"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with enlarging liver metastases, new pulmonary nodules, and enlarging brain metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Cabozantinib discontinued due to disease progression, focus on supportive care"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status from ECOG 2 to 3, now bed-bound >50% of time"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to assess for cord compression"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review arranged for tomorrow, oncology review in 1 week"
+      }
+    ]
+  }
+}

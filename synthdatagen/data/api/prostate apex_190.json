@@ -1,0 +1,108 @@
+{
+  "content": "Diagnosis:\nMetastatic prostate adenocarcinoma with neuroendocrine differentiation\nInitial diagnosis January 2024 with PSA 245\nStage T4N1M1c with extensive bone metastases and liver involvement\n\nPrevious Treatment:\nAndrogen deprivation therapy commenced January 2024\nDocetaxel chemotherapy March-May 2024 - discontinued due to disease progression\n\nClinical Trial:\nPLATINUM-PRO study - randomised to Arm B (Carboplatin/Etoposide)\nCycle 3 completed 15 June 2024\n\nCurrent Status:\nPerformance status 2 (deteriorated from PS 1)\nProgressive disease on latest imaging\n\nCurrent Assessment:\nI reviewed [redacted name] today who attended with his wife for assessment prior to cycle 4 of the PLATINUM-PRO trial. Unfortunately, his condition has deteriorated significantly over the past three weeks. His performance status has declined to ECOG 2, spending more than 50% of the day resting. He describes worsening bone pain affecting his lumbar spine and right hip, despite recent adjustment of his opiate medications. His appetite remains poor with ongoing weight loss - now 8kg below baseline.\n\nBlood tests show declining haemoglobin at 98 g/L (previously 115), rising alkaline phosphatase 456 U/L, and PSA has increased to 389 from 245. Chromogranin A remains significantly elevated at 452 ng/mL. CT scan performed last week shows progressive disease with 30% increase in liver metastases and new bone lesions.\n\nI have discussed these findings with the trial team. Given the clear evidence of disease progression and declining performance status, we have agreed to discontinue trial treatment. [redacted name] and his wife understand this decision. We have arranged urgent referral to palliative care and will review him next week to discuss further treatment options, including the possibility of second-line platinum-based chemotherapy if his performance status improves.\n\nPlanned Actions:\n1. Discontinue trial treatment\n2. Urgent palliative care referral completed\n3. MRI spine to assess for cord compression given new severe back pain\n4. Review in clinic next week to discuss further options\n5. Continue current analgesia and supportive medications",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate apex",
+      "year": 2024,
+      "month": 1,
+      "metastases": "extensive bone metastases and liver involvement",
+      "tnm_stage": "T4N1M1c",
+      "histopathology_status": "adenocarcinoma with neuroendocrine differentiation",
+      "biomarker_status": "PSA elevated, Chromogranin A significantly elevated at 452 ng/mL",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial PSA 245",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced on androgen deprivation therapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started docetaxel chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued docetaxel due to disease progression",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in PLATINUM-PRO study - randomised to Arm B (Carboplatin/Etoposide)",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed cycle 3 of Carboplatin/Etoposide",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA increased to 389, Chromogranin A elevated at 452 ng/mL, declining haemoglobin 98 g/L, rising alkaline phosphatase 456 U/L",
+          "year": 2024,
+          "month": 6
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with 30% increase in liver metastases and new bone lesions",
+          "year": 2024,
+          "month": 6
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2, spending more than 50% of day resting"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening bone pain affecting lumbar spine and right hip"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Poor appetite with 8kg weight loss from baseline"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT shows progressive disease with 30% increase in liver metastases and new bone lesions"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic prostate cancer with neuroendocrine features showing rapid progression through multiple lines of therapy. Significant clinical deterioration with worsening performance status and symptoms."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with 30% increase in liver metastases, new bone lesions, and rising PSA and Chromogranin A"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status from ECOG 1 to 2, with increasing bone pain and weight loss"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing trial treatment due to disease progression and declining performance status"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "MRI spine to assess for cord compression"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care referral completed, review in clinic next week to discuss further treatment options"
+      }
+    ]
+  }
+}

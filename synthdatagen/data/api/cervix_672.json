@@ -1,0 +1,76 @@
+{
+  "content": "I reviewed [redacted name] today who is participating in the Phase II SIREN trial of Durvalumab and Tremelimumab in combination with carboplatin/etoposide for metastatic small cell neuroendocrine carcinoma of cervix. She was diagnosed in January 2024 following investigation of postmenopausal bleeding, with staging investigations revealing a 6.2cm cervical mass with bilateral pelvic lymphadenopathy and multiple liver metastases. Initial biopsy confirmed small cell neuroendocrine carcinoma with positive synaptophysin staining.\n\nShe commenced trial treatment on 15th February 2024 and has completed three cycles of combination therapy. Unfortunately, she has experienced significant deterioration over the past 2 weeks with increasing right upper quadrant pain and early satiety. Her performance status has declined from ECOG 1 to ECOG 3, now spending most of the day in bed due to fatigue and pain. She requires regular breakthrough analgesia in addition to her baseline MST.\n\nOn examination today, there is marked hepatomegaly extending 6cm below the costal margin with tenderness on palpation. There is peripheral edema to mid-calf bilaterally. Blood tests show deteriorating liver function with bilirubin 45, ALT 156, ALP 432. Her albumin has dropped to 28.\n\nCT scan performed yesterday shows significant progression of liver metastases with overall 40% increase in target lesions compared to baseline. The primary cervical mass shows marginal increase from 6.2cm to 6.8cm. There are no new sites of disease.\n\nI have discussed these findings at length with [redacted name] and her daughter. Given the clear evidence of disease progression on trial treatment and her declining performance status, we have agreed to discontinue trial participation. She has been referred urgently to the palliative care team for review of symptom control, and I have arranged admission to [redacted name] Hospice for intensive symptom management. The trial team has been notified and end of trial documentation will be completed today. I have prescribed additional breakthrough analgesia and started dexamethasone 8mg daily.\n\nWe will maintain close contact with the palliative care team regarding her ongoing management. Her daughter has my direct contact details should there be any concerns before the planned hospice admission tomorrow.",
+  "output": {
+    "primary_cancer": {
+      "site": "cervix",
+      "year": 2024,
+      "month": 1,
+      "metastases": "bilateral pelvic lymphadenopathy and multiple liver metastases",
+      "other_stage": "Stage IVB",
+      "histopathology_status": "small cell neuroendocrine carcinoma",
+      "biomarker_status": "synaptophysin positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "6.2cm cervical mass with bilateral pelvic lymphadenopathy and multiple liver metastases",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Started Phase II SIREN trial of Durvalumab and Tremelimumab with carboplatin/etoposide",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 40% increase in liver metastases, primary cervical mass increased to 6.8cm",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued trial treatment due to disease progression and declining performance status",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG 3, spending most of day in bed due to fatigue and pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing right upper quadrant pain and early satiety"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Hepatomegaly extending 6cm below costal margin with tenderness, peripheral edema to mid-calf bilaterally"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45, ALT 156, ALP 432, albumin 28"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic small cell neuroendocrine carcinoma of cervix with progressive disease on trial treatment. Significant clinical deterioration with declining performance status and worsening liver function"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with 40% increase in liver metastases and increase in primary cervical mass"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Performance status deteriorated from ECOG 1 to ECOG 3 over past 2 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team and arranged admission to hospice"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "content": "Diagnosis:\tMetastatic sigmoid adenocarcinoma, MMR proficient, HER2 negative\n\nManagement:\t15 Jan 2024 Emergency laparotomy - peritoneal disease noted\n\t\t1 Feb 2024 Started FOLFOX chemotherapy\n\t\t15 Mar 2024 Cycle 3 discontinued due to progressive disease\n\nHistology:\tModerately differentiated adenocarcinoma with peritoneal involvement\n\nCurrent Situation:\tProgressive disease following 3 cycles FOLFOX\n\nI reviewed [redacted name] today following recent CT showing disease progression. Unfortunately, there has been significant clinical deterioration with increasing abdominal pain and ascites requiring two paracenteses in the past month. Performance status has declined to ECOG 3. Recent CT on 20/3/24 confirms progression of peritoneal disease with new omental cake and moderate volume ascites. There is also new small volume liver disease in segments 4 and 8.\n\nBlood results show rising CEA from 45 to 180 over 6 weeks. Albumin has dropped to 28. Other liver function tests show mild derangement with ALP 345 and ALT 65.\n\nGiven the rapid progression through first-line chemotherapy and declining performance status, we had a detailed discussion about prognosis and goals of care. [redacted name] understands that further systemic therapy carries significant risks with limited chance of benefit. We have agreed to focus on symptom management with early palliative care involvement.\n\nI have referred to the palliative care team and arranged weekly paracentesis as needed. We will review in 2 weeks with repeat bloods. I have provided emergency contact details and arranged district nurse support.",
+  "output": {
+    "primary_cancer": {
+      "site": "sigmoid colon",
+      "year": 2024,
+      "month": 1,
+      "metastases": "peritoneal disease, new omental cake, new liver metastases segments 4 and 8",
+      "histopathology_status": "moderately differentiated adenocarcinoma with peritoneal involvement",
+      "biomarker_status": "MMR proficient, HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Emergency laparotomy - peritoneal disease noted",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Cycle 3 FOLFOX discontinued due to progressive disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression of peritoneal disease with new omental cake and liver metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA increased from 45 to 180 over 6 weeks",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing abdominal pain and ascites requiring paracentesis"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Albumin 28, ALP 345, ALT 65"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic sigmoid cancer with rapid progression through first-line chemotherapy and declining performance status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with new omental cake, ascites, and liver metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy due to disease progression and poor performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with increasing symptoms"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat bloods in 2 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to palliative care team, arranged weekly paracentesis and district nurse support"
+      }
+    ]
+  }
+}

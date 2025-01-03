@@ -1,0 +1,80 @@
+{
+  "content": "Diagnosis:\nFollicular thyroid carcinoma\n\nSurgery:\nTotal thyroidectomy 15 March 2024 - Dr [redacted name]\n\nHistology:\nMinimally invasive follicular thyroid carcinoma\npT2N0M0 (AJCC 8th Edition)\nNo vascular invasion\nComplete excision\n\nPrevious medical history:\nNone of note\n\nCurrent medications:\nLevothyroxine 125mcg daily\n\nCurrent situation:\nPost-operative review and completion of radioactive iodine ablation\n\nI reviewed [redacted name] today following completion of radioactive iodine ablation therapy. The treatment was well tolerated with only mild temporary symptoms of dry mouth and slight nausea which have now resolved. Thyroglobulin levels have appropriately decreased post ablation from 4.2 to 0.8. TSH is well suppressed at <0.01 on current levothyroxine dose.\n\nExamination shows well-healed thyroidectomy scar. No cervical lymphadenopathy. Performance status 0.\n\nPost-treatment whole body scan shows no evidence of residual thyroid tissue or metastatic disease. The plan is for ongoing TSH suppression with current levothyroxine dose and surveillance with 6-monthly thyroglobulin measurements. Next clinic review will be in 6 months with thyroid function tests and thyroglobulin level. Annual neck ultrasound will be arranged.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "pT2N0M0",
+      "other_stage": "Stage I",
+      "histopathology_status": "Minimally invasive follicular thyroid carcinoma, no vascular invasion, complete excision",
+      "biomarker_status": "",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy performed by Dr [redacted name]",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Initial thyroglobulin level 4.2",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed radioactive iodine ablation therapy",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Post-ablation thyroglobulin decreased to 0.8, TSH well suppressed at <0.01",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Post-treatment whole body scan shows no evidence of residual thyroid tissue or metastatic disease",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed thyroidectomy scar, no cervical lymphadenopathy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage I follicular thyroid carcinoma treated with total thyroidectomy and radioactive iodine ablation. Good response to treatment with appropriate biochemical markers"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild temporary symptoms of dry mouth and slight nausea during radioactive iodine ablation, now resolved"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing levothyroxine 125mcg daily for TSH suppression"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "6-monthly thyroglobulin measurements and annual neck ultrasound"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review in 6 months with thyroid function tests and thyroglobulin level"
+      }
+    ]
+  }
+}

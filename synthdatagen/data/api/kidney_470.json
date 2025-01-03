@@ -1,0 +1,92 @@
+{
+  "content": "Diagnosis:\t\tMetastatic papillary renal cell carcinoma type 1\n\nStaging:\t\tT3bN1M1 at diagnosis January 2024\n\t\tCK19 positive\n\t\tProgressive bone and liver metastases\n\nTreatment:\t\t15 Jan 2024 Left radical nephrectomy\n\t\t1 Feb - 15 Mar 2024 Cabozantinib 60mg daily\n\t\t20 Mar 2024 Emergency admission with cord compression\n\t\t22-29 Mar 2024 Palliative radiotherapy to T8-T10\n\nCurrent situation:\tSeen following admission\n\nI reviewed [redacted name] today following recent emergency admission. Unfortunately, there has been significant clinical deterioration over the past 2 weeks with increasing back pain, new right upper quadrant pain, and marked fatigue limiting mobility. Performance status has declined from 1 to 3. Recent CT shows progressive disease with 30% increase in liver metastases and new vertebral deposits at T8-T10 causing cord compression, though some response in para-aortic nodes.\n\nHe has completed emergency radiotherapy to T8-T10 with some improvement in lower limb weakness, but continues to require significant support with mobility. His liver function has deteriorated with bilirubin now 45 and ALT 156. Given the marked clinical decline and radiological progression, we have discussed discontinuing systemic therapy. [redacted name] and family understand the situation and agree with focusing on symptom control.\n\nI have referred to palliative care team for ongoing support and symptom management. We will arrange community support through district nurses. Follow up with palliative care team next week, with telephone review from oncology team in 2 weeks.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, left",
+      "year": 2024,
+      "month": 1,
+      "metastases": "bone metastases including T8-T10 vertebrae, liver metastases, para-aortic nodes",
+      "tnm_stage": "T3bN1M1",
+      "histopathology_status": "papillary renal cell carcinoma type 1",
+      "biomarker_status": "CK19 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Left radical nephrectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Cabozantinib 60mg daily",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Emergency admission with cord compression",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Palliative radiotherapy to T8-T10",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease with 30% increase in liver metastases and new vertebral deposits at T8-T10, some response in para-aortic nodes",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing systemic therapy due to clinical deterioration and disease progression",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status deteriorated from 1 to 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing back pain and new right upper quadrant pain"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Marked fatigue limiting mobility"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating liver function with bilirubin 45 and ALT 156"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic renal cell carcinoma with rapid clinical deterioration and radiological progression. Treatment discontinued due to disease progression."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with 30% increase in liver metastases and new vertebral deposits, though some response in para-aortic nodes"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Systemic therapy discontinued due to clinical deterioration and disease progression"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline requiring mobility support, performance status deteriorated from 1 to 3"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Referred to palliative care team and district nurses, palliative care review next week, oncology telephone review in 2 weeks"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "content": "Diagnosis:\tPancreatic adenocarcinoma (mixed acinar-ductal type), T3N1M0\n\nDiagnosed following investigation of obstructive jaundice in March 2024. CT pancreas showed 4.2cm mass in pancreatic body with peripancreatic lymphadenopathy. No distant metastases identified. Endoscopic ultrasound-guided biopsy confirmed mixed acinar-ductal carcinoma. Molecular testing shows PTEN loss.\n\n[redacted name] is a 62-year-old gentleman who presented with painless jaundice and 5kg weight loss over 2 months. Initial management included ERCP with stent placement on 15/3/24 with good resolution of biliary obstruction. Staging investigations including CT chest/abdomen/pelvis and MRI pancreas confirm T3N1M0 disease confined to pancreas and regional nodes.\n\nHe has type 2 diabetes managed with metformin and gliclazide, and hypertension on ramipril. No other significant medical history. Lives with wife and continues to work part-time as an accountant. Performance status is 1.\n\nOn examination today, he is slightly icteric but improving. Abdomen is soft with mild epigastric tenderness. No palpable masses. Blood tests show improving liver function with bilirubin now 35 (peak was 245).\n\nI have discussed management options with [redacted name] and his wife. Given his good performance status and stage III disease, we recommend proceeding with 3 months of neoadjuvant FOLFIRINOX chemotherapy followed by assessment for surgery. I have explained the common side effects and monitoring requirements. He will be reviewed by our specialist nurse next week for chemotherapy education and port insertion will be arranged.\n\nPlan to commence chemotherapy in 2 weeks once bilirubin has normalized. Will arrange CT assessment after 3 months of treatment. Next oncology review before cycle 1 chemotherapy.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas, body",
+      "year": 2024,
+      "month": 3,
+      "metastases": "peripancreatic lymphadenopathy",
+      "tnm_stage": "T3N1M0",
+      "other_stage": "Stage III",
+      "histopathology_status": "mixed acinar-ductal carcinoma",
+      "biomarker_status": "PTEN loss",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 4.2cm pancreatic body mass with peripancreatic lymphadenopathy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "EUS-guided biopsy confirms mixed acinar-ductal carcinoma",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "ERCP with stent placement for biliary obstruction",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 1"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes on metformin and gliclazide"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension on ramipril"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild epigastric tenderness"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Slightly icteric, abdomen soft, no palpable masses"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Improving liver function with bilirubin 35 (peak was 245)"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed stage III pancreatic cancer presenting with obstructive jaundice. Planned for neoadjuvant FOLFIRINOX with view to surgery."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "For neoadjuvant FOLFIRINOX chemotherapy for 3 months"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT assessment after 3 months of treatment"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review before cycle 1 chemotherapy in 2 weeks"
+      }
+    ]
+  }
+}

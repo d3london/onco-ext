@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis\n\t1. Hepatocellular carcinoma, BCLC Stage A\n\tDate of diagnosis\n\tJanuary 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNot indicated\n\n\tRadiotherapy\n\tNot indicated\n\n\tChemotherapy\n\tNot indicated\n\n\tClinical studies\n\tEnrolled in EMERALD-2 trial of durvalumab + bevacizumab vs sorafenib in early HCC\n\tRandomised to experimental arm 15 Feb 2024\n\n\tCurrent disease status\n\tStable disease\n\n\tCurrent issues\n\tMild fatigue\n\n\tSummary of consultation\n\tReviewed today for cycle 3 assessment on EMERALD-2 trial. Tolerating treatment well with only grade 1 fatigue. No concerning symptoms. Latest AFP stable at 180 (baseline 200). Trial-mandated CT at 8 weeks shows stable disease by RECIST 1.1 criteria with 5.2cm segment 7 lesion unchanged. Liver function remains well-preserved with Child-Pugh A5 status. Performance status remains 0.\n\n\tFurther investigations\n\tTrial-mandated blood tests and QoL questionnaires completed today\n\n\tMedication prescribed\n\tContinue trial medication as per protocol\n\n\tFollow up\n\tNext trial visit in 2 weeks for cycle 4\n\tCT assessment at 16 weeks as per protocol\n\n\tRequired GP actions\n\tNone required",
+  "output": {
+    "primary_cancer": {
+      "site": "liver, segment 7",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "BCLC Stage A",
+      "histopathology_status": "hepatocellular carcinoma",
+      "biomarker_status": "AFP 200 at baseline, beta-catenin mutation",
+      "cancer_timeline": [
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in EMERALD-2 trial and randomised to durvalumab + bevacizumab arm",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "AFP stable at 180 (from baseline 200)",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows stable 5.2cm segment 7 lesion by RECIST 1.1 criteria",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Child-Pugh A5 liver function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage HCC on experimental arm of EMERALD-2 trial. Stable disease on 8 week assessment with good tolerability"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue only"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing trial medication as per protocol"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT assessment at 16 weeks as per protocol"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Next trial visit in 2 weeks for cycle 4"
+      }
+    ]
+  }
+}

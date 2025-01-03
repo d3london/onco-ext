@@ -1,0 +1,91 @@
+{
+  "content": "Diagnosis:\tLeft breast cancer with solitary brain metastasis\n\nManagement:\t2023 Left mastectomy and axillary clearance\n\t\tAdjuvant FEC-T/Trastuzumab completed March 2024\n\t\tGamma knife to right parietal metastasis April 2024\n\nHistology:\tGrade 3 invasive ductal carcinoma with LCIS, pT2pN1(3/12)M0\n\t\tER 8/8, PR 6/8, HER2 3+\n\nCurrent Situation:\tProgressive neurological symptoms despite gamma knife\n\nI reviewed [redacted name] today in the acute assessment clinic. Unfortunately she has experienced worsening headaches and right-sided weakness over the past week despite completing gamma knife radiotherapy to the right parietal metastasis on 15/4/24. Her performance status has declined to ECOG 2, requiring assistance with daily activities. Examination shows new right-sided facial droop and 4/5 power in the right arm.\n\nUrgent MRI brain yesterday shows increased perilesional edema around the treated metastasis, measuring 3.2 x 2.8cm with significant mass effect. CT chest/abdomen/pelvis shows no other sites of disease.\n\nI have discussed the case with [redacted name] from neurosurgery who recommends urgent dexamethasone. We will discontinue trastuzumab maintenance and commence on capecitabine/lapatinib combination. I have prescribed dexamethasone 8mg BD with PPI cover and arranged urgent neurosurgery review next week. She will return to clinic in 2 weeks for assessment of response to steroids and initiation of capecitabine/lapatinib if appropriate.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2023,
+      "metastases": "solitary right parietal brain metastasis",
+      "tnm_stage": "pT2pN1M0",
+      "histopathology_status": "Grade 3 invasive ductal carcinoma with LCIS, 3/12 nodes positive",
+      "biomarker_status": "ER 8/8, PR 6/8, HER2 3+",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Left mastectomy and axillary clearance",
+          "year": 2023
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant FEC-T with Trastuzumab",
+          "year": 2023
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed FEC-T/Trastuzumab",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Gamma knife to right parietal metastasis",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows increased perilesional edema around treated brain metastasis, 3.2 x 2.8cm with mass effect",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest/abdomen/pelvis shows no other sites of disease",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing trastuzumab maintenance due to brain progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2, requiring assistance with daily activities"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening headaches and right-sided weakness"
+      },
+      {
+        "type": "examination_finding",
+        "value": "New right-sided facial droop and 4/5 power in right arm"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "HER2+ breast cancer with progressive solitary brain metastasis despite gamma knife radiotherapy, requiring urgent steroid treatment and change in systemic therapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Clinical and radiological progression of brain metastasis despite gamma knife radiotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing trastuzumab, commencing dexamethasone 8mg BD and planning capecitabine/lapatinib"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Declining performance status with new neurological deficits"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent neurosurgery review next week and oncology review in 2 weeks"
+      }
+    ]
+  }
+}

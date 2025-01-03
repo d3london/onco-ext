@@ -1,0 +1,104 @@
+{
+  "content": "Many thanks for referring [redacted name] who I reviewed today with his wife and daughter present. He has unfortunately experienced significant clinical deterioration over the past three weeks.\n\nAs you know, [redacted name] was diagnosed with locally advanced pancreatic adenocarcinoma in January 2024 following investigation of obstructive jaundice. Initial staging demonstrated a 6.8cm pancreatic mass with extensive local invasion, multiple liver metastases, and peritoneal deposits. Molecular profiling identified a PIK3CA mutation. He commenced modified FOLFIRINOX chemotherapy in February 2024 but experienced significant toxicity requiring two hospital admissions for neutropenic sepsis. Treatment was subsequently changed to gemcitabine/nab-paclitaxel with prophylactic GCSF support in March 2024.\n\nUnfortunately, recent CT imaging on 15 April 2024 shows clear disease progression with increasing size of both the primary pancreatic mass (now measuring 8.2cm) and liver metastases. New peritoneal deposits are also evident with small volume ascites. His CA19-9 has risen from 1200 to 4500 over the past month.\n\nClinically, he has deteriorated significantly with increasing abdominal pain requiring escalation of his opiate analgesia. He now requires 120mg BD of modified release morphine with frequent breakthrough doses. His performance status has declined from ECOG 1 to ECOG 3, and he is now spending approximately 70% of the day in bed. He describes early satiety, progressive anorexia, and has lost 6kg in the past month despite nutritional supplements.\n\nOn examination today, he appears cachectic with peripheral edema to mid-calf. His abdomen is distended with shifting dullness suggesting ascites, and there is tenderness in the epigastrium and right upper quadrant. Chest examination reveals reduced air entry at both bases.\n\nI have had a detailed discussion with [redacted name] and his family about his disease progression and poor prognosis. Given his deteriorating performance status and clear evidence of chemoresistant disease, I have recommended discontinuing systemic anti-cancer therapy and focusing on symptom control. I have made an urgent referral to the palliative care team and arranged for community support to be increased. His current priority is symptom management and maximizing time at home with family.\n\nI have prescribed additional breakthrough analgesia and started dexamethasone 4mg BD to help with appetite and energy levels. I have also arranged for urgent paracentesis given his symptomatic ascites. The acute oncology team will coordinate his care over the coming days, and I have provided the family with 24-hour contact numbers.\n",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple liver metastases, peritoneal deposits",
+      "tnm_stage": "T4N2M1",
+      "histopathology_status": "undifferentiated adenocarcinoma",
+      "biomarker_status": "PIK3CA mutation",
+      "cancer_timeline": [
+        {
+          "type": "other_progress_or_event",
+          "value": "Diagnosed following investigation of obstructive jaundice",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Initial staging showed 6.8cm pancreatic mass with extensive local invasion, multiple liver metastases, and peritoneal deposits",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started modified FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Changed to gemcitabine/nab-paclitaxel with GCSF support due to neutropenic sepsis",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with primary mass increased to 8.2cm, increasing liver metastases, new peritoneal deposits and small volume ascites",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 risen from 1200 to 4500 over past month",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from ECOG 1 to ECOG 3, spending 70% of day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing abdominal pain requiring 120mg BD modified release morphine with breakthrough doses"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety and progressive anorexia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "6kg weight loss in past month despite nutritional supplements"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with peripheral edema to mid-calf, distended abdomen with shifting dullness and tenderness in epigastrium and right upper quadrant"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry at both lung bases"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Advanced pancreatic cancer with progressive disease despite two lines of chemotherapy. Significant clinical deterioration with declining performance status requiring transition to palliative care"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Previous neutropenic sepsis requiring hospitalization with FOLFIRINOX"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic anti-cancer therapy due to disease progression and poor performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status from ECOG 1 to ECOG 3 with increasing care needs"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent paracentesis arranged for symptomatic ascites"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to palliative care team with increased community support"
+      }
+    ]
+  }
+}

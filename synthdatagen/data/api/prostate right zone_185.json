@@ -1,0 +1,81 @@
+{
+  "content": "Diagnosis:\tSmall cell carcinoma of prostate with liver and lung metastases\n\nI reviewed [redacted name] today following his recent admission with worsening breathlessness. CT chest performed during admission shows progression of pulmonary metastases with new bilateral pleural effusions. His performance status has deteriorated to ECOG 3, spending most of the day in bed or chair. He reports increasing fatigue, poor appetite, and new onset right upper quadrant discomfort.\n\nHe completed 4 cycles of carboplatin/etoposide which was discontinued last month due to progressive disease and declining performance status. His PSA remains low at 1.2 but chromogranin A has increased from 450 to 890. Liver function tests show new derangement with ALT 156 and ALP 345.\n\nI have had a detailed discussion with [redacted name] and his wife about his deteriorating condition. Given his poor performance status and rapid disease progression, I have explained that further chemotherapy would carry significant risks with limited potential benefit. We have agreed to focus on symptom management.\n\nI have referred him to the palliative care team for review next week and arranged community support. His current priority symptoms are breathlessness and fatigue. I have prescribed dexamethasone 4mg daily and arranged pleural aspiration for next week. We will review him again in 2 weeks with repeat blood tests, sooner if needed. The acute oncology team are aware and will provide telephone support over the weekend if required.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, right zone",
+      "metastases": "liver and lung metastases, bilateral pleural effusions",
+      "histopathology_status": "small cell carcinoma",
+      "biomarker_status": "PSA 1.2, chromogranin A elevated to 890",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued carboplatin/etoposide after 4 cycles due to progressive disease and declining performance status",
+          "month": null,
+          "year": null
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA 1.2, chromogranin A increased from 450 to 890",
+          "month": null,
+          "year": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT chest shows progression of pulmonary metastases with new bilateral pleural effusions",
+          "month": null,
+          "year": null
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Liver function derangement with ALT 156 and ALP 345",
+          "month": null,
+          "year": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3, spending most of the day in bed or chair"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening breathlessness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Poor appetite"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant discomfort"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Small cell prostate cancer with liver and lung metastases showing rapid progression. Disease progressing through first-line chemotherapy with significant clinical deterioration"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Starting dexamethasone 4mg daily for symptom control"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Pleural aspiration arranged for next week"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team review next week"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Oncology review in 2 weeks with blood tests"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "content": "Diagnosis:\t\tNested variant urothelial carcinoma of bladder\n\nManagement:\t\tNeoadjuvant chemotherapy completed March 2024\n\t\t\tRadical cystectomy with ileal conduit 15 April 2024\n\nHistology:\t\tComplete pathological response (ypT0N0)\n\t\t\tFGFR2/3 fusion positive on initial TUR specimen\n\nCurrent Situation:\tPost-operative review\n\n[redacted name] attended clinic today following completion of treatment pathway for bladder cancer. She has made an excellent recovery from surgery with no immediate post-operative complications. Her renal function remains stable with creatinine 98. She is managing her stoma independently and has returned to most normal activities. Her wound has healed well with no evidence of infection. Performance status is 0.\n\nThe final histology shows complete pathological response to neoadjuvant chemotherapy, with no residual cancer identified in the cystectomy specimen. This represents an excellent outcome. We have discussed the surveillance plan, which will involve 3-monthly clinical reviews for the first year with CT chest/abdomen/pelvis every 6 months. First surveillance scan arranged for October 2024. She will continue under regular stoma nurse review.",
+  "output": {
+    "primary_cancer": {
+      "site": "bladder",
+      "year": 2024,
+      "histopathology_status": "nested variant urothelial carcinoma",
+      "tnm_stage": "ypT0N0",
+      "biomarker_status": "FGFR2/3 fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Completed neoadjuvant chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Radical cystectomy with ileal conduit formation",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Complete pathological response (ypT0N0) in cystectomy specimen",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Creatinine 98"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical wound with no infection"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Bladder cancer treated with neoadjuvant chemotherapy and radical cystectomy. Complete pathological response achieved with excellent post-operative recovery"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Complete pathological response to neoadjuvant chemotherapy confirmed on cystectomy specimen"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Managing stoma independently and returned to most normal activities"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis arranged for October 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "3-monthly clinical reviews for first year with ongoing stoma nurse support"
+      }
+    ]
+  }
+}

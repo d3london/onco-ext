@@ -1,0 +1,72 @@
+{
+  "content": "Diagnosis:\nPleomorphic xanthoastrocytoma, right temporal lobe\nBRAF V600E mutation positive, ATRX retained\nPartial resection March 2023\n\nPrevious treatment:\nDebulking surgery 15 March 2023\nAdjuvant BRAF-targeted therapy with Dabrafenib commenced April 2023\n\nCurrent medications:\nDabrafenib 150mg BD\nLevetiracetam 1g BD\n\nCurrent situation:\nRoutine surveillance MRI brain 15 April 2024 - stable appearances of residual disease\n\nI reviewed [redacted name] today for routine follow-up. She continues on Dabrafenib with good tolerance and no significant side effects. Her seizures remain well-controlled on current anti-epileptic medication. Performance status remains 0. No new neurological symptoms. Recent surveillance MRI shows stable appearances of residual disease with no evidence of progression.\n\nExamination shows no new neurological deficits. Visual fields full to confrontation. Normal gait.\n\nPlan is to continue current treatment and arrange next surveillance MRI in 3 months. Will review in clinic with results.",
+  "output": {
+    "primary_cancer": {
+      "site": "brain, right temporal lobe",
+      "year": 2023,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": null,
+      "other_stage": null,
+      "histopathology_status": "pleomorphic xanthoastrocytoma",
+      "biomarker_status": "BRAF V600E mutation positive, ATRX retained",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Partial debulking surgery",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Dabrafenib 150mg BD",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows stable appearances of residual disease",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No neurological deficits, full visual fields, normal gait"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Seizures well-controlled on anti-epileptic medication"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Right temporal lobe pleomorphic xanthoastrocytoma with residual disease post-surgery, stable on BRAF-targeted therapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease on MRI surveillance"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Dabrafenib 150mg BD with good tolerance"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance MRI brain in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with MRI results"
+      }
+    ]
+  }
+}

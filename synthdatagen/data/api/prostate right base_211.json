@@ -1,0 +1,100 @@
+{
+  "content": "I reviewed [redacted name] today in the urgent assessment clinic following his recent admission with worsening breathlessness and right-sided chest pain. As you know, he was diagnosed with small cell carcinoma of the prostate in January 2024 following investigation of lower urinary tract symptoms. Initial staging demonstrated a 6.2cm right prostatic mass with extensive local invasion, multiple liver metastases, and bilateral pulmonary nodules. His PSA was only marginally elevated at 0.9, but neuroendocrine markers were significantly raised with Chromogranin A at 452 units/L.\n\nHe commenced first-line platinum-etoposide chemotherapy on 15th February 2024 and completed 4 cycles, achieving initial partial response on CT imaging performed on 15th April 2024. However, he was admitted last week with increasing dyspnoea, right-sided pleuritic chest pain, and marked fatigue. CT pulmonary angiogram showed no evidence of pulmonary embolism but demonstrated clear progression of pulmonary metastases with new pleural effusion. There was also evidence of progressive hepatic disease with increase in size and number of liver metastases.\n\nOn examination today, his performance status has deteriorated to ECOG 3. He is notably short of breath at rest requiring 3L/min oxygen. There is dullness to percussion and reduced air entry at the right lung base consistent with the known pleural effusion. He has lost 4kg since his last clinic visit 2 weeks ago.\n\nGiven the clear evidence of disease progression on platinum-etoposide and his deteriorating clinical condition, we have discussed changing treatment strategy. I have explained the role of second-line chemotherapy with CAV (cyclophosphamide, doxorubicin, and vincristine), including the lower response rates in this setting and increased risk of toxicity given his current performance status. [redacted name] understands these challenges but wishes to pursue further treatment.\n\nI have therefore prescribed cycle 1 CAV chemotherapy at 25% dose reduction given his current status. He will require admission for this treatment which I have arranged for tomorrow. I have also referred him to the pleural team for consideration of therapeutic aspiration of his right pleural effusion. We will review his response and tolerability after cycle 1 before making decisions about subsequent cycles. The acute oncology team are aware of his situation and will provide additional support.\n?\n?\nI have arranged weekly review during this treatment phase and provided him with 24-hour emergency contact numbers. His daughter was present during today's consultation and fully understands the situation.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, right base",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple liver metastases, bilateral pulmonary nodules, right pleural effusion",
+      "other_stage": "Stage IV",
+      "histopathology_status": "small cell carcinoma",
+      "biomarker_status": "PSA 0.9, elevated Chromogranin A 452 units/L",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "6.2cm right prostatic mass with extensive local invasion, multiple liver metastases, and bilateral pulmonary nodules",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA 0.9, elevated neuroendocrine markers with Chromogranin A 452 units/L",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started first-line platinum-etoposide chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing partial response to treatment",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT pulmonary angiogram showing progression of pulmonary metastases with new pleural effusion and progressive hepatic disease",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued platinum-etoposide due to disease progression",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Short of breath at rest requiring 3L/min oxygen"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right-sided pleuritic chest pain"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Dullness to percussion and reduced air entry at right lung base"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "4kg weight loss in past 2 weeks"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IV small cell prostate cancer with progressive disease after first-line chemotherapy. Significant clinical deterioration with new pleural effusion and worsening respiratory symptoms."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on platinum-etoposide with new and enlarging metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Changing to second-line CAV chemotherapy with 25% dose reduction"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with increasing oxygen requirements"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Referral to pleural team for consideration of therapeutic aspiration"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review during treatment with acute oncology team support"
+      }
+    ]
+  }
+}

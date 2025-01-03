@@ -1,0 +1,79 @@
+{
+  "content": "Many thanks for referring [redacted name] for discussion at our Uro-oncology MDT. He is a 67-year-old gentleman diagnosed with ductal adenocarcinoma of the prostate in January 2024 following investigation of an elevated PSA of 45.6. Initial MRI demonstrated a T3b lesion involving the prostate base with extracapsular extension and seminal vesicle invasion. Staging CT showed suspicious regional nodal disease but no distant metastases. Molecular profiling has revealed CDK12 loss.\n\nHe initially commenced androgen deprivation therapy with Leuprorelin 3-monthly depot injections in February 2024, with PSA falling to 12.3 by March 2024. He has experienced moderate hot flushes but otherwise tolerating treatment well. His most recent PSA from 15 April 2024 is 8.9, showing continued biochemical response.\n\nThe case was discussed in detail at today's MDT with input from urology, clinical oncology, medical oncology, and radiology teams. The consensus recommendation, given his high-risk disease with adverse molecular features, is for intensification of treatment with addition of docetaxel chemotherapy. The proposed regimen is 6 cycles of docetaxel 75mg/m2 every 3 weeks alongside continuing androgen deprivation therapy, followed by radical radiotherapy to the prostate and pelvic nodes.\n\nI have discussed these recommendations with [redacted name] following the MDT. He understands the rationale for additional treatment and wishes to proceed. We have arranged for him to see Dr [redacted name] in medical oncology next week for detailed chemotherapy discussion and planning. He will then be reviewed in the combined clinic once chemotherapy is completed to arrange subsequent radiotherapy.\n\nHis case will be re-discussed at MDT following completion of systemic therapy to confirm radiotherapy planning. In the meantime, he will continue with 3-monthly Leuprorelin, with the next injection due on 15 May 2024.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate base",
+      "year": 2024,
+      "month": 1,
+      "metastases": "suspicious regional nodal disease",
+      "tnm_stage": "T3b",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "ductal adenocarcinoma",
+      "biomarker_status": "CDK12 loss, Initial PSA 45.6",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Initial PSA 45.6",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI demonstrated T3b lesion involving prostate base with extracapsular extension and seminal vesicle invasion",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started Leuprorelin 3-monthly depot injections",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA fallen to 12.3",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA 8.9, showing continued biochemical response",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "moderate hot flushes"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "High-risk prostate cancer with adverse molecular features showing biochemical response to initial hormone therapy. MDT recommendation for treatment intensification."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Continued PSA response with level now 8.9"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Moderate hot flushes from Leuprorelin"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "To commence docetaxel chemotherapy 75mg/m2 every 3 weeks for 6 cycles while continuing Leuprorelin"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Case to be re-discussed at MDT after completion of systemic therapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Medical oncology review next week for chemotherapy planning, then combined clinic review after chemotherapy completion"
+      }
+    ]
+  }
+}

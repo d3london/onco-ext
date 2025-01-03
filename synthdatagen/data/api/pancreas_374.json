@@ -1,0 +1,80 @@
+{
+  "content": "Diagnosis:\tPancreatic adenocarcinoma, Stage IIA (T3N0M0)\n\nManagement:\t15 Jan 2024 Whipple's procedure\n\t\t28 Feb - 12 Apr 2024 Adjuvant FOLFIRINOX chemotherapy\n\nHistology:\tModerately differentiated pancreatic ductal adenocarcinoma, ERBB2 mutation positive\n\nCurrent Situation:\tPost-treatment surveillance\n\nI reviewed [redacted name] in clinic today following completion of adjuvant chemotherapy. She has recovered well from her treatment with resolution of previous grade 1 peripheral neuropathy. Her weight has stabilized at 68kg and appetite has improved. She reports good energy levels and has returned to work part-time.\n\nCurrent blood tests show stable CA19-9 at 15 (within normal range). Recent CT scan on 15/5/24 shows post-surgical changes with no evidence of disease recurrence. Liver function tests remain normal.\n\nThe plan is to continue regular surveillance. I have arranged follow up CT scan in 3 months and clinic review thereafter. She understands to contact us sooner if any new concerns develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas",
+      "year": 2024,
+      "month": 1,
+      "metastases": null,
+      "tnm_stage": "T3N0M0",
+      "other_stage": "Stage IIA",
+      "histopathology_status": "moderately differentiated pancreatic ductal adenocarcinoma",
+      "biomarker_status": "ERBB2 mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Whipple's procedure",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed adjuvant FOLFIRINOX chemotherapy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA19-9 stable at 15 (within normal range)",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows post-surgical changes with no evidence of disease recurrence",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "quality_of_life_finding",
+        "value": "returned to work part-time"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "liver function tests remain normal"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIA pancreatic cancer post Whipple's and adjuvant chemotherapy. No evidence of recurrence on latest imaging with normal tumor markers"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "resolution of previous grade 1 peripheral neuropathy"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "weight stabilized at 68kg with improved appetite and energy levels"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "follow up CT scan in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "clinic review after CT scan"
+      }
+    ]
+  }
+}

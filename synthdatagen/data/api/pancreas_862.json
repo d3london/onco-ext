@@ -1,0 +1,82 @@
+{
+  "content": "Diagnosis:\tMixed neuroendocrine-acinar carcinoma of pancreas, Grade 3 (Ki67 45%), T3N1M1\n\nI am writing following today's Upper GI MDT discussion regarding [redacted name], who has unfortunately shown disease progression on current therapy. The original diagnosis was made following EUS-guided biopsy on 15 March 2024, showing mixed neuroendocrine-acinar carcinoma with Ki67 45% and weak synaptophysin positivity. Initial staging showed a 6.8cm pancreatic tail mass with multiple liver metastases, peritoneal deposits, and retroperitoneal lymphadenopathy.\n\nHe commenced first-line platinum-etoposide chemotherapy on 28 March 2024, completing 4 cycles. The most recent CT performed on 2 May 2024 shows disease progression with 30% increase in liver metastases and new peritoneal deposits. His clinical condition has deteriorated with increasing abdominal pain requiring escalation of opioid analgesia, and early satiety due to the growing peritoneal disease. His performance status has declined from ECOG 1 to ECOG 2.\n\nThe case was discussed in detail at today's MDT. Given the aggressive biology with Ki67 45% and rapid progression through first-line platinum-based therapy, the consensus recommendation is for second-line FOLFIRI chemotherapy. The alternative of temozolomide-capecitabine was considered but felt less appropriate given the weak neuroendocrine differentiation and high proliferation index.\n\nThe plan is to commence FOLFIRI next week, with dose reduction to 80% given his current performance status. We will arrange CT reassessment after 3 cycles. He will need central line insertion prior to starting treatment. I have also referred to the palliative care team for optimisation of his symptom control.\n\nWe will see him in clinic next week to initiate treatment and provide full information about the chemotherapy regimen. His case will be re-discussed at the MDT if there are any significant changes in his condition or treatment response.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas, tail",
+      "year": 2024,
+      "month": 3,
+      "metastases": "multiple liver metastases, peritoneal deposits, retroperitoneal lymphadenopathy",
+      "tnm_stage": "T3N1M1",
+      "other_stage": null,
+      "histopathology_status": "Mixed neuroendocrine-acinar carcinoma, Grade 3",
+      "biomarker_status": "Ki67 45%, weak synaptophysin positive",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "EUS-guided biopsy confirms mixed neuroendocrine-acinar carcinoma",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "6.8cm pancreatic tail mass with multiple liver metastases, peritoneal deposits, and retroperitoneal lymphadenopathy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started first-line platinum-etoposide chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows disease progression with 30% increase in liver metastases and new peritoneal deposits",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from ECOG 1 to ECOG 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing abdominal pain requiring escalation of opioid analgesia"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety due to growing peritoneal disease"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Mixed neuroendocrine-acinar pancreatic cancer showing rapid progression through first-line therapy with clinical deterioration. MDT recommends second-line FOLFIRI chemotherapy."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on platinum-etoposide with 30% increase in liver metastases and new peritoneal deposits"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence FOLFIRI chemotherapy at 80% dose due to performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Performance status deteriorated from ECOG 1 to ECOG 2"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT reassessment after 3 cycles of FOLFIRI"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinic review next week to initiate treatment, referred to palliative care team for symptom control"
+      }
+    ]
+  }
+}

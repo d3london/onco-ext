@@ -1,0 +1,88 @@
+{
+  "content": "Diagnosis:\tGastric mixed adenoneuroendocrine carcinoma (MANEC) with widespread metastatic disease\n\tEndoscopic biopsy 15 March 2024 - poorly differentiated mixed adenoneuroendocrine carcinoma\n\tStaging CT 20 March 2024 - extensive liver metastases, bilateral pulmonary nodules, and bone metastases\n\tPET-CT 25 March 2024 - FDG-avid primary gastric lesion with widespread metastatic disease?\n?\n[redacted name] is a 67-year-old gentleman who has unfortunately been diagnosed with metastatic gastric mixed adenoneuroendocrine carcinoma. His symptoms began approximately three months ago with progressive epigastric discomfort, early satiety, and significant weight loss of 12kg. He has developed increasing fatigue and breathlessness over the past month, now limiting his mobility to around 100 meters on the flat. His performance status has declined from fully independent to ECOG PS 2. He describes intermittent central chest pain and right upper quadrant discomfort requiring regular breakthrough analgesia.?\n?\nIn his past medical history, he has well-controlled type 2 diabetes, hypertension, and previous deep vein thrombosis in 2020. He takes metformin, ramipril, and has recently commenced dalteparin for thromboprophylaxis given his cancer diagnosis and reduced mobility.?\n?\nHe lives with his wife who provides excellent support. He is an ex-smoker having quit 15 years ago with a 30 pack-year history. He previously worked as an accountant but is now retired. His daughter, who attended today's consultation, lives nearby and is very supportive.?\n?\nEndoscopy performed on 15/3/24 revealed a large ulcerated mass in the gastric fundus. Biopsies confirmed a poorly differentiated mixed adenoneuroendocrine carcinoma with positive staining for Chromogranin A and Synaptophysin. Staging CT demonstrated extensive bilobar liver metastases, the largest measuring 8.2cm in segment 7, multiple bilateral pulmonary nodules up to 2cm, and widespread bone metastases including the thoracic spine and left acetabulum. PET-CT confirmed widespread FDG-avid disease.?\n?\nOn examination today, he appears cachectic with temporal wasting. There is epigastric tenderness and a palpable liver edge 4cm below the costal margin. Chest examination reveals reduced air entry at both bases. There is tenderness over the thoracic spine but no focal neurological deficit.?\n?\nI have discussed his case in detail with [redacted name] and reviewed the imaging in our Upper GI MDT. Given the mixed histology and widespread disease, we recommend combination chemotherapy with carboplatin and etoposide. I have explained the aims of treatment are to control disease progression and improve symptoms, though unfortunately cure is not possible in this setting. We have discussed common side effects including risk of neutropenic sepsis, fatigue, and gastrointestinal upset.?\n?\nWe have arranged baseline cardiac assessment, insertion of a PICC line, and will commence treatment next week. I have prescribed additional breakthrough analgesia and anti-emetics. He will be reviewed weekly during the first cycle of treatment with regular blood tests including chromogranin A monitoring. We have also referred him to our palliative care team for additional support with symptom management.?",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric, fundus",
+      "year": 2024,
+      "month": 3,
+      "metastases": "extensive bilobar liver metastases, bilateral pulmonary nodules, widespread bone metastases including thoracic spine and left acetabulum",
+      "other_stage": "Stage IV",
+      "histopathology_status": "poorly differentiated mixed adenoneuroendocrine carcinoma (MANEC)",
+      "biomarker_status": "Chromogranin A positive, Synaptophysin positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Endoscopy reveals large ulcerated mass in gastric fundus",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Biopsy confirms poorly differentiated mixed adenoneuroendocrine carcinoma, Chromogranin A and Synaptophysin positive",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows extensive bilobar liver metastases up to 8.2cm, bilateral pulmonary nodules, widespread bone metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "PET-CT confirms widespread FDG-avid disease",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2, mobility limited to 100 meters on the flat"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Progressive epigastric discomfort, early satiety, significant weight loss of 12kg"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing fatigue and breathlessness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Intermittent central chest pain and right upper quadrant discomfort"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes, hypertension, previous DVT in 2020"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic with temporal wasting, epigastric tenderness, palpable liver edge 4cm below costal margin"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry at both lung bases, thoracic spine tenderness, no focal neurological deficit"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed metastatic gastric mixed adenoneuroendocrine carcinoma with widespread metastases. Significant symptom burden with declining performance status requiring urgent palliative chemotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan to commence carboplatin and etoposide chemotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Arranged baseline cardiac assessment and PICC line insertion"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Weekly review during first cycle of treatment with blood tests including chromogranin A monitoring, referred to palliative care team"
+      }
+    ]
+  }
+}

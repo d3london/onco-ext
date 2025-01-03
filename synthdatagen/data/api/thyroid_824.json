@@ -1,0 +1,86 @@
+{
+  "content": "Diagnosis:\tHurthle cell carcinoma of thyroid, T2N1M0\n\nI reviewed [redacted name] today following completion of his post-operative radioiodine ablation therapy. He underwent total thyroidectomy with central compartment neck dissection on March 15th 2024, which revealed a 3.8cm Hurthle cell carcinoma with microscopic extrathyroidal extension and 3 positive lymph nodes out of 12 sampled. Molecular testing showed PAX8/PPARγ fusion negative status.\n\nHe completed radioiodine ablation with 100mCi I-131 on April 20th 2024, which was well tolerated apart from mild sialadenitis that resolved with conservative management. The post-therapy whole body scan showed uptake limited to the thyroid bed and right level VI nodal region, with no evidence of distant metastatic disease.\n\nHis thyroglobulin has dropped significantly from 42 μg/L pre-ablation to 1.8 μg/L on recent testing, with thyroglobulin antibodies remaining negative. TSH is appropriately suppressed at 0.08 mU/L on Levothyroxine 175mcg daily.\n\nOn examination today, his surgical wounds have healed well with no evidence of recurrence in the neck. His voice has returned to normal following initial post-operative hoarseness, and he reports good energy levels. He has maintained his weight and has returned to his work as an accountant.\n\nThe plan is to continue TSH suppression with current Levothyroxine dose. We will arrange a diagnostic whole body scan and thyroglobulin measurement in 6 months' time. I have also requested a neck ultrasound for baseline post-treatment imaging. He will be reviewed in clinic with these results.\n\nIn the meantime, he understands to contact us if he develops any new symptoms, particularly neck swelling or breathing difficulties. He has been provided with written information about long-term thyroid cancer surveillance.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid",
+      "year": 2024,
+      "month": 3,
+      "metastases": "3 positive lymph nodes in central compartment",
+      "tnm_stage": "T2N1M0",
+      "histopathology_status": "Hurthle cell carcinoma with microscopic extrathyroidal extension",
+      "biomarker_status": "PAX8/PPARγ fusion negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy with central compartment neck dissection, revealing 3.8cm tumor and 3/12 positive nodes",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Pre-ablation thyroglobulin 42 μg/L",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Radioiodine ablation with 100mCi I-131, complicated by mild sialadenitis",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Post-therapy whole body scan shows uptake limited to thyroid bed and right level VI nodal region, no distant metastases",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Thyroglobulin dropped to 1.8 μg/L, thyroglobulin antibodies negative, TSH 0.08 mU/L",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Surgical wounds well healed, no evidence of neck recurrence"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Voice returned to normal following post-operative hoarseness"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Good energy levels, maintained weight, returned to work as accountant"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Hurthle cell thyroid cancer post surgery and radioiodine ablation showing good biochemical response with falling thyroglobulin"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Significant reduction in thyroglobulin from 42 to 1.8 μg/L post ablation"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Mild sialadenitis during radioiodine ablation, resolved with conservative management"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing Levothyroxine 175mcg daily for TSH suppression"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Diagnostic whole body scan, thyroglobulin measurement, and neck ultrasound in 6 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with investigation results"
+      }
+    ]
+  }
+}

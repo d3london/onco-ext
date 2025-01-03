@@ -1,0 +1,62 @@
+{
+  "content": "Diagnosis:\tT2N0M0 squamous cell carcinoma of right oral tongue\n\nManagement:\t15 Mar 2024 Wide local excision and selective neck dissection\n\t\t12/4/24 Started adjuvant radiotherapy\n\nHistology:\tModerately differentiated squamous cell carcinoma, 2.8cm diameter, depth of invasion 8mm, clear margins (>5mm), no lymphovascular invasion. 0/21 nodes positive.\n\nCurrent Situation:\tWeek 4 of adjuvant radiotherapy\n\nI reviewed [redacted name] today during week 4 of adjuvant radiotherapy. Treatment has been well tolerated with grade 2 mucositis managed with regular analgesics and mouth care. Weight has remained stable at 72kg with dietetic support. No issues with mask fitting or positioning. Examination shows expected radiation-induced changes in oral cavity but no concerning features. Blood tests remain satisfactory.\n\nThe plan is to complete the remaining radiotherapy as scheduled. We will review again in clinic next week. I have prescribed additional oral morphine solution for breakthrough pain management.",
+  "output": {
+    "primary_cancer": {
+      "site": "oral tongue, right",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "T2N0M0",
+      "other_stage": "Stage II",
+      "histopathology_status": "Moderately differentiated squamous cell carcinoma, 2.8cm diameter, depth of invasion 8mm, clear margins (>5mm), no lymphovascular invasion, 0/21 nodes negative",
+      "biomarker_status": "",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and selective neck dissection",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant radiotherapy",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "grade 2 mucositis managed with regular analgesics and mouth care"
+      },
+      {
+        "type": "examination_finding",
+        "value": "expected radiation-induced changes in oral cavity but no concerning features"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood tests remain satisfactory"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage II oral tongue cancer post-surgery, currently in week 4 of adjuvant radiotherapy with good tolerance"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 mucositis requiring regular analgesics"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Additional oral morphine solution prescribed for breakthrough pain management"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic next week"
+      }
+    ]
+  }
+}

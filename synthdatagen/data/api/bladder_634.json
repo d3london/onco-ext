@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\nMuscle invasive bladder cancer - nested variant urothelial carcinoma, T3aN1M0\n\nPrevious Treatment:\nCystoscopy and TURBT 15 March 2024 - incomplete resection due to extensive disease\nNeoadjuvant gemcitabine/cisplatin commenced 1 April 2024, completed 2 cycles\n\nCurrent Status:\nDisease progression during neoadjuvant chemotherapy\n\nMDT Discussion Points:\n1. Progressive disease on imaging after 2 cycles neoadjuvant chemotherapy\n2. Consideration of alternative systemic therapy given ERBB3 mutation\n3. Surgical options in context of progression\n\nRecent Investigations:\nCT urogram 28 April 2024 shows increase in bladder wall thickening from 1.8cm to 2.4cm with new left pelvic sidewall lymphadenopathy. Previously noted right external iliac nodes stable at 1.2cm.\n\nBlood results show deteriorating renal function with creatinine 156 (baseline 98)\n\nMDT Outcome:\nThe case was discussed at the Uro-oncology MDT on 2 May 2024 with input from urology, medical oncology, clinical oncology, and radiology. Given the progression on first-line chemotherapy and presence of ERBB3 mutation, the consensus recommendation is for:\n\n1. Discontinuation of gemcitabine/cisplatin\n2. Referral to phase I unit for consideration of ERBB3-targeted therapy\n3. If trial therapy not available, to commence second-line pembrolizumab\n4. Defer radical cystectomy until response to systemic therapy assessed\n\nCurrent Issues:\nPatient experiencing increasing lower abdominal pain and frank hematuria requiring regular opioid analgesia. Performance status remains 1.\n\nPlan:\n1. Urgent referral to phase I unit\n2. CT chest/abdomen/pelvis in 6 weeks\n3. Weekly review of renal function\n4. Urology review for consideration of palliative TURBT if symptoms worsen\n5. Review in combined clinic with trial team in 2 weeks",
+  "output": {
+    "primary_cancer": {
+      "site": "bladder",
+      "year": 2024,
+      "month": 3,
+      "metastases": "right external iliac and left pelvic sidewall lymph nodes",
+      "tnm_stage": "T3aN1M0",
+      "histopathology_status": "nested variant urothelial carcinoma",
+      "biomarker_status": "ERBB3 mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Cystoscopy and TURBT - incomplete resection due to extensive disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started neoadjuvant gemcitabine/cisplatin",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT urogram shows increase in bladder wall thickening from 1.8cm to 2.4cm with new left pelvic sidewall lymphadenopathy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuation of gemcitabine/cisplatin due to disease progression",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing lower abdominal pain and frank hematuria requiring regular opioid analgesia"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating renal function with creatinine 156 (baseline 98)"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Muscle invasive bladder cancer progressing through first-line chemotherapy. MDT recommendation for trial of ERBB3-targeted therapy or second-line pembrolizumab."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with increasing bladder wall thickening and new lymphadenopathy on CT"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing gemcitabine/cisplatin, plan for either ERBB3-targeted trial therapy or pembrolizumab"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 6 weeks, weekly review of renal function"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in combined clinic with trial team in 2 weeks, urgent referral to phase I unit"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "content": "Diagnosis:\tMetastatic Grade 3 pancreatic neuroendocrine carcinoma with widespread liver and bone metastases\n\tDiagnosed March 2024 following investigation of weight loss and abdominal pain\n\tKi67 80%, SSTR2 negative on immunohistochemistry\n\tStage IV disease (T4N1M1)\n?\n[redacted name] is a 62-year-old gentleman who presents with recently diagnosed metastatic pancreatic neuroendocrine carcinoma. His symptoms began approximately 4 months ago with progressive epigastric pain radiating to the back, associated with significant weight loss of 12kg and early satiety. He has also developed increasing lethargy and right upper quadrant discomfort over the past 6 weeks.?\n?\nInitial CT imaging on 15/3/24 demonstrated a 6.8cm mass in the body of pancreas with extensive bilobar liver metastases, the largest measuring 8.2cm in the right lobe. There was also evidence of retroperitoneal lymphadenopathy and multiple bone metastases throughout the axial skeleton. Liver biopsy on 20/3/24 confirmed Grade 3 neuroendocrine carcinoma with Ki67 80% and negative SSTR2 expression.?\n?\nIn his past medical history, he has type 2 diabetes managed with metformin and gliclazide, hypertension, and previous DVT in 2020 following a long-haul flight. His current medications include metformin 1g BD, gliclazide 80mg BD, ramipril 5mg OD, and apixaban 5mg BD. He has no known drug allergies.?\n?\nHe lives with his wife who provides excellent support. He was previously working as an accountant but has been off work for the past 2 months due to symptoms. He is an ex-smoker having quit 15 years ago with a 20 pack-year history. He drinks minimal alcohol.?\n?\nOn examination today, his performance status is 2. He appears cachectic with obvious weight loss. There is tenderness in the epigastrium and right upper quadrant with a palpable liver edge 4cm below the costal margin. No peripheral edema or jaundice is noted.?\n?\nGiven the high proliferation index and SSTR2 negative status, I have discussed with [redacted name] that the recommended treatment would be platinum-based chemotherapy. We have discussed using a combination of carboplatin and etoposide, administered every 21 days. I have explained the common and serious side effects including risk of neutropenic sepsis, fatigue, and hair loss. Given his performance status and organ function, I believe he would tolerate this regimen, though we will need to monitor his diabetes carefully during treatment.?\n?\nI have arranged urgent baseline investigations including cardiac echo, lung function tests, and CT chest to complete staging. We will also check chromogranin A and urinary 5-HIAA levels. His case will be discussed at next week's Neuroendocrine MDT. I have provided written information about chemotherapy and arranged review with our specialist nurse. We will see him again in one week with all results to commence treatment.?\n?\nIn the interim, I have prescribed dexamethasone 4mg BD and lansoprazole for symptom control, and arranged urgent referral to dietetics for nutritional support. He has contact details for our acute oncology service if needed before next week's appointment.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas, body",
+      "year": 2024,
+      "month": 3,
+      "metastases": "extensive bilobar liver metastases, retroperitoneal lymphadenopathy, multiple bone metastases throughout axial skeleton",
+      "tnm_stage": "T4N1M1",
+      "other_stage": "Stage IV",
+      "histopathology_status": "Grade 3 neuroendocrine carcinoma",
+      "biomarker_status": "Ki67 80%, SSTR2 negative",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 6.8cm pancreatic mass with extensive liver metastases and bone metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Liver biopsy confirms Grade 3 neuroendocrine carcinoma, Ki67 80%, SSTR2 negative",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 2"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes on metformin and gliclazide"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Previous DVT in 2020"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Progressive epigastric pain radiating to back"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Weight loss of 12kg"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Early satiety"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant discomfort"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Cachectic appearance with obvious weight loss"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tender epigastrium and right upper quadrant with palpable liver edge 4cm below costal margin"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed metastatic pancreatic neuroendocrine carcinoma with widespread metastases. Poor prognostic features with high Ki67 and negative SSTR2 status requiring urgent chemotherapy initiation."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Started on dexamethasone 4mg BD and lansoprazole for symptom control"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Arranged cardiac echo, lung function tests, CT chest, chromogranin A and urinary 5-HIAA"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in one week to commence carboplatin/etoposide chemotherapy"
+      }
+    ]
+  }
+}

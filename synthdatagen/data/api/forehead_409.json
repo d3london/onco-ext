@@ -1,0 +1,50 @@
+{
+  "content": "Diagnosis:\nBasal cell carcinoma right forehead\n\nPrevious treatment:\nExcision March 2024 with clear margins\n\nCurrent situation:\nRoutine follow-up review\n\nI reviewed [redacted name] today for routine follow-up following excision of a right forehead BCC. The surgical site has healed well with an acceptable cosmetic outcome. There is no evidence of recurrence on careful examination of the scar and surrounding skin. No suspicious lesions were identified on full skin examination. The patient reports no new concerning skin changes.\n\nPlan:\nNo active issues requiring intervention. Annual surveillance recommended with dermatology. Patient advised regarding sun protection and skin self-examination. Will review again in clinic in 12 months, or sooner if new concerns arise.",
+  "output": {
+    "primary_cancer": {
+      "site": "forehead, right",
+      "year": 2024,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "T1",
+      "other_stage": null,
+      "histopathology_status": "basal cell carcinoma",
+      "biomarker_status": null,
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Excision with clear margins",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Surgical site well healed with acceptable cosmetic outcome, no evidence of recurrence",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "No suspicious lesions on full skin examination"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical scar with no evidence of recurrence"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Right forehead BCC treated with surgical excision. No evidence of recurrence at follow-up"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Annual surveillance with dermatology, review in clinic in 12 months"
+      }
+    ]
+  }
+}

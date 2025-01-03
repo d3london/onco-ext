@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\nMicrocystic serous carcinoma of pancreatic tail, T2N1M0\n\nSurgery:\nDistal pancreatectomy and splenectomy performed 15 Jan 2024 by [redacted name]\n\nHistology:\nMicrocystic serous carcinoma, 3.8cm, clear margins (R0)\nTwo positive peripancreatic lymph nodes from 14 sampled\nVHL mutation detected\n\nTreatment completed:\n6 cycles adjuvant gemcitabine completed 20 April 2024\n\nCurrent situation:\nEnd of treatment assessment\n\nI reviewed [redacted name] today following completion of adjuvant chemotherapy. She has tolerated the treatment well with only grade 1 fatigue and mild nausea. Her post-operative recovery was uncomplicated and she has now returned to her baseline level of function. Performance status is 0. Weight has remained stable at 68kg. Examination shows well-healed surgical scars with no concerning features.\n\nPost-treatment CT scan on 25 April 2024 shows no evidence of disease recurrence. Blood tests including liver function and amylase are within normal range.\n\nThe plan is for surveillance with 3-monthly clinic review and alternating CT chest/abdomen/pelvis scans. Next clinic appointment will be in July 2024 with CT scan beforehand. I have provided written information about surveillance protocol and symptoms that should prompt earlier review.",
+  "output": {
+    "primary_cancer": {
+      "site": "pancreas tail",
+      "year": 2024,
+      "month": 1,
+      "metastases": "two positive peripancreatic lymph nodes",
+      "tnm_stage": "T2N1M0",
+      "histopathology_status": "microcystic serous carcinoma, 3.8cm, clear margins (R0)",
+      "biomarker_status": "VHL mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Distal pancreatectomy and splenectomy with R0 resection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant gemcitabine",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles adjuvant gemcitabine",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of disease recurrence",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical scars with no concerning features"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood tests including liver function and amylase within normal range"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Pancreatic tail cancer treated with surgery and adjuvant chemotherapy. End of treatment assessment shows no evidence of recurrence"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and mild nausea during chemotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Completed planned course of adjuvant chemotherapy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis before next appointment in July 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "3-monthly clinic review with alternating CT scans"
+      }
+    ]
+  }
+}

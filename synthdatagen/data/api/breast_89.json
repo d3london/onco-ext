@@ -1,0 +1,98 @@
+{
+  "content": "I reviewed [redacted name] today who has unfortunately shown evidence of progressive leptomeningeal disease despite two cycles of intrathecal trastuzumab. She was diagnosed in January 2024 with a T3N2M1 breast cancer, confirmed as low-grade adenosquamous carcinoma with AR and HER2 positivity, and PIK3CA mutation detected on molecular analysis. She initially commenced on systemic docetaxel with dual HER2 blockade (trastuzumab/pertuzumab) but developed isolated brain metastases in March 2024, treated with stereotactic radiosurgery to three lesions. Following completion of six cycles of chemotherapy, surveillance MRI in May 2024 showed new leptomeningeal enhancement. She commenced twice-weekly intrathecal trastuzumab via Ommaya reservoir but repeat imaging yesterday shows clear progression of leptomeningeal disease with new nodular deposits.\n\nShe attended today with her husband. Her mobility has significantly declined over the past two weeks, now requiring wheelchair assistance. She describes worsening headaches, new onset diplopia, and increasing confusion. Performance status has deteriorated to ECOG 3. On examination, she has new left sixth nerve palsy and bilateral papilledema. Given the clear progression on intrathecal therapy and declining clinical status, we have discussed transitioning to palliative care with focus on symptom management. I have commenced dexamethasone 8mg twice daily and arranged urgent palliative care review. We will pause intrathecal therapy but continue systemic trastuzumab/pertuzumab for extracranial disease control.\n\nI have made an urgent referral to the community palliative care team and arranged admission to the local hospice for symptom management and support. Her husband understands the situation and supports this plan. We will review her next week in the supportive care clinic.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast",
+      "year": 2024,
+      "month": 1,
+      "metastases": "brain metastases, leptomeningeal disease",
+      "tnm_stage": "T3N2M1",
+      "histopathology_status": "low-grade adenosquamous carcinoma",
+      "biomarker_status": "AR positive, HER2 positive, PIK3CA mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started docetaxel with trastuzumab/pertuzumab",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Developed isolated brain metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Stereotactic radiosurgery to three brain lesions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows new leptomeningeal enhancement",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced twice-weekly intrathecal trastuzumab via Ommaya reservoir",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows progression of leptomeningeal disease with new nodular deposits",
+          "year": 2024,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Stopping intrathecal trastuzumab due to disease progression, continuing systemic trastuzumab/pertuzumab",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening headaches, diplopia, increasing confusion"
+      },
+      {
+        "type": "examination_finding",
+        "value": "New left sixth nerve palsy and bilateral papilledema"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires wheelchair assistance due to declining mobility"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "HER2+ breast cancer with progressive leptomeningeal disease despite intrathecal therapy. Significant clinical deterioration requiring transition to palliative care."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive leptomeningeal disease despite two cycles of intrathecal trastuzumab"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Started dexamethasone 8mg twice daily, stopping intrathecal therapy, continuing systemic trastuzumab/pertuzumab"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline in mobility and neurological function over past two weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent referral to community palliative care team and local hospice, review in supportive care clinic next week"
+      }
+    ]
+  }
+}

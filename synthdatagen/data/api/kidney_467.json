@@ -1,0 +1,68 @@
+{
+  "content": "I was very pleased to see [redacted name] in follow-up clinic today. She is now 18 months post left partial nephrectomy for a T1aN0M0 clear cell renal cell carcinoma. The original surgery was performed by [redacted name] on 15th October 2022, with excellent recovery and no complications. The histology confirmed a 2.8cm clear cell renal cell carcinoma with clear margins and no adverse features.\n\nShe remains very well with no concerning symptoms. Her energy levels are excellent and she has maintained her pre-diagnosis weight. She continues with regular swimming and has recently started a walking group which she very much enjoys. She denies any flank pain, haematuria, or constitutional symptoms. Her blood pressure remains well-controlled on her usual amlodipine.\n\nHer surveillance CT scan performed last week shows no evidence of disease recurrence, with the post-surgical changes in the left kidney remaining stable. Her renal function remains normal with creatinine 82 and eGFR >60. I have explained that this is very reassuring and in keeping with her excellent clinical progress.\n\nWe have discussed the surveillance plan going forward. Given her low-risk disease status, we will arrange her next CT scan in 12 months' time. I will see her back in clinic following this. I have reinforced the importance of reporting any new symptoms in the meantime, though I have reassured her that her prognosis remains excellent. She was very pleased with this plan.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, left",
+      "year": 2022,
+      "month": 10,
+      "metastases": "",
+      "tnm_stage": "T1aN0M0",
+      "other_stage": "",
+      "histopathology_status": "clear cell renal cell carcinoma, 2.8cm with clear margins",
+      "biomarker_status": "",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Left partial nephrectomy performed by [redacted name] with excellent recovery",
+          "year": 2022,
+          "month": 10
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Surveillance CT scan shows no evidence of disease recurrence, stable post-surgical changes",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Normal renal function with creatinine 82 and eGFR >60",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "quality_of_life_finding",
+        "value": "Maintains regular swimming and recently started walking group"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension controlled on amlodipine"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No flank pain, haematuria, or constitutional symptoms"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "18 months post-nephrectomy for early stage renal cell carcinoma with no evidence of recurrence and excellent functional status"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "No evidence of disease recurrence on surveillance imaging"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Next CT scan in 12 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic following next CT scan"
+      }
+    ]
+  }
+}

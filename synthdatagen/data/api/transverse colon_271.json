@@ -1,0 +1,78 @@
+{
+  "content": "Diagnosis:\tTransverse colon adenocarcinoma, pT2N0M0\n\tLaparoscopic extended right hemicolectomy 15 March 2024\n\tHistology: Moderately differentiated adenocarcinoma, MSS, PIK3CA H1047R mutation detected\n?\n[redacted name] is a 62-year-old gentleman who has recently undergone surgery for stage II colon cancer. He was diagnosed following investigation of iron deficiency anaemia picked up on routine blood tests. Colonoscopy on 1 March 2024 identified a 4cm transverse colon mass, biopsies confirming adenocarcinoma.\n?\nHe underwent uncomplicated laparoscopic extended right hemicolectomy on 15/3/24. Final histology showed a moderately differentiated adenocarcinoma with invasion into but not through the muscularis propria. All 18 lymph nodes were negative. No lymphovascular invasion was identified. Molecular testing shows microsatellite stable disease with PIK3CA H1047R mutation.\n?\nIn his past medical history, he has well-controlled hypertension on amlodipine. He takes no other regular medications and has no drug allergies. He is an ex-smoker having quit 15 years ago and drinks minimal alcohol.\n?\nHe has recovered well from surgery with return to normal bowel function and good energy levels. His wound sites have healed well. Performance status is 0.\n?\nI have discussed his case with him today. Given the pathological staging and absence of high-risk features, adjuvant chemotherapy is not indicated. The standard of care would be clinical follow-up with regular CEA monitoring and CT surveillance according to our local protocol. I have provided written information about follow-up care and symptoms to watch for.\n?\nThe plan is to arrange baseline CT chest/abdomen/pelvis and see him again in 3 months with the results. CEA monitoring will be arranged through our nurse-led telephone clinic.",
+  "output": {
+    "primary_cancer": {
+      "site": "transverse colon",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "pT2N0M0",
+      "other_stage": "Stage II",
+      "histopathology_status": "moderately differentiated adenocarcinoma, no lymphovascular invasion, 0/18 lymph nodes",
+      "biomarker_status": "microsatellite stable, PIK3CA H1047R mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "iron deficiency anaemia detected on routine bloods",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "colonoscopy shows 4cm transverse colon mass, biopsy confirmed adenocarcinoma",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "laparoscopic extended right hemicolectomy performed, uncomplicated",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "molecular testing confirms MSS status and PIK3CA H1047R mutation",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "well-controlled hypertension on amlodipine"
+      },
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "wound sites healed well"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "good energy levels with return to normal bowel function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage II transverse colon cancer post uncomplicated surgical resection. Good recovery with no high risk features requiring adjuvant therapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "adjuvant chemotherapy not indicated due to absence of high-risk features"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "arrange baseline CT chest/abdomen/pelvis"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "clinic review in 3 months with CT results, CEA monitoring via nurse-led telephone clinic"
+      }
+    ]
+  }
+}

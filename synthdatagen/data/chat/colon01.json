@@ -1,0 +1,71 @@
+{
+  "content": "Many thanks for reviewing [redacted name] who I had the pleasure of seeing today in clinic for an end-of-treatment consultation. He is a 68-year-old gentleman with a history of sigmoid colon cancer (diagnosed January 2023) and previous left-sided breast cancer (diagnosed June 2015), both treated with curative intent.\n\nWith respect to the sigmoid colon cancer, he underwent laparoscopic sigmoid colectomy on 15 February 2023, which confirmed moderately differentiated adenocarcinoma, T3N1M0, with 2/17 lymph nodes positive. This was followed by adjuvant capecitabine and oxaliplatin chemotherapy (CAPOX), completed on 15 September 2023.\n\nImaging on 20 October 2023 (CT chest/abdomen/pelvis) demonstrated no evidence of recurrence or metastases. He has remained asymptomatic with no gastrointestinal complaints and stable weight since completing treatment.\n\nHis prior breast cancer was treated with a left mastectomy and adjuvant radiotherapy in 2015. He also received tamoxifen for five years, completing the course in 2020. Surveillance imaging in June 2023 confirmed no evidence of recurrence.\n\nOn examination today, he is clinically well with no signs of recurrent disease. Abdominal examination was unremarkable, with well-healed laparoscopic scars. There were no palpable masses or hepatosplenomegaly, and digital rectal examination was normal.\n\nWe discussed the importance of ongoing surveillance. I have arranged for routine colonoscopy in February 2024, which will coincide with his first annual imaging review. Blood tests, including carcinoembryonic antigen (CEA), were ordered today and will be reviewed in six weeks.\n\nHe is otherwise fit and active, maintaining a regular exercise routine, and reports no concerns regarding his previous breast cancer treatment. He remains on long-term vitamin D and calcium supplementation.\n\nIn summary, [redacted name] has completed multimodal treatment for stage III sigmoid colon cancer with no evidence of residual or recurrent disease. His recovery has been excellent, and he will now transition to routine surveillance. Please do not hesitate to contact me for further clarification or if additional input is required.",
+  "output": {
+    "primary_cancer": {
+      "site": "colon, sigmoid",
+      "year": 2023,
+      "month": 1,
+      "tnm_stage": "T3N1M0",
+      "histopathology_status": "moderately differentiated adenocarcinoma",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Laparoscopic sigmoid colectomy with 2/17 lymph nodes positive",
+          "year": 2023,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started CAPOX chemotherapy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed CAPOX chemotherapy",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "investigation_finding",
+          "value": "CT imaging showed no evidence of recurrence or metastases",
+          "year": 2023,
+          "month": 10
+        }
+      ]
+    },
+    "other_cancers": [
+      {
+        "site": "left breast",
+        "year": 2015,
+        "month": 6,
+        "histopathology_status": "not provided",
+        "latest_situation": "No evidence of recurrence as of June 2023"
+      }
+    ],
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "None reported"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Completed treatment for sigmoid colon cancer, stage III, with no evidence of recurrence. Transitioning to routine surveillance."
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Routine colonoscopy scheduled for February 2024."
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Annual imaging review due February 2024."
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CEA blood test scheduled for review in six weeks."
+      }
+    ]
+  }
+}

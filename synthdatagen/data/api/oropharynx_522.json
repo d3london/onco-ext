@@ -1,0 +1,69 @@
+{
+  "content": "Diagnosis:\tOropharyngeal squamous cell carcinoma, p16 positive\n\nStaging:\t\tT2N2bM0 (AJCC 8th edition)\n\tPET-CT 12 Apr 2024 - right tonsil primary with ipsilateral level II/III nodes\n\tMRI 15 Apr 2024 - confirms T2 disease confined to tonsil\n\nBiomarkers:\tP16 positive, PDL1 CPS 70%\n\nCurrent Status:\tPre-treatment\n\nI reviewed [redacted name] today following completion of staging investigations. He initially presented with a 6-week history of right-sided throat pain and enlarged neck nodes. Biopsy on 5 Apr 2024 confirmed p16 positive squamous cell carcinoma.\n\nHe is otherwise fit and well with no significant past medical history. He is an ex-smoker having quit 10 years ago with a 15 pack-year history. He drinks 14 units of alcohol per week. He works as an accountant and lives with his wife.\n\nOn examination today, there is a visible right tonsillar mass approximately 3cm in size. There are palpable right level II and III nodes, largest measuring 3cm. No other abnormalities detected.\n\nI have discussed his case at our Head & Neck MDT on 16 Apr 2024. Given his stage, performance status, and biomarker profile, the recommendation is for radical chemoradiotherapy with weekly cisplatin. I have explained the treatment process, including the expected 6-week duration of radiotherapy with weekly chemotherapy, and potential side effects including mucositis, dysphagia, xerostomia, and skin reactions.\n\nThe plan is to proceed with dental assessment next week, followed by radiotherapy planning CT. We aim to commence treatment in 2 weeks. I will review him again before treatment starts with baseline blood tests.",
+  "output": {
+    "primary_cancer": {
+      "site": "oropharynx, right tonsil",
+      "year": 2024,
+      "month": 4,
+      "metastases": "right level II and III lymph nodes",
+      "tnm_stage": "T2N2bM0",
+      "other_stage": "AJCC 8th edition",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "p16 positive, PDL1 CPS 70%",
+      "cancer_timeline": [
+        {
+          "type": "laboratory_finding",
+          "value": "Biopsy confirms p16 positive squamous cell carcinoma",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "PET-CT shows right tonsil primary with ipsilateral level II/III nodes",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI confirms T2 disease confined to tonsil",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Discussed at Head & Neck MDT - recommended for radical chemoradiotherapy",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Visible right tonsillar mass approximately 3cm with palpable right level II and III nodes, largest 3cm"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right-sided throat pain and enlarged neck nodes for 6 weeks"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed p16 positive oropharyngeal cancer. Initial staging complete, proceeding to radical chemoradiotherapy."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan for radical chemoradiotherapy with weekly cisplatin"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Dental assessment and radiotherapy planning CT"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review before treatment starts with baseline blood tests"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "content": "I was pleased to review [redacted name] in follow-up clinic today. She is now 18 months post right partial nephrectomy for a chromophobe renal cell carcinoma, initially diagnosed in January 2023. The original pathology confirmed a 5.5cm tumor, stage pT1bN0M0, with negative margins and CD117 negative status on immunohistochemistry.\n\nShe remains very well with no concerning symptoms. Her surgical scars have healed excellently and she has maintained her pre-operative level of activity, regularly swimming three times per week. She denies any flank pain, haematuria, or constitutional symptoms. Her blood pressure today was 132/78 and recent blood tests show stable renal function with creatinine 92 umol/L.\n\nThe surveillance CT scan performed last week shows no evidence of disease recurrence, with the post-surgical changes in the right kidney remaining stable compared to the previous imaging 6 months ago. There are no new lesions identified in either kidney, and no evidence of metastatic disease.\n\nGiven her continued stable disease status, we will maintain our current surveillance schedule with clinical review and CT imaging every 6 months. I have arranged her next CT scan for July 2024 and will see her in clinic afterwards with the results. She understands to contact us sooner if she develops any new concerning symptoms in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right",
+      "year": 2023,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT1bN0M0",
+      "other_stage": "",
+      "histopathology_status": "chromophobe renal cell carcinoma, 5.5cm tumor, negative margins",
+      "biomarker_status": "CD117 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "right partial nephrectomy",
+          "year": 2023,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "surveillance CT scan shows no evidence of disease recurrence, stable post-surgical changes",
+          "year": 2024,
+          "month": 1
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "quality_of_life_finding",
+        "value": "maintains regular swimming three times weekly"
+      },
+      {
+        "type": "examination_finding",
+        "value": "blood pressure 132/78"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "stable renal function with creatinine 92 umol/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "18 months post partial nephrectomy for localized chromophobe renal cell carcinoma. Stable disease on surveillance with no evidence of recurrence"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "No evidence of disease recurrence on latest imaging"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan arranged for July 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Clinical review with CT results in July 2024"
+      }
+    ]
+  }
+}

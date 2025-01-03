@@ -1,0 +1,74 @@
+{
+    "content": "Diagnosis:\tGliosarcoma, right frontal lobe, IDH-wildtype, WHO Grade IV\n\t\tExtensive leptomeningeal dissemination\n\nManagement:\tBiopsy of right frontal lobe lesion (2025-01-20): Gliosarcoma, IDH-wildtype, MGMT promoter unmethylated\n\t\tNo surgical resection feasible due to extensive infiltration\n\nCurrent Situation:\t67-year-old male with newly diagnosed gliosarcoma presenting with cognitive decline, persistent headaches, and left-sided hemiparesis.\n\t\tMRI brain (2025-01-15): 6.2cm right frontal enhancing mass with vasogenic edema, midline shift of 9mm, and leptomeningeal enhancement\n\t\tCSF cytology (2025-01-25): Positive for malignant cells consistent with gliosarcoma\n\nMedical History:\tHypertension, type 2 diabetes with mild nephropathy, ischemic heart disease (stent in 2018)\n\t\tMedications: Amlodipine, metformin, atorvastatin, aspirin, ramipril\n\t\tNo known drug allergies\n\nClinical Impression:\tThis gentleman’s case is profoundly complex given the aggressive nature of gliosarcoma, widespread disease, and significant baseline comorbidities. He has rapidly progressive symptoms affecting his independence and quality of life. In view of the leptomeningeal involvement and the patient's wishes, the focus will be on palliation and symptom management.\n\nPlan:\tInitiate palliative craniospinal radiotherapy (20Gy in 5 fractions) to address symptoms of mass effect\n\t\tCommence dexamethasone 8mg twice daily to reduce vasogenic edema\n\t\tLevetiracetam 500mg twice daily for seizure prophylaxis\n\t\tArrange hospice care referral for ongoing support\n\t\tRegular follow-up with neuro-oncology and palliative care teams\n\t\tRepeat MRI in 8 weeks to assess response\n",
+    "output": {
+        "primary_cancer": {
+            "site": "brain, right frontal lobe",
+            "year": 2025,
+            "month": 1,
+            "histopathology_status": "WHO Grade IV gliosarcoma, IDH-wildtype, MGMT promoter unmethylated",
+            "biomarker_status": "IDH-wildtype, MGMT unmethylated",
+            "cancer_timeline": [
+                {
+                    "type": "anatomical_finding",
+                    "value": "MRI brain shows 6.2cm right frontal enhancing mass with vasogenic edema, midline shift of 9mm, and leptomeningeal enhancement",
+                    "year": 2025,
+                    "month": 1
+                },
+                {
+                    "type": "laboratory_finding",
+                    "value": "CSF cytology positive for malignant cells consistent with gliosarcoma",
+                    "year": 2025,
+                    "month": 1
+                }
+            ]
+        },
+        "patient_facts": [
+            {
+                "type": "comorbidity",
+                "value": "hypertension"
+            },
+            {
+                "type": "comorbidity",
+                "value": "type 2 diabetes with mild nephropathy"
+            },
+            {
+                "type": "comorbidity",
+                "value": "ischemic heart disease with stent in 2018"
+            },
+            {
+                "type": "current_symptom",
+                "value": "cognitive decline, persistent headaches, and left-sided hemiparesis"
+            },
+            {
+                "type": "quality_of_life_finding",
+                "value": "rapidly progressive symptoms affecting his independence and quality of life"
+            }
+        ],
+        "status_updates": [
+            {
+                "type": "clinical_summary",
+                "value": "Newly diagnosed gliosarcoma with extensive leptomeningeal dissemination, surgery not possible. Palliative focus due to widespread disease and poor prognosis."
+            },
+            {
+                "type": "update_to_treatment",
+                "value": "Initiate palliative craniospinal radiotherapy (20Gy in 5 fractions)"
+            },
+            {
+                "type": "update_to_treatment",
+                "value": "Commence dexamethasone 8mg twice daily to reduce vasogenic edema"
+            },
+            {
+                "type": "planned_investigation",
+                "value": "Repeat MRI in 8 weeks to assess response"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Regular follow-up with neuro-oncology and palliative care teams"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "Arrange hospice care referral for ongoing support"
+            }
+        ]
+    }
+}

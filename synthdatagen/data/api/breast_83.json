@@ -1,0 +1,112 @@
+{
+  "content": "Many thanks for referring [redacted name] who I reviewed today with the acute oncology team. She is a 48-year-old lady with metastatic triple-negative breast cancer, initially diagnosed in January 2024 following investigation of a fungating right breast mass. Initial staging confirmed T4 disease with axillary nodal involvement and multiple pleural metastases. Molecular profiling identified an NTRK fusion, and she commenced entrectinib in February 2024 following MDT discussion.\n\nUnfortunately, she has experienced progressive clinical deterioration over the past 6 weeks. Her initial response to entrectinib was encouraging, with improvement in breast wound healing and reduction in pleural effusions noted on CT in March 2024. However, she now presents with worsening dyspnoea, requiring oxygen support at 4L/min, and increasing right breast pain despite optimal analgesia with modified-release morphine 60mg BD and breakthrough oxycodone. Her performance status has declined from ECOG 1 to ECOG 3.\n\nRecent CT thorax performed on 15 April 2024 shows significant progression with new pleural nodularity, increasing right pleural effusion, and enlargement of the primary breast mass from 8.2cm to 10.5cm. There is also new mediastinal lymphadenopathy. Previous pleural fluid cytology from March confirmed malignant cells consistent with breast primary.\n\nHer past medical history includes insulin-dependent diabetes and previous pulmonary embolism in 2023, currently managed with therapeutic enoxaparin. Recent blood tests show deteriorating renal function with eGFR 38 (previously 65) and grade 2 transaminitis, likely related to disease progression.\n\nOn examination today, there is a malodorous fungating mass involving the entire right breast with satellite skin nodules. Chest examination reveals reduced air entry at the right base with dullness to percussion. No neurological deficits are identified.\n\nI have discussed her case at length with our breast MDT today. Given her declining performance status and rapid disease progression on entrectinib, we have agreed to discontinue targeted therapy. After careful discussion with [redacted name] and her family, we have agreed to focus on symptom control. I have referred her to our palliative care team for urgent review and arranged admission to our palliative care unit for symptom management.\n\nWe have organized urgent pleural drainage under ultrasound guidance tomorrow, with consideration for pleurodesis if appropriate. The breast wound care team will review her daily during admission. I have adjusted her analgesia, increasing modified-release morphine to 90mg BD and adding pregabalin 75mg BD for neuropathic pain component.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "pleural metastases, mediastinal lymphadenopathy",
+      "tnm_stage": "T4N2M1",
+      "histopathology_status": "squamous cell carcinoma with DCIS component",
+      "biomarker_status": "triple negative, NTRK fusion positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Initial presentation with fungating right breast mass",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started entrectinib following MDT discussion",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Pleural fluid cytology positive for malignant cells consistent with breast primary",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial improvement with breast wound healing and reduction in pleural effusions on CT",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progression with new pleural nodularity, increasing effusion, primary mass growth to 10.5cm, new mediastinal nodes",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued entrectinib due to disease progression and declining performance status",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated to ECOG PS 3"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Insulin-dependent diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Previous pulmonary embolism 2023 on therapeutic enoxaparin"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening dyspnoea requiring 4L/min oxygen"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing right breast pain"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Malodorous fungating mass involving entire right breast with satellite skin nodules"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry right base with dullness to percussion"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Deteriorating renal function with eGFR 38 and grade 2 transaminitis"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic triple-negative breast cancer with NTRK fusion showing rapid progression after initial response to entrectinib. Significant clinical deterioration with declining performance status requiring transition to palliative care"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on entrectinib with increasing tumor size and new metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued entrectinib, increased modified-release morphine to 90mg BD, added pregabalin 75mg BD"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration in performance status from ECOG 1 to ECOG 3"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent pleural drainage under ultrasound guidance"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team review and admission to palliative care unit arranged"
+      }
+    ]
+  }
+}

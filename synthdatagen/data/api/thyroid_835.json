@@ -1,0 +1,74 @@
+{
+  "content": "Diagnosis:\tPapillary thyroid carcinoma\n\nManagement:\t15 Jan 2024 Total thyroidectomy and central neck dissection\n\t\t12 Feb 2024 Radioactive iodine ablation 100mCi\n\nHistology:\tClassical variant papillary thyroid carcinoma, 1.8cm right lobe tumor\n\t\t4/12 central compartment nodes positive\n\t\tBRAF V600E mutation positive\n\nCurrent Situation:\tPost-treatment assessment\n\nI reviewed [redacted name] today following MDT discussion of her recent whole body iodine scan. The scan shows expected physiological uptake in the thyroid bed with no evidence of residual disease or metastatic foci. Her thyroglobulin has fallen appropriately from 4.2 to 0.8 μg/L on TSH suppression. She is tolerating TSH suppression well with no symptoms of thyrotoxicosis, and her calcium levels have normalized following temporary post-operative hypocalcemia.\n\nAt MDT, we reviewed her case in detail including the initial staging, molecular profile, and treatment response. Given her young age of 32, BRAF V600E positive status, and initial nodal involvement, the consensus recommendation is for ongoing TSH suppression targeting TSH <0.1 mU/L for the next 2 years. We will arrange thyroglobulin monitoring every 3 months initially, with neck ultrasound planned for 6 months' time.\n\nI have discussed these recommendations with [redacted name] today. She understands the rationale for ongoing TSH suppression and the importance of medication adherence. She will continue levothyroxine at the current dose of 150mcg daily. We have arranged follow-up in the combined thyroid clinic in 3 months with repeat thyroglobulin measurement and TSH check. I have also provided written information about long-term surveillance protocols and symptoms that should prompt earlier review.",
+  "output": {
+    "primary_cancer": {
+      "site": "thyroid, right lobe",
+      "year": 2024,
+      "month": 1,
+      "metastases": "central compartment lymph nodes",
+      "tnm_stage": "T1N1M0",
+      "histopathology_status": "Classical variant papillary thyroid carcinoma, 1.8cm tumor",
+      "biomarker_status": "BRAF V600E mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total thyroidectomy and central neck dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "4/12 central compartment nodes positive, BRAF V600E mutation detected",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Radioactive iodine ablation 100mCi",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Thyroglobulin decreased from 4.2 to 0.8 μg/L on TSH suppression",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Whole body iodine scan shows expected physiological uptake in thyroid bed with no evidence of residual disease or metastatic foci",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Post-operative hypocalcemia, now resolved"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Calcium levels normalized"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "32-year-old with BRAF positive papillary thyroid cancer, good response to surgery and radioiodine ablation with falling thyroglobulin levels"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing levothyroxine 150mcg daily for TSH suppression targeting <0.1 mU/L"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Thyroglobulin monitoring every 3 months, neck ultrasound in 6 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Combined thyroid clinic review in 3 months with thyroglobulin and TSH check"
+      }
+    ]
+  }
+}

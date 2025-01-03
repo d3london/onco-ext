@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\tEndometrial cancer - Grade 2 endometrioid adenocarcinoma, stage pT2N0M0\n\nManagement:\t22 Mar 2024 Total abdominal hysterectomy and bilateral salpingo-oophorectomy\n\tAdjuvant carboplatin/paclitaxel chemotherapy commenced April 2024\n\nCurrent Situation:\tSeen prior to cycle 4 carboplatin/paclitaxel\n\nI reviewed [redacted name] today who is progressing well through her adjuvant chemotherapy regime. She has managed the first three cycles with minimal side effects, experiencing only grade 1 fatigue and mild peripheral neuropathy affecting her fingertips. Her main symptoms have been alterations in taste and occasional nausea, well controlled with regular ondansetron. She maintains good mobility and continues with daily walking.\n\nOn examination today, she is well with stable vital signs. Abdominal examination shows well-healed surgical scars with no concerning features. Blood results show stable parameters suitable for proceeding with cycle 4.\n\nThe plan is to continue with cycle 4 chemotherapy today. We will see her again in three weeks for pre-cycle 5 assessment. She understands to contact the unit if she develops any concerning symptoms in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "endometrium",
+      "year": 2024,
+      "month": 3,
+      "metastases": null,
+      "tnm_stage": "pT2N0M0",
+      "other_stage": null,
+      "histopathology_status": "Grade 2 endometrioid adenocarcinoma",
+      "biomarker_status": null,
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Total abdominal hysterectomy and bilateral salpingo-oophorectomy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant carboplatin/paclitaxel chemotherapy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 3 cycles carboplatin/paclitaxel with good tolerance",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Alterations in taste and occasional nausea, controlled with ondansetron"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical scars, no concerning features on abdominal examination"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood results stable and suitable for chemotherapy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Early stage endometrial cancer post-surgery, progressing well through adjuvant chemotherapy with minimal toxicity"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and mild peripheral neuropathy affecting fingertips"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 4 carboplatin/paclitaxel"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in three weeks for pre-cycle 5 assessment"
+      }
+    ]
+  }
+}

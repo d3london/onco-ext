@@ -1,0 +1,64 @@
+{
+  "content": "Diagnosis\n\t1. Squamous cell carcinoma of mid-esophagus T3N2M0\n\n\tDate of diagnosis\n\tMarch 2024\n\n\tTreatment aim\n\tCurative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\tNot performed\n\n\tRadiotherapy\n\tNot yet commenced\n\n\tChemotherapy\n\tCompleted 2 cycles of cisplatin/5FU\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tStable disease after 2 cycles chemotherapy\n\n\tCurrent issues\n\tMild dysphagia to solids only\n\n\tSummary of consultation\n\tCase discussed at Upper GI MDT on 15 April 2024. [redacted name] is a 62-year-old gentleman with locally advanced esophageal SCC, p16 positive with PDL1 CPS 30. Initial staging showed T3N2M0 disease with multiple regional nodes but no distant metastases.\n\nHe has completed 2 cycles of induction cisplatin/5FU with stable disease on recent CT. Tolerated treatment well with only grade 1 nausea. Performance status remains 0.\n\nMDT recommendation is to proceed with definitive chemoradiotherapy given good response to induction chemotherapy. Plan for 50Gy in 25 fractions with concurrent weekly carboplatin.\n\n\tFurther investigations\n\tRepeat CT and planning scan next week\n\n\tMedication prescribed\n\tNone\n\n\tFollow up\n\tTo be seen in radiotherapy planning clinic next week\n\n\tRequired GP actions\n\tNone",
+  "output": {
+    "primary_cancer": {
+      "site": "esophagus, mid",
+      "year": 2024,
+      "month": 3,
+      "metastases": "multiple regional nodes",
+      "tnm_stage": "T3N2M0",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "p16 positive, PDL1 CPS 30",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started induction cisplatin/5FU chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Completed 2 cycles cisplatin/5FU with stable disease on CT",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild dysphagia to solids only"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced esophageal SCC showing stable disease after induction chemotherapy. MDT recommends proceeding to definitive chemoradiotherapy."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Stable disease after 2 cycles of induction cisplatin/5FU"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 nausea during induction chemotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Plan for definitive chemoradiotherapy with 50Gy in 25 fractions and concurrent weekly carboplatin"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Repeat CT and planning scan next week"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "To be seen in radiotherapy planning clinic next week"
+      }
+    ]
+  }
+}

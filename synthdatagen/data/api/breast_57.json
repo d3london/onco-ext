@@ -1,0 +1,106 @@
+{
+  "content": "Diagnosis:\n\nMetastatic sebaceous carcinoma of left breast with leptomeningeal disease\n\nPrevious treatment:\nJune 2023 - Left mastectomy and axillary clearance\nJuly-October 2023 - Adjuvant trastuzumab-pertuzumab and docetaxel\nNovember 2023 - Whole brain radiotherapy for leptomeningeal disease\nDecember 2023-present - Trastuzumab-deruxtecan\n\nPrevious medical history:\nType 2 diabetes\nHypertension\nDepression\n\nCurrent medications:\nDexamethasone 4mg twice daily\nLevetiracetam 1g twice daily\nMetformin 1g twice daily\nAmlodipine 10mg daily\n\nAllergies:\nNone known\n\nCurrent situation:\nProgressive neurological deterioration\n\nI reviewed [redacted name] today who attended with her daughter. Unfortunately, she has experienced significant clinical deterioration over the past two weeks with worsening headaches, confusion, and unsteady gait. Her daughter reports that she is sleeping for increasingly long periods and has reduced oral intake. She has developed diplopia and reports increasing difficulty with reading and writing.\n\nHer performance status has declined from 2 to 3-4. On examination, she is drowsy but rousable, oriented to person only. There is bilateral papilledema, new left 6th nerve palsy, and marked truncal ataxia. Power is reduced in all limbs (MRC grade 4/5) with increased tone and brisk reflexes throughout.\n\nMRI brain performed yesterday shows extensive progression of leptomeningeal disease with new areas of enhancement and increasing hydrocephalus. CSF cytology from last week confirms persistent malignant cells despite previous systemic therapy.\n\nI have had a lengthy discussion with [redacted name] and her daughter about the significance of these findings. Given her rapid clinical deterioration and radiological progression despite second-line systemic therapy, I have explained that her prognosis is now measured in weeks. We have agreed to discontinue trastuzumab-deruxtecan and focus on symptom control.\n\nI have increased her dexamethasone to 8mg twice daily and arranged urgent referral to the palliative care team. I have prescribed additional anti-emetics and breakthrough analgesia. She will be reviewed by the palliative care team tomorrow, and I have arranged community support through our CNS team. We will maintain close outpatient monitoring with weekly review.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2023,
+      "month": 6,
+      "metastases": "brain leptomeningeal disease",
+      "tnm_stage": "T3N2M1",
+      "histopathology_status": "sebaceous carcinoma",
+      "biomarker_status": "HER2 positive, PDL1 95%",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Left mastectomy and axillary clearance",
+          "year": 2023,
+          "month": 6
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant trastuzumab-pertuzumab and docetaxel",
+          "year": 2023,
+          "month": 7
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Whole brain radiotherapy for leptomeningeal disease",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started trastuzumab-deruxtecan",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows extensive progression of leptomeningeal disease with new enhancement and increasing hydrocephalus",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CSF cytology confirms persistent malignant cells",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinued trastuzumab-deruxtecan due to disease progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypertension"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Depression"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening headaches, confusion, unsteady gait, diplopia, difficulty with reading and writing"
+      },
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from PS 2 to PS 3-4"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Drowsy but rousable, oriented to person only, bilateral papilledema, new left 6th nerve palsy, marked truncal ataxia, reduced power in all limbs MRC grade 4/5, increased tone and brisk reflexes"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic breast cancer with progressive leptomeningeal disease. Rapid clinical deterioration despite second-line therapy with poor prognosis"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with new areas of leptomeningeal enhancement and increasing hydrocephalus on MRI"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinued trastuzumab-deruxtecan, increased dexamethasone to 8mg twice daily"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant neurological deterioration with declining performance status from 2 to 3-4"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral with review tomorrow, weekly oncology follow-up"
+      }
+    ]
+  }
+}

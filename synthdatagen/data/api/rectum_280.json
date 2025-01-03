@@ -1,0 +1,99 @@
+{
+  "content": "Diagnosis\n\t1. Rectal adenocarcinoma, Duke's C2 (T3N2M1)\n\tInitially diagnosed March 2023\n\tBRAF V600E mutation positive\n\tPIK3CA mutation detected\n\tTreatment aim\n\tPalliative\n\n\tSummary of completed treatment and relevant dates\n\n\tSurgery\n\t15 Apr 2023 Anterior resection with primary anastomosis\n\n\tChemotherapy\n\t1. FOLFOX/Bevacizumab May-Oct 2023\n\t2. FOLFIRI/Cetuximab Nov 2023-Mar 2024\n\n\tClinical studies\n\tNone\n\n\tCurrent disease status\n\tProgressive disease in liver\n\n\tCurrent issues\n\tFatigue, right upper quadrant pain\n\n\tSummary of consultation\n\tReviewed today following recent CT showing disease progression in liver with new lesions. Previous CT in January 2024 had shown stable disease on FOLFIRI/Cetuximab. Latest scan shows 3 new liver lesions and growth of existing lesions (largest increased from 3.2cm to 4.8cm). Performance status remains 1 but experiencing increased right upper quadrant pain requiring regular opiates.\n\nBlood tests show rising CEA from 45 to 180 over 6 weeks. Liver function remains stable. No new safety concerns.\n\nGiven progression on two lines of therapy and presence of BRAF V600E mutation, we will now commence third-line treatment with BRAF-targeted therapy combination (Encorafenib/Cetuximab).\n\n\tFurther investigations\n\tCT chest/abdomen/pelvis in 8 weeks\n\tWeekly LFTs for first 4 weeks\n\n\tMedication prescribed\n\tEncorafenib 300mg daily\n\tCetuximab 500mg/m2 every 2 weeks\n\n\tFollow up\n\tNext oncology follow up in 2 weeks with blood tests\n\n\tRequired GP actions\n\tWeekly blood tests including LFTs for first 4 weeks\n\tMonitor pain control requirements",
+  "output": {
+    "primary_cancer": {
+      "site": "rectum",
+      "year": 2023,
+      "month": 3,
+      "metastases": "liver metastases",
+      "tnm_stage": "T3N2M1",
+      "other_stage": "Duke's C2",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "BRAF V600E mutation positive, PIK3CA mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Anterior resection with primary anastomosis",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFOX/Bevacizumab",
+          "year": 2023,
+          "month": 5
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed FOLFOX/Bevacizumab",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FOLFIRI/Cetuximab",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT showing stable disease in liver",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA rising from 45 to 180 over 6 weeks",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 3 new liver lesions and growth of existing lesions (largest increased from 3.2cm to 4.8cm)",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant pain requiring regular opiates"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Liver function stable"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic rectal cancer progressing after two lines of therapy. New progression in liver necessitating switch to BRAF-targeted therapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease with new liver lesions and growth of existing lesions"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Commencing Encorafenib 300mg daily with Cetuximab 500mg/m2 every 2 weeks"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis in 8 weeks, weekly LFTs for first 4 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in oncology clinic in 2 weeks with blood tests"
+      }
+    ]
+  }
+}

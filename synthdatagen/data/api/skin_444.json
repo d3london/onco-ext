@@ -1,0 +1,91 @@
+{
+  "content": "Diagnosis:\tMalignant melanoma, right calf primary, AJCC Stage IIIB (pT3bN2aM0)\n\tInitial excision biopsy 12 March 2024 showing 2.8mm Breslow thickness with ulceration\n\tWide local excision and right groin node dissection 28 March 2024\n\tNRAS G12D mutation positive, BRAF wild type\n\nI reviewed [redacted name] today for week 12 assessment in the NEMO-02 trial of combination MEK/CDK4/6 inhibition in NRAS-mutant melanoma. She has completed the initial 12-week treatment phase with binimetinib and palbociclib, showing excellent compliance with the study protocol despite some initial challenges with side effects.\n\nThe week 8 restaging CT showed partial response by RECIST 1.1 criteria with 45% reduction in the sum of target lesions compared to baseline. Her right inguinal lymphadenopathy has reduced from 32mm to 18mm, and the external iliac nodes have decreased from 28mm to 15mm. No new lesions were identified.\n\nShe has experienced grade 2 fatigue and grade 1 peripheral edema, both of which have been manageable with supportive measures. The initial grade 2 CPK elevation noted at week 4 has resolved following the protocol-mandated dose reduction of binimetinib to 30mg BD. Her latest blood tests show stable parameters with CPK now within normal range at 140 U/L.\n\nOn examination today, her performance status remains 0. The surgical sites are well-healed with no evidence of local recurrence. There is ongoing reduction in the palpable right inguinal lymphadenopathy. Her blood pressure is well-controlled at 128/76 mmHg with no evidence of retinopathy on the protocol-mandated ophthalmology review last week.\n\nGiven the excellent partial response and current tolerability, we will continue with the current doses of both study medications. I have arranged the protocol-specified week 16 CT scan and have scheduled the next trial visit in 4 weeks' time. She has been counselled regarding the ongoing need to avoid sun exposure and to report any new skin lesions promptly. The trial coordinator has arranged the required quality of life assessments and pharmacokinetic sampling for the next visit.",
+  "output": {
+    "primary_cancer": {
+      "site": "skin, right calf",
+      "year": 2024,
+      "month": 3,
+      "metastases": "right inguinal and external iliac lymph nodes",
+      "tnm_stage": "pT3bN2aM0",
+      "other_stage": "Stage IIIB",
+      "histopathology_status": "melanoma, Breslow thickness 2.8mm with ulceration",
+      "biomarker_status": "NRAS G12D mutation positive, BRAF wild type",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Initial excision biopsy showing 2.8mm Breslow thickness with ulceration",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Wide local excision and right groin node dissection",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Started NEMO-02 trial of binimetinib and palbociclib",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Binimetinib dose reduced to 30mg BD due to grade 2 CPK elevation",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows 45% reduction in target lesions - right inguinal nodes reduced from 32mm to 18mm, external iliac nodes decreased from 28mm to 15mm",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Surgical sites well-healed with no evidence of local recurrence"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Blood pressure 128/76 mmHg"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CPK now within normal range at 140 U/L"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIB melanoma showing excellent partial response to NEMO-02 trial treatment with manageable toxicities"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Partial response with 45% reduction in target lesions on week 8 CT scan"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 fatigue and grade 1 peripheral edema, previous grade 2 CPK elevation resolved"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing current doses of binimetinib and palbociclib"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Protocol-specified week 16 CT scan arranged"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Next trial visit in 4 weeks with quality of life assessments and pharmacokinetic sampling"
+      }
+    ]
+  }
+}

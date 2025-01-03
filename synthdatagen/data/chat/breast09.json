@@ -1,0 +1,201 @@
+{
+    "content": "Diagnosis:\nJul 17 - 24mm grade III mixed invasive ductal and lobular carcinoma with clear margins on primary excision, ER strongly positive (8/8), PR weakly positive (2/8), HER2 negative (1+)\n\nAug 17 Commenced on adjuvant anastrozole. Initial tolerability issues with arthralgias led to switch to tamoxifen\n\nSep 17 Staging investigations revealed solitary lytic lesion in L3 vertebral body and 12mm left lower lobe pulmonary nodule\n\nOct 17 Completed palliative radiotherapy to L3 (30Gy in 10#) on 15.10.17\n\nCommenced tamoxifen 20mg daily with monthly denosumab\n\nDec 17 Follow-up CT showed stable pulmonary nodule\n\nMay 18 Bone scan demonstrates no new sites of disease compared to baseline\n\nNew palpable abnormality in lateral aspect left breast, core biopsy confirmed 12mm Grade III recurrent invasive lobular carcinoma, margins clear but close (2mm)\n\nCXR showed no obvious pulmonary disease\n\n12.05.19 CT thorax/abdomen/pelvis showed no measurable disease, previous lung nodule no longer visible\n\n28.06.19 Isotope bone scan showed unchanged appearance at L3, otherwise only degenerative changes noted\n\nLumbar spine imaging showed no new lytic disease\n\n15.07.19 Changed from tamoxifen to fulvestrant\n\nCompleted adjuvant radiotherapy to left breast - developed grade 3 radiation dermatitis requiring brief treatment break, complicated by pre-existing psoriasis\n\n30.08.19 MRI spine showed stable L3 metastasis, no evidence of new bone disease or cord compression\n\nDiffuse degenerative changes noted throughout thoracolumbar spine\n\nJan 20 CT surveillance showed no evidence of progressive disease\n\nContinuing fulvestrant\n\nJul 20 CT thorax/abdomen and bone scan confirmed stable disease\n\nMaintained on fulvestrant with oral clodronate\n\n18.11.20 Palliative radiotherapy to L3 vertebra (retreatment) for mechanical back pain\n\n2022 Development of right-sided sciatica\n\nBone scan shows stable appearances\n\nCT demonstrates no disease progression\n\nTo continue current endocrine therapy\n\nReferral made to chronic pain service for consideration of nerve root block\n\nPrescribed pregabalin with good symptomatic benefit\n\nMar 22 Bone scan showed only degenerative changes\n\nEmergency admission to [redacted name] Hospital with community acquired pneumonia requiring HDU support\n\nDec 22 Maintained on fulvestrant and clodronate\n\nJan 24 Bone scan shows stable degenerative changes with area of increased uptake in right mandible ? osteonecrosis\n\nDiffuse skeletal uptake considered non-specific\n\nDec 24 CT surveillance shows new subtle pulmonary nodules ? disease progression\n\nFeb 25 Re-staging CT scan\n\n15.03.25 MDT review confirmed pulmonary progression ? discontinue fulvestrant\n\n22.03.25 Initiated on exemestane ? reasonable initial tolerance\n\n18.05.25 Due cycle 3 exemestane\n\nSurveillance imaging scheduled for June 2025\n\nI was pleased to review [redacted name] in clinic today.\nShe is attending for assessment before her fourth cycle of exemestane.\n\nRecent imaging confirms stable disease and clinical examination reveals no concerning features.\n\nHer performance status remains 2 due to chronic mobility issues.\n\nShe will continue with current endocrine therapy.\n\nBloods have been drawn today and follow-up is arranged for four weeks.\n\nAll concerns were addressed during our discussion and appropriate safety-netting advice provided.",
+    "output": {
+        "primary_cancer": {
+            "site": "breast",
+            "year": 2017,
+            "month": 7,
+            "histopathology_status": "24mm grade III mixed invasive ductal and lobular carcinoma",
+            "biomarker_status": "ER strongly positive (8/8), PR weakly positive (2/8), HER2 negative (1+)",
+            "metastases": "lytic lesion in L3 vertebral body and left lower lobe pulmonary nodule",
+            "cancer_timeline": [
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Commenced on adjuvant anastrozole",
+                    "year": 2017,
+                    "month": 8
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Changed from anastrozole to tamoxifen due to arthralgias",
+                    "year": 2017,
+                    "month": 8
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "Staging investigations revealed solitary lytic lesion in L3 vertebral body and 12mm left lower lobe pulmonary nodule",
+                    "year": 2017,
+                    "month": 9
+                },
+                {
+                    "type": "treatment_radiotherapy",
+                    "value": "Completed palliative radiotherapy to L3 (30Gy in 10#)",
+                    "year": 2017,
+                    "month": 10
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Commenced tamoxifen 20mg daily with monthly denosumab",
+                    "year": 2017,
+                    "month": 10
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "Follow-up CT showed stable pulmonary nodule",
+                    "year": 2017,
+                    "month": 12
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "Bone scan demonstrates no new sites of disease compared to baseline",
+                    "year": 2018,
+                    "month": 5
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "New palpable abnormality in lateral aspect left breast, core biopsy confirmed 12mm Grade III recurrent invasive lobular carcinoma",
+                    "year": 2018,
+                    "month": 5
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "CXR showed no obvious pulmonary disease",
+                    "year": 2019,
+                    "month": 5
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "CT thorax/abdomen/pelvis showed no measurable disease, previous lung nodule no longer visible",
+                    "year": 2019,
+                    "month": 5
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "Isotope bone scan showed unchanged appearance at L3, otherwise only degenerative changes noted",
+                    "year": 2019,
+                    "month": 6
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "Lumbar spine imaging showed no new lytic disease",
+                    "year": 2019,
+                    "month": 7
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Changed from tamoxifen to fulvestrant",
+                    "year": 2019,
+                    "month": 7
+                },
+                {
+                    "type": "treatment_radiotherapy",
+                    "value": "Completed adjuvant radiotherapy to left breast - developed grade 3 radiation dermatitis requiring brief treatment break",
+                    "year": 2019,
+                    "month": 7
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "MRI spine showed stable L3 metastasis, no evidence of new bone disease or cord compression",
+                    "year": 2019,
+                    "month": 8
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "CT surveillance showed no evidence of progressive disease",
+                    "year": 2020,
+                    "month": 1
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "CT thorax/abdomen and bone scan confirmed stable disease",
+                    "year": 2020,
+                    "month": 7
+                },
+                {
+                    "type": "treatment_radiotherapy",
+                    "value": "Palliative radiotherapy to L3 vertebra (retreatment) for mechanical back pain",
+                    "year": 2020,
+                    "month": 11
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "Bone scan shows stable appearances",
+                    "year": 2022
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "CT demonstrates no disease progression",
+                    "year": 2022
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "Bone scan showed only degenerative changes",
+                    "year": 2022,
+                    "month": 3
+                },
+                {
+                    "type": "other_progress_or_event",
+                    "value": "Emergency admission to [redacted name] Hospital with community acquired pneumonia requiring HDU support",
+                    "year": 2022,
+                    "month": 3
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "Bone scan shows stable degenerative changes with area of increased uptake in right mandible ? osteonecrosis",
+                    "year": 2024,
+                    "month": 1
+                },
+                {
+                    "type": "anatomical_finding",
+                    "value": "CT surveillance shows new subtle pulmonary nodules ? disease progression",
+                    "year": 2024,
+                    "month": 12
+                },
+                {
+                    "type": "treatment_systemic_change",
+                    "value": "Discontinued fulvestrant due to pulmonary progression",
+                    "year": 2025,
+                    "month": 3
+                },
+                {
+                    "type": "treatment_systemic_start",
+                    "value": "Initiated on exemestane",
+                    "year": 2025,
+                    "month": 3
+                }
+            ]
+        },
+        "patient_facts": [
+            {
+                "type": "performance_status",
+                "value": "performance status remains 2 due to chronic mobility issues"
+            },
+            {
+                "type": "current_symptom",
+                "value": "right-sided sciatica"
+            }
+        ],
+        "status_updates": [
+            {
+                "type": "clinical_summary",
+                "value": "Metastatic hormone receptor positive breast cancer with 8-year disease history, multiple lines of endocrine therapy, and recent switch to exemestane after pulmonary progression. Currently stable on cycle 4 exemestane with maintained PS2 due to chronic mobility issues."
+            },
+            {
+                "type": "update_to_treatment",
+                "value": "will continue with current endocrine therapy"
+            },
+            {
+                "type": "latest_treatment_response",
+                "value": "Recent imaging confirms stable disease"
+            },
+            {
+                "type": "follow_up_referral",
+                "value": "follow-up is arranged for four weeks"
+            },
+            {
+                "type": "planned_investigation",
+                "value": "Surveillance imaging scheduled for June 2025"
+            }
+        ]
+    }
+}

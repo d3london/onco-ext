@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\tAtypical carcinoid tumor of right middle lobe bronchus\n\nManagement:\t15 Mar 2024 Bronchoscopic biopsy\n\t\t28 Mar 2024 Right middle lobectomy with systematic nodal dissection\n\nHistology:\tAtypical carcinoid tumor, 1.8cm, Ki67 8%, SSTR2/5 positive, 2 mitoses per 2mm2, focal necrosis present\n\t\tpT1bN0M0 (AJCC 8th edition)\n\t\tR0 resection with clear margins\n\nCurrent Situation:\tPost-operative follow-up\n\nI reviewed [redacted name] today following her recent right middle lobectomy for an atypical carcinoid tumor. She has made an excellent recovery from surgery with minimal post-operative pain, now well controlled on regular paracetamol alone. Her chest drain was removed on day 3 post-operation and she was discharged on day 5 with no complications.\n\nOn examination today, her wound has healed well with no signs of infection. Her chest is clear with good air entry bilaterally. Performance status remains 0.\n\nI have discussed the histology results which confirm a completely resected atypical carcinoid tumor. Given the favorable pathological features and absence of nodal involvement, no adjuvant therapy is indicated. We have arranged baseline CT chest/abdomen/pelvis and chromogranin A/5HIAA measurements as part of her surveillance protocol.\n\nThe plan is to see her again in 3 months with scan results. I have provided information about symptoms to watch for and contact details for the specialist nurse team.",
+  "output": {
+    "primary_cancer": {
+      "site": "right middle lobe bronchus",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "pT1bN0M0",
+      "other_stage": "",
+      "histopathology_status": "Atypical carcinoid tumor, Ki67 8%, 2 mitoses per 2mm2, focal necrosis present",
+      "biomarker_status": "SSTR2/5 positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Bronchoscopic biopsy confirms atypical carcinoid tumor",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Right middle lobectomy with systematic nodal dissection, R0 resection achieved",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirms 1.8cm atypical carcinoid, Ki67 8%, SSTR2/5 positive, clear margins",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Minimal post-operative pain, controlled on regular paracetamol"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed wound, chest clear with good air entry bilaterally"
+      },
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed atypical bronchial carcinoid treated with complete surgical resection. Excellent post-operative recovery with favorable pathological features."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "No adjuvant therapy indicated given complete resection and absence of nodal involvement"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Arranged baseline CT chest/abdomen/pelvis and chromogranin A/5HIAA measurements"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 months with scan results"
+      }
+    ]
+  }
+}

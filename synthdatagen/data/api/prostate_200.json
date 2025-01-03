@@ -1,0 +1,84 @@
+{
+  "content": "Diagnosis:\t\tProstate adenocarcinoma with ductal features, T3aN1M0\n\nManagement:\t\tEnrolled in STAMPEDE trial Arm K, March 2024\n\t\tCommenced ADT + docetaxel 15 Mar 2024\n\t\tCompleted 4 cycles docetaxel\n\nHistology:\t\tGleason 4+4=8, ISUP Grade 4\n\t\tPelvic nodal involvement on staging\n\nCurrent situation:\tPre cycle 5 docetaxel review\n\n[redacted name] attended for trial assessment today. PSA has shown excellent response, dropping from 34.2 to 2.1. Testosterone remains suppressed at <0.3. He has experienced grade 2 peripheral neuropathy affecting his feet, requiring dose reduction to 60mg/m2 from cycle 4. Other toxicities include grade 1 fatigue and occasional hot flushes from ADT. Performance status remains 1. Trial-mandated QoL questionnaires completed today show stable scores. Blood results are acceptable for proceeding with cycle 5 docetaxel. Trial-specific bone density scan completed yesterday shows T-score -1.2 at hip. Plan to proceed with cycle 5 today at reduced dose. Will arrange trial-mandated CT assessment after cycle 6. Next review in 3 weeks with trial team.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate",
+      "year": 2024,
+      "month": 3,
+      "metastases": "pelvic lymph nodes",
+      "tnm_stage": "T3aN1M0",
+      "histopathology_status": "adenocarcinoma with ductal features, Gleason 4+4=8, ISUP Grade 4",
+      "biomarker_status": "Initial PSA 34.2, current PSA 2.1, testosterone <0.3",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started ADT and docetaxel on STAMPEDE trial Arm K",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Docetaxel dose reduced to 60mg/m2 from cycle 4 due to grade 2 peripheral neuropathy",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA response from 34.2 to 2.1, testosterone suppressed <0.3",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Trial-mandated bone density scan shows T-score -1.2 at hip",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 peripheral neuropathy affecting feet"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Occasional hot flushes from ADT"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Prostate cancer showing good biochemical response to ADT and docetaxel on STAMPEDE trial. Treatment complicated by peripheral neuropathy requiring dose reduction"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Good PSA response from 34.2 to 2.1 with testosterone suppression"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 peripheral neuropathy affecting feet requiring dose reduction"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 5 docetaxel at reduced dose of 60mg/m2"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Trial-mandated CT assessment after cycle 6"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks with trial team"
+      }
+    ]
+  }
+}

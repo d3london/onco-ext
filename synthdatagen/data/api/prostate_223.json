@@ -1,0 +1,104 @@
+{
+  "content": "Diagnosis:\tMetastatic sarcomatoid carcinoma of prostate with widespread metastatic disease\n\tInitial diagnosis March 2023 - T3bN0M1 with lung, liver, and brain metastases\n\tPSA 0.1, HR-deficiency positive on molecular testing\n?\nI reviewed [redacted name] today in the complex care clinic following his recent admission for seizures and deteriorating mobility. Unfortunately, imaging confirms significant disease progression across multiple sites despite third-line therapy.\n?\nHe was initially diagnosed in March 2023 with an unusual sarcomatoid variant of prostate cancer, presenting with widespread metastatic disease. First-line docetaxel was discontinued after 3 cycles due to neutropenic sepsis. Second-line enzalutamide was stopped in December 2023 due to radiological progression. Third-line carboplatin/cabazitaxel was commenced in January 2024 but has been poorly tolerated with grade 3 fatigue and peripheral neuropathy.\n?\nRecent MRI brain (April 15th 2024) shows enlargement of known cerebral metastases with new lesions and significant surrounding edema, explaining his recent seizures. CT chest/abdomen/pelvis demonstrates progressive disease in lung and liver with new bone metastases. His PSA remains low at 0.1 reflecting the poorly differentiated nature of his disease.\n?\nHe has deteriorated significantly over the past month, now requiring wheelchair assistance and spending most of the day in bed (PS 3). He reports worsening headaches despite increased dexamethasone, ongoing right-sided weakness, and increasing breathlessness. His wife reports he is becoming increasingly confused.\n?\nGiven his poor performance status and clear evidence of progressive disease despite three lines of therapy, I have had a detailed discussion with [redacted name] and his wife about focusing on symptom control. They understand and accept that further systemic anti-cancer therapy would carry significant risks with little chance of benefit.\n?\nI have referred him to our palliative care team for urgent review and increased his dexamethasone to 8mg twice daily. I have arranged urgent whole brain radiotherapy (20Gy in 5 fractions) starting tomorrow to help with his neurological symptoms. The acute oncology team will monitor him during radiotherapy, and I will review him next week with the palliative care team.",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate",
+      "year": 2023,
+      "month": 3,
+      "metastases": "lung, liver, and brain metastases, new bone metastases",
+      "tnm_stage": "T3bN0M1",
+      "histopathology_status": "sarcomatoid carcinoma",
+      "biomarker_status": "PSA 0.1, HR-deficiency positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started first-line docetaxel",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Docetaxel discontinued after 3 cycles due to neutropenic sepsis",
+          "year": 2023
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started second-line enzalutamide",
+          "year": 2023
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Enzalutamide stopped due to radiological progression",
+          "year": 2023,
+          "month": 12
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started third-line carboplatin/cabazitaxel",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows enlargement of cerebral metastases with new lesions and significant surrounding edema",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows progressive disease in lung and liver with new bone metastases",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 3, requiring wheelchair assistance and spending most of day in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening headaches despite increased dexamethasone"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right-sided weakness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing breathlessness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing confusion"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic sarcomatoid prostate cancer with rapid progression through three lines of therapy. Now with deteriorating performance status and progressive brain metastases causing neurological symptoms"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 fatigue and peripheral neuropathy with carboplatin/cabazitaxel"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing systemic therapy due to disease progression and poor performance status"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant deterioration requiring wheelchair assistance, mostly bed-bound"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent whole brain radiotherapy 20Gy in 5 fractions"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review and oncology follow-up next week with palliative care team"
+      }
+    ]
+  }
+}

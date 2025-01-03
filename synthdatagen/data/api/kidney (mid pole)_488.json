@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis:\tPapillary renal cell carcinoma type 2\n\nManagement:\t15 March 2024 Partial right nephrectomy\n\nHistology:\tpT1b (4.2cm) papillary renal cell carcinoma type 2, mid pole of right kidney, margins clear\n\nMolecular:\tMET amplification detected\n\nCurrent Situation:\tPost-operative follow-up\n\nI reviewed [redacted name] today following his recent partial nephrectomy. He has made an excellent recovery from surgery with minimal post-operative pain and good wound healing. His renal function remains stable with creatinine 98 μmol/L (pre-operative baseline 92). He has returned to most normal activities though still avoiding heavy lifting as advised.\n\nHis original presentation was with an incidental 4.2cm right renal mass detected during ultrasound for gallstone assessment. Subsequent CT confirmed a solid enhancing lesion in the mid pole of the right kidney with no evidence of local invasion or metastatic disease. He underwent partial nephrectomy on 15th March 2024 with uncomplicated recovery.\n\nHistology confirmed a type 2 papillary renal cell carcinoma, pT1b with clear margins. Molecular testing has shown MET amplification. Given the stage and complete resection, no adjuvant therapy is indicated at present.\n\nThe plan is for surveillance imaging with CT chest/abdomen/pelvis in 6 months' time, then annually if stable. I have also arranged baseline blood tests including renal function, calcium, and liver function tests. We will review him following the next scan. I have provided information about symptoms to watch for and contact details for the specialist nursing team.",
+  "output": {
+    "primary_cancer": {
+      "site": "kidney, right mid pole",
+      "year": 2024,
+      "month": 3,
+      "metastases": "",
+      "tnm_stage": "pT1b",
+      "other_stage": "Stage I",
+      "histopathology_status": "papillary renal cell carcinoma type 2, 4.2cm, margins clear",
+      "biomarker_status": "MET amplification detected",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "Incidental 4.2cm right renal mass detected on ultrasound, confirmed as solid enhancing lesion on CT with no invasion or metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Partial right nephrectomy performed with uncomplicated recovery",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Histology confirms type 2 papillary renal cell carcinoma pT1b with clear margins",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Molecular testing shows MET amplification",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "examination_finding",
+        "value": "Good wound healing post-surgery"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function with creatinine 98 μmol/L (pre-operative baseline 92)"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage I MET-amplified papillary renal cell carcinoma treated with partial nephrectomy. Excellent post-operative recovery with no indication for adjuvant therapy."
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Returned to most normal activities, avoiding heavy lifting"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance CT chest/abdomen/pelvis in 6 months, then annually if stable. Baseline blood tests including renal function, calcium, and liver function"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review following next scan"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "content": "Diagnosis:\t\tExtensive stage small cell lung cancer, right middle lobe primary with liver and brain metastases\n\nManagement:\t\tCompleted 6 cycles carboplatin/etoposide March-July 2023\n\t\tWhole brain radiotherapy 20Gy/5# completed August 2023\n\nCurrent Status:\tDisease progression with new liver lesions and neurological deterioration\n\n[redacted name] has unfortunately shown clear evidence of disease progression on recent imaging. CT chest/abdomen/pelvis from 15/10/23 demonstrates enlargement of the primary right middle lobe mass from 4.2cm to 5.8cm, with multiple new liver metastases. The largest liver lesion in segment 7 measures 4.5cm. MRI brain from 18/10/23 shows progression of previously treated metastases with increasing perilesional edema.\n\nShe has experienced significant clinical deterioration over the past 3 weeks with increasing confusion, right-sided weakness, and difficulty maintaining oral intake. Her performance status has declined from ECOG 2 to 3-4. She requires assistance with most activities of daily living and is now spending >50% of time in bed. She reports increasing right upper quadrant discomfort requiring regular breakthrough oxycodone.\n\nGiven her poor performance status and early progression following first-line platinum-based chemotherapy, I have had a detailed discussion with [redacted name] and her family about focusing on symptom control rather than further systemic anti-cancer therapy. They understand this recommendation and agree with prioritizing quality of life.\n\nI have increased her dexamethasone to 8mg twice daily and arranged urgent palliative care review. She will be referred to the hospital palliative care team and local hospice for ongoing support. We will continue to provide oncology support as needed but will transition primary care to the palliative team. I have prescribed additional breakthrough analgesia and anti-emetics, and arranged district nurse involvement for support at home.",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, right middle lobe",
+      "year": 2023,
+      "metastases": "liver and brain metastases",
+      "other_stage": "Extensive stage",
+      "histopathology_status": "small cell carcinoma",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced carboplatin/etoposide chemotherapy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 6 cycles carboplatin/etoposide",
+          "year": 2023,
+          "month": 7
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Completed whole brain radiotherapy 20Gy in 5 fractions",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows enlargement of primary mass to 5.8cm and multiple new liver metastases, largest 4.5cm in segment 7",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI brain shows progression of brain metastases with increasing perilesional edema",
+          "year": 2023,
+          "month": 10
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Deteriorated from ECOG 2 to 3-4, spending >50% time in bed"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing confusion and right-sided weakness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right upper quadrant discomfort requiring regular breakthrough oxycodone"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Difficulty maintaining oral intake"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "Requires assistance with most activities of daily living"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Extensive stage SCLC with progressive disease in liver and brain following first-line treatment. Significant clinical deterioration with declining performance status."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with enlarging primary tumor and new liver metastases"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Significant decline in performance status requiring increased care support"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Decision to transition to palliative care focus, dexamethasone increased to 8mg twice daily"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care review arranged, referral to hospital palliative team and local hospice"
+      }
+    ]
+  }
+}

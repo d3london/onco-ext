@@ -1,0 +1,99 @@
+{
+  "content": "Diagnosis:\tMetastatic prostate cancer\n\nManagement:\tAndrogen deprivation therapy commenced March 2023\n\t\tDocetaxel chemotherapy April-September 2023\n\t\tEnzalutamide October 2023-March 2024\n\nCurrent Situation:\tProgressive disease with rising PSA and new bone pain\n\nI reviewed [redacted name] today following recent CT imaging. His disease has unfortunately progressed with new bone metastases in the thoracic spine and pelvis, corresponding to his increased pain symptoms. His PSA has risen from 450 to 678 over the past 6 weeks despite enzalutamide. Performance status has declined to ECOG 2 due to bone pain and fatigue.\n\nExamination shows tenderness over T8 vertebra and right iliac crest. Neurological examination remains intact with no evidence of cord compression. Recent CT shows multiple new bone metastases and enlarging retroperitoneal lymphadenopathy. Blood results show rising PSA 678, ALP 345, and stable renal function.\n\nI have discussed the situation with [redacted name] and his son. Given the clear evidence of disease progression on enzalutamide, we will discontinue this treatment. I have explained the role of cabazitaxel chemotherapy as next line treatment, including potential benefits and risks. He understands this carries approximately 15% chance of response but higher risk of toxicity compared to first-line docetaxel.\n\nPlan:\n- Discontinue enzalutamide\n- Arrange urgent MRI spine to exclude cord compression\n- Continue ADT with leuprorelin\n- Refer to palliative radiotherapy for symptomatic bone metastases\n- Review in 2 weeks with MRI results to initiate cabazitaxel if appropriate\n- Early referral to palliative care team for enhanced support",
+  "output": {
+    "primary_cancer": {
+      "site": "prostate, right base",
+      "metastases": "widespread bone metastases, retroperitoneal lymphadenopathy",
+      "other_stage": "Stage IV",
+      "biomarker_status": "PSA 678, PTEN loss",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started androgen deprivation therapy",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced docetaxel chemotherapy",
+          "year": 2023,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed docetaxel chemotherapy",
+          "year": 2023,
+          "month": 9
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started enzalutamide",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "PSA risen from 450 to 678 over 6 weeks",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows multiple new bone metastases and enlarging retroperitoneal lymphadenopathy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing enzalutamide due to disease progression",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 2 due to bone pain and fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Bone pain in thoracic spine and pelvis"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Tenderness over T8 vertebra and right iliac crest, neurological examination intact"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Blood results show PSA 678, ALP 345, stable renal function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Metastatic prostate cancer with disease progression on enzalutamide evidenced by rising PSA and new bone metastases. Deteriorating performance status due to bone pain."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression with rising PSA and new bone metastases despite enzalutamide"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Discontinuing enzalutamide, planning to start cabazitaxel chemotherapy"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deteriorating performance status to ECOG 2 due to bone pain and fatigue"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Urgent MRI spine to exclude cord compression"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 2 weeks with MRI results, referral to palliative care team and palliative radiotherapy"
+      }
+    ]
+  }
+}

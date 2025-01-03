@@ -1,0 +1,52 @@
+{
+  "content": "Diagnosis:\n12/1/24 Left mastectomy with axillary lymph node dissection\n10.8cm Grade 2 invasive lobular carcinoma with 3 positive nodes from 21 sampled\nEstrogen receptor positive (8/8), Progesterone receptor positive (7/8), HER2 negative\nStage T3N1M0\nProposed for adjuvant chemotherapy (FEC-T protocol)\n\nPMH - Severe rheumatoid arthritis on biological therapy\nDH - Adalimumab 40mg fortnightly, methotrexate 20mg weekly, folic acid 5mg weekly. Notable allergies: severe reaction to dexamethasone (anaphylaxis requiring resuscitation), multiple antiemetic allergies including metoclopramide and cyclizine\nSH - Primary school teacher, currently off work. Lives with husband. Never smoker\nMenopausal status - post-menopausal\nFH - Sister with breast cancer age 52\n\nUrgent referral received for this patient with complex steroid requirements prior to planned adjuvant chemotherapy. [redacted name] has documented severe hypersensitivity to dexamethasone with previous anaphylactic episode requiring emergency intervention. Given her high-risk disease features and clear indication for adjuvant chemotherapy, we need to establish a safe steroid protocol before treatment initiation.\n\nProposed steroid alternatives to evaluate:\n? Methylprednisolone\n? Hydrocortisone\n? Betamethasone\n? Prednisolone\n? Alternative anti-emetic combinations\n\nGiven the time-critical nature of adjuvant therapy, we aim to complete steroid challenge testing within 2 weeks to enable chemotherapy initiation by early February 2024. Earliest possible appointment would be appreciated.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2024,
+      "month": 1,
+      "metastases": "node positive disease with 3/21 nodes involved",
+      "tnm_stage": "T3N1M0",
+      "histopathology_status": "Grade 2 invasive lobular carcinoma, 10.8cm in size",
+      "biomarker_status": "Estrogen receptor positive (8/8), Progesterone receptor positive (7/8), HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Left mastectomy with axillary lymph node dissection - 3 positive nodes from 21 sampled",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Proposed for adjuvant FEC-T chemotherapy protocol",
+          "year": 2024,
+          "month": 1
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Severe rheumatoid arthritis on biological therapy"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Recently diagnosed high-risk breast cancer (10.8cm, node positive) post-mastectomy, awaiting adjuvant chemotherapy. Urgent consultation to establish alternative steroid protocol due to severe dexamethasone allergy, requiring careful pre-chemotherapy planning to avoid treatment delay."
+      },      
+      {
+        "type": "update_to_treatment",
+        "value": "Requiring steroid protocol evaluation before chemotherapy initiation due to dexamethasone allergy"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Steroid challenge testing to be completed within 2 weeks"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Aiming to start chemotherapy by early February 2024"
+      }
+    ]
+  }
+}

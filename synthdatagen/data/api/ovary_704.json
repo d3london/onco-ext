@@ -1,0 +1,88 @@
+{
+  "content": "Diagnosis:\tDysgerminoma of right ovary\n\nManagement:\t12 Jan 2024 Right salpingo-oophorectomy\n\t\t02 Feb 2024 - 15 Mar 2024 BEP chemotherapy x 3 cycles\n\nHistology:\tStage IC2 dysgerminoma with capsular rupture during surgery\n\t\tFOXL2 mutation positive\n\nCurrent Situation:\tEnd of treatment assessment\n\nI reviewed [redacted name] today following completion of her adjuvant BEP chemotherapy. She has shown excellent tolerance to treatment with only grade 1 nausea and mild fatigue throughout. Her final cycle was delivered at full dose with no delays or modifications required. She has maintained her weight and activity levels throughout treatment, currently with performance status 0.\n\nHer end of treatment CT scan performed on 25/3/24 shows no evidence of residual or metastatic disease. Tumor markers including AFP, hCG, and LDH are all within normal range. She reports complete resolution of her pre-operative pelvic pain.\n\nOn examination today, she has no concerning features. Abdomen is soft and non-tender with well-healed surgical scars. No lymphadenopathy identified.\n\nWe have discussed the excellent prognosis in this situation, with >95% chance of cure following completed treatment. She will enter our standard surveillance program with 3-monthly clinic visits for the first two years. I have arranged CT chest/abdomen/pelvis and tumor markers for 3 months' time, prior to her next clinic visit. She has been provided with written information about potential late effects of BEP chemotherapy and contact details for our support services.",
+  "output": {
+    "primary_cancer": {
+      "site": "ovary, right",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "",
+      "other_stage": "Stage IC2",
+      "histopathology_status": "dysgerminoma with capsular rupture during surgery",
+      "biomarker_status": "FOXL2 mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right salpingo-oophorectomy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started BEP chemotherapy regime",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 3 cycles of BEP chemotherapy at full dose with no delays",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT scan shows no evidence of residual or metastatic disease",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Tumor markers AFP, hCG, and LDH all within normal range",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Abdomen soft and non-tender with well-healed surgical scars, no lymphadenopathy"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "End of treatment CT 25/03/24 shows no evidence of residual or metastatic disease"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IC2 ovarian dysgerminoma treated with surgery and adjuvant BEP chemotherapy. Excellent treatment response with no evidence of residual disease"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Complete radiological response with normal tumor markers"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 nausea and mild fatigue during BEP chemotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Completed planned 3 cycles of BEP chemotherapy at full dose"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT chest/abdomen/pelvis and tumor markers in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Follow-up in clinic in 3 months with surveillance imaging and markers"
+      }
+    ]
+  }
+}

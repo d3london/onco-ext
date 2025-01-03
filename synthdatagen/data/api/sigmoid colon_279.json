@@ -1,0 +1,85 @@
+{
+  "content": "Diagnosis:\tSigmoid colon adenocarcinoma (mucinous type)\n\nManagement:\t15 Jan 2024 Laparoscopic anterior resection\n\nHistology:\tpT3N2 (5/18 nodes positive) M0, mucinous adenocarcinoma\n\t\tMSI-low, HER2 negative\n\nCurrent Situation:\tCycle 4 FOLFOX adjuvant chemotherapy\n\nI reviewed [redacted name] today in the colorectal oncology clinic. She is managing reasonably well with her adjuvant chemotherapy though experiencing increasing peripheral neuropathy which is now affecting her daily activities. She describes tingling and numbness in her fingers and toes, particularly noticeable when handling cold items. This has gradually worsened over the past two cycles. She has also developed oral mucositis grade 2 requiring regular analgesics and mouth care. Her main concern today was increasing fatigue, now requiring afternoon rest periods, though she continues to maintain her part-time work as an accountant.\n\nOn examination, she appears well though tired. There is mild mucositis visible but no evidence of infection. Abdominal examination reveals well-healed laparoscopic port sites. There is reduced fine touch sensation in her fingers bilaterally consistent with oxaliplatin-induced neuropathy.\n\nHer blood results today show stable parameters with hemoglobin 110 g/L, white cell count 4.2, neutrophils 2.8, and platelets 165. Liver and renal function remain normal. CEA has remained stable at 2.4 (previously 2.2).\n\nGiven the increasing neuropathy, we have discussed modification of treatment. The plan is to reduce oxaliplatin to 75% dose for cycle 5 while maintaining full dose 5-FU. I have prescribed additional supportive medications including oral hygiene products and arranged review by our specialist nurse for toxicity management. We will reassess before cycle 6 to determine if further dose modifications are required. The patient understands to contact us if symptoms worsen in the interim.\n\nFollow-up CT scan will be arranged after completion of chemotherapy, likely early May 2024. We will review her again in 3 weeks for cycle 5.",
+  "output": {
+    "primary_cancer": {
+      "site": "sigmoid colon",
+      "year": 2024,
+      "month": 1,
+      "metastases": "none documented",
+      "tnm_stage": "pT3N2M0",
+      "histopathology_status": "mucinous adenocarcinoma, 5/18 nodes positive",
+      "biomarker_status": "MSI-low, HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Laparoscopic anterior resection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant FOLFOX chemotherapy",
+          "year": 2024
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CEA stable at 2.4 (previously 2.2)",
+          "year": 2024
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Plan to reduce oxaliplatin to 75% dose for cycle 5 due to neuropathy, maintaining full dose 5-FU",
+          "year": 2024
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Tingling and numbness in fingers and toes, worse with cold items"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 oral mucositis requiring regular analgesics"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Fatigue requiring afternoon rest periods"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced fine touch sensation in fingers bilaterally"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Visible mild mucositis without infection"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Hemoglobin 110 g/L, white cell count 4.2, neutrophils 2.8, platelets 165, normal liver and renal function"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III sigmoid colon cancer on cycle 4 adjuvant FOLFOX with increasing peripheral neuropathy requiring dose modification"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 mucositis and progressive peripheral neuropathy affecting daily activities"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Reducing oxaliplatin to 75% dose, maintaining full dose 5-FU"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan to be arranged after completion of chemotherapy in early May 2024"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks for cycle 5"
+      }
+    ]
+  }
+}

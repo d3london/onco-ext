@@ -1,0 +1,92 @@
+{
+  "content": "I was pleased to review [redacted name] today who is progressing well through concurrent chemoradiotherapy for locally advanced rectal squamous cell carcinoma. He completed week 4 of treatment yesterday and has managed remarkably well thus far with minimal side effects.\n\nTo recap, he was diagnosed in January 2024 with a p16-positive squamous cell carcinoma of the rectum, staged as T2N1M0 with PD-L1 CPS 90. Initial MRI demonstrated a 4.2cm primary tumor with two suspicious mesorectal nodes. He commenced concurrent chemoradiotherapy on March 1st with weekly cisplatin and daily radiotherapy, planned for a total dose of 50.4Gy in 28 fractions.\n\nHe has maintained excellent treatment compliance, not missing any radiotherapy fractions or chemotherapy doses. His main symptoms have been grade 1 radiation proctitis with occasional loose stools, well managed with loperamide as required, and mild fatigue that typically peaks 2-3 days after chemotherapy. He has maintained good oral intake and his weight remains stable at 78kg. He continues to work from home during treatment.\n\nOn examination today, his performance status remains 0. There is mild perianal skin reaction but no breakdown. Digital rectal examination demonstrates good treatment response with significant softening of the previously palpable tumor. Blood results show stable renal function and acceptable haematological parameters for continuing treatment.\n\nThe plan is to continue with the final two weeks of concurrent chemoradiotherapy as scheduled. We will arrange a restaging MRI for 8 weeks after treatment completion, followed by surgical assessment. I will review him again next week prior to cycle 5 cisplatin, and we have provided contact details should he develop any concerning symptoms in the interim.",
+  "output": {
+    "primary_cancer": {
+      "site": "rectum",
+      "year": 2024,
+      "month": 1,
+      "metastases": "two suspicious mesorectal nodes",
+      "tnm_stage": "T2N1M0",
+      "histopathology_status": "squamous cell carcinoma",
+      "biomarker_status": "p16-positive, PD-L1 CPS 90",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "MRI showed 4.2cm primary tumor with two suspicious mesorectal nodes",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started concurrent chemoradiotherapy with weekly cisplatin",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_radiotherapy",
+          "value": "Started radiotherapy 50.4Gy in 28 fractions",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Completed week 4 of concurrent chemoradiotherapy with good compliance",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 radiation proctitis with occasional loose stools"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Mild fatigue peaking 2-3 days post chemotherapy"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Mild perianal skin reaction, no breakdown"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Digital rectal examination shows softening of previously palpable tumor"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function and acceptable haematological parameters"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced rectal squamous cell carcinoma showing good response to concurrent chemoradiotherapy with minimal toxicity"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Good clinical response with softening of tumor on examination"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 radiation proctitis and mild fatigue"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with planned concurrent chemoradiotherapy, proceeding to week 5"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Restaging MRI planned for 8 weeks post treatment completion"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review next week prior to cycle 5 cisplatin"
+      }
+    ]
+  }
+}

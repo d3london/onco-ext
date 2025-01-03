@@ -1,0 +1,98 @@
+{
+  "content": "Diagnosis:\tTriple negative left breast cancer - pleomorphic lobular carcinoma with chest wall invasion and axillary nodal disease. Progression with pleural and pulmonary metastases.\n\nInitial presentation March 2023 with 8cm left breast mass and fixed axillary nodes. Core biopsy confirmed grade 3 pleomorphic lobular carcinoma, triple negative disease with PDL1 90%.\n\nReceived 6 cycles carboplatin/paclitaxel/pembrolizumab March-August 2023 with initial partial response but subsequent progression. CT October 2023 showed new bilateral pulmonary metastases and left pleural effusion requiring pleural drain.\n\nCommenced second-line gemcitabine/carboplatin November 2023 but treatment poorly tolerated with grade 3 thrombocytopenia requiring two dose reductions and three treatment delays. Latest CT chest/abdomen/pelvis shows disease progression with increasing size and number of pulmonary metastases and re-accumulation of left pleural effusion.\n\nSeen today with worsening breathlessness, now requiring oxygen 2L/min. Performance status deteriorated to ECOG 3. Examination shows reduced air entry left base, dull to percussion. Chest wall disease remains evident with peau d'orange and satellite nodules.\n\nDiscussed case at this morning's MDT. Given poor tolerance of previous chemotherapy and declining performance status, recommendation is for discontinuation of systemic treatment and referral to palliative care team. Have discussed this sensitively with [redacted name] and family today. They understand the situation and agree with focusing on symptom control.\n\nPlan: Discontinue chemotherapy, urgent palliative care referral completed, arrange community oxygen assessment, follow up with palliative team next week. GP updated by telephone regarding change in treatment intent.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, left",
+      "year": 2023,
+      "month": 3,
+      "metastases": "bilateral pulmonary metastases, left pleural effusion, chest wall invasion, axillary nodal disease",
+      "tnm_stage": "pT4bN3aM1",
+      "histopathology_status": "grade 3 pleomorphic lobular carcinoma",
+      "biomarker_status": "triple negative, PDL1 90%",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "8cm left breast mass with fixed axillary nodes",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started carboplatin/paclitaxel/pembrolizumab",
+          "year": 2023,
+          "month": 3
+        },
+        {
+          "type": "other_progress_or_event",
+          "value": "Initial partial response followed by progression",
+          "year": 2023,
+          "month": 8
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows new bilateral pulmonary metastases and left pleural effusion requiring drainage",
+          "year": 2023,
+          "month": 10
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started second-line gemcitabine/carboplatin",
+          "year": 2023,
+          "month": 11
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Multiple dose reductions and delays due to grade 3 thrombocytopenia",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows increasing pulmonary metastases and re-accumulation of pleural effusion",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Worsening breathlessness requiring oxygen 2L/min"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced air entry left base, dull to percussion, chest wall disease with peau d'orange and satellite nodules"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Triple negative breast cancer with progressive metastatic disease. Poor tolerance of second-line chemotherapy with clinical deterioration"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive disease on imaging with worsening symptoms"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 3 thrombocytopenia requiring multiple dose reductions and delays"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Decision to discontinue systemic treatment due to progression and poor tolerance"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with increasing oxygen requirements"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care referral, follow up with palliative team next week"
+      }
+    ]
+  }
+}

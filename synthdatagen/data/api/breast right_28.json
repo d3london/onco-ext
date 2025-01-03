@@ -1,0 +1,70 @@
+{
+  "content": "Diagnosis:\t\tTriple negative breast cancer, right breast, medullary-like features\n\nStage:\t\tStage IV with multiple brain metastases\n\nBiomarkers:\tTILs 90%, PDL1 positive (CPS 80), germline BRCA1 mutation positive\n\nCurrent Status:\tProgressive intracranial disease despite systemic therapy\n\n[redacted name] attended urgent review today following deteriorating neurological symptoms. Recent MRI brain shows progression of multiple intracranial metastases with increasing perilesional oedema, particularly affecting right parietal lesion now measuring 3.2cm (previously 2.1cm) with significant mass effect. Performance status has declined to ECOG 3, with new left-sided weakness and increasing headaches despite dexamethasone 8mg BD. She is experiencing grade 3 fatigue and intermittent confusion.\n\nBlood tests show declining renal function with eGFR 38 (baseline 65) and grade 2 thrombocytopenia, precluding further carboplatin. After discussion with neurosurgery, patient is not currently suitable for surgical intervention due to multiple lesions and poor performance status. Given rapid progression through platinum-based therapy and deteriorating clinical status, we have discussed transition to best supportive care with [redacted name] and family. Referral made to palliative care team for urgent review. Dexamethasone increased to 12mg BD with PPI cover. Hospital admission may be required if symptoms worsen further.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast, right",
+      "metastases": "multiple brain metastases",
+      "other_stage": "Stage IV",
+      "histopathology_status": "medullary-like features, triple negative",
+      "biomarker_status": "TILs 90%, PDL1 positive (CPS 80), germline BRCA1 mutation positive",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "MRI shows progression of brain metastases, right parietal lesion increased from 2.1cm to 3.2cm with mass effect"
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Carboplatin discontinued due to declining renal function and thrombocytopenia"
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Declining renal function with eGFR 38 (baseline 65) and grade 2 thrombocytopenia"
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "ECOG PS 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "New left-sided weakness"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing headaches despite dexamethasone 8mg BD"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 3 fatigue"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Intermittent confusion"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Triple negative breast cancer with progressive brain metastases. Rapid clinical deterioration with neurological symptoms despite platinum therapy"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Progressive intracranial disease with increasing size of brain metastases"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Transition to best supportive care, dexamethasone increased to 12mg BD"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration to ECOG PS 3 with new neurological deficits"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Urgent palliative care team referral made"
+      }
+    ]
+  }
+}

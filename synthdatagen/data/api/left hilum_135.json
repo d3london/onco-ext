@@ -1,0 +1,88 @@
+{
+  "content": "Diagnosis:\tMetastatic adenocarcinoma of lung (left hilar primary)\n\tDiagnosed January 2024\n\tT2bN2M1 with pleural and bone metastases\n\tEGFR L861Q mutation positive, ALK negative\n\n[redacted name] was reviewed today in the thoracic oncology clinic. She has been receiving first-line osimertinib 80mg daily since 15/1/24 for EGFR-mutant metastatic lung adenocarcinoma. Her initial presentation included significant left-sided chest pain and dyspnoea, which showed good improvement with treatment initiation.\n\nUnfortunately, her most recent CT scan on 15/4/24 shows evidence of disease progression with increasing size of the primary lesion (now 4.8cm from 3.2cm) and new pleural nodularity, despite initial disease stability at the 6-week assessment. Her bone metastases remain stable. She has also noted increasing breathlessness over the past 3 weeks, now requiring 2L/min oxygen at rest, and her performance status has declined from 1 to 2.\n\nGiven this evidence of disease progression on first-line osimertinib, we have discussed second-line treatment options. Her case was reviewed at yesterday's Lung MDT where platinum-based chemotherapy was recommended. I have had a detailed discussion with [redacted name] regarding carboplatin/pemetrexed chemotherapy, including the expected side effects and likelihood of response. She understands this represents a change in treatment intent but remains keen to pursue active treatment.\n\nOn examination today, she has reduced breath sounds at the left base with dullness to percussion. Oxygen saturations are 94% on 2L/min oxygen. Blood results show stable renal function and adequate bone marrow reserve for chemotherapy.\n\nPlan:\n- Discontinue osimertinib\n- Commence carboplatin AUC5 and pemetrexed 500mg/m2 q21 days\n- Baseline CT scan completed today\n- Review in 3 weeks with cycle 1 chemotherapy\n- Arrange urgent pleural team review for consideration of pleural intervention if symptoms worsen\n- Continue current analgesia and oxygen support",
+  "output": {
+    "primary_cancer": {
+      "site": "lung, left hilar",
+      "year": 2024,
+      "month": 1,
+      "metastases": "pleural and bone metastases",
+      "tnm_stage": "T2bN2M1",
+      "histopathology_status": "adenocarcinoma",
+      "biomarker_status": "EGFR L861Q mutation positive, ALK negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started osimertinib 80mg daily",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Initial disease stability demonstrated at 6-week assessment",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows disease progression with primary lesion increasing to 4.8cm from 3.2cm and new pleural nodularity, bone metastases stable",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Discontinuing osimertinib due to disease progression",
+          "year": 2024,
+          "month": 4
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status deteriorated from 1 to 2"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increasing breathlessness requiring 2L/min oxygen at rest"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Reduced breath sounds at left base with dullness to percussion"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Oxygen saturations 94% on 2L/min oxygen"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function and adequate bone marrow reserve"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "EGFR-mutant metastatic lung adenocarcinoma showing disease progression on first-line osimertinib with worsening symptoms. MDT recommendation for switch to platinum-based chemotherapy."
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "Disease progression on osimertinib with increasing primary tumor size and new pleural disease"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Stopping osimertinib and switching to carboplatin AUC5 and pemetrexed 500mg/m2 q21 days"
+      },
+      {
+        "type": "updated_patient_functional_status",
+        "value": "Deterioration in performance status from 1 to 2 with increasing oxygen requirements"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Baseline CT scan completed today"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks with cycle 1 chemotherapy, urgent pleural team review to be arranged"
+      }
+    ]
+  }
+}

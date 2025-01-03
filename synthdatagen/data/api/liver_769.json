@@ -1,0 +1,60 @@
+{
+  "content": "Diagnosis:\tFibrolamellar hepatocellular carcinoma\n\nManagement:\t15 Jan 2024 Right hepatectomy\n\nHistology:\tpT3N0M0 fibrolamellar variant HCC, CK7 and CK19 positive, R0 resection\n\nCurrent Situation:\tPost-operative surveillance\n\nI reviewed [redacted name] in clinic today following his recent CT scan. He has made an excellent recovery from his right hepatectomy performed in January. His wound has healed well and he reports good energy levels, having now returned to work part-time. His appetite is normal and weight is stable at 72kg. Liver function tests remain within normal range with ALT 32 and bilirubin 12.\n\nThe surveillance CT performed last week shows expected post-surgical changes in the right liver with no evidence of recurrent disease. The remaining left lobe shows normal enhancement patterns with no new lesions identified.\n\nWe have discussed the surveillance plan, and I will arrange to see him again in 3 months with repeat imaging and blood tests including AFP. He understands to contact us sooner if he develops any new symptoms of concern.",
+  "output": {
+    "primary_cancer": {
+      "site": "liver",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "pT3N0M0",
+      "other_stage": "Stage III",
+      "histopathology_status": "fibrolamellar variant hepatocellular carcinoma, R0 resection",
+      "biomarker_status": "CK7 and CK19 positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right hepatectomy performed with R0 resection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Liver function tests normal - ALT 32, bilirubin 12",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "Surveillance CT shows expected post-surgical changes, no evidence of recurrence",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "other_cancers": [],
+    "patient_facts": [
+      {
+        "type": "quality_of_life_finding",
+        "value": "Returned to work part-time"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Good energy levels, normal appetite"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "CT shows normal enhancement patterns in remaining left lobe, no new lesions"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage III fibrolamellar HCC status post right hepatectomy. Good post-operative recovery with no evidence of recurrence on surveillance imaging"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 months with repeat imaging and AFP monitoring"
+      }
+    ]
+  }
+}

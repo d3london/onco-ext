@@ -1,0 +1,68 @@
+{
+  "content": "Diagnosis:\tBilateral breast cancer - synchronous\n\nManagement:\t15 Jan 2024 Right mastectomy and axillary clearance\n\t\t22 Jan 2024 Left wide local excision and sentinel node biopsy\n\nHistology:\tRight: T2N1 (2/12) oncocytic carcinoma, ER 8/8, PR 7/8, HER2 negative\n\t\tLeft: T1N0 oncocytic carcinoma, ER 8/8, PR 8/8, HER2 negative\n\nCurrent Situation:\tCycle 4 FEC chemotherapy\n\nI reviewed [redacted name] today prior to cycle 4 FEC. She has managed the previous cycle relatively well with only grade 1 nausea and mild fatigue lasting 5 days. The initial neutropenic sepsis after cycle 1 has not recurred since starting GCSF prophylaxis. Her surgical wounds have healed well.?\n\nOn examination today there is no evidence of local recurrence. The right chest wall shows good healing. The left breast shows expected post-surgical and radiotherapy changes only.? Blood results are satisfactory for proceeding with treatment.?\n\nWe will proceed with cycle 4 today and review again in 3 weeks. The breast care nurse will contact her by telephone next week to check on side effects.",
+  "output": {
+    "primary_cancer": {
+      "site": "breast bilateral",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "Right: T2N1, Left: T1N0",
+      "histopathology_status": "Bilateral oncocytic carcinoma",
+      "biomarker_status": "Right: ER 8/8, PR 7/8, HER2 negative; Left: ER 8/8, PR 8/8, HER2 negative",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Right mastectomy and axillary clearance",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Left wide local excision and sentinel node biopsy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started FEC chemotherapy with GCSF prophylaxis",
+          "year": 2024,
+          "month": null
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Added GCSF prophylaxis after neutropenic sepsis following cycle 1",
+          "year": 2024,
+          "month": null
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 nausea and mild fatigue lasting 5 days after chemotherapy"
+      },
+      {
+        "type": "examination_finding",
+        "value": "No evidence of local recurrence, right chest wall healing well, left breast shows expected post-surgical and radiotherapy changes"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Bilateral breast cancer post-surgery, tolerating adjuvant FEC chemotherapy with prophylactic GCSF support after initial neutropenic sepsis"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 nausea and fatigue with cycle 3"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 4 FEC chemotherapy"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic in 3 weeks, telephone follow-up by breast care nurse next week"
+      }
+    ]
+  }
+}

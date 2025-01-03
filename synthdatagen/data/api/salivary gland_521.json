@@ -1,0 +1,97 @@
+{
+  "content": "I reviewed [redacted name] today who attended with her husband following recent admission to [redacted name] Hospital with increasing bone pain and deteriorating mobility. As you know, she was diagnosed with HER2-positive high-grade mucoepidermoid carcinoma of the right parotid gland in January 2024, initially presenting with a rapidly enlarging mass. She underwent right total parotidectomy with facial nerve preservation on February 15th 2024, with histology confirming a 4.2cm high-grade tumor with extensive lymphovascular invasion and positive margins. Molecular analysis demonstrated HER2 amplification.\n\nUnfortunately, her post-operative PET-CT on March 1st 2024 revealed multiple FDG-avid bone metastases involving the thoracic spine, left acetabulum, and right femoral neck. She commenced palliative systemic therapy with weekly Paclitaxel and three-weekly Trastuzumab on March 15th 2024. Initially, she showed good clinical response with improvement in pain and reduction in analgesic requirements. However, after cycle 3, she developed grade 3 peripheral neuropathy requiring a 20% dose reduction of Paclitaxel.\n\nDespite dose modification, she has experienced progressive symptoms over the past three weeks with increasing bone pain, particularly affecting T8 vertebra and left hip. Recent MRI spine (May 1st 2024) confirms disease progression with new vertebral metastases and concerning T8 vertebral body collapse with cord compression. Her mobility has significantly deteriorated, and she now requires two people for transfers. Her performance status has declined from ECOG 1 to ECOG 3.\n\nOn examination today, she appears cachectic with marked reduction in muscle bulk. There is point tenderness over T8 vertebra and left hip. Neurological examination reveals reduced power (MRC grade 4/5) in both lower limbs with brisk reflexes but preserved sensation. The right parotid surgical site shows good healing with House-Brackmann grade 2 facial nerve function.\n\nGiven the clear evidence of disease progression on current therapy, we have discussed changing treatment strategy. We will discontinue Paclitaxel but continue Trastuzumab, adding Pertuzumab as dual HER2 blockade. I have arranged urgent referral to clinical oncology for consideration of emergency radiotherapy to T8 vertebra (8Gy single fraction) and subsequent radiotherapy to left hip. She will require admission for this given her current condition.\n\nI have increased her analgesia, prescribing immediate release morphine sulfate 10mg 4-hourly PRN in addition to her current modified release preparation. The acute oncology team will arrange admission today, and I have informed the spinal cord compression coordinator. We will reassess her response to radiotherapy and new systemic therapy in 2 weeks, or sooner if needed. Her husband fully understands the situation and has my direct contact details if there are any concerns.",
+  "output": {
+    "primary_cancer": {
+      "site": "right parotid gland",
+      "year": 2024,
+      "month": 1,
+      "metastases": "multiple bone metastases involving thoracic spine, left acetabulum, right femoral neck",
+      "histopathology_status": "high-grade mucoepidermoid carcinoma, 4.2cm tumor with extensive lymphovascular invasion and positive margins",
+      "biomarker_status": "HER2 amplification positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "right total parotidectomy with facial nerve preservation",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "PET-CT revealed multiple FDG-avid bone metastases involving thoracic spine, left acetabulum, and right femoral neck",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "commenced palliative systemic therapy with weekly Paclitaxel and three-weekly Trastuzumab",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "20% dose reduction of Paclitaxel due to grade 3 peripheral neuropathy after cycle 3",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "MRI spine confirms disease progression with new vertebral metastases and T8 vertebral body collapse with cord compression",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "deteriorated from ECOG 1 to ECOG 3"
+      },
+      {
+        "type": "current_symptom",
+        "value": "increasing bone pain particularly affecting T8 vertebra and left hip"
+      },
+      {
+        "type": "examination_finding",
+        "value": "cachectic with marked reduction in muscle bulk, point tenderness over T8 vertebra and left hip"
+      },
+      {
+        "type": "examination_finding",
+        "value": "reduced power (MRC grade 4/5) in both lower limbs with brisk reflexes but preserved sensation"
+      },
+      {
+        "type": "examination_finding",
+        "value": "House-Brackmann grade 2 facial nerve function"
+      },
+      {
+        "type": "quality_of_life_finding",
+        "value": "requires two people for transfers"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "HER2-positive mucoepidermoid carcinoma of parotid with progressive bone metastases. Disease progression on current therapy with new spinal cord compression requiring urgent intervention"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "grade 3 peripheral neuropathy from Paclitaxel"
+      },
+      {
+        "type": "latest_treatment_response",
+        "value": "disease progression with new vertebral metastases and T8 vertebral body collapse"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "discontinuing Paclitaxel, continuing Trastuzumab and adding Pertuzumab as dual HER2 blockade"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "urgent referral for emergency radiotherapy to T8 vertebra and left hip"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "reassess response to radiotherapy and new systemic therapy in 2 weeks"
+      }
+    ]
+  }
+}

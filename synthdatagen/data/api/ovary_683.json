@@ -1,0 +1,87 @@
+{
+  "content": "Diagnosis:\tHigh grade serous carcinoma of ovary\n\nManagement:\t2023 Primary debulking surgery - total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy\n\t\tAdjuvant carboplatin/paclitaxel completed March 2024\n\t\tEnrolled in ATHENA trial April 2024\n\nHistology:\tHigh grade serous carcinoma, Stage IIIC with extensive peritoneal disease\n\t\tPALB2 mutation positive, HRD score 42 (positive)\n\nCurrent Situation:\tCycle 2 ATHENA trial treatment\n\nI reviewed [redacted name] today for her second cycle of treatment on the ATHENA trial. She has tolerated the first cycle relatively well with grade 1 nausea managed with standard antiemetics. Her main side effect has been fatigue, rated as grade 2, which impacts her daily activities but she remains self-caring. She reports good appetite and stable weight. No issues with the oral trial medication compliance.\n\nHer latest CA125 has decreased from 145 to 92. Blood pressure remains stable at 128/76. Trial-mandated ECG shows no changes from baseline. Her performance status remains 1. Laboratory parameters are all within acceptable range for continuation of trial treatment.\n\nOn examination today, her abdomen is soft and non-tender with no evidence of ascites. The previous port site tenderness has resolved. Chest is clear.\n\nI have reviewed all trial-mandated assessments and quality of life questionnaires which have been completed as per protocol. The next CT scan is scheduled for 6 weeks' time as per trial protocol to assess response.\n\nThe plan is to continue with cycle 2 of trial treatment today. We will see her again in 3 weeks for cycle 3, with interim blood tests as per protocol schedule. She has the trial team contact details and understands to report any new symptoms promptly.",
+  "output": {
+    "primary_cancer": {
+      "site": "ovary",
+      "year": 2023,
+      "metastases": "extensive peritoneal disease",
+      "tnm_stage": "",
+      "other_stage": "Stage IIIC",
+      "histopathology_status": "High grade serous carcinoma",
+      "biomarker_status": "PALB2 mutation positive, HRD score 42 (positive)",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Primary debulking surgery - total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy",
+          "year": 2023
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant carboplatin/paclitaxel",
+          "year": 2023
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed adjuvant carboplatin/paclitaxel",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "clinical_trial_update",
+          "value": "Enrolled in ATHENA trial",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "CA125 decreased from 145 to 92",
+          "year": 2024
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 1"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 2 fatigue impacting daily activities but remains self-caring"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 nausea managed with antiemetics"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Abdomen soft and non-tender with no evidence of ascites, chest clear"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "ECG shows no changes from baseline, laboratory parameters within acceptable range"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Stage IIIC ovarian cancer post surgery and chemotherapy, now on ATHENA trial with stable disease and acceptable toxicity"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 2 fatigue and grade 1 nausea from trial treatment"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Continuing with cycle 2 of ATHENA trial treatment with good compliance"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan scheduled in 6 weeks per trial protocol"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks for cycle 3 with interim blood tests per protocol"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\tLocally advanced gastric cancer - poorly cohesive carcinoma, stage T3N2M0, MSI-high, EBV positive.\n\nInitial treatment with perioperative FLOT chemotherapy commenced January 2024. Completed 4 cycles pre-operative chemotherapy with good radiological response. Underwent total gastrectomy on 15 April 2024 with D2 lymphadenectomy.\n\nPathology confirmed ypT2N1(2/15) poorly cohesive carcinoma, R0 resection. Commenced post-operative FLOT May 2024.\n\nSeen today prior to cycle 3 of post-operative chemotherapy. Tolerating treatment well with only grade 1 fatigue and mild peripheral neuropathy. Weight stable at 72kg. Performance status remains 0. Blood results satisfactory for proceeding with treatment.\n\nExamination shows well-healed surgical scars. No concerning clinical findings.\n\nPlan to proceed with cycle 3 post-operative FLOT today. Will arrange CT scan after completion of adjuvant treatment. Review in 3 weeks prior to cycle 4.",
+  "output": {
+    "primary_cancer": {
+      "site": "gastric",
+      "year": 2024,
+      "month": 1,
+      "metastases": "",
+      "tnm_stage": "T3N2M0",
+      "histopathology_status": "poorly cohesive carcinoma",
+      "biomarker_status": "MSI-high, EBV positive",
+      "cancer_timeline": [
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started perioperative FLOT chemotherapy",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_surgery",
+          "value": "Total gastrectomy with D2 lymphadenectomy",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Pathology ypT2N1(2/15) poorly cohesive carcinoma, R0 resection",
+          "year": 2024,
+          "month": 4
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Commenced post-operative FLOT chemotherapy",
+          "year": 2024,
+          "month": 5
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "PS 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue and mild peripheral neuropathy"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Well-healed surgical scars, no concerning clinical findings"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Locally advanced gastric cancer post surgery, currently receiving adjuvant FLOT chemotherapy with good tolerance"
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and mild peripheral neuropathy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Proceeding with cycle 3 post-operative FLOT"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "CT scan to be arranged after completion of adjuvant treatment"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in 3 weeks prior to cycle 4"
+      }
+    ]
+  }
+}

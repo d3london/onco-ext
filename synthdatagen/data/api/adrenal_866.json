@@ -1,0 +1,81 @@
+{
+  "content": "Diagnosis:\n\nMixed corticomedullary adrenal tumor with local invasion\n\nCT abdomen 15 March 2024 - 8.2cm right adrenal mass with invasion into posterior abdominal wall musculature. No distant metastases.\n\nPrevious medical history:\nHypertension - well controlled\nType 2 diabetes\nHypothyroidism\n\nCurrent medications:\nMetformin 1g bd\nLevothyroxine 100mcg od\nAmlodipine 5mg od\n\nAllergies:\nNone known\n\nCurrent situation:\n24-hour urinary catecholamines show elevated noradrenaline at 1240nmol/24h (normal <600)\nSerum cortisol 890nmol/L with loss of diurnal variation\nAldosterone/renin ratio normal\n\nI reviewed [redacted name] today who was referred following the incidental finding of a right adrenal mass on ultrasound performed for abdominal pain. She is a 56-year-old lady who initially presented with a 6-month history of right-sided abdominal discomfort, episodes of palpitations, and worsening hypertension despite medication. She has also noticed increased anxiety and sweating episodes over the past few months.\n\nOn examination, she has a blood pressure of 158/94mmHg with a regular pulse of 88bpm. There is some tenderness in the right upper quadrant but no palpable mass. No peripheral oedema or signs of Cushing's syndrome.\n\nI have discussed the findings with our endocrine surgery colleagues. Given the mixed hormonal profile and local invasion, we recommend proceeding with an open right adrenalectomy. She will require pre-operative alpha blockade with phenoxybenzamine followed by beta blockade. I have arranged admission next week for blood pressure optimization and pre-operative assessment.\n\nThe plan is for surgery in approximately 4 weeks once adequate alpha blockade is achieved. We will see her weekly in the pre-assessment clinic to titrate medications. I have provided written information about the surgery and arranged for our specialist nurse to contact her tomorrow to discuss any questions.",
+  "output": {
+    "primary_cancer": {
+      "site": "adrenal, right",
+      "year": 2024,
+      "month": 3,
+      "metastases": "invasion into posterior abdominal wall musculature",
+      "histopathology_status": "mixed corticomedullary tumor",
+      "biomarker_status": "elevated noradrenaline 1240nmol/24h, cortisol 890nmol/L with loss of diurnal variation, normal aldosterone/renin ratio",
+      "cancer_timeline": [
+        {
+          "type": "anatomical_finding",
+          "value": "CT abdomen shows 8.2cm right adrenal mass with invasion into posterior abdominal wall musculature, no distant metastases",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "24-hour urinary catecholamines show elevated noradrenaline at 1240nmol/24h",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "laboratory_finding",
+          "value": "Serum cortisol 890nmol/L with loss of diurnal variation",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "comorbidity",
+        "value": "Hypertension - well controlled"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Type 2 diabetes"
+      },
+      {
+        "type": "comorbidity",
+        "value": "Hypothyroidism"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Right-sided abdominal discomfort"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Episodes of palpitations"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Increased anxiety and sweating episodes"
+      },
+      {
+        "type": "examination_finding",
+        "value": "Blood pressure 158/94mmHg, regular pulse 88bpm, tenderness in right upper quadrant, no palpable mass"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Newly diagnosed mixed corticomedullary adrenal tumor with local invasion and hormonal activity. Initial presentation for treatment planning."
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "To commence pre-operative alpha blockade with phenoxybenzamine followed by beta blockade"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Weekly pre-assessment clinic reviews for medication titration"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Admission next week for blood pressure optimization and pre-operative assessment, planned surgery in 4 weeks"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "content": "Diagnosis:\tMuscle invasive bladder cancer (sarcomatoid variant)\n\nManagement:\t15 Jan 2024 Radical cystoprostatectomy and pelvic lymph node dissection\n\t\t12 Feb - 20 Mar 2024 Adjuvant gemcitabine-cisplatin chemotherapy\n\nHistology:\tpT3b N1 (2/18 nodes) M0 sarcomatoid variant urothelial carcinoma\n\t\tNF1 mutation detected\n\nCurrent Situation:\tEnd of treatment review\n\nI reviewed [redacted name] today following completion of 4 cycles of adjuvant gemcitabine-cisplatin chemotherapy. He has tolerated the treatment well with only grade 1 fatigue and occasional nausea well controlled with antiemetics. His surgical wounds have healed well and he is managing his ileal conduit independently. Performance status remains 0. Recent CT shows no evidence of disease recurrence. Blood tests show stable renal function with eGFR 65.\n\nThe plan is to arrange 3-monthly surveillance CT chest/abdomen/pelvis for the first year. He will be reviewed in clinic with scan results in 3 months' time. I have provided written information about signs and symptoms to watch for. He understands to contact us sooner if any concerns develop.",
+  "output": {
+    "primary_cancer": {
+      "site": "bladder",
+      "year": 2024,
+      "month": 1,
+      "metastases": "2/18 pelvic lymph nodes positive",
+      "tnm_stage": "pT3bN1M0",
+      "histopathology_status": "sarcomatoid variant urothelial carcinoma",
+      "biomarker_status": "NF1 mutation detected",
+      "cancer_timeline": [
+        {
+          "type": "treatment_surgery",
+          "value": "Radical cystoprostatectomy and pelvic lymph node dissection",
+          "year": 2024,
+          "month": 1
+        },
+        {
+          "type": "treatment_systemic_start",
+          "value": "Started adjuvant gemcitabine-cisplatin chemotherapy",
+          "year": 2024,
+          "month": 2
+        },
+        {
+          "type": "treatment_systemic_change",
+          "value": "Completed 4 cycles of adjuvant gemcitabine-cisplatin chemotherapy",
+          "year": 2024,
+          "month": 3
+        },
+        {
+          "type": "anatomical_finding",
+          "value": "CT shows no evidence of disease recurrence",
+          "year": 2024,
+          "month": 3
+        }
+      ]
+    },
+    "patient_facts": [
+      {
+        "type": "performance_status",
+        "value": "Performance status 0"
+      },
+      {
+        "type": "current_symptom",
+        "value": "Grade 1 fatigue and occasional nausea well controlled with antiemetics"
+      },
+      {
+        "type": "investigation_finding",
+        "value": "Stable renal function with eGFR 65"
+      }
+    ],
+    "status_updates": [
+      {
+        "type": "clinical_summary",
+        "value": "Muscle invasive bladder cancer post cystoprostatectomy and adjuvant chemotherapy. Completed planned treatment with good tolerance and no current evidence of disease."
+      },
+      {
+        "type": "latest_treatment_toxicity",
+        "value": "Grade 1 fatigue and well-controlled nausea during chemotherapy"
+      },
+      {
+        "type": "update_to_treatment",
+        "value": "Completed planned 4 cycles of adjuvant gemcitabine-cisplatin"
+      },
+      {
+        "type": "planned_investigation",
+        "value": "Surveillance CT chest/abdomen/pelvis in 3 months"
+      },
+      {
+        "type": "follow_up_referral",
+        "value": "Review in clinic with scan results in 3 months"
+      }
+    ]
+  }
+}
