@@ -1,3 +1,3 @@
-# api
+## api
 
-Automated-generation through API
+Generated using claude API and rich context
