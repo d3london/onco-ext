@@ -1,5 +1,5 @@
 _data/**
 _models/**
-_synthdatagen/data/**
+synthdatagen/data/**
 .DS_Store
 .env
