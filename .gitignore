@@ -1,4 +1,4 @@
-./_data
-./_models
+_data/**
+_models/**
 .DS_Store
 .env
