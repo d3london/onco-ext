@@ -1,5 +1,5 @@
 # onco-ext
-Generating highly realistic synthetic cancer data, and fine-tuning large language models (LLM) on synthetic data, to extract detailed cancer timelines.
+Generating highly realistic synthetic cancer letters, and fine-tuning large language models (LLM) on synthetic data, to extract detailed cancer timelines.
 
 ## Introduction
 More than 80% of clinical information is found in unstructured data. This number is arguably higher for cancer data, where only high level information is coded, and key information about symptoms, cancer subtypes and biomarkers, and treatment response and endpoints, are typically found in cancer clinic letters. Accurate extraction and structuring of this data at scale - over tens to hundreds of millions of documents for a cancer centre - are an incredibly rich source of retrospective Real-World Data.
